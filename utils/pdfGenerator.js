@@ -18,13 +18,19 @@ function generateQuotationPDF(order, res) {
     .fillColor('#38bdf8')
     .fontSize(22)
     .font('Helvetica-Bold')
-    .text('PRODUCT QUOTATION REQUEST', 40, 25);
+    .text('GOURI AQUA PLAST', 40, 20);
+
+  doc
+    .fillColor('#f59e0b')
+    .fontSize(11)
+    .font('Helvetica-Bold')
+    .text('Ganesh Gouri Industries Pvt. Ltd.', 40, 45);
 
   doc
     .fillColor('#94a3b8')
-    .fontSize(10)
+    .fontSize(9)
     .font('Helvetica')
-    .text('Official Price-Free Material & Product Quantity Quotation Document', 40, 52);
+    .text('Product Quantity Quotation Document | Water Tanks, Pipes & Fittings', 40, 60);
 
   // Order Details Box
   doc
@@ -152,8 +158,9 @@ function generateQuotationPDF(order, res) {
     .fillColor('#64748b')
     .fontSize(9)
     .font('Helvetica-Oblique')
-    .text('Note: This is a formal product quantity quotation request. Prices are omitted as per quotation app policy.', 40, y + 10, { align: 'center' })
-    .text('Generated via Product Quotation App | Customer Portal & Admin Management System', 40, y + 24, { align: 'center' });
+    .text('This is a formal product quantity quotation from Ganesh Gouri Industries Pvt. Ltd. (Gouri Aqua Plast).', 40, y + 10, { align: 'center' })
+    .text('KH. NO. 55/3, Lihigaon, Kamptee, Nagpur, Maharashtra, 441001 | +91-9699910491', 40, y + 24, { align: 'center' })
+    .text('www.ganeshgouriindustries.com', 40, y + 38, { align: 'center' });
 
   doc.end();
 }
