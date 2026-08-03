@@ -1,0 +1,55 @@
+const express = require('express');
+const cors = require('cors');
+require('dotenv').config();
+
+const authRoutes = require('./routes/authRoutes');
+const categoryRoutes = require('./routes/categoryRoutes');
+const productRoutes = require('./routes/productRoutes');
+const favoriteRoutes = require('./routes/favoriteRoutes');
+const cartRoutes = require('./routes/cartRoutes');
+const orderRoutes = require('./routes/orderRoutes');
+const adminRoutes = require('./routes/adminRoutes');
+
+const app = express();
+
+app.use(cors());
+app.use(express.json());
+
+// API Routes
+app.use('/api/auth', authRoutes);
+app.use('/api/categories', categoryRoutes);
+app.use('/api/products', productRoutes);
+app.use('/api/favorites', favoriteRoutes);
+app.use('/api/cart', cartRoutes);
+app.use('/api/orders', orderRoutes);
+app.use('/api/admin', adminRoutes);
+
+app.get('/', (req, res) => {
+  res.json({
+    message: 'Product Quotation App API is running',
+    policy: 'STRICT ZERO PRICING - Product Name & Quantity Only',
+    version: '1.0.0',
+    status: 'Healthy'
+  });
+});
+
+const PORT = process.env.PORT || 5000;
+const server = app.listen(PORT, () => {
+  console.log(`=================================================`);
+  console.log(`🚀 Quotation App Backend Server running on port ${PORT}`);
+  console.log(`🔒 Policy: ZERO Price / Product Name & Qty Only`);
+  console.log(`=================================================`);
+});
+
+server.on('error', (err) => {
+  if (err.code === 'EADDRINUSE') {
+    console.log(`⚠️ Port ${PORT} in use, switching to port 5001...`);
+    app.listen(5001, () => {
+      console.log(`=================================================`);
+      console.log(`🚀 Quotation App Backend Server running on port 5001`);
+      console.log(`🔒 Policy: ZERO Price / Product Name & Qty Only`);
+      console.log(`=================================================`);
+    });
+  }
+});
+
