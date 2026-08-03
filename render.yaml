@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: gouri-aqua-plast-backend
+    runtime: node
+    repo: https://github.com/nileshapendharkar/quotation-app-backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        value: gouri_aqua_plast_jwt_secret_2026
+      - key: PORT
+        value: 5000
