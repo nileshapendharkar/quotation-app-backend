@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: quotation-app-backend
+    env: node
+    region: singapore
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: JWT_SECRET
+        value: ganesh_gouri_quotation_jwt_secret_key_2026
