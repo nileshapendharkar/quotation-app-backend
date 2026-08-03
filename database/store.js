@@ -33,44 +33,74 @@ const initialData = {
     {
       id: "cat_tanks",
       name: "Water Storage Tanks",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/10-layer-orange-water-tank.webp",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
       description: "Multi-layer water storage tanks for domestic, commercial, and industrial use. ISO 9001 certified."
-    },
-    {
-      id: "cat_upvc",
-      name: "UPVC Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/upvc-pipes-fittings.webp",
-      description: "Lead-free, UV stabilized ASTM UPVC pipes for potable water and plumbing applications."
     },
     {
       id: "cat_cpvc",
       name: "CPVC Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/cpvc-pipe-fittings.webp",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
       description: "Hot & cold water CPVC piping systems for residential and commercial plumbing."
+    },
+    {
+      id: "cat_upvc",
+      name: "UPVC Pipes & Fittings",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      description: "Lead-free, UV stabilized ASTM UPVC pipes for potable water and plumbing applications."
     },
     {
       id: "cat_swr",
       name: "SWR Drainage Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/swr-drainage-pipes-fittings.webp",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
       description: "Soil, waste, and rainwater drainage pipe systems for buildings and infrastructure."
+    },
+    {
+      id: "cat_casing",
+      name: "Casing Pipes - Blue",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/Casing-Pipe.png",
+      description: "Bore well casing pipes in blue colour for tube well applications."
     },
     {
       id: "cat_agri",
       name: "Agriculture Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/agriculture-pipes-fittings.webp",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/Agri-Pipes.png",
       description: "Durable agriculture PVC pipes for farming irrigation and water supply."
     },
     {
       id: "cat_hdpe",
       name: "HDPE Pipes",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/hdpe-pipes.webp",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/hdpe.png",
       description: "High-density polyethylene pipes for agriculture water supply and industrial use."
     },
     {
-      id: "cat_accessories",
-      name: "Plumbing Accessories",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
-      description: "Solvent cement, flushing cisterns, toilet seat covers, and PTMT taps."
+      id: "cat_sprinkler",
+      name: "Sprinkler Pipes",
+      image: "https://www.ganeshgouriindustries.com/images/index/Sprinkler-Pipe.png",
+      description: "Lightweight sprinkler irrigation pipes for efficient farm water distribution."
+    },
+    {
+      id: "cat_column",
+      name: "Column Pipes",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/Column-Pipes.png",
+      description: "High-strength column pipes for submersible pump installations in bore wells."
+    },
+    {
+      id: "cat_sanitary",
+      name: "Toilet Seat Cover & Flushing Cistern",
+      image: "https://www.ganeshgouriindustries.com/images/index/SANITARY-WARE.png",
+      description: "Moulded toilet seat covers and flushing cisterns for modern bathrooms."
+    },
+    {
+      id: "cat_eco_drainage",
+      name: "Eco Drainage Pipes",
+      image: "https://www.ganeshgouriindustries.com/images/index/Dranage-Pipe.png",
+      description: "Eco-friendly lightweight drainage pipes for residential and commercial buildings."
+    },
+    {
+      id: "cat_garden",
+      name: "Garden, Braided & LDPE Pipes",
+      image: "https://www.ganeshgouriindustries.com/images/index/C.png",
+      description: "Flexible garden hose pipes, braided pipes, and LDPE pipes for domestic & outdoor use."
     }
   ],
   products: [
@@ -79,7 +109,7 @@ const initialData = {
       name: "10 Layer Ora Water Tank",
       categoryId: "cat_tanks",
       categoryName: "Water Storage Tanks",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/10-layer-orange-water-tank.webp",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
       description: "Premium 10-layer orange water storage tank with anti-bacterial protection. Available in 500L to 10000L."
     },
     {
@@ -87,7 +117,7 @@ const initialData = {
       name: "10 Layer Gold Water Tank",
       categoryId: "cat_tanks",
       categoryName: "Water Storage Tanks",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/10-layer-gold-water-tank.webp",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
       description: "10-layer gold series water tank with UV protection and food-grade inner layer."
     },
     {
@@ -95,168 +125,176 @@ const initialData = {
       name: "3 Layer Water Tank",
       categoryId: "cat_tanks",
       categoryName: "Water Storage Tanks",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/3-layer-water-tank.webp",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
       description: "Triple layer water tank with black middle layer for UV protection. ISI certified."
     },
     {
       id: "prod_4",
-      name: "2 Layer Roto Water Tank",
+      name: "2 Layer Roto Water Storage Tank",
       categoryId: "cat_tanks",
       categoryName: "Water Storage Tanks",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/2-layer-roto-water-storage-tank.webp",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
       description: "Durable 2-layer rotomoulded water storage tank for residential use."
     },
     {
       id: "prod_5",
-      name: "4 Layer Puff Water Tank",
+      name: "Blow Moulded 4 Layer Orange Water Tank",
       categoryId: "cat_tanks",
       categoryName: "Water Storage Tanks",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/4-layer-puff-roto-water-storage-tank.webp",
-      description: "4-layer puff insulated rotomoulded tank keeping water cool in summer."
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      description: "Advanced blow moulded 4-layer orange tank for superior structural strength."
     },
     {
       id: "prod_6",
-      name: "Loft Water Tank",
+      name: "4 Layer Puff Roto Water Storage Tank",
       categoryId: "cat_tanks",
       categoryName: "Water Storage Tanks",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/loft-water-storage-tank.webp",
-      description: "Compact loft tank designed for overhead installations. Available 200L to 500L."
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      description: "4-layer puff insulated rotomoulded tank keeping water cool in extreme summer weather."
     },
     {
       id: "prod_7",
-      name: "UPVC Plumbing Pipes (Sch 40 & 80)",
-      categoryId: "cat_upvc",
-      categoryName: "UPVC Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/upvc-pipes-fittings.webp",
-      description: "Lead-free, UV stabilized ASTM UPVC pipes. Sizes 15mm to 50mm, lengths 3m & 6m."
+      name: "6 Layer Puff Roto Water Storage Tank",
+      categoryId: "cat_tanks",
+      categoryName: "Water Storage Tanks",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      description: "6-layer puff insulated roto tank designed for ultimate thermal regulation."
     },
     {
       id: "prod_8",
-      name: "UPVC Pipe Fittings (Elbow, Tee, Coupler)",
-      categoryId: "cat_upvc",
-      categoryName: "UPVC Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/upvc-pipes-fittings.webp",
-      description: "Complete range of UPVC fittings - elbows, tees, couplers, reducers. 15mm to 50mm."
+      name: "6 Layer Double Puff Roto Water Storage Tank",
+      categoryId: "cat_tanks",
+      categoryName: "Water Storage Tanks",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      description: "Double puff layer technology for maximum heat insulation and durability."
     },
     {
       id: "prod_9",
-      name: "CPVC Pipes (SDR 11 Series)",
-      categoryId: "cat_cpvc",
-      categoryName: "CPVC Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/cpvc-pipe-fittings.webp",
-      description: "Hot & cold water CPVC pipes. Temperature resistant up to 93°C. ISI certified."
+      name: "2 Layer ISI Water Tank",
+      categoryId: "cat_tanks",
+      categoryName: "Water Storage Tanks",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      description: "ISI standard approved 2-layer water storage tank for domestic water supply."
     },
     {
       id: "prod_10",
-      name: "CPVC Pipe Fittings (Full Range)",
-      categoryId: "cat_cpvc",
-      categoryName: "CPVC Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/cpvc-pipe-fittings.webp",
-      description: "CPVC fittings including elbows, tees, unions, valves. Compatible with SDR 11 pipes."
+      name: "Loft Water Storage Tank",
+      categoryId: "cat_tanks",
+      categoryName: "Water Storage Tanks",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      description: "Compact loft tank designed for indoor overhead kitchen and bathroom installations. 200L to 500L."
     },
     {
       id: "prod_11",
-      name: "SWR Drainage Pipes",
-      categoryId: "cat_swr",
-      categoryName: "SWR Drainage Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/swr-drainage-pipes-fittings.webp",
-      description: "Soil, waste and rainwater drainage pipes. Sizes 75mm to 160mm. Type A & Type B."
+      name: "CPVC SDR 11 Pipes",
+      categoryId: "cat_cpvc",
+      categoryName: "CPVC Pipes & Fittings",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      description: "Hot & cold water CPVC pipes. Temperature resistant up to 93°C. ISI certified."
     },
     {
       id: "prod_12",
-      name: "SWR Drainage Fittings",
-      categoryId: "cat_swr",
-      categoryName: "SWR Drainage Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/swr-drainage-pipes-fittings.webp",
-      description: "Complete SWR fittings range - bends, junctions, traps, couplers for drainage systems."
+      name: "CPVC Pipe Fittings (Elbow, Tee, Union)",
+      categoryId: "cat_cpvc",
+      categoryName: "CPVC Pipes & Fittings",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      description: "CPVC fittings including elbows, tees, unions, brass transition fittings."
     },
     {
       id: "prod_13",
-      name: "Agriculture PVC Pipes",
-      categoryId: "cat_agri",
-      categoryName: "Agriculture Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/agriculture-pipes-fittings.webp",
-      description: "Heavy-duty agriculture PVC pipes for farm irrigation and water distribution."
+      name: "UPVC Plumbing Pipes (Sch 40 & 80)",
+      categoryId: "cat_upvc",
+      categoryName: "UPVC Pipes & Fittings",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      description: "Lead-free, UV stabilized ASTM UPVC pipes. Sizes 15mm to 50mm, lengths 3m & 6m."
     },
     {
       id: "prod_14",
-      name: "Sprinkler Irrigation Pipes",
-      categoryId: "cat_agri",
-      categoryName: "Agriculture Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/sprinkler-irrigation-pipes.webp",
-      description: "Lightweight sprinkler system pipes for efficient farm water distribution."
+      name: "UPVC Pipe Fittings",
+      categoryId: "cat_upvc",
+      categoryName: "UPVC Pipes & Fittings",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      description: "Full range of UPVC fittings - elbows, tees, couplers, reducers."
     },
     {
       id: "prod_15",
-      name: "HDPE Pipes (Agriculture Grade)",
-      categoryId: "cat_hdpe",
-      categoryName: "HDPE Pipes",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/hdpe-pipes.webp",
-      description: "High-density polyethylene pipes for agriculture water supply. Flexible and durable."
+      name: "SWR Drainage Pipes",
+      categoryId: "cat_swr",
+      categoryName: "SWR Drainage Pipes & Fittings",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      description: "Soil, waste and rainwater drainage pipes. Sizes 75mm to 160mm. Type A & Type B."
     },
     {
       id: "prod_16",
-      name: "Casing Pipes (Blue)",
-      categoryId: "cat_hdpe",
-      categoryName: "HDPE Pipes",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/casing-pipes.webp",
-      description: "Bore well casing pipes in blue colour. Suitable for tube well applications."
+      name: "SWR Drainage Fittings",
+      categoryId: "cat_swr",
+      categoryName: "SWR Drainage Pipes & Fittings",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      description: "Complete SWR fittings range - bends, junctions, traps, couplers for drainage systems."
     },
     {
       id: "prod_17",
-      name: "Column Pipes",
-      categoryId: "cat_hdpe",
-      categoryName: "HDPE Pipes",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/column-pipes.webp",
-      description: "Column pipes for submersible pump installations in bore wells."
+      name: "Casing Pipe - Blue",
+      categoryId: "cat_casing",
+      categoryName: "Casing Pipes - Blue",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/Casing-Pipe.png",
+      description: "Bore well casing pipes in blue colour. High tensile strength for deep tube well applications."
     },
     {
       id: "prod_18",
-      name: "Solvent Cement (Gouri Aqua Plast)",
-      categoryId: "cat_accessories",
-      categoryName: "Plumbing Accessories",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
-      description: "Heavy-duty solvent cement for leak-proof jointing of UPVC and CPVC pipes."
+      name: "Farming Water Pipe (Agriculture PVC)",
+      categoryId: "cat_agri",
+      categoryName: "Agriculture Pipes & Fittings",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/Agri-Pipes.png",
+      description: "Heavy-duty agriculture PVC pipes for farm irrigation and water distribution."
     },
     {
       id: "prod_19",
-      name: "Flushing Cistern",
-      categoryId: "cat_accessories",
-      categoryName: "Plumbing Accessories",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/flushing-cistern.webp",
-      description: "Durable plastic flushing cistern for toilet installations."
+      name: "HDPE Pipes (Agriculture Grade)",
+      categoryId: "cat_hdpe",
+      categoryName: "HDPE Pipes",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/hdpe.png",
+      description: "High-density polyethylene pipes for agriculture water supply. Flexible and durable."
     },
     {
       id: "prod_20",
-      name: "Plastic Toilet Seat Cover",
-      categoryId: "cat_accessories",
-      categoryName: "Plumbing Accessories",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/plastic-toilet-seat-cover.webp",
-      description: "High-quality moulded plastic toilet seat covers for residential bathrooms."
+      name: "Sprinkler Irrigation Pipes",
+      categoryId: "cat_sprinkler",
+      categoryName: "Sprinkler Pipes",
+      image: "https://www.ganeshgouriindustries.com/images/index/Sprinkler-Pipe.png",
+      description: "Lightweight sprinkler system pipes for efficient farm water distribution."
     },
     {
       id: "prod_21",
-      name: "PTMT Water Tap (Aqua Plast)",
-      categoryId: "cat_accessories",
-      categoryName: "Plumbing Accessories",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/ptmt-water-tap.webp",
-      description: "Corrosion-free PTMT water taps for kitchen and bathroom applications."
+      name: "Column Pipes for Submersible Pumps",
+      categoryId: "cat_column",
+      categoryName: "Column Pipes",
+      image: "https://www.ganeshgouriindustries.com/images/index/new-product/Column-Pipes.png",
+      description: "High pressure column pipes for submersible pump installations in bore wells."
     },
     {
       id: "prod_22",
-      name: "Garden, Braided & LDPE Pipes",
-      categoryId: "cat_agri",
-      categoryName: "Agriculture Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/garden-braided-ldpe-pipes.webp",
-      description: "Flexible garden hose pipes, braided pipes, and LDPE pipes for domestic & garden use."
+      name: "Flushing Cistern & Toilet Seat Cover",
+      categoryId: "cat_sanitary",
+      categoryName: "Toilet Seat Cover & Flushing Cistern",
+      image: "https://www.ganeshgouriindustries.com/images/index/SANITARY-WARE.png",
+      description: "High quality plastic flushing cisterns and toilet seat covers for residential bathrooms."
     },
     {
       id: "prod_23",
       name: "Eco Drainage Pipes",
-      categoryId: "cat_swr",
-      categoryName: "SWR Drainage Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/assets/img/product/eco-drainage-pipes.webp",
+      categoryId: "cat_eco_drainage",
+      categoryName: "Eco Drainage Pipes",
+      image: "https://www.ganeshgouriindustries.com/images/index/Dranage-Pipe.png",
       description: "Eco-friendly lightweight drainage pipes for residential and commercial buildings."
+    },
+    {
+      id: "prod_24",
+      name: "Ora Flow Garden Pipe & Braided Hose",
+      categoryId: "cat_garden",
+      categoryName: "Garden, Braided & LDPE Pipes",
+      image: "https://www.ganeshgouriindustries.com/images/index/C.png",
+      description: "Flexible garden hose pipes, braided pipes, and LDPE pipes for domestic & outdoor use."
     }
   ],
   favorites: {

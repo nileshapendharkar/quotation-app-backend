@@ -1,0 +1,377 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "name": "Ganesh Gouri Admin",
+      "email": "admin@quotation.com",
+      "mobile": "+919699910491",
+      "passwordHash": "$2a$10$wN1iN61K4aF3z44/m.z7yeT2n3TzD5Lg20uV4N4W2n2v0Qz.e7D1e",
+      "role": "admin",
+      "companyName": "Ganesh Gouri Industries Pvt. Ltd.",
+      "companyAddress": "KH. NO. 55/3, Lihigaon, Kamptee, Nagpur, Maharashtra, 441001",
+      "createdAt": "2026-08-03T13:12:36.011Z"
+    },
+    {
+      "id": "usr_demo",
+      "name": "Ramesh Shende",
+      "email": "john@example.com",
+      "mobile": "+919876543210",
+      "passwordHash": "$2a$10$wN1iN61K4aF3z44/m.z7yeT2n3TzD5Lg20uV4N4W2n2v0Qz.e7D1e",
+      "role": "customer",
+      "companyName": "Shende Constructions",
+      "companyAddress": "12 Civil Lines, Nagpur, Maharashtra",
+      "createdAt": "2026-08-03T13:12:36.014Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_tanks",
+      "name": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "Multi-layer water storage tanks for domestic, commercial, and industrial use. ISO 9001 certified."
+    },
+    {
+      "id": "cat_cpvc",
+      "name": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "Hot & cold water CPVC piping systems for residential and commercial plumbing."
+    },
+    {
+      "id": "cat_upvc",
+      "name": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "Lead-free, UV stabilized ASTM UPVC pipes for potable water and plumbing applications."
+    },
+    {
+      "id": "cat_swr",
+      "name": "SWR Drainage Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "description": "Soil, waste, and rainwater drainage pipe systems for buildings and infrastructure."
+    },
+    {
+      "id": "cat_casing",
+      "name": "Casing Pipes - Blue",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Casing-Pipe.png",
+      "description": "Bore well casing pipes in blue colour for tube well applications."
+    },
+    {
+      "id": "cat_agri",
+      "name": "Agriculture Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Agri-Pipes.png",
+      "description": "Durable agriculture PVC pipes for farming irrigation and water supply."
+    },
+    {
+      "id": "cat_hdpe",
+      "name": "HDPE Pipes",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/hdpe.png",
+      "description": "High-density polyethylene pipes for agriculture water supply and industrial use."
+    },
+    {
+      "id": "cat_sprinkler",
+      "name": "Sprinkler Pipes",
+      "image": "https://www.ganeshgouriindustries.com/images/index/Sprinkler-Pipe.png",
+      "description": "Lightweight sprinkler irrigation pipes for efficient farm water distribution."
+    },
+    {
+      "id": "cat_column",
+      "name": "Column Pipes",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Column-Pipes.png",
+      "description": "High-strength column pipes for submersible pump installations in bore wells."
+    },
+    {
+      "id": "cat_sanitary",
+      "name": "Toilet Seat Cover & Flushing Cistern",
+      "image": "https://www.ganeshgouriindustries.com/images/index/SANITARY-WARE.png",
+      "description": "Moulded toilet seat covers and flushing cisterns for modern bathrooms."
+    },
+    {
+      "id": "cat_eco_drainage",
+      "name": "Eco Drainage Pipes",
+      "image": "https://www.ganeshgouriindustries.com/images/index/Dranage-Pipe.png",
+      "description": "Eco-friendly lightweight drainage pipes for residential and commercial buildings."
+    },
+    {
+      "id": "cat_garden",
+      "name": "Garden, Braided & LDPE Pipes",
+      "image": "https://www.ganeshgouriindustries.com/images/index/C.png",
+      "description": "Flexible garden hose pipes, braided pipes, and LDPE pipes for domestic & outdoor use."
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_1",
+      "name": "10 Layer Ora Water Tank",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "Premium 10-layer orange water storage tank with anti-bacterial protection. Available in 500L to 10000L."
+    },
+    {
+      "id": "prod_2",
+      "name": "10 Layer Gold Water Tank",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "10-layer gold series water tank with UV protection and food-grade inner layer."
+    },
+    {
+      "id": "prod_3",
+      "name": "3 Layer Water Tank",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "Triple layer water tank with black middle layer for UV protection. ISI certified."
+    },
+    {
+      "id": "prod_4",
+      "name": "2 Layer Roto Water Storage Tank",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "Durable 2-layer rotomoulded water storage tank for residential use."
+    },
+    {
+      "id": "prod_5",
+      "name": "Blow Moulded 4 Layer Orange Water Tank",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "Advanced blow moulded 4-layer orange tank for superior structural strength."
+    },
+    {
+      "id": "prod_6",
+      "name": "4 Layer Puff Roto Water Storage Tank",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "4-layer puff insulated rotomoulded tank keeping water cool in extreme summer weather."
+    },
+    {
+      "id": "prod_7",
+      "name": "6 Layer Puff Roto Water Storage Tank",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "6-layer puff insulated roto tank designed for ultimate thermal regulation."
+    },
+    {
+      "id": "prod_8",
+      "name": "6 Layer Double Puff Roto Water Storage Tank",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "Double puff layer technology for maximum heat insulation and durability."
+    },
+    {
+      "id": "prod_9",
+      "name": "2 Layer ISI Water Tank",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "ISI standard approved 2-layer water storage tank for domestic water supply."
+    },
+    {
+      "id": "prod_10",
+      "name": "Loft Water Storage Tank",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "Compact loft tank designed for indoor overhead kitchen and bathroom installations. 200L to 500L."
+    },
+    {
+      "id": "prod_11",
+      "name": "CPVC SDR 11 Pipes",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "Hot & cold water CPVC pipes. Temperature resistant up to 93°C. ISI certified."
+    },
+    {
+      "id": "prod_12",
+      "name": "CPVC Pipe Fittings (Elbow, Tee, Union)",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC fittings including elbows, tees, unions, brass transition fittings."
+    },
+    {
+      "id": "prod_13",
+      "name": "UPVC Plumbing Pipes (Sch 40 & 80)",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "Lead-free, UV stabilized ASTM UPVC pipes. Sizes 15mm to 50mm, lengths 3m & 6m."
+    },
+    {
+      "id": "prod_14",
+      "name": "UPVC Pipe Fittings",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "Full range of UPVC fittings - elbows, tees, couplers, reducers."
+    },
+    {
+      "id": "prod_15",
+      "name": "SWR Drainage Pipes",
+      "categoryId": "cat_swr",
+      "categoryName": "SWR Drainage Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "description": "Soil, waste and rainwater drainage pipes. Sizes 75mm to 160mm. Type A & Type B."
+    },
+    {
+      "id": "prod_16",
+      "name": "SWR Drainage Fittings",
+      "categoryId": "cat_swr",
+      "categoryName": "SWR Drainage Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "description": "Complete SWR fittings range - bends, junctions, traps, couplers for drainage systems."
+    },
+    {
+      "id": "prod_17",
+      "name": "Casing Pipe - Blue",
+      "categoryId": "cat_casing",
+      "categoryName": "Casing Pipes - Blue",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Casing-Pipe.png",
+      "description": "Bore well casing pipes in blue colour. High tensile strength for deep tube well applications."
+    },
+    {
+      "id": "prod_18",
+      "name": "Farming Water Pipe (Agriculture PVC)",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Agri-Pipes.png",
+      "description": "Heavy-duty agriculture PVC pipes for farm irrigation and water distribution."
+    },
+    {
+      "id": "prod_19",
+      "name": "HDPE Pipes (Agriculture Grade)",
+      "categoryId": "cat_hdpe",
+      "categoryName": "HDPE Pipes",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/hdpe.png",
+      "description": "High-density polyethylene pipes for agriculture water supply. Flexible and durable."
+    },
+    {
+      "id": "prod_20",
+      "name": "Sprinkler Irrigation Pipes",
+      "categoryId": "cat_sprinkler",
+      "categoryName": "Sprinkler Pipes",
+      "image": "https://www.ganeshgouriindustries.com/images/index/Sprinkler-Pipe.png",
+      "description": "Lightweight sprinkler system pipes for efficient farm water distribution."
+    },
+    {
+      "id": "prod_21",
+      "name": "Column Pipes for Submersible Pumps",
+      "categoryId": "cat_column",
+      "categoryName": "Column Pipes",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Column-Pipes.png",
+      "description": "High pressure column pipes for submersible pump installations in bore wells."
+    },
+    {
+      "id": "prod_22",
+      "name": "Flushing Cistern & Toilet Seat Cover",
+      "categoryId": "cat_sanitary",
+      "categoryName": "Toilet Seat Cover & Flushing Cistern",
+      "image": "https://www.ganeshgouriindustries.com/images/index/SANITARY-WARE.png",
+      "description": "High quality plastic flushing cisterns and toilet seat covers for residential bathrooms."
+    },
+    {
+      "id": "prod_23",
+      "name": "Eco Drainage Pipes",
+      "categoryId": "cat_eco_drainage",
+      "categoryName": "Eco Drainage Pipes",
+      "image": "https://www.ganeshgouriindustries.com/images/index/Dranage-Pipe.png",
+      "description": "Eco-friendly lightweight drainage pipes for residential and commercial buildings."
+    },
+    {
+      "id": "prod_24",
+      "name": "Ora Flow Garden Pipe & Braided Hose",
+      "categoryId": "cat_garden",
+      "categoryName": "Garden, Braided & LDPE Pipes",
+      "image": "https://www.ganeshgouriindustries.com/images/index/C.png",
+      "description": "Flexible garden hose pipes, braided pipes, and LDPE pipes for domestic & outdoor use."
+    }
+  ],
+  "favorites": {
+    "usr_demo": [
+      "prod_1",
+      "prod_7"
+    ]
+  },
+  "carts": {
+    "usr_demo": [
+      {
+        "productId": "prod_1",
+        "quantity": 20
+      },
+      {
+        "productId": "prod_9",
+        "quantity": 100
+      }
+    ]
+  },
+  "orders": [
+    {
+      "id": "ord_1001",
+      "orderNo": "QT-2026-1001",
+      "userId": "usr_demo",
+      "userName": "Ramesh Shende",
+      "userEmail": "john@example.com",
+      "userMobile": "+919876543210",
+      "companyName": "Shende Constructions",
+      "companyAddress": "12 Civil Lines, Nagpur, Maharashtra",
+      "items": [
+        {
+          "productId": "prod_1",
+          "productName": "10 Layer Ora Water Tank",
+          "quantity": 50,
+          "image": "https://www.ganeshgouriindustries.com/assets/img/product/10-layer-orange-water-tank.webp"
+        },
+        {
+          "productId": "prod_7",
+          "productName": "UPVC Plumbing Pipes (Sch 40 & 80)",
+          "quantity": 500,
+          "image": "https://www.ganeshgouriindustries.com/assets/img/product/upvc-pipes-fittings.webp"
+        }
+      ],
+      "status": "Pending",
+      "notes": "Urgent: Required for new construction site in Kamptee Road.",
+      "createdAt": "2026-08-01T13:12:36.014Z"
+    },
+    {
+      "id": "ord_1002",
+      "orderNo": "QT-2026-1002",
+      "userId": "usr_demo",
+      "userName": "Ramesh Shende",
+      "userEmail": "john@example.com",
+      "userMobile": "+919876543210",
+      "companyName": "Shende Constructions",
+      "companyAddress": "12 Civil Lines, Nagpur, Maharashtra",
+      "items": [
+        {
+          "productId": "prod_9",
+          "productName": "CPVC Pipes (SDR 11 Series)",
+          "quantity": 200,
+          "image": "https://www.ganeshgouriindustries.com/assets/img/product/cpvc-pipe-fittings.webp"
+        },
+        {
+          "productId": "prod_18",
+          "productName": "Solvent Cement (Gouri Aqua Plast)",
+          "quantity": 50,
+          "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp"
+        }
+      ],
+      "status": "Dispatched",
+      "notes": "Dispatched via Gouri logistics from Nagpur warehouse.",
+      "createdAt": "2026-07-29T13:12:36.014Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1",
+      "title": "Welcome to Gouri Aqua Plast",
+      "message": "Explore our full range of Water Storage Tanks, UPVC, CPVC, SWR Pipes & Fittings. ISO 9001 certified quality!",
+      "targetUser": "all",
+      "createdAt": "2026-08-03T13:12:36.014Z"
+    }
+  ]
+}
