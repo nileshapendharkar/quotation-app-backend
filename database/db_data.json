@@ -360,47 +360,535 @@
       ]
     },
     {
-      "id": "prod_11",
-      "name": "CPVC SDR 11 Pipes",
+      "id": "prod_cpvc_1",
+      "name": "CPVC - SDR-13.5 Pipe ISI",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
-      "description": "Hot & cold water CPVC pipes. Temperature resistant up to 93°C. ISI certified.",
+      "description": "CPVC - SDR-13.5 Pipe ISI. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
-        "1/2 inch",
-        "3/4 inch",
-        "1 inch",
-        "1 1/4 inch",
-        "1 1/2 inch",
-        "1.5 inch",
-        "2 inch",
-        "2 1/2 inch",
-        "3 inch",
-        "4 inch",
-        "5 inch",
-        "6 inch"
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
       ]
     },
     {
-      "id": "prod_12",
-      "name": "CPVC Pipe Fittings (Elbow, Tee, Union)",
+      "id": "prod_cpvc_2",
+      "name": "CPVC - SDR-11 Pipe ISI",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
-      "description": "CPVC fittings including elbows, tees, unions, brass transition fittings.",
+      "description": "CPVC - SDR-11 Pipe ISI. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
-        "1/2 inch",
-        "3/4 inch",
-        "1 inch",
-        "1 1/4 inch",
-        "1 1/2 inch",
-        "1.5 inch",
-        "2 inch",
-        "2 1/2 inch",
-        "3 inch",
-        "4 inch",
-        "5 inch",
-        "6 inch"
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_3",
+      "name": "CPVC - SCH-80 Pipe",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - SCH-80 Pipe. Available sizes: 2 1/2, 3, 4.",
+      "sizes": [
+        "2 1/2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "prod_cpvc_4",
+      "name": "CPVC - SCH-40 Pipe",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - SCH-40 Pipe. Available sizes: 2 1/2, 3, 4.",
+      "sizes": [
+        "2 1/2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": "prod_cpvc_5",
+      "name": "CPVC - Coupler",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Coupler. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_6",
+      "name": "CPVC - End Cap",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - End Cap. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_7",
+      "name": "CPVC - Metal Clamp",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Metal Clamp. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_8",
+      "name": "CPVC - Elbow 90",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Elbow 90. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_9",
+      "name": "CPVC - MTA",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - MTA. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_10",
+      "name": "CPVC - Bend 45",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Bend 45. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_11",
+      "name": "CPVC - FTA",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - FTA. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_12",
+      "name": "CPVC - Nail Clamp",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Nail Clamp. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_13",
+      "name": "CPVC - Tee",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Tee. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_14",
+      "name": "CPVC - Brass FTA",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Brass FTA. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_15",
+      "name": "CPVC - Cross Tee",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Cross Tee. Available sizes: 3/4, 1, 1 1/4.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4"
+      ]
+    },
+    {
+      "id": "prod_cpvc_16",
+      "name": "CPVC - Tank Nipple (Socketed)",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Tank Nipple (Socketed). Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_17",
+      "name": "CPVC - Brass MTA",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Brass MTA. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_18",
+      "name": "CPVC - Tank Nipple (Threaded)",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Tank Nipple (Threaded). Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_19",
+      "name": "CPVC - Union",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Union. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_20",
+      "name": "CPVC - Reducing Elbow 90",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Reducing Elbow 90. Available sizes: 1 X 1/2, 1 X 3/4.",
+      "sizes": [
+        "1 X 1/2",
+        "1 X 3/4"
+      ]
+    },
+    {
+      "id": "prod_cpvc_21",
+      "name": "CPVC - Transition Bush",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Transition Bush. Available sizes: 3/4, 1.",
+      "sizes": [
+        "3/4",
+        "1"
+      ]
+    },
+    {
+      "id": "prod_cpvc_22",
+      "name": "CPVC - Concealed Valve (Quarter Turn)",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Concealed Valve (Quarter Turn). Available sizes: 3/4, 1.",
+      "sizes": [
+        "3/4",
+        "1"
+      ]
+    },
+    {
+      "id": "prod_cpvc_23",
+      "name": "CPVC - Concealed Valve (Full Turn)",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Concealed Valve (Full Turn). Available sizes: 3/4, 1.",
+      "sizes": [
+        "3/4",
+        "1"
+      ]
+    },
+    {
+      "id": "prod_cpvc_24",
+      "name": "CPVC - End Plug",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - End Plug. Available sizes: 3/4.",
+      "sizes": [
+        "3/4"
+      ]
+    },
+    {
+      "id": "prod_cpvc_25",
+      "name": "CPVC - 3 In 1 Mixer Adaptor 6",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - 3 In 1 Mixer Adaptor 6. Available sizes: 3/4 X 1/2.",
+      "sizes": [
+        "3/4 X 1/2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_26",
+      "name": "CPVC - 3 In 1 Mixer Frame 6",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - 3 In 1 Mixer Frame 6. Available sizes: 3/4 X 1/2.",
+      "sizes": [
+        "3/4 X 1/2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_27",
+      "name": "CPVC - Reducing FTA Hexa Brass",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Reducing FTA Hexa Brass. Available sizes: 3/4 X 1/2.",
+      "sizes": [
+        "3/4 X 1/2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_28",
+      "name": "CPVC - Reducing Brass MTA",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Reducing Brass MTA. Available sizes: 3/4 X 1/2, 1 X 1/2.",
+      "sizes": [
+        "3/4 X 1/2",
+        "1 X 1/2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_29",
+      "name": "CPVC - Reducing Brass FTA",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Reducing Brass FTA. Available sizes: 3/4 X 1/2, 1 X 1/2.",
+      "sizes": [
+        "3/4 X 1/2",
+        "1 X 1/2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_30",
+      "name": "CPVC - Reducing Brass Tee",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Reducing Brass Tee. Available sizes: 3/4 X 1/2, 1 X 1/2, 1 X 1/4.",
+      "sizes": [
+        "3/4 X 1/2",
+        "1 X 1/2",
+        "1 X 1/4"
+      ]
+    },
+    {
+      "id": "prod_cpvc_31",
+      "name": "CPVC - Step Over Bend (Moulded)",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Step Over Bend (Moulded). Available sizes: 3/4, 1, 1 1/4.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4"
+      ]
+    },
+    {
+      "id": "prod_cpvc_32",
+      "name": "CPVC - Step Over Bend",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Step Over Bend. Available sizes: 3/4, 1.",
+      "sizes": [
+        "3/4",
+        "1"
+      ]
+    },
+    {
+      "id": "prod_cpvc_33",
+      "name": "CPVC - NRV",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - NRV. Available sizes: 3/4, 1, 1 1/4.",
+      "sizes": [
+        "3/4",
+        "1",
+        "1 1/4"
+      ]
+    },
+    {
+      "id": "prod_cpvc_34",
+      "name": "CPVC - Brass Tee",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Brass Tee. Available sizes: 3/4, 1.",
+      "sizes": [
+        "3/4",
+        "1"
+      ]
+    },
+    {
+      "id": "prod_cpvc_35",
+      "name": "CPVC - Reducing MTA Hexa Brass",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Reducing MTA Hexa Brass. Available sizes: 3/4 X 1/2.",
+      "sizes": [
+        "3/4 X 1/2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_36",
+      "name": "CPVC - Reducing Coupler",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Reducing Coupler. Available sizes: 3/4 X 1/2, 1 X 1/2, 1 X 3/4, 1 1/4 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
+      "sizes": [
+        "3/4 X 1/2",
+        "1 X 1/2",
+        "1 X 3/4",
+        "1 1/4 X 3/4",
+        "1 1/4 X 1",
+        "1 1/2 X 3/4",
+        "1 1/2 X 1",
+        "1 1/2 X 1 1/4",
+        "2 X 3/4",
+        "2 X 1",
+        "2 X 1 1/4",
+        "2 X 1 1/2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_37",
+      "name": "CPVC - Reducing Tee",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Reducing Tee. Available sizes: 1 X 3/4, 1 1/4 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
+      "sizes": [
+        "1 X 3/4",
+        "1 1/4 X 3/4",
+        "1 1/4 X 1",
+        "1 1/2 X 3/4",
+        "1 1/2 X 1",
+        "1 1/2 X 1 1/4",
+        "2 X 3/4",
+        "2 X 1",
+        "2 X 1 1/4",
+        "2 X 1 1/2"
+      ]
+    },
+    {
+      "id": "prod_cpvc_38",
+      "name": "CPVC - Reducing Bush",
+      "categoryId": "cat_cpvc",
+      "categoryName": "CPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "description": "CPVC - Reducing Bush. Available sizes: 1 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
+      "sizes": [
+        "1 X 3/4",
+        "1 1/4 X 1",
+        "1 1/2 X 3/4",
+        "1 1/2 X 1",
+        "1 1/2 X 1 1/4",
+        "2 X 3/4",
+        "2 X 1",
+        "2 X 1 1/4",
+        "2 X 1 1/2"
       ]
     },
     {
