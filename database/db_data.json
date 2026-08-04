@@ -1979,6 +1979,100 @@
       ]
     },
     {
+      "id": "prod_swr_common_1",
+      "name": "NAHANI TRAP (WITH JALI)",
+      "categoryId": "cat_swr",
+      "categoryName": "SWR Drainage Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "description": "NAHANI TRAP (WITH JALI). Available sizes: 4 X 2 1/2, 4 X 3, 4 X 4.",
+      "sizes": [
+        "4 X 2 1/2",
+        "4 X 3",
+        "4 X 4"
+      ]
+    },
+    {
+      "id": "prod_swr_common_2",
+      "name": "NAHANI TRAP (WITHOUT JALI)",
+      "categoryId": "cat_swr",
+      "categoryName": "SWR Drainage Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "description": "NAHANI TRAP (WITHOUT JALI). Available sizes: 4 X 2 1/2, 4 X 3, 4 X 4.",
+      "sizes": [
+        "4 X 2 1/2",
+        "4 X 3",
+        "4 X 4"
+      ]
+    },
+    {
+      "id": "prod_swr_common_3",
+      "name": "MULTI FLOW TRAP (WITHOUT JALI)",
+      "categoryId": "cat_swr",
+      "categoryName": "SWR Drainage Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "description": "MULTI FLOW TRAP (WITHOUT JALI). Available sizes: 4 X 2 1/2 X 1 1/2.",
+      "sizes": [
+        "4 X 2 1/2 X 1 1/2"
+      ]
+    },
+    {
+      "id": "prod_swr_common_4",
+      "name": "MULTI FLOW TRAP (WITH JALI)",
+      "categoryId": "cat_swr",
+      "categoryName": "SWR Drainage Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "description": "MULTI FLOW TRAP (WITH JALI). Available sizes: 4 X 2 1/2 X 1 1/2.",
+      "sizes": [
+        "4 X 2 1/2 X 1 1/2"
+      ]
+    },
+    {
+      "id": "prod_swr_common_5",
+      "name": "VENT COWL",
+      "categoryId": "cat_swr",
+      "categoryName": "SWR Drainage Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "description": "VENT COWL. Available sizes: 2 1/2.",
+      "sizes": [
+        "2 1/2"
+      ]
+    },
+    {
+      "id": "prod_swr_common_6",
+      "name": "JALI",
+      "categoryId": "cat_swr",
+      "categoryName": "SWR Drainage Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "description": "JALI. Available sizes: 4.",
+      "sizes": [
+        "4"
+      ]
+    },
+    {
+      "id": "prod_swr_common_7",
+      "name": "PIPE CLIP",
+      "categoryId": "cat_swr",
+      "categoryName": "SWR Drainage Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "description": "PIPE CLIP. Available sizes: 2 1/2, 4.",
+      "sizes": [
+        "2 1/2",
+        "4"
+      ]
+    },
+    {
+      "id": "prod_swr_common_8",
+      "name": "P TRAP",
+      "categoryId": "cat_swr",
+      "categoryName": "SWR Drainage Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "description": "P TRAP. Available sizes: 4 X 4, 4 1/2 X 4.",
+      "sizes": [
+        "4 X 4",
+        "4 1/2 X 4"
+      ]
+    },
+    {
       "id": "prod_17",
       "name": "Casing Pipe - Blue",
       "categoryId": "cat_casing",
