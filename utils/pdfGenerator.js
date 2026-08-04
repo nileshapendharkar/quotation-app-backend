@@ -115,7 +115,7 @@ function generateQuotationPDF(order, res) {
       .font('Helvetica')
       .text(`${index + 1}`, 50, y + 10)
       .font('Helvetica-Bold')
-      .text(item.productName, 90, y + 10, { width: 310, ellipsis: true })
+      .text(item.size ? `${item.productName} (Size: ${item.size})` : item.productName, 90, y + 10, { width: 310, ellipsis: true })
       .font('Helvetica-Bold')
       .fillColor('#0284c7')
       .text(`${item.quantity} Units`, 420, y + 10, { width: 120, align: 'right' });

@@ -104,7 +104,14 @@
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "Premium 10-layer orange water storage tank with anti-bacterial protection. Available in 500L to 10000L."
+      "description": "Premium 10-layer orange water storage tank with anti-bacterial protection. Available in 500L to 10000L.",
+      "sizes": [
+        "500L",
+        "1000L",
+        "2000L",
+        "5000L",
+        "10000L"
+      ]
     },
     {
       "id": "prod_2",
@@ -112,7 +119,14 @@
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "10-layer gold series water tank with UV protection and food-grade inner layer."
+      "description": "10-layer gold series water tank with UV protection and food-grade inner layer.",
+      "sizes": [
+        "500L",
+        "1000L",
+        "2000L",
+        "5000L",
+        "10000L"
+      ]
     },
     {
       "id": "prod_3",
@@ -120,7 +134,14 @@
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "Triple layer water tank with black middle layer for UV protection. ISI certified."
+      "description": "Triple layer water tank with black middle layer for UV protection. ISI certified.",
+      "sizes": [
+        "500L",
+        "1000L",
+        "2000L",
+        "5000L",
+        "10000L"
+      ]
     },
     {
       "id": "prod_4",
@@ -128,7 +149,14 @@
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "Durable 2-layer rotomoulded water storage tank for residential use."
+      "description": "Durable 2-layer rotomoulded water storage tank for residential use.",
+      "sizes": [
+        "500L",
+        "1000L",
+        "2000L",
+        "5000L",
+        "10000L"
+      ]
     },
     {
       "id": "prod_5",
@@ -136,7 +164,14 @@
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "Advanced blow moulded 4-layer orange tank for superior structural strength."
+      "description": "Advanced blow moulded 4-layer orange tank for superior structural strength.",
+      "sizes": [
+        "500L",
+        "1000L",
+        "2000L",
+        "5000L",
+        "10000L"
+      ]
     },
     {
       "id": "prod_6",
@@ -144,7 +179,14 @@
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "4-layer puff insulated rotomoulded tank keeping water cool in extreme summer weather."
+      "description": "4-layer puff insulated rotomoulded tank keeping water cool in extreme summer weather.",
+      "sizes": [
+        "500L",
+        "1000L",
+        "2000L",
+        "5000L",
+        "10000L"
+      ]
     },
     {
       "id": "prod_7",
@@ -152,7 +194,14 @@
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "6-layer puff insulated roto tank designed for ultimate thermal regulation."
+      "description": "6-layer puff insulated roto tank designed for ultimate thermal regulation.",
+      "sizes": [
+        "500L",
+        "1000L",
+        "2000L",
+        "5000L",
+        "10000L"
+      ]
     },
     {
       "id": "prod_8",
@@ -160,7 +209,14 @@
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "Double puff layer technology for maximum heat insulation and durability."
+      "description": "Double puff layer technology for maximum heat insulation and durability.",
+      "sizes": [
+        "500L",
+        "1000L",
+        "2000L",
+        "5000L",
+        "10000L"
+      ]
     },
     {
       "id": "prod_9",
@@ -168,7 +224,14 @@
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "ISI standard approved 2-layer water storage tank for domestic water supply."
+      "description": "ISI standard approved 2-layer water storage tank for domestic water supply.",
+      "sizes": [
+        "500L",
+        "1000L",
+        "2000L",
+        "5000L",
+        "10000L"
+      ]
     },
     {
       "id": "prod_10",
@@ -176,7 +239,14 @@
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "Compact loft tank designed for indoor overhead kitchen and bathroom installations. 200L to 500L."
+      "description": "Compact loft tank designed for indoor overhead kitchen and bathroom installations. 200L to 500L.",
+      "sizes": [
+        "500L",
+        "1000L",
+        "2000L",
+        "5000L",
+        "10000L"
+      ]
     },
     {
       "id": "prod_11",
@@ -184,7 +254,14 @@
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
-      "description": "Hot & cold water CPVC pipes. Temperature resistant up to 93°C. ISI certified."
+      "description": "Hot & cold water CPVC pipes. Temperature resistant up to 93°C. ISI certified.",
+      "sizes": [
+        "1/2 inch",
+        "3/4 inch",
+        "1 inch",
+        "1.5 inch",
+        "2 inch"
+      ]
     },
     {
       "id": "prod_12",
@@ -192,7 +269,14 @@
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
-      "description": "CPVC fittings including elbows, tees, unions, brass transition fittings."
+      "description": "CPVC fittings including elbows, tees, unions, brass transition fittings.",
+      "sizes": [
+        "1/2 inch",
+        "3/4 inch",
+        "1 inch",
+        "1.5 inch",
+        "2 inch"
+      ]
     },
     {
       "id": "prod_13",
@@ -200,7 +284,14 @@
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
-      "description": "Lead-free, UV stabilized ASTM UPVC pipes. Sizes 15mm to 50mm, lengths 3m & 6m."
+      "description": "Lead-free, UV stabilized ASTM UPVC pipes. Sizes 15mm to 50mm, lengths 3m & 6m.",
+      "sizes": [
+        "1/2 inch",
+        "3/4 inch",
+        "1 inch",
+        "1.5 inch",
+        "2 inch"
+      ]
     },
     {
       "id": "prod_14",
@@ -208,7 +299,14 @@
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
-      "description": "Full range of UPVC fittings - elbows, tees, couplers, reducers."
+      "description": "Full range of UPVC fittings - elbows, tees, couplers, reducers.",
+      "sizes": [
+        "1/2 inch",
+        "3/4 inch",
+        "1 inch",
+        "1.5 inch",
+        "2 inch"
+      ]
     },
     {
       "id": "prod_15",
@@ -216,7 +314,14 @@
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
-      "description": "Soil, waste and rainwater drainage pipes. Sizes 75mm to 160mm. Type A & Type B."
+      "description": "Soil, waste and rainwater drainage pipes. Sizes 75mm to 160mm. Type A & Type B.",
+      "sizes": [
+        "1/2 inch",
+        "3/4 inch",
+        "1 inch",
+        "1.5 inch",
+        "2 inch"
+      ]
     },
     {
       "id": "prod_16",
@@ -224,7 +329,14 @@
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
-      "description": "Complete SWR fittings range - bends, junctions, traps, couplers for drainage systems."
+      "description": "Complete SWR fittings range - bends, junctions, traps, couplers for drainage systems.",
+      "sizes": [
+        "1/2 inch",
+        "3/4 inch",
+        "1 inch",
+        "1.5 inch",
+        "2 inch"
+      ]
     },
     {
       "id": "prod_17",
@@ -232,7 +344,14 @@
       "categoryId": "cat_casing",
       "categoryName": "Casing Pipes - Blue",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Casing-Pipe.png",
-      "description": "Bore well casing pipes in blue colour. High tensile strength for deep tube well applications."
+      "description": "Bore well casing pipes in blue colour. High tensile strength for deep tube well applications.",
+      "sizes": [
+        "1/2 inch",
+        "3/4 inch",
+        "1 inch",
+        "1.5 inch",
+        "2 inch"
+      ]
     },
     {
       "id": "prod_18",
@@ -240,7 +359,14 @@
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Agri-Pipes.png",
-      "description": "Heavy-duty agriculture PVC pipes for farm irrigation and water distribution."
+      "description": "Heavy-duty agriculture PVC pipes for farm irrigation and water distribution.",
+      "sizes": [
+        "1/2 inch",
+        "3/4 inch",
+        "1 inch",
+        "1.5 inch",
+        "2 inch"
+      ]
     },
     {
       "id": "prod_19",
@@ -248,7 +374,14 @@
       "categoryId": "cat_hdpe",
       "categoryName": "HDPE Pipes",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/hdpe.png",
-      "description": "High-density polyethylene pipes for agriculture water supply. Flexible and durable."
+      "description": "High-density polyethylene pipes for agriculture water supply. Flexible and durable.",
+      "sizes": [
+        "1/2 inch",
+        "3/4 inch",
+        "1 inch",
+        "1.5 inch",
+        "2 inch"
+      ]
     },
     {
       "id": "prod_20",
@@ -256,7 +389,14 @@
       "categoryId": "cat_sprinkler",
       "categoryName": "Sprinkler Pipes",
       "image": "https://www.ganeshgouriindustries.com/images/index/Sprinkler-Pipe.png",
-      "description": "Lightweight sprinkler system pipes for efficient farm water distribution."
+      "description": "Lightweight sprinkler system pipes for efficient farm water distribution.",
+      "sizes": [
+        "1/2 inch",
+        "3/4 inch",
+        "1 inch",
+        "1.5 inch",
+        "2 inch"
+      ]
     },
     {
       "id": "prod_21",
@@ -264,7 +404,14 @@
       "categoryId": "cat_column",
       "categoryName": "Column Pipes",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Column-Pipes.png",
-      "description": "High pressure column pipes for submersible pump installations in bore wells."
+      "description": "High pressure column pipes for submersible pump installations in bore wells.",
+      "sizes": [
+        "1/2 inch",
+        "3/4 inch",
+        "1 inch",
+        "1.5 inch",
+        "2 inch"
+      ]
     },
     {
       "id": "prod_22",
@@ -272,7 +419,10 @@
       "categoryId": "cat_sanitary",
       "categoryName": "Toilet Seat Cover & Flushing Cistern",
       "image": "https://www.ganeshgouriindustries.com/images/index/SANITARY-WARE.png",
-      "description": "High quality plastic flushing cisterns and toilet seat covers for residential bathrooms."
+      "description": "High quality plastic flushing cisterns and toilet seat covers for residential bathrooms.",
+      "sizes": [
+        "Standard"
+      ]
     },
     {
       "id": "prod_23",
@@ -280,7 +430,14 @@
       "categoryId": "cat_eco_drainage",
       "categoryName": "Eco Drainage Pipes",
       "image": "https://www.ganeshgouriindustries.com/images/index/Dranage-Pipe.png",
-      "description": "Eco-friendly lightweight drainage pipes for residential and commercial buildings."
+      "description": "Eco-friendly lightweight drainage pipes for residential and commercial buildings.",
+      "sizes": [
+        "1/2 inch",
+        "3/4 inch",
+        "1 inch",
+        "1.5 inch",
+        "2 inch"
+      ]
     },
     {
       "id": "prod_24",
@@ -288,7 +445,14 @@
       "categoryId": "cat_garden",
       "categoryName": "Garden, Braided & LDPE Pipes",
       "image": "https://www.ganeshgouriindustries.com/images/index/C.png",
-      "description": "Flexible garden hose pipes, braided pipes, and LDPE pipes for domestic & outdoor use."
+      "description": "Flexible garden hose pipes, braided pipes, and LDPE pipes for domestic & outdoor use.",
+      "sizes": [
+        "1/2 inch",
+        "3/4 inch",
+        "1 inch",
+        "1.5 inch",
+        "2 inch"
+      ]
     }
   ],
   "favorites": {

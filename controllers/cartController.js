@@ -11,9 +11,11 @@ exports.getCart = (req, res) => {
       return {
         productId: item.productId,
         quantity: item.quantity,
+        size: item.size || '',
         productName: product ? product.name : 'Unknown Product',
         image: product ? product.image : '',
-        categoryName: product ? product.categoryName : ''
+        categoryName: product ? product.categoryName : '',
+        sizes: product ? (product.sizes || []) : []
       };
     }).filter(item => item.productName !== 'Unknown Product');
 
@@ -26,8 +28,9 @@ exports.getCart = (req, res) => {
 exports.addToCart = (req, res) => {
   try {
     const userId = req.user.id;
-    const { productId, quantity } = req.body;
+    const { productId, quantity, size } = req.body;
     const qty = parseInt(quantity) || 1;
+    const itemSize = size || '';
 
     if (!productId) {
       return res.status(400).json({ success: false, message: 'Product ID is required' });
@@ -38,11 +41,15 @@ exports.addToCart = (req, res) => {
       data.carts[userId] = [];
     }
 
-    const existingIndex = data.carts[userId].findIndex(item => item.productId === productId);
+    const existingIndex = data.carts[userId].findIndex(item => 
+      item.productId === productId && 
+      (item.size === itemSize || (!item.size && !itemSize))
+    );
+
     if (existingIndex >= 0) {
       data.carts[userId][existingIndex].quantity += qty;
     } else {
-      data.carts[userId].push({ productId, quantity: qty });
+      data.carts[userId].push({ productId, quantity: qty, size: itemSize });
     }
 
     writeData(data);
@@ -55,16 +62,23 @@ exports.addToCart = (req, res) => {
 exports.updateQuantity = (req, res) => {
   try {
     const userId = req.user.id;
-    const { productId, quantity } = req.body;
+    const { productId, quantity, size } = req.body;
     const qty = parseInt(quantity);
+    const itemSize = size || '';
 
     const data = readData();
     if (!data.carts[userId]) return res.json({ success: true, cart: [] });
 
-    const item = data.carts[userId].find(i => i.productId === productId);
+    const item = data.carts[userId].find(i => 
+      i.productId === productId && 
+      (i.size === itemSize || (!i.size && !itemSize))
+    );
+
     if (item) {
       if (qty <= 0) {
-        data.carts[userId] = data.carts[userId].filter(i => i.productId !== productId);
+        data.carts[userId] = data.carts[userId].filter(i => 
+          !(i.productId === productId && (i.size === itemSize || (!i.size && !itemSize)))
+        );
       } else {
         item.quantity = qty;
       }
@@ -81,10 +95,14 @@ exports.removeFromCart = (req, res) => {
   try {
     const userId = req.user.id;
     const { productId } = req.params;
+    const { size } = req.query;
+    const itemSize = size || '';
 
     const data = readData();
     if (data.carts[userId]) {
-      data.carts[userId] = data.carts[userId].filter(i => i.productId !== productId);
+      data.carts[userId] = data.carts[userId].filter(i => 
+        !(i.productId === productId && (i.size === itemSize || (!i.size && !itemSize)))
+      );
       writeData(data);
     }
 

@@ -21,6 +21,7 @@ exports.createOrder = (req, res) => {
           productId: item.productId,
           productName: prod ? prod.name : 'Product ' + item.productId,
           quantity: item.quantity,
+          size: item.size || '',
           image: prod ? prod.image : ''
         };
       });
@@ -36,6 +37,7 @@ exports.createOrder = (req, res) => {
           productId: item.productId,
           productName: prod ? prod.name : 'Product ' + item.productId,
           quantity: item.quantity,
+          size: item.size || '',
           image: prod ? prod.image : ''
         };
       });

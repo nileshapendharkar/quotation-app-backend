@@ -40,7 +40,7 @@ exports.getProductById = (req, res) => {
 
 exports.addProduct = (req, res) => {
   try {
-    const { name, image, categoryId, description } = req.body;
+    const { name, image, categoryId, description, sizes } = req.body;
     if (!name || !categoryId) {
       return res.status(400).json({ success: false, message: 'Product Name and Category are required' });
     }
@@ -48,13 +48,18 @@ exports.addProduct = (req, res) => {
     const data = readData();
     const category = data.categories.find(c => c.id === categoryId);
 
+    const parsedSizes = Array.isArray(sizes) 
+      ? sizes 
+      : (sizes ? String(sizes).split(',').map(s => s.trim()).filter(Boolean) : []);
+
     const newProduct = {
       id: 'prod_' + Date.now(),
       name,
       categoryId,
       categoryName: category ? category.name : 'General',
       image: image || 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=500&q=80',
-      description: description || ''
+      description: description || '',
+      sizes: parsedSizes
     };
 
     data.products.push(newProduct);
@@ -69,7 +74,7 @@ exports.addProduct = (req, res) => {
 exports.updateProduct = (req, res) => {
   try {
     const { id } = req.params;
-    const { name, image, categoryId, description } = req.body;
+    const { name, image, categoryId, description, sizes } = req.body;
 
     const data = readData();
     const product = data.products.find(p => p.id === id);
@@ -80,6 +85,11 @@ exports.updateProduct = (req, res) => {
     if (name) product.name = name;
     if (image) product.image = image;
     if (description !== undefined) product.description = description;
+    if (sizes !== undefined) {
+      product.sizes = Array.isArray(sizes) 
+        ? sizes 
+        : (sizes ? String(sizes).split(',').map(s => s.trim()).filter(Boolean) : []);
+    }
 
     if (categoryId) {
       product.categoryId = categoryId;

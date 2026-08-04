@@ -376,8 +376,20 @@ const initialData = {
 function readData() {
   try {
     if (!fs.existsSync(DB_FILE)) {
-      fs.writeFileSync(DB_FILE, JSON.stringify(initialData, null, 2));
-      return initialData;
+      const seeded = { ...initialData };
+      seeded.products = seeded.products.map(prod => {
+        if (prod.sizes) return prod;
+        if (prod.categoryId === 'cat_tanks') {
+          prod.sizes = ["500L", "1000L", "2000L", "5000L", "10000L"];
+        } else if (['cat_cpvc', 'cat_upvc', 'cat_swr', 'cat_casing', 'cat_agri', 'cat_hdpe', 'cat_sprinkler', 'cat_column', 'cat_eco_drainage', 'cat_garden'].includes(prod.categoryId)) {
+          prod.sizes = ["1/2 inch", "3/4 inch", "1 inch", "1.5 inch", "2 inch"];
+        } else {
+          prod.sizes = ["Standard"];
+        }
+        return prod;
+      });
+      fs.writeFileSync(DB_FILE, JSON.stringify(seeded, null, 2));
+      return seeded;
     }
     const raw = fs.readFileSync(DB_FILE, 'utf8');
     return JSON.parse(raw);
