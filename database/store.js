@@ -380,9 +380,9 @@ function readData() {
       seeded.products = seeded.products.map(prod => {
         if (prod.sizes) return prod;
         if (prod.categoryId === 'cat_tanks') {
-          prod.sizes = ["500L", "1000L", "2000L", "5000L", "10000L"];
+          prod.sizes = ["200L", "300L", "500L", "750L", "1000L", "1500L", "2000L", "5000L"];
         } else if (['cat_cpvc', 'cat_upvc', 'cat_swr', 'cat_casing', 'cat_agri', 'cat_hdpe', 'cat_sprinkler', 'cat_column', 'cat_eco_drainage', 'cat_garden'].includes(prod.categoryId)) {
-          prod.sizes = ["1/2 inch", "3/4 inch", "1 inch", "1.5 inch", "2 inch"];
+          prod.sizes = ["1/2 inch", "3/4 inch", "1 inch", "1 1/4 inch", "1 1/2 inch", "1.5 inch", "2 inch", "2 1/2 inch", "3 inch", "4 inch", "5 inch", "6 inch"];
         } else {
           prod.sizes = ["Standard"];
         }
