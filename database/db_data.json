@@ -5,22 +5,22 @@
       "name": "Ganesh Gouri Admin",
       "email": "admin@quotation.com",
       "mobile": "+919699910491",
-      "passwordHash": "$2a$10$wN1iN61K4aF3z44/m.z7yeT2n3TzD5Lg20uV4N4W2n2v0Qz.e7D1e",
+      "passwordHash": "$2a$10$41/Sb9f79KHF0jXWjzvrDe7fm.2Yv5EVxWuf9snFP1pSt8FDoOHKm",
       "role": "admin",
       "companyName": "Ganesh Gouri Industries Pvt. Ltd.",
       "companyAddress": "KH. NO. 55/3, Lihigaon, Kamptee, Nagpur, Maharashtra, 441001",
-      "createdAt": "2026-08-03T13:12:36.011Z"
+      "createdAt": "2026-08-04T04:43:27.532Z"
     },
     {
       "id": "usr_demo",
       "name": "Ramesh Shende",
       "email": "john@example.com",
       "mobile": "+919876543210",
-      "passwordHash": "$2a$10$wN1iN61K4aF3z44/m.z7yeT2n3TzD5Lg20uV4N4W2n2v0Qz.e7D1e",
+      "passwordHash": "$2a$10$41/Sb9f79KHF0jXWjzvrDe7fm.2Yv5EVxWuf9snFP1pSt8FDoOHKm",
       "role": "customer",
       "companyName": "Shende Constructions",
       "companyAddress": "12 Civil Lines, Nagpur, Maharashtra",
-      "createdAt": "2026-08-03T13:12:36.014Z"
+      "createdAt": "2026-08-04T04:43:27.536Z"
     }
   ],
   "categories": [
@@ -335,7 +335,7 @@
       ],
       "status": "Pending",
       "notes": "Urgent: Required for new construction site in Kamptee Road.",
-      "createdAt": "2026-08-01T13:12:36.014Z"
+      "createdAt": "2026-08-02T04:43:27.536Z"
     },
     {
       "id": "ord_1002",
@@ -362,7 +362,7 @@
       ],
       "status": "Dispatched",
       "notes": "Dispatched via Gouri logistics from Nagpur warehouse.",
-      "createdAt": "2026-07-29T13:12:36.014Z"
+      "createdAt": "2026-07-30T04:43:27.536Z"
     }
   ],
   "notifications": [
@@ -371,7 +371,7 @@
       "title": "Welcome to Gouri Aqua Plast",
       "message": "Explore our full range of Water Storage Tanks, UPVC, CPVC, SWR Pipes & Fittings. ISO 9001 certified quality!",
       "targetUser": "all",
-      "createdAt": "2026-08-03T13:12:36.014Z"
+      "createdAt": "2026-08-04T04:43:27.536Z"
     }
   ]
 }

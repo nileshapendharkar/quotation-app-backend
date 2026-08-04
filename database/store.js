@@ -11,7 +11,7 @@ const initialData = {
       name: "Ganesh Gouri Admin",
       email: "admin@quotation.com",
       mobile: "+919699910491",
-      passwordHash: "$2a$10$wN1iN61K4aF3z44/m.z7yeT2n3TzD5Lg20uV4N4W2n2v0Qz.e7D1e", // "admin123"
+      passwordHash: "$2a$10$41/Sb9f79KHF0jXWjzvrDe7fm.2Yv5EVxWuf9snFP1pSt8FDoOHKm", // "admin123"
       role: "admin",
       companyName: "Ganesh Gouri Industries Pvt. Ltd.",
       companyAddress: "KH. NO. 55/3, Lihigaon, Kamptee, Nagpur, Maharashtra, 441001",
@@ -22,7 +22,7 @@ const initialData = {
       name: "Ramesh Shende",
       email: "john@example.com",
       mobile: "+919876543210",
-      passwordHash: "$2a$10$wN1iN61K4aF3z44/m.z7yeT2n3TzD5Lg20uV4N4W2n2v0Qz.e7D1e", // "admin123"
+      passwordHash: "$2a$10$41/Sb9f79KHF0jXWjzvrDe7fm.2Yv5EVxWuf9snFP1pSt8FDoOHKm", // "admin123"
       role: "customer",
       companyName: "Shende Constructions",
       companyAddress: "12 Civil Lines, Nagpur, Maharashtra",
