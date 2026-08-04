@@ -99,183 +99,264 @@
   ],
   "products": [
     {
-      "id": "prod_1",
-      "name": "10 Layer Ora Water Tank",
+      "id": "prod_tank_1",
+      "name": "10 Layer Gold",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "Premium 10-layer orange water storage tank with anti-bacterial protection. Available in 500L to 10000L.",
+      "description": "10 Layer Gold water storage tank. Available in 300L, 500L, 750L, 1000L.",
+      "sizes": [
+        "300L",
+        "500L",
+        "750L",
+        "1000L"
+      ]
+    },
+    {
+      "id": "prod_tank_2",
+      "name": "10 Layer Ora",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "10 Layer Ora water storage tank. Available in 300L, 500L, 750L, 1000L.",
+      "sizes": [
+        "300L",
+        "500L",
+        "750L",
+        "1000L"
+      ]
+    },
+    {
+      "id": "prod_tank_3",
+      "name": "6 Layer White",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "6 Layer White water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 2000L.",
       "sizes": [
         "200L",
         "300L",
         "500L",
         "750L",
         "1000L",
-        "1500L",
+        "2000L"
+      ]
+    },
+    {
+      "id": "prod_tank_4",
+      "name": "6 Layer Green",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "6 Layer Green water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 2000L.",
+      "sizes": [
+        "200L",
+        "300L",
+        "500L",
+        "750L",
+        "1000L",
+        "2000L"
+      ]
+    },
+    {
+      "id": "prod_tank_5",
+      "name": "6 Layer Ora",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "6 Layer Ora water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 2000L.",
+      "sizes": [
+        "200L",
+        "300L",
+        "500L",
+        "750L",
+        "1000L",
+        "2000L"
+      ]
+    },
+    {
+      "id": "prod_tank_6",
+      "name": "6 Layer Gold",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "6 Layer Gold water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 2000L.",
+      "sizes": [
+        "200L",
+        "300L",
+        "500L",
+        "750L",
+        "1000L",
+        "2000L"
+      ]
+    },
+    {
+      "id": "prod_tank_7",
+      "name": "2 Layer Black",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "2 Layer Black water storage tank. Available in 500L, 750L, 1000L.",
+      "sizes": [
+        "500L",
+        "750L",
+        "1000L"
+      ]
+    },
+    {
+      "id": "prod_tank_8",
+      "name": "Loft Tank White",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "Loft Tank White water storage tank. Available in 200L, 300L, 500L, 1000L.",
+      "sizes": [
+        "200L",
+        "300L",
+        "500L",
+        "1000L"
+      ]
+    },
+    {
+      "id": "prod_tank_9",
+      "name": "10 Layer T3 Ora",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "10 Layer T3 Ora water storage tank. Available in 500L, 750L, 1000L, 2000L.",
+      "sizes": [
+        "500L",
+        "750L",
+        "1000L",
+        "2000L"
+      ]
+    },
+    {
+      "id": "prod_tank_10",
+      "name": "6 Layer Double Puff Marble",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "description": "6 Layer Double Puff Marble water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
+      "sizes": [
+        "500L",
+        "750L",
+        "1000L",
         "2000L",
         "5000L"
       ]
     },
     {
-      "id": "prod_2",
-      "name": "10 Layer Gold Water Tank",
+      "id": "prod_tank_11",
+      "name": "6 Layer Double Puff White",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "10-layer gold series water tank with UV protection and food-grade inner layer.",
+      "description": "6 Layer Double Puff White water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
       "sizes": [
-        "200L",
-        "300L",
         "500L",
         "750L",
         "1000L",
-        "1500L",
         "2000L",
         "5000L"
       ]
     },
     {
-      "id": "prod_3",
-      "name": "3 Layer Water Tank",
+      "id": "prod_tank_12",
+      "name": "4 Layer Double Puff Marble",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "Triple layer water tank with black middle layer for UV protection. ISI certified.",
+      "description": "4 Layer Double Puff Marble water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
       "sizes": [
-        "200L",
-        "300L",
         "500L",
         "750L",
         "1000L",
-        "1500L",
         "2000L",
         "5000L"
       ]
     },
     {
-      "id": "prod_4",
-      "name": "2 Layer Roto Water Storage Tank",
+      "id": "prod_tank_13",
+      "name": "4 Layer Double Puff White",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "Durable 2-layer rotomoulded water storage tank for residential use.",
+      "description": "4 Layer Double Puff White water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
       "sizes": [
-        "200L",
-        "300L",
         "500L",
         "750L",
         "1000L",
-        "1500L",
         "2000L",
         "5000L"
       ]
     },
     {
-      "id": "prod_5",
-      "name": "Blow Moulded 4 Layer Orange Water Tank",
+      "id": "prod_tank_14",
+      "name": "3 Layer White",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "Advanced blow moulded 4-layer orange tank for superior structural strength.",
+      "description": "3 Layer White water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
       "sizes": [
-        "200L",
-        "300L",
         "500L",
         "750L",
         "1000L",
-        "1500L",
         "2000L",
         "5000L"
       ]
     },
     {
-      "id": "prod_6",
-      "name": "4 Layer Puff Roto Water Storage Tank",
+      "id": "prod_tank_15",
+      "name": "2 Layer ISI Black",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "4-layer puff insulated rotomoulded tank keeping water cool in extreme summer weather.",
+      "description": "2 Layer ISI Black water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
       "sizes": [
-        "200L",
-        "300L",
         "500L",
         "750L",
         "1000L",
-        "1500L",
         "2000L",
         "5000L"
       ]
     },
     {
-      "id": "prod_7",
-      "name": "6 Layer Puff Roto Water Storage Tank",
+      "id": "prod_tank_16",
+      "name": "2 Layer Black",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "6-layer puff insulated roto tank designed for ultimate thermal regulation.",
+      "description": "2 Layer Black water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
       "sizes": [
-        "200L",
-        "300L",
         "500L",
         "750L",
         "1000L",
-        "1500L",
         "2000L",
         "5000L"
       ]
     },
     {
-      "id": "prod_8",
-      "name": "6 Layer Double Puff Roto Water Storage Tank",
+      "id": "prod_tank_17",
+      "name": "Underground Tank Black",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "Double puff layer technology for maximum heat insulation and durability.",
+      "description": "Underground Tank Black water storage tank. Available in 1000L, 2000L.",
       "sizes": [
-        "200L",
-        "300L",
-        "500L",
-        "750L",
         "1000L",
-        "1500L",
-        "2000L",
-        "5000L"
+        "2000L"
       ]
     },
     {
-      "id": "prod_9",
-      "name": "2 Layer ISI Water Tank",
+      "id": "prod_tank_18",
+      "name": "Loft Tank Black",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "ISI standard approved 2-layer water storage tank for domestic water supply.",
+      "description": "Loft Tank Black water storage tank. Available in 1000L.",
       "sizes": [
-        "200L",
-        "300L",
-        "500L",
-        "750L",
-        "1000L",
-        "1500L",
-        "2000L",
-        "5000L"
-      ]
-    },
-    {
-      "id": "prod_10",
-      "name": "Loft Water Storage Tank",
-      "categoryId": "cat_tanks",
-      "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "Compact loft tank designed for indoor overhead kitchen and bathroom installations. 200L to 500L.",
-      "sizes": [
-        "200L",
-        "300L",
-        "500L",
-        "750L",
-        "1000L",
-        "1500L",
-        "2000L",
-        "5000L"
+        "1000L"
       ]
     },
     {
