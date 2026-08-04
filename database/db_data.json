@@ -95,6 +95,12 @@
       "name": "Garden, Braided & LDPE Pipes",
       "image": "https://www.ganeshgouriindustries.com/images/index/C.png",
       "description": "Flexible garden hose pipes, braided pipes, and LDPE pipes for domestic & outdoor use."
+    },
+    {
+      "id": "cat_solvent",
+      "name": "Solvent Cement & Lubricants",
+      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "description": "High-quality CPVC, UPVC, and PVC solvent cements and lubricants for secure leak-proof joint connections."
     }
   ],
   "products": [
@@ -2235,6 +2241,121 @@
         "4 inch",
         "5 inch",
         "6 inch"
+      ]
+    },
+    {
+      "id": "prod_solvent_1",
+      "name": "CPVC SOLVENT CEMENT (TIN)",
+      "categoryId": "cat_solvent",
+      "categoryName": "Solvent Cement & Lubricants",
+      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "description": "CPVC SOLVENT CEMENT (TIN). Available packaging sizes: 59ML, 118ML, 237ML.",
+      "sizes": [
+        "59ML",
+        "118ML",
+        "237ML"
+      ]
+    },
+    {
+      "id": "prod_solvent_2",
+      "name": "UPVC SOLVENT CEMENT (TIN)",
+      "categoryId": "cat_solvent",
+      "categoryName": "Solvent Cement & Lubricants",
+      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "description": "UPVC SOLVENT CEMENT (TIN). Available packaging sizes: 59ML, 118ML, 237ML.",
+      "sizes": [
+        "59ML",
+        "118ML",
+        "237ML"
+      ]
+    },
+    {
+      "id": "prod_solvent_3",
+      "name": "CPVC SOLVENT CEMENT (PLASTIC BOTTLE)",
+      "categoryId": "cat_solvent",
+      "categoryName": "Solvent Cement & Lubricants",
+      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "description": "CPVC SOLVENT CEMENT (PLASTIC BOTTLE). Available packaging sizes: 50ML, 100ML, 250ML.",
+      "sizes": [
+        "50ML",
+        "100ML",
+        "250ML"
+      ]
+    },
+    {
+      "id": "prod_solvent_4",
+      "name": "UPVC SOLVENT CEMENT (PLASTIC BOTTLE)",
+      "categoryId": "cat_solvent",
+      "categoryName": "Solvent Cement & Lubricants",
+      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "description": "UPVC SOLVENT CEMENT (PLASTIC BOTTLE). Available packaging sizes: 50ML, 100ML, 250ML.",
+      "sizes": [
+        "50ML",
+        "100ML",
+        "250ML"
+      ]
+    },
+    {
+      "id": "prod_solvent_5",
+      "name": "PVC SOLVENT CEMENT (PLASTIC BOTTLE)",
+      "categoryId": "cat_solvent",
+      "categoryName": "Solvent Cement & Lubricants",
+      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "description": "PVC SOLVENT CEMENT (PLASTIC BOTTLE). Available packaging sizes: 50ML, 100ML, 250ML.",
+      "sizes": [
+        "50ML",
+        "100ML",
+        "250ML"
+      ]
+    },
+    {
+      "id": "prod_solvent_6",
+      "name": "CPVC SOLVENT CEMENT (TUBE)",
+      "categoryId": "cat_solvent",
+      "categoryName": "Solvent Cement & Lubricants",
+      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "description": "CPVC SOLVENT CEMENT (TUBE). Available packaging sizes: 10ML, 25ML.",
+      "sizes": [
+        "10ML",
+        "25ML"
+      ]
+    },
+    {
+      "id": "prod_solvent_7",
+      "name": "UPVC SOLVENT CEMENT (TUBE)",
+      "categoryId": "cat_solvent",
+      "categoryName": "Solvent Cement & Lubricants",
+      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "description": "UPVC SOLVENT CEMENT (TUBE). Available packaging sizes: 10ML, 25ML.",
+      "sizes": [
+        "10ML",
+        "25ML"
+      ]
+    },
+    {
+      "id": "prod_solvent_8",
+      "name": "ECO - PVC SOLVENT CEMENT (PLASTIC BOTTLE)",
+      "categoryId": "cat_solvent",
+      "categoryName": "Solvent Cement & Lubricants",
+      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "description": "ECO - PVC SOLVENT CEMENT (PLASTIC BOTTLE). Available packaging sizes: 25ML, 50ML, 100ML.",
+      "sizes": [
+        "25ML",
+        "50ML",
+        "100ML"
+      ]
+    },
+    {
+      "id": "prod_solvent_9",
+      "name": "RUBBER LUBRICANT (PLASTIC BOTTLE)",
+      "categoryId": "cat_solvent",
+      "categoryName": "Solvent Cement & Lubricants",
+      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "description": "RUBBER LUBRICANT (PLASTIC BOTTLE). Available packaging sizes: 50ML, 100ML, 250ML.",
+      "sizes": [
+        "50ML",
+        "100ML",
+        "250ML"
       ]
     }
   ],
