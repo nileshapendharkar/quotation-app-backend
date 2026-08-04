@@ -892,47 +892,534 @@
       ]
     },
     {
-      "id": "prod_13",
-      "name": "UPVC Plumbing Pipes (Sch 40 & 80)",
+      "id": "prod_upvc_1",
+      "name": "UPVC- SCH-40 PIPE",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
-      "description": "Lead-free, UV stabilized ASTM UPVC pipes. Sizes 15mm to 50mm, lengths 3m & 6m.",
+      "description": "UPVC- SCH-40 PIPE. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
-        "1/2 inch",
-        "3/4 inch",
-        "1 inch",
-        "1 1/4 inch",
-        "1 1/2 inch",
-        "1.5 inch",
-        "2 inch",
-        "2 1/2 inch",
-        "3 inch",
-        "4 inch",
-        "5 inch",
-        "6 inch"
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
       ]
     },
     {
-      "id": "prod_14",
-      "name": "UPVC Pipe Fittings",
+      "id": "prod_upvc_2",
+      "name": "UPVC- SCH-80 PIPE",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
-      "description": "Full range of UPVC fittings - elbows, tees, couplers, reducers.",
+      "description": "UPVC- SCH-80 PIPE. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
-        "1/2 inch",
-        "3/4 inch",
-        "1 inch",
-        "1 1/4 inch",
-        "1 1/2 inch",
-        "1.5 inch",
-        "2 inch",
-        "2 1/2 inch",
-        "3 inch",
-        "4 inch",
-        "5 inch",
-        "6 inch"
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_3",
+      "name": "UPVC- SCH-80 THREADED PIPE",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- SCH-80 THREADED PIPE. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_4",
+      "name": "UPVC- REDUCING COUPLER",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- REDUCING COUPLER. Available sizes: 3/4 X 1/2, 1 X 1/2, 1 X 3/4, 1 1/4 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
+      "sizes": [
+        "3/4 X 1/2",
+        "1 X 1/2",
+        "1 X 3/4",
+        "1 1/4 X 3/4",
+        "1 1/4 X 1",
+        "1 1/2 X 3/4",
+        "1 1/2 X 1",
+        "1 1/2 X 1 1/4",
+        "2 X 3/4",
+        "2 X 1",
+        "2 X 1 1/4",
+        "2 X 1 1/2"
+      ]
+    },
+    {
+      "id": "prod_upvc_5",
+      "name": "UPVC- REDUCING TEE",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- REDUCING TEE. Available sizes: 3/4 X 1/2, 1 X 1/2, 1 X 3/4, 1 1/4 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
+      "sizes": [
+        "3/4 X 1/2",
+        "1 X 1/2",
+        "1 X 3/4",
+        "1 1/4 X 3/4",
+        "1 1/4 X 1",
+        "1 1/2 X 3/4",
+        "1 1/2 X 1",
+        "1 1/2 X 1 1/4",
+        "2 X 3/4",
+        "2 X 1",
+        "2 X 1 1/4",
+        "2 X 1 1/2"
+      ]
+    },
+    {
+      "id": "prod_upvc_6",
+      "name": "UPVC- REDUCING BUSH",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- REDUCING BUSH. Available sizes: 3/4 X 1/2, 1 X 1/2, 1 X 3/4, 1 1/4 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
+      "sizes": [
+        "3/4 X 1/2",
+        "1 X 1/2",
+        "1 X 3/4",
+        "1 1/4 X 3/4",
+        "1 1/4 X 1",
+        "1 1/2 X 3/4",
+        "1 1/2 X 1",
+        "1 1/2 X 1 1/4",
+        "2 X 3/4",
+        "2 X 1",
+        "2 X 1 1/4",
+        "2 X 1 1/2"
+      ]
+    },
+    {
+      "id": "prod_upvc_7",
+      "name": "UPVC- ELBOW 90",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- ELBOW 90. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_8",
+      "name": "UPVC- TEE",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- TEE. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_9",
+      "name": "UPVC- COUPLER",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- COUPLER. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_10",
+      "name": "UPVC- BEND 45",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- BEND 45. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_11",
+      "name": "UPVC- MTA",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- MTA. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_12",
+      "name": "UPVC- FTA",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- FTA. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_13",
+      "name": "UPVC- TANK NIPPLE (SOCKETED)",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- TANK NIPPLE (SOCKETED). Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_14",
+      "name": "UPVC- TANK NIPPLE (THREADED)",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- TANK NIPPLE (THREADED). Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_15",
+      "name": "UPVC- BRASS MTA",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- BRASS MTA. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_16",
+      "name": "UPVC- BRASS FTA",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- BRASS FTA. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_17",
+      "name": "UPVC- END CAP",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- END CAP. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_18",
+      "name": "UPVC- UNION",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- UNION. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_19",
+      "name": "UPVC- NAIL CLAMP",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- NAIL CLAMP. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_20",
+      "name": "UPVC- METAL CLAMP",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- METAL CLAMP. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_21",
+      "name": "UPVC- REDUCING ELBOW 90",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- REDUCING ELBOW 90. Available sizes: 1 X 1/2, 1 X 3/4, 3/4 X 1/2.",
+      "sizes": [
+        "1 X 1/2",
+        "1 X 3/4",
+        "3/4 X 1/2"
+      ]
+    },
+    {
+      "id": "prod_upvc_22",
+      "name": "UPVC- CROSS TEE",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- CROSS TEE. Available sizes: 1/2, 3/4, 1.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1"
+      ]
+    },
+    {
+      "id": "prod_upvc_23",
+      "name": "UPVC- STEP OVER BEND",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- STEP OVER BEND. Available sizes: 1/2, 3/4, 1.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1"
+      ]
+    },
+    {
+      "id": "prod_upvc_24",
+      "name": "UPVC- BRASS TEE",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- BRASS TEE. Available sizes: 1/2, 3/4, 1.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1"
+      ]
+    },
+    {
+      "id": "prod_upvc_25",
+      "name": "UPVC- BRASS ELBOW 90",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- BRASS ELBOW 90. Available sizes: 1/2, 3/4, 1.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1"
+      ]
+    },
+    {
+      "id": "prod_upvc_26",
+      "name": "UPVC- BALL VALVE (SHORT HANDLE)",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- BALL VALVE (SHORT HANDLE). Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_27",
+      "name": "UPVC- BALL VALVE (LONG HANDLE)",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- BALL VALVE (LONG HANDLE). Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
+      ]
+    },
+    {
+      "id": "prod_upvc_28",
+      "name": "UPVC- UNION BALL VALVE (SHORT HANDLE)",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- UNION BALL VALVE (SHORT HANDLE). Available sizes: 3/4, 1.",
+      "sizes": [
+        "3/4",
+        "1"
+      ]
+    },
+    {
+      "id": "prod_upvc_29",
+      "name": "UPVC- UNION BALL VALVE (LONG HANDLE)",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- UNION BALL VALVE (LONG HANDLE). Available sizes: 1/2, 3/4, 1.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1"
+      ]
+    },
+    {
+      "id": "prod_upvc_30",
+      "name": "UPVC- CONCEALED VALVE (FULL TURN)",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- CONCEALED VALVE (FULL TURN). Available sizes: 1/2, 3/4, 1.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1"
+      ]
+    },
+    {
+      "id": "prod_upvc_31",
+      "name": "UPVC- NRV",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- NRV. Available sizes: 1/2, 3/4, 1.",
+      "sizes": [
+        "1/2",
+        "3/4",
+        "1"
+      ]
+    },
+    {
+      "id": "prod_upvc_32",
+      "name": "UPVC- REDUCING BRASS ELBOW 90",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- REDUCING BRASS ELBOW 90. Available sizes: 3/4 X 1/2.",
+      "sizes": [
+        "3/4 X 1/2"
+      ]
+    },
+    {
+      "id": "prod_upvc_33",
+      "name": "UPVC- THREADED ELBOW 90",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- THREADED ELBOW 90. Available sizes: 1/2.",
+      "sizes": [
+        "1/2"
+      ]
+    },
+    {
+      "id": "prod_upvc_34",
+      "name": "UPVC- REDUCING BRASS TEE",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- REDUCING BRASS TEE. Available sizes: 3/4 X 1/2, 1 X 1/2.",
+      "sizes": [
+        "3/4 X 1/2",
+        "1 X 1/2"
+      ]
+    },
+    {
+      "id": "prod_upvc_35",
+      "name": "UPVC- END PLUG",
+      "categoryId": "cat_upvc",
+      "categoryName": "UPVC Pipes & Fittings",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "description": "UPVC- END PLUG. Available sizes: 1/2.",
+      "sizes": [
+        "1/2"
       ]
     },
     {
