@@ -43,97 +43,97 @@
     {
       "id": "cat_tanks",
       "name": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "image": "/images/categories/cat_tanks.png",
       "description": "Multi-layer water storage tanks for domestic, commercial, and industrial use. ISO 9001 certified."
     },
     {
       "id": "cat_cpvc",
       "name": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/categories/cat_cpvc.png",
       "description": "Hot & cold water CPVC piping systems for residential and commercial plumbing."
     },
     {
       "id": "cat_upvc",
       "name": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/categories/cat_upvc.png",
       "description": "Lead-free, UV stabilized ASTM UPVC pipes for potable water and plumbing applications."
     },
     {
       "id": "cat_swr",
       "name": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/categories/cat_swr.png",
       "description": "Soil, waste, and rainwater drainage pipe systems for buildings and infrastructure."
     },
     {
       "id": "cat_casing",
       "name": "UPVC CASING PIPES",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Casing-Pipe.png",
+      "image": "/images/categories/cat_casing.png",
       "description": "Bore well casing pipes in blue colour for tube well applications."
     },
     {
       "id": "cat_agri",
       "name": "Agriculture Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Agri-Pipes.png",
+      "image": "/images/categories/cat_agri.png",
       "description": "Durable agriculture PVC pipes for farming irrigation and water supply."
     },
     {
       "id": "cat_hdpe",
       "name": "HDPE PIPE & FITTINGS",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/hdpe.png",
+      "image": "/images/categories/cat_hdpe.png",
       "description": "High-density polyethylene pipes for agriculture water supply and industrial use."
     },
     {
       "id": "cat_sprinkler",
       "name": "Sprinkler Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/Sprinkler-Pipe.png",
+      "image": "/images/categories/cat_sprinkler.png",
       "description": "Lightweight sprinkler irrigation pipes for efficient farm water distribution."
     },
     {
       "id": "cat_column",
       "name": "UPVC COLUMN PIPES",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Column-Pipes.png",
+      "image": "/images/categories/cat_column.png",
       "description": "High-strength column pipes for submersible pump installations in bore wells."
     },
     {
       "id": "cat_sanitary",
       "name": "Toilet Seat Cover & Flushing Cistern",
-      "image": "https://www.ganeshgouriindustries.com/images/index/SANITARY-WARE.png",
+      "image": "/images/categories/cat_sanitary.png",
       "description": "Moulded toilet seat covers and flushing cisterns for modern bathrooms."
     },
     {
       "id": "cat_eco_drainage",
       "name": "Eco Drainage Pipes",
-      "image": "https://www.ganeshgouriindustries.com/images/index/Dranage-Pipe.png",
+      "image": "/images/categories/cat_eco_drainage.png",
       "description": "Eco-friendly lightweight drainage pipes for residential and commercial buildings."
     },
     {
       "id": "cat_garden",
       "name": "Garden, Braided & LDPE Pipes",
-      "image": "https://www.ganeshgouriindustries.com/images/index/C.png",
+      "image": "/images/categories/cat_garden.png",
       "description": "Flexible garden hose pipes, braided pipes, and LDPE pipes for domestic & outdoor use."
     },
     {
       "id": "cat_solvent",
       "name": "Solvent Cement & Lubricants",
-      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "image": "/images/categories/cat_solvent.png",
       "description": "High-quality CPVC, UPVC, and PVC solvent cements and lubricants for secure leak-proof joint connections."
     },
     {
       "id": "cat_drip",
       "name": "DRIP IRRIGATION SYSTEM",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/drip.png",
+      "image": "/images/categories/cat_drip.png",
       "description": "High-efficiency drip irrigation pipes and lateral systems for modern farming."
     },
     {
       "id": "cat_household",
       "name": "HOUSEHOLD PRODUCTS",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/household.png",
+      "image": "/images/categories/cat_household.png",
       "description": "Durable multipurpose and construction ghamelas and household plastic products."
     },
     {
       "id": "cat_faucets",
       "name": "FAUCETS",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/faucet.png",
+      "image": "/images/categories/cat_faucets.png",
       "description": "Premium Edge, Smart, and Regular series bathroom & kitchen faucets, bib taps, and valves."
     }
   ],
