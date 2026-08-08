@@ -4,12 +4,14 @@
       "id": "usr_admin",
       "name": "Ganesh Gouri Admin",
       "email": "admin@quotation.com",
-      "mobile": "+919699910491",
-      "passwordHash": "$2a$10$41/Sb9f79KHF0jXWjzvrDe7fm.2Yv5EVxWuf9snFP1pSt8FDoOHKm",
+      "mobile": "Admin",
+      "passwordHash": "$2a$10$Y4hhGZDxRBK86ri5MKTchOngDY48TsNJRl0DdlnNEJ4h9QN3cWY8e",
       "role": "admin",
       "companyName": "Ganesh Gouri Industries Pvt. Ltd.",
       "companyAddress": "KH. NO. 55/3, Lihigaon, Kamptee, Nagpur, Maharashtra, 441001",
-      "createdAt": "2026-08-04T04:43:27.532Z"
+      "createdAt": "2026-08-04T04:43:27.532Z",
+      "userId": "Admin",
+      "plainPassword": "GGi#4321"
     },
     {
       "id": "usr_demo",
@@ -21,6 +23,20 @@
       "companyName": "Shende Constructions",
       "companyAddress": "12 Civil Lines, Nagpur, Maharashtra",
       "createdAt": "2026-08-04T04:43:27.536Z"
+    },
+    {
+      "id": "usr_1786187974730",
+      "userId": "9225087140",
+      "mobile": "9225087140",
+      "name": "Gouri Aqua Plast Customer",
+      "email": "9225087140@app.com",
+      "plainPassword": "GGi#4321",
+      "passwordHash": "$2a$10$PqcjtPcxkwWevlr2cSWUUO5lUgXk2AuBKSN5eng63850ZqKgqZ.B6",
+      "role": "customer",
+      "status": "Active",
+      "companyName": "Gouri Aqua Plast",
+      "companyAddress": "Nagpur, Maharashtra",
+      "createdAt": "2026-08-08T11:19:34.730Z"
     }
   ],
   "categories": [
@@ -50,7 +66,7 @@
     },
     {
       "id": "cat_casing",
-      "name": "Casing Pipes - Blue",
+      "name": "UPVC CASING PIPES",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Casing-Pipe.png",
       "description": "Bore well casing pipes in blue colour for tube well applications."
     },
@@ -62,19 +78,19 @@
     },
     {
       "id": "cat_hdpe",
-      "name": "HDPE Pipes",
+      "name": "HDPE PIPE & FITTINGS",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/hdpe.png",
       "description": "High-density polyethylene pipes for agriculture water supply and industrial use."
     },
     {
       "id": "cat_sprinkler",
-      "name": "Sprinkler Pipes",
+      "name": "Sprinkler Pipes & Fittings",
       "image": "https://www.ganeshgouriindustries.com/images/index/Sprinkler-Pipe.png",
       "description": "Lightweight sprinkler irrigation pipes for efficient farm water distribution."
     },
     {
       "id": "cat_column",
-      "name": "Column Pipes",
+      "name": "UPVC COLUMN PIPES",
       "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Column-Pipes.png",
       "description": "High-strength column pipes for submersible pump installations in bore wells."
     },
@@ -101,16 +117,34 @@
       "name": "Solvent Cement & Lubricants",
       "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
       "description": "High-quality CPVC, UPVC, and PVC solvent cements and lubricants for secure leak-proof joint connections."
+    },
+    {
+      "id": "cat_drip",
+      "name": "DRIP IRRIGATION SYSTEM",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/drip.png",
+      "description": "High-efficiency drip irrigation pipes and lateral systems for modern farming."
+    },
+    {
+      "id": "cat_household",
+      "name": "HOUSEHOLD PRODUCTS",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/household.png",
+      "description": "Durable multipurpose and construction ghamelas and household plastic products."
+    },
+    {
+      "id": "cat_faucets",
+      "name": "FAUCETS",
+      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/faucet.png",
+      "description": "Premium Edge, Smart, and Regular series bathroom & kitchen faucets, bib taps, and valves."
     }
   ],
   "products": [
     {
       "id": "prod_tank_1",
-      "name": "10 Layer Gold",
+      "name": "Blow 10 Layer Gold",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "10 Layer Gold water storage tank. Available in 300L, 500L, 750L, 1000L.",
+      "image": "/images/tanks/Blow 10 Layer Gold.png",
+      "description": "Blow 10 Layer Gold water storage tank. Available in 300L, 500L, 750L, 1000L.",
       "sizes": [
         "300L",
         "500L",
@@ -120,11 +154,11 @@
     },
     {
       "id": "prod_tank_2",
-      "name": "10 Layer Ora",
+      "name": "Blow 10 Layer Ora",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "10 Layer Ora water storage tank. Available in 300L, 500L, 750L, 1000L.",
+      "image": "/images/tanks/Blow 10 Layer Ora.png",
+      "description": "Blow 10 Layer Ora water storage tank. Available in 300L, 500L, 750L, 1000L.",
       "sizes": [
         "300L",
         "500L",
@@ -134,11 +168,11 @@
     },
     {
       "id": "prod_tank_3",
-      "name": "6 Layer White",
+      "name": "Blow 6 Layer White",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "6 Layer White water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 2000L.",
+      "image": "/images/tanks/Blow 6 Layer White.png",
+      "description": "Blow 6 Layer White water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 2000L.",
       "sizes": [
         "200L",
         "300L",
@@ -150,11 +184,11 @@
     },
     {
       "id": "prod_tank_4",
-      "name": "6 Layer Green",
+      "name": "Blow 6 Layer Green",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "6 Layer Green water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 2000L.",
+      "image": "/images/tanks/Blow 6 Layer Green.png",
+      "description": "Blow 6 Layer Green water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 2000L.",
       "sizes": [
         "200L",
         "300L",
@@ -166,11 +200,11 @@
     },
     {
       "id": "prod_tank_5",
-      "name": "6 Layer Ora",
+      "name": "Blow 6 Layer Ora",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "6 Layer Ora water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 2000L.",
+      "image": "/images/tanks/Blow 6 Layer Ora.png",
+      "description": "Blow 6 Layer Ora water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 2000L.",
       "sizes": [
         "200L",
         "300L",
@@ -182,11 +216,11 @@
     },
     {
       "id": "prod_tank_6",
-      "name": "6 Layer Gold",
+      "name": "Blow 6 Layer Gold",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "6 Layer Gold water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 2000L.",
+      "image": "/images/tanks/Blow 6 Layer Gold.png",
+      "description": "Blow 6 Layer Gold water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 2000L.",
       "sizes": [
         "200L",
         "300L",
@@ -198,11 +232,11 @@
     },
     {
       "id": "prod_tank_7",
-      "name": "2 Layer Black",
+      "name": "Blow 2 Layer Black",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "2 Layer Black water storage tank. Available in 500L, 750L, 1000L.",
+      "image": "/images/tanks/Blow 2 Layer Black.png",
+      "description": "Blow 2 Layer Black water storage tank. Available in 500L, 750L, 1000L.",
       "sizes": [
         "500L",
         "750L",
@@ -214,7 +248,7 @@
       "name": "Loft Tank White",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "image": "/images/tanks/Loft Tank White.png",
       "description": "Loft Tank White water storage tank. Available in 200L, 300L, 500L, 1000L.",
       "sizes": [
         "200L",
@@ -225,11 +259,11 @@
     },
     {
       "id": "prod_tank_9",
-      "name": "10 Layer T3 Ora",
+      "name": "Roto 10 Layer T3 Ora",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "10 Layer T3 Ora water storage tank. Available in 500L, 750L, 1000L, 2000L.",
+      "image": "/images/tanks/Roto 10 Layer T3 Ora.png",
+      "description": "Roto 10 Layer T3 Ora water storage tank. Available in 500L, 750L, 1000L, 2000L.",
       "sizes": [
         "500L",
         "750L",
@@ -239,11 +273,11 @@
     },
     {
       "id": "prod_tank_10",
-      "name": "6 Layer Double Puff Marble",
+      "name": "Roto 6 Layer Double Puff Marble",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "6 Layer Double Puff Marble water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
+      "image": "/images/tanks/Roto 6 Layer Double Puff Marble.png",
+      "description": "Roto 6 Layer Double Puff Marble water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
       "sizes": [
         "500L",
         "750L",
@@ -254,11 +288,11 @@
     },
     {
       "id": "prod_tank_11",
-      "name": "6 Layer Double Puff White",
+      "name": "Roto 6 Layer Double Puff White",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "6 Layer Double Puff White water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
+      "image": "/images/tanks/Roto 6 Layer Double Puff White.png",
+      "description": "Roto 6 Layer Double Puff White water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
       "sizes": [
         "500L",
         "750L",
@@ -269,11 +303,11 @@
     },
     {
       "id": "prod_tank_12",
-      "name": "4 Layer Double Puff Marble",
+      "name": "Roto 4 Layer Double Puff Marble",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "4 Layer Double Puff Marble water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
+      "image": "/images/tanks/Roto 4 Layer Double Puff Marble.png",
+      "description": "Roto 4 Layer Double Puff Marble water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
       "sizes": [
         "500L",
         "750L",
@@ -284,11 +318,11 @@
     },
     {
       "id": "prod_tank_13",
-      "name": "4 Layer Double Puff White",
+      "name": "Roto 4 Layer Double Puff White",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "4 Layer Double Puff White water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
+      "image": "/images/tanks/Roto 4 Layer Double Puff White.png",
+      "description": "Roto 4 Layer Double Puff White water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
       "sizes": [
         "500L",
         "750L",
@@ -299,11 +333,11 @@
     },
     {
       "id": "prod_tank_14",
-      "name": "3 Layer White",
+      "name": "Roto 3 Layer White",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "3 Layer White water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
+      "image": "/images/tanks/Roto 3 Layer White.png",
+      "description": "Roto 3 Layer White water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
       "sizes": [
         "500L",
         "750L",
@@ -314,11 +348,11 @@
     },
     {
       "id": "prod_tank_15",
-      "name": "2 Layer ISI Black",
+      "name": "Roto 2 Layer ISI Black",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "2 Layer ISI Black water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
+      "image": "/images/tanks/Roto 2 Layer ISI Black.png",
+      "description": "Roto 2 Layer ISI Black water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
       "sizes": [
         "500L",
         "750L",
@@ -329,11 +363,11 @@
     },
     {
       "id": "prod_tank_16",
-      "name": "2 Layer Black",
+      "name": "Roto 2 Layer Black",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
-      "description": "2 Layer Black water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
+      "image": "/images/tanks/Roto 2 Layer Black.png",
+      "description": "Roto 2 Layer Black water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
       "sizes": [
         "500L",
         "750L",
@@ -347,7 +381,7 @@
       "name": "Underground Tank Black",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "image": "/images/tanks/Underground Tank Black.png",
       "description": "Underground Tank Black water storage tank. Available in 1000L, 2000L.",
       "sizes": [
         "1000L",
@@ -359,7 +393,7 @@
       "name": "Loft Tank Black",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      "image": "/images/tanks/Loft Tank Black.png",
       "description": "Loft Tank Black water storage tank. Available in 1000L.",
       "sizes": [
         "1000L"
@@ -370,7 +404,7 @@
       "name": "CPVC - SDR-13.5 Pipe ISI",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - SDR-13.5 Pipe ISI.png",
       "description": "CPVC - SDR-13.5 Pipe ISI. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -386,7 +420,7 @@
       "name": "CPVC - SDR-11 Pipe ISI",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - SDR-11 Pipe ISI.png",
       "description": "CPVC - SDR-11 Pipe ISI. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -402,7 +436,7 @@
       "name": "CPVC - SCH-80 Pipe",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - SCH-80 Pipe.png",
       "description": "CPVC - SCH-80 Pipe. Available sizes: 2 1/2, 3, 4.",
       "sizes": [
         "2 1/2",
@@ -415,7 +449,7 @@
       "name": "CPVC - SCH-40 Pipe",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - SCH-40 Pipe.png",
       "description": "CPVC - SCH-40 Pipe. Available sizes: 2 1/2, 3, 4.",
       "sizes": [
         "2 1/2",
@@ -428,7 +462,7 @@
       "name": "CPVC - Coupler",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Coupler.png",
       "description": "CPVC - Coupler. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
@@ -443,7 +477,7 @@
       "name": "CPVC - End Cap",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - End Cap.png",
       "description": "CPVC - End Cap. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
@@ -458,7 +492,7 @@
       "name": "CPVC - Metal Clamp",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Metal Clamp.png",
       "description": "CPVC - Metal Clamp. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
@@ -473,7 +507,7 @@
       "name": "CPVC - Elbow 90",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Elbow 90.png",
       "description": "CPVC - Elbow 90. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
@@ -488,7 +522,7 @@
       "name": "CPVC - MTA",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - MTA.png",
       "description": "CPVC - MTA. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
@@ -503,7 +537,7 @@
       "name": "CPVC - Bend 45",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Bend 45.png",
       "description": "CPVC - Bend 45. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
@@ -518,7 +552,7 @@
       "name": "CPVC - FTA",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - FTA.png",
       "description": "CPVC - FTA. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
@@ -533,7 +567,7 @@
       "name": "CPVC - Nail Clamp",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Nail Clamp.png",
       "description": "CPVC - Nail Clamp. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
@@ -548,7 +582,7 @@
       "name": "CPVC - Tee",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Tee.png",
       "description": "CPVC - Tee. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
@@ -563,7 +597,7 @@
       "name": "CPVC - Brass FTA",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Brass FTA.png",
       "description": "CPVC - Brass FTA. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
@@ -578,7 +612,7 @@
       "name": "CPVC - Cross Tee",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Cross Tee.png",
       "description": "CPVC - Cross Tee. Available sizes: 3/4, 1, 1 1/4.",
       "sizes": [
         "3/4",
@@ -591,7 +625,7 @@
       "name": "CPVC - Tank Nipple (Socketed)",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Tank Nipple (Socketed).png",
       "description": "CPVC - Tank Nipple (Socketed). Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
@@ -606,7 +640,7 @@
       "name": "CPVC - Brass MTA",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Brass MTA.png",
       "description": "CPVC - Brass MTA. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
@@ -621,7 +655,7 @@
       "name": "CPVC - Tank Nipple (Threaded)",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Tank Nipple (Threaded).png",
       "description": "CPVC - Tank Nipple (Threaded). Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
@@ -636,7 +670,7 @@
       "name": "CPVC - Union",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Union.png",
       "description": "CPVC - Union. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
@@ -651,7 +685,7 @@
       "name": "CPVC - Reducing Elbow 90",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Reducing Elbow 90.png",
       "description": "CPVC - Reducing Elbow 90. Available sizes: 1 X 1/2, 1 X 3/4.",
       "sizes": [
         "1 X 1/2",
@@ -663,7 +697,7 @@
       "name": "CPVC - Transition Bush",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Transition Bush.png",
       "description": "CPVC - Transition Bush. Available sizes: 3/4, 1.",
       "sizes": [
         "3/4",
@@ -675,7 +709,7 @@
       "name": "CPVC - Concealed Valve (Quarter Turn)",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Concealed Valve (Quarter Turn).png",
       "description": "CPVC - Concealed Valve (Quarter Turn). Available sizes: 3/4, 1.",
       "sizes": [
         "3/4",
@@ -687,7 +721,7 @@
       "name": "CPVC - Concealed Valve (Full Turn)",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Concealed Valve (Full Turn).png",
       "description": "CPVC - Concealed Valve (Full Turn). Available sizes: 3/4, 1.",
       "sizes": [
         "3/4",
@@ -699,7 +733,7 @@
       "name": "CPVC - End Plug",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - End Plug.png",
       "description": "CPVC - End Plug. Available sizes: 3/4.",
       "sizes": [
         "3/4"
@@ -710,7 +744,7 @@
       "name": "CPVC - 3 In 1 Mixer Adaptor 6",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - 3 In 1 Mixer Adaptor 6.png",
       "description": "CPVC - 3 In 1 Mixer Adaptor 6. Available sizes: 3/4 X 1/2.",
       "sizes": [
         "3/4 X 1/2"
@@ -721,7 +755,7 @@
       "name": "CPVC - 3 In 1 Mixer Frame 6",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - 3 In 1 Mixer Frame 6.png",
       "description": "CPVC - 3 In 1 Mixer Frame 6. Available sizes: 3/4 X 1/2.",
       "sizes": [
         "3/4 X 1/2"
@@ -732,7 +766,7 @@
       "name": "CPVC - Reducing FTA Hexa Brass",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Reducing FTA Hexa Brass.png",
       "description": "CPVC - Reducing FTA Hexa Brass. Available sizes: 3/4 X 1/2.",
       "sizes": [
         "3/4 X 1/2"
@@ -743,7 +777,7 @@
       "name": "CPVC - Reducing Brass MTA",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Reducing Brass MTA.png",
       "description": "CPVC - Reducing Brass MTA. Available sizes: 3/4 X 1/2, 1 X 1/2.",
       "sizes": [
         "3/4 X 1/2",
@@ -755,7 +789,7 @@
       "name": "CPVC - Reducing Brass FTA",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Reducing Brass FTA.png",
       "description": "CPVC - Reducing Brass FTA. Available sizes: 3/4 X 1/2, 1 X 1/2.",
       "sizes": [
         "3/4 X 1/2",
@@ -767,7 +801,7 @@
       "name": "CPVC - Reducing Brass Tee",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Reducing Brass Tee.png",
       "description": "CPVC - Reducing Brass Tee. Available sizes: 3/4 X 1/2, 1 X 1/2, 1 X 1/4.",
       "sizes": [
         "3/4 X 1/2",
@@ -780,7 +814,7 @@
       "name": "CPVC - Step Over Bend (Moulded)",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Step Over Bend (Moulded).png",
       "description": "CPVC - Step Over Bend (Moulded). Available sizes: 3/4, 1, 1 1/4.",
       "sizes": [
         "3/4",
@@ -793,7 +827,7 @@
       "name": "CPVC - Step Over Bend",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Step Over Bend.png",
       "description": "CPVC - Step Over Bend. Available sizes: 3/4, 1.",
       "sizes": [
         "3/4",
@@ -805,7 +839,7 @@
       "name": "CPVC - NRV",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - NRV.png",
       "description": "CPVC - NRV. Available sizes: 3/4, 1, 1 1/4.",
       "sizes": [
         "3/4",
@@ -818,7 +852,7 @@
       "name": "CPVC - Brass Tee",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Brass Tee.png",
       "description": "CPVC - Brass Tee. Available sizes: 3/4, 1.",
       "sizes": [
         "3/4",
@@ -830,7 +864,7 @@
       "name": "CPVC - Reducing MTA Hexa Brass",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Reducing MTA Hexa Brass.png",
       "description": "CPVC - Reducing MTA Hexa Brass. Available sizes: 3/4 X 1/2.",
       "sizes": [
         "3/4 X 1/2"
@@ -841,7 +875,7 @@
       "name": "CPVC - Reducing Coupler",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Reducing Coupler.png",
       "description": "CPVC - Reducing Coupler. Available sizes: 3/4 X 1/2, 1 X 1/2, 1 X 3/4, 1 1/4 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
       "sizes": [
         "3/4 X 1/2",
@@ -863,7 +897,7 @@
       "name": "CPVC - Reducing Tee",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Reducing Tee.png",
       "description": "CPVC - Reducing Tee. Available sizes: 1 X 3/4, 1 1/4 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
       "sizes": [
         "1 X 3/4",
@@ -883,7 +917,7 @@
       "name": "CPVC - Reducing Bush",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      "image": "/images/cpvc/CPVC - Reducing Bush.png",
       "description": "CPVC - Reducing Bush. Available sizes: 1 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
       "sizes": [
         "1 X 3/4",
@@ -898,11 +932,27 @@
       ]
     },
     {
+      "id": "prod_cpvc_39",
+      "categoryId": "cat_cpvc",
+      "name": "CPVC - Ball Valve",
+      "sizes": [
+        "1/2\"",
+        "3/4\"",
+        "1\"",
+        "1-1/4\"",
+        "1-1/2\"",
+        "2\""
+      ],
+      "price": 0,
+      "image": "/images/cpvc/CPVC - Ball Valve.png",
+      "createdAt": "2026-08-08T05:32:11.636Z"
+    },
+    {
       "id": "prod_upvc_1",
       "name": "UPVC- SCH-40 PIPE",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- SCH-40 PIPE.png",
       "description": "UPVC- SCH-40 PIPE. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -918,7 +968,7 @@
       "name": "UPVC- SCH-80 PIPE",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- SCH-80 PIPE.png",
       "description": "UPVC- SCH-80 PIPE. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -934,7 +984,7 @@
       "name": "UPVC- SCH-80 THREADED PIPE",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- SCH-80 THREADED PIPE.png",
       "description": "UPVC- SCH-80 THREADED PIPE. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -950,7 +1000,7 @@
       "name": "UPVC- REDUCING COUPLER",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- REDUCING COUPLER.png",
       "description": "UPVC- REDUCING COUPLER. Available sizes: 3/4 X 1/2, 1 X 1/2, 1 X 3/4, 1 1/4 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
       "sizes": [
         "3/4 X 1/2",
@@ -972,7 +1022,7 @@
       "name": "UPVC- REDUCING TEE",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- REDUCING TEE.png",
       "description": "UPVC- REDUCING TEE. Available sizes: 3/4 X 1/2, 1 X 1/2, 1 X 3/4, 1 1/4 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
       "sizes": [
         "3/4 X 1/2",
@@ -994,7 +1044,7 @@
       "name": "UPVC- REDUCING BUSH",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- REDUCING BUSH.png",
       "description": "UPVC- REDUCING BUSH. Available sizes: 3/4 X 1/2, 1 X 1/2, 1 X 3/4, 1 1/4 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
       "sizes": [
         "3/4 X 1/2",
@@ -1016,7 +1066,7 @@
       "name": "UPVC- ELBOW 90",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- ELBOW 90.png",
       "description": "UPVC- ELBOW 90. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -1032,7 +1082,7 @@
       "name": "UPVC- TEE",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- TEE.png",
       "description": "UPVC- TEE. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -1048,7 +1098,7 @@
       "name": "UPVC- COUPLER",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- COUPLER.png",
       "description": "UPVC- COUPLER. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -1064,7 +1114,7 @@
       "name": "UPVC- BEND 45",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- BEND 45.png",
       "description": "UPVC- BEND 45. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -1080,7 +1130,7 @@
       "name": "UPVC- MTA",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- MTA.png",
       "description": "UPVC- MTA. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -1096,7 +1146,7 @@
       "name": "UPVC- FTA",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- FTA.png",
       "description": "UPVC- FTA. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -1112,7 +1162,7 @@
       "name": "UPVC- TANK NIPPLE (SOCKETED)",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- TANK NIPPLE (SOCKETED).png",
       "description": "UPVC- TANK NIPPLE (SOCKETED). Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -1128,7 +1178,7 @@
       "name": "UPVC- TANK NIPPLE (THREADED)",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- TANK NIPPLE (THREADED).png",
       "description": "UPVC- TANK NIPPLE (THREADED). Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -1144,7 +1194,7 @@
       "name": "UPVC- BRASS MTA",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- BRASS MTA.png",
       "description": "UPVC- BRASS MTA. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -1160,7 +1210,7 @@
       "name": "UPVC- BRASS FTA",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- BRASS FTA.png",
       "description": "UPVC- BRASS FTA. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -1176,7 +1226,7 @@
       "name": "UPVC- END CAP",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- END CAP.png",
       "description": "UPVC- END CAP. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -1192,7 +1242,7 @@
       "name": "UPVC- UNION",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- UNION.png",
       "description": "UPVC- UNION. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -1208,7 +1258,7 @@
       "name": "UPVC- NAIL CLAMP",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- NAIL CLAMP.png",
       "description": "UPVC- NAIL CLAMP. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -1224,7 +1274,7 @@
       "name": "UPVC- METAL CLAMP",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- METAL CLAMP.png",
       "description": "UPVC- METAL CLAMP. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -1240,7 +1290,7 @@
       "name": "UPVC- REDUCING ELBOW 90",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- REDUCING ELBOW 90.png",
       "description": "UPVC- REDUCING ELBOW 90. Available sizes: 1 X 1/2, 1 X 3/4, 3/4 X 1/2.",
       "sizes": [
         "1 X 1/2",
@@ -1253,7 +1303,7 @@
       "name": "UPVC- CROSS TEE",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- CROSS TEE.png",
       "description": "UPVC- CROSS TEE. Available sizes: 1/2, 3/4, 1.",
       "sizes": [
         "1/2",
@@ -1266,7 +1316,7 @@
       "name": "UPVC- STEP OVER BEND",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- STEP OVER BEND.png",
       "description": "UPVC- STEP OVER BEND. Available sizes: 1/2, 3/4, 1.",
       "sizes": [
         "1/2",
@@ -1279,7 +1329,7 @@
       "name": "UPVC- BRASS TEE",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- BRASS TEE.png",
       "description": "UPVC- BRASS TEE. Available sizes: 1/2, 3/4, 1.",
       "sizes": [
         "1/2",
@@ -1292,7 +1342,7 @@
       "name": "UPVC- BRASS ELBOW 90",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- BRASS ELBOW 90.png",
       "description": "UPVC- BRASS ELBOW 90. Available sizes: 1/2, 3/4, 1.",
       "sizes": [
         "1/2",
@@ -1305,7 +1355,7 @@
       "name": "UPVC- BALL VALVE (SHORT HANDLE)",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- BALL VALVE (SHORT HANDLE).png",
       "description": "UPVC- BALL VALVE (SHORT HANDLE). Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -1321,7 +1371,7 @@
       "name": "UPVC- BALL VALVE (LONG HANDLE)",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- BALL VALVE (LONG HANDLE).png",
       "description": "UPVC- BALL VALVE (LONG HANDLE). Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "1/2",
@@ -1337,7 +1387,7 @@
       "name": "UPVC- UNION BALL VALVE (SHORT HANDLE)",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- UNION BALL VALVE (SHORT HANDLE).png",
       "description": "UPVC- UNION BALL VALVE (SHORT HANDLE). Available sizes: 3/4, 1.",
       "sizes": [
         "3/4",
@@ -1349,7 +1399,7 @@
       "name": "UPVC- UNION BALL VALVE (LONG HANDLE)",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- UNION BALL VALVE (LONG HANDLE).png",
       "description": "UPVC- UNION BALL VALVE (LONG HANDLE). Available sizes: 1/2, 3/4, 1.",
       "sizes": [
         "1/2",
@@ -1362,7 +1412,7 @@
       "name": "UPVC- CONCEALED VALVE (FULL TURN)",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- CONCEALED VALVE (FULL TURN).png",
       "description": "UPVC- CONCEALED VALVE (FULL TURN). Available sizes: 1/2, 3/4, 1.",
       "sizes": [
         "1/2",
@@ -1375,7 +1425,7 @@
       "name": "UPVC- NRV",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- NRV.png",
       "description": "UPVC- NRV. Available sizes: 1/2, 3/4, 1.",
       "sizes": [
         "1/2",
@@ -1388,7 +1438,7 @@
       "name": "UPVC- REDUCING BRASS ELBOW 90",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- REDUCING BRASS ELBOW 90.png",
       "description": "UPVC- REDUCING BRASS ELBOW 90. Available sizes: 3/4 X 1/2.",
       "sizes": [
         "3/4 X 1/2"
@@ -1399,7 +1449,7 @@
       "name": "UPVC- THREADED ELBOW 90",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- THREADED ELBOW 90.png",
       "description": "UPVC- THREADED ELBOW 90. Available sizes: 1/2.",
       "sizes": [
         "1/2"
@@ -1410,7 +1460,7 @@
       "name": "UPVC- REDUCING BRASS TEE",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- REDUCING BRASS TEE.png",
       "description": "UPVC- REDUCING BRASS TEE. Available sizes: 3/4 X 1/2, 1 X 1/2.",
       "sizes": [
         "3/4 X 1/2",
@@ -1422,7 +1472,7 @@
       "name": "UPVC- END PLUG",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      "image": "/images/upvc/UPVC- END PLUG.png",
       "description": "UPVC- END PLUG. Available sizes: 1/2.",
       "sizes": [
         "1/2"
@@ -1433,7 +1483,7 @@
       "name": "SWR RINGFIT - RINGFIT PIPE ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - RINGFIT PIPE ISI.png",
       "description": "SWR RINGFIT - RINGFIT PIPE ISI. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1447,7 +1497,7 @@
       "name": "SWR RINGFIT - RINGFIT PIPE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - RINGFIT PIPE.png",
       "description": "SWR RINGFIT - RINGFIT PIPE. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1461,7 +1511,7 @@
       "name": "SWR RINGFIT - REDUCING TEE ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - REDUCING TEE ISI.png",
       "description": "SWR RINGFIT - REDUCING TEE ISI. Available sizes: 4 X 2 1/2, 6 X 4.",
       "sizes": [
         "4 X 2 1/2",
@@ -1473,7 +1523,7 @@
       "name": "SWR RINGFIT - REDUCING TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - REDUCING TEE.png",
       "description": "SWR RINGFIT - REDUCING TEE. Available sizes: 4 X 2 1/2.",
       "sizes": [
         "4 X 2 1/2"
@@ -1484,7 +1534,7 @@
       "name": "SWR RINGFIT - RINGFIT (DOUBLE SOCKET) PIPE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - RINGFIT (DOUBLE SOCKET) PIPE.png",
       "description": "SWR RINGFIT - RINGFIT (DOUBLE SOCKET) PIPE. Available sizes: 2 1/2, 4.",
       "sizes": [
         "2 1/2",
@@ -1496,7 +1546,7 @@
       "name": "SWR RINGFIT - REDUCER ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - REDUCER ISI.png",
       "description": "SWR RINGFIT - REDUCER ISI. Available sizes: 2 1/2.",
       "sizes": [
         "2 1/2"
@@ -1507,7 +1557,7 @@
       "name": "SWR RINGFIT - REDUCER",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - REDUCER.png",
       "description": "SWR RINGFIT - REDUCER. Available sizes: 4 X 2 1/2.",
       "sizes": [
         "4 X 2 1/2"
@@ -1518,7 +1568,7 @@
       "name": "SWR RINGFIT - COUPLER ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - COUPLER ISI.png",
       "description": "SWR RINGFIT - COUPLER ISI. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1532,7 +1582,7 @@
       "name": "SWR RINGFIT - COUPLER",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - COUPLER.png",
       "description": "SWR RINGFIT - COUPLER. Available sizes: 2 1/2, 4.",
       "sizes": [
         "2 1/2",
@@ -1544,7 +1594,7 @@
       "name": "SWR RINGFIT - DOOR TEE ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - DOOR TEE ISI.png",
       "description": "SWR RINGFIT - DOOR TEE ISI. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1558,7 +1608,7 @@
       "name": "SWR RINGFIT - DOOR TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - DOOR TEE.png",
       "description": "SWR RINGFIT - DOOR TEE. Available sizes: 2 1/2, 4.",
       "sizes": [
         "2 1/2",
@@ -1570,7 +1620,7 @@
       "name": "SWR RINGFIT - SINGLE TEE ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - SINGLE TEE ISI.png",
       "description": "SWR RINGFIT - SINGLE TEE ISI. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1584,7 +1634,7 @@
       "name": "SWR RINGFIT - SINGLE TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - SINGLE TEE.png",
       "description": "SWR RINGFIT - SINGLE TEE. Available sizes: 2 1/2, 4.",
       "sizes": [
         "2 1/2",
@@ -1596,7 +1646,7 @@
       "name": "SWR RINGFIT - DOOR BEND 87.5 ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - DOOR BEND 87.5 ISI.png",
       "description": "SWR RINGFIT - DOOR BEND 87.5 ISI. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1610,7 +1660,7 @@
       "name": "SWR RINGFIT - DOOR BEND 87.5",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - DOOR BEND 87.5.png",
       "description": "SWR RINGFIT - DOOR BEND 87.5. Available sizes: 2 1/2, 4.",
       "sizes": [
         "2 1/2",
@@ -1622,7 +1672,7 @@
       "name": "SWR RINGFIT - BEND 45 ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - BEND 45 ISI.png",
       "description": "SWR RINGFIT - BEND 45 ISI. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1636,7 +1686,7 @@
       "name": "SWR RINGFIT - BEND 45",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - BEND 45.png",
       "description": "SWR RINGFIT - BEND 45. Available sizes: 2 1/2, 4.",
       "sizes": [
         "2 1/2",
@@ -1648,7 +1698,7 @@
       "name": "SWR RINGFIT - SINGLE Y ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - SINGLE Y ISI.png",
       "description": "SWR RINGFIT - SINGLE Y ISI. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1662,7 +1712,7 @@
       "name": "SWR RINGFIT - CLEANING PIPES",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - CLEANING PIPES.png",
       "description": "SWR RINGFIT - CLEANING PIPES. Available sizes: 4.",
       "sizes": [
         "4"
@@ -1673,7 +1723,7 @@
       "name": "SWR RINGFIT - BEND 87.5 ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - BEND 87.5 ISI.png",
       "description": "SWR RINGFIT - BEND 87.5 ISI. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1687,7 +1737,7 @@
       "name": "SWR RINGFIT - BEND 87.5",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - BEND 87.5.png",
       "description": "SWR RINGFIT - BEND 87.5. Available sizes: 2 1/2, 4.",
       "sizes": [
         "2 1/2",
@@ -1699,7 +1749,7 @@
       "name": "SWR RINGFIT - DOOR Y ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - DOOR Y ISI.png",
       "description": "SWR RINGFIT - DOOR Y ISI. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1713,7 +1763,7 @@
       "name": "SWR RINGFIT - DOOR REDUCING TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR RINGFIT - DOOR REDUCING TEE.png",
       "description": "SWR RINGFIT - DOOR REDUCING TEE. Available sizes: 4 X 2 1/2.",
       "sizes": [
         "4 X 2 1/2"
@@ -1724,7 +1774,7 @@
       "name": "SWR SELFIT - SELFIT PIPES ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - SELFIT PIPES ISI.png",
       "description": "SWR SELFIT - SELFIT PIPES ISI. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1738,7 +1788,7 @@
       "name": "SWR SELFIT - SELFIT PIPES",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - SELFIT PIPES.png",
       "description": "SWR SELFIT - SELFIT PIPES. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1752,7 +1802,7 @@
       "name": "SWR SELFIT - DOOR Y ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - DOOR Y ISI.png",
       "description": "SWR SELFIT - DOOR Y ISI. Available sizes: 2 1/2, 4.",
       "sizes": [
         "2 1/2",
@@ -1764,7 +1814,7 @@
       "name": "SWR SELFIT - SINGLE Y ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - SINGLE Y ISI.png",
       "description": "SWR SELFIT - SINGLE Y ISI. Available sizes: 2 1/2, 4.",
       "sizes": [
         "2 1/2",
@@ -1776,7 +1826,7 @@
       "name": "SWR SELFIT - BEND 87.5 ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - BEND 87.5 ISI.png",
       "description": "SWR SELFIT - BEND 87.5 ISI. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1790,7 +1840,7 @@
       "name": "SWR SELFIT - BEND 87.5",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - BEND 87.5.png",
       "description": "SWR SELFIT - BEND 87.5. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1804,7 +1854,7 @@
       "name": "SWR SELFIT - DOOR BEND 87.5 ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - DOOR BEND 87.5 ISI.png",
       "description": "SWR SELFIT - DOOR BEND 87.5 ISI. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1818,7 +1868,7 @@
       "name": "SWR SELFIT - DOOR BEND 87.5",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - DOOR BEND 87.5.png",
       "description": "SWR SELFIT - DOOR BEND 87.5. Available sizes: 2 1/2, 4.",
       "sizes": [
         "2 1/2",
@@ -1830,7 +1880,7 @@
       "name": "SWR SELFIT - COUPLER ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - COUPLER ISI.png",
       "description": "SWR SELFIT - COUPLER ISI. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1844,7 +1894,7 @@
       "name": "SWR SELFIT - COUPLER",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - COUPLER.png",
       "description": "SWR SELFIT - COUPLER. Available sizes: 2 1/2, 4.",
       "sizes": [
         "2 1/2",
@@ -1856,7 +1906,7 @@
       "name": "SWR SELFIT - REDUCER",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - REDUCER.png",
       "description": "SWR SELFIT - REDUCER. Available sizes: 4 X 2 1/2, 4 X 3, 6 X 4.",
       "sizes": [
         "4 X 2 1/2",
@@ -1869,7 +1919,7 @@
       "name": "SWR SELFIT - REDUCER ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - REDUCER ISI.png",
       "description": "SWR SELFIT - REDUCER ISI. Available sizes: 4 X 2 1/2.",
       "sizes": [
         "4 X 2 1/2"
@@ -1880,7 +1930,7 @@
       "name": "SWR SELFIT - SINGLE TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - SINGLE TEE.png",
       "description": "SWR SELFIT - SINGLE TEE. Available sizes: 2 1/2, 4.",
       "sizes": [
         "2 1/2",
@@ -1892,7 +1942,7 @@
       "name": "SWR SELFIT - SINGLE TEE ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - SINGLE TEE ISI.png",
       "description": "SWR SELFIT - SINGLE TEE ISI. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1906,7 +1956,7 @@
       "name": "SWR SELFIT - DOOR TEE ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - DOOR TEE ISI.png",
       "description": "SWR SELFIT - DOOR TEE ISI. Available sizes: 2 1/2, 3.",
       "sizes": [
         "2 1/2",
@@ -1918,7 +1968,7 @@
       "name": "SWR SELFIT - DOOR TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - DOOR TEE.png",
       "description": "SWR SELFIT - DOOR TEE. Available sizes: 2 1/2, 4.",
       "sizes": [
         "2 1/2",
@@ -1930,7 +1980,7 @@
       "name": "SWR SELFIT - BEND 45 ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - BEND 45 ISI.png",
       "description": "SWR SELFIT - BEND 45 ISI. Available sizes: 2 1/2, 3, 4, 6.",
       "sizes": [
         "2 1/2",
@@ -1944,7 +1994,7 @@
       "name": "SWR SELFIT - BEND 45",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - BEND 45.png",
       "description": "SWR SELFIT - BEND 45. Available sizes: 2 1/2, 4.",
       "sizes": [
         "2 1/2",
@@ -1956,7 +2006,7 @@
       "name": "SWR SELFIT - REDUCING TEE ISI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - REDUCING TEE ISI.png",
       "description": "SWR SELFIT - REDUCING TEE ISI. Available sizes: 4 X 2 1/2.",
       "sizes": [
         "4 X 2 1/2"
@@ -1967,7 +2017,7 @@
       "name": "SWR SELFIT - REDUCING TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - REDUCING TEE.png",
       "description": "SWR SELFIT - REDUCING TEE. Available sizes: 4 X 2 1/2.",
       "sizes": [
         "4 X 2 1/2"
@@ -1978,7 +2028,7 @@
       "name": "SWR SELFIT - CLEANING PIPE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/SWR SELFIT - CLEANING PIPE.png",
       "description": "SWR SELFIT - CLEANING PIPE. Available sizes: 4.",
       "sizes": [
         "4"
@@ -1989,7 +2039,7 @@
       "name": "NAHANI TRAP (WITH JALI)",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/NAHANI TRAP (WITH JALI).png",
       "description": "NAHANI TRAP (WITH JALI). Available sizes: 4 X 2 1/2, 4 X 3, 4 X 4.",
       "sizes": [
         "4 X 2 1/2",
@@ -2002,7 +2052,7 @@
       "name": "NAHANI TRAP (WITHOUT JALI)",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/NAHANI TRAP (WITHOUT JALI).png",
       "description": "NAHANI TRAP (WITHOUT JALI). Available sizes: 4 X 2 1/2, 4 X 3, 4 X 4.",
       "sizes": [
         "4 X 2 1/2",
@@ -2015,7 +2065,7 @@
       "name": "MULTI FLOW TRAP (WITHOUT JALI)",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/MULTI FLOW TRAP (WITHOUT JALI).png",
       "description": "MULTI FLOW TRAP (WITHOUT JALI). Available sizes: 4 X 2 1/2 X 1 1/2.",
       "sizes": [
         "4 X 2 1/2 X 1 1/2"
@@ -2026,7 +2076,7 @@
       "name": "MULTI FLOW TRAP (WITH JALI)",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/MULTI FLOW TRAP (WITH JALI).png",
       "description": "MULTI FLOW TRAP (WITH JALI). Available sizes: 4 X 2 1/2 X 1 1/2.",
       "sizes": [
         "4 X 2 1/2 X 1 1/2"
@@ -2037,7 +2087,7 @@
       "name": "VENT COWL",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/VENT COWL.png",
       "description": "VENT COWL. Available sizes: 2 1/2.",
       "sizes": [
         "2 1/2"
@@ -2048,7 +2098,7 @@
       "name": "JALI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/JALI.png",
       "description": "JALI. Available sizes: 4.",
       "sizes": [
         "4"
@@ -2059,7 +2109,7 @@
       "name": "PIPE CLIP",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/PIPE CLIP.png",
       "description": "PIPE CLIP. Available sizes: 2 1/2, 4.",
       "sizes": [
         "2 1/2",
@@ -2071,7 +2121,7 @@
       "name": "P TRAP",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      "image": "/images/swr/P TRAP.png",
       "description": "P TRAP. Available sizes: 4 X 4, 4 1/2 X 4.",
       "sizes": [
         "4 X 4",
@@ -2079,176 +2129,11 @@
       ]
     },
     {
-      "id": "prod_17",
-      "name": "Casing Pipe - Blue",
-      "categoryId": "cat_casing",
-      "categoryName": "Casing Pipes - Blue",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Casing-Pipe.png",
-      "description": "Bore well casing pipes in blue colour. High tensile strength for deep tube well applications.",
-      "sizes": [
-        "1/2 inch",
-        "3/4 inch",
-        "1 inch",
-        "1 1/4 inch",
-        "1 1/2 inch",
-        "1.5 inch",
-        "2 inch",
-        "2 1/2 inch",
-        "3 inch",
-        "4 inch",
-        "5 inch",
-        "6 inch"
-      ]
-    },
-    {
-      "id": "prod_18",
-      "name": "Farming Water Pipe (Agriculture PVC)",
-      "categoryId": "cat_agri",
-      "categoryName": "Agriculture Pipes & Fittings",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Agri-Pipes.png",
-      "description": "Heavy-duty agriculture PVC pipes for farm irrigation and water distribution.",
-      "sizes": [
-        "1/2 inch",
-        "3/4 inch",
-        "1 inch",
-        "1 1/4 inch",
-        "1 1/2 inch",
-        "1.5 inch",
-        "2 inch",
-        "2 1/2 inch",
-        "3 inch",
-        "4 inch",
-        "5 inch",
-        "6 inch"
-      ]
-    },
-    {
-      "id": "prod_19",
-      "name": "HDPE Pipes (Agriculture Grade)",
-      "categoryId": "cat_hdpe",
-      "categoryName": "HDPE Pipes",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/hdpe.png",
-      "description": "High-density polyethylene pipes for agriculture water supply. Flexible and durable.",
-      "sizes": [
-        "1/2 inch",
-        "3/4 inch",
-        "1 inch",
-        "1 1/4 inch",
-        "1 1/2 inch",
-        "1.5 inch",
-        "2 inch",
-        "2 1/2 inch",
-        "3 inch",
-        "4 inch",
-        "5 inch",
-        "6 inch"
-      ]
-    },
-    {
-      "id": "prod_20",
-      "name": "Sprinkler Irrigation Pipes",
-      "categoryId": "cat_sprinkler",
-      "categoryName": "Sprinkler Pipes",
-      "image": "https://www.ganeshgouriindustries.com/images/index/Sprinkler-Pipe.png",
-      "description": "Lightweight sprinkler system pipes for efficient farm water distribution.",
-      "sizes": [
-        "1/2 inch",
-        "3/4 inch",
-        "1 inch",
-        "1 1/4 inch",
-        "1 1/2 inch",
-        "1.5 inch",
-        "2 inch",
-        "2 1/2 inch",
-        "3 inch",
-        "4 inch",
-        "5 inch",
-        "6 inch"
-      ]
-    },
-    {
-      "id": "prod_21",
-      "name": "Column Pipes for Submersible Pumps",
-      "categoryId": "cat_column",
-      "categoryName": "Column Pipes",
-      "image": "https://www.ganeshgouriindustries.com/images/index/new-product/Column-Pipes.png",
-      "description": "High pressure column pipes for submersible pump installations in bore wells.",
-      "sizes": [
-        "1/2 inch",
-        "3/4 inch",
-        "1 inch",
-        "1 1/4 inch",
-        "1 1/2 inch",
-        "1.5 inch",
-        "2 inch",
-        "2 1/2 inch",
-        "3 inch",
-        "4 inch",
-        "5 inch",
-        "6 inch"
-      ]
-    },
-    {
-      "id": "prod_22",
-      "name": "Flushing Cistern & Toilet Seat Cover",
-      "categoryId": "cat_sanitary",
-      "categoryName": "Toilet Seat Cover & Flushing Cistern",
-      "image": "https://www.ganeshgouriindustries.com/images/index/SANITARY-WARE.png",
-      "description": "High quality plastic flushing cisterns and toilet seat covers for residential bathrooms.",
-      "sizes": [
-        "Standard"
-      ]
-    },
-    {
-      "id": "prod_23",
-      "name": "Eco Drainage Pipes",
-      "categoryId": "cat_eco_drainage",
-      "categoryName": "Eco Drainage Pipes",
-      "image": "https://www.ganeshgouriindustries.com/images/index/Dranage-Pipe.png",
-      "description": "Eco-friendly lightweight drainage pipes for residential and commercial buildings.",
-      "sizes": [
-        "1/2 inch",
-        "3/4 inch",
-        "1 inch",
-        "1 1/4 inch",
-        "1 1/2 inch",
-        "1.5 inch",
-        "2 inch",
-        "2 1/2 inch",
-        "3 inch",
-        "4 inch",
-        "5 inch",
-        "6 inch"
-      ]
-    },
-    {
-      "id": "prod_24",
-      "name": "Ora Flow Garden Pipe & Braided Hose",
-      "categoryId": "cat_garden",
-      "categoryName": "Garden, Braided & LDPE Pipes",
-      "image": "https://www.ganeshgouriindustries.com/images/index/C.png",
-      "description": "Flexible garden hose pipes, braided pipes, and LDPE pipes for domestic & outdoor use.",
-      "sizes": [
-        "1/2 inch",
-        "3/4 inch",
-        "1 inch",
-        "1 1/4 inch",
-        "1 1/2 inch",
-        "1.5 inch",
-        "2 inch",
-        "2 1/2 inch",
-        "3 inch",
-        "4 inch",
-        "5 inch",
-        "6 inch"
-      ]
-    },
-    {
       "id": "prod_solvent_1",
       "name": "CPVC SOLVENT CEMENT (TIN)",
       "categoryId": "cat_solvent",
       "categoryName": "Solvent Cement & Lubricants",
-      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "image": "/images/solvent/CPVC SOLVENT CEMENT (TIN).png",
       "description": "CPVC SOLVENT CEMENT (TIN). Available packaging sizes: 59ML, 118ML, 237ML.",
       "sizes": [
         "59ML",
@@ -2261,7 +2146,7 @@
       "name": "UPVC SOLVENT CEMENT (TIN)",
       "categoryId": "cat_solvent",
       "categoryName": "Solvent Cement & Lubricants",
-      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "image": "/images/solvent/UPVC SOLVENT CEMENT (TIN).png",
       "description": "UPVC SOLVENT CEMENT (TIN). Available packaging sizes: 59ML, 118ML, 237ML.",
       "sizes": [
         "59ML",
@@ -2274,7 +2159,7 @@
       "name": "CPVC SOLVENT CEMENT (PLASTIC BOTTLE)",
       "categoryId": "cat_solvent",
       "categoryName": "Solvent Cement & Lubricants",
-      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "image": "/images/solvent/CPVC SOLVENT CEMENT (PLASTIC BOTTLE).png",
       "description": "CPVC SOLVENT CEMENT (PLASTIC BOTTLE). Available packaging sizes: 50ML, 100ML, 250ML.",
       "sizes": [
         "50ML",
@@ -2287,7 +2172,7 @@
       "name": "UPVC SOLVENT CEMENT (PLASTIC BOTTLE)",
       "categoryId": "cat_solvent",
       "categoryName": "Solvent Cement & Lubricants",
-      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "image": "/images/solvent/UPVC SOLVENT CEMENT (PLASTIC BOTTLE).png",
       "description": "UPVC SOLVENT CEMENT (PLASTIC BOTTLE). Available packaging sizes: 50ML, 100ML, 250ML.",
       "sizes": [
         "50ML",
@@ -2300,7 +2185,7 @@
       "name": "PVC SOLVENT CEMENT (PLASTIC BOTTLE)",
       "categoryId": "cat_solvent",
       "categoryName": "Solvent Cement & Lubricants",
-      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "image": "/images/solvent/PVC SOLVENT CEMENT (PLASTIC BOTTLE).png",
       "description": "PVC SOLVENT CEMENT (PLASTIC BOTTLE). Available packaging sizes: 50ML, 100ML, 250ML.",
       "sizes": [
         "50ML",
@@ -2313,7 +2198,7 @@
       "name": "CPVC SOLVENT CEMENT (TUBE)",
       "categoryId": "cat_solvent",
       "categoryName": "Solvent Cement & Lubricants",
-      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "image": "/images/solvent/CPVC SOLVENT CEMENT (TUBE).png",
       "description": "CPVC SOLVENT CEMENT (TUBE). Available packaging sizes: 10ML, 25ML.",
       "sizes": [
         "10ML",
@@ -2325,7 +2210,7 @@
       "name": "UPVC SOLVENT CEMENT (TUBE)",
       "categoryId": "cat_solvent",
       "categoryName": "Solvent Cement & Lubricants",
-      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "image": "/images/solvent/UPVC SOLVENT CEMENT (TUBE).png",
       "description": "UPVC SOLVENT CEMENT (TUBE). Available packaging sizes: 10ML, 25ML.",
       "sizes": [
         "10ML",
@@ -2337,7 +2222,7 @@
       "name": "ECO - PVC SOLVENT CEMENT (PLASTIC BOTTLE)",
       "categoryId": "cat_solvent",
       "categoryName": "Solvent Cement & Lubricants",
-      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "image": "/images/solvent/ECO - PVC SOLVENT CEMENT (PLASTIC BOTTLE).png",
       "description": "ECO - PVC SOLVENT CEMENT (PLASTIC BOTTLE). Available packaging sizes: 25ML, 50ML, 100ML.",
       "sizes": [
         "25ML",
@@ -2350,12 +2235,1636 @@
       "name": "RUBBER LUBRICANT (PLASTIC BOTTLE)",
       "categoryId": "cat_solvent",
       "categoryName": "Solvent Cement & Lubricants",
-      "image": "https://www.ganeshgouriindustries.com/assets/img/product/solvent-cement.webp",
+      "image": "/images/solvent/RUBBER LUBRICANT (PLASTIC BOTTLE).png",
       "description": "RUBBER LUBRICANT (PLASTIC BOTTLE). Available packaging sizes: 50ML, 100ML, 250ML.",
       "sizes": [
         "50ML",
         "100ML",
         "250ML"
+      ]
+    },
+    {
+      "id": "prod_hdpe_1",
+      "name": "PE-100 OD PIPE ISI",
+      "categoryId": "cat_hdpe",
+      "categoryName": "HDPE PIPE & FITTINGS",
+      "image": "/images/hdpe/PE-100 OD PIPE ISI.png",
+      "description": "PE-100 OD Pipe ISI certified HDPE pipe.",
+      "sizes": [
+        "20MM",
+        "25MM",
+        "32MM",
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM",
+        "125MM",
+        "140MM",
+        "160MM",
+        "180MM",
+        "200MM",
+        "225MM",
+        "250MM"
+      ]
+    },
+    {
+      "id": "prod_hdpe_2",
+      "name": "PE-63 OD PIPE ISI",
+      "categoryId": "cat_hdpe",
+      "categoryName": "HDPE PIPE & FITTINGS",
+      "image": "/images/hdpe/PE-63 OD PIPE ISI.png",
+      "description": "PE-63 OD Pipe ISI certified HDPE pipe.",
+      "sizes": [
+        "25MM",
+        "32MM",
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM"
+      ]
+    },
+    {
+      "id": "prod_hdpe_3",
+      "name": "PE-80 OD PIPE ISI",
+      "categoryId": "cat_hdpe",
+      "categoryName": "HDPE PIPE & FITTINGS",
+      "image": "/images/hdpe/PE-80 OD PIPE ISI.png",
+      "description": "PE-80 OD Pipe ISI certified HDPE pipe.",
+      "sizes": [
+        "20MM",
+        "25MM",
+        "32MM",
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM"
+      ]
+    },
+    {
+      "id": "prod_hdpe_4",
+      "name": "HDPE END CAP",
+      "categoryId": "cat_hdpe",
+      "categoryName": "HDPE PIPE & FITTINGS",
+      "image": "/images/hdpe/HDPE END CAP.png",
+      "description": "HDPE End Cap fitting.",
+      "sizes": [
+        "90MM",
+        "110MM"
+      ]
+    },
+    {
+      "id": "prod_hdpe_5",
+      "name": "PE-63 ID PIPE",
+      "categoryId": "cat_hdpe",
+      "categoryName": "HDPE PIPE & FITTINGS",
+      "image": "/images/hdpe/PE-63 ID PIPE.png",
+      "description": "PE-63 ID Pipe.",
+      "sizes": [
+        "40MM",
+        "50MM",
+        "63MM"
+      ]
+    },
+    {
+      "id": "prod_hdpe_6",
+      "name": "MDPE PIPE",
+      "categoryId": "cat_hdpe",
+      "categoryName": "HDPE PIPE & FITTINGS",
+      "image": "/images/hdpe/MDPE PIPE.png",
+      "description": "Medium Density Polyethylene Pipe.",
+      "sizes": [
+        "20MM"
+      ]
+    },
+    {
+      "id": "prod_eco_1",
+      "name": "SELFIT PIPE",
+      "categoryId": "cat_eco_drainage",
+      "categoryName": "Eco Drainage Pipes",
+      "image": "/images/eco_drainage/SELFIT PIPE.png",
+      "description": "Eco Drainage Selfit Pipe.",
+      "sizes": [
+        "110MM",
+        "160MM",
+        "200MM",
+        "250MM"
+      ]
+    },
+    {
+      "id": "prod_eco_2",
+      "name": "RINGFIT PIPE",
+      "categoryId": "cat_eco_drainage",
+      "categoryName": "Eco Drainage Pipes",
+      "image": "/images/eco_drainage/RINGFIT PIPE.png",
+      "description": "Eco Drainage Ringfit Pipe.",
+      "sizes": [
+        "110MM",
+        "160MM",
+        "200MM",
+        "250MM"
+      ]
+    },
+    {
+      "id": "prod_agri_1",
+      "name": "6M PVC PIPE ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/6M PVC PIPE ISI.png",
+      "description": "6M PVC PIPE ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "20MM",
+        "25MM",
+        "32MM",
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM",
+        "125MM",
+        "140MM",
+        "160MM",
+        "180MM",
+        "200MM",
+        "225MM",
+        "250MM"
+      ]
+    },
+    {
+      "id": "prod_agri_2",
+      "name": "6M PVC PIPE",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/6M PVC PIPE.png",
+      "description": "6M PVC PIPE for agriculture irrigation and piping systems.",
+      "sizes": [
+        "20MM",
+        "25MM",
+        "32MM",
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM",
+        "125MM",
+        "140MM",
+        "160MM",
+        "180MM",
+        "200MM",
+        "225MM",
+        "250MM"
+      ]
+    },
+    {
+      "id": "prod_agri_3",
+      "name": "3M PVC PIPE ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/3M PVC PIPE ISI.png",
+      "description": "3M PVC PIPE ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "20MM",
+        "25MM",
+        "32MM",
+        "40MM",
+        "50MM",
+        "63MM"
+      ]
+    },
+    {
+      "id": "prod_agri_4",
+      "name": "3M PVC PIPE",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/3M PVC PIPE.png",
+      "description": "3M PVC PIPE for agriculture irrigation and piping systems.",
+      "sizes": [
+        "20MM",
+        "25MM",
+        "32MM",
+        "40MM",
+        "50MM",
+        "63MM"
+      ]
+    },
+    {
+      "id": "prod_agri_5",
+      "name": "6M ECO PVC PIPE",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/6M ECO PVC PIPE.png",
+      "description": "6M ECO PVC PIPE for agriculture irrigation and piping systems.",
+      "sizes": [
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM"
+      ]
+    },
+    {
+      "id": "prod_agri_6",
+      "name": "PN6 - REDUCING TEE ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN6 - REDUCING TEE ISI.png",
+      "description": "PN6 - REDUCING TEE ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "63 X 40",
+        "63 X 50",
+        "75 X 63",
+        "90 X 63",
+        "90 X 75",
+        "110 X 75",
+        "110 X 90",
+        "140 X 90",
+        "140 X 110",
+        "160 X 110",
+        "160 X 140"
+      ]
+    },
+    {
+      "id": "prod_agri_7",
+      "name": "LAPETA (LDPE) AGRICULTURE PIPE",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/LAPETA (LDPE) AGRICULTURE PIPE.png",
+      "description": "LAPETA (LDPE) AGRICULTURE PIPE for agriculture irrigation and piping systems.",
+      "sizes": [
+        "40MM",
+        "50MM",
+        "65MM",
+        "75MM",
+        "100MM"
+      ]
+    },
+    {
+      "id": "prod_agri_8",
+      "name": "PN6 - ELBOW 90 ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN6 - ELBOW 90 ISI.png",
+      "description": "PN6 - ELBOW 90 ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM",
+        "140MM",
+        "160MM"
+      ]
+    },
+    {
+      "id": "prod_agri_9",
+      "name": "PN6 - TEE ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN6 - TEE ISI.png",
+      "description": "PN6 - TEE ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM",
+        "140MM",
+        "160MM"
+      ]
+    },
+    {
+      "id": "prod_agri_10",
+      "name": "PN6 - FTA ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN6 - FTA ISI.png",
+      "description": "PN6 - FTA ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM"
+      ]
+    },
+    {
+      "id": "prod_agri_11",
+      "name": "PN6 - END CAP (THREADED) ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN6 - END CAP (THREADED) ISI.png",
+      "description": "PN6 - END CAP (THREADED) ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM"
+      ]
+    },
+    {
+      "id": "prod_agri_12",
+      "name": "PN6 - SERVICE SADDLE ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN6 - SERVICE SADDLE ISI.png",
+      "description": "PN6 - SERVICE SADDLE ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "75 X 20",
+        "75 X 25",
+        "75 X 32"
+      ]
+    },
+    {
+      "id": "prod_agri_13",
+      "name": "PN6 - COUPLER ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN6 - COUPLER ISI.png",
+      "description": "PN6 - COUPLER ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM",
+        "140MM",
+        "160MM"
+      ]
+    },
+    {
+      "id": "prod_agri_14",
+      "name": "PN6 - BEND 45 ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN6 - BEND 45 ISI.png",
+      "description": "PN6 - BEND 45 ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM",
+        "140MM",
+        "160MM"
+      ]
+    },
+    {
+      "id": "prod_agri_15",
+      "name": "PN6 - END CAP ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN6 - END CAP ISI.png",
+      "description": "PN6 - END CAP ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM"
+      ]
+    },
+    {
+      "id": "prod_agri_16",
+      "name": "PN6 - MTA ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN6 - MTA ISI.png",
+      "description": "PN6 - MTA ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM"
+      ]
+    },
+    {
+      "id": "prod_agri_17",
+      "name": "PN10 - ELBOW ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN10 - ELBOW ISI.png",
+      "description": "PN10 - ELBOW ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "25MM",
+        "32MM"
+      ]
+    },
+    {
+      "id": "prod_agri_18",
+      "name": "PN10 - UNION ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN10 - UNION ISI.png",
+      "description": "PN10 - UNION ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "25MM",
+        "32MM"
+      ]
+    },
+    {
+      "id": "prod_agri_19",
+      "name": "PN10 - TEE ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN10 - TEE ISI.png",
+      "description": "PN10 - TEE ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "25MM",
+        "32MM"
+      ]
+    },
+    {
+      "id": "prod_agri_20",
+      "name": "PN10 - COUPLER ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN10 - COUPLER ISI.png",
+      "description": "PN10 - COUPLER ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "25MM",
+        "32MM"
+      ]
+    },
+    {
+      "id": "prod_agri_21",
+      "name": "PN10 - MTA ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN10 - MTA ISI.png",
+      "description": "PN10 - MTA ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "25MM",
+        "32MM"
+      ]
+    },
+    {
+      "id": "prod_agri_22",
+      "name": "PN10 - FTA ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN10 - FTA ISI.png",
+      "description": "PN10 - FTA ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "25MM",
+        "32MM"
+      ]
+    },
+    {
+      "id": "prod_agri_23",
+      "name": "PN10 - END CAP ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN10 - END CAP ISI.png",
+      "description": "PN10 - END CAP ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "25MM",
+        "32MM"
+      ]
+    },
+    {
+      "id": "prod_agri_24",
+      "name": "PN10 - REDUCING BUSH ISI",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/PN10 - REDUCING BUSH ISI.png",
+      "description": "PN10 - REDUCING BUSH ISI for agriculture irrigation and piping systems.",
+      "sizes": [
+        "32 X 20",
+        "32 X 25"
+      ]
+    },
+    {
+      "id": "prod_agri_25",
+      "name": "REDUCER (LW)",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/REDUCER (LW).png",
+      "description": "REDUCER (LW) for agriculture irrigation and piping systems.",
+      "sizes": [
+        "50 X 40",
+        "63 X 40",
+        "63 X 50",
+        "75 X 40",
+        "75 X 63",
+        "90 X 50",
+        "90 X 63",
+        "90 X 75",
+        "110 X 63",
+        "110 X 75",
+        "110 X 90",
+        "140 X 110",
+        "160 X 110",
+        "160 X 140"
+      ]
+    },
+    {
+      "id": "prod_agri_26",
+      "name": "REDUCING BUSH (LW)",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/REDUCING BUSH (LW).png",
+      "description": "REDUCING BUSH (LW) for agriculture irrigation and piping systems.",
+      "sizes": [
+        "63 X 40",
+        "63 X 50",
+        "75 X 40",
+        "75 X 63",
+        "90 X 50",
+        "90 X 63",
+        "90 X 75",
+        "110 X 63",
+        "110 X 75",
+        "110 X 90"
+      ]
+    },
+    {
+      "id": "prod_agri_27",
+      "name": "TEE (LW)",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/TEE (LW).png",
+      "description": "TEE (LW) for agriculture irrigation and piping systems.",
+      "sizes": [
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM",
+        "140MM",
+        "160MM"
+      ]
+    },
+    {
+      "id": "prod_agri_28",
+      "name": "COUPLER (LW)",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/COUPLER (LW).png",
+      "description": "COUPLER (LW) for agriculture irrigation and piping systems.",
+      "sizes": [
+        "75MM",
+        "90MM",
+        "110MM"
+      ]
+    },
+    {
+      "id": "prod_agri_29",
+      "name": "FABRICATED COUPLER (LW)",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/FABRICATED COUPLER (LW).png",
+      "description": "FABRICATED COUPLER (LW) for agriculture irrigation and piping systems.",
+      "sizes": [
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM",
+        "140MM",
+        "160MM"
+      ]
+    },
+    {
+      "id": "prod_agri_30",
+      "name": "FABRICATED COUPLER 6KG (LW)",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/FABRICATED COUPLER 6KG (LW).png",
+      "description": "FABRICATED COUPLER 6KG (LW) for agriculture irrigation and piping systems.",
+      "sizes": [
+        "140MM",
+        "160MM"
+      ]
+    },
+    {
+      "id": "prod_agri_31",
+      "name": "ELBOW 90 (LW)",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/ELBOW 90 (LW).png",
+      "description": "ELBOW 90 (LW) for agriculture irrigation and piping systems.",
+      "sizes": [
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM",
+        "140MM",
+        "160MM"
+      ]
+    },
+    {
+      "id": "prod_agri_32",
+      "name": "END CAP (LW)",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/END CAP (LW).png",
+      "description": "END CAP (LW) for agriculture irrigation and piping systems.",
+      "sizes": [
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM",
+        "140MM",
+        "160MM"
+      ]
+    },
+    {
+      "id": "prod_agri_33",
+      "name": "LONG BEND (LW)",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/LONG BEND (LW).png",
+      "description": "LONG BEND (LW) for agriculture irrigation and piping systems.",
+      "sizes": [
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM"
+      ]
+    },
+    {
+      "id": "prod_sprinkler_1",
+      "name": "6M SPRINKLER PIPE ISI",
+      "categoryId": "cat_sprinkler",
+      "categoryName": "Sprinkler Pipes & Fittings",
+      "image": "/images/sprinkler/6M SPRINKLER PIPE ISI.png",
+      "description": "6M SPRINKLER PIPE ISI for sprinkler irrigation systems.",
+      "sizes": [
+        "63MM L TYPE",
+        "63MM C TYPE",
+        "75MM L TYPE",
+        "75MM C TYPE"
+      ]
+    },
+    {
+      "id": "prod_sprinkler_2",
+      "name": "6M SPRINKLER PIPE",
+      "categoryId": "cat_sprinkler",
+      "categoryName": "Sprinkler Pipes & Fittings",
+      "image": "/images/sprinkler/6M SPRINKLER PIPE.png",
+      "description": "6M SPRINKLER PIPE for sprinkler irrigation systems.",
+      "sizes": [
+        "63MM L TYPE",
+        "63MM C TYPE",
+        "75MM L TYPE",
+        "75MM C TYPE"
+      ]
+    },
+    {
+      "id": "prod_sprinkler_3",
+      "name": "30 NOS SPRINKLER SET ISI",
+      "categoryId": "cat_sprinkler",
+      "categoryName": "Sprinkler Pipes & Fittings",
+      "image": "/images/sprinkler/30 NOS SPRINKLER SET ISI.png",
+      "description": "30 NOS SPRINKLER SET ISI for sprinkler irrigation systems.",
+      "sizes": [
+        "63MM L TYPE",
+        "63MM C TYPE",
+        "75MM L TYPE",
+        "75MM C TYPE"
+      ]
+    },
+    {
+      "id": "prod_sprinkler_4",
+      "name": "30 NOS SPRINKLER SET",
+      "categoryId": "cat_sprinkler",
+      "categoryName": "Sprinkler Pipes & Fittings",
+      "image": "/images/sprinkler/30 NOS SPRINKLER SET.png",
+      "description": "30 NOS SPRINKLER SET for sprinkler irrigation systems.",
+      "sizes": [
+        "63MM L TYPE",
+        "63MM C TYPE",
+        "75MM L TYPE",
+        "75MM C TYPE"
+      ]
+    },
+    {
+      "id": "prod_sprinkler_5",
+      "name": "SPRINKLER TEE ISI",
+      "categoryId": "cat_sprinkler",
+      "categoryName": "Sprinkler Pipes & Fittings",
+      "image": "/images/sprinkler/SPRINKLER TEE ISI.png",
+      "description": "SPRINKLER TEE ISI for sprinkler irrigation systems.",
+      "sizes": [
+        "63MM",
+        "75MM"
+      ]
+    },
+    {
+      "id": "prod_sprinkler_6",
+      "name": "FOOT BOTTOM ADAPTOR ISI",
+      "categoryId": "cat_sprinkler",
+      "categoryName": "Sprinkler Pipes & Fittings",
+      "image": "/images/sprinkler/FOOT BOTTOM ADAPTOR ISI.png",
+      "description": "FOOT BOTTOM ADAPTOR ISI for sprinkler irrigation systems.",
+      "sizes": [
+        "63MM",
+        "75MM"
+      ]
+    },
+    {
+      "id": "prod_sprinkler_7",
+      "name": "SPRINKLER BEND ISI",
+      "categoryId": "cat_sprinkler",
+      "categoryName": "Sprinkler Pipes & Fittings",
+      "image": "/images/sprinkler/SPRINKLER BEND ISI.png",
+      "description": "SPRINKLER BEND ISI for sprinkler irrigation systems.",
+      "sizes": [
+        "63MM",
+        "75MM"
+      ]
+    },
+    {
+      "id": "prod_sprinkler_8",
+      "name": "SPRINKLER END CAP ISI",
+      "categoryId": "cat_sprinkler",
+      "categoryName": "Sprinkler Pipes & Fittings",
+      "image": "/images/sprinkler/SPRINKLER END CAP ISI.png",
+      "description": "SPRINKLER END CAP ISI for sprinkler irrigation systems.",
+      "sizes": [
+        "63MM",
+        "75MM"
+      ]
+    },
+    {
+      "id": "prod_sprinkler_9",
+      "name": "LATCH & CLAMP ISI",
+      "categoryId": "cat_sprinkler",
+      "categoryName": "Sprinkler Pipes & Fittings",
+      "image": "/images/sprinkler/LATCH & CLAMP ISI.png",
+      "description": "LATCH & CLAMP ISI for sprinkler irrigation systems.",
+      "sizes": [
+        "63MM",
+        "75MM"
+      ]
+    },
+    {
+      "id": "prod_sprinkler_10",
+      "name": "PUMP CONNECTING NIPPLE (PCN) ISI",
+      "categoryId": "cat_sprinkler",
+      "categoryName": "Sprinkler Pipes & Fittings",
+      "image": "/images/sprinkler/PUMP CONNECTING NIPPLE (PCN) ISI.png",
+      "description": "PUMP CONNECTING NIPPLE (PCN) ISI for sprinkler irrigation systems.",
+      "sizes": [
+        "63MM",
+        "75MM"
+      ]
+    },
+    {
+      "id": "prod_sprinkler_11",
+      "name": "NOZZEL GUN (METAL) ISI",
+      "categoryId": "cat_sprinkler",
+      "categoryName": "Sprinkler Pipes & Fittings",
+      "image": "/images/sprinkler/NOZZEL GUN (METAL) ISI.png",
+      "description": "NOZZEL GUN (METAL) ISI for sprinkler irrigation systems.",
+      "sizes": [
+        "25MM"
+      ]
+    },
+    {
+      "id": "prod_sprinkler_12",
+      "name": "GI RISER PIPE ISI",
+      "categoryId": "cat_sprinkler",
+      "categoryName": "Sprinkler Pipes & Fittings",
+      "image": "/images/sprinkler/GI RISER PIPE ISI.png",
+      "description": "GI RISER PIPE ISI for sprinkler irrigation systems.",
+      "sizes": [
+        "25MM"
+      ]
+    },
+    {
+      "id": "prod_drip_round_isi_1",
+      "name": "12MM ROUND INLINE PIPE ISI",
+      "categoryId": "cat_drip",
+      "categoryName": "DRIP IRRIGATION SYSTEM",
+      "subCategory": "ROUND DRIP ISI",
+      "image": "/images/drip/12MM ROUND INLINE PIPE ISI.png",
+      "description": "12mm Round Inline Drip Pipe ISI certified.",
+      "sizes": [
+        "12-4-30 CLASS-1",
+        "12-4-40 CLASS-1",
+        "12-4-50 CLASS-1",
+        "12-4-30 CLASS-2",
+        "12-4-40 CLASS-2",
+        "12-4-50 CLASS-2",
+        "12-4-30 CLASS-3",
+        "12-4-40 CLASS-3",
+        "12-4-50 CLASS-3"
+      ]
+    },
+    {
+      "id": "prod_drip_round_isi_2",
+      "name": "16MM ROUND INLINE PIPE ISI",
+      "categoryId": "cat_drip",
+      "categoryName": "DRIP IRRIGATION SYSTEM",
+      "subCategory": "ROUND DRIP ISI",
+      "image": "/images/drip/16MM ROUND INLINE PIPE ISI.png",
+      "description": "16mm Round Inline Drip Pipe ISI certified.",
+      "sizes": [
+        "16-4-30 CLASS-1",
+        "16-4-40 CLASS-1",
+        "16-4-50 CLASS-1",
+        "16-4-30 CLASS-2",
+        "16-4-40 CLASS-2",
+        "16-4-50 CLASS-2"
+      ]
+    },
+    {
+      "id": "prod_drip_round_isi_3",
+      "name": "20MM ROUND INLINE PIPE ISI",
+      "categoryId": "cat_drip",
+      "categoryName": "DRIP IRRIGATION SYSTEM",
+      "subCategory": "ROUND DRIP ISI",
+      "image": "/images/drip/20MM ROUND INLINE PIPE ISI.png",
+      "description": "20mm Round Inline Drip Pipe ISI certified.",
+      "sizes": [
+        "20-4-30 CLASS-1",
+        "20-4-40 CLASS-1",
+        "20-4-50 CLASS-1"
+      ]
+    },
+    {
+      "id": "prod_drip_flat_isi_1",
+      "name": "12MM FLAT INLINE PIPE ISI",
+      "categoryId": "cat_drip",
+      "categoryName": "DRIP IRRIGATION SYSTEM",
+      "subCategory": "FLAT DRIP ISI",
+      "image": "/images/drip/12MM FLAT INLINE PIPE ISI.png",
+      "description": "12mm Flat Inline Drip Pipe ISI certified.",
+      "sizes": [
+        "12-4-30 CLASS-1",
+        "12-4-40 CLASS-1",
+        "12-4-50 CLASS-1",
+        "12-4-30 CLASS-2",
+        "12-4-40 CLASS-2",
+        "12-4-50 CLASS-2",
+        "12-4-30 CLASS-3",
+        "12-4-40 CLASS-3",
+        "12-4-50 CLASS-3"
+      ]
+    },
+    {
+      "id": "prod_drip_flat_isi_2",
+      "name": "16MM FLAT INLINE PIPE ISI",
+      "categoryId": "cat_drip",
+      "categoryName": "DRIP IRRIGATION SYSTEM",
+      "subCategory": "FLAT DRIP ISI",
+      "image": "/images/drip/16MM FLAT INLINE PIPE ISI.png",
+      "description": "16mm Flat Inline Drip Pipe ISI certified.",
+      "sizes": [
+        "16-4-30 CLASS-1",
+        "16-4-40 CLASS-1",
+        "16-4-50 CLASS-1",
+        "16-4-30 CLASS-2",
+        "16-4-40 CLASS-2",
+        "16-4-50 CLASS-2"
+      ]
+    },
+    {
+      "id": "prod_drip_flat_isi_3",
+      "name": "20MM FLAT INLINE PIPE ISI",
+      "categoryId": "cat_drip",
+      "categoryName": "DRIP IRRIGATION SYSTEM",
+      "subCategory": "FLAT DRIP ISI",
+      "image": "/images/drip/20MM FLAT INLINE PIPE ISI.png",
+      "description": "20mm Flat Inline Drip Pipe ISI certified.",
+      "sizes": [
+        "20-4-30 CLASS-1",
+        "20-4-40 CLASS-1",
+        "20-4-50 CLASS-1"
+      ]
+    },
+    {
+      "id": "prod_drip_round_online_1",
+      "name": "12MM PLAIN LATERAL ONLINE PIPE",
+      "categoryId": "cat_drip",
+      "categoryName": "DRIP IRRIGATION SYSTEM",
+      "subCategory": "ROUND DRIP ONLINE / HYDROCOL (LATERAL)",
+      "image": "/images/drip/12MM PLAIN LATERAL ONLINE PIPE.png",
+      "description": "12mm Plain Lateral Online Drip Pipe.",
+      "sizes": [
+        "CLASS-2"
+      ]
+    },
+    {
+      "id": "prod_drip_round_online_2",
+      "name": "16MM PLAIN LATERAL ONLINE PIPE",
+      "categoryId": "cat_drip",
+      "categoryName": "DRIP IRRIGATION SYSTEM",
+      "subCategory": "ROUND DRIP ONLINE / HYDROCOL (LATERAL)",
+      "image": "/images/drip/16MM PLAIN LATERAL ONLINE PIPE.png",
+      "description": "16mm Plain Lateral Online Drip Pipe.",
+      "sizes": [
+        "CLASS-2"
+      ]
+    },
+    {
+      "id": "prod_drip_round_online_3",
+      "name": "20MM PLAIN LATERAL ONLINE PIPE",
+      "categoryId": "cat_drip",
+      "categoryName": "DRIP IRRIGATION SYSTEM",
+      "subCategory": "ROUND DRIP ONLINE / HYDROCOL (LATERAL)",
+      "image": "/images/drip/20MM PLAIN LATERAL ONLINE PIPE.png",
+      "description": "20mm Plain Lateral Online Drip Pipe.",
+      "sizes": [
+        "CLASS-2"
+      ]
+    },
+    {
+      "id": "prod_drip_round_online_4",
+      "name": "32MM PLAIN LATERAL ONLINE PIPE",
+      "categoryId": "cat_drip",
+      "categoryName": "DRIP IRRIGATION SYSTEM",
+      "subCategory": "ROUND DRIP ONLINE / HYDROCOL (LATERAL)",
+      "image": "/images/drip/32MM PLAIN LATERAL ONLINE PIPE.png",
+      "description": "32mm Plain Lateral Online Drip Pipe.",
+      "sizes": [
+        "CLASS-1",
+        "CLASS-2"
+      ]
+    },
+    {
+      "id": "prod_drip_flat_pepsi_1",
+      "name": "12MM FLAT EMITTING PIPE",
+      "categoryId": "cat_drip",
+      "categoryName": "DRIP IRRIGATION SYSTEM",
+      "subCategory": "FLAT DRIP (PEPSI) - INLINE",
+      "image": "/images/drip/12MM FLAT EMITTING PIPE.png",
+      "description": "12mm Flat Emitting Pipe (Pepsi Inline).",
+      "sizes": [
+        "2/4 40 14KG 0.2",
+        "2/4 40 17KG 0.4",
+        "2/4 30 17KG 0.4",
+        "2/4 40 14KG 0.3",
+        "2/4 40 14KG 0.4"
+      ]
+    },
+    {
+      "id": "prod_drip_flat_pepsi_2",
+      "name": "16MM FLAT EMITTING PIPE",
+      "categoryId": "cat_drip",
+      "categoryName": "DRIP IRRIGATION SYSTEM",
+      "subCategory": "FLAT DRIP (PEPSI) - INLINE",
+      "image": "/images/drip/16MM FLAT EMITTING PIPE.png",
+      "description": "16mm Flat Emitting Pipe (Pepsi Inline).",
+      "sizes": [
+        "2/4 30 8KG 0.2",
+        "2/4 40 8KG 0.2",
+        "2/4 40 9KG 0.2",
+        "2/4 30 10KG 0.2",
+        "2/4 40 10KG 0.2",
+        "2/4 40 14KG 0.4",
+        "2/4 40 17KG 0.5",
+        "2/4 40 12KG 0.25",
+        "2/4 30 12KG 0.25",
+        "2/4 30 14KG 0.4",
+        "2/4 40 14KG 0.4",
+        "2/4 30 14KG 0.3"
+      ]
+    },
+    {
+      "id": "prod_drip_flat_pepsi_3",
+      "name": "20MM FLAT EMITTING PIPE",
+      "categoryId": "cat_drip",
+      "categoryName": "DRIP IRRIGATION SYSTEM",
+      "subCategory": "FLAT DRIP (PEPSI) - INLINE",
+      "image": "/images/drip/20MM FLAT EMITTING PIPE.png",
+      "description": "20mm Flat Emitting Pipe (Pepsi Inline).",
+      "sizes": [
+        "20-4-30 CLASS-2",
+        "20-4-40 CLASS-2",
+        "20-4-50 CLASS-2"
+      ]
+    },
+    {
+      "id": "prod_casing_1",
+      "name": "3M CASING PIPE (THREADED)",
+      "categoryId": "cat_casing",
+      "categoryName": "UPVC CASING PIPES",
+      "image": "/images/casing/3M CASING PIPE (THREADED).png",
+      "description": "3M UPVC Threaded Casing Pipe for bore wells.",
+      "sizes": [
+        "35MM",
+        "40MM",
+        "50MM",
+        "100MM",
+        "125MM",
+        "150MM",
+        "175MM",
+        "200MM"
+      ]
+    },
+    {
+      "id": "prod_casing_2",
+      "name": "3M CASING PIPE",
+      "categoryId": "cat_casing",
+      "categoryName": "UPVC CASING PIPES",
+      "image": "/images/casing/3M CASING PIPE.png",
+      "description": "3M UPVC Casing Pipe for bore wells.",
+      "sizes": [
+        "35MM",
+        "40MM",
+        "50MM",
+        "100MM",
+        "125MM",
+        "150MM",
+        "175MM",
+        "200MM"
+      ]
+    },
+    {
+      "id": "prod_column_1",
+      "name": "3M ECO - V4 PIPE",
+      "categoryId": "cat_column",
+      "categoryName": "UPVC COLUMN PIPES",
+      "image": "/images/column/3M ECO - V4 PIPE.png",
+      "description": "3M ECO - V4 UPVC Column Pipe for submersible pump systems.",
+      "sizes": [
+        "33MM 12.5 COUPLER TYPE",
+        "33MM 12.5 BELL END TYPE",
+        "42MM 10 COUPLER TYPE",
+        "42MM 12.5 COUPLER TYPE",
+        "42MM 12.5 BELL END TYPE",
+        "48MM 12.5 COUPLER TYPE",
+        "60MM 12.5 COUPLER TYPE"
+      ]
+    },
+    {
+      "id": "prod_column_2",
+      "name": "3M MEDIUM PIPE",
+      "categoryId": "cat_column",
+      "categoryName": "UPVC COLUMN PIPES",
+      "image": "/images/column/3M MEDIUM PIPE.png",
+      "description": "3M Medium UPVC Column Pipe for submersible pump systems.",
+      "sizes": [
+        "33MM 18 COUPLER TYPE",
+        "42MM 18 COUPLER TYPE",
+        "48MM 18 COUPLER TYPE",
+        "60MM 15 COUPLER TYPE",
+        "75MM 10 COUPLER TYPE"
+      ]
+    },
+    {
+      "id": "prod_column_3",
+      "name": "3M STANDARD PIPE",
+      "categoryId": "cat_column",
+      "categoryName": "UPVC COLUMN PIPES",
+      "image": "/images/column/3M STANDARD PIPE.png",
+      "description": "3M Standard UPVC Column Pipe for submersible pump systems.",
+      "sizes": [
+        "33MM 25 COUPLER TYPE",
+        "42MM 25 COUPLER TYPE",
+        "48MM 25 COUPLER TYPE",
+        "60MM 20 COUPLER TYPE",
+        "75MM 20 COUPLER TYPE"
+      ]
+    },
+    {
+      "id": "prod_column_4",
+      "name": "3M STANDARD PLUS PIPE",
+      "categoryId": "cat_column",
+      "categoryName": "UPVC COLUMN PIPES",
+      "image": "/images/column/3M STANDARD PLUS PIPE.png",
+      "description": "3M Standard Plus UPVC Column Pipe for submersible pump systems.",
+      "sizes": [
+        "60MM 25 COUPLER TYPE"
+      ]
+    },
+    {
+      "id": "prod_column_5",
+      "name": "3M HEAVY PIPE",
+      "categoryId": "cat_column",
+      "categoryName": "UPVC COLUMN PIPES",
+      "image": "/images/column/3M HEAVY PIPE.png",
+      "description": "3M Heavy UPVC Column Pipe for submersible pump systems.",
+      "sizes": [
+        "42MM 30 COUPLER TYPE",
+        "48MM 30 COUPLER TYPE",
+        "60MM 30 COUPLER TYPE"
+      ]
+    },
+    {
+      "id": "prod_column_6",
+      "name": "3M MEDIUM PLUS PIPE",
+      "categoryId": "cat_column",
+      "categoryName": "UPVC COLUMN PIPES",
+      "image": "/images/column/3M MEDIUM PLUS PIPE.png",
+      "description": "3M Medium Plus UPVC Column Pipe for submersible pump systems.",
+      "sizes": [
+        "60MM 18 COUPLER TYPE"
+      ]
+    },
+    {
+      "id": "prod_household_1",
+      "name": "CONSTRUCTION GHAMELA SHIVA",
+      "categoryId": "cat_household",
+      "categoryName": "HOUSEHOLD PRODUCTS",
+      "image": "/images/household/CONSTRUCTION GHAMELA SHIVA.png",
+      "description": "CONSTRUCTION GHAMELA SHIVA high durability ghamela.",
+      "sizes": []
+    },
+    {
+      "id": "prod_household_2",
+      "name": "MULTIPURPOSE GHAMELA GOURI",
+      "categoryId": "cat_household",
+      "categoryName": "HOUSEHOLD PRODUCTS",
+      "image": "/images/household/MULTIPURPOSE GHAMELA GOURI.png",
+      "description": "MULTIPURPOSE GHAMELA GOURI high durability ghamela.",
+      "sizes": []
+    },
+    {
+      "id": "prod_household_3",
+      "name": "MULTIPURPOSE GHAMELA KRISHNA",
+      "categoryId": "cat_household",
+      "categoryName": "HOUSEHOLD PRODUCTS",
+      "image": "/images/household/MULTIPURPOSE GHAMELA KRISHNA.png",
+      "description": "MULTIPURPOSE GHAMELA KRISHNA high durability ghamela.",
+      "sizes": []
+    },
+    {
+      "id": "prod_household_4",
+      "name": "MULTIPURPOSE GHAMELA RAGHAV",
+      "categoryId": "cat_household",
+      "categoryName": "HOUSEHOLD PRODUCTS",
+      "image": "/images/household/MULTIPURPOSE GHAMELA RAGHAV.png",
+      "description": "MULTIPURPOSE GHAMELA RAGHAV high durability ghamela.",
+      "sizes": []
+    },
+    {
+      "id": "prod_household_5",
+      "name": "MULTIPURPOSE GHAMELA ANIKET",
+      "categoryId": "cat_household",
+      "categoryName": "HOUSEHOLD PRODUCTS",
+      "image": "/images/household/MULTIPURPOSE GHAMELA ANIKET.png",
+      "description": "MULTIPURPOSE GHAMELA ANIKET high durability ghamela.",
+      "sizes": []
+    },
+    {
+      "id": "prod_household_6",
+      "name": "MULTIPURPOSE GHAMELA TEJASWI",
+      "categoryId": "cat_household",
+      "categoryName": "HOUSEHOLD PRODUCTS",
+      "image": "/images/household/MULTIPURPOSE GHAMELA TEJASWI.png",
+      "description": "MULTIPURPOSE GHAMELA TEJASWI high durability ghamela.",
+      "sizes": []
+    },
+    {
+      "id": "prod_household_7",
+      "name": "MULTIPURPOSE GHAMELA GAJRAJ",
+      "categoryId": "cat_household",
+      "categoryName": "HOUSEHOLD PRODUCTS",
+      "image": "/images/household/MULTIPURPOSE GHAMELA GAJRAJ.png",
+      "description": "MULTIPURPOSE GHAMELA GAJRAJ high durability ghamela.",
+      "sizes": []
+    },
+    {
+      "id": "prod_household_8",
+      "name": "ECO DELTA GHAMELA KRISHNA",
+      "categoryId": "cat_household",
+      "categoryName": "HOUSEHOLD PRODUCTS",
+      "image": "/images/household/ECO DELTA GHAMELA KRISHNA.png",
+      "description": "ECO DELTA GHAMELA KRISHNA high durability ghamela.",
+      "sizes": []
+    },
+    {
+      "id": "prod_household_9",
+      "name": "ECO DELTA GHAMELA TEJASWI",
+      "categoryId": "cat_household",
+      "categoryName": "HOUSEHOLD PRODUCTS",
+      "image": "/images/household/ECO DELTA GHAMELA TEJASWI.png",
+      "description": "ECO DELTA GHAMELA TEJASWI high durability ghamela.",
+      "sizes": []
+    },
+    {
+      "id": "prod_garden_1",
+      "name": "ORA FLOW - HEAVY DUTY PIPE",
+      "categoryId": "cat_garden",
+      "categoryName": "Garden, Braided & LDPE Pipes",
+      "image": "/images/garden/ORA FLOW - HEAVY DUTY PIPE.png",
+      "description": "Ora Flow Heavy Duty Garden Pipe.",
+      "sizes": [
+        "15MM",
+        "20MM",
+        "25MM",
+        "32MM"
+      ]
+    },
+    {
+      "id": "prod_garden_2",
+      "name": "ORA FLOW - BRAIDED PIPE",
+      "categoryId": "cat_garden",
+      "categoryName": "Garden, Braided & LDPE Pipes",
+      "image": "/images/garden/ORA FLOW - BRAIDED PIPE.png",
+      "description": "Ora Flow Braided Garden Pipe.",
+      "sizes": [
+        "15MM",
+        "20MM",
+        "25MM",
+        "32MM"
+      ]
+    },
+    {
+      "id": "prod_garden_3",
+      "name": "FOAM PIPE",
+      "categoryId": "cat_garden",
+      "categoryName": "Garden, Braided & LDPE Pipes",
+      "image": "/images/garden/FOAM PIPE.png",
+      "description": "Flexible Foam Garden Pipe.",
+      "sizes": [
+        "15MM",
+        "20MM",
+        "25MM",
+        "32MM"
+      ]
+    },
+    {
+      "id": "prod_garden_4",
+      "name": "BRAIDED PIPE",
+      "categoryId": "cat_garden",
+      "categoryName": "Garden, Braided & LDPE Pipes",
+      "image": "/images/garden/BRAIDED PIPE.png",
+      "description": "Reinforced Braided Garden Pipe.",
+      "sizes": [
+        "15MM",
+        "20MM",
+        "25MM",
+        "32MM"
+      ]
+    },
+    {
+      "id": "prod_garden_5",
+      "name": "LEVEL PIPE",
+      "categoryId": "cat_garden",
+      "categoryName": "Garden, Braided & LDPE Pipes",
+      "image": "/images/garden/LEVEL PIPE.png",
+      "description": "Transparent Level Pipe for construction & garden work.",
+      "sizes": [
+        "6MM"
+      ]
+    },
+    {
+      "id": "prod_garden_6",
+      "name": "SUPER FLOW PIPE (MILKY & TRANSPARENT)",
+      "categoryId": "cat_garden",
+      "categoryName": "Garden, Braided & LDPE Pipes",
+      "image": "/images/garden/SUPER FLOW PIPE (MILKY & TRANSPARENT).png",
+      "description": "Super Flow Milky & Transparent Garden Pipe.",
+      "sizes": [
+        "15MM",
+        "20MM",
+        "25MM",
+        "32MM",
+        "40MM"
+      ]
+    },
+    {
+      "id": "prod_faucet_1",
+      "name": "EDGE SERIES SHORT BODY TAP",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/EDGE SERIES SHORT BODY TAP.png",
+      "description": "EDGE SERIES SHORT BODY TAP high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_2",
+      "name": "EDGE SERIES LONG BODY TAP",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/EDGE SERIES LONG BODY TAP.png",
+      "description": "EDGE SERIES LONG BODY TAP high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_3",
+      "name": "EDGE SERIES SWAN NECK",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/EDGE SERIES SWAN NECK.png",
+      "description": "EDGE SERIES SWAN NECK high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_4",
+      "name": "EDGE SERIES ANGULAR VALVE",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/EDGE SERIES ANGULAR VALVE.png",
+      "description": "EDGE SERIES ANGULAR VALVE high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_5",
+      "name": "EDGE SERIES PILLAR TAP",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/EDGE SERIES PILLAR TAP.png",
+      "description": "EDGE SERIES PILLAR TAP high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_6",
+      "name": "EDGE SERIES 2 WAY BIB TAB",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/EDGE SERIES 2 WAY BIB TAB.png",
+      "description": "EDGE SERIES 2 WAY BIB TAB high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_7",
+      "name": "EDGE SERIES SINK TAP",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/EDGE SERIES SINK TAP.png",
+      "description": "EDGE SERIES SINK TAP high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_8",
+      "name": "SMART SERIES SHORT BODY BIB TAP",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/SMART SERIES SHORT BODY BIB TAP.png",
+      "description": "SMART SERIES SHORT BODY BIB TAP high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_9",
+      "name": "SMART SERIES LONG BODY BIB TAP",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/SMART SERIES LONG BODY BIB TAP.png",
+      "description": "SMART SERIES LONG BODY BIB TAP high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_10",
+      "name": "SMART SERIES PILLAR TAP",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/SMART SERIES PILLAR TAP.png",
+      "description": "SMART SERIES PILLAR TAP high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_11",
+      "name": "SMART SERIES SINK TAP",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/SMART SERIES SINK TAP.png",
+      "description": "SMART SERIES SINK TAP high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_12",
+      "name": "SMART SERIES SWAN NECK",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/SMART SERIES SWAN NECK.png",
+      "description": "SMART SERIES SWAN NECK high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_13",
+      "name": "SMART SERIES ANGULAR VALVE",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/SMART SERIES ANGULAR VALVE.png",
+      "description": "SMART SERIES ANGULAR VALVE high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_14",
+      "name": "SMART SERIES 2 WAY ANGULAR VALVE",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/SMART SERIES 2 WAY ANGULAR VALVE.png",
+      "description": "SMART SERIES 2 WAY ANGULAR VALVE high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_15",
+      "name": "SMART SERIES 2 WAY BIB TAP",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/SMART SERIES 2 WAY BIB TAP.png",
+      "description": "SMART SERIES 2 WAY BIB TAP high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_16",
+      "name": "REGULAR SERIES SHORT BODY BIB TAP",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/REGULAR SERIES SHORT BODY BIB TAP.png",
+      "description": "REGULAR SERIES SHORT BODY BIB TAP high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_17",
+      "name": "REGULAR SERIES LONG BODY BIB TAP",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/REGULAR SERIES LONG BODY BIB TAP.png",
+      "description": "REGULAR SERIES LONG BODY BIB TAP high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_18",
+      "name": "REGULAR SERIES PILLAR TAP",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/REGULAR SERIES PILLAR TAP.png",
+      "description": "REGULAR SERIES PILLAR TAP high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_19",
+      "name": "REGULAR SERIES SINK TAP",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/REGULAR SERIES SINK TAP.png",
+      "description": "REGULAR SERIES SINK TAP high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_20",
+      "name": "REGULAR SERIES SWAN NECK",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/REGULAR SERIES SWAN NECK.png",
+      "description": "REGULAR SERIES SWAN NECK high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_21",
+      "name": "REGULAR SERIES ANGULAR VALVE",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/REGULAR SERIES ANGULAR VALVE.png",
+      "description": "REGULAR SERIES ANGULAR VALVE high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_22",
+      "name": "REGULAR SERIES 2 WAY ANGULAR VALVE",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/REGULAR SERIES 2 WAY ANGULAR VALVE.png",
+      "description": "REGULAR SERIES 2 WAY ANGULAR VALVE high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_faucet_23",
+      "name": "REGULAR SERIES 2 WAY BIB TAP",
+      "categoryId": "cat_faucets",
+      "categoryName": "FAUCETS",
+      "image": "/images/faucets/REGULAR SERIES 2 WAY BIB TAP.png",
+      "description": "REGULAR SERIES 2 WAY BIB TAP high quality faucet.",
+      "sizes": [
+        "1/2 inch"
+      ]
+    },
+    {
+      "id": "prod_sanitary_1",
+      "name": "SINGLE SIDE HANDLE FLUSH 8L",
+      "categoryId": "cat_sanitary",
+      "categoryName": "Toilet Seat Cover & Flushing Cistern",
+      "image": "/images/sanitary/SINGLE SIDE HANDLE FLUSH 8L.png",
+      "description": "8 Litre Single Side Handle Flushing Cistern.",
+      "sizes": [
+        "8L"
+      ]
+    },
+    {
+      "id": "prod_sanitary_2",
+      "name": "CENTER SINGLE PUSH FLUSH 8L",
+      "categoryId": "cat_sanitary",
+      "categoryName": "Toilet Seat Cover & Flushing Cistern",
+      "image": "/images/sanitary/CENTER SINGLE PUSH FLUSH 8L.png",
+      "description": "8 Litre Center Single Push Flushing Cistern.",
+      "sizes": [
+        "8L"
+      ]
+    },
+    {
+      "id": "prod_sanitary_3",
+      "name": "DUAL FLUSH 10L",
+      "categoryId": "cat_sanitary",
+      "categoryName": "Toilet Seat Cover & Flushing Cistern",
+      "image": "/images/sanitary/DUAL FLUSH 10L.png",
+      "description": "10 Litre Dual Flush Cistern.",
+      "sizes": [
+        "10L"
+      ]
+    },
+    {
+      "id": "prod_sanitary_4",
+      "name": "EWC SEAT COVER (WITH JET)",
+      "categoryId": "cat_sanitary",
+      "categoryName": "Toilet Seat Cover & Flushing Cistern",
+      "image": "/images/sanitary/EWC SEAT COVER (WITH JET).png",
+      "description": "EWC Toilet Seat Cover with integrated jet spray.",
+      "sizes": [
+        "Standard"
+      ]
+    },
+    {
+      "id": "prod_sanitary_5",
+      "name": "DUAL FLUSH DUAL COLOUR (PREMIUM 10L)",
+      "categoryId": "cat_sanitary",
+      "categoryName": "Toilet Seat Cover & Flushing Cistern",
+      "image": "/images/sanitary/DUAL FLUSH DUAL COLOUR (PREMIUM 10L).png",
+      "description": "10 Litre Premium Dual Colour Dual Flush Cistern.",
+      "sizes": [
+        "10L"
+      ]
+    },
+    {
+      "id": "prod_sanitary_6",
+      "name": "DUAL FLUSH DUAL COLOUR (ECONOMY 10L)",
+      "categoryId": "cat_sanitary",
+      "categoryName": "Toilet Seat Cover & Flushing Cistern",
+      "image": "/images/sanitary/DUAL FLUSH DUAL COLOUR (ECONOMY 10L).png",
+      "description": "10 Litre Economy Dual Colour Dual Flush Cistern.",
+      "sizes": [
+        "10L"
+      ]
+    },
+    {
+      "id": "prod_sanitary_7",
+      "name": "EWC SEAT COVER (WITHOUT JET)",
+      "categoryId": "cat_sanitary",
+      "categoryName": "Toilet Seat Cover & Flushing Cistern",
+      "image": "/images/sanitary/EWC SEAT COVER (WITHOUT JET).png",
+      "description": "EWC Toilet Seat Cover without jet spray.",
+      "sizes": [
+        "Standard"
       ]
     }
   ],
@@ -2363,7 +3872,8 @@
     "usr_demo": [
       "prod_1",
       "prod_7"
-    ]
+    ],
+    "usr_1786187974730": []
   },
   "carts": {
     "usr_demo": [
@@ -2375,7 +3885,8 @@
         "productId": "prod_9",
         "quantity": 100
       }
-    ]
+    ],
+    "usr_1786187974730": []
   },
   "orders": [
     {

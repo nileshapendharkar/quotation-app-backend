@@ -55,23 +55,43 @@ exports.register = async (req, res) => {
 
 exports.login = async (req, res) => {
   try {
-    const { email, password } = req.body;
-    if (!email || !password) {
-      return res.status(400).json({ success: false, message: 'Email and password are required' });
+    const { userId, mobile, email, password } = req.body;
+    const loginIdentifier = (userId || mobile || email || '').toString().trim().toLowerCase();
+    const rawPassword = (password || '').toString().trim();
+
+    if (!loginIdentifier || !rawPassword) {
+      return res.status(400).json({ success: false, message: 'User ID / Mobile Number and Password are required' });
     }
 
     const data = readData();
-    const user = data.users.find(u => u.email.toLowerCase() === email.toLowerCase());
+    const user = data.users.find(u => {
+      const uUserId = (u.userId || '').toString().trim().toLowerCase();
+      const uMobile = (u.mobile || '').toString().trim().toLowerCase();
+      const uEmail = (u.email || '').toString().trim().toLowerCase();
+      return uUserId === loginIdentifier || uMobile === loginIdentifier || uEmail === loginIdentifier;
+    });
+
     if (!user) {
-      return res.status(400).json({ success: false, message: 'Invalid email or password' });
+      return res.status(401).json({ success: false, message: 'Invalid User ID / Mobile Number or Password. Only admin-approved accounts can log in.' });
     }
 
-    const isMatch = await bcrypt.compare(password, user.passwordHash);
+    if (user.status === 'Inactive' || user.status === 'inactive') {
+      return res.status(403).json({ success: false, message: 'Your account is currently inactive. Please contact admin.' });
+    }
+
+    let isMatch = false;
+    if (user.passwordHash) {
+      isMatch = await bcrypt.compare(rawPassword, user.passwordHash);
+    }
+    if (!isMatch && user.plainPassword && user.plainPassword === rawPassword) {
+      isMatch = true;
+    }
+
     if (!isMatch) {
-      return res.status(400).json({ success: false, message: 'Invalid email or password' });
+      return res.status(401).json({ success: false, message: 'Invalid User ID / Mobile Number or Password' });
     }
 
-    const token = jwt.sign({ id: user.id, role: user.role, email: user.email }, JWT_SECRET, { expiresIn: '30d' });
+    const token = jwt.sign({ id: user.id, role: user.role, userId: user.userId || user.mobile || user.email }, JWT_SECRET, { expiresIn: '30d' });
 
     const userResp = { ...user };
     delete userResp.passwordHash;
