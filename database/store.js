@@ -39,43 +39,43 @@ const initialData = {
     {
       id: "cat_household",
       name: "HOUSEHOLD PRODUCTS",
-      image: "https://www.ganeshgouriindustries.com/images/index/new-product/household.png",
+      image: "/images/categories/cat_household.png",
       description: "Durable multipurpose and construction ghamelas and household plastic products."
     },
     {
       id: "cat_drip",
       name: "DRIP IRRIGATION SYSTEM",
-      image: "https://www.ganeshgouriindustries.com/images/index/new-product/drip.png",
+      image: "/images/categories/cat_drip.png",
       description: "High-efficiency drip irrigation pipes and lateral systems for modern farming."
     },
     {
       id: "cat_tanks",
       name: "Water Storage Tanks",
-      image: "https://www.ganeshgouriindustries.com/images/index/new-product/tank.png",
+      image: "/images/categories/cat_tanks.png",
       description: "Multi-layer water storage tanks for domestic, commercial, and industrial use. ISO 9001 certified."
     },
     {
       id: "cat_cpvc",
       name: "CPVC Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      image: "/images/categories/cat_cpvc.png",
       description: "Hot & cold water CPVC piping systems for residential and commercial plumbing."
     },
     {
       id: "cat_upvc",
       name: "UPVC Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      image: "/images/categories/cat_upvc.png",
       description: "Lead-free, UV stabilized ASTM UPVC pipes for potable water and plumbing applications."
     },
     {
       id: "cat_swr",
       name: "SWR Drainage Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      image: "/images/categories/cat_swr.png",
       description: "Soil, waste, and rainwater drainage pipe systems for buildings and infrastructure."
     },
     {
       id: "cat_casing",
       name: "UPVC CASING PIPES",
-      image: "https://www.ganeshgouriindustries.com/images/index/new-product/Casing-Pipe.png",
+      image: "/images/categories/cat_casing.png",
       description: "Bore well casing pipes in blue colour for tube well applications."
     },
     {
@@ -87,19 +87,19 @@ const initialData = {
     {
       id: "cat_hdpe",
       name: "HDPE PIPE & FITTINGS",
-      image: "https://www.ganeshgouriindustries.com/images/index/new-product/hdpe.png",
+      image: "/images/categories/cat_hdpe.png",
       description: "High-density polyethylene pipes for agriculture water supply and industrial use."
     },
     {
       id: "cat_sprinkler",
       name: "Sprinkler Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/images/index/Sprinkler-Pipe.png",
+      image: "/images/categories/cat_sprinkler.png",
       description: "Lightweight sprinkler irrigation pipes for efficient farm water distribution."
     },
     {
       id: "cat_column",
       name: "UPVC COLUMN PIPES",
-      image: "https://www.ganeshgouriindustries.com/images/index/new-product/Column-Pipes.png",
+      image: "/images/categories/cat_column.png",
       description: "High-strength column pipes for submersible pump installations in bore wells."
     },
     {
@@ -111,13 +111,13 @@ const initialData = {
     {
       id: "cat_eco_drainage",
       name: "Eco Drainage Pipes",
-      image: "https://www.ganeshgouriindustries.com/images/index/Dranage-Pipe.png",
+      image: "/images/categories/cat_eco_drainage.png",
       description: "Eco-friendly lightweight drainage pipes for residential and commercial buildings."
     },
     {
       id: "cat_garden",
       name: "Garden, Braided & LDPE Pipes",
-      image: "https://www.ganeshgouriindustries.com/images/index/C.png",
+      image: "/images/categories/cat_garden.png",
       description: "Flexible garden hose pipes, braided pipes, and LDPE pipes for domestic & outdoor use."
     }
   ],
@@ -710,7 +710,7 @@ const initialData = {
       name: "CPVC SDR 11 Pipes",
       categoryId: "cat_cpvc",
       categoryName: "CPVC Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      image: "/images/categories/cat_cpvc.png",
       description: "Hot & cold water CPVC pipes. Temperature resistant up to 93°C. ISI certified."
     },
     {
@@ -718,7 +718,7 @@ const initialData = {
       name: "CPVC Pipe Fittings (Elbow, Tee, Union)",
       categoryId: "cat_cpvc",
       categoryName: "CPVC Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/images/index/new-product/cpvc.png",
+      image: "/images/categories/cat_cpvc.png",
       description: "CPVC fittings including elbows, tees, unions, brass transition fittings."
     },
     {
@@ -726,7 +726,7 @@ const initialData = {
       name: "UPVC Plumbing Pipes (Sch 40 & 80)",
       categoryId: "cat_upvc",
       categoryName: "UPVC Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      image: "/images/categories/cat_upvc.png",
       description: "Lead-free, UV stabilized ASTM UPVC pipes. Sizes 15mm to 50mm, lengths 3m & 6m."
     },
     {
@@ -734,7 +734,7 @@ const initialData = {
       name: "UPVC Pipe Fittings",
       categoryId: "cat_upvc",
       categoryName: "UPVC Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/images/index/new-product/upvc.png",
+      image: "/images/categories/cat_upvc.png",
       description: "Full range of UPVC fittings - elbows, tees, couplers, reducers."
     },
     {
@@ -742,7 +742,7 @@ const initialData = {
       name: "SWR Drainage Pipes",
       categoryId: "cat_swr",
       categoryName: "SWR Drainage Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      image: "/images/categories/cat_swr.png",
       description: "Soil, waste and rainwater drainage pipes. Sizes 75mm to 160mm. Type A & Type B."
     },
     {
@@ -750,7 +750,7 @@ const initialData = {
       name: "SWR Drainage Fittings",
       categoryId: "cat_swr",
       categoryName: "SWR Drainage Pipes & Fittings",
-      image: "https://www.ganeshgouriindustries.com/images/index/new-product/SWR-Pipes.png",
+      image: "/images/categories/cat_swr.png",
       description: "Complete SWR fittings range - bends, junctions, traps, couplers for drainage systems."
     },
     {

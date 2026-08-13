@@ -430,8 +430,7 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ],
-      "subcategoryId": "subcat_cpvc_pipes"
+      ]
     },
     {
       "id": "prod_cpvc_2",
@@ -447,8 +446,7 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ],
-      "subcategoryId": "subcat_cpvc_pipes"
+      ]
     },
     {
       "id": "prod_cpvc_3",
@@ -461,8 +459,7 @@
         "2 1/2",
         "3",
         "4"
-      ],
-      "subcategoryId": "subcat_cpvc_pipes"
+      ]
     },
     {
       "id": "prod_cpvc_4",
@@ -475,8 +472,7 @@
         "2 1/2",
         "3",
         "4"
-      ],
-      "subcategoryId": "subcat_cpvc_pipes"
+      ]
     },
     {
       "id": "prod_cpvc_5",
@@ -491,8 +487,7 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_6",
@@ -507,8 +502,7 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_7",
@@ -523,8 +517,7 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_8",
@@ -539,8 +532,7 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_9",
@@ -555,8 +547,7 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_10",
@@ -571,8 +562,7 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_11",
@@ -587,8 +577,7 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_12",
@@ -603,8 +592,7 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_13",
@@ -619,8 +607,7 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_14",
@@ -635,8 +622,7 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_15",
@@ -649,8 +635,7 @@
         "3/4",
         "1",
         "1 1/4"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_16",
@@ -665,8 +650,7 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_17",
@@ -681,8 +665,7 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_18",
@@ -697,8 +680,7 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_19",
@@ -713,8 +695,7 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_20",
@@ -726,8 +707,7 @@
       "sizes": [
         "1 X 1/2",
         "1 X 3/4"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_21",
@@ -739,8 +719,7 @@
       "sizes": [
         "3/4",
         "1"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_22",
@@ -752,8 +731,7 @@
       "sizes": [
         "3/4",
         "1"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_23",
@@ -765,8 +743,7 @@
       "sizes": [
         "3/4",
         "1"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_24",
@@ -777,8 +754,7 @@
       "description": "CPVC - End Plug. Available sizes: 3/4.",
       "sizes": [
         "3/4"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_25",
@@ -789,8 +765,7 @@
       "description": "CPVC - 3 In 1 Mixer Adaptor 6. Available sizes: 3/4 X 1/2.",
       "sizes": [
         "3/4 X 1/2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_26",
@@ -801,8 +776,7 @@
       "description": "CPVC - 3 In 1 Mixer Frame 6. Available sizes: 3/4 X 1/2.",
       "sizes": [
         "3/4 X 1/2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_27",
@@ -813,8 +787,7 @@
       "description": "CPVC - Reducing FTA Hexa Brass. Available sizes: 3/4 X 1/2.",
       "sizes": [
         "3/4 X 1/2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_28",
@@ -826,8 +799,7 @@
       "sizes": [
         "3/4 X 1/2",
         "1 X 1/2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_29",
@@ -839,8 +811,7 @@
       "sizes": [
         "3/4 X 1/2",
         "1 X 1/2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_30",
@@ -853,8 +824,7 @@
         "3/4 X 1/2",
         "1 X 1/2",
         "1 X 1/4"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_31",
@@ -867,8 +837,7 @@
         "3/4",
         "1",
         "1 1/4"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_32",
@@ -880,8 +849,7 @@
       "sizes": [
         "3/4",
         "1"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_33",
@@ -894,8 +862,7 @@
         "3/4",
         "1",
         "1 1/4"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_34",
@@ -907,8 +874,7 @@
       "sizes": [
         "3/4",
         "1"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_35",
@@ -919,8 +885,7 @@
       "description": "CPVC - Reducing MTA Hexa Brass. Available sizes: 3/4 X 1/2.",
       "sizes": [
         "3/4 X 1/2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_36",
@@ -942,8 +907,7 @@
         "2 X 1",
         "2 X 1 1/4",
         "2 X 1 1/2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_37",
@@ -963,8 +927,7 @@
         "2 X 1",
         "2 X 1 1/4",
         "2 X 1 1/2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_38",
@@ -983,8 +946,7 @@
         "2 X 1",
         "2 X 1 1/4",
         "2 X 1 1/2"
-      ],
-      "subcategoryId": "subcat_cpvc_fittings"
+      ]
     },
     {
       "id": "prod_cpvc_39",
@@ -1000,8 +962,7 @@
       ],
       "price": 0,
       "image": "/images/cpvc/CPVC - Ball Valve.png",
-      "createdAt": "2026-08-08T05:32:11.636Z",
-      "subcategoryId": "subcat_cpvc_fittings"
+      "createdAt": "2026-08-08T05:32:11.636Z"
     },
     {
       "id": "prod_upvc_1",
@@ -4027,18 +3988,6 @@
       "name": "Loft Tanks",
       "categoryId": "cat_tanks",
       "image": "/images/tanks/Loft Tank White.png"
-    },
-    {
-      "id": "subcat_cpvc_pipes",
-      "name": "Pipes",
-      "categoryId": "cat_cpvc",
-      "image": "/images/cpvc/CPVC Pipes.png"
-    },
-    {
-      "id": "subcat_cpvc_fittings",
-      "name": "Fittings",
-      "categoryId": "cat_cpvc",
-      "image": "/images/cpvc/CPVC Tee.png"
     }
   ]
 }
