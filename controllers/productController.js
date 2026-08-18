@@ -44,7 +44,7 @@ exports.getProductById = async (req, res) => {
 
 exports.addProduct = async (req, res) => {
   try {
-    const { name, image, categoryId, subcategoryId, description, details, specification, sizes } = req.body;
+    const { name, image, categoryId, subcategoryId, description, details, specification, sizes, packSizes } = req.body;
     if (!name || !categoryId) {
       return res.status(400).json({ success: false, message: 'Product Name and Category are required' });
     }
@@ -66,7 +66,8 @@ exports.addProduct = async (req, res) => {
       description: description || '',
       details: details || '',
       specification: specification || '',
-      sizes: parsedSizes
+      sizes: parsedSizes,
+      packSizes: packSizes || {}
     };
 
     data.products.push(newProduct);
@@ -81,7 +82,7 @@ exports.addProduct = async (req, res) => {
 exports.updateProduct = async (req, res) => {
   try {
     const { id } = req.params;
-    const { name, image, categoryId, subcategoryId, description, details, specification, sizes } = req.body;
+    const { name, image, categoryId, subcategoryId, description, details, specification, sizes, packSizes } = req.body;
 
     const data = await readData();
     const product = data.products.find(p => p.id === id);
@@ -99,6 +100,7 @@ exports.updateProduct = async (req, res) => {
         ? sizes 
         : (sizes ? String(sizes).split(',').map(s => s.trim()).filter(Boolean) : []);
     }
+    if (packSizes !== undefined) product.packSizes = packSizes;
 
     if (categoryId) {
       product.categoryId = categoryId;
