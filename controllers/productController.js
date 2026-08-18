@@ -1,9 +1,9 @@
 const { readData, writeData } = require('../database/store');
 
-exports.getAllProducts = (req, res) => {
+exports.getAllProducts = async (req, res) => {
   try {
     const { categoryId, subcategoryId, search } = req.query;
-    const data = readData();
+    const data = await readData();
     let products = [...data.products];
 
     if (categoryId) {
@@ -28,10 +28,10 @@ exports.getAllProducts = (req, res) => {
   }
 };
 
-exports.getProductById = (req, res) => {
+exports.getProductById = async (req, res) => {
   try {
     const { id } = req.params;
-    const data = readData();
+    const data = await readData();
     const product = data.products.find(p => p.id === id);
     if (!product) {
       return res.status(404).json({ success: false, message: 'Product not found' });
@@ -42,14 +42,14 @@ exports.getProductById = (req, res) => {
   }
 };
 
-exports.addProduct = (req, res) => {
+exports.addProduct = async (req, res) => {
   try {
-    const { name, image, categoryId, subcategoryId, description, sizes } = req.body;
+    const { name, image, categoryId, subcategoryId, description, details, specification, sizes } = req.body;
     if (!name || !categoryId) {
       return res.status(400).json({ success: false, message: 'Product Name and Category are required' });
     }
 
-    const data = readData();
+    const data = await readData();
     const category = data.categories.find(c => c.id === categoryId);
 
     const parsedSizes = Array.isArray(sizes) 
@@ -64,11 +64,13 @@ exports.addProduct = (req, res) => {
       categoryName: category ? category.name : 'General',
       image: image || 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=500&q=80',
       description: description || '',
+      details: details || '',
+      specification: specification || '',
       sizes: parsedSizes
     };
 
     data.products.push(newProduct);
-    writeData(data);
+    await writeData(data);
 
     res.status(201).json({ success: true, message: 'Product created', product: newProduct });
   } catch (err) {
@@ -76,12 +78,12 @@ exports.addProduct = (req, res) => {
   }
 };
 
-exports.updateProduct = (req, res) => {
+exports.updateProduct = async (req, res) => {
   try {
     const { id } = req.params;
-    const { name, image, categoryId, subcategoryId, description, sizes } = req.body;
+    const { name, image, categoryId, subcategoryId, description, details, specification, sizes } = req.body;
 
-    const data = readData();
+    const data = await readData();
     const product = data.products.find(p => p.id === id);
     if (!product) {
       return res.status(404).json({ success: false, message: 'Product not found' });
@@ -90,6 +92,8 @@ exports.updateProduct = (req, res) => {
     if (name) product.name = name;
     if (image) product.image = image;
     if (description !== undefined) product.description = description;
+    if (details !== undefined) product.details = details;
+    if (specification !== undefined) product.specification = specification;
     if (sizes !== undefined) {
       product.sizes = Array.isArray(sizes) 
         ? sizes 
@@ -106,24 +110,24 @@ exports.updateProduct = (req, res) => {
       product.subcategoryId = subcategoryId;
     }
 
-    writeData(data);
+    await writeData(data);
     res.json({ success: true, message: 'Product updated', product });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 };
 
-exports.deleteProduct = (req, res) => {
+exports.deleteProduct = async (req, res) => {
   try {
     const { id } = req.params;
-    const data = readData();
+    const data = await readData();
     const idx = data.products.findIndex(p => p.id === id);
     if (idx === -1) {
       return res.status(404).json({ success: false, message: 'Product not found' });
     }
 
     data.products.splice(idx, 1);
-    writeData(data);
+    await writeData(data);
 
     res.json({ success: true, message: 'Product deleted' });
   } catch (err) {

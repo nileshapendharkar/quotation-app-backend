@@ -1,8 +1,8 @@
 const { readData, writeData } = require('../database/store');
 
-exports.getDashboardStats = (req, res) => {
+exports.getDashboardStats = async (req, res) => {
   try {
-    const data = readData();
+    const data = await readData();
 
     const totalUsers = data.users.filter(u => u.role !== 'admin').length;
     const totalOrders = data.orders.length;
@@ -32,9 +32,9 @@ exports.getDashboardStats = (req, res) => {
   }
 };
 
-exports.getUsers = (req, res) => {
+exports.getUsers = async (req, res) => {
   try {
-    const data = readData();
+    const data = await readData();
     const customers = data.users
       .filter(u => u.role !== 'admin')
       .map(u => {
@@ -61,7 +61,7 @@ exports.createUser = async (req, res) => {
       return res.status(400).json({ success: false, message: 'User ID (Mobile Number) and Password are required' });
     }
 
-    const data = readData();
+    const data = await readData();
     const existing = data.users.find(u => 
       (u.userId && u.userId.toLowerCase() === cleanUserId.toLowerCase()) || 
       (u.mobile && u.mobile.toLowerCase() === cleanUserId.toLowerCase())
@@ -95,7 +95,7 @@ exports.createUser = async (req, res) => {
     data.favorites[newUser.id] = [];
     data.carts[newUser.id] = [];
 
-    writeData(data);
+    await writeData(data);
 
     const userResp = { ...newUser };
     delete userResp.passwordHash;
@@ -119,7 +119,7 @@ exports.uploadExcelUsers = async (req, res) => {
       return res.status(400).json({ success: false, message: 'No valid user data provided' });
     }
 
-    const data = readData();
+    const data = await readData();
     let addedCount = 0;
     let updatedCount = 0;
 
@@ -168,7 +168,7 @@ exports.uploadExcelUsers = async (req, res) => {
       }
     }
 
-    writeData(data);
+    await writeData(data);
 
     res.json({
       success: true,
@@ -187,7 +187,7 @@ exports.updateUser = async (req, res) => {
     const { id } = req.params;
     const { password, name, status, companyName } = req.body;
 
-    const data = readData();
+    const data = await readData();
     const user = data.users.find(u => u.id === id);
 
     if (!user) {
@@ -205,7 +205,7 @@ exports.updateUser = async (req, res) => {
     if (status) user.status = status;
     if (companyName !== undefined) user.companyName = companyName;
 
-    writeData(data);
+    await writeData(data);
 
     const userResp = { ...user };
     delete userResp.passwordHash;
@@ -216,10 +216,10 @@ exports.updateUser = async (req, res) => {
   }
 };
 
-exports.deleteUser = (req, res) => {
+exports.deleteUser = async (req, res) => {
   try {
     const { id } = req.params;
-    const data = readData();
+    const data = await readData();
 
     const index = data.users.findIndex(u => u.id === id);
     if (index === -1) {
@@ -234,7 +234,7 @@ exports.deleteUser = (req, res) => {
     if (data.favorites) delete data.favorites[id];
     if (data.carts) delete data.carts[id];
 
-    writeData(data);
+    await writeData(data);
 
     res.json({ success: true, message: 'User deleted successfully' });
   } catch (err) {
@@ -242,23 +242,23 @@ exports.deleteUser = (req, res) => {
   }
 };
 
-exports.getNotifications = (req, res) => {
+exports.getNotifications = async (req, res) => {
   try {
-    const data = readData();
+    const data = await readData();
     res.json({ success: true, notifications: data.notifications });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 };
 
-exports.sendNotification = (req, res) => {
+exports.sendNotification = async (req, res) => {
   try {
     const { title, message, targetUser } = req.body;
     if (!title || !message) {
       return res.status(400).json({ success: false, message: 'Title and message are required' });
     }
 
-    const data = readData();
+    const data = await readData();
     const newNotif = {
       id: 'notif_' + Date.now(),
       title,
@@ -268,7 +268,7 @@ exports.sendNotification = (req, res) => {
     };
 
     data.notifications.unshift(newNotif);
-    writeData(data);
+    await writeData(data);
 
     res.status(201).json({ success: true, message: 'Notification broadcasted', notification: newNotif });
   } catch (err) {

@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
+const compression = require('compression');
 
 const authRoutes = require('./routes/authRoutes');
 const categoryRoutes = require('./routes/categoryRoutes');
@@ -16,6 +17,21 @@ const path = require('path');
 const app = express();
 
 app.use(cors());
+// Enable gzip/deflate compression for responses > 1KB (default threshold)
+// It also checks the Accept-Encoding header and prevents double-compression.
+app.use(compression({
+  threshold: 1024, // 1KB
+  filter: (req, res) => {
+    if (req.headers['x-no-compression']) {
+      return false;
+    }
+    // Avoid double compression if already compressed
+    if (res.getHeader('Content-Encoding')) {
+      return false;
+    }
+    return compression.filter(req, res);
+  }
+}));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/images', express.static(path.join(__dirname, 'public/images')));

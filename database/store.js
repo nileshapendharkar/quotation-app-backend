@@ -1,7 +1,28 @@
 const fs = require('fs');
 const path = require('path');
+const mongoose = require('mongoose');
 
 const DB_FILE = path.join(__dirname, 'db_data.json');
+
+// MongoDB Setup
+const dbSchema = new mongoose.Schema({
+  data: Object
+});
+const AppData = mongoose.models.AppData || mongoose.model('AppData', dbSchema);
+
+let isMongoConnected = false;
+async function connectMongo() {
+  if (isMongoConnected) return;
+  if (!process.env.MONGO_URI) return;
+  try {
+    await mongoose.connect(process.env.MONGO_URI);
+    isMongoConnected = true;
+    console.log('✅ Connected to MongoDB for persistent storage.');
+  } catch (err) {
+    console.error('❌ MongoDB connection error:', err);
+  }
+}
+
 
 // Initial seed data - Ganesh Gouri Industries (Gouri Aqua Plast) - ZERO prices!
 const initialData = {
@@ -1496,7 +1517,37 @@ const initialData = {
   ]
 };
 
-function readData() {
+async function readData() {
+  await connectMongo();
+
+  // MONGODB MODE
+  if (isMongoConnected) {
+    try {
+      let doc = await AppData.findOne();
+      if (!doc) {
+        // Initialize with default seed data
+        const seeded = { ...initialData };
+        seeded.products = seeded.products.map(prod => {
+          if (prod.sizes) return prod;
+          if (prod.categoryId === 'cat_tanks') {
+            prod.sizes = ["200L", "300L", "500L", "750L", "1000L", "1500L", "2000L", "5000L"];
+          } else if (['cat_cpvc', 'cat_upvc', 'cat_swr', 'cat_casing', 'cat_agri', 'cat_hdpe', 'cat_sprinkler', 'cat_column', 'cat_eco_drainage', 'cat_garden'].includes(prod.categoryId)) {
+            prod.sizes = ["1/2 inch", "3/4 inch", "1 inch", "1 1/4 inch", "1 1/2 inch", "1.5 inch", "2 inch", "2 1/2 inch", "3 inch", "4 inch", "5 inch", "6 inch"];
+          } else {
+            prod.sizes = ["Standard"];
+          }
+          return prod;
+        });
+        doc = await AppData.create({ data: seeded });
+      }
+      return doc.data;
+    } catch (err) {
+      console.error("MongoDB read error:", err);
+      return initialData;
+    }
+  }
+
+  // LOCAL FILE FALLBACK MODE
   try {
     if (!fs.existsSync(DB_FILE)) {
       const seeded = { ...initialData };
@@ -1522,7 +1573,20 @@ function readData() {
   }
 }
 
-function writeData(data) {
+async function writeData(data) {
+  await connectMongo();
+
+  // MONGODB MODE
+  if (isMongoConnected) {
+    try {
+      await AppData.findOneAndUpdate({}, { data }, { upsert: true });
+      return;
+    } catch (err) {
+      console.error("MongoDB write error:", err);
+    }
+  }
+
+  // LOCAL FILE FALLBACK MODE
   try {
     fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2));
   } catch (err) {

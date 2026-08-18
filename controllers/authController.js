@@ -11,7 +11,7 @@ exports.register = async (req, res) => {
       return res.status(400).json({ success: false, message: 'Name, Email, Mobile and Password are required' });
     }
 
-    const data = readData();
+    const data = await readData();
     const existing = data.users.find(u => u.email.toLowerCase() === email.toLowerCase());
     if (existing) {
       return res.status(400).json({ success: false, message: 'Email is already registered' });
@@ -35,7 +35,7 @@ exports.register = async (req, res) => {
     data.users.push(newUser);
     data.favorites[newUser.id] = [];
     data.carts[newUser.id] = [];
-    writeData(data);
+    await writeData(data);
 
     const token = jwt.sign({ id: newUser.id, role: newUser.role, email: newUser.email }, JWT_SECRET, { expiresIn: '30d' });
 
@@ -63,7 +63,7 @@ exports.login = async (req, res) => {
       return res.status(400).json({ success: false, message: 'User ID / Mobile Number and Password are required' });
     }
 
-    const data = readData();
+    const data = await readData();
     const user = data.users.find(u => {
       const uUserId = (u.userId || '').toString().trim().toLowerCase();
       const uMobile = (u.mobile || '').toString().trim().toLowerCase();
@@ -114,7 +114,7 @@ exports.forgotPassword = async (req, res) => {
       return res.status(400).json({ success: false, message: 'Email is required' });
     }
 
-    const data = readData();
+    const data = await readData();
     const user = data.users.find(u => u.email.toLowerCase() === email.toLowerCase());
     if (!user) {
       return res.status(404).json({ success: false, message: 'No account found with this email' });
@@ -136,7 +136,7 @@ exports.changePassword = async (req, res) => {
       return res.status(400).json({ success: false, message: 'Current and new password are required' });
     }
 
-    const data = readData();
+    const data = await readData();
     const user = data.users.find(u => u.id === req.user.id);
     if (!user) {
       return res.status(404).json({ success: false, message: 'User not found' });
@@ -149,7 +149,7 @@ exports.changePassword = async (req, res) => {
 
     const salt = await bcrypt.genSalt(10);
     user.passwordHash = await bcrypt.hash(newPassword, salt);
-    writeData(data);
+    await writeData(data);
 
     res.json({ success: true, message: 'Password updated successfully' });
   } catch (err) {
@@ -159,7 +159,7 @@ exports.changePassword = async (req, res) => {
 
 exports.getProfile = async (req, res) => {
   try {
-    const data = readData();
+    const data = await readData();
     const user = data.users.find(u => u.id === req.user.id);
     if (!user) {
       return res.status(404).json({ success: false, message: 'User not found' });
@@ -177,7 +177,7 @@ exports.getProfile = async (req, res) => {
 exports.updateProfile = async (req, res) => {
   try {
     const { name, mobile, companyName, companyAddress } = req.body;
-    const data = readData();
+    const data = await readData();
     const user = data.users.find(u => u.id === req.user.id);
     if (!user) {
       return res.status(404).json({ success: false, message: 'User not found' });
@@ -188,7 +188,7 @@ exports.updateProfile = async (req, res) => {
     if (companyName !== undefined) user.companyName = companyName;
     if (companyAddress !== undefined) user.companyAddress = companyAddress;
 
-    writeData(data);
+    await writeData(data);
 
     const userResp = { ...user };
     delete userResp.passwordHash;
@@ -201,7 +201,7 @@ exports.updateProfile = async (req, res) => {
 
 exports.deleteAccount = async (req, res) => {
   try {
-    const data = readData();
+    const data = await readData();
     const index = data.users.findIndex(u => u.id === req.user.id);
     if (index === -1) {
       return res.status(404).json({ success: false, message: 'User not found' });
@@ -210,7 +210,7 @@ exports.deleteAccount = async (req, res) => {
     data.users.splice(index, 1);
     delete data.favorites[req.user.id];
     delete data.carts[req.user.id];
-    writeData(data);
+    await writeData(data);
 
     res.json({ success: true, message: 'Account deleted successfully' });
   } catch (err) {

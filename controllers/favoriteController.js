@@ -1,9 +1,9 @@
 const { readData, writeData } = require('../database/store');
 
-exports.getFavorites = (req, res) => {
+exports.getFavorites = async (req, res) => {
   try {
     const userId = req.user.id;
-    const data = readData();
+    const data = await readData();
     const favIds = data.favorites[userId] || [];
 
     const favoriteProducts = data.products.filter(p => favIds.includes(p.id));
@@ -13,7 +13,7 @@ exports.getFavorites = (req, res) => {
   }
 };
 
-exports.toggleFavorite = (req, res) => {
+exports.toggleFavorite = async (req, res) => {
   try {
     const userId = req.user.id;
     const { productId } = req.body;
@@ -22,7 +22,7 @@ exports.toggleFavorite = (req, res) => {
       return res.status(400).json({ success: false, message: 'Product ID is required' });
     }
 
-    const data = readData();
+    const data = await readData();
     if (!data.favorites[userId]) {
       data.favorites[userId] = [];
     }
@@ -38,7 +38,7 @@ exports.toggleFavorite = (req, res) => {
       isFavorite = true;
     }
 
-    writeData(data);
+    await writeData(data);
 
     res.json({
       success: true,

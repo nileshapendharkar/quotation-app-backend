@@ -1,9 +1,9 @@
 const { readData, writeData } = require('../database/store');
 
-exports.getCart = (req, res) => {
+exports.getCart = async (req, res) => {
   try {
     const userId = req.user.id;
-    const data = readData();
+    const data = await readData();
     const rawCart = data.carts[userId] || [];
 
     const cartItems = rawCart.map(item => {
@@ -25,7 +25,7 @@ exports.getCart = (req, res) => {
   }
 };
 
-exports.addToCart = (req, res) => {
+exports.addToCart = async (req, res) => {
   try {
     const userId = req.user.id;
     const { productId, quantity, size } = req.body;
@@ -36,7 +36,7 @@ exports.addToCart = (req, res) => {
       return res.status(400).json({ success: false, message: 'Product ID is required' });
     }
 
-    const data = readData();
+    const data = await readData();
     if (!data.carts[userId]) {
       data.carts[userId] = [];
     }
@@ -52,21 +52,21 @@ exports.addToCart = (req, res) => {
       data.carts[userId].push({ productId, quantity: qty, size: itemSize });
     }
 
-    writeData(data);
+    await writeData(data);
     res.json({ success: true, message: 'Item added to quotation cart' });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 };
 
-exports.updateQuantity = (req, res) => {
+exports.updateQuantity = async (req, res) => {
   try {
     const userId = req.user.id;
     const { productId, quantity, size } = req.body;
     const qty = parseInt(quantity);
     const itemSize = size || '';
 
-    const data = readData();
+    const data = await readData();
     if (!data.carts[userId]) return res.json({ success: true, cart: [] });
 
     const item = data.carts[userId].find(i => 
@@ -82,7 +82,7 @@ exports.updateQuantity = (req, res) => {
       } else {
         item.quantity = qty;
       }
-      writeData(data);
+      await writeData(data);
     }
 
     res.json({ success: true, message: 'Quantity updated' });
@@ -91,19 +91,19 @@ exports.updateQuantity = (req, res) => {
   }
 };
 
-exports.removeFromCart = (req, res) => {
+exports.removeFromCart = async (req, res) => {
   try {
     const userId = req.user.id;
     const { productId } = req.params;
     const { size } = req.query;
     const itemSize = size || '';
 
-    const data = readData();
+    const data = await readData();
     if (data.carts[userId]) {
       data.carts[userId] = data.carts[userId].filter(i => 
         !(i.productId === productId && (i.size === itemSize || (!i.size && !itemSize)))
       );
-      writeData(data);
+      await writeData(data);
     }
 
     res.json({ success: true, message: 'Item removed from quotation cart' });
@@ -112,12 +112,12 @@ exports.removeFromCart = (req, res) => {
   }
 };
 
-exports.clearCart = (req, res) => {
+exports.clearCart = async (req, res) => {
   try {
     const userId = req.user.id;
-    const data = readData();
+    const data = await readData();
     data.carts[userId] = [];
-    writeData(data);
+    await writeData(data);
     res.json({ success: true, message: 'Quotation cart cleared' });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });

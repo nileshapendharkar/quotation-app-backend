@@ -1,12 +1,12 @@
 const { readData, writeData } = require('../database/store');
 const { generateQuotationPDF } = require('../utils/pdfGenerator');
 
-exports.createOrder = (req, res) => {
+exports.createOrder = async (req, res) => {
   try {
     const userId = req.user.id;
     const { items, notes } = req.body;
 
-    const data = readData();
+    const data = await readData();
     const user = data.users.find(u => u.id === userId);
 
     if (!user) {
@@ -61,7 +61,7 @@ exports.createOrder = (req, res) => {
 
     data.orders.unshift(newOrder);
     data.carts[userId] = []; // Clear cart after quotation request
-    writeData(data);
+    await writeData(data);
 
     res.status(201).json({
       success: true,
@@ -73,11 +73,11 @@ exports.createOrder = (req, res) => {
   }
 };
 
-exports.getUserOrders = (req, res) => {
+exports.getUserOrders = async (req, res) => {
   try {
     const userId = req.user.id;
     const { status } = req.query;
-    const data = readData();
+    const data = await readData();
 
     let orders = data.orders.filter(o => o.userId === userId);
     if (status && status !== 'All') {
@@ -90,10 +90,10 @@ exports.getUserOrders = (req, res) => {
   }
 };
 
-exports.getAllOrders = (req, res) => {
+exports.getAllOrders = async (req, res) => {
   try {
     const { status } = req.query;
-    const data = readData();
+    const data = await readData();
 
     let orders = [...data.orders];
     if (status && status !== 'All') {
@@ -106,7 +106,7 @@ exports.getAllOrders = (req, res) => {
   }
 };
 
-exports.updateOrderStatus = (req, res) => {
+exports.updateOrderStatus = async (req, res) => {
   try {
     const { id } = req.params;
     const { status } = req.body;
@@ -115,14 +115,14 @@ exports.updateOrderStatus = (req, res) => {
       return res.status(400).json({ success: false, message: 'Invalid status. Allowed: Pending, Dispatched, Cancelled' });
     }
 
-    const data = readData();
+    const data = await readData();
     const order = data.orders.find(o => o.id === id);
     if (!order) {
       return res.status(404).json({ success: false, message: 'Order / Quotation not found' });
     }
 
     order.status = status;
-    writeData(data);
+    await writeData(data);
 
     res.json({ success: true, message: `Quotation status updated to ${status}`, order });
   } catch (err) {
@@ -130,10 +130,10 @@ exports.updateOrderStatus = (req, res) => {
   }
 };
 
-exports.downloadQuotationPDF = (req, res) => {
+exports.downloadQuotationPDF = async (req, res) => {
   try {
     const { id } = req.params;
-    const data = readData();
+    const data = await readData();
     const order = data.orders.find(o => o.id === id);
 
     if (!order) {

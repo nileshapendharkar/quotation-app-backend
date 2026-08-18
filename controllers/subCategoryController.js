@@ -1,22 +1,22 @@
 const { readData, writeData } = require('../database/store');
 
-exports.getAllSubCategories = (req, res) => {
+exports.getAllSubCategories = async (req, res) => {
   try {
-    const data = readData();
+    const data = await readData();
     res.json({ success: true, subCategories: data.subCategories || [] });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 };
 
-exports.addSubCategory = (req, res) => {
+exports.addSubCategory = async (req, res) => {
   try {
     const { name, image, categoryId } = req.body;
     if (!name || !categoryId) {
       return res.status(400).json({ success: false, message: 'Sub-Category name and categoryId are required' });
     }
 
-    const data = readData();
+    const data = await readData();
     
     // Ensure category exists
     const cat = data.categories.find(c => c.id === categoryId);
@@ -36,7 +36,7 @@ exports.addSubCategory = (req, res) => {
     }
     
     data.subCategories.push(newSubCategory);
-    writeData(data);
+    await writeData(data);
 
     res.status(201).json({ success: true, message: 'Sub-Category created', subCategory: newSubCategory });
   } catch (err) {
@@ -44,12 +44,12 @@ exports.addSubCategory = (req, res) => {
   }
 };
 
-exports.updateSubCategory = (req, res) => {
+exports.updateSubCategory = async (req, res) => {
   try {
     const { id } = req.params;
     const { name, image, categoryId } = req.body;
 
-    const data = readData();
+    const data = await readData();
     if (!data.subCategories) data.subCategories = [];
     
     const subCat = data.subCategories.find(c => c.id === id);
@@ -67,17 +67,17 @@ exports.updateSubCategory = (req, res) => {
       subCat.categoryId = categoryId;
     }
 
-    writeData(data);
+    await writeData(data);
     res.json({ success: true, message: 'Sub-Category updated', subCategory: subCat });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 };
 
-exports.deleteSubCategory = (req, res) => {
+exports.deleteSubCategory = async (req, res) => {
   try {
     const { id } = req.params;
-    const data = readData();
+    const data = await readData();
     
     if (!data.subCategories) data.subCategories = [];
 
@@ -87,7 +87,7 @@ exports.deleteSubCategory = (req, res) => {
     }
 
     data.subCategories.splice(idx, 1);
-    writeData(data);
+    await writeData(data);
 
     res.json({ success: true, message: 'Sub-Category deleted' });
   } catch (err) {
