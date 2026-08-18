@@ -2,9 +2,14 @@ const { readData, writeData } = require('../database/store');
 
 exports.getAllProducts = async (req, res) => {
   try {
-    const { categoryId, subcategoryId, search } = req.query;
+    const { categoryId, subcategoryId, search, includeInactive } = req.query;
     const data = await readData();
     let products = [...data.products];
+
+    // Unless explicitly requested by Admin (includeInactive=true), show only Active products
+    if (includeInactive !== 'true') {
+      products = products.filter(p => p.status !== 'Inactive');
+    }
 
     if (categoryId) {
       products = products.filter(p => p.categoryId === categoryId);
@@ -17,7 +22,8 @@ exports.getAllProducts = async (req, res) => {
     if (search) {
       const q = search.toLowerCase();
       products = products.filter(p => 
-        p.name.toLowerCase().includes(q) || 
+        (p.code && p.code.toLowerCase().includes(q)) ||
+        (p.name && p.name.toLowerCase().includes(q)) || 
         (p.categoryName && p.categoryName.toLowerCase().includes(q))
       );
     }
@@ -44,7 +50,7 @@ exports.getProductById = async (req, res) => {
 
 exports.addProduct = async (req, res) => {
   try {
-    const { name, image, categoryId, subcategoryId, description, details, specification, sizes, packSizes } = req.body;
+    const { code, name, image, categoryId, subcategoryId, description, details, specification, sizes, packSizes, status, uom } = req.body;
     if (!name || !categoryId) {
       return res.status(400).json({ success: false, message: 'Product Name and Category are required' });
     }
@@ -58,22 +64,25 @@ exports.addProduct = async (req, res) => {
 
     const newProduct = {
       id: 'prod_' + Date.now(),
+      code: code || ('PRD-' + String(Date.now()).slice(-5)),
       name,
       categoryId,
       subcategoryId: subcategoryId || null,
       categoryName: category ? category.name : 'General',
+      uom: uom || 'Nos',
       image: image || 'https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=500&q=80',
       description: description || '',
       details: details || '',
       specification: specification || '',
       sizes: parsedSizes,
-      packSizes: packSizes || {}
+      packSizes: packSizes || {},
+      status: status || 'Active'
     };
 
     data.products.push(newProduct);
     await writeData(data);
 
-    res.status(201).json({ success: true, message: 'Product created', product: newProduct });
+    res.status(201).json({ success: true, message: 'Product created and synced to database', product: newProduct });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
@@ -82,7 +91,7 @@ exports.addProduct = async (req, res) => {
 exports.updateProduct = async (req, res) => {
   try {
     const { id } = req.params;
-    const { name, image, categoryId, subcategoryId, description, details, specification, sizes, packSizes } = req.body;
+    const { code, name, image, categoryId, subcategoryId, description, details, specification, sizes, packSizes, status, uom } = req.body;
 
     const data = await readData();
     const product = data.products.find(p => p.id === id);
@@ -90,7 +99,9 @@ exports.updateProduct = async (req, res) => {
       return res.status(404).json({ success: false, message: 'Product not found' });
     }
 
+    if (code !== undefined) product.code = code;
     if (name) product.name = name;
+    if (uom !== undefined) product.uom = uom;
     if (image) product.image = image;
     if (description !== undefined) product.description = description;
     if (details !== undefined) product.details = details;
@@ -101,6 +112,7 @@ exports.updateProduct = async (req, res) => {
         : (sizes ? String(sizes).split(',').map(s => s.trim()).filter(Boolean) : []);
     }
     if (packSizes !== undefined) product.packSizes = packSizes;
+    if (status !== undefined) product.status = status;
 
     if (categoryId) {
       product.categoryId = categoryId;
@@ -113,7 +125,7 @@ exports.updateProduct = async (req, res) => {
     }
 
     await writeData(data);
-    res.json({ success: true, message: 'Product updated', product });
+    res.json({ success: true, message: 'Product updated and synced to database', product });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }

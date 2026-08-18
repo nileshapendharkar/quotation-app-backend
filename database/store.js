@@ -1,27 +1,45 @@
 const fs = require('fs');
 const path = require('path');
-const mongoose = require('mongoose');
+const couchbase = require('couchbase');
 
 const DB_FILE = path.join(__dirname, 'db_data.json');
+const COUCHBASE_DOC_KEY = 'appdata';
 
-// MongoDB Setup
-const dbSchema = new mongoose.Schema({
-  data: Object
-});
-const AppData = mongoose.models.AppData || mongoose.model('AppData', dbSchema);
+// Couchbase Setup
+let cbCluster = null;
+let cbCollection = null;
+let isCouchbaseConnected = false;
 
-let isMongoConnected = false;
-async function connectMongo() {
-  if (isMongoConnected) return;
-  if (!process.env.MONGO_URI) return;
+async function connectCouchbase() {
+  if (isCouchbaseConnected) return;
+  const connStr = process.env.COUCHBASE_URI;
+  const username = process.env.COUCHBASE_USER;
+  const password = process.env.COUCHBASE_PASSWORD;
+  const bucketName = process.env.COUCHBASE_BUCKET || 'quotation_app';
+  if (!connStr || !username || !password) return;
   try {
-    await mongoose.connect(process.env.MONGO_URI);
-    isMongoConnected = true;
-    console.log('✅ Connected to MongoDB for persistent storage.');
+    const certPath = path.join(__dirname, 'couchbase-root-ca.pem');
+    const options = {
+      username,
+      password,
+      configProfile: 'wanDevelopment',
+    };
+    if (fs.existsSync(certPath)) {
+      options.trustStorePath = certPath;
+    }
+    cbCluster = await couchbase.connect(connStr, options);
+    const bucket = cbCluster.bucket(bucketName);
+    cbCollection = bucket.defaultCollection();
+    isCouchbaseConnected = true;
+    console.log(`✅ Connected to Couchbase (bucket: ${bucketName}) for persistent storage.`);
   } catch (err) {
-    console.error('❌ MongoDB connection error:', err);
+    console.error('❌ Couchbase connection error:', err.constructor.name, '-', err.message || err);
   }
 }
+
+
+
+
 
 
 // Initial seed data - Ganesh Gouri Industries (Gouri Aqua Plast) - ZERO prices!
@@ -1517,32 +1535,38 @@ const initialData = {
   ]
 };
 
-async function readData() {
-  await connectMongo();
+function seedProducts(data) {
+  data.products = data.products.map(prod => {
+    if (prod.sizes) return prod;
+    if (prod.categoryId === 'cat_tanks') {
+      prod.sizes = ["200L", "300L", "500L", "750L", "1000L", "1500L", "2000L", "5000L"];
+    } else if (['cat_cpvc', 'cat_upvc', 'cat_swr', 'cat_casing', 'cat_agri', 'cat_hdpe', 'cat_sprinkler', 'cat_column', 'cat_eco_drainage', 'cat_garden'].includes(prod.categoryId)) {
+      prod.sizes = ["1/2 inch", "3/4 inch", "1 inch", "1 1/4 inch", "1 1/2 inch", "1.5 inch", "2 inch", "2 1/2 inch", "3 inch", "4 inch", "5 inch", "6 inch"];
+    } else {
+      prod.sizes = ["Standard"];
+    }
+    return prod;
+  });
+  return data;
+}
 
-  // MONGODB MODE
-  if (isMongoConnected) {
+async function readData() {
+  await connectCouchbase();
+
+  // COUCHBASE MODE
+  if (isCouchbaseConnected) {
     try {
-      let doc = await AppData.findOne();
-      if (!doc) {
-        // Initialize with default seed data
-        const seeded = { ...initialData };
-        seeded.products = seeded.products.map(prod => {
-          if (prod.sizes) return prod;
-          if (prod.categoryId === 'cat_tanks') {
-            prod.sizes = ["200L", "300L", "500L", "750L", "1000L", "1500L", "2000L", "5000L"];
-          } else if (['cat_cpvc', 'cat_upvc', 'cat_swr', 'cat_casing', 'cat_agri', 'cat_hdpe', 'cat_sprinkler', 'cat_column', 'cat_eco_drainage', 'cat_garden'].includes(prod.categoryId)) {
-            prod.sizes = ["1/2 inch", "3/4 inch", "1 inch", "1 1/4 inch", "1 1/2 inch", "1.5 inch", "2 inch", "2 1/2 inch", "3 inch", "4 inch", "5 inch", "6 inch"];
-          } else {
-            prod.sizes = ["Standard"];
-          }
-          return prod;
-        });
-        doc = await AppData.create({ data: seeded });
-      }
-      return doc.data;
+      const result = await cbCollection.get(COUCHBASE_DOC_KEY);
+      return result.value;
     } catch (err) {
-      console.error("MongoDB read error:", err);
+      // DocumentNotFoundError — seed initial data
+      if (err.constructor && err.constructor.name === 'DocumentNotFoundError') {
+        const seeded = seedProducts({ ...initialData });
+        await cbCollection.upsert(COUCHBASE_DOC_KEY, seeded);
+        console.log('🌱 Couchbase seeded with initial data.');
+        return seeded;
+      }
+      console.error('❌ Couchbase read error:', err.message || err);
       return initialData;
     }
   }
@@ -1550,39 +1574,28 @@ async function readData() {
   // LOCAL FILE FALLBACK MODE
   try {
     if (!fs.existsSync(DB_FILE)) {
-      const seeded = { ...initialData };
-      seeded.products = seeded.products.map(prod => {
-        if (prod.sizes) return prod;
-        if (prod.categoryId === 'cat_tanks') {
-          prod.sizes = ["200L", "300L", "500L", "750L", "1000L", "1500L", "2000L", "5000L"];
-        } else if (['cat_cpvc', 'cat_upvc', 'cat_swr', 'cat_casing', 'cat_agri', 'cat_hdpe', 'cat_sprinkler', 'cat_column', 'cat_eco_drainage', 'cat_garden'].includes(prod.categoryId)) {
-          prod.sizes = ["1/2 inch", "3/4 inch", "1 inch", "1 1/4 inch", "1 1/2 inch", "1.5 inch", "2 inch", "2 1/2 inch", "3 inch", "4 inch", "5 inch", "6 inch"];
-        } else {
-          prod.sizes = ["Standard"];
-        }
-        return prod;
-      });
+      const seeded = seedProducts({ ...initialData });
       fs.writeFileSync(DB_FILE, JSON.stringify(seeded, null, 2));
       return seeded;
     }
     const raw = fs.readFileSync(DB_FILE, 'utf8');
     return JSON.parse(raw);
   } catch (err) {
-    console.error("DB read error, using initial data:", err);
+    console.error('❌ DB read error, using initial data:', err);
     return initialData;
   }
 }
 
 async function writeData(data) {
-  await connectMongo();
+  await connectCouchbase();
 
-  // MONGODB MODE
-  if (isMongoConnected) {
+  // COUCHBASE MODE
+  if (isCouchbaseConnected) {
     try {
-      await AppData.findOneAndUpdate({}, { data }, { upsert: true });
+      await cbCollection.upsert(COUCHBASE_DOC_KEY, data);
       return;
     } catch (err) {
-      console.error("MongoDB write error:", err);
+      console.error('❌ Couchbase write error:', err.message || err);
     }
   }
 
@@ -1590,7 +1603,7 @@ async function writeData(data) {
   try {
     fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2));
   } catch (err) {
-    console.error("DB write error:", err);
+    console.error('❌ DB write error:', err);
   }
 }
 
