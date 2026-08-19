@@ -725,17 +725,28 @@
     },
     {
       "id": "prod_cpvc_4",
-      "name": "CPVC - SCH-40 Pipe",
+      "name": "CPVC PIPES (SCH-40)",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
       "image": "/images/cpvc/CPVC - SCH-40 Pipe.png",
-      "description": "CPVC - SCH-40 Pipe. Available sizes: 2 1/2, 3, 4.",
+      "description": "CPVC PIPES (SCH-40). Available in 3MTR and 5MTR lengths. Sizes: 2 1/2\", 3\", 4\".",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4"
+        "2 1/2\" - 3MTR",
+        "2 1/2\" - 5MTR",
+        "3\" - 3MTR",
+        "3\" - 5MTR",
+        "4\" - 3MTR",
+        "4\" - 5MTR"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "2 1/2\" - 3MTR": 5,
+        "2 1/2\" - 5MTR": 5,
+        "3\" - 3MTR": 4,
+        "3\" - 5MTR": 4,
+        "4\" - 3MTR": 2,
+        "4\" - 5MTR": 2
+      }
     },
     {
       "id": "prod_cpvc_5",
