@@ -987,11 +987,11 @@
     },
     {
       "id": "prod_cpvc_12",
-      "name": "CPVC - Nail Clamp",
+      "name": "CPVC NAIL CLAMP",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
       "image": "/images/cpvc/CPVC - Nail Clamp.png",
-      "description": "CPVC - Nail Clamp. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "description": "CPVC NAIL CLAMP. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
         "1",
@@ -999,7 +999,21 @@
         "1 1/2",
         "2"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "1": 600,
+        "2": 150,
+        "3/4": 1000,
+        "1 1/4": 500,
+        "1 1/2": 300
+      },
+      "sizeProductCodes": {
+        "1": "FG-400473",
+        "2": "FG-400541",
+        "3/4": "FG-400538",
+        "1 1/4": "FG-400539",
+        "1 1/2": "FG-400540"
+      }
     },
     {
       "id": "prod_cpvc_13",
