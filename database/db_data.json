@@ -927,11 +927,11 @@
     },
     {
       "id": "prod_cpvc_10",
-      "name": "CPVC - Bend 45",
+      "name": "CPVC SHOE BEND 45",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
       "image": "/images/cpvc/CPVC - Bend 45.png",
-      "description": "CPVC - Bend 45. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "description": "CPVC SHOE BEND 45. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
         "1",
@@ -939,7 +939,21 @@
         "1 1/2",
         "2"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "1": 140,
+        "2": 30,
+        "3/4": 300,
+        "1 1/4": 100,
+        "1 1/2": 60
+      },
+      "sizeProductCodes": {
+        "1": "FG-400411",
+        "2": "FG-400472",
+        "3/4": "FG-400410",
+        "1 1/4": "FG-401666",
+        "1 1/2": "FG-401654"
+      }
     },
     {
       "id": "prod_cpvc_11",
