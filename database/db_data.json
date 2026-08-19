@@ -777,11 +777,11 @@
     },
     {
       "id": "prod_cpvc_5",
-      "name": "CPVC - Coupler",
+      "name": "CPVC COUPLER",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
       "image": "/images/cpvc/CPVC - Coupler.png",
-      "description": "CPVC - Coupler. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "description": "CPVC COUPLER. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
         "1",
@@ -789,7 +789,21 @@
         "1 1/2",
         "2"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "1": 160,
+        "2": 30,
+        "3/4": 300,
+        "1 1/4": 80,
+        "1 1/2": 60
+      },
+      "sizeProductCodes": {
+        "1": "FG-400408",
+        "2": "FG-400483",
+        "3/4": "FG-400407",
+        "1 1/4": "FG-400673",
+        "1 1/2": "FG-400482"
+      }
     },
     {
       "id": "prod_cpvc_6",
