@@ -837,11 +837,11 @@
     },
     {
       "id": "prod_cpvc_7",
-      "name": "CPVC - Metal Clamp",
+      "name": "CPVC METAL CLAMP",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
       "image": "/images/cpvc/CPVC - Metal Clamp.png",
-      "description": "CPVC - Metal Clamp. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "description": "CPVC METAL CLAMP. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
         "1",
@@ -849,7 +849,21 @@
         "1 1/2",
         "2"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "1": 500,
+        "2": 300,
+        "3/4": 800,
+        "1 1/4": 500,
+        "1 1/2": 300
+      },
+      "sizeProductCodes": {
+        "1": "FG-400454",
+        "2": "FG-400457",
+        "3/4": "FG-400453",
+        "1 1/4": "FG-400455",
+        "1 1/2": "FG-400456"
+      }
     },
     {
       "id": "prod_cpvc_8",
