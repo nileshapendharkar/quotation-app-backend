@@ -957,11 +957,11 @@
     },
     {
       "id": "prod_cpvc_11",
-      "name": "CPVC - FTA",
+      "name": "CPVC FTA",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
       "image": "/images/cpvc/CPVC - FTA.png",
-      "description": "CPVC - FTA. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "description": "CPVC FTA. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
         "1",
@@ -969,7 +969,21 @@
         "1 1/2",
         "2"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "1": 120,
+        "2": 30,
+        "3/4": 320,
+        "1 1/4": 80,
+        "1 1/2": 50
+      },
+      "sizeProductCodes": {
+        "1": "FG-400424",
+        "2": "FG-400503",
+        "3/4": "FG-400423",
+        "1 1/4": "FG-400425",
+        "1 1/2": "FG-400502"
+      }
     },
     {
       "id": "prod_cpvc_12",
