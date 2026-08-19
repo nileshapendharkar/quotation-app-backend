@@ -867,11 +867,11 @@
     },
     {
       "id": "prod_cpvc_8",
-      "name": "CPVC - Elbow 90",
+      "name": "CPVC ELBOW 90",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
       "image": "/images/cpvc/CPVC - Elbow 90.png",
-      "description": "CPVC - Elbow 90. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "description": "CPVC ELBOW 90. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
         "1",
@@ -879,7 +879,21 @@
         "1 1/2",
         "2"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "1": 100,
+        "2": 16,
+        "3/4": 200,
+        "1 1/4": 60,
+        "1 1/2": 40
+      },
+      "sizeProductCodes": {
+        "1": "FG-400404",
+        "2": "FG-400479",
+        "3/4": "FG-400403",
+        "1 1/4": "FG-400477",
+        "1 1/2": "FG-401661"
+      }
     },
     {
       "id": "prod_cpvc_9",
