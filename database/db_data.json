@@ -1356,19 +1356,33 @@
     {
       "id": "prod_cpvc_39",
       "categoryId": "cat_cpvc",
-      "name": "CPVC - Ball Valve",
+      "name": "CPVC BALL VALVE (LONG HANDLE)",
       "sizes": [
-        "1/2\"",
-        "3/4\"",
-        "1\"",
-        "1-1/4\"",
-        "1-1/2\"",
-        "2\""
+        "3/4",
+        "1",
+        "1 1/4",
+        "1 1/2",
+        "2"
       ],
       "price": 0,
       "image": "/images/cpvc/CPVC - Ball Valve.png",
       "createdAt": "2026-08-08T05:32:11.636Z",
-      "status": "Active"
+      "status": "Active",
+      "description": "CPVC BALL VALVE (LONG HANDLE). Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "packSizes": {
+        "1": 30,
+        "2": 10,
+        "3/4": 40,
+        "1 1/4": 20,
+        "1 1/2": 14
+      },
+      "sizeProductCodes": {
+        "1": "FG-400448",
+        "2": "FG-400451",
+        "3/4": "FG-400447",
+        "1 1/4": "FG-400449",
+        "1 1/2": "FG-400450"
+      }
     },
     {
       "id": "prod_upvc_1",
