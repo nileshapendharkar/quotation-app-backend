@@ -157,7 +157,8 @@
         "750L": "FG-400125",
         "1000L": "FG-400126"
       },
-      "subcategoryId": "subcat_tanks_blow"
+      "subcategoryId": "subcat_tanks_blow",
+      "status": "Active"
     },
     {
       "id": "prod_tank_2",
@@ -176,7 +177,8 @@
         "750L": "FG-400132",
         "1000L": "FG-400130"
       },
-      "subcategoryId": "subcat_tanks_blow"
+      "subcategoryId": "subcat_tanks_blow",
+      "status": "Active"
     },
     {
       "id": "prod_tank_3",
@@ -203,7 +205,8 @@
         "1500L": "FG-400136",
         "2000L": "FG-400133"
       },
-      "subcategoryId": "subcat_tanks_blow"
+      "subcategoryId": "subcat_tanks_blow",
+      "status": "Active"
     },
     {
       "id": "prod_tank_5",
@@ -222,7 +225,8 @@
         "750L": "FG-401589",
         "1000L": "FG-401590"
       },
-      "subcategoryId": "subcat_tanks_blow"
+      "subcategoryId": "subcat_tanks_blow",
+      "status": "Active"
     },
     {
       "id": "prod_tank_6",
@@ -239,7 +243,8 @@
         "1500L": "FG-400085",
         "2000L": "FG-400084"
       },
-      "subcategoryId": "subcat_tanks_blow"
+      "subcategoryId": "subcat_tanks_blow",
+      "status": "Active"
     },
     {
       "id": "prod_tank_8",
@@ -260,7 +265,8 @@
         "500L": "FG-400096",
         "1000L": "FG-401819"
       },
-      "subcategoryId": "subcat_tanks_loft"
+      "subcategoryId": "subcat_tanks_loft",
+      "status": "Active"
     },
     {
       "id": "prod_tank_9",
@@ -281,7 +287,8 @@
         "1000L": "FG-401660",
         "5000L": "FG-401674"
       },
-      "subcategoryId": "subcat_tanks_roto"
+      "subcategoryId": "subcat_tanks_roto",
+      "status": "Active"
     },
     {
       "id": "prod_tank_10",
@@ -308,7 +315,8 @@
         "3000L": "FG-400051",
         "5000L": "FG-400050"
       },
-      "subcategoryId": "subcat_tanks_roto"
+      "subcategoryId": "subcat_tanks_roto",
+      "status": "Active"
     },
     {
       "id": "prod_tank_11",
@@ -335,7 +343,8 @@
         "3000L": "FG-400065",
         "5000L": "FG-400064"
       },
-      "subcategoryId": "subcat_tanks_roto"
+      "subcategoryId": "subcat_tanks_roto",
+      "status": "Active"
     },
     {
       "id": "prod_tank_12",
@@ -362,7 +371,8 @@
         "3000L": "FG-400023",
         "5000L": "FG-400022"
       },
-      "subcategoryId": "subcat_tanks_roto"
+      "subcategoryId": "subcat_tanks_roto",
+      "status": "Active"
     },
     {
       "id": "prod_tank_13",
@@ -389,7 +399,8 @@
         "3000L": "FG-400030",
         "5000L": "FG-400029"
       },
-      "subcategoryId": "subcat_tanks_roto"
+      "subcategoryId": "subcat_tanks_roto",
+      "status": "Active"
     },
     {
       "id": "prod_tank_14",
@@ -416,7 +427,8 @@
         "3000L": "FG-400016",
         "5000L": "FG-400015"
       },
-      "subcategoryId": "subcat_tanks_roto"
+      "subcategoryId": "subcat_tanks_roto",
+      "status": "Active"
     },
     {
       "id": "prod_tank_15",
@@ -443,7 +455,8 @@
         "3000L": "FG-400009",
         "5000L": "FG-400008"
       },
-      "subcategoryId": "subcat_tanks_roto"
+      "subcategoryId": "subcat_tanks_roto",
+      "status": "Active"
     },
     {
       "id": "prod_tank_17",
@@ -459,7 +472,8 @@
       "sizeProductCodes": {
         "1000L": "FG-401580",
         "2000L": "FG-401581"
-      }
+      },
+      "status": "Active"
     },
     {
       "id": "prod_tank_19",
@@ -486,7 +500,8 @@
         "3000L": "FG-400105",
         "5000L": "FG-400106"
       },
-      "subcategoryId": "subcat_tanks_roto"
+      "subcategoryId": "subcat_tanks_roto",
+      "status": "Active"
     },
     {
       "id": "prod_tank_20",
@@ -513,7 +528,8 @@
         "3000L": "FG-400112",
         "5000L": "FG-400113"
       },
-      "subcategoryId": "subcat_tanks_roto"
+      "subcategoryId": "subcat_tanks_roto",
+      "status": "Active"
     },
     {
       "id": "prod_tank_21",
@@ -540,7 +556,8 @@
         "3000L": "FG-400044",
         "5000L": "FG-400043"
       },
-      "subcategoryId": "subcat_tanks_roto"
+      "subcategoryId": "subcat_tanks_roto",
+      "status": "Active"
     },
     {
       "id": "prod_tank_22",
@@ -567,7 +584,8 @@
         "3000L": "FG-400058",
         "5000L": "FG-400057"
       },
-      "subcategoryId": "subcat_tanks_roto"
+      "subcategoryId": "subcat_tanks_roto",
+      "status": "Active"
     },
     {
       "id": "prod_tank_23",
@@ -586,11 +604,12 @@
         "750L": "FG-401593",
         "1000L": "FG-401587"
       },
-      "subcategoryId": "subcat_tanks_roto"
+      "subcategoryId": "subcat_tanks_roto",
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_1",
-      "name": "CPVC - SDR-13.5 Pipe ISI",
+      "name": "CPVC PIPES (SDR 13.5) 3MTR",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
       "image": "/images/cpvc/CPVC - SDR-13.5 Pipe ISI.png",
@@ -602,7 +621,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_2",
@@ -618,7 +638,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_3",
@@ -631,7 +652,8 @@
         "2 1/2",
         "3",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_4",
@@ -644,7 +666,8 @@
         "2 1/2",
         "3",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_5",
@@ -659,7 +682,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_6",
@@ -674,7 +698,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_7",
@@ -689,7 +714,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_8",
@@ -704,7 +730,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_9",
@@ -719,7 +746,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_10",
@@ -734,7 +762,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_11",
@@ -749,7 +778,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_12",
@@ -764,7 +794,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_13",
@@ -779,7 +810,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_14",
@@ -794,7 +826,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_15",
@@ -807,7 +840,8 @@
         "3/4",
         "1",
         "1 1/4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_16",
@@ -822,7 +856,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_17",
@@ -837,7 +872,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_18",
@@ -852,7 +888,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_19",
@@ -867,7 +904,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_20",
@@ -879,7 +917,8 @@
       "sizes": [
         "1 X 1/2",
         "1 X 3/4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_21",
@@ -891,7 +930,8 @@
       "sizes": [
         "3/4",
         "1"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_22",
@@ -903,7 +943,8 @@
       "sizes": [
         "3/4",
         "1"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_23",
@@ -915,7 +956,8 @@
       "sizes": [
         "3/4",
         "1"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_24",
@@ -926,7 +968,8 @@
       "description": "CPVC - End Plug. Available sizes: 3/4.",
       "sizes": [
         "3/4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_25",
@@ -937,7 +980,8 @@
       "description": "CPVC - 3 In 1 Mixer Adaptor 6. Available sizes: 3/4 X 1/2.",
       "sizes": [
         "3/4 X 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_26",
@@ -948,7 +992,8 @@
       "description": "CPVC - 3 In 1 Mixer Frame 6. Available sizes: 3/4 X 1/2.",
       "sizes": [
         "3/4 X 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_27",
@@ -959,7 +1004,8 @@
       "description": "CPVC - Reducing FTA Hexa Brass. Available sizes: 3/4 X 1/2.",
       "sizes": [
         "3/4 X 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_28",
@@ -971,7 +1017,8 @@
       "sizes": [
         "3/4 X 1/2",
         "1 X 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_29",
@@ -983,7 +1030,8 @@
       "sizes": [
         "3/4 X 1/2",
         "1 X 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_30",
@@ -996,7 +1044,8 @@
         "3/4 X 1/2",
         "1 X 1/2",
         "1 X 1/4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_31",
@@ -1009,7 +1058,8 @@
         "3/4",
         "1",
         "1 1/4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_32",
@@ -1021,7 +1071,8 @@
       "sizes": [
         "3/4",
         "1"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_33",
@@ -1034,7 +1085,8 @@
         "3/4",
         "1",
         "1 1/4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_34",
@@ -1046,7 +1098,8 @@
       "sizes": [
         "3/4",
         "1"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_35",
@@ -1057,7 +1110,8 @@
       "description": "CPVC - Reducing MTA Hexa Brass. Available sizes: 3/4 X 1/2.",
       "sizes": [
         "3/4 X 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_36",
@@ -1079,7 +1133,8 @@
         "2 X 1",
         "2 X 1 1/4",
         "2 X 1 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_37",
@@ -1099,7 +1154,8 @@
         "2 X 1",
         "2 X 1 1/4",
         "2 X 1 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_38",
@@ -1118,7 +1174,8 @@
         "2 X 1",
         "2 X 1 1/4",
         "2 X 1 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_cpvc_39",
@@ -1134,7 +1191,8 @@
       ],
       "price": 0,
       "image": "/images/cpvc/CPVC - Ball Valve.png",
-      "createdAt": "2026-08-08T05:32:11.636Z"
+      "createdAt": "2026-08-08T05:32:11.636Z",
+      "status": "Active"
     },
     {
       "id": "prod_upvc_1",
@@ -1150,7 +1208,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_2",
@@ -1166,7 +1225,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_3",
@@ -1182,7 +1242,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_4",
@@ -1204,7 +1265,8 @@
         "2 X 1",
         "2 X 1 1/4",
         "2 X 1 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_5",
@@ -1226,7 +1288,8 @@
         "2 X 1",
         "2 X 1 1/4",
         "2 X 1 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_6",
@@ -1248,7 +1311,8 @@
         "2 X 1",
         "2 X 1 1/4",
         "2 X 1 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_7",
@@ -1264,7 +1328,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_8",
@@ -1280,7 +1345,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_9",
@@ -1296,7 +1362,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_10",
@@ -1312,7 +1379,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_11",
@@ -1328,7 +1396,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_12",
@@ -1344,7 +1413,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_13",
@@ -1360,7 +1430,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_14",
@@ -1376,7 +1447,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_15",
@@ -1392,7 +1464,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_16",
@@ -1408,7 +1481,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_17",
@@ -1424,7 +1498,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_18",
@@ -1440,7 +1515,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_19",
@@ -1456,7 +1532,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_20",
@@ -1472,7 +1549,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_21",
@@ -1485,7 +1563,8 @@
         "1 X 1/2",
         "1 X 3/4",
         "3/4 X 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_22",
@@ -1498,7 +1577,8 @@
         "1/2",
         "3/4",
         "1"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_23",
@@ -1511,7 +1591,8 @@
         "1/2",
         "3/4",
         "1"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_24",
@@ -1524,7 +1605,8 @@
         "1/2",
         "3/4",
         "1"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_25",
@@ -1537,7 +1619,8 @@
         "1/2",
         "3/4",
         "1"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_26",
@@ -1553,7 +1636,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_27",
@@ -1569,7 +1653,8 @@
         "1 1/4",
         "1 1/2",
         "2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_28",
@@ -1581,7 +1666,8 @@
       "sizes": [
         "3/4",
         "1"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_29",
@@ -1594,7 +1680,8 @@
         "1/2",
         "3/4",
         "1"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_30",
@@ -1607,7 +1694,8 @@
         "1/2",
         "3/4",
         "1"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_31",
@@ -1620,7 +1708,8 @@
         "1/2",
         "3/4",
         "1"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_32",
@@ -1631,7 +1720,8 @@
       "description": "UPVC- REDUCING BRASS ELBOW 90. Available sizes: 3/4 X 1/2.",
       "sizes": [
         "3/4 X 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_33",
@@ -1642,7 +1732,8 @@
       "description": "UPVC- THREADED ELBOW 90. Available sizes: 1/2.",
       "sizes": [
         "1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_34",
@@ -1654,7 +1745,8 @@
       "sizes": [
         "3/4 X 1/2",
         "1 X 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_upvc_35",
@@ -1665,7 +1757,8 @@
       "description": "UPVC- END PLUG. Available sizes: 1/2.",
       "sizes": [
         "1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_1",
@@ -1679,7 +1772,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_2",
@@ -1693,7 +1787,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_3",
@@ -1705,7 +1800,8 @@
       "sizes": [
         "4 X 2 1/2",
         "6 X 4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_4",
@@ -1716,7 +1812,8 @@
       "description": "SWR RINGFIT - REDUCING TEE. Available sizes: 4 X 2 1/2.",
       "sizes": [
         "4 X 2 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_5",
@@ -1728,7 +1825,8 @@
       "sizes": [
         "2 1/2",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_6",
@@ -1739,7 +1837,8 @@
       "description": "SWR RINGFIT - REDUCER ISI. Available sizes: 2 1/2.",
       "sizes": [
         "2 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_7",
@@ -1750,7 +1849,8 @@
       "description": "SWR RINGFIT - REDUCER. Available sizes: 4 X 2 1/2.",
       "sizes": [
         "4 X 2 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_8",
@@ -1764,7 +1864,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_9",
@@ -1776,7 +1877,8 @@
       "sizes": [
         "2 1/2",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_10",
@@ -1790,7 +1892,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_11",
@@ -1802,7 +1905,8 @@
       "sizes": [
         "2 1/2",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_12",
@@ -1816,7 +1920,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_13",
@@ -1828,7 +1933,8 @@
       "sizes": [
         "2 1/2",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_14",
@@ -1842,7 +1948,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_15",
@@ -1854,7 +1961,8 @@
       "sizes": [
         "2 1/2",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_16",
@@ -1868,7 +1976,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_17",
@@ -1880,7 +1989,8 @@
       "sizes": [
         "2 1/2",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_18",
@@ -1894,7 +2004,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_19",
@@ -1905,7 +2016,8 @@
       "description": "SWR RINGFIT - CLEANING PIPES. Available sizes: 4.",
       "sizes": [
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_20",
@@ -1919,7 +2031,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_21",
@@ -1931,7 +2044,8 @@
       "sizes": [
         "2 1/2",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_22",
@@ -1945,7 +2059,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_23",
@@ -1956,7 +2071,8 @@
       "description": "SWR RINGFIT - DOOR REDUCING TEE. Available sizes: 4 X 2 1/2.",
       "sizes": [
         "4 X 2 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_1",
@@ -1970,7 +2086,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_2",
@@ -1984,7 +2101,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_3",
@@ -1996,7 +2114,8 @@
       "sizes": [
         "2 1/2",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_4",
@@ -2008,7 +2127,8 @@
       "sizes": [
         "2 1/2",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_5",
@@ -2022,7 +2142,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_6",
@@ -2036,7 +2157,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_7",
@@ -2050,7 +2172,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_8",
@@ -2062,7 +2185,8 @@
       "sizes": [
         "2 1/2",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_9",
@@ -2076,7 +2200,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_10",
@@ -2088,7 +2213,8 @@
       "sizes": [
         "2 1/2",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_11",
@@ -2101,7 +2227,8 @@
         "4 X 2 1/2",
         "4 X 3",
         "6 X 4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_12",
@@ -2112,7 +2239,8 @@
       "description": "SWR SELFIT - REDUCER ISI. Available sizes: 4 X 2 1/2.",
       "sizes": [
         "4 X 2 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_13",
@@ -2124,7 +2252,8 @@
       "sizes": [
         "2 1/2",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_14",
@@ -2138,7 +2267,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_15",
@@ -2150,7 +2280,8 @@
       "sizes": [
         "2 1/2",
         "3"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_16",
@@ -2162,7 +2293,8 @@
       "sizes": [
         "2 1/2",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_17",
@@ -2176,7 +2308,8 @@
         "3",
         "4",
         "6"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_18",
@@ -2188,7 +2321,8 @@
       "sizes": [
         "2 1/2",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_19",
@@ -2199,7 +2333,8 @@
       "description": "SWR SELFIT - REDUCING TEE ISI. Available sizes: 4 X 2 1/2.",
       "sizes": [
         "4 X 2 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_20",
@@ -2210,7 +2345,8 @@
       "description": "SWR SELFIT - REDUCING TEE. Available sizes: 4 X 2 1/2.",
       "sizes": [
         "4 X 2 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_selfit_21",
@@ -2221,7 +2357,8 @@
       "description": "SWR SELFIT - CLEANING PIPE. Available sizes: 4.",
       "sizes": [
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_common_1",
@@ -2234,7 +2371,8 @@
         "4 X 2 1/2",
         "4 X 3",
         "4 X 4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_common_2",
@@ -2247,7 +2385,8 @@
         "4 X 2 1/2",
         "4 X 3",
         "4 X 4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_common_3",
@@ -2258,7 +2397,8 @@
       "description": "MULTI FLOW TRAP (WITHOUT JALI). Available sizes: 4 X 2 1/2 X 1 1/2.",
       "sizes": [
         "4 X 2 1/2 X 1 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_common_4",
@@ -2269,7 +2409,8 @@
       "description": "MULTI FLOW TRAP (WITH JALI). Available sizes: 4 X 2 1/2 X 1 1/2.",
       "sizes": [
         "4 X 2 1/2 X 1 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_common_5",
@@ -2280,7 +2421,8 @@
       "description": "VENT COWL. Available sizes: 2 1/2.",
       "sizes": [
         "2 1/2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_common_6",
@@ -2291,7 +2433,8 @@
       "description": "JALI. Available sizes: 4.",
       "sizes": [
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_common_7",
@@ -2303,7 +2446,8 @@
       "sizes": [
         "2 1/2",
         "4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_swr_common_8",
@@ -2315,7 +2459,8 @@
       "sizes": [
         "4 X 4",
         "4 1/2 X 4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_solvent_1",
@@ -2328,7 +2473,8 @@
         "59ML",
         "118ML",
         "237ML"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_solvent_2",
@@ -2341,7 +2487,8 @@
         "59ML",
         "118ML",
         "237ML"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_solvent_3",
@@ -2354,7 +2501,8 @@
         "50ML",
         "100ML",
         "250ML"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_solvent_4",
@@ -2367,7 +2515,8 @@
         "50ML",
         "100ML",
         "250ML"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_solvent_5",
@@ -2380,7 +2529,8 @@
         "50ML",
         "100ML",
         "250ML"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_solvent_6",
@@ -2392,7 +2542,8 @@
       "sizes": [
         "10ML",
         "25ML"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_solvent_7",
@@ -2404,7 +2555,8 @@
       "sizes": [
         "10ML",
         "25ML"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_solvent_8",
@@ -2417,7 +2569,8 @@
         "25ML",
         "50ML",
         "100ML"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_solvent_9",
@@ -2430,7 +2583,8 @@
         "50ML",
         "100ML",
         "250ML"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_hdpe_1",
@@ -2456,7 +2610,8 @@
         "200MM",
         "225MM",
         "250MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_hdpe_2",
@@ -2474,7 +2629,8 @@
         "75MM",
         "90MM",
         "110MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_hdpe_3",
@@ -2493,7 +2649,8 @@
         "75MM",
         "90MM",
         "110MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_hdpe_4",
@@ -2505,7 +2662,8 @@
       "sizes": [
         "90MM",
         "110MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_hdpe_5",
@@ -2518,7 +2676,8 @@
         "40MM",
         "50MM",
         "63MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_hdpe_6",
@@ -2529,7 +2688,8 @@
       "description": "Medium Density Polyethylene Pipe.",
       "sizes": [
         "20MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_eco_1",
@@ -2543,7 +2703,8 @@
         "160MM",
         "200MM",
         "250MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_eco_2",
@@ -2557,7 +2718,8 @@
         "160MM",
         "200MM",
         "250MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_1",
@@ -2583,7 +2745,8 @@
         "200MM",
         "225MM",
         "250MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_2",
@@ -2609,7 +2772,8 @@
         "200MM",
         "225MM",
         "250MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_3",
@@ -2625,7 +2789,8 @@
         "40MM",
         "50MM",
         "63MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_4",
@@ -2641,7 +2806,8 @@
         "40MM",
         "50MM",
         "63MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_5",
@@ -2655,7 +2821,8 @@
         "75MM",
         "90MM",
         "110MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_6",
@@ -2676,7 +2843,8 @@
         "140 X 110",
         "160 X 110",
         "160 X 140"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_7",
@@ -2691,7 +2859,8 @@
         "65MM",
         "75MM",
         "100MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_8",
@@ -2709,7 +2878,8 @@
         "110MM",
         "140MM",
         "160MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_9",
@@ -2727,7 +2897,8 @@
         "110MM",
         "140MM",
         "160MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_10",
@@ -2743,7 +2914,8 @@
         "75MM",
         "90MM",
         "110MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_11",
@@ -2757,7 +2929,8 @@
         "75MM",
         "90MM",
         "110MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_12",
@@ -2770,7 +2943,8 @@
         "75 X 20",
         "75 X 25",
         "75 X 32"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_13",
@@ -2788,7 +2962,8 @@
         "110MM",
         "140MM",
         "160MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_14",
@@ -2806,7 +2981,8 @@
         "110MM",
         "140MM",
         "160MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_15",
@@ -2822,7 +2998,8 @@
         "75MM",
         "90MM",
         "110MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_16",
@@ -2838,7 +3015,8 @@
         "75MM",
         "90MM",
         "110MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_17",
@@ -2850,7 +3028,8 @@
       "sizes": [
         "25MM",
         "32MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_18",
@@ -2862,7 +3041,8 @@
       "sizes": [
         "25MM",
         "32MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_19",
@@ -2874,7 +3054,8 @@
       "sizes": [
         "25MM",
         "32MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_20",
@@ -2886,7 +3067,8 @@
       "sizes": [
         "25MM",
         "32MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_21",
@@ -2898,7 +3080,8 @@
       "sizes": [
         "25MM",
         "32MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_22",
@@ -2910,7 +3093,8 @@
       "sizes": [
         "25MM",
         "32MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_23",
@@ -2922,7 +3106,8 @@
       "sizes": [
         "25MM",
         "32MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_24",
@@ -2934,7 +3119,8 @@
       "sizes": [
         "32 X 20",
         "32 X 25"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_25",
@@ -2958,7 +3144,8 @@
         "140 X 110",
         "160 X 110",
         "160 X 140"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_26",
@@ -2978,7 +3165,8 @@
         "110 X 63",
         "110 X 75",
         "110 X 90"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_27",
@@ -2996,7 +3184,8 @@
         "110MM",
         "140MM",
         "160MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_28",
@@ -3009,7 +3198,8 @@
         "75MM",
         "90MM",
         "110MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_29",
@@ -3027,7 +3217,8 @@
         "110MM",
         "140MM",
         "160MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_30",
@@ -3039,7 +3230,8 @@
       "sizes": [
         "140MM",
         "160MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_31",
@@ -3057,7 +3249,8 @@
         "110MM",
         "140MM",
         "160MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_32",
@@ -3075,7 +3268,8 @@
         "110MM",
         "140MM",
         "160MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_agri_33",
@@ -3089,7 +3283,8 @@
         "75MM",
         "90MM",
         "110MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sprinkler_1",
@@ -3103,7 +3298,8 @@
         "63MM C TYPE",
         "75MM L TYPE",
         "75MM C TYPE"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sprinkler_2",
@@ -3117,7 +3313,8 @@
         "63MM C TYPE",
         "75MM L TYPE",
         "75MM C TYPE"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sprinkler_3",
@@ -3131,7 +3328,8 @@
         "63MM C TYPE",
         "75MM L TYPE",
         "75MM C TYPE"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sprinkler_4",
@@ -3145,7 +3343,8 @@
         "63MM C TYPE",
         "75MM L TYPE",
         "75MM C TYPE"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sprinkler_5",
@@ -3157,7 +3356,8 @@
       "sizes": [
         "63MM",
         "75MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sprinkler_6",
@@ -3169,7 +3369,8 @@
       "sizes": [
         "63MM",
         "75MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sprinkler_7",
@@ -3181,7 +3382,8 @@
       "sizes": [
         "63MM",
         "75MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sprinkler_8",
@@ -3193,7 +3395,8 @@
       "sizes": [
         "63MM",
         "75MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sprinkler_9",
@@ -3205,7 +3408,8 @@
       "sizes": [
         "63MM",
         "75MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sprinkler_10",
@@ -3217,7 +3421,8 @@
       "sizes": [
         "63MM",
         "75MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sprinkler_11",
@@ -3228,7 +3433,8 @@
       "description": "NOZZEL GUN (METAL) ISI for sprinkler irrigation systems.",
       "sizes": [
         "25MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sprinkler_12",
@@ -3239,7 +3445,8 @@
       "description": "GI RISER PIPE ISI for sprinkler irrigation systems.",
       "sizes": [
         "25MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_drip_round_isi_1",
@@ -3259,7 +3466,8 @@
         "12-4-30 CLASS-3",
         "12-4-40 CLASS-3",
         "12-4-50 CLASS-3"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_drip_round_isi_2",
@@ -3276,7 +3484,8 @@
         "16-4-30 CLASS-2",
         "16-4-40 CLASS-2",
         "16-4-50 CLASS-2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_drip_round_isi_3",
@@ -3290,7 +3499,8 @@
         "20-4-30 CLASS-1",
         "20-4-40 CLASS-1",
         "20-4-50 CLASS-1"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_drip_flat_isi_1",
@@ -3310,7 +3520,8 @@
         "12-4-30 CLASS-3",
         "12-4-40 CLASS-3",
         "12-4-50 CLASS-3"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_drip_flat_isi_2",
@@ -3327,7 +3538,8 @@
         "16-4-30 CLASS-2",
         "16-4-40 CLASS-2",
         "16-4-50 CLASS-2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_drip_flat_isi_3",
@@ -3341,7 +3553,8 @@
         "20-4-30 CLASS-1",
         "20-4-40 CLASS-1",
         "20-4-50 CLASS-1"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_drip_round_online_1",
@@ -3353,7 +3566,8 @@
       "description": "12mm Plain Lateral Online Drip Pipe.",
       "sizes": [
         "CLASS-2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_drip_round_online_2",
@@ -3365,7 +3579,8 @@
       "description": "16mm Plain Lateral Online Drip Pipe.",
       "sizes": [
         "CLASS-2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_drip_round_online_3",
@@ -3377,7 +3592,8 @@
       "description": "20mm Plain Lateral Online Drip Pipe.",
       "sizes": [
         "CLASS-2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_drip_round_online_4",
@@ -3390,7 +3606,8 @@
       "sizes": [
         "CLASS-1",
         "CLASS-2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_drip_flat_pepsi_1",
@@ -3406,7 +3623,8 @@
         "2/4 30 17KG 0.4",
         "2/4 40 14KG 0.3",
         "2/4 40 14KG 0.4"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_drip_flat_pepsi_2",
@@ -3429,7 +3647,8 @@
         "2/4 30 14KG 0.4",
         "2/4 40 14KG 0.4",
         "2/4 30 14KG 0.3"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_drip_flat_pepsi_3",
@@ -3443,7 +3662,8 @@
         "20-4-30 CLASS-2",
         "20-4-40 CLASS-2",
         "20-4-50 CLASS-2"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_casing_1",
@@ -3461,7 +3681,8 @@
         "150MM",
         "175MM",
         "200MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_casing_2",
@@ -3479,7 +3700,8 @@
         "150MM",
         "175MM",
         "200MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_column_1",
@@ -3496,7 +3718,8 @@
         "42MM 12.5 BELL END TYPE",
         "48MM 12.5 COUPLER TYPE",
         "60MM 12.5 COUPLER TYPE"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_column_2",
@@ -3511,7 +3734,8 @@
         "48MM 18 COUPLER TYPE",
         "60MM 15 COUPLER TYPE",
         "75MM 10 COUPLER TYPE"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_column_3",
@@ -3526,7 +3750,8 @@
         "48MM 25 COUPLER TYPE",
         "60MM 20 COUPLER TYPE",
         "75MM 20 COUPLER TYPE"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_column_4",
@@ -3537,7 +3762,8 @@
       "description": "3M Standard Plus UPVC Column Pipe for submersible pump systems.",
       "sizes": [
         "60MM 25 COUPLER TYPE"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_column_5",
@@ -3550,7 +3776,8 @@
         "42MM 30 COUPLER TYPE",
         "48MM 30 COUPLER TYPE",
         "60MM 30 COUPLER TYPE"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_column_6",
@@ -3561,7 +3788,8 @@
       "description": "3M Medium Plus UPVC Column Pipe for submersible pump systems.",
       "sizes": [
         "60MM 18 COUPLER TYPE"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_household_1",
@@ -3570,7 +3798,8 @@
       "categoryName": "HOUSEHOLD PRODUCTS",
       "image": "/images/household/CONSTRUCTION GHAMELA SHIVA.png",
       "description": "CONSTRUCTION GHAMELA SHIVA high durability ghamela.",
-      "sizes": []
+      "sizes": [],
+      "status": "Active"
     },
     {
       "id": "prod_household_2",
@@ -3579,7 +3808,8 @@
       "categoryName": "HOUSEHOLD PRODUCTS",
       "image": "/images/household/MULTIPURPOSE GHAMELA GOURI.png",
       "description": "MULTIPURPOSE GHAMELA GOURI high durability ghamela.",
-      "sizes": []
+      "sizes": [],
+      "status": "Active"
     },
     {
       "id": "prod_household_3",
@@ -3588,7 +3818,8 @@
       "categoryName": "HOUSEHOLD PRODUCTS",
       "image": "/images/household/MULTIPURPOSE GHAMELA KRISHNA.png",
       "description": "MULTIPURPOSE GHAMELA KRISHNA high durability ghamela.",
-      "sizes": []
+      "sizes": [],
+      "status": "Active"
     },
     {
       "id": "prod_household_4",
@@ -3597,7 +3828,8 @@
       "categoryName": "HOUSEHOLD PRODUCTS",
       "image": "/images/household/MULTIPURPOSE GHAMELA RAGHAV.png",
       "description": "MULTIPURPOSE GHAMELA RAGHAV high durability ghamela.",
-      "sizes": []
+      "sizes": [],
+      "status": "Active"
     },
     {
       "id": "prod_household_5",
@@ -3606,7 +3838,8 @@
       "categoryName": "HOUSEHOLD PRODUCTS",
       "image": "/images/household/MULTIPURPOSE GHAMELA ANIKET.png",
       "description": "MULTIPURPOSE GHAMELA ANIKET high durability ghamela.",
-      "sizes": []
+      "sizes": [],
+      "status": "Active"
     },
     {
       "id": "prod_household_6",
@@ -3615,7 +3848,8 @@
       "categoryName": "HOUSEHOLD PRODUCTS",
       "image": "/images/household/MULTIPURPOSE GHAMELA TEJASWI.png",
       "description": "MULTIPURPOSE GHAMELA TEJASWI high durability ghamela.",
-      "sizes": []
+      "sizes": [],
+      "status": "Active"
     },
     {
       "id": "prod_household_7",
@@ -3624,7 +3858,8 @@
       "categoryName": "HOUSEHOLD PRODUCTS",
       "image": "/images/household/MULTIPURPOSE GHAMELA GAJRAJ.png",
       "description": "MULTIPURPOSE GHAMELA GAJRAJ high durability ghamela.",
-      "sizes": []
+      "sizes": [],
+      "status": "Active"
     },
     {
       "id": "prod_household_8",
@@ -3633,7 +3868,8 @@
       "categoryName": "HOUSEHOLD PRODUCTS",
       "image": "/images/household/ECO DELTA GHAMELA KRISHNA.png",
       "description": "ECO DELTA GHAMELA KRISHNA high durability ghamela.",
-      "sizes": []
+      "sizes": [],
+      "status": "Active"
     },
     {
       "id": "prod_household_9",
@@ -3642,7 +3878,8 @@
       "categoryName": "HOUSEHOLD PRODUCTS",
       "image": "/images/household/ECO DELTA GHAMELA TEJASWI.png",
       "description": "ECO DELTA GHAMELA TEJASWI high durability ghamela.",
-      "sizes": []
+      "sizes": [],
+      "status": "Active"
     },
     {
       "id": "prod_garden_1",
@@ -3656,7 +3893,8 @@
         "20MM",
         "25MM",
         "32MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_garden_2",
@@ -3670,7 +3908,8 @@
         "20MM",
         "25MM",
         "32MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_garden_3",
@@ -3684,7 +3923,8 @@
         "20MM",
         "25MM",
         "32MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_garden_4",
@@ -3698,7 +3938,8 @@
         "20MM",
         "25MM",
         "32MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_garden_5",
@@ -3709,7 +3950,8 @@
       "description": "Transparent Level Pipe for construction & garden work.",
       "sizes": [
         "6MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_garden_6",
@@ -3724,7 +3966,8 @@
         "25MM",
         "32MM",
         "40MM"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_1",
@@ -3735,7 +3978,8 @@
       "description": "EDGE SERIES SHORT BODY TAP high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_2",
@@ -3746,7 +3990,8 @@
       "description": "EDGE SERIES LONG BODY TAP high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_3",
@@ -3757,7 +4002,8 @@
       "description": "EDGE SERIES SWAN NECK high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_4",
@@ -3768,7 +4014,8 @@
       "description": "EDGE SERIES ANGULAR VALVE high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_5",
@@ -3779,7 +4026,8 @@
       "description": "EDGE SERIES PILLAR TAP high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_6",
@@ -3790,7 +4038,8 @@
       "description": "EDGE SERIES 2 WAY BIB TAB high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_7",
@@ -3801,7 +4050,8 @@
       "description": "EDGE SERIES SINK TAP high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_8",
@@ -3812,7 +4062,8 @@
       "description": "SMART SERIES SHORT BODY BIB TAP high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_9",
@@ -3823,7 +4074,8 @@
       "description": "SMART SERIES LONG BODY BIB TAP high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_10",
@@ -3834,7 +4086,8 @@
       "description": "SMART SERIES PILLAR TAP high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_11",
@@ -3845,7 +4098,8 @@
       "description": "SMART SERIES SINK TAP high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_12",
@@ -3856,7 +4110,8 @@
       "description": "SMART SERIES SWAN NECK high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_13",
@@ -3867,7 +4122,8 @@
       "description": "SMART SERIES ANGULAR VALVE high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_14",
@@ -3878,7 +4134,8 @@
       "description": "SMART SERIES 2 WAY ANGULAR VALVE high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_15",
@@ -3889,7 +4146,8 @@
       "description": "SMART SERIES 2 WAY BIB TAP high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_16",
@@ -3900,7 +4158,8 @@
       "description": "REGULAR SERIES SHORT BODY BIB TAP high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_17",
@@ -3911,7 +4170,8 @@
       "description": "REGULAR SERIES LONG BODY BIB TAP high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_18",
@@ -3922,7 +4182,8 @@
       "description": "REGULAR SERIES PILLAR TAP high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_19",
@@ -3933,7 +4194,8 @@
       "description": "REGULAR SERIES SINK TAP high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_20",
@@ -3944,7 +4206,8 @@
       "description": "REGULAR SERIES SWAN NECK high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_21",
@@ -3955,7 +4218,8 @@
       "description": "REGULAR SERIES ANGULAR VALVE high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_22",
@@ -3966,7 +4230,8 @@
       "description": "REGULAR SERIES 2 WAY ANGULAR VALVE high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_faucet_23",
@@ -3977,7 +4242,8 @@
       "description": "REGULAR SERIES 2 WAY BIB TAP high quality faucet.",
       "sizes": [
         "1/2 inch"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sanitary_1",
@@ -3988,7 +4254,8 @@
       "description": "8 Litre Single Side Handle Flushing Cistern.",
       "sizes": [
         "8L"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sanitary_2",
@@ -3999,7 +4266,8 @@
       "description": "8 Litre Center Single Push Flushing Cistern.",
       "sizes": [
         "8L"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sanitary_3",
@@ -4010,7 +4278,8 @@
       "description": "10 Litre Dual Flush Cistern.",
       "sizes": [
         "10L"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sanitary_4",
@@ -4021,7 +4290,8 @@
       "description": "EWC Toilet Seat Cover with integrated jet spray.",
       "sizes": [
         "Standard"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sanitary_5",
@@ -4032,7 +4302,8 @@
       "description": "10 Litre Premium Dual Colour Dual Flush Cistern.",
       "sizes": [
         "10L"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sanitary_6",
@@ -4043,7 +4314,8 @@
       "description": "10 Litre Economy Dual Colour Dual Flush Cistern.",
       "sizes": [
         "10L"
-      ]
+      ],
+      "status": "Active"
     },
     {
       "id": "prod_sanitary_7",
@@ -4054,7 +4326,8 @@
       "description": "EWC Toilet Seat Cover without jet spray.",
       "sizes": [
         "Standard"
-      ]
+      ],
+      "status": "Active"
     }
   ],
   "favorites": {
