@@ -807,11 +807,11 @@
     },
     {
       "id": "prod_cpvc_6",
-      "name": "CPVC - End Cap",
+      "name": "CPVC END CAP",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
       "image": "/images/cpvc/CPVC - End Cap.png",
-      "description": "CPVC - End Cap. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "description": "CPVC END CAP. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
         "1",
@@ -819,7 +819,21 @@
         "1 1/2",
         "2"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "1": 320,
+        "2": 40,
+        "3/4": 600,
+        "1 1/4": 160,
+        "1 1/2": 100
+      },
+      "sizeProductCodes": {
+        "1": "FG-400427",
+        "2": "FG-400504",
+        "3/4": "FG-400426",
+        "1 1/4": "FG-400428",
+        "1 1/2": "FG-401700"
+      }
     },
     {
       "id": "prod_cpvc_7",
