@@ -24,7 +24,8 @@ exports.getAllProducts = async (req, res) => {
       products = products.filter(p => 
         (p.code && p.code.toLowerCase().includes(q)) ||
         (p.name && p.name.toLowerCase().includes(q)) || 
-        (p.categoryName && p.categoryName.toLowerCase().includes(q))
+        (p.categoryName && p.categoryName.toLowerCase().includes(q)) ||
+        (p.sizeProductCodes && Object.values(p.sizeProductCodes).some(code => String(code).toLowerCase().includes(q)))
       );
     }
 
@@ -50,7 +51,7 @@ exports.getProductById = async (req, res) => {
 
 exports.addProduct = async (req, res) => {
   try {
-    const { code, name, image, categoryId, subcategoryId, description, details, specification, sizes, packSizes, status, uom } = req.body;
+    const { code, name, image, categoryId, subcategoryId, description, details, specification, sizes, packSizes, sizeProductCodes, status, uom } = req.body;
     if (!name || !categoryId) {
       return res.status(400).json({ success: false, message: 'Product Name and Category are required' });
     }
@@ -76,6 +77,7 @@ exports.addProduct = async (req, res) => {
       specification: specification || '',
       sizes: parsedSizes,
       packSizes: packSizes || {},
+      sizeProductCodes: sizeProductCodes || {},
       status: status || 'Active'
     };
 
@@ -91,7 +93,7 @@ exports.addProduct = async (req, res) => {
 exports.updateProduct = async (req, res) => {
   try {
     const { id } = req.params;
-    const { code, name, image, categoryId, subcategoryId, description, details, specification, sizes, packSizes, status, uom } = req.body;
+    const { code, name, image, categoryId, subcategoryId, description, details, specification, sizes, packSizes, sizeProductCodes, status, uom } = req.body;
 
     const data = await readData();
     const product = data.products.find(p => p.id === id);
@@ -112,6 +114,7 @@ exports.updateProduct = async (req, res) => {
         : (sizes ? String(sizes).split(',').map(s => s.trim()).filter(Boolean) : []);
     }
     if (packSizes !== undefined) product.packSizes = packSizes;
+    if (sizeProductCodes !== undefined) product.sizeProductCodes = sizeProductCodes;
     if (status !== undefined) product.status = status;
 
     if (categoryId) {

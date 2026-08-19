@@ -83,50 +83,82 @@ function generateQuotationPDF(order, res) {
   // Quotation Items Header
   doc
     .fillColor('#0284c7')
-    .rect(40, y, 515, 28)
+    .rect(40, y, 515, 30)
     .fill();
 
   doc
     .fillColor('#ffffff')
-    .fontSize(10)
+    .fontSize(9)
     .font('Helvetica-Bold')
-    .text('#', 50, y + 9)
-    .text('Product Name', 90, y + 9)
-    .text('Quantity Requested', 420, y + 9, { width: 120, align: 'right' });
+    .text('ProductCode', 48, y + 10)
+    .text('Product Name', 148, y + 10)
+    .text('Size', 318, y + 10)
+    .text('Packing', 368, y + 10)
+    .text('Quantity Requested', 438, y + 10, { width: 115, align: 'right' });
 
-  y += 28;
+  y += 30;
 
   // Items List (strictly NO PRICE!)
   order.items.forEach((item, index) => {
     const bgColor = index % 2 === 0 ? '#ffffff' : '#f1f5f9';
+    const rowHeight = 36;
+
     doc
       .fillColor(bgColor)
-      .rect(40, y, 515, 32)
+      .rect(40, y, 515, rowHeight)
       .fill();
 
     doc
       .strokeColor('#cbd5e1')
-      .rect(40, y, 515, 32)
+      .lineWidth(0.5)
+      .rect(40, y, 515, rowHeight)
       .stroke();
 
+    const cellY = y + 11;
+
+    // Product Code
     doc
-      .fillColor('#1e293b')
-      .fontSize(10)
       .font('Helvetica')
-      .text(`${index + 1}`, 50, y + 10)
+      .fillColor('#0369a1')
+      .fontSize(9)
+      .text(item.productCode || '—', 48, cellY, { width: 95, ellipsis: true });
+
+    // Product Name
+    doc
       .font('Helvetica-Bold')
-      .text(item.size ? `${item.productName} (Size: ${item.size})` : item.productName, 90, y + 10, { width: 310, ellipsis: true })
+      .fillColor('#1e293b')
+      .fontSize(9)
+      .text(item.productName, 148, cellY, { width: 165, ellipsis: true });
+
+    // Size
+    doc
+      .font('Helvetica')
+      .fillColor('#334155')
+      .fontSize(9)
+      .text(item.size || '—', 318, cellY, { width: 46, align: 'center' });
+
+    // Packing
+    doc
+      .font('Helvetica')
+      .fillColor('#334155')
+      .fontSize(9)
+      .text(item.packing || '—', 368, cellY, { width: 66, align: 'center' });
+
+    // Quantity
+    doc
       .font('Helvetica-Bold')
       .fillColor('#0284c7')
-      .text(`${item.quantity} Units`, 420, y + 10, { width: 120, align: 'right' });
+      .fontSize(9)
+      .text(`${item.quantity} Units`, 438, cellY, { width: 115, align: 'right' });
 
-    y += 32;
+    y += rowHeight;
 
     if (y > 720) {
       doc.addPage();
       y = 40;
     }
   });
+
 
   y += 20;
 

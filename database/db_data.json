@@ -140,281 +140,453 @@
   "products": [
     {
       "id": "prod_tank_1",
-      "name": "Blow 10 Layer Gold",
+      "name": "HDPE 10L GOLD GAP",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "/images/tanks/Blow 10 Layer Gold.png",
-      "description": "Blow 10 Layer Gold water storage tank. Available in 300L, 500L, 750L, 1000L.",
+      "description": "HDPE 10L GOLD GAP water storage tank. Available in 300L, 500L, 750L, 1000L.",
       "sizes": [
         "300L",
         "500L",
         "750L",
         "1000L"
       ],
+      "sizeProductCodes": {
+        "300L": "FG-400128",
+        "500L": "FG-400124",
+        "750L": "FG-400125",
+        "1000L": "FG-400126"
+      },
       "subcategoryId": "subcat_tanks_blow"
     },
     {
       "id": "prod_tank_2",
-      "name": "Blow 10 Layer Ora",
+      "name": "HDPE 10L ORG GAP",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "/images/tanks/Blow 10 Layer Ora.png",
-      "description": "Blow 10 Layer Ora water storage tank. Available in 300L, 500L, 750L, 1000L.",
+      "description": "HDPE 10L ORG GAP water storage tank. Available in 500L, 750L, 1000L.",
       "sizes": [
-        "300L",
         "500L",
         "750L",
         "1000L"
       ],
+      "sizeProductCodes": {
+        "500L": "FG-400131",
+        "750L": "FG-400132",
+        "1000L": "FG-400130"
+      },
       "subcategoryId": "subcat_tanks_blow"
     },
     {
       "id": "prod_tank_3",
-      "name": "Blow 6 Layer White",
+      "name": "HDPE 6L WHITE GAP",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "/images/tanks/Blow 6 Layer White.png",
-      "description": "Blow 6 Layer White water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 2000L.",
+      "description": "HDPE 6L WHITE GAP water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 1500L, 2000L.",
       "sizes": [
         "200L",
         "300L",
         "500L",
         "750L",
         "1000L",
+        "1500L",
         "2000L"
       ],
-      "subcategoryId": "subcat_tanks_blow"
-    },
-    {
-      "id": "prod_tank_4",
-      "name": "Blow 6 Layer Green",
-      "categoryId": "cat_tanks",
-      "categoryName": "Water Storage Tanks",
-      "image": "/images/tanks/Blow 6 Layer Green.png",
-      "description": "Blow 6 Layer Green water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 2000L.",
-      "sizes": [
-        "200L",
-        "300L",
-        "500L",
-        "750L",
-        "1000L",
-        "2000L"
-      ],
+      "sizeProductCodes": {
+        "200L": "FG-400138",
+        "300L": "FG-400137",
+        "500L": "FG-400134",
+        "750L": "FG-400135",
+        "1000L": "FG-400127",
+        "1500L": "FG-400136",
+        "2000L": "FG-400133"
+      },
       "subcategoryId": "subcat_tanks_blow"
     },
     {
       "id": "prod_tank_5",
-      "name": "Blow 6 Layer Ora",
+      "name": "HDPE 6L ORG GAP",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "/images/tanks/Blow 6 Layer Ora.png",
-      "description": "Blow 6 Layer Ora water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 2000L.",
+      "description": "HDPE 6L ORG GAP water storage tank. Available in 500L, 750L, 1000L.",
       "sizes": [
-        "200L",
-        "300L",
         "500L",
         "750L",
-        "1000L",
-        "2000L"
+        "1000L"
       ],
+      "sizeProductCodes": {
+        "500L": "FG-400139",
+        "750L": "FG-401589",
+        "1000L": "FG-401590"
+      },
       "subcategoryId": "subcat_tanks_blow"
     },
     {
       "id": "prod_tank_6",
-      "name": "Blow 6 Layer Gold",
+      "name": "HDPE 6L GOLD GAP",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "/images/tanks/Blow 6 Layer Gold.png",
-      "description": "Blow 6 Layer Gold water storage tank. Available in 200L, 300L, 500L, 750L, 1000L, 2000L.",
+      "description": "HDPE 6L GOLD GAP water storage tank. Available in 1500L, 2000L.",
       "sizes": [
-        "200L",
-        "300L",
-        "500L",
-        "750L",
-        "1000L",
+        "1500L",
         "2000L"
       ],
-      "subcategoryId": "subcat_tanks_blow"
-    },
-    {
-      "id": "prod_tank_7",
-      "name": "Blow 2 Layer Black",
-      "categoryId": "cat_tanks",
-      "categoryName": "Water Storage Tanks",
-      "image": "/images/tanks/Blow 2 Layer Black.png",
-      "description": "Blow 2 Layer Black water storage tank. Available in 500L, 750L, 1000L.",
-      "sizes": [
-        "500L",
-        "750L",
-        "1000L"
-      ],
+      "sizeProductCodes": {
+        "1500L": "FG-400085",
+        "2000L": "FG-400084"
+      },
       "subcategoryId": "subcat_tanks_blow"
     },
     {
       "id": "prod_tank_8",
-      "name": "Loft Tank White",
+      "name": "HDPE LOFT WHITE GAP",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "/images/tanks/Loft Tank White.png",
-      "description": "Loft Tank White water storage tank. Available in 200L, 300L, 500L, 1000L.",
+      "description": "HDPE LOFT WHITE GAP water storage tank. Available in 200L, 300L, 500L, 1000L.",
       "sizes": [
         "200L",
         "300L",
         "500L",
         "1000L"
       ],
+      "sizeProductCodes": {
+        "200L": "FG-400098",
+        "300L": "FG-400097",
+        "500L": "FG-400096",
+        "1000L": "FG-401819"
+      },
       "subcategoryId": "subcat_tanks_loft"
     },
     {
       "id": "prod_tank_9",
-      "name": "Roto 10 Layer T3 Ora",
+      "name": "10L ROTO T3 ORANGE FOAM GAP",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "/images/tanks/Roto 10 Layer T3 Ora.png",
-      "description": "Roto 10 Layer T3 Ora water storage tank. Available in 500L, 750L, 1000L, 2000L.",
+      "description": "10L ROTO T3 ORANGE FOAM GAP water storage tank. Available in 500L, 750L, 1000L, 5000L.",
       "sizes": [
         "500L",
         "750L",
         "1000L",
-        "2000L"
+        "5000L"
       ],
+      "sizeProductCodes": {
+        "500L": "FG-401658",
+        "750L": "FG-401659",
+        "1000L": "FG-401660",
+        "5000L": "FG-401674"
+      },
       "subcategoryId": "subcat_tanks_roto"
     },
     {
       "id": "prod_tank_10",
-      "name": "Roto 6 Layer Double Puff Marble",
+      "name": "6L ROTO MARBLE FOAM GAP",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "/images/tanks/Roto 6 Layer Double Puff Marble.png",
-      "description": "Roto 6 Layer Double Puff Marble water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
+      "description": "6L ROTO MARBLE FOAM GAP water storage tank. Available in 500L, 750L, 1000L, 1500L, 2000L, 3000L, 5000L.",
       "sizes": [
         "500L",
         "750L",
         "1000L",
+        "1500L",
         "2000L",
+        "3000L",
         "5000L"
       ],
+      "sizeProductCodes": {
+        "500L": "FG-400056",
+        "750L": "FG-400055",
+        "1000L": "FG-400054",
+        "1500L": "FG-400053",
+        "2000L": "FG-400052",
+        "3000L": "FG-400051",
+        "5000L": "FG-400050"
+      },
       "subcategoryId": "subcat_tanks_roto"
     },
     {
       "id": "prod_tank_11",
-      "name": "Roto 6 Layer Double Puff White",
+      "name": "6L ROTO WHITE FOAM GAP",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "/images/tanks/Roto 6 Layer Double Puff White.png",
-      "description": "Roto 6 Layer Double Puff White water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
+      "description": "6L ROTO WHITE FOAM GAP water storage tank. Available in 500L, 750L, 1000L, 1500L, 2000L, 3000L, 5000L.",
       "sizes": [
         "500L",
         "750L",
         "1000L",
+        "1500L",
         "2000L",
+        "3000L",
         "5000L"
       ],
+      "sizeProductCodes": {
+        "500L": "FG-400070",
+        "750L": "FG-400069",
+        "1000L": "FG-400068",
+        "1500L": "FG-400067",
+        "2000L": "FG-400066",
+        "3000L": "FG-400065",
+        "5000L": "FG-400064"
+      },
       "subcategoryId": "subcat_tanks_roto"
     },
     {
       "id": "prod_tank_12",
-      "name": "Roto 4 Layer Double Puff Marble",
+      "name": "4L ROTO MARBLE FOAM GAP",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "/images/tanks/Roto 4 Layer Double Puff Marble.png",
-      "description": "Roto 4 Layer Double Puff Marble water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
+      "description": "4L ROTO MARBLE FOAM GAP water storage tank. Available in 500L, 750L, 1000L, 1500L, 2000L, 3000L, 5000L.",
       "sizes": [
         "500L",
         "750L",
         "1000L",
+        "1500L",
         "2000L",
+        "3000L",
         "5000L"
       ],
+      "sizeProductCodes": {
+        "500L": "FG-400028",
+        "750L": "FG-400027",
+        "1000L": "FG-400026",
+        "1500L": "FG-400025",
+        "2000L": "FG-400024",
+        "3000L": "FG-400023",
+        "5000L": "FG-400022"
+      },
       "subcategoryId": "subcat_tanks_roto"
     },
     {
       "id": "prod_tank_13",
-      "name": "Roto 4 Layer Double Puff White",
+      "name": "4L ROTO WHITE FOAM GAP",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "/images/tanks/Roto 4 Layer Double Puff White.png",
-      "description": "Roto 4 Layer Double Puff White water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
+      "description": "4L ROTO WHITE FOAM GAP water storage tank. Available in 500L, 750L, 1000L, 1500L, 2000L, 3000L, 5000L.",
       "sizes": [
         "500L",
         "750L",
         "1000L",
+        "1500L",
         "2000L",
+        "3000L",
         "5000L"
       ],
+      "sizeProductCodes": {
+        "500L": "FG-400035",
+        "750L": "FG-400034",
+        "1000L": "FG-400033",
+        "1500L": "FG-400032",
+        "2000L": "FG-400031",
+        "3000L": "FG-400030",
+        "5000L": "FG-400029"
+      },
       "subcategoryId": "subcat_tanks_roto"
     },
     {
       "id": "prod_tank_14",
-      "name": "Roto 3 Layer White",
+      "name": "3L ROTO WHITE GAP",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "/images/tanks/Roto 3 Layer White.png",
-      "description": "Roto 3 Layer White water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
+      "description": "3L ROTO WHITE GAP water storage tank. Available in 500L, 750L, 1000L, 1500L, 2000L, 3000L, 5000L.",
       "sizes": [
         "500L",
         "750L",
         "1000L",
+        "1500L",
         "2000L",
+        "3000L",
         "5000L"
       ],
+      "sizeProductCodes": {
+        "500L": "FG-400021",
+        "750L": "FG-400020",
+        "1000L": "FG-400019",
+        "1500L": "FG-400018",
+        "2000L": "FG-400017",
+        "3000L": "FG-400016",
+        "5000L": "FG-400015"
+      },
       "subcategoryId": "subcat_tanks_roto"
     },
     {
       "id": "prod_tank_15",
-      "name": "Roto 2 Layer ISI Black",
+      "name": "2L ROTO BLACK ISI GAP",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "/images/tanks/Roto 2 Layer ISI Black.png",
-      "description": "Roto 2 Layer ISI Black water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
+      "description": "2L ROTO BLACK ISI GAP water storage tank. Available in 500L, 750L, 1000L, 1500L, 2000L, 3000L, 5000L.",
       "sizes": [
         "500L",
         "750L",
         "1000L",
+        "1500L",
         "2000L",
+        "3000L",
         "5000L"
       ],
-      "subcategoryId": "subcat_tanks_roto"
-    },
-    {
-      "id": "prod_tank_16",
-      "name": "Roto 2 Layer Black",
-      "categoryId": "cat_tanks",
-      "categoryName": "Water Storage Tanks",
-      "image": "/images/tanks/Roto 2 Layer Black.png",
-      "description": "Roto 2 Layer Black water storage tank. Available in 500L, 750L, 1000L, 2000L, 5000L.",
-      "sizes": [
-        "500L",
-        "750L",
-        "1000L",
-        "2000L",
-        "5000L"
-      ],
+      "sizeProductCodes": {
+        "500L": "FG-400014",
+        "750L": "FG-400013",
+        "1000L": "FG-400012",
+        "1500L": "FG-400011",
+        "2000L": "FG-400010",
+        "3000L": "FG-400009",
+        "5000L": "FG-400008"
+      },
       "subcategoryId": "subcat_tanks_roto"
     },
     {
       "id": "prod_tank_17",
-      "name": "Underground Tank Black",
+      "name": "ROTO UNDERGROUND TANK",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "/images/tanks/Underground Tank Black.png",
-      "description": "Underground Tank Black water storage tank. Available in 1000L, 2000L.",
+      "description": "ROTO UNDERGROUND TANK water storage tank. Available in 1000L, 2000L.",
       "sizes": [
         "1000L",
         "2000L"
-      ]
+      ],
+      "sizeProductCodes": {
+        "1000L": "FG-401580",
+        "2000L": "FG-401581"
+      }
     },
     {
-      "id": "prod_tank_18",
-      "name": "Loft Tank Black",
+      "id": "prod_tank_19",
+      "name": "3L ROTO ORG GAP",
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
-      "image": "/images/tanks/Loft Tank Black.png",
-      "description": "Loft Tank Black water storage tank. Available in 1000L.",
+      "image": "/images/tanks/Roto 3 Layer Ora.png",
+      "description": "3L ROTO ORG GAP water storage tank. Available in 500L, 750L, 1000L, 1500L, 2000L, 3000L, 5000L.",
       "sizes": [
+        "500L",
+        "750L",
+        "1000L",
+        "1500L",
+        "2000L",
+        "3000L",
+        "5000L"
+      ],
+      "sizeProductCodes": {
+        "500L": "FG-400101",
+        "750L": "FG-400102",
+        "1000L": "FG-400100",
+        "1500L": "FG-400103",
+        "2000L": "FG-400104",
+        "3000L": "FG-400105",
+        "5000L": "FG-400106"
+      },
+      "subcategoryId": "subcat_tanks_roto"
+    },
+    {
+      "id": "prod_tank_20",
+      "name": "3L ROTO BLACK GAP",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "/images/tanks/Roto 3 Layer Black.png",
+      "description": "3L ROTO BLACK GAP water storage tank. Available in 500L, 750L, 1000L, 1500L, 2000L, 3000L, 5000L.",
+      "sizes": [
+        "500L",
+        "750L",
+        "1000L",
+        "1500L",
+        "2000L",
+        "3000L",
+        "5000L"
+      ],
+      "sizeProductCodes": {
+        "500L": "FG-400107",
+        "750L": "FG-400108",
+        "1000L": "FG-400109",
+        "1500L": "FG-400110",
+        "2000L": "FG-400111",
+        "3000L": "FG-400112",
+        "5000L": "FG-400113"
+      },
+      "subcategoryId": "subcat_tanks_roto"
+    },
+    {
+      "id": "prod_tank_21",
+      "name": "6L ROTO MARBLE DOUBLE FOAM GAP",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "/images/tanks/Roto 6 Layer Double Puff Marble.png",
+      "description": "6L ROTO MARBLE DOUBLE FOAM GAP water storage tank. Available in 500L, 750L, 1000L, 1500L, 2000L, 3000L, 5000L.",
+      "sizes": [
+        "500L",
+        "750L",
+        "1000L",
+        "1500L",
+        "2000L",
+        "3000L",
+        "5000L"
+      ],
+      "sizeProductCodes": {
+        "500L": "FG-400049",
+        "750L": "FG-400048",
+        "1000L": "FG-400047",
+        "1500L": "FG-400046",
+        "2000L": "FG-400045",
+        "3000L": "FG-400044",
+        "5000L": "FG-400043"
+      },
+      "subcategoryId": "subcat_tanks_roto"
+    },
+    {
+      "id": "prod_tank_22",
+      "name": "6L ROTO WHITE DOUBLE FOAM GAP",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "/images/tanks/Roto 6 Layer Double Puff White.png",
+      "description": "6L ROTO WHITE DOUBLE FOAM GAP water storage tank. Available in 500L, 750L, 1000L, 1500L, 2000L, 3000L, 5000L.",
+      "sizes": [
+        "500L",
+        "750L",
+        "1000L",
+        "1500L",
+        "2000L",
+        "3000L",
+        "5000L"
+      ],
+      "sizeProductCodes": {
+        "500L": "FG-400063",
+        "750L": "FG-400062",
+        "1000L": "FG-400061",
+        "1500L": "FG-400060",
+        "2000L": "FG-400059",
+        "3000L": "FG-400058",
+        "5000L": "FG-400057"
+      },
+      "subcategoryId": "subcat_tanks_roto"
+    },
+    {
+      "id": "prod_tank_23",
+      "name": "6L ROTO ORG DOUBLE FOAM GAP",
+      "categoryId": "cat_tanks",
+      "categoryName": "Water Storage Tanks",
+      "image": "/images/tanks/Roto 6 Layer Double Puff Ora.png",
+      "description": "6L ROTO ORG DOUBLE FOAM GAP water storage tank. Available in 500L, 750L, 1000L.",
+      "sizes": [
+        "500L",
+        "750L",
         "1000L"
       ],
-      "subcategoryId": "subcat_tanks_loft"
+      "sizeProductCodes": {
+        "500L": "FG-401588",
+        "750L": "FG-401593",
+        "1000L": "FG-401587"
+      },
+      "subcategoryId": "subcat_tanks_roto"
     },
     {
       "id": "prod_cpvc_1",

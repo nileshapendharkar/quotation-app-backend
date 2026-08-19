@@ -1,5 +1,33 @@
 const { readData, writeData } = require('../database/store');
 const { generateQuotationPDF } = require('../utils/pdfGenerator');
+const XLSX = require('xlsx');
+
+const findSizeKey = (sizeMap, querySize) => {
+  if (!sizeMap || !querySize) return null;
+  const normalizedQuery = String(querySize).trim().toLowerCase().replace(/[^a-z0-9]/g, '');
+  
+  // Try exact match first
+  for (const key of Object.keys(sizeMap)) {
+    if (key.toLowerCase() === querySize.toLowerCase()) return key;
+  }
+  
+  // Try normalized match (e.g. "500l" vs "500l")
+  for (const key of Object.keys(sizeMap)) {
+    const normKey = key.toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (normKey === normalizedQuery) return key;
+  }
+  
+  // Try matching digits only (e.g. "500" vs "500L")
+  const digitsQuery = normalizedQuery.replace(/[^0-9]/g, '');
+  if (digitsQuery) {
+    for (const key of Object.keys(sizeMap)) {
+      const digitsKey = key.toLowerCase().replace(/[^0-9]/g, '');
+      if (digitsKey === digitsQuery) return key;
+    }
+  }
+  
+  return null;
+};
 
 exports.createOrder = async (req, res) => {
   try {
@@ -17,12 +45,18 @@ exports.createOrder = async (req, res) => {
     if (items && Array.isArray(items) && items.length > 0) {
       orderItems = items.map(item => {
         const prod = data.products.find(p => p.id === item.productId);
+        const matchedSizeKey = prod && prod.sizeProductCodes ? findSizeKey(prod.sizeProductCodes, item.size) : null;
+        const matchedPackKey = prod && prod.packSizes ? findSizeKey(prod.packSizes, item.size) : null;
+
         return {
           productId: item.productId,
           productName: prod ? prod.name : 'Product ' + item.productId,
+          productCode: matchedSizeKey ? (prod.sizeProductCodes[matchedSizeKey] || '') : '',
+          size: matchedSizeKey || item.size || '',
+          packing: matchedPackKey ? (prod.packSizes[matchedPackKey] || '') : (prod ? (prod.packing || prod.packSize || '') : ''),
           quantity: item.quantity,
-          size: item.size || '',
-          image: prod ? prod.image : ''
+          image: prod ? prod.image : '',
+          categoryName: prod ? prod.categoryName : ''
         };
       });
     } else {
@@ -33,12 +67,18 @@ exports.createOrder = async (req, res) => {
       }
       orderItems = userCart.map(item => {
         const prod = data.products.find(p => p.id === item.productId);
+        const matchedSizeKey = prod && prod.sizeProductCodes ? findSizeKey(prod.sizeProductCodes, item.size) : null;
+        const matchedPackKey = prod && prod.packSizes ? findSizeKey(prod.packSizes, item.size) : null;
+
         return {
           productId: item.productId,
           productName: prod ? prod.name : 'Product ' + item.productId,
+          productCode: matchedSizeKey ? (prod.sizeProductCodes[matchedSizeKey] || '') : '',
+          size: matchedSizeKey || item.size || '',
+          packing: matchedPackKey ? (prod.packSizes[matchedPackKey] || '') : (prod ? (prod.packing || prod.packSize || '') : ''),
           quantity: item.quantity,
-          size: item.size || '',
-          image: prod ? prod.image : ''
+          image: prod ? prod.image : '',
+          categoryName: prod ? prod.categoryName : ''
         };
       });
     }
@@ -145,3 +185,76 @@ exports.downloadQuotationPDF = async (req, res) => {
     res.status(500).json({ success: false, message: err.message });
   }
 };
+
+exports.downloadQuotationExcel = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const data = await readData();
+    const order = data.orders.find(o => o.id === id);
+
+    if (!order) {
+      return res.status(404).json({ success: false, message: 'Quotation request not found' });
+    }
+
+    const wb = XLSX.utils.book_new();
+
+    const rows = [
+      ["GOURI AQUA PLAST"],
+      ["Ganesh Gouri Industries Pvt. Ltd."],
+      ["Product Quantity Quotation Document | Water Tanks, Pipes & Fittings"],
+      [],
+      ["QUOTATION DETAILS"],
+      ["Quotation No:", order.orderNo],
+      ["Date:", new Date(order.createdAt).toLocaleDateString()],
+      ["Status:", order.status],
+      [],
+      ["CUSTOMER & COMPANY DETAILS"],
+      ["Customer Name:", order.userName],
+      ["Email Address:", order.userEmail],
+      ["Mobile Number:", order.userMobile],
+      ["Company:", order.companyName || 'N/A'],
+      ["Address:", order.companyAddress || 'N/A'],
+      [],
+      ["PRODUCT DETAILS"],
+      ["ProductCode", "Product Name", "Size", "Packing", "Quantity Requested"]
+    ];
+
+    order.items.forEach(item => {
+      rows.push([
+        item.productCode || '—',
+        item.productName,
+        item.size || '—',
+        item.packing || '—',
+        `${item.quantity} Units`
+      ]);
+    });
+
+    if (order.notes) {
+      rows.push([]);
+      rows.push(["Special Notes / Instructions:"]);
+      rows.push([order.notes]);
+    }
+
+    const ws = XLSX.utils.aoa_to_sheet(rows);
+
+    const wscols = [
+      { wch: 20 },
+      { wch: 35 },
+      { wch: 10 },
+      { wch: 12 },
+      { wch: 18 }
+    ];
+    ws['!cols'] = wscols;
+
+    XLSX.utils.book_append_sheet(wb, ws, "Quotation");
+
+    const buf = XLSX.write(wb, { type: 'buffer', bookType: 'xlsx' });
+
+    res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+    res.setHeader('Content-Disposition', `attachment; filename=Quotation_${order.orderNo}.xlsx`);
+    res.send(buf);
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
