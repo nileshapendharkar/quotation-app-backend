@@ -1017,11 +1017,11 @@
     },
     {
       "id": "prod_cpvc_13",
-      "name": "CPVC - Tee",
+      "name": "CPVC TEE",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
       "image": "/images/cpvc/CPVC - Tee.png",
-      "description": "CPVC - Tee. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "description": "CPVC TEE. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
         "1",
@@ -1029,7 +1029,21 @@
         "1 1/2",
         "2"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "1": 80,
+        "2": 12,
+        "3/4": 160,
+        "1 1/4": 40,
+        "1 1/2": 30
+      },
+      "sizeProductCodes": {
+        "1": "FG-400406",
+        "2": "FG-400534",
+        "3/4": "FG-400405",
+        "1 1/4": "N/A",
+        "1 1/2": "FG-400481"
+      }
     },
     {
       "id": "prod_cpvc_14",
