@@ -92,10 +92,10 @@ function generateQuotationPDF(order, res) {
     .font('Helvetica-Bold')
     .text('Code', 45, y + 10)
     .text('Product Name', 105, y + 10)
-    .text('UOM', 270, y + 10)
-    .text('Size', 310, y + 10)
-    .text('Packing', 360, y + 10)
-    .text('Quantity', 420, y + 10)
+    .text('Size', 265, y + 10)
+    .text('Packing', 315, y + 10)
+    .text('Quantity', 370, y + 10)
+    .text('UOM', 430, y + 10)
     .text('Total', 480, y + 10, { width: 65, align: 'right' });
 
   y += 30;
@@ -130,35 +130,35 @@ function generateQuotationPDF(order, res) {
       .font('Helvetica-Bold')
       .fillColor('#1e293b')
       .fontSize(8)
-      .text(item.productName, 105, cellY, { width: 160, ellipsis: true });
-
-    // UOM
-    doc
-      .font('Helvetica')
-      .fillColor('#334155')
-      .fontSize(8)
-      .text(item.uom || '—', 270, cellY, { width: 35 });
+      .text(item.productName, 105, cellY, { width: 155, ellipsis: true });
 
     // Size
     doc
       .font('Helvetica')
       .fillColor('#334155')
       .fontSize(8)
-      .text(item.size || '—', 310, cellY, { width: 45 });
+      .text(item.size || '—', 265, cellY, { width: 45 });
 
     // Packing
     doc
       .font('Helvetica')
       .fillColor('#334155')
       .fontSize(8)
-      .text(item.packing || '—', 360, cellY, { width: 55 });
+      .text(item.packing || '—', 315, cellY, { width: 50 });
 
     // Quantity
     doc
       .font('Helvetica-Bold')
       .fillColor('#0284c7')
       .fontSize(8)
-      .text(item.quantity, 420, cellY, { width: 50 });
+      .text(item.quantity, 370, cellY, { width: 50 });
+
+    // UOM
+    doc
+      .font('Helvetica')
+      .fillColor('#334155')
+      .fontSize(8)
+      .text(item.uom || '—', 430, cellY, { width: 40 });
 
     // Total
     doc

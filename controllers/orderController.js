@@ -236,7 +236,7 @@ exports.downloadQuotationExcel = async (req, res) => {
       ["Address:", order.companyAddress || 'N/A'],
       [],
       ["PRODUCT DETAILS"],
-      ["ProductCode", "Product Name", "UOM", "Size", "Packing", "Quantity", "Total"]
+      ["ProductCode", "Product Name", "Size", "Packing", "Quantity", "UOM", "Total"]
     ];
 
     order.items.forEach(item => {
@@ -256,10 +256,10 @@ exports.downloadQuotationExcel = async (req, res) => {
       rows.push([
         item.productCode || '—',
         item.productName,
-        uom,
         item.size || '—',
         item.packing || '—',
         item.quantity,
+        uom,
         total || '—'
       ]);
     });
@@ -275,10 +275,10 @@ exports.downloadQuotationExcel = async (req, res) => {
     const wscols = [
       { wch: 18 }, // ProductCode
       { wch: 35 }, // Product Name
-      { wch: 10 }, // UOM
       { wch: 12 }, // Size
       { wch: 12 }, // Packing
       { wch: 12 }, // Quantity
+      { wch: 10 }, // UOM
       { wch: 12 }  // Total
     ];
     ws['!cols'] = wscols;
