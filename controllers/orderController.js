@@ -56,7 +56,8 @@ exports.createOrder = async (req, res) => {
           packing: matchedPackKey ? (prod.packSizes[matchedPackKey] || '') : (prod ? (prod.packing || prod.packSize || '') : ''),
           quantity: item.quantity,
           image: prod ? prod.image : '',
-          categoryName: prod ? prod.categoryName : ''
+          categoryName: prod ? prod.categoryName : '',
+          uom: prod ? prod.uom : 'Nos'
         };
       });
     } else {
@@ -78,7 +79,8 @@ exports.createOrder = async (req, res) => {
           packing: matchedPackKey ? (prod.packSizes[matchedPackKey] || '') : (prod ? (prod.packing || prod.packSize || '') : ''),
           quantity: item.quantity,
           image: prod ? prod.image : '',
-          categoryName: prod ? prod.categoryName : ''
+          categoryName: prod ? prod.categoryName : '',
+          uom: prod ? prod.uom : 'Nos'
         };
       });
     }
@@ -180,6 +182,24 @@ exports.downloadQuotationPDF = async (req, res) => {
       return res.status(404).json({ success: false, message: 'Quotation request not found' });
     }
 
+    // Inject uom and total into items for PDF generation
+    order.items = order.items.map(item => {
+      const prod = data.products.find(p => p.id === item.productId);
+      const uom = item.uom || (prod ? prod.uom : 'Nos');
+      const categoryName = item.categoryName || (prod ? prod.categoryName : '');
+      
+      let total = 0;
+      if (categoryName.toLowerCase().includes('tank')) {
+        const parsedSize = parseFloat(item.size);
+        if (!isNaN(parsedSize)) total = parsedSize * item.quantity;
+      } else {
+        const parsedPacking = parseFloat(item.packing);
+        if (!isNaN(parsedPacking)) total = parsedPacking * item.quantity;
+      }
+
+      return { ...item, uom, total };
+    });
+
     generateQuotationPDF(order, res);
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
@@ -216,16 +236,31 @@ exports.downloadQuotationExcel = async (req, res) => {
       ["Address:", order.companyAddress || 'N/A'],
       [],
       ["PRODUCT DETAILS"],
-      ["ProductCode", "Product Name", "Size", "Packing", "Quantity Requested"]
+      ["ProductCode", "Product Name", "UOM", "Size", "Packing", "Quantity", "Total"]
     ];
 
     order.items.forEach(item => {
+      const prod = data.products.find(p => p.id === item.productId);
+      const uom = item.uom || (prod ? prod.uom : 'Nos');
+      const categoryName = item.categoryName || (prod ? prod.categoryName : '');
+
+      let total = 0;
+      if (categoryName.toLowerCase().includes('tank')) {
+        const parsedSize = parseFloat(item.size);
+        if (!isNaN(parsedSize)) total = parsedSize * item.quantity;
+      } else {
+        const parsedPacking = parseFloat(item.packing);
+        if (!isNaN(parsedPacking)) total = parsedPacking * item.quantity;
+      }
+
       rows.push([
         item.productCode || '—',
         item.productName,
+        uom,
         item.size || '—',
         item.packing || '—',
-        `${item.quantity} Units`
+        item.quantity,
+        total || '—'
       ]);
     });
 
@@ -238,11 +273,13 @@ exports.downloadQuotationExcel = async (req, res) => {
     const ws = XLSX.utils.aoa_to_sheet(rows);
 
     const wscols = [
-      { wch: 20 },
-      { wch: 35 },
-      { wch: 10 },
-      { wch: 12 },
-      { wch: 18 }
+      { wch: 18 }, // ProductCode
+      { wch: 35 }, // Product Name
+      { wch: 10 }, // UOM
+      { wch: 12 }, // Size
+      { wch: 12 }, // Packing
+      { wch: 12 }, // Quantity
+      { wch: 12 }  // Total
     ];
     ws['!cols'] = wscols;
 
