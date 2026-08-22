@@ -2795,33 +2795,53 @@
     },
     {
       "id": "prod_upvc_30",
-      "name": "UPVC- CONCEALED VALVE (FULL TURN)",
+      "name": "UPVC CONCEALED VALVE (FULL TURN)",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
       "image": "/images/upvc/UPVC- CONCEALED VALVE (FULL TURN).png",
-      "description": "UPVC- CONCEALED VALVE (FULL TURN). Available sizes: 1/2, 3/4, 1.",
+      "description": "UPVC CONCEALED VALVE (FULL TURN). Available sizes: 1/2, 3/4, 1.",
       "sizes": [
         "1/2",
         "3/4",
         "1"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "1": 18,
+        "1/2": 18,
+        "3/4": 18
+      },
+      "sizeProductCodes": {
+        "1": "FG-400306",
+        "1/2": "FG-400364",
+        "3/4": "FG-400365"
+      }
     },
     {
       "id": "prod_upvc_31",
-      "name": "UPVC- NRV",
+      "name": "UPVC NVR",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
       "image": "/images/upvc/UPVC- NRV.png",
-      "description": "UPVC- NRV. Available sizes: 1/2, 3/4, 1.",
+      "description": "UPVC NVR. Available sizes: 1/2, 3/4, 1.",
       "sizes": [
         "1/2",
         "3/4",
         "1"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "1": 24,
+        "1/2": 24,
+        "3/4": 24
+      },
+      "sizeProductCodes": {
+        "1": "FG-400368",
+        "1/2": "FG-400366",
+        "3/4": "FG-400367"
+      }
     },
     {
       "id": "prod_upvc_32",
@@ -2838,30 +2858,44 @@
     },
     {
       "id": "prod_upvc_33",
-      "name": "UPVC- THREADED ELBOW 90",
+      "name": "UPVC THREADED ELBOW",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
       "image": "/images/upvc/UPVC- THREADED ELBOW 90.png",
-      "description": "UPVC- THREADED ELBOW 90. Available sizes: 1/2.",
+      "description": "UPVC THREADED ELBOW. Available sizes: 1/2.",
       "sizes": [
         "1/2"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "1/2": 200
+      },
+      "sizeProductCodes": {
+        "1/2": "FG-400329"
+      }
     },
     {
       "id": "prod_upvc_34",
-      "name": "UPVC- REDUCING BRASS TEE",
+      "name": "UPVC REDUCER BRASS TEE",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
       "image": "/images/upvc/UPVC- REDUCING BRASS TEE.png",
-      "description": "UPVC- REDUCING BRASS TEE. Available sizes: 3/4 X 1/2, 1 X 1/2.",
+      "description": "UPVC REDUCER BRASS TEE. Available sizes: 3/4 X 1/2, 1 X 1/2.",
       "sizes": [
         "3/4 X 1/2",
         "1 X 1/2"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "3/4 X 1/2": 80,
+        "1 X 1/2": 50
+      },
+      "sizeProductCodes": {
+        "3/4 X 1/2": "FG-400265",
+        "1 X 1/2": "FG-400266"
+      }
     },
     {
       "id": "prod_upvc_35",
@@ -2908,28 +2942,42 @@
     },
     {
       "id": "prod_swr_3",
-      "name": "SWR RINGFIT - REDUCING TEE ISI",
+      "name": "SWR RINGFIT ISI REDUCER TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - REDUCING TEE ISI.png",
-      "description": "SWR RINGFIT - REDUCING TEE ISI. Available sizes: 4 X 2 1/2, 6 X 4.",
+      "description": "SWR RINGFIT ISI REDUCER TEE. Available sizes: 110 X 75, 160 X 110.",
       "sizes": [
-        "4 X 2 1/2",
-        "6 X 4"
+        "110 X 75",
+        "160 X 110"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "110 X 75": 25,
+        "160 X 110": 7
+      },
+      "sizeProductCodes": {
+        "110 X 75": "FG-400779",
+        "160 X 110": "FG-400732"
+      }
     },
     {
       "id": "prod_swr_4",
-      "name": "SWR RINGFIT - REDUCING TEE",
+      "name": "SWR RINGFIT REDUCER TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - REDUCING TEE.png",
-      "description": "SWR RINGFIT - REDUCING TEE. Available sizes: 4 X 2 1/2.",
+      "description": "SWR RINGFIT REDUCER TEE. Available sizes: 110 X 75.",
       "sizes": [
-        "4 X 2 1/2"
+        "110 X 75"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "110 X 75": 24
+      },
+      "sizeProductCodes": {
+        "110 X 75": "FG-400768"
+      }
     },
     {
       "id": "prod_swr_5",
@@ -2946,42 +2994,69 @@
     },
     {
       "id": "prod_swr_6",
-      "name": "SWR RINGFIT - REDUCER ISI",
+      "name": "SWR RINGFIT ISI REDUCER",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - REDUCER ISI.png",
-      "description": "SWR RINGFIT - REDUCER ISI. Available sizes: 2 1/2.",
+      "description": "SWR RINGFIT ISI REDUCER. Available sizes: 160 X 110.",
       "sizes": [
-        "2 1/2"
+        "160 X 110"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "160 X 110": 8
+      },
+      "sizeProductCodes": {
+        "160 X 110": "FG-400731"
+      }
     },
     {
       "id": "prod_swr_7",
-      "name": "SWR RINGFIT - REDUCER",
+      "name": "SWR RINGFIT REDUCER",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - REDUCER.png",
-      "description": "SWR RINGFIT - REDUCER. Available sizes: 4 X 2 1/2.",
+      "description": "SWR RINGFIT REDUCER. Available sizes: 110 X 75, 110 X 90.",
       "sizes": [
-        "4 X 2 1/2"
+        "110 X 75",
+        "110 X 90"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "110 X 75": 90,
+        "110 X 90": 60
+      },
+      "sizeProductCodes": {
+        "110 X 75": "FG-400773",
+        "110 X 90": "FG-400787"
+      }
     },
     {
       "id": "prod_swr_8",
-      "name": "SWR RINGFIT - COUPLER ISI",
+      "name": "SWR RINGFIT ISI COUPLER",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - COUPLER ISI.png",
-      "description": "SWR RINGFIT - COUPLER ISI. Available sizes: 2 1/2, 3, 4, 6.",
+      "description": "SWR RINGFIT ISI COUPLER. Available sizes: 75MM, 90MM, 110MM, 160MM.",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4",
-        "6"
+        "75MM",
+        "90MM",
+        "110MM",
+        "160MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 144,
+        "90MM": 90,
+        "110MM": 48,
+        "160MM": 16
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400769",
+        "90MM": "FG-400784",
+        "110MM": "FG-400757",
+        "160MM": "FG-400794"
+      }
     },
     {
       "id": "prod_swr_9",
@@ -2998,46 +3073,74 @@
     },
     {
       "id": "prod_swr_10",
-      "name": "SWR RINGFIT - DOOR TEE ISI",
+      "name": "SWR RINGFIT ISI DOOR TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - DOOR TEE ISI.png",
-      "description": "SWR RINGFIT - DOOR TEE ISI. Available sizes: 2 1/2, 3, 4, 6.",
+      "description": "SWR RINGFIT ISI DOOR TEE. Available sizes: 75MM, 90MM, 110MM, 160MM.",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4",
-        "6"
+        "75MM",
+        "90MM",
+        "110MM",
+        "160MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 50,
+        "90MM": 24
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400789",
+        "90MM": "FG-400700"
+      }
     },
     {
       "id": "prod_swr_11",
-      "name": "SWR RINGFIT - DOOR TEE",
+      "name": "SWR RINGFIT DOOR TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - DOOR TEE.png",
-      "description": "SWR RINGFIT - DOOR TEE. Available sizes: 2 1/2, 4.",
+      "description": "SWR RINGFIT DOOR TEE. Available sizes: 75MM, 110MM.",
       "sizes": [
-        "2 1/2",
-        "4"
+        "75MM",
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 45,
+        "110MM": 16
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400819",
+        "110MM": "FG-400770"
+      }
     },
     {
       "id": "prod_swr_12",
-      "name": "SWR RINGFIT - SINGLE TEE ISI",
+      "name": "SWR RINGFIT ISI PLAIN TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - SINGLE TEE ISI.png",
-      "description": "SWR RINGFIT - SINGLE TEE ISI. Available sizes: 2 1/2, 3, 4, 6.",
+      "description": "SWR RINGFIT ISI PLAIN TEE. Available sizes: 75MM, 90MM, 110MM, 160MM.",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4",
-        "6"
+        "75MM",
+        "90MM",
+        "110MM",
+        "160MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 65,
+        "90MM": 30,
+        "110MM": 16,
+        "160MM": 6
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400699",
+        "90MM": "FG-400776",
+        "110MM": "FG-400805",
+        "160MM": "FG-400729"
+      }
     },
     {
       "id": "prod_swr_13",
@@ -3054,46 +3157,73 @@
     },
     {
       "id": "prod_swr_14",
-      "name": "SWR RINGFIT - DOOR BEND 87.5 ISI",
+      "name": "SWR RINGFIT ISI DOOR BEND",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - DOOR BEND 87.5 ISI.png",
-      "description": "SWR RINGFIT - DOOR BEND 87.5 ISI. Available sizes: 2 1/2, 3, 4, 6.",
+      "description": "SWR RINGFIT ISI DOOR BEND. Available sizes: 75MM, 90MM, 110MM, 160MM.",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4",
-        "6"
+        "75MM",
+        "90MM",
+        "110MM",
+        "160MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 75,
+        "90MM": 40,
+        "110MM": 20
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400759",
+        "90MM": "FG-400783",
+        "110MM": "FG-400763"
+      }
     },
     {
       "id": "prod_swr_15",
-      "name": "SWR RINGFIT - DOOR BEND 87.5",
+      "name": "SWR RINGFIT DOOR BEND",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - DOOR BEND 87.5.png",
-      "description": "SWR RINGFIT - DOOR BEND 87.5. Available sizes: 2 1/2, 4.",
+      "description": "SWR RINGFIT DOOR BEND. Available sizes: 75MM, 110MM.",
       "sizes": [
-        "2 1/2",
-        "4"
+        "75MM",
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 60,
+        "110MM": 23
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400765",
+        "110MM": "FG-400767"
+      }
     },
     {
       "id": "prod_swr_16",
-      "name": "SWR RINGFIT - BEND 45 ISI",
+      "name": "SWR RINGFIT ISI SHOE BEND 45",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - BEND 45 ISI.png",
-      "description": "SWR RINGFIT - BEND 45 ISI. Available sizes: 2 1/2, 3, 4, 6.",
+      "description": "SWR RINGFIT ISI SHOE BEND 45. Available sizes: 75MM, 90MM, 110MM.",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4",
-        "6"
+        "75MM",
+        "90MM",
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 100,
+        "90MM": 60,
+        "110MM": 30
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-401831",
+        "90MM": "FG-400780",
+        "110MM": "FG-400743"
+      }
     },
     {
       "id": "prod_swr_17",
@@ -3110,156 +3240,274 @@
     },
     {
       "id": "prod_swr_18",
-      "name": "SWR RINGFIT - SINGLE Y ISI",
+      "name": "SWR RINGFIT ISI SINGLE Y",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - SINGLE Y ISI.png",
-      "description": "SWR RINGFIT - SINGLE Y ISI. Available sizes: 2 1/2, 3, 4, 6.",
+      "description": "SWR RINGFIT ISI SINGLE Y. Available sizes: 75MM, 90MM, 110MM, 160MM.",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4",
-        "6"
+        "75MM",
+        "90MM",
+        "110MM",
+        "160MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 48,
+        "110MM": 12
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400775",
+        "110MM": "FG-400761"
+      }
     },
     {
       "id": "prod_swr_19",
-      "name": "SWR RINGFIT - CLEANING PIPES",
+      "name": "SWR RINGFIT CLEANING PIPE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - CLEANING PIPES.png",
-      "description": "SWR RINGFIT - CLEANING PIPES. Available sizes: 4.",
+      "description": "SWR RINGFIT CLEANING PIPE. Available sizes: 110MM.",
       "sizes": [
-        "4"
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "110MM": 30
+      },
+      "sizeProductCodes": {
+        "110MM": "FG-400733"
+      }
     },
     {
       "id": "prod_swr_20",
-      "name": "SWR RINGFIT - BEND 87.5 ISI",
+      "name": "SWR RINGFIT ISI PLAIN BEND 87.5",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - BEND 87.5 ISI.png",
-      "description": "SWR RINGFIT - BEND 87.5 ISI. Available sizes: 2 1/2, 3, 4, 6.",
+      "description": "SWR RINGFIT ISI PLAIN BEND 87.5. Available sizes: 75MM, 90MM, 110MM, 160MM.",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4",
-        "6"
+        "75MM",
+        "90MM",
+        "110MM",
+        "160MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 100,
+        "90MM": 50,
+        "110MM": 30,
+        "160MM": 9
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400739",
+        "90MM": "FG-400771",
+        "110MM": "FG-400746",
+        "160MM": "FG-400726"
+      }
     },
     {
       "id": "prod_swr_21",
-      "name": "SWR RINGFIT - BEND 87.5",
+      "name": "SWR RINGFIT PLAIN BEND 87.5",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - BEND 87.5.png",
-      "description": "SWR RINGFIT - BEND 87.5. Available sizes: 2 1/2, 4.",
+      "description": "SWR RINGFIT PLAIN BEND 87.5. Available sizes: 75MM, 110MM.",
       "sizes": [
-        "2 1/2",
-        "4"
+        "75MM",
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 85,
+        "110MM": 30
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400753",
+        "110MM": "FG-400747"
+      }
     },
     {
       "id": "prod_swr_22",
-      "name": "SWR RINGFIT - DOOR Y ISI",
+      "name": "SWR RINGFIT ISI DOOR Y",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - DOOR Y ISI.png",
-      "description": "SWR RINGFIT - DOOR Y ISI. Available sizes: 2 1/2, 3, 4, 6.",
+      "description": "SWR RINGFIT ISI DOOR Y. Available sizes: 75MM, 90MM, 110MM, 160MM.",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4",
-        "6"
+        "75MM",
+        "90MM",
+        "110MM",
+        "160MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 40,
+        "110MM": 12
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400790",
+        "110MM": "FG-400788"
+      }
     },
     {
       "id": "prod_swr_23",
-      "name": "SWR RINGFIT - DOOR REDUCING TEE",
+      "name": "SWR RINGFIT DOOR REDUCER TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - DOOR REDUCING TEE.png",
-      "description": "SWR RINGFIT - DOOR REDUCING TEE. Available sizes: 4 X 2 1/2.",
+      "description": "SWR RINGFIT DOOR REDUCER TEE. Available sizes: 110 X 75MM.",
       "sizes": [
-        "4 X 2 1/2"
+        "110 X 75MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "110 X 75MM": 16
+      },
+      "sizeProductCodes": {
+        "110 X 75MM": "FG-400791"
+      }
     },
     {
       "id": "prod_swr_selfit_1",
-      "name": "SWR SELFIT - SELFIT PIPES ISI",
+      "name": "SWR PIPES ISI SELFIT",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - SELFIT PIPES ISI.png",
-      "description": "SWR SELFIT - SELFIT PIPES ISI. Available sizes: 2 1/2, 3, 4, 6.",
+      "description": "SWR PIPES ISI SELFIT. Available in 3MTR and 6MTR (TYPE A, TYPE B). Sizes: 75MM, 90MM, 110MM, 160MM.",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4",
-        "6"
+        "75MM - 3MTR - TYPE A",
+        "75MM - 6MTR - TYPE A",
+        "90MM - 3MTR - TYPE A",
+        "90MM - 6MTR - TYPE A",
+        "110MM - 3MTR - TYPE A",
+        "110MM - 6MTR - TYPE A",
+        "160MM - 3MTR - TYPE A",
+        "160MM - 6MTR - TYPE A",
+        "75MM - 3MTR - TYPE B",
+        "90MM - 3MTR - TYPE B",
+        "110MM - 3MTR - TYPE B",
+        "160MM - 3MTR - TYPE B"
       ],
-      "status": "Active"
+      "status": "Active",
+      "sizeProductCodes": {
+        "75MM - 3MTR - TYPE A": "FG-401436",
+        "75MM - 6MTR - TYPE A": "FG-401440",
+        "90MM - 3MTR - TYPE A": "FG-401437",
+        "90MM - 6MTR - TYPE A": "FG-401441",
+        "110MM - 3MTR - TYPE A": "FG-401438",
+        "110MM - 6MTR - TYPE A": "FG-401442",
+        "160MM - 3MTR - TYPE A": "FG-401439",
+        "160MM - 6MTR - TYPE A": "FG-401443",
+        "75MM - 3MTR - TYPE B": "FG-401444",
+        "90MM - 3MTR - TYPE B": "FG-401445",
+        "110MM - 3MTR - TYPE B": "FG-401446",
+        "160MM - 3MTR - TYPE B": "FG-401447"
+      },
+      "uom": "MTR"
     },
     {
       "id": "prod_swr_selfit_2",
-      "name": "SWR SELFIT - SELFIT PIPES",
+      "name": "SWR PIPES NISI SELFIT",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - SELFIT PIPES.png",
-      "description": "SWR SELFIT - SELFIT PIPES. Available sizes: 2 1/2, 3, 4, 6.",
+      "description": "SWR PIPES NISI SELFIT. Available in 3MTR and 6MTR (TYPE A, TYPE B). Sizes: 75MM, 90MM, 110MM, 160MM.",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4",
-        "6"
+        "75MM - 3MTR - TYPE A",
+        "75MM - 6MTR - TYPE A",
+        "90MM - 3MTR - TYPE A",
+        "90MM - 6MTR - TYPE A",
+        "110MM - 3MTR - TYPE A",
+        "110MM - 6MTR - TYPE A",
+        "160MM - 3MTR - TYPE A",
+        "160MM - 6MTR - TYPE A",
+        "75MM - 3MTR - TYPE B",
+        "110MM - 3MTR - TYPE B"
       ],
-      "status": "Active"
+      "status": "Active",
+      "sizeProductCodes": {
+        "75MM - 3MTR - TYPE A": "FG-401448",
+        "75MM - 6MTR - TYPE A": "FG-401452",
+        "90MM - 3MTR - TYPE A": "FG-401449",
+        "90MM - 6MTR - TYPE A": "FG-401453",
+        "110MM - 3MTR - TYPE A": "FG-401450",
+        "110MM - 6MTR - TYPE A": "FG-401454",
+        "160MM - 3MTR - TYPE A": "FG-401451",
+        "160MM - 6MTR - TYPE A": "FG-401455",
+        "75MM - 3MTR - TYPE B": "FG-401484",
+        "110MM - 3MTR - TYPE B": "FG-401485"
+      },
+      "uom": "MTR"
     },
     {
       "id": "prod_swr_selfit_3",
-      "name": "SWR SELFIT - DOOR Y ISI",
+      "name": "SWR SELFIT ISI DOOR Y",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - DOOR Y ISI.png",
-      "description": "SWR SELFIT - DOOR Y ISI. Available sizes: 2 1/2, 4.",
+      "description": "SWR SELFIT ISI DOOR Y. Available sizes: 75MM, 110MM.",
       "sizes": [
-        "2 1/2",
-        "4"
+        "75MM",
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 50,
+        "110MM": 12
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400724",
+        "110MM": "FG-401724"
+      }
     },
     {
       "id": "prod_swr_selfit_4",
-      "name": "SWR SELFIT - SINGLE Y ISI",
+      "name": "SWR SELFIT ISI SINGLE Y",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - SINGLE Y ISI.png",
-      "description": "SWR SELFIT - SINGLE Y ISI. Available sizes: 2 1/2, 4.",
+      "description": "SWR SELFIT ISI SINGLE Y. Available sizes: 75MM, 110MM.",
       "sizes": [
-        "2 1/2",
-        "4"
+        "75MM",
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 50,
+        "110MM": 12
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400772",
+        "110MM": "FG-400756"
+      }
     },
     {
       "id": "prod_swr_selfit_5",
-      "name": "SWR SELFIT - BEND 87.5 ISI",
+      "name": "SWR SELFIT ISI PLAIN BEND 87.5",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - BEND 87.5 ISI.png",
-      "description": "SWR SELFIT - BEND 87.5 ISI. Available sizes: 2 1/2, 3, 4, 6.",
+      "description": "SWR SELFIT ISI PLAIN BEND 87.5. Available sizes: 75MM, 90MM, 110MM, 160MM.",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4",
-        "6"
+        "75MM",
+        "90MM",
+        "110MM",
+        "160MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 100,
+        "90MM": 55,
+        "110MM": 30,
+        "160MM": 9
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400786",
+        "90MM": "FG-400781",
+        "110MM": "FG-400762",
+        "160MM": "FG-400800"
+      }
     },
     {
       "id": "prod_swr_selfit_6",
@@ -3306,277 +3554,471 @@
     },
     {
       "id": "prod_swr_selfit_9",
-      "name": "SWR SELFIT - COUPLER ISI",
+      "name": "SWR SELFIT ISI COUPLER",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - COUPLER ISI.png",
-      "description": "SWR SELFIT - COUPLER ISI. Available sizes: 2 1/2, 3, 4, 6.",
+      "description": "SWR SELFIT ISI COUPLER. Available sizes: 75MM, 90MM, 110MM, 160MM.",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4",
-        "6"
+        "75MM",
+        "90MM",
+        "110MM",
+        "160MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 144,
+        "90MM": 100,
+        "110MM": 48,
+        "160MM": 18
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400778",
+        "90MM": "FG-400723",
+        "110MM": "FG-400777",
+        "160MM": "FG-400801"
+      }
     },
     {
       "id": "prod_swr_selfit_10",
-      "name": "SWR SELFIT - COUPLER",
+      "name": "SWR SELFIT COUPLER",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - COUPLER.png",
-      "description": "SWR SELFIT - COUPLER. Available sizes: 2 1/2, 4.",
+      "description": "SWR SELFIT COUPLER. Available sizes: 75MM, 110MM.",
       "sizes": [
-        "2 1/2",
-        "4"
+        "75MM",
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 70,
+        "110MM": 50
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400707",
+        "110MM": "FG-400708"
+      }
     },
     {
       "id": "prod_swr_selfit_11",
-      "name": "SWR SELFIT - REDUCER",
+      "name": "SWR SELFIT REDUCER",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - REDUCER.png",
-      "description": "SWR SELFIT - REDUCER. Available sizes: 4 X 2 1/2, 4 X 3, 6 X 4.",
+      "description": "SWR SELFIT REDUCER. Available sizes: 110 X 75MM, 110 X 90MM, 160 X 110MM.",
       "sizes": [
-        "4 X 2 1/2",
-        "4 X 3",
-        "6 X 4"
+        "110 X 75MM",
+        "110 X 90MM",
+        "160 X 110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "110 X 75MM": 40,
+        "110 X 90MM": 30,
+        "160 X 110MM": 8
+      },
+      "sizeProductCodes": {
+        "110 X 75MM": "FG-400721",
+        "110 X 90MM": "FG-400722",
+        "160 X 110MM": "FG-400744"
+      }
     },
     {
       "id": "prod_swr_selfit_12",
-      "name": "SWR SELFIT - REDUCER ISI",
+      "name": "SWR SELFIT ISI REDUCER",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - REDUCER ISI.png",
-      "description": "SWR SELFIT - REDUCER ISI. Available sizes: 4 X 2 1/2.",
+      "description": "SWR SELFIT ISI REDUCER. Available sizes: 110 X 75MM.",
       "sizes": [
-        "4 X 2 1/2"
+        "110 X 75MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "110 X 75MM": 48
+      },
+      "sizeProductCodes": {
+        "110 X 75MM": "FG-400810"
+      }
     },
     {
       "id": "prod_swr_selfit_13",
-      "name": "SWR SELFIT - SINGLE TEE",
+      "name": "SWR SELFIT PLAIN TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - SINGLE TEE.png",
-      "description": "SWR SELFIT - SINGLE TEE. Available sizes: 2 1/2, 4.",
+      "description": "SWR SELFIT PLAIN TEE. Available sizes: 75MM, 110MM.",
       "sizes": [
-        "2 1/2",
-        "4"
+        "75MM",
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 30,
+        "110MM": 10
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400704",
+        "110MM": "FG-400706"
+      }
     },
     {
       "id": "prod_swr_selfit_14",
-      "name": "SWR SELFIT - SINGLE TEE ISI",
+      "name": "SWR SELFIT ISI PLAIN TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - SINGLE TEE ISI.png",
-      "description": "SWR SELFIT - SINGLE TEE ISI. Available sizes: 2 1/2, 3, 4, 6.",
+      "description": "SWR SELFIT ISI PLAIN TEE. Available sizes: 75MM, 90MM, 110MM, 160MM.",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4",
-        "6"
+        "75MM",
+        "90MM",
+        "110MM",
+        "160MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 60,
+        "90MM": 30,
+        "110MM": 26,
+        "160MM": 6
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400792",
+        "90MM": "FG-400774",
+        "110MM": "FG-400785",
+        "160MM": "FG-400802"
+      }
     },
     {
       "id": "prod_swr_selfit_15",
-      "name": "SWR SELFIT - DOOR TEE ISI",
+      "name": "SWR SELFIT ISI DOOR TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - DOOR TEE ISI.png",
-      "description": "SWR SELFIT - DOOR TEE ISI. Available sizes: 2 1/2, 3.",
+      "description": "SWR SELFIT ISI DOOR TEE. Available sizes: 75MM, 110MM.",
       "sizes": [
-        "2 1/2",
-        "3"
+        "75MM",
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 50,
+        "110MM": 24
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400803",
+        "110MM": "FG-400820"
+      }
     },
     {
       "id": "prod_swr_selfit_16",
-      "name": "SWR SELFIT - DOOR TEE",
+      "name": "SWR SELFIT DOOR TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - DOOR TEE.png",
-      "description": "SWR SELFIT - DOOR TEE. Available sizes: 2 1/2, 4.",
+      "description": "SWR SELFIT DOOR TEE. Available sizes: 75MM, 110MM.",
       "sizes": [
-        "2 1/2",
-        "4"
+        "75MM",
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 25,
+        "110MM": 20
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400713",
+        "110MM": "FG-400715"
+      }
     },
     {
       "id": "prod_swr_selfit_17",
-      "name": "SWR SELFIT - BEND 45 ISI",
+      "name": "SWR SELFIT ISI SHOE BEND",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - BEND 45 ISI.png",
-      "description": "SWR SELFIT - BEND 45 ISI. Available sizes: 2 1/2, 3, 4, 6.",
+      "description": "SWR SELFIT ISI SHOE BEND. Available sizes: 75MM, 90MM, 110MM.",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4",
-        "6"
+        "75MM",
+        "90MM",
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 100,
+        "90MM": 60,
+        "110MM": 45
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-401816",
+        "90MM": "FG-400758",
+        "110MM": "FG-401648"
+      }
     },
     {
       "id": "prod_swr_selfit_18",
-      "name": "SWR SELFIT - BEND 45",
+      "name": "SWR SELFIT SHOE BEND",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - BEND 45.png",
-      "description": "SWR SELFIT - BEND 45. Available sizes: 2 1/2, 4.",
+      "description": "SWR SELFIT SHOE BEND. Available sizes: 75MM, 110MM.",
       "sizes": [
-        "2 1/2",
-        "4"
+        "75MM",
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 60,
+        "110MM": 50
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400709",
+        "110MM": "FG-400710"
+      }
     },
     {
       "id": "prod_swr_selfit_19",
-      "name": "SWR SELFIT - REDUCING TEE ISI",
+      "name": "SWR SELFIT ISI REDUCER TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - REDUCING TEE ISI.png",
-      "description": "SWR SELFIT - REDUCING TEE ISI. Available sizes: 4 X 2 1/2.",
+      "description": "SWR SELFIT ISI REDUCER TEE. Available sizes: 110 X 75MM.",
       "sizes": [
-        "4 X 2 1/2"
+        "110 X 75MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "110 X 75MM": 57
+      },
+      "sizeProductCodes": {
+        "110 X 75MM": "FG-400811"
+      }
     },
     {
       "id": "prod_swr_selfit_20",
-      "name": "SWR SELFIT - REDUCING TEE",
+      "name": "SWR SELFIT REDUCER TEE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - REDUCING TEE.png",
-      "description": "SWR SELFIT - REDUCING TEE. Available sizes: 4 X 2 1/2.",
+      "description": "SWR SELFIT REDUCER TEE. Available sizes: 110 X 75MM.",
       "sizes": [
-        "4 X 2 1/2"
+        "110 X 75MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "110 X 75MM": 30
+      },
+      "sizeProductCodes": {
+        "110 X 75MM": "FG-400720"
+      }
     },
     {
       "id": "prod_swr_selfit_21",
-      "name": "SWR SELFIT - CLEANING PIPE",
+      "name": "SWR SELFIT CLEANING PIPE",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - CLEANING PIPE.png",
-      "description": "SWR SELFIT - CLEANING PIPE. Available sizes: 4.",
+      "description": "SWR SELFIT CLEANING PIPE. Available sizes: 110MM.",
       "sizes": [
-        "4"
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "110MM": 30
+      },
+      "sizeProductCodes": {
+        "110MM": "FG-400734"
+      }
     },
     {
       "id": "prod_swr_common_1",
-      "name": "NAHANI TRAP (WITH JALI)",
+      "name": "SWR CMN FTNG N TRAP WITH JALI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/NAHANI TRAP (WITH JALI).png",
-      "description": "NAHANI TRAP (WITH JALI). Available sizes: 4 X 2 1/2, 4 X 3, 4 X 4.",
+      "description": "SWR CMN FTNG N TRAP WITH JALI. Available sizes: 110 X 75MM, 110 X 90MM, 110 X 110MM.",
       "sizes": [
-        "4 X 2 1/2",
-        "4 X 3",
-        "4 X 4"
+        "110 X 75MM",
+        "110 X 90MM",
+        "110 X 110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "110 X 75MM": 50,
+        "110 X 90MM": 45,
+        "110 X 110MM": 35
+      },
+      "sizeProductCodes": {
+        "110 X 75MM": "FG-400741",
+        "110 X 90MM": "FG-400751",
+        "110 X 110MM": "FG-400752"
+      }
     },
     {
       "id": "prod_swr_common_2",
-      "name": "NAHANI TRAP (WITHOUT JALI)",
+      "name": "SWR CMN FTNG N TRAP WITHOUT JALI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/NAHANI TRAP (WITHOUT JALI).png",
-      "description": "NAHANI TRAP (WITHOUT JALI). Available sizes: 4 X 2 1/2, 4 X 3, 4 X 4.",
+      "description": "SWR CMN FTNG N TRAP WITHOUT JALI. Available sizes: 110 X 75MM, 110 X 90MM, 110 X 110MM.",
       "sizes": [
-        "4 X 2 1/2",
-        "4 X 3",
-        "4 X 4"
+        "110 X 75MM",
+        "110 X 90MM",
+        "110 X 110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "110 X 75MM": 50,
+        "110 X 90MM": 45,
+        "110 X 110MM": 35
+      },
+      "sizeProductCodes": {
+        "110 X 75MM": "FG-400738",
+        "110 X 90MM": "FG-400749",
+        "110 X 110MM": "FG-400750"
+      }
     },
     {
       "id": "prod_swr_common_3",
-      "name": "MULTI FLOW TRAP (WITHOUT JALI)",
+      "name": "SWR CMN FTNG M TRAP (WITHOUT JALI)",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/MULTI FLOW TRAP (WITHOUT JALI).png",
-      "description": "MULTI FLOW TRAP (WITHOUT JALI). Available sizes: 4 X 2 1/2 X 1 1/2.",
+      "description": "SWR CMN FTNG M TRAP (WITHOUT JALI). Available sizes: 110 X 75 X 50MM.",
       "sizes": [
-        "4 X 2 1/2 X 1 1/2"
+        "110 X 75 X 50MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "110 X 75 X 50MM": 45
+      },
+      "sizeProductCodes": {
+        "110 X 75 X 50MM": "FG-400735"
+      }
     },
     {
       "id": "prod_swr_common_4",
-      "name": "MULTI FLOW TRAP (WITH JALI)",
+      "name": "SWR CMN FTNG M TRAP (WITH JALI)",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/MULTI FLOW TRAP (WITH JALI).png",
-      "description": "MULTI FLOW TRAP (WITH JALI). Available sizes: 4 X 2 1/2 X 1 1/2.",
+      "description": "SWR CMN FTNG M TRAP (WITH JALI). Available sizes: 110 X 75 X 50MM.",
       "sizes": [
-        "4 X 2 1/2 X 1 1/2"
+        "110 X 75 X 50MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "110 X 75 X 50MM": 45
+      },
+      "sizeProductCodes": {
+        "110 X 75 X 50MM": "FG-400736"
+      }
     },
     {
       "id": "prod_swr_common_5",
-      "name": "VENT COWL",
+      "name": "SWR CMN FTNG VENT COWL",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/VENT COWL.png",
-      "description": "VENT COWL. Available sizes: 2 1/2.",
+      "description": "SWR CMN FTNG VENT COWL. Available sizes: 75MM, 110MM.",
       "sizes": [
-        "2 1/2"
+        "75MM",
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 210,
+        "110MM": 100
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400817",
+        "110MM": "FG-400815"
+      }
     },
     {
       "id": "prod_swr_common_6",
-      "name": "JALI",
+      "name": "SWR CMN FTNG JALI",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/JALI.png",
-      "description": "JALI. Available sizes: 4.",
+      "description": "SWR CMN FTNG JALI. Available sizes: 110MM.",
       "sizes": [
-        "4"
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "110MM": 1
+      },
+      "sizeProductCodes": {
+        "110MM": "FG-400740"
+      }
     },
     {
       "id": "prod_swr_common_7",
-      "name": "PIPE CLIP",
+      "name": "SWR CMN FTNG PIPE CLIP",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/PIPE CLIP.png",
-      "description": "PIPE CLIP. Available sizes: 2 1/2, 4.",
+      "description": "SWR CMN FTNG PIPE CLIP. Available sizes: 75MM, 110MM.",
       "sizes": [
-        "2 1/2",
-        "4"
+        "75MM",
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "75MM": 180,
+        "110MM": 100
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400818",
+        "110MM": "FG-400816"
+      }
     },
     {
       "id": "prod_swr_common_8",
-      "name": "P TRAP",
+      "name": "SWR CMN FTNG P TRAP",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/P TRAP.png",
-      "description": "P TRAP. Available sizes: 4 X 4, 4 1/2 X 4.",
+      "description": "SWR CMN FTNG P TRAP. Available sizes: 110 X 110MM, 125 X 110MM.",
       "sizes": [
-        "4 X 4",
-        "4 1/2 X 4"
+        "110 X 110MM",
+        "125 X 110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "packSizes": {
+        "110 X 110MM": 15,
+        "125 X 110MM": 14
+      },
+      "sizeProductCodes": {
+        "110 X 110MM": "FG-400754",
+        "125 X 110MM": "FG-400766"
+      }
+    },
+    {
+      "id": "prod_swr_common_9",
+      "name": "SWR DOOR CAP",
+      "categoryId": "cat_swr",
+      "categoryName": "SWR Drainage Pipes & Fittings",
+      "image": "/images/swr/SWR DOOR CAP.png",
+      "description": "SWR DOOR CAP. Available sizes: 75MM, 90MM, 110MM.",
+      "sizes": [
+        "75MM",
+        "90MM",
+        "110MM"
+      ],
+      "status": "Active",
+      "packSizes": {
+        "75MM": 100,
+        "90MM": 80,
+        "110MM": 50
+      },
+      "sizeProductCodes": {
+        "75MM": "FG-400795",
+        "90MM": "FG-400796",
+        "110MM": "FG-400797"
+      }
     },
     {
       "id": "prod_solvent_1",
