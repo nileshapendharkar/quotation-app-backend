@@ -1211,11 +1211,11 @@
     },
     {
       "id": "prod_cpvc_18",
-      "name": "CPVC - Tank Nipple (Threaded)",
+      "name": "CPVC TANK NIPPLE",
       "categoryId": "cat_cpvc",
       "categoryName": "CPVC Pipes & Fittings",
       "image": "/images/cpvc/CPVC - Tank Nipple (Threaded).png",
-      "description": "CPVC - Tank Nipple (Threaded). Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
+      "description": "CPVC TANK NIPPLE. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
       "sizes": [
         "3/4",
         "1",
@@ -1224,7 +1224,21 @@
         "2"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "1": 60,
+        "2": 20,
+        "3/4": 100,
+        "1 1/4": 40,
+        "1 1/2": 30
+      },
+      "sizeProductCodes": {
+        "1": "FG-400510",
+        "2": "FG-400513",
+        "3/4": "FG-400509",
+        "1 1/4": "FG-400511",
+        "1 1/2": "FG-400512"
+      }
     },
     {
       "id": "prod_cpvc_19",
