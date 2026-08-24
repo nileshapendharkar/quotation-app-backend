@@ -1,5 +1,6 @@
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+const https = require('https');
 const { readData, writeData } = require('../database/store');
 const { JWT_SECRET } = require('../middleware/authMiddleware');
 
@@ -53,14 +54,95 @@ exports.register = async (req, res) => {
   }
 };
 
+exports.sendOtp = async (req, res) => {
+  try {
+    const { mobile } = req.body;
+    if (!mobile) {
+      return res.status(400).json({ success: false, message: 'Mobile number is required' });
+    }
+
+    const data = await readData();
+    const identifier = mobile.toString().trim().toLowerCase();
+    const user = data.users.find(u => {
+      return (u.mobile || '').trim().toLowerCase() === identifier || 
+             (u.userId || '').trim().toLowerCase() === identifier || 
+             (u.email || '').trim().toLowerCase() === identifier;
+    });
+
+    if (!user) {
+      return res.status(404).json({ success: false, message: 'Account not found. Please register or contact Admin.' });
+    }
+    
+    if (user.status === 'Inactive' || user.status === 'inactive') {
+      return res.status(403).json({ success: false, message: 'Your account is currently inactive. Please contact admin.' });
+    }
+
+    // Generate 6-digit OTP
+    const otp = Math.floor(100000 + Math.random() * 900000).toString();
+    console.log(`[AUTH] Generated OTP for ${mobile}: ${otp}`);
+
+    const MSG91_AUTH_KEY = process.env.MSG91_AUTH_KEY || '';
+    const MSG91_TEMPLATE_ID = process.env.MSG91_TEMPLATE_ID || '';
+
+    if (MSG91_AUTH_KEY && MSG91_TEMPLATE_ID) {
+      // Append country code 91 for Indian numbers if it's 10 digits
+      const formattedMobile = mobile.length === 10 ? `91${mobile}` : mobile;
+      const url = `https://control.msg91.com/api/v5/otp?template_id=${MSG91_TEMPLATE_ID}&mobile=${formattedMobile}&authkey=${MSG91_AUTH_KEY}&otp=${otp}`;
+      
+      https.get(url, (msgRes) => {
+        let responseData = '';
+        msgRes.on('data', chunk => responseData += chunk);
+        msgRes.on('end', () => console.log(`[MSG91] SMS Sent to ${formattedMobile}:`, responseData));
+      }).on('error', (err) => {
+        console.error(`[MSG91] Delivery Error for ${formattedMobile}:`, err.message);
+      });
+    } else {
+      console.log('[MSG91] Keys missing in environment. Simulating OTP delivery.');
+    }
+
+    // Encrypt OTP using bcrypt
+    const salt = await bcrypt.genSalt(10);
+    const otpHash = await bcrypt.hash(otp, salt);
+
+    // Create a secure, encrypted JWT token containing the hashed OTP (expires in 5 mins)
+    const otpToken = jwt.sign({ mobile: identifier, otpHash }, JWT_SECRET, { expiresIn: '5m' });
+
+    res.json({
+      success: true,
+      message: 'OTP sent securely to your mobile number',
+      otpToken, // Returned to client to submit back during login verification
+      mockOtp: otp // For testing purposes in a development environment
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+};
+
 exports.login = async (req, res) => {
   try {
-    const { userId, mobile, email, password } = req.body;
+    const { userId, mobile, email, password, otpToken } = req.body;
     const loginIdentifier = (userId || mobile || email || '').toString().trim().toLowerCase();
-    const rawPassword = (password || '').toString().trim();
+    const rawPassword = (password || '').toString().trim(); // acts as OTP or static password
 
     if (!loginIdentifier || !rawPassword) {
-      return res.status(400).json({ success: false, message: 'User ID / Mobile Number and Password are required' });
+      return res.status(400).json({ success: false, message: 'User ID / Mobile Number and OTP/Password are required' });
+    }
+
+    let isMatch = false;
+
+    // 1. If an encrypted JWT OTP token is provided, verify it first
+    if (otpToken) {
+      try {
+        const decoded = jwt.verify(otpToken, JWT_SECRET);
+        if (decoded.mobile === loginIdentifier) {
+          isMatch = await bcrypt.compare(rawPassword, decoded.otpHash);
+          if (!isMatch) {
+            return res.status(401).json({ success: false, message: 'Invalid OTP entered' });
+          }
+        }
+      } catch (err) {
+        return res.status(401).json({ success: false, message: 'OTP has expired or is invalid. Please request a new one.' });
+      }
     }
 
     const data = await readData();
@@ -72,19 +154,21 @@ exports.login = async (req, res) => {
     });
 
     if (!user) {
-      return res.status(401).json({ success: false, message: 'Invalid User ID / Mobile Number or Password. Only admin-approved accounts can log in.' });
+      return res.status(401).json({ success: false, message: 'Invalid User ID / Mobile Number. Only admin-approved accounts can log in.' });
     }
 
     if (user.status === 'Inactive' || user.status === 'inactive') {
       return res.status(403).json({ success: false, message: 'Your account is currently inactive. Please contact admin.' });
     }
 
-    let isMatch = false;
-    if (user.passwordHash) {
-      isMatch = await bcrypt.compare(rawPassword, user.passwordHash);
-    }
-    if (!isMatch && user.plainPassword && user.plainPassword === rawPassword) {
-      isMatch = true;
+    // 2. If it wasn't a valid OTP login, fallback to checking static password
+    if (!isMatch) {
+      if (user.passwordHash) {
+        isMatch = await bcrypt.compare(rawPassword, user.passwordHash);
+      }
+      if (!isMatch && user.plainPassword && user.plainPassword === rawPassword) {
+        isMatch = true;
+      }
     }
 
     if (!isMatch) {

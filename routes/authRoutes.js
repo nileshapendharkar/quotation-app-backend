@@ -4,6 +4,7 @@ const authController = require('../controllers/authController');
 const { authenticateToken } = require('../middleware/authMiddleware');
 
 router.post('/register', authController.register);
+router.post('/send-otp', authController.sendOtp);
 router.post('/login', authController.login);
 router.post('/forgot-password', authController.forgotPassword);
 router.get('/profile', authenticateToken, authController.getProfile);

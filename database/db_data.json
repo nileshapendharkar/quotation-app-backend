@@ -2589,18 +2589,28 @@
     },
     {
       "id": "prod_upvc_21",
-      "name": "UPVC- REDUCING ELBOW 90",
+      "name": "UPVC REDUCER ELBOW",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
       "image": "/images/upvc/UPVC- REDUCING ELBOW 90.png",
-      "description": "UPVC- REDUCING ELBOW 90. Available sizes: 1 X 1/2, 1 X 3/4, 3/4 X 1/2.",
+      "description": "UPVC REDUCER ELBOW. Available sizes: 1 X 1/2, 1 X 3/4, 3/4 X 1/2.",
       "sizes": [
         "1 X 1/2",
         "1 X 3/4",
         "3/4 X 1/2"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "1 X 1/2": 100,
+        "1 X 3/4": 70,
+        "3/4 X 1/2": 120
+      },
+      "sizeProductCodes": {
+        "1 X 1/2": "FG-400397",
+        "1 X 3/4": "FG-400347",
+        "3/4 X 1/2": "FG-400354"
+      }
     },
     {
       "id": "prod_upvc_22",
