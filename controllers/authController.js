@@ -99,17 +99,43 @@ exports.sendOtp = async (req, res) => {
     const MSG91_TEMPLATE_ID = process.env.MSG91_TEMPLATE_ID || '';
 
     if (MSG91_AUTH_KEY && MSG91_TEMPLATE_ID) {
-      // cleanIdentifier is already stripped of +91 and spaces, so we can reliably prepend 91 for Indian numbers
       const formattedMobile = cleanIdentifier.length === 10 ? `91${cleanIdentifier}` : cleanIdentifier;
-      const url = `https://control.msg91.com/api/v5/otp?template_id=${MSG91_TEMPLATE_ID}&mobile=${formattedMobile}&authkey=${MSG91_AUTH_KEY}&otp=${otp}`;
       
-      https.get(url, (msgRes) => {
-        let responseData = '';
-        msgRes.on('data', chunk => responseData += chunk);
-        msgRes.on('end', () => console.log(`[MSG91] SMS Sent to ${formattedMobile}:`, responseData));
-      }).on('error', (err) => {
+      const options = {
+        hostname: 'control.msg91.com',
+        path: `/api/v5/otp?template_id=${MSG91_TEMPLATE_ID}&mobile=${formattedMobile}&otp=${otp}`,
+        method: 'GET',
+        headers: {
+          'authkey': MSG91_AUTH_KEY
+        }
+      };
+
+      try {
+        await new Promise((resolve, reject) => {
+          const req = https.request(options, (msgRes) => {
+            let responseData = '';
+            msgRes.on('data', chunk => responseData += chunk);
+            msgRes.on('end', () => {
+              console.log(`[MSG91] SMS Sent to ${formattedMobile}:`, responseData);
+              try {
+                const parsed = JSON.parse(responseData);
+                if (parsed.type === 'error' || parsed.type === 'failure') {
+                  reject(new Error(parsed.message || 'MSG91 SMS Gateway Error'));
+                } else {
+                  resolve(parsed);
+                }
+              } catch (e) {
+                resolve(responseData);
+              }
+            });
+          });
+          req.on('error', (err) => reject(err));
+          req.end();
+        });
+      } catch (err) {
         console.error(`[MSG91] Delivery Error for ${formattedMobile}:`, err.message);
-      });
+        return res.status(500).json({ success: false, message: `SMS Delivery Failed: ${err.message}` });
+      }
     } else {
       console.log('[MSG91] Keys missing in environment. Simulating OTP delivery.');
     }
