@@ -62,11 +62,25 @@ exports.sendOtp = async (req, res) => {
     }
 
     const data = await readData();
-    const identifier = mobile.toString().trim().toLowerCase();
+    const rawIdentifier = mobile.toString().trim().toLowerCase();
+    let cleanIdentifier = rawIdentifier.replace(/\s+/g, '');
+    if (cleanIdentifier.startsWith('+91')) cleanIdentifier = cleanIdentifier.slice(3);
+    else if (cleanIdentifier.length > 10 && cleanIdentifier.startsWith('91')) cleanIdentifier = cleanIdentifier.slice(2);
+
     const user = data.users.find(u => {
-      return (u.mobile || '').trim().toLowerCase() === identifier || 
-             (u.userId || '').trim().toLowerCase() === identifier || 
-             (u.email || '').trim().toLowerCase() === identifier;
+      let uMobile = (u.mobile || '').replace(/\s+/g, '').toLowerCase();
+      if (uMobile.startsWith('+91')) uMobile = uMobile.slice(3);
+      else if (uMobile.length > 10 && uMobile.startsWith('91')) uMobile = uMobile.slice(2);
+
+      let uUserId = (u.userId || '').replace(/\s+/g, '').toLowerCase();
+      if (uUserId.startsWith('+91')) uUserId = uUserId.slice(3);
+      else if (uUserId.length > 10 && uUserId.startsWith('91')) uUserId = uUserId.slice(2);
+      
+      const uEmail = (u.email || '').trim().toLowerCase();
+      
+      return uMobile === cleanIdentifier || 
+             uUserId === cleanIdentifier || 
+             uEmail === rawIdentifier;
     });
 
     if (!user) {
@@ -85,8 +99,8 @@ exports.sendOtp = async (req, res) => {
     const MSG91_TEMPLATE_ID = process.env.MSG91_TEMPLATE_ID || '';
 
     if (MSG91_AUTH_KEY && MSG91_TEMPLATE_ID) {
-      // Append country code 91 for Indian numbers if it's 10 digits
-      const formattedMobile = mobile.length === 10 ? `91${mobile}` : mobile;
+      // cleanIdentifier is already stripped of +91 and spaces, so we can reliably prepend 91 for Indian numbers
+      const formattedMobile = cleanIdentifier.length === 10 ? `91${cleanIdentifier}` : cleanIdentifier;
       const url = `https://control.msg91.com/api/v5/otp?template_id=${MSG91_TEMPLATE_ID}&mobile=${formattedMobile}&authkey=${MSG91_AUTH_KEY}&otp=${otp}`;
       
       https.get(url, (msgRes) => {
@@ -105,7 +119,7 @@ exports.sendOtp = async (req, res) => {
     const otpHash = await bcrypt.hash(otp, salt);
 
     // Create a secure, encrypted JWT token containing the hashed OTP (expires in 5 mins)
-    const otpToken = jwt.sign({ mobile: identifier, otpHash }, JWT_SECRET, { expiresIn: '5m' });
+    const otpToken = jwt.sign({ mobile: cleanIdentifier, otpHash }, JWT_SECRET, { expiresIn: '5m' });
 
     res.json({
       success: true,
@@ -121,10 +135,14 @@ exports.sendOtp = async (req, res) => {
 exports.login = async (req, res) => {
   try {
     const { userId, mobile, email, password, otpToken } = req.body;
-    const loginIdentifier = (userId || mobile || email || '').toString().trim().toLowerCase();
+    const rawIdentifier = (userId || mobile || email || '').toString().trim().toLowerCase();
+    let cleanIdentifier = rawIdentifier.replace(/\s+/g, '');
+    if (cleanIdentifier.startsWith('+91')) cleanIdentifier = cleanIdentifier.slice(3);
+    else if (cleanIdentifier.length > 10 && cleanIdentifier.startsWith('91')) cleanIdentifier = cleanIdentifier.slice(2);
+
     const rawPassword = (password || '').toString().trim(); // acts as OTP or static password
 
-    if (!loginIdentifier || !rawPassword) {
+    if (!rawIdentifier || !rawPassword) {
       return res.status(400).json({ success: false, message: 'User ID / Mobile Number and OTP/Password are required' });
     }
 
@@ -134,7 +152,11 @@ exports.login = async (req, res) => {
     if (otpToken) {
       try {
         const decoded = jwt.verify(otpToken, JWT_SECRET);
-        if (decoded.mobile === loginIdentifier) {
+        let decodedMobile = (decoded.mobile || '').replace(/\s+/g, '').toLowerCase();
+        if (decodedMobile.startsWith('+91')) decodedMobile = decodedMobile.slice(3);
+        else if (decodedMobile.length > 10 && decodedMobile.startsWith('91')) decodedMobile = decodedMobile.slice(2);
+        
+        if (decodedMobile === cleanIdentifier) {
           isMatch = await bcrypt.compare(rawPassword, decoded.otpHash);
           if (!isMatch) {
             return res.status(401).json({ success: false, message: 'Invalid OTP entered' });
@@ -147,10 +169,17 @@ exports.login = async (req, res) => {
 
     const data = await readData();
     const user = data.users.find(u => {
-      const uUserId = (u.userId || '').toString().trim().toLowerCase();
-      const uMobile = (u.mobile || '').toString().trim().toLowerCase();
-      const uEmail = (u.email || '').toString().trim().toLowerCase();
-      return uUserId === loginIdentifier || uMobile === loginIdentifier || uEmail === loginIdentifier;
+      let uUserId = (u.userId || '').replace(/\s+/g, '').toLowerCase();
+      if (uUserId.startsWith('+91')) uUserId = uUserId.slice(3);
+      else if (uUserId.length > 10 && uUserId.startsWith('91')) uUserId = uUserId.slice(2);
+
+      let uMobile = (u.mobile || '').replace(/\s+/g, '').toLowerCase();
+      if (uMobile.startsWith('+91')) uMobile = uMobile.slice(3);
+      else if (uMobile.length > 10 && uMobile.startsWith('91')) uMobile = uMobile.slice(2);
+
+      const uEmail = (u.email || '').trim().toLowerCase();
+      
+      return uUserId === cleanIdentifier || uMobile === cleanIdentifier || uEmail === rawIdentifier;
     });
 
     if (!user) {
