@@ -69,6 +69,19 @@ const initialData = {
       companyName: "Shende Constructions",
       companyAddress: "12 Civil Lines, Nagpur, Maharashtra",
       createdAt: new Date().toISOString()
+    },
+    {
+      id: "usr_7249722749",
+      userId: "7249722749",
+      name: "Gouri Aqua Plast User",
+      email: "user7249722749@gouriaquaplast.com",
+      mobile: "7249722749",
+      passwordHash: "$2a$10$41/Sb9f79KHF0jXWjzvrDe7fm.2Yv5EVxWuf9snFP1pSt8FDoOHKm", // "123456" / "admin123"
+      role: "customer",
+      status: "active",
+      companyName: "Gouri Aqua Plast",
+      companyAddress: "Nagpur, Maharashtra",
+      createdAt: new Date().toISOString()
     }
   ],
   categories: [

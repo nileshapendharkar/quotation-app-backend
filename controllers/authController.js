@@ -94,8 +94,8 @@ exports.sendOtp = async (req, res) => {
     // Generate 6-digit OTP
     let otp = Math.floor(100000 + Math.random() * 900000).toString();
     
-    // Temporary bypass for testing
-    if (cleanIdentifier === '9225087140' || cleanIdentifier === '9876543210') {
+    // Temporary bypass for testing / instant login
+    if (cleanIdentifier === '9225087140' || cleanIdentifier === '9876543210' || cleanIdentifier === '7249722749') {
       otp = '123456';
     }
     
