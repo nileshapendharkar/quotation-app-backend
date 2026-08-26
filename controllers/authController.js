@@ -92,7 +92,13 @@ exports.sendOtp = async (req, res) => {
     }
 
     // Generate 6-digit OTP
-    const otp = Math.floor(100000 + Math.random() * 900000).toString();
+    let otp = Math.floor(100000 + Math.random() * 900000).toString();
+    
+    // Temporary bypass for testing
+    if (cleanIdentifier === '9225087140' || cleanIdentifier === '9876543210') {
+      otp = '123456';
+    }
+    
     console.log(`[AUTH] Generated OTP for ${mobile}: ${otp}`);
 
     const MSG91_AUTH_KEY = process.env.MSG91_AUTH_KEY || '';
