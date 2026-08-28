@@ -5,6 +5,11 @@ const couchbase = require('couchbase');
 const DB_FILE = path.join(__dirname, 'db_data.json');
 const COUCHBASE_DOC_KEY = 'appdata';
 
+// In-memory cache to avoid re-reading DB on every request
+let cachedData = null;
+let cacheTimestamp = 0;
+const CACHE_TTL = 30 * 1000; // 30 seconds
+
 // Couchbase Setup
 let cbCluster = null;
 let cbCollection = null;
@@ -1725,42 +1730,62 @@ function seedProducts(data) {
 }
 
 async function readData() {
+  // Return cached data if still fresh
+  if (cachedData && (Date.now() - cacheTimestamp) < CACHE_TTL) {
+    return cachedData;
+  }
+
   await connectCouchbase();
+
+  let data = null;
 
   // COUCHBASE MODE
   if (isCouchbaseConnected) {
     try {
       const result = await cbCollection.get(COUCHBASE_DOC_KEY);
-      return result.value;
+      data = result.value;
     } catch (err) {
       // DocumentNotFoundError — seed initial data
       if (err.constructor && err.constructor.name === 'DocumentNotFoundError') {
         const seeded = seedProducts({ ...initialData });
         await cbCollection.upsert(COUCHBASE_DOC_KEY, seeded);
         console.log('🌱 Couchbase seeded with initial data.');
-        return seeded;
+        data = seeded;
+      } else {
+        console.error('❌ Couchbase read error:', err.message || err);
+        data = initialData;
       }
-      console.error('❌ Couchbase read error:', err.message || err);
-      return initialData;
     }
   }
 
   // LOCAL FILE FALLBACK MODE
-  try {
-    if (!fs.existsSync(DB_FILE)) {
-      const seeded = seedProducts({ ...initialData });
-      fs.writeFileSync(DB_FILE, JSON.stringify(seeded, null, 2));
-      return seeded;
+  if (!data) {
+    try {
+      if (!fs.existsSync(DB_FILE)) {
+        const seeded = seedProducts({ ...initialData });
+        fs.writeFileSync(DB_FILE, JSON.stringify(seeded, null, 2));
+        data = seeded;
+      } else {
+        const raw = fs.readFileSync(DB_FILE, 'utf8');
+        data = JSON.parse(raw);
+      }
+    } catch (err) {
+      console.error('❌ DB read error, using initial data:', err);
+      data = initialData;
     }
-    const raw = fs.readFileSync(DB_FILE, 'utf8');
-    return JSON.parse(raw);
-  } catch (err) {
-    console.error('❌ DB read error, using initial data:', err);
-    return initialData;
   }
+
+  // Update cache
+  cachedData = data;
+  cacheTimestamp = Date.now();
+  return data;
 }
 
 async function writeData(data) {
+  // Invalidate cache on write so next read gets fresh data
+  cachedData = data;
+  cacheTimestamp = Date.now();
+
   await connectCouchbase();
 
   // COUCHBASE MODE

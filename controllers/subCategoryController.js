@@ -3,6 +3,7 @@ const { readData, writeData } = require('../database/store');
 exports.getAllSubCategories = async (req, res) => {
   try {
     const data = await readData();
+    res.set('Cache-Control', 'public, max-age=300'); // 5 minutes
     res.json({ success: true, subCategories: data.subCategories || [] });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });

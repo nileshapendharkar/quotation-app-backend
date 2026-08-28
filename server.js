@@ -33,8 +33,14 @@ app.use(compression({
   }
 }));
 app.use(express.json());
-app.use(express.static(path.join(__dirname, 'public')));
-app.use('/images', express.static(path.join(__dirname, 'public/images')));
+app.use(express.static(path.join(__dirname, 'public'), {
+  maxAge: '7d',
+  immutable: true
+}));
+app.use('/images', express.static(path.join(__dirname, 'public/images'), {
+  maxAge: '30d',
+  immutable: true
+}));
 
 // API Routes
 app.use('/api/auth', authRoutes);
