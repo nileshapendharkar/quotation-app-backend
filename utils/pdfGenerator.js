@@ -90,7 +90,7 @@ function generateQuotationPDF(order, res) {
     .fillColor('#ffffff')
     .fontSize(8)
     .font('Helvetica-Bold')
-    .text('Code', 45, y + 10)
+    .text('ProductCode', 45, y + 10)
     .text('Product Name', 105, y + 10)
     .text('Size', 265, y + 10)
     .text('Packing', 315, y + 10)

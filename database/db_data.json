@@ -4076,33 +4076,53 @@
     },
     {
       "id": "prod_solvent_3",
-      "name": "CPVC SOLVENT CEMENT (PLASTIC BOTTLE)",
+      "name": "PLASTIC CAN CPVC SOLVENT MD YELLOW",
       "categoryId": "cat_solvent",
       "categoryName": "Solvent Cement & Lubricants",
       "image": "/images/solvent/CPVC SOLVENT CEMENT (PLASTIC BOTTLE).png",
-      "description": "CPVC SOLVENT CEMENT (PLASTIC BOTTLE). Available packaging sizes: 50ML, 100ML, 250ML.",
+      "description": "PLASTIC CAN CPVC SOLVENT MD YELLOW. Available packaging sizes: 50ML, 100ML, 250ML.",
       "sizes": [
         "50ML",
         "100ML",
         "250ML"
       ],
       "status": "Active",
-      "uom": "NOS"
+      "uom": "NOS",
+      "packSizes": {
+        "50ML": 36,
+        "100ML": 18,
+        "250ML": 12
+      },
+      "sizeProductCodes": {
+        "50ML": "FG-401631",
+        "100ML": "FG-401632",
+        "250ML": "FG-401633"
+      }
     },
     {
       "id": "prod_solvent_4",
-      "name": "UPVC SOLVENT CEMENT (PLASTIC BOTTLE)",
+      "name": "PLASTIC CAN UPVC SOLVENT MD",
       "categoryId": "cat_solvent",
       "categoryName": "Solvent Cement & Lubricants",
       "image": "/images/solvent/UPVC SOLVENT CEMENT (PLASTIC BOTTLE).png",
-      "description": "UPVC SOLVENT CEMENT (PLASTIC BOTTLE). Available packaging sizes: 50ML, 100ML, 250ML.",
+      "description": "PLASTIC CAN UPVC SOLVENT MD. Available packaging sizes: 50ML, 100ML, 250ML.",
       "sizes": [
         "50ML",
         "100ML",
         "250ML"
       ],
       "status": "Active",
-      "uom": "NOS"
+      "uom": "NOS",
+      "packSizes": {
+        "50ML": 36,
+        "100ML": 18,
+        "250ML": 12
+      },
+      "sizeProductCodes": {
+        "50ML": "FG-401636",
+        "100ML": "FG-401637",
+        "250ML": "FG-401638"
+      }
     },
     {
       "id": "prod_solvent_5",
@@ -4121,46 +4141,72 @@
     },
     {
       "id": "prod_solvent_6",
-      "name": "CPVC SOLVENT CEMENT (TUBE)",
+      "name": "CPVC SOLVENT MD YELLOW (TUBE)",
       "categoryId": "cat_solvent",
       "categoryName": "Solvent Cement & Lubricants",
       "image": "/images/solvent/CPVC SOLVENT CEMENT (TUBE).png",
-      "description": "CPVC SOLVENT CEMENT (TUBE). Available packaging sizes: 10ML, 25ML.",
+      "description": "CPVC SOLVENT MD YELLOW (TUBE). Available packaging sizes: 10ML, 25ML.",
       "sizes": [
         "10ML",
         "25ML"
       ],
       "status": "Active",
-      "uom": "NOS"
+      "uom": "NOS",
+      "packSizes": {
+        "10ML": 50,
+        "25ML": 50
+      },
+      "sizeProductCodes": {
+        "10ML": "FG-401545",
+        "25ML": "FG-401630"
+      }
     },
     {
       "id": "prod_solvent_7",
-      "name": "UPVC SOLVENT CEMENT (TUBE)",
+      "name": "UPVC SOLVENT MD (TUBE)",
       "categoryId": "cat_solvent",
       "categoryName": "Solvent Cement & Lubricants",
       "image": "/images/solvent/UPVC SOLVENT CEMENT (TUBE).png",
-      "description": "UPVC SOLVENT CEMENT (TUBE). Available packaging sizes: 10ML, 25ML.",
+      "description": "UPVC SOLVENT MD (TUBE). Available packaging sizes: 10ML, 25ML.",
       "sizes": [
         "10ML",
         "25ML"
       ],
       "status": "Active",
-      "uom": "NOS"
+      "uom": "NOS",
+      "packSizes": {
+        "10ML": 50,
+        "25ML": 50
+      },
+      "sizeProductCodes": {
+        "10ML": "FG-401634",
+        "25ML": "FG-401635"
+      }
     },
     {
       "id": "prod_solvent_8",
-      "name": "ECO - PVC SOLVENT CEMENT (PLASTIC BOTTLE)",
+      "name": "PLASTIC CAN PVC ECO SOLVENT",
       "categoryId": "cat_solvent",
       "categoryName": "Solvent Cement & Lubricants",
       "image": "/images/solvent/ECO - PVC SOLVENT CEMENT (PLASTIC BOTTLE).png",
-      "description": "ECO - PVC SOLVENT CEMENT (PLASTIC BOTTLE). Available packaging sizes: 25ML, 50ML, 100ML.",
+      "description": "PLASTIC CAN PVC ECO SOLVENT. Available packaging sizes: 25ML, 50ML, 100ML.",
       "sizes": [
         "25ML",
         "50ML",
         "100ML"
       ],
       "status": "Active",
-      "uom": "NOS"
+      "uom": "NOS",
+      "packSizes": {
+        "25ML": 50,
+        "50ML": 32,
+        "100ML": 21
+      },
+      "sizeProductCodes": {
+        "25ML": "FG-401642",
+        "50ML": "FG-401643",
+        "100ML": "FG-401644"
+      }
     },
     {
       "id": "prod_solvent_9",
@@ -4176,6 +4222,31 @@
       ],
       "status": "Active",
       "uom": "NOS"
+    },
+    {
+      "id": "prod_solvent_10",
+      "name": "PLASTIC CAN SWR SOLVENT Rubber Lub",
+      "categoryId": "cat_solvent",
+      "categoryName": "Solvent Cement & Lubricants",
+      "image": "/images/solvent/RUBBER LUBRICANT (PLASTIC BOTTLE).png",
+      "description": "PLASTIC CAN SWR SOLVENT Rubber Lub. Available packaging sizes: 50ML, 100ML, 250ML.",
+      "sizes": [
+        "50ML",
+        "100ML",
+        "250ML"
+      ],
+      "status": "Active",
+      "uom": "NOS",
+      "packSizes": {
+        "50ML": 36,
+        "100ML": 18,
+        "250ML": 18
+      },
+      "sizeProductCodes": {
+        "50ML": "FG-401645",
+        "100ML": "FG-401646",
+        "250ML": "FG-401647"
+      }
     },
     {
       "id": "prod_hdpe_1",
@@ -4252,41 +4323,67 @@
       "categoryId": "cat_hdpe",
       "categoryName": "HDPE PIPE & FITTINGS",
       "image": "/images/hdpe/HDPE END CAP.png",
-      "description": "HDPE End Cap fitting.",
+      "description": "HDPE End Cap fitting. Available sizes: 90MM, 110MM.",
       "sizes": [
         "90MM",
         "110MM"
       ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "packSizes": {
+        "90MM": 112,
+        "110MM": 63
+      },
+      "sizeProductCodes": {
+        "90MM": "FG-400824",
+        "110MM": "FG-400825"
+      }
     },
     {
       "id": "prod_hdpe_5",
-      "name": "PE-63 ID PIPE",
+      "name": "HDPE PIPE PE63",
       "categoryId": "cat_hdpe",
       "categoryName": "HDPE PIPE & FITTINGS",
       "image": "/images/hdpe/PE-63 ID PIPE.png",
-      "description": "PE-63 ID Pipe.",
+      "description": "HDPE PIPE PE63. Available sizes: 32MM, 40MM, 50MM, 63MM, 75MM.",
       "sizes": [
+        "32MM",
         "40MM",
         "50MM",
-        "63MM"
+        "63MM",
+        "75MM"
       ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "sizeProductCodes": {
+        "32MM": "FG-401339",
+        "40MM": "FG-401221",
+        "50MM": "FG-401222",
+        "63MM": "FG-401223",
+        "75MM": "FG-401795"
+      }
     },
     {
       "id": "prod_hdpe_6",
-      "name": "MDPE PIPE",
+      "name": "MDPE PIPES PE80 PN16 DN20MM",
       "categoryId": "cat_hdpe",
       "categoryName": "HDPE PIPE & FITTINGS",
       "image": "/images/hdpe/MDPE PIPE.png",
-      "description": "Medium Density Polyethylene Pipe.",
+      "description": "MDPE PIPES PE80 PN16 DN20MM. Medium Density Polyethylene Pipe. Available in 500MTR and 300MTR coils.",
       "sizes": [
-        "20MM"
+        "20MM - 500MTR",
+        "20MM - 300MTR"
       ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "packSizes": {
+        "20MM - 500MTR": 500,
+        "20MM - 300MTR": 300
+      },
+      "sizeProductCodes": {
+        "20MM - 500MTR": "FG-400845",
+        "20MM - 300MTR": "FG-401335"
+      }
     },
     {
       "id": "prod_eco_1",
@@ -4322,11 +4419,11 @@
     },
     {
       "id": "prod_agri_1",
-      "name": "6M PVC PIPE ISI",
+      "name": "AGRI ISI PIPES 6MTR",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/6M PVC PIPE ISI.png",
-      "description": "6M PVC PIPE ISI for agriculture irrigation and piping systems.",
+      "description": "AGRI ISI PIPES 6MTR for agriculture irrigation and piping systems.",
       "sizes": [
         "20MM",
         "25MM",
@@ -4342,39 +4439,171 @@
         "160MM",
         "180MM",
         "200MM",
-        "225MM",
+        "225MM - 10KG",
+        "225MM - 2.5KG",
         "250MM"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "MTR",
+      "packSizes": {
+        "20MM": 10,
+        "25MM": 10,
+        "32MM": 10,
+        "40MM": 10,
+        "50MM": 10,
+        "63MM": 10,
+        "75MM": 10,
+        "90MM": 10,
+        "110MM": 10,
+        "125MM": 10,
+        "140MM": 10,
+        "160MM": 10,
+        "180MM": 10,
+        "200MM": 10,
+        "225MM - 10KG": 10,
+        "225MM - 2.5KG": 2.5,
+        "250MM": 10
+      },
+      "sizeProductCodes": {
+        "20MM": "FG-401083",
+        "25MM": "FG-401084",
+        "32MM": "FG-401085",
+        "40MM": "FG-401086",
+        "50MM": "FG-401087",
+        "63MM": "FG-401088",
+        "75MM": "FG-401089",
+        "90MM": "FG-401090",
+        "110MM": "FG-401091",
+        "125MM": "FG-401092",
+        "140MM": "FG-401093",
+        "160MM": "FG-401094",
+        "180MM": "FG-401095",
+        "200MM": "FG-401096",
+        "225MM - 10KG": "FG-401097",
+        "225MM - 2.5KG": "FG-401104",
+        "250MM": "FG-401098"
+      }
     },
     {
       "id": "prod_agri_2",
-      "name": "6M PVC PIPE",
+      "name": "AGRI NISI PIPES 6MTR",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/6M PVC PIPE.png",
-      "description": "6M PVC PIPE for agriculture irrigation and piping systems.",
+      "description": "AGRI NISI PIPES 6MTR for agriculture irrigation and piping systems.",
       "sizes": [
-        "20MM",
-        "25MM",
-        "32MM",
-        "40MM",
-        "50MM",
-        "63MM",
-        "75MM",
-        "90MM",
-        "110MM",
-        "125MM",
-        "140MM",
-        "160MM",
-        "180MM",
-        "200MM",
-        "225MM",
-        "250MM"
+        "20MM - 10KG",
+        "25MM - 10KG",
+        "32MM - 10KG",
+        "40MM - 6KG",
+        "50MM - 6KG",
+        "63MM - 2.5KG",
+        "63MM - 4KG",
+        "63MM - 6KG",
+        "63MM - 10KG",
+        "75MM - 2.5KG",
+        "75MM - 4KG",
+        "75MM - 6KG",
+        "75MM - 10KG",
+        "90MM - 2.5KG",
+        "90MM - 4KG",
+        "90MM - 6KG",
+        "90MM - 10KG",
+        "110MM - 2.5KG",
+        "110MM - 4KG",
+        "110MM - 6KG",
+        "110MM - 10KG",
+        "140MM - 2.5KG",
+        "140MM - 4KG",
+        "140MM - 6KG",
+        "140MM - 10KG",
+        "160MM - 2.5KG",
+        "160MM - 4KG",
+        "160MM - 6KG",
+        "160MM - 10KG",
+        "180MM - 2.5KG",
+        "180MM - 4KG",
+        "180MM - 6KG",
+        "200MM - 2.5KG",
+        "200MM - 4KG",
+        "200MM - 6KG"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "MTR",
+      "packSizes": {
+        "20MM - 10KG": 10,
+        "25MM - 10KG": 10,
+        "32MM - 10KG": 10,
+        "40MM - 6KG": 6,
+        "50MM - 6KG": 6,
+        "63MM - 2.5KG": 2.5,
+        "63MM - 4KG": 4,
+        "63MM - 6KG": 6,
+        "63MM - 10KG": 10,
+        "75MM - 2.5KG": 2.5,
+        "75MM - 4KG": 4,
+        "75MM - 6KG": 6,
+        "75MM - 10KG": 10,
+        "90MM - 2.5KG": 2.5,
+        "90MM - 4KG": 4,
+        "90MM - 6KG": 6,
+        "90MM - 10KG": 10,
+        "110MM - 2.5KG": 2.5,
+        "110MM - 4KG": 4,
+        "110MM - 6KG": 6,
+        "110MM - 10KG": 10,
+        "140MM - 2.5KG": 2.5,
+        "140MM - 4KG": 4,
+        "140MM - 6KG": 6,
+        "140MM - 10KG": 10,
+        "160MM - 2.5KG": 2.5,
+        "160MM - 4KG": 4,
+        "160MM - 6KG": 6,
+        "160MM - 10KG": 10,
+        "180MM - 2.5KG": 2.5,
+        "180MM - 4KG": 4,
+        "180MM - 6KG": 6,
+        "200MM - 2.5KG": 2.5,
+        "200MM - 4KG": 4,
+        "200MM - 6KG": 6
+      },
+      "sizeProductCodes": {
+        "20MM - 10KG": "FG-401010",
+        "25MM - 10KG": "FG-401011",
+        "32MM - 10KG": "FG-401012",
+        "40MM - 6KG": "FG-401000",
+        "50MM - 6KG": "FG-401001",
+        "63MM - 2.5KG": "FG-400984",
+        "63MM - 4KG": "FG-400992",
+        "63MM - 6KG": "FG-401002",
+        "63MM - 10KG": "FG-401013",
+        "75MM - 2.5KG": "FG-400985",
+        "75MM - 4KG": "FG-400993",
+        "75MM - 6KG": "FG-401003",
+        "75MM - 10KG": "FG-401014",
+        "90MM - 2.5KG": "FG-400986",
+        "90MM - 4KG": "FG-400994",
+        "90MM - 6KG": "FG-401004",
+        "90MM - 10KG": "FG-401015",
+        "110MM - 2.5KG": "FG-400987",
+        "110MM - 4KG": "FG-400995",
+        "110MM - 6KG": "FG-401005",
+        "110MM - 10KG": "FG-401016",
+        "140MM - 2.5KG": "FG-400988",
+        "140MM - 4KG": "FG-400996",
+        "140MM - 6KG": "FG-401006",
+        "140MM - 10KG": "FG-401017",
+        "160MM - 2.5KG": "FG-400989",
+        "160MM - 4KG": "FG-400997",
+        "160MM - 6KG": "FG-401007",
+        "160MM - 10KG": "FG-401018",
+        "180MM - 2.5KG": "FG-400990",
+        "180MM - 4KG": "FG-400998",
+        "180MM - 6KG": "FG-401008",
+        "200MM - 2.5KG": "FG-400991",
+        "200MM - 4KG": "FG-400999",
+        "200MM - 6KG": "FG-401009"
+      }
     },
     {
       "id": "prod_agri_3",
@@ -4430,14 +4659,15 @@
     },
     {
       "id": "prod_agri_6",
-      "name": "PN6 - REDUCING TEE ISI",
+      "name": "AGRI REDUCER TEE PN6",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
-      "image": "/images/agri/PN6 - REDUCING TEE ISI.png",
-      "description": "PN6 - REDUCING TEE ISI for agriculture irrigation and piping systems.",
+      "image": "/images/agri/AGRI REDUCER TEE PN6.png",
+      "description": "AGRI REDUCER TEE PN6 for agriculture irrigation and piping systems.",
       "sizes": [
         "63 X 40",
         "63 X 50",
+        "75 X 50",
         "75 X 63",
         "90 X 63",
         "90 X 75",
@@ -4449,7 +4679,27 @@
         "160 X 140"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "63 X 40": 24,
+        "63 X 50": 24,
+        "75 X 50": 24,
+        "75 X 63": 24,
+        "90 X 63": 24,
+        "90 X 75": 24,
+        "110 X 75": 26,
+        "110 X 90": 24
+      },
+      "sizeProductCodes": {
+        "63 X 40": "FG-400615",
+        "63 X 50": "FG-400616",
+        "75 X 50": "FG-400617",
+        "75 X 63": "FG-400618",
+        "90 X 63": "FG-400619",
+        "90 X 75": "FG-400620",
+        "110 X 75": "FG-400621",
+        "110 X 90": "FG-400622"
+      }
     },
     {
       "id": "prod_agri_7",
@@ -4470,11 +4720,11 @@
     },
     {
       "id": "prod_agri_8",
-      "name": "PN6 - ELBOW 90 ISI",
+      "name": "AGRI ELBOW PN6",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
-      "image": "/images/agri/PN6 - ELBOW 90 ISI.png",
-      "description": "PN6 - ELBOW 90 ISI for agriculture irrigation and piping systems.",
+      "image": "/images/agri/AGRI ELBOW PN6.png",
+      "description": "AGRI ELBOW PN6 for agriculture irrigation and piping systems.",
       "sizes": [
         "40MM",
         "50MM",
@@ -4486,15 +4736,35 @@
         "160MM"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "40MM": 180,
+        "50MM": 100,
+        "63MM": 150,
+        "75MM": 90,
+        "90MM": 55,
+        "110MM": 30,
+        "140MM": 8,
+        "160MM": 12
+      },
+      "sizeProductCodes": {
+        "40MM": "FG-400598",
+        "50MM": "FG-400662",
+        "63MM": "FG-400597",
+        "75MM": "FG-400588",
+        "90MM": "FG-400663",
+        "110MM": "FG-400664",
+        "140MM": "FG-400605",
+        "160MM": "FG-400606"
+      }
     },
     {
       "id": "prod_agri_9",
-      "name": "PN6 - TEE ISI",
+      "name": "AGRI TEE PN6",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
-      "image": "/images/agri/PN6 - TEE ISI.png",
-      "description": "PN6 - TEE ISI for agriculture irrigation and piping systems.",
+      "image": "/images/agri/AGRI TEE PN6.png",
+      "description": "AGRI TEE PN6 for agriculture irrigation and piping systems.",
       "sizes": [
         "40MM",
         "50MM",
@@ -4506,15 +4776,35 @@
         "160MM"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "40MM": 72,
+        "50MM": 40,
+        "63MM": 30,
+        "75MM": 60,
+        "90MM": 18,
+        "110MM": 24,
+        "140MM": 6,
+        "160MM": 9
+      },
+      "sizeProductCodes": {
+        "40MM": "FG-400660",
+        "50MM": "FG-400661",
+        "63MM": "FG-400589",
+        "75MM": "FG-400590",
+        "90MM": "FG-400591",
+        "110MM": "FG-400592",
+        "140MM": "FG-400607",
+        "160MM": "FG-400608"
+      }
     },
     {
       "id": "prod_agri_10",
-      "name": "PN6 - FTA ISI",
+      "name": "AGRI F.T.A PN6",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
-      "image": "/images/agri/PN6 - FTA ISI.png",
-      "description": "PN6 - FTA ISI for agriculture irrigation and piping systems.",
+      "image": "/images/agri/AGRI F.T.A PN6.png",
+      "description": "AGRI F.T.A PN6 for agriculture irrigation and piping systems.",
       "sizes": [
         "40MM",
         "50MM",
@@ -4524,7 +4814,23 @@
         "110MM"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "40MM": 180,
+        "50MM": 110,
+        "63MM": 32,
+        "75MM": 64,
+        "90MM": 27,
+        "110MM": 33
+      },
+      "sizeProductCodes": {
+        "40MM": "FG-400629",
+        "50MM": "FG-400630",
+        "63MM": "FG-400631",
+        "75MM": "FG-400632",
+        "90MM": "FG-400633",
+        "110MM": "FG-400634"
+      }
     },
     {
       "id": "prod_agri_11",
@@ -4544,26 +4850,37 @@
     },
     {
       "id": "prod_agri_12",
-      "name": "PN6 - SERVICE SADDLE ISI",
+      "name": "SERVICE SADDLE PN6",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
-      "image": "/images/agri/PN6 - SERVICE SADDLE ISI.png",
-      "description": "PN6 - SERVICE SADDLE ISI for agriculture irrigation and piping systems.",
+      "image": "/images/agri/SERVICE SADDLE PN6.png",
+      "description": "SERVICE SADDLE PN6 for agriculture irrigation and piping systems.",
       "sizes": [
         "75 X 20",
         "75 X 25",
-        "75 X 32"
+        "75 X 32",
+        "110 X 32"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "75 X 25": 84,
+        "75 X 32": 84,
+        "110 X 32": "N/A"
+      },
+      "sizeProductCodes": {
+        "75 X 25": "FG-400798",
+        "75 X 32": "FG-400799",
+        "110 X 32": "FG-400813"
+      }
     },
     {
       "id": "prod_agri_13",
-      "name": "PN6 - COUPLER ISI",
+      "name": "AGRI COUPLER PN6",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
-      "image": "/images/agri/PN6 - COUPLER ISI.png",
-      "description": "PN6 - COUPLER ISI for agriculture irrigation and piping systems.",
+      "image": "/images/agri/AGRI COUPLER PN6.png",
+      "description": "AGRI COUPLER PN6 for agriculture irrigation and piping systems.",
       "sizes": [
         "40MM",
         "50MM",
@@ -4575,15 +4892,31 @@
         "160MM"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "50MM": 63,
+        "75MM": 36,
+        "90MM": 56,
+        "110MM": 27,
+        "140MM": 18,
+        "160MM": 8
+      },
+      "sizeProductCodes": {
+        "50MM": "FG-400601",
+        "75MM": "FG-400602",
+        "90MM": "FG-400603",
+        "110MM": "FG-400604",
+        "140MM": "FG-400609",
+        "160MM": "FG-400610"
+      }
     },
     {
       "id": "prod_agri_14",
-      "name": "PN6 - BEND 45 ISI",
+      "name": "AGRI SHOE BEND PN6",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
-      "image": "/images/agri/PN6 - BEND 45 ISI.png",
-      "description": "PN6 - BEND 45 ISI for agriculture irrigation and piping systems.",
+      "image": "/images/agri/AGRI SHOE BEND PN6.png",
+      "description": "AGRI SHOE BEND PN6 for agriculture irrigation and piping systems.",
       "sizes": [
         "40MM",
         "50MM",
@@ -4595,15 +4928,23 @@
         "160MM"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "140MM": 18,
+        "160MM": 12
+      },
+      "sizeProductCodes": {
+        "140MM": "FG-400599",
+        "160MM": "FG-400600"
+      }
     },
     {
       "id": "prod_agri_15",
-      "name": "PN6 - END CAP ISI",
+      "name": "AGRI END CAP PN6",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
-      "image": "/images/agri/PN6 - END CAP ISI.png",
-      "description": "PN6 - END CAP ISI for agriculture irrigation and piping systems.",
+      "image": "/images/agri/AGRI END CAP PN6.png",
+      "description": "AGRI END CAP PN6 for agriculture irrigation and piping systems.",
       "sizes": [
         "40MM",
         "50MM",
@@ -4613,15 +4954,31 @@
         "110MM"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "40MM": 125,
+        "50MM": 200,
+        "63MM": 95,
+        "75MM": 60,
+        "90MM": 45,
+        "110MM": 60
+      },
+      "sizeProductCodes": {
+        "40MM": "FG-400654",
+        "50MM": "FG-400655",
+        "63MM": "FG-400656",
+        "75MM": "FG-400657",
+        "90MM": "FG-400658",
+        "110MM": "FG-400659"
+      }
     },
     {
       "id": "prod_agri_16",
-      "name": "PN6 - MTA ISI",
+      "name": "AGRI M.T.A PN6",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
-      "image": "/images/agri/PN6 - MTA ISI.png",
-      "description": "PN6 - MTA ISI for agriculture irrigation and piping systems.",
+      "image": "/images/agri/AGRI M.T.A PN6.png",
+      "description": "AGRI M.T.A PN6 for agriculture irrigation and piping systems.",
       "sizes": [
         "40MM",
         "50MM",
@@ -4631,7 +4988,23 @@
         "110MM"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "40MM": 190,
+        "50MM": 120,
+        "63MM": 42,
+        "75MM": 60,
+        "90MM": 40,
+        "110MM": 15
+      },
+      "sizeProductCodes": {
+        "40MM": "FG-400623",
+        "50MM": "FG-400624",
+        "63MM": "FG-400625",
+        "75MM": "FG-400626",
+        "90MM": "FG-400627",
+        "110MM": "FG-400628"
+      }
     },
     {
       "id": "prod_agri_17",
@@ -4920,63 +5293,91 @@
     },
     {
       "id": "prod_sprinkler_1",
-      "name": "6M SPRINKLER PIPE ISI",
+      "name": "SPRINKLER ISI PIPE 6 MTR",
       "categoryId": "cat_sprinkler",
       "categoryName": "Sprinkler Pipes & Fittings",
-      "image": "/images/sprinkler/6M SPRINKLER PIPE ISI.png",
-      "description": "6M SPRINKLER PIPE ISI for sprinkler irrigation systems.",
+      "image": "/images/sprinkler/SPRINKLER ISI PIPE 6 MTR.png",
+      "description": "SPRINKLER ISI PIPE 6 MTR for sprinkler irrigation systems.",
       "sizes": [
-        "63MM L TYPE",
-        "63MM C TYPE",
-        "75MM L TYPE",
-        "75MM C TYPE"
+        "63MM C TYPE 3.2 KG",
+        "63MM L TYPE 3.2 KG",
+        "75MM C TYPE 2.5 KG",
+        "75MM L TYPE 3.2 KG",
+        "75MM L TYPE 2.5 KG",
+        "75MM C TYPE 3.2 KG"
       ],
-      "status": "Active"
+      "status": "Active",
+      "sizeProductCodes": {
+        "63MM C TYPE 3.2 KG": "FG-401520",
+        "63MM L TYPE 3.2 KG": "FG-401491",
+        "75MM C TYPE 2.5 KG": "FG-401490",
+        "75MM L TYPE 3.2 KG": "FG-401492",
+        "75MM L TYPE 2.5 KG": "FG-401519",
+        "75MM C TYPE 3.2 KG": "FG-401521"
+      }
     },
     {
       "id": "prod_sprinkler_2",
-      "name": "6M SPRINKLER PIPE",
+      "name": "SPRINKLER NISI PIPE 6 MTR",
       "categoryId": "cat_sprinkler",
       "categoryName": "Sprinkler Pipes & Fittings",
-      "image": "/images/sprinkler/6M SPRINKLER PIPE.png",
-      "description": "6M SPRINKLER PIPE for sprinkler irrigation systems.",
+      "image": "/images/sprinkler/SPRINKLER NISI PIPE 6 MTR.png",
+      "description": "SPRINKLER NISI PIPE 6 MTR for sprinkler irrigation systems.",
       "sizes": [
-        "63MM L TYPE",
-        "63MM C TYPE",
-        "75MM L TYPE",
-        "75MM C TYPE"
+        "75MM C TYPE 3.2 KG",
+        "63MM C TYPE 3.2 KG",
+        "90MM C TYPE 3.2 KG",
+        "90MM L TYPE 3.2 KG"
       ],
-      "status": "Active"
+      "status": "Active",
+      "sizeProductCodes": {
+        "75MM C TYPE 3.2 KG": "FG-401522",
+        "63MM C TYPE 3.2 KG": "FG-401523",
+        "90MM C TYPE 3.2 KG": "FG-401866",
+        "90MM L TYPE 3.2 KG": "FG-401867"
+      }
     },
     {
       "id": "prod_sprinkler_3",
-      "name": "30 NOS SPRINKLER SET ISI",
+      "name": "SPRINKLER SET 6 MTR ISI",
       "categoryId": "cat_sprinkler",
       "categoryName": "Sprinkler Pipes & Fittings",
-      "image": "/images/sprinkler/30 NOS SPRINKLER SET ISI.png",
-      "description": "30 NOS SPRINKLER SET ISI for sprinkler irrigation systems.",
+      "image": "/images/sprinkler/SPRINKLER SET 6 MTR ISI.png",
+      "description": "SPRINKLER SET 6 MTR ISI for sprinkler irrigation systems.",
       "sizes": [
-        "63MM L TYPE",
-        "63MM C TYPE",
-        "75MM L TYPE",
-        "75MM C TYPE"
+        "75MM L TYPE 3.2 KG",
+        "75MM C TYPE 3.2 KG",
+        "75MM C TYPE 2.5 KG",
+        "75MM L TYPE 2.5 KG",
+        "63MM C TYPE 3.2 KG"
       ],
-      "status": "Active"
+      "status": "Active",
+      "sizeProductCodes": {
+        "75MM L TYPE 3.2 KG": "FG-401498",
+        "75MM C TYPE 3.2 KG": "FG-401499",
+        "75MM C TYPE 2.5 KG": "FG-401500",
+        "75MM L TYPE 2.5 KG": "FG-401524",
+        "63MM C TYPE 3.2 KG": "FG-401501"
+      }
     },
     {
       "id": "prod_sprinkler_4",
-      "name": "30 NOS SPRINKLER SET",
+      "name": "SPRINKLER SET 6 MTR N-ISI",
       "categoryId": "cat_sprinkler",
       "categoryName": "Sprinkler Pipes & Fittings",
-      "image": "/images/sprinkler/30 NOS SPRINKLER SET.png",
-      "description": "30 NOS SPRINKLER SET for sprinkler irrigation systems.",
+      "image": "/images/sprinkler/SPRINKLER SET 6 MTR N-ISI.png",
+      "description": "SPRINKLER SET 6 MTR N-ISI for sprinkler irrigation systems.",
       "sizes": [
-        "63MM L TYPE",
-        "63MM C TYPE",
-        "75MM L TYPE",
-        "75MM C TYPE"
+        "75MM L TYPE 3.2 KG",
+        "75MM C TYPE 3.2 KG",
+        "63MM C TYPE 3.2 KG"
       ],
-      "status": "Active"
+      "status": "Active",
+      "sizeProductCodes": {
+        "75MM L TYPE 3.2 KG": "FG-401495",
+        "75MM C TYPE 3.2 KG": "FG-401496",
+        "63MM C TYPE 3.2 KG": "FG-401497"
+      }
     },
     {
       "id": "prod_sprinkler_5",
@@ -4993,133 +5394,188 @@
     },
     {
       "id": "prod_sprinkler_6",
-      "name": "FOOT BOTTOM ADAPTOR ISI",
+      "name": "SPRINKLER FITTINGS ADAPTOR",
       "categoryId": "cat_sprinkler",
       "categoryName": "Sprinkler Pipes & Fittings",
-      "image": "/images/sprinkler/FOOT BOTTOM ADAPTOR ISI.png",
-      "description": "FOOT BOTTOM ADAPTOR ISI for sprinkler irrigation systems.",
+      "image": "/images/sprinkler/SPRINKLER FITTINGS ADAPTOR.png",
+      "description": "SPRINKLER FITTINGS ADAPTOR for sprinkler irrigation systems.",
       "sizes": [
-        "63MM",
-        "75MM"
+        "63MM C TYPE",
+        "75MM C TYPE",
+        "75MM P TYPE"
       ],
-      "status": "Active"
+      "status": "Active",
+      "sizeProductCodes": {
+        "75MM C TYPE": "FG-401504",
+        "75MM P TYPE": "FG-401512",
+        "63MM C TYPE": "FG-401527"
+      }
     },
     {
       "id": "prod_sprinkler_7",
-      "name": "SPRINKLER BEND ISI",
+      "name": "SPRINKLER FITTINGS BEND",
       "categoryId": "cat_sprinkler",
       "categoryName": "Sprinkler Pipes & Fittings",
-      "image": "/images/sprinkler/SPRINKLER BEND ISI.png",
-      "description": "SPRINKLER BEND ISI for sprinkler irrigation systems.",
+      "image": "/images/sprinkler/SPRINKLER FITTINGS BEND.png",
+      "description": "SPRINKLER FITTINGS BEND for sprinkler irrigation systems.",
       "sizes": [
-        "63MM",
-        "75MM"
+        "63MM C TYPE",
+        "75MM C TYPE",
+        "75MM L TYPE"
       ],
-      "status": "Active"
+      "status": "Active",
+      "sizeProductCodes": {
+        "75MM C TYPE": "FG-401502",
+        "75MM L TYPE": "FG-401510",
+        "63MM C TYPE": "FG-401525"
+      }
     },
     {
       "id": "prod_sprinkler_8",
-      "name": "SPRINKLER END CAP ISI",
+      "name": "SPRINKLER FITTINGS END CAP",
       "categoryId": "cat_sprinkler",
       "categoryName": "Sprinkler Pipes & Fittings",
-      "image": "/images/sprinkler/SPRINKLER END CAP ISI.png",
-      "description": "SPRINKLER END CAP ISI for sprinkler irrigation systems.",
+      "image": "/images/sprinkler/SPRINKLER FITTINGS END CAP.png",
+      "description": "SPRINKLER FITTINGS END CAP for sprinkler irrigation systems.",
       "sizes": [
-        "63MM",
-        "75MM"
+        "75MM L TYPE",
+        "75MM C TYPE",
+        "63MM C TYPE"
       ],
-      "status": "Active"
+      "status": "Active",
+      "sizeProductCodes": {
+        "75MM L TYPE": "FG-401514",
+        "75MM C TYPE": "FG-401506",
+        "63MM C TYPE": "FG-401529"
+      }
     },
     {
       "id": "prod_sprinkler_9",
-      "name": "LATCH & CLAMP ISI",
+      "name": "SPRINKLER FITTINGS LATCH & CLAMP",
       "categoryId": "cat_sprinkler",
       "categoryName": "Sprinkler Pipes & Fittings",
-      "image": "/images/sprinkler/LATCH & CLAMP ISI.png",
-      "description": "LATCH & CLAMP ISI for sprinkler irrigation systems.",
+      "image": "/images/sprinkler/SPRINKLER FITTINGS LATCH & CLAMP.png",
+      "description": "SPRINKLER FITTINGS LATCH & CLAMP for sprinkler irrigation systems.",
       "sizes": [
-        "63MM",
-        "75MM"
+        "75MM P TYPE",
+        "63MM P TYPE"
       ],
-      "status": "Active"
+      "status": "Active",
+      "sizeProductCodes": {
+        "75MM P TYPE": "FG-401517",
+        "63MM P TYPE": "FG-401518"
+      }
     },
     {
       "id": "prod_sprinkler_10",
-      "name": "PUMP CONNECTING NIPPLE (PCN) ISI",
+      "name": "SPRINKLER FITTINGS PCN",
       "categoryId": "cat_sprinkler",
       "categoryName": "Sprinkler Pipes & Fittings",
-      "image": "/images/sprinkler/PUMP CONNECTING NIPPLE (PCN) ISI.png",
-      "description": "PUMP CONNECTING NIPPLE (PCN) ISI for sprinkler irrigation systems.",
+      "image": "/images/sprinkler/SPRINKLER FITTINGS PCN.png",
+      "description": "SPRINKLER FITTINGS PCN for sprinkler irrigation systems.",
       "sizes": [
-        "63MM",
-        "75MM"
+        "63MM C TYPE",
+        "75MM C TYPE",
+        "75MM L TYPE"
       ],
-      "status": "Active"
+      "status": "Active",
+      "sizeProductCodes": {
+        "75MM C TYPE": "FG-401505",
+        "75MM L TYPE": "FG-401513",
+        "63MM C TYPE": "FG-401528"
+      }
     },
     {
       "id": "prod_sprinkler_11",
-      "name": "NOZZEL GUN (METAL) ISI",
+      "name": "SPRINKLER FITTINGS NOZZELGUN METAL",
       "categoryId": "cat_sprinkler",
       "categoryName": "Sprinkler Pipes & Fittings",
-      "image": "/images/sprinkler/NOZZEL GUN (METAL) ISI.png",
-      "description": "NOZZEL GUN (METAL) ISI for sprinkler irrigation systems.",
+      "image": "/images/sprinkler/SPRINKLER FITTINGS NOZZELGUN METAL.png",
+      "description": "SPRINKLER FITTINGS NOZZELGUN METAL for sprinkler irrigation systems.",
       "sizes": [
-        "25MM"
+        "20MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "sizeProductCodes": {
+        "20MM": "FG-401507"
+      }
     },
     {
       "id": "prod_sprinkler_12",
-      "name": "GI RISER PIPE ISI",
+      "name": "SPRINKLER FITTINGS GI RISER PIPE",
       "categoryId": "cat_sprinkler",
       "categoryName": "Sprinkler Pipes & Fittings",
-      "image": "/images/sprinkler/GI RISER PIPE ISI.png",
-      "description": "GI RISER PIPE ISI for sprinkler irrigation systems.",
+      "image": "/images/sprinkler/SPRINKLER FITTINGS GI RISER PIPE.png",
+      "description": "SPRINKLER FITTINGS GI RISER PIPE for sprinkler irrigation systems.",
       "sizes": [
-        "25MM"
+        "75MM C TYPE",
+        "20MM L TYPE"
       ],
-      "status": "Active"
+      "status": "Active",
+      "sizeProductCodes": {
+        "75MM C TYPE": "FG-401508",
+        "20MM L TYPE": "FG-401515"
+      }
     },
     {
       "id": "prod_drip_round_isi_1",
-      "name": "12MM ROUND INLINE PIPE ISI",
+      "name": "ROUND DRIPLINE 12MM ISI",
       "categoryId": "cat_drip",
       "categoryName": "DRIP IRRIGATION SYSTEM",
       "subCategory": "ROUND DRIP ISI",
-      "image": "/images/drip/12MM ROUND INLINE PIPE ISI.png",
-      "description": "12mm Round Inline Drip Pipe ISI certified.",
+      "image": "/images/drip/ROUND DRIPLINE 12MM ISI.png",
+      "description": "ROUND DRIPLINE 12MM ISI certified.",
       "sizes": [
-        "12-4-30 CLASS-1",
-        "12-4-40 CLASS-1",
-        "12-4-50 CLASS-1",
-        "12-4-30 CLASS-2",
-        "12-4-40 CLASS-2",
-        "12-4-50 CLASS-2",
-        "12-4-30 CLASS-3",
-        "12-4-40 CLASS-3",
-        "12-4-50 CLASS-3"
+        "12-4-30 CLASS 1",
+        "12-4-40 CLASS 1",
+        "12-4-50 CLASS 1",
+        "12-4-30 CLASS 3",
+        "12-4-40 CLASS 3",
+        "12-4-50 CLASS 3",
+        "12-4-30 CLASS 2",
+        "12-4-40 CLASS 2",
+        "12-4-50 CLASS 2"
       ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "sizeProductCodes": {
+        "12-4-30 CLASS 1": "FG-401742",
+        "12-4-40 CLASS 1": "FG-401743",
+        "12-4-50 CLASS 1": "FG-401744",
+        "12-4-30 CLASS 3": "FG-401751",
+        "12-4-40 CLASS 3": "FG-401752",
+        "12-4-50 CLASS 3": "FG-401753",
+        "12-4-30 CLASS 2": "FG-401754",
+        "12-4-40 CLASS 2": "FG-401755",
+        "12-4-50 CLASS 2": "FG-401756"
+      }
     },
     {
       "id": "prod_drip_round_isi_2",
-      "name": "16MM ROUND INLINE PIPE ISI",
+      "name": "ROUND DRIPLINE 16MM ISI",
       "categoryId": "cat_drip",
       "categoryName": "DRIP IRRIGATION SYSTEM",
       "subCategory": "ROUND DRIP ISI",
-      "image": "/images/drip/16MM ROUND INLINE PIPE ISI.png",
-      "description": "16mm Round Inline Drip Pipe ISI certified.",
+      "image": "/images/drip/ROUND DRIPLINE 16MM ISI.png",
+      "description": "ROUND DRIPLINE 16MM ISI certified.",
       "sizes": [
-        "16-4-30 CLASS-1",
-        "16-4-40 CLASS-1",
-        "16-4-50 CLASS-1",
-        "16-4-30 CLASS-2",
-        "16-4-40 CLASS-2",
-        "16-4-50 CLASS-2"
+        "16-4-30 CLASS 1",
+        "16-4-40 CLASS 1",
+        "16-4-50 CLASS 1",
+        "16-4-30 CLASS 2",
+        "16-4-40 CLASS 2",
+        "16-4-50 CLASS 2"
       ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "sizeProductCodes": {
+        "16-4-30 CLASS 1": "FG-401745",
+        "16-4-40 CLASS 1": "FG-401746",
+        "16-4-50 CLASS 1": "FG-401747",
+        "16-4-30 CLASS 2": "FG-401757",
+        "16-4-40 CLASS 2": "FG-401758",
+        "16-4-50 CLASS 2": "FG-401759"
+      }
     },
     {
       "id": "prod_drip_round_isi_3",
@@ -5139,60 +5595,78 @@
     },
     {
       "id": "prod_drip_flat_isi_1",
-      "name": "12MM FLAT INLINE PIPE ISI",
+      "name": "FLAT DRIPLINE 12MM ISI",
       "categoryId": "cat_drip",
       "categoryName": "DRIP IRRIGATION SYSTEM",
       "subCategory": "FLAT DRIP ISI",
-      "image": "/images/drip/12MM FLAT INLINE PIPE ISI.png",
-      "description": "12mm Flat Inline Drip Pipe ISI certified.",
+      "image": "/images/drip/FLAT DRIPLINE 12MM ISI.png",
+      "description": "FLAT DRIPLINE 12MM ISI certified.",
       "sizes": [
-        "12-4-30 CLASS-1",
-        "12-4-40 CLASS-1",
-        "12-4-50 CLASS-1",
-        "12-4-30 CLASS-2",
-        "12-4-40 CLASS-2",
-        "12-4-50 CLASS-2",
-        "12-4-30 CLASS-3",
-        "12-4-40 CLASS-3",
-        "12-4-50 CLASS-3"
+        "12-4-30 CLASS 2",
+        "12-4-40 CLASS 2",
+        "12-4-50 CLASS 2",
+        "12-4-30 CLASS 3",
+        "12-4-40 CLASS 3",
+        "12-4-50 CLASS 3"
       ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "sizeProductCodes": {
+        "12-4-30 CLASS 2": "FG-401763",
+        "12-4-40 CLASS 2": "FG-401764",
+        "12-4-50 CLASS 2": "FG-401765",
+        "12-4-30 CLASS 3": "FG-401766",
+        "12-4-40 CLASS 3": "FG-401767",
+        "12-4-50 CLASS 3": "FG-401768"
+      }
     },
     {
       "id": "prod_drip_flat_isi_2",
-      "name": "16MM FLAT INLINE PIPE ISI",
+      "name": "FLAT DRIPLINE 16MM ISI",
       "categoryId": "cat_drip",
       "categoryName": "DRIP IRRIGATION SYSTEM",
       "subCategory": "FLAT DRIP ISI",
-      "image": "/images/drip/16MM FLAT INLINE PIPE ISI.png",
-      "description": "16mm Flat Inline Drip Pipe ISI certified.",
+      "image": "/images/drip/FLAT DRIPLINE 16MM ISI.png",
+      "description": "FLAT DRIPLINE 16MM ISI certified.",
       "sizes": [
-        "16-4-30 CLASS-1",
-        "16-4-40 CLASS-1",
-        "16-4-50 CLASS-1",
-        "16-4-30 CLASS-2",
-        "16-4-40 CLASS-2",
-        "16-4-50 CLASS-2"
+        "16-4-30 CLASS 1",
+        "16-4-40 CLASS 1",
+        "16-4-50 CLASS 1",
+        "16-4-30 CLASS 2",
+        "16-4-40 CLASS 2",
+        "16-4-50 CLASS 2"
       ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "sizeProductCodes": {
+        "16-4-30 CLASS 1": "FG-401760",
+        "16-4-40 CLASS 1": "FG-401761",
+        "16-4-50 CLASS 1": "FG-401762",
+        "16-4-30 CLASS 2": "FG-401769",
+        "16-4-40 CLASS 2": "FG-401770",
+        "16-4-50 CLASS 2": "FG-401779"
+      }
     },
     {
       "id": "prod_drip_flat_isi_3",
-      "name": "20MM FLAT INLINE PIPE ISI",
+      "name": "FLAT DRIPLINE 20MM ISI",
       "categoryId": "cat_drip",
       "categoryName": "DRIP IRRIGATION SYSTEM",
       "subCategory": "FLAT DRIP ISI",
-      "image": "/images/drip/20MM FLAT INLINE PIPE ISI.png",
-      "description": "20mm Flat Inline Drip Pipe ISI certified.",
+      "image": "/images/drip/FLAT DRIPLINE 20MM ISI.png",
+      "description": "FLAT DRIPLINE 20MM ISI certified.",
       "sizes": [
-        "20-4-30 CLASS-1",
-        "20-4-40 CLASS-1",
-        "20-4-50 CLASS-1"
+        "20-4-30 CLASS 1",
+        "20-4-40 CLASS 1",
+        "20-4-50 CLASS 1"
       ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "sizeProductCodes": {
+        "20-4-30 CLASS 1": "FG-401771",
+        "20-4-40 CLASS 1": "FG-401772",
+        "20-4-50 CLASS 1": "FG-401773"
+      }
     },
     {
       "id": "prod_drip_round_online_1",
@@ -5312,23 +5786,47 @@
     },
     {
       "id": "prod_casing_1",
-      "name": "3M CASING PIPE (THREADED)",
+      "name": "CASING PIPE BLUE THD",
       "categoryId": "cat_casing",
       "categoryName": "UPVC CASING PIPES",
-      "image": "/images/casing/3M CASING PIPE (THREADED).png",
-      "description": "3M UPVC Threaded Casing Pipe for bore wells.",
+      "image": "/images/casing/CASING PIPE BLUE THD.png",
+      "description": "CASING PIPE BLUE THD for bore wells.",
       "sizes": [
-        "35MM",
-        "40MM",
-        "50MM",
-        "100MM",
-        "125MM",
-        "150MM",
-        "175MM",
-        "200MM"
+        "35MM TYPE CM-SCH-80-3M",
+        "40MM TYPE CM-SCH-80-3M",
+        "50MM TYPE CM-SCH-80-3M",
+        "100MM TYPE CM-SCH-80-3M",
+        "125MM TYPE CM-SCH-80-3M",
+        "150MM TYPE CM-SCH-80-3M",
+        "175MM TYPE CM-SCH-80-3M",
+        "200MM TYPE CM-SCH-80-3M",
+        "125MM TYPE CS-SCH-40-3M",
+        "150MM TYPE CS-SCH-40-3M",
+        "175MM TYPE CS-SCH-40-3M",
+        "200MM TYPE CS-SCH-40-3M",
+        "115MM TYPE CM-3M",
+        "140MM TYPE CS-SCH-40-5M",
+        "140MM TYPE CS-SCH-80-5M"
       ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "sizeProductCodes": {
+        "35MM TYPE CM-SCH-80-3M": "FG-401066",
+        "40MM TYPE CM-SCH-80-3M": "FG-401067",
+        "50MM TYPE CM-SCH-80-3M": "FG-401068",
+        "100MM TYPE CM-SCH-80-3M": "FG-401069",
+        "125MM TYPE CM-SCH-80-3M": "FG-401070",
+        "150MM TYPE CM-SCH-80-3M": "FG-401071",
+        "175MM TYPE CM-SCH-80-3M": "FG-401072",
+        "200MM TYPE CM-SCH-80-3M": "FG-401072",
+        "125MM TYPE CS-SCH-40-3M": "FG-401073",
+        "150MM TYPE CS-SCH-40-3M": "FG-401074",
+        "175MM TYPE CS-SCH-40-3M": "FG-401075",
+        "200MM TYPE CS-SCH-40-3M": "FG-401076",
+        "115MM TYPE CM-3M": "FG-401131",
+        "140MM TYPE CS-SCH-40-5M": "FG-401149",
+        "140MM TYPE CS-SCH-80-5M": "FG-401150"
+      }
     },
     {
       "id": "prod_casing_2",
@@ -5352,56 +5850,79 @@
     },
     {
       "id": "prod_column_1",
-      "name": "3M ECO - V4 PIPE",
+      "name": "COLOUMN PIPE ECO V4",
       "categoryId": "cat_column",
       "categoryName": "UPVC COLUMN PIPES",
-      "image": "/images/column/3M ECO - V4 PIPE.png",
-      "description": "3M ECO - V4 UPVC Column Pipe for submersible pump systems.",
+      "image": "/images/column/COLOUMN PIPE ECO V4.png",
+      "description": "COLOUMN PIPE ECO V4 for submersible pump systems.",
       "sizes": [
-        "33MM 12.5 COUPLER TYPE",
-        "33MM 12.5 BELL END TYPE",
-        "42MM 10 COUPLER TYPE",
-        "42MM 12.5 COUPLER TYPE",
-        "42MM 12.5 BELL END TYPE",
-        "48MM 12.5 COUPLER TYPE",
-        "60MM 12.5 COUPLER TYPE"
+        "33MM 12.5KG COUPLER TYPE",
+        "33MM 12.5KG BELL END TYPE",
+        "42MM 10KG COUPLER TYPE",
+        "42MM 12.5KG COUPLER TYPE",
+        "42MM 12.5KG BELL END TYPE",
+        "48MM 12.5KG COUPLER TYPE",
+        "60MM 12.5KG COUPLER TYPE"
       ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "sizeProductCodes": {
+        "33MM 12.5KG COUPLER TYPE": "FG-401166",
+        "33MM 12.5KG BELL END TYPE": "FG-401162",
+        "42MM 10KG COUPLER TYPE": "FG-401165",
+        "42MM 12.5KG COUPLER TYPE": "FG-401167",
+        "42MM 12.5KG BELL END TYPE": "FG-401163",
+        "48MM 12.5KG COUPLER TYPE": "FG-401164",
+        "60MM 12.5KG COUPLER TYPE": "FG-401168"
+      }
     },
     {
       "id": "prod_column_2",
-      "name": "3M MEDIUM PIPE",
+      "name": "COLOUMN PIPE MEDIUM",
       "categoryId": "cat_column",
       "categoryName": "UPVC COLUMN PIPES",
-      "image": "/images/column/3M MEDIUM PIPE.png",
-      "description": "3M Medium UPVC Column Pipe for submersible pump systems.",
+      "image": "/images/column/COLOUMN PIPE MEDIUM.png",
+      "description": "COLOUMN PIPE MEDIUM for submersible pump systems.",
       "sizes": [
-        "33MM 18 COUPLER TYPE",
-        "42MM 18 COUPLER TYPE",
-        "48MM 18 COUPLER TYPE",
-        "60MM 15 COUPLER TYPE",
-        "75MM 10 COUPLER TYPE"
+        "33MM 18KG COUPLER TYPE",
+        "42MM 18KG COUPLER TYPE",
+        "48MM 18KG COUPLER TYPE",
+        "60MM 15KG COUPLER TYPE",
+        "75MM 10KG COUPLER TYPE"
       ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "sizeProductCodes": {
+        "33MM 18KG COUPLER TYPE": "FG-401175",
+        "42MM 18KG COUPLER TYPE": "FG-401177",
+        "48MM 18KG COUPLER TYPE": "FG-401176",
+        "60MM 15KG COUPLER TYPE": "FG-401178",
+        "75MM 10KG COUPLER TYPE": "FG-401180"
+      }
     },
     {
       "id": "prod_column_3",
-      "name": "3M STANDARD PIPE",
+      "name": "COLOUMN PIPE STANDARD",
       "categoryId": "cat_column",
       "categoryName": "UPVC COLUMN PIPES",
-      "image": "/images/column/3M STANDARD PIPE.png",
-      "description": "3M Standard UPVC Column Pipe for submersible pump systems.",
+      "image": "/images/column/COLOUMN PIPE STANDARD.png",
+      "description": "COLOUMN PIPE STANDARD for submersible pump systems.",
       "sizes": [
-        "33MM 25 COUPLER TYPE",
-        "42MM 25 COUPLER TYPE",
-        "48MM 25 COUPLER TYPE",
-        "60MM 20 COUPLER TYPE",
-        "75MM 20 COUPLER TYPE"
+        "33MM 25KG COUPLER TYPE",
+        "42MM 25KG COUPLER TYPE",
+        "48MM 25KG COUPLER TYPE",
+        "60MM 20KG COUPLER TYPE",
+        "75MM 20KG COUPLER TYPE"
       ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "sizeProductCodes": {
+        "33MM 25KG COUPLER TYPE": "FG-401169",
+        "42MM 25KG COUPLER TYPE": "FG-401171",
+        "48MM 25KG COUPLER TYPE": "FG-401170",
+        "60MM 20KG COUPLER TYPE": "FG-401172",
+        "75MM 20KG COUPLER TYPE": "FG-401174"
+      }
     },
     {
       "id": "prod_column_4",
@@ -5418,31 +5939,39 @@
     },
     {
       "id": "prod_column_5",
-      "name": "3M HEAVY PIPE",
+      "name": "COLOUMN PIPE HEAVY",
       "categoryId": "cat_column",
       "categoryName": "UPVC COLUMN PIPES",
-      "image": "/images/column/3M HEAVY PIPE.png",
-      "description": "3M Heavy UPVC Column Pipe for submersible pump systems.",
+      "image": "/images/column/COLOUMN PIPE HEAVY.png",
+      "description": "COLOUMN PIPE HEAVY for submersible pump systems.",
       "sizes": [
-        "42MM 30 COUPLER TYPE",
-        "48MM 30 COUPLER TYPE",
-        "60MM 30 COUPLER TYPE"
+        "42MM 30KG COUPLER TYPE",
+        "48MM 30KG COUPLER TYPE",
+        "60MM 30KG COUPLER TYPE"
       ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "sizeProductCodes": {
+        "42MM 30KG COUPLER TYPE": "FG-401182",
+        "48MM 30KG COUPLER TYPE": "FG-401181",
+        "60MM 30KG COUPLER TYPE": "FG-401183"
+      }
     },
     {
       "id": "prod_column_6",
-      "name": "3M MEDIUM PLUS PIPE",
+      "name": "COLOUMN PIPE MEDIUM PLUS",
       "categoryId": "cat_column",
       "categoryName": "UPVC COLUMN PIPES",
-      "image": "/images/column/3M MEDIUM PLUS PIPE.png",
-      "description": "3M Medium Plus UPVC Column Pipe for submersible pump systems.",
+      "image": "/images/column/COLOUMN PIPE MEDIUM PLUS.png",
+      "description": "COLOUMN PIPE MEDIUM PLUS for submersible pump systems.",
       "sizes": [
-        "60MM 18 COUPLER TYPE"
+        "60MM 18KG COUPLER TYPE"
       ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "sizeProductCodes": {
+        "60MM 18KG COUPLER TYPE": "FG-401179"
+      }
     },
     {
       "id": "prod_household_1",
@@ -5451,9 +5980,14 @@
       "categoryName": "HOUSEHOLD PRODUCTS",
       "image": "/images/household/CONSTRUCTION GHAMELA SHIVA.png",
       "description": "CONSTRUCTION GHAMELA SHIVA high durability ghamela.",
-      "sizes": [],
+      "sizes": [
+        "15 Inch"
+      ],
       "status": "Active",
-      "uom": "NOS"
+      "uom": "NOS",
+      "sizeProductCodes": {
+        "15 Inch": "FG-401569"
+      }
     },
     {
       "id": "prod_household_2",
@@ -5462,9 +5996,14 @@
       "categoryName": "HOUSEHOLD PRODUCTS",
       "image": "/images/household/MULTIPURPOSE GHAMELA GOURI.png",
       "description": "MULTIPURPOSE GHAMELA GOURI high durability ghamela.",
-      "sizes": [],
+      "sizes": [
+        "15 Inch"
+      ],
       "status": "Active",
-      "uom": "NOS"
+      "uom": "NOS",
+      "sizeProductCodes": {
+        "15 Inch": "FG-401570"
+      }
     },
     {
       "id": "prod_household_3",
@@ -5473,9 +6012,14 @@
       "categoryName": "HOUSEHOLD PRODUCTS",
       "image": "/images/household/MULTIPURPOSE GHAMELA KRISHNA.png",
       "description": "MULTIPURPOSE GHAMELA KRISHNA high durability ghamela.",
-      "sizes": [],
+      "sizes": [
+        "16 Inch"
+      ],
       "status": "Active",
-      "uom": "NOS"
+      "uom": "NOS",
+      "sizeProductCodes": {
+        "16 Inch": "FG-401571"
+      }
     },
     {
       "id": "prod_household_4",
@@ -5484,9 +6028,14 @@
       "categoryName": "HOUSEHOLD PRODUCTS",
       "image": "/images/household/MULTIPURPOSE GHAMELA RAGHAV.png",
       "description": "MULTIPURPOSE GHAMELA RAGHAV high durability ghamela.",
-      "sizes": [],
+      "sizes": [
+        "18 Inch"
+      ],
       "status": "Active",
-      "uom": "NOS"
+      "uom": "NOS",
+      "sizeProductCodes": {
+        "18 Inch": "FG-401573"
+      }
     },
     {
       "id": "prod_household_5",
@@ -5495,9 +6044,14 @@
       "categoryName": "HOUSEHOLD PRODUCTS",
       "image": "/images/household/MULTIPURPOSE GHAMELA ANIKET.png",
       "description": "MULTIPURPOSE GHAMELA ANIKET high durability ghamela.",
-      "sizes": [],
+      "sizes": [
+        "20 Inch"
+      ],
       "status": "Active",
-      "uom": "NOS"
+      "uom": "NOS",
+      "sizeProductCodes": {
+        "20 Inch": "FG-401574"
+      }
     },
     {
       "id": "prod_household_6",
@@ -5506,9 +6060,14 @@
       "categoryName": "HOUSEHOLD PRODUCTS",
       "image": "/images/household/MULTIPURPOSE GHAMELA TEJASWI.png",
       "description": "MULTIPURPOSE GHAMELA TEJASWI high durability ghamela.",
-      "sizes": [],
+      "sizes": [
+        "17 Inch"
+      ],
       "status": "Active",
-      "uom": "NOS"
+      "uom": "NOS",
+      "sizeProductCodes": {
+        "17 Inch": "FG-401572"
+      }
     },
     {
       "id": "prod_household_7",
@@ -5517,31 +6076,46 @@
       "categoryName": "HOUSEHOLD PRODUCTS",
       "image": "/images/household/MULTIPURPOSE GHAMELA GAJRAJ.png",
       "description": "MULTIPURPOSE GHAMELA GAJRAJ high durability ghamela.",
-      "sizes": [],
+      "sizes": [
+        "22 Inch"
+      ],
       "status": "Active",
-      "uom": "NOS"
+      "uom": "NOS",
+      "sizeProductCodes": {
+        "22 Inch": "FG-401575"
+      }
     },
     {
       "id": "prod_household_8",
-      "name": "ECO DELTA GHAMELA KRISHNA",
+      "name": "AQUA PLAST GHAMELA 16",
       "categoryId": "cat_household",
       "categoryName": "HOUSEHOLD PRODUCTS",
-      "image": "/images/household/ECO DELTA GHAMELA KRISHNA.png",
-      "description": "ECO DELTA GHAMELA KRISHNA high durability ghamela.",
-      "sizes": [],
+      "image": "/images/household/AQUA PLAST GHAMELA 16.png",
+      "description": "AQUA PLAST GHAMELA 16 high durability ghamela.",
+      "sizes": [
+        "16 Inch"
+      ],
       "status": "Active",
-      "uom": "NOS"
+      "uom": "NOS",
+      "sizeProductCodes": {
+        "16 Inch": "FG-401578"
+      }
     },
     {
       "id": "prod_household_9",
-      "name": "ECO DELTA GHAMELA TEJASWI",
+      "name": "AQUA PLAST GHAMELA 17",
       "categoryId": "cat_household",
       "categoryName": "HOUSEHOLD PRODUCTS",
-      "image": "/images/household/ECO DELTA GHAMELA TEJASWI.png",
-      "description": "ECO DELTA GHAMELA TEJASWI high durability ghamela.",
-      "sizes": [],
+      "image": "/images/household/AQUA PLAST GHAMELA 17.png",
+      "description": "AQUA PLAST GHAMELA 17 high durability ghamela.",
+      "sizes": [
+        "17 Inch"
+      ],
       "status": "Active",
-      "uom": "NOS"
+      "uom": "NOS",
+      "sizeProductCodes": {
+        "17 Inch": "FG-401579"
+      }
     },
     {
       "id": "prod_garden_1",
@@ -5561,35 +6135,49 @@
     },
     {
       "id": "prod_garden_2",
-      "name": "ORA FLOW - BRAIDED PIPE",
+      "name": "GAP-ORA BRAIDED PIPE",
       "categoryId": "cat_garden",
       "categoryName": "Garden, Braided & LDPE Pipes",
-      "image": "/images/garden/ORA FLOW - BRAIDED PIPE.png",
-      "description": "Ora Flow Braided Garden Pipe.",
+      "image": "/images/garden/GAP-ORA BRAIDED PIPE.png",
+      "description": "GAP-ORA BRAIDED PIPE.",
       "sizes": [
-        "15MM",
-        "20MM",
-        "25MM",
-        "32MM"
+        "15MM 1/2",
+        "20MM 3/4",
+        "25MM 1",
+        "32MM 1 1/4"
       ],
       "status": "Active",
-      "uom": "BDL"
+      "uom": "BDL",
+      "sizeProductCodes": {
+        "15MM 1/2": "FG-401370",
+        "20MM 3/4": "FG-401371",
+        "25MM 1": "FG-401372",
+        "32MM 1 1/4": "FG-401373"
+      }
     },
     {
       "id": "prod_garden_3",
-      "name": "FOAM PIPE",
+      "name": "GARDEN FOAM PIPES",
       "categoryId": "cat_garden",
       "categoryName": "Garden, Braided & LDPE Pipes",
-      "image": "/images/garden/FOAM PIPE.png",
-      "description": "Flexible Foam Garden Pipe.",
+      "image": "/images/garden/GARDEN FOAM PIPES.png",
+      "description": "GARDEN FOAM PIPES.",
       "sizes": [
-        "15MM",
-        "20MM",
-        "25MM",
-        "32MM"
+        "15MM 1/2",
+        "20MM 3/4",
+        "20MM 3/4 20MTR",
+        "25MM 1",
+        "32MM 1 1/4"
       ],
       "status": "Active",
-      "uom": "BDL"
+      "uom": "BDL",
+      "sizeProductCodes": {
+        "15MM 1/2": "FG-401355",
+        "20MM 3/4": "FG-401356",
+        "20MM 3/4 20MTR": "FG-401369",
+        "25MM 1": "FG-401357",
+        "32MM 1 1/4": "FG-401358"
+      }
     },
     {
       "id": "prod_garden_4",
@@ -5599,13 +6187,19 @@
       "image": "/images/garden/BRAIDED PIPE.png",
       "description": "Reinforced Braided Garden Pipe.",
       "sizes": [
-        "15MM",
-        "20MM",
-        "25MM",
-        "32MM"
+        "15MM 1/2",
+        "20MM 3/4",
+        "25MM 1",
+        "32MM 1 1/4"
       ],
       "status": "Active",
-      "uom": "BDL"
+      "uom": "BDL",
+      "sizeProductCodes": {
+        "15MM 1/2": "FG-401344",
+        "20MM 3/4": "FG-401345",
+        "25MM 1": "FG-401346",
+        "32MM 1 1/4": "FG-401363"
+      }
     },
     {
       "id": "prod_garden_5",
@@ -5618,24 +6212,36 @@
         "6MM"
       ],
       "status": "Active",
-      "uom": "BDL"
+      "uom": "BDL",
+      "sizeProductCodes": {
+        "6MM": "FG-401374"
+      }
     },
     {
       "id": "prod_garden_6",
-      "name": "SUPER FLOW PIPE (MILKY & TRANSPARENT)",
+      "name": "GARDEN PIPES SUPER FLOW",
       "categoryId": "cat_garden",
       "categoryName": "Garden, Braided & LDPE Pipes",
-      "image": "/images/garden/SUPER FLOW PIPE (MILKY & TRANSPARENT).png",
-      "description": "Super Flow Milky & Transparent Garden Pipe.",
+      "image": "/images/garden/GARDEN PIPES SUPER FLOW.png",
+      "description": "GARDEN PIPES SUPER FLOW.",
       "sizes": [
-        "15MM",
-        "20MM",
-        "25MM",
-        "32MM",
-        "40MM"
+        "15MM 1/2",
+        "20MM 3/4",
+        "20MM 3/4 15MTR",
+        "25MM 1",
+        "32MM 1 1/4",
+        "40MM 1 1/2"
       ],
       "status": "Active",
-      "uom": "BDL"
+      "uom": "BDL",
+      "sizeProductCodes": {
+        "15MM 1/2": "FG-401340",
+        "20MM 3/4": "FG-401341",
+        "20MM 3/4 15MTR": "FG-401652",
+        "25MM 1": "FG-401342",
+        "32MM 1 1/4": "FG-401343",
+        "40MM 1 1/2": "FG-401627"
+      }
     },
     {
       "id": "prod_faucet_1",
