@@ -1,5 +1,8 @@
 const { readData, writeData } = require('../database/store');
 
+// Product IDs that should always appear first, in display order
+const PINNED_PRODUCT_IDS = ['prod_tank_1', 'prod_tank_6']; // HDPE 10L GOLD GAP, HDPE 6L GOLD GAP
+
 exports.getAllProducts = async (req, res) => {
   try {
     const { categoryId, subcategoryId, search, includeInactive } = req.query;
@@ -28,6 +31,16 @@ exports.getAllProducts = async (req, res) => {
         (p.sizeProductCodes && Object.values(p.sizeProductCodes).some(code => String(code).toLowerCase().includes(q)))
       );
     }
+
+    // Pin featured products to the top (only those that survived filtering)
+    products.sort((a, b) => {
+      const aPin = PINNED_PRODUCT_IDS.indexOf(a.id);
+      const bPin = PINNED_PRODUCT_IDS.indexOf(b.id);
+      if (aPin !== -1 && bPin !== -1) return aPin - bPin; // both pinned: preserve pin order
+      if (aPin !== -1) return -1; // a pinned, b not
+      if (bPin !== -1) return 1;  // b pinned, a not
+      return 0; // neither pinned: preserve original order
+    });
 
     res.json({ success: true, products });
   } catch (err) {

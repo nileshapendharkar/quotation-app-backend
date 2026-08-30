@@ -37,6 +37,21 @@
       "companyName": "Gouri Aqua Plast",
       "companyAddress": "Nagpur, Maharashtra",
       "createdAt": "2026-08-08T11:19:34.730Z"
+    },
+    {
+      "id": "usr_7768807208",
+      "userId": "7768807208",
+      "name": "Gouri Aqua Plast Customer",
+      "customerName": "Gouri Aqua Plast Customer",
+      "email": "user7768807208@gouriaquaplast.com",
+      "mobile": "7768807208",
+      "mobileNumber": "7768807208",
+      "passwordHash": "/Sb9f79KHF0jXWjzvrDe7fm.2Yv5EVxWuf9snFP1pSt8FDoOHKm",
+      "role": "customer",
+      "status": "active",
+      "companyName": "Gouri Aqua Plast",
+      "companyAddress": "Nagpur, Maharashtra",
+      "createdAt": "2026-08-29T10:57:16.068Z"
     }
   ],
   "categories": [
@@ -149,6 +164,13 @@
       "image": "/images/categories/cat_faucets.png",
       "description": "Premium Edge, Smart, and Regular series bathroom & kitchen faucets, bib taps, and valves.",
       "uom": "NOS"
+    },
+    {
+      "id": "cat_dwc",
+      "name": "DWC",
+      "image": "/images/categories/cat_dwc.png",
+      "description": "Double Wall Corrugated (DWC) pipes for underground cable protection and drainage.",
+      "uom": "MTR"
     }
   ],
   "products": [
@@ -9917,6 +9939,162 @@
   },
   "orders": [
     {
+      "id": "ord_7768807208_1",
+      "orderNo": "QT-2026-7001",
+      "userId": "usr_7768807208",
+      "userName": "Gouri Aqua Plast Customer",
+      "userEmail": "user7768807208@gouriaquaplast.com",
+      "userMobile": "7768807208",
+      "companyName": "Gouri Aqua Plast",
+      "companyAddress": "Nagpur, Maharashtra",
+      "items": [
+        {
+          "productId": "prod_tank_1",
+          "productName": "HDPE 10L GOLD GAP",
+          "quantity": 5,
+          "size": "500L",
+          "productCode": "FG-TANK01",
+          "packing": "Standard",
+          "categoryName": "Water Storage Tanks",
+          "uom": "LTR",
+          "image": "/images/tanks/Blow 10 Layer Gold.png"
+        }
+      ],
+      "status": "Pending",
+      "notes": "Sample pending order.",
+      "createdAt": "2026-08-30T10:00:00.000Z"
+    },
+    {
+      "id": "ord_7768807208_2",
+      "orderNo": "QT-2026-7002",
+      "userId": "usr_7768807208",
+      "userName": "Gouri Aqua Plast Customer",
+      "userEmail": "user7768807208@gouriaquaplast.com",
+      "userMobile": "7768807208",
+      "companyName": "Gouri Aqua Plast",
+      "companyAddress": "Nagpur, Maharashtra",
+      "items": [
+        {
+          "productId": "prod_tank_6",
+          "productName": "HDPE 6L GOLD GAP",
+          "quantity": 3,
+          "size": "1000L",
+          "productCode": "FG-TANK06",
+          "packing": "Standard",
+          "categoryName": "Water Storage Tanks",
+          "uom": "LTR",
+          "image": "/images/tanks/Blow 6 Layer Gold.png"
+        }
+      ],
+      "status": "Dispatched",
+      "notes": "Sample dispatched order.",
+      "createdAt": "2026-08-28T12:00:00.000Z"
+    },
+    {
+      "id": "ord_7768807208_3",
+      "orderNo": "QT-2026-7003",
+      "userId": "usr_7768807208",
+      "userName": "Gouri Aqua Plast Customer",
+      "userEmail": "user7768807208@gouriaquaplast.com",
+      "userMobile": "7768807208",
+      "companyName": "Gouri Aqua Plast",
+      "companyAddress": "Nagpur, Maharashtra",
+      "items": [
+        {
+          "productId": "prod_tank_1",
+          "productName": "HDPE 10L GOLD GAP",
+          "quantity": 10,
+          "size": "300L",
+          "productCode": "FG-TANK02",
+          "packing": "Standard",
+          "categoryName": "Water Storage Tanks",
+          "uom": "LTR",
+          "image": "/images/tanks/Blow 10 Layer Gold.png"
+        }
+      ],
+      "status": "Cancelled",
+      "notes": "Sample cancelled order.",
+      "createdAt": "2026-08-27T15:30:00.000Z"
+    },
+    {
+      "id": "ord_1786187974730_1",
+      "orderNo": "QT-2026-9001",
+      "userId": "usr_1786187974730",
+      "userName": "Gouri Aqua Plast Customer",
+      "userEmail": "9225087140@app.com",
+      "userMobile": "9225087140",
+      "companyName": "Gouri Aqua Plast",
+      "companyAddress": "Nagpur, Maharashtra",
+      "items": [
+        {
+          "productId": "prod_tank_1",
+          "productName": "HDPE 10L GOLD GAP",
+          "quantity": 12,
+          "size": "500L",
+          "productCode": "FG-TANK01",
+          "packing": "Standard",
+          "categoryName": "Water Storage Tanks",
+          "uom": "LTR",
+          "image": "/images/tanks/Blow 10 Layer Gold.png"
+        }
+      ],
+      "status": "Pending",
+      "notes": "Sample pending order for test user.",
+      "createdAt": "2026-08-30T10:15:00.000Z"
+    },
+    {
+      "id": "ord_1786187974730_2",
+      "orderNo": "QT-2026-9002",
+      "userId": "usr_1786187974730",
+      "userName": "Gouri Aqua Plast Customer",
+      "userEmail": "9225087140@app.com",
+      "userMobile": "9225087140",
+      "companyName": "Gouri Aqua Plast",
+      "companyAddress": "Nagpur, Maharashtra",
+      "items": [
+        {
+          "productId": "prod_tank_6",
+          "productName": "HDPE 6L GOLD GAP",
+          "quantity": 8,
+          "size": "1000L",
+          "productCode": "FG-TANK06",
+          "packing": "Standard",
+          "categoryName": "Water Storage Tanks",
+          "uom": "LTR",
+          "image": "/images/tanks/Blow 6 Layer Gold.png"
+        }
+      ],
+      "status": "Dispatched",
+      "notes": "Sample dispatched order for test user.",
+      "createdAt": "2026-08-28T14:45:00.000Z"
+    },
+    {
+      "id": "ord_1786187974730_3",
+      "orderNo": "QT-2026-9003",
+      "userId": "usr_1786187974730",
+      "userName": "Gouri Aqua Plast Customer",
+      "userEmail": "9225087140@app.com",
+      "userMobile": "9225087140",
+      "companyName": "Gouri Aqua Plast",
+      "companyAddress": "Nagpur, Maharashtra",
+      "items": [
+        {
+          "productId": "prod_tank_1",
+          "productName": "HDPE 10L GOLD GAP",
+          "quantity": 20,
+          "size": "300L",
+          "productCode": "FG-TANK02",
+          "packing": "Standard",
+          "categoryName": "Water Storage Tanks",
+          "uom": "LTR",
+          "image": "/images/tanks/Blow 10 Layer Gold.png"
+        }
+      ],
+      "status": "Cancelled",
+      "notes": "Sample cancelled order for test user.",
+      "createdAt": "2026-08-27T16:00:00.000Z"
+    },
+    {
       "id": "ord_1001",
       "orderNo": "QT-2026-1001",
       "userId": "usr_demo",
@@ -9998,6 +10176,38 @@
       "name": "Loft Tanks",
       "categoryId": "cat_tanks",
       "image": "/images/tanks/Loft Tank White.png"
+    }
+  ],
+  "drafts": [
+    {
+      "id": "drf_1788111671967",
+      "draftNo": "DRF-2026-6210",
+      "userId": "usr_1786187974730",
+      "items": [
+        {
+          "productId": "prod_upvc_1",
+          "quantity": 1,
+          "size": "1/2\" - 3MTR"
+        }
+      ],
+      "notes": "Saved draft quotation",
+      "createdAt": "2026-08-30T17:41:11.967Z",
+      "updatedAt": "2026-08-30T17:41:41.592Z"
+    },
+    {
+      "id": "drf_1788110657071",
+      "draftNo": "DRF-2026-9648",
+      "userId": "usr_1786187974730",
+      "items": [
+        {
+          "productId": "prod_tank_1",
+          "quantity": 1,
+          "size": "300"
+        }
+      ],
+      "notes": "Saved draft quotation",
+      "createdAt": "2026-08-30T17:24:17.071Z",
+      "updatedAt": "2026-08-30T17:25:18.912Z"
     }
   ]
 }

@@ -87,6 +87,19 @@ const initialData = {
       companyName: "Gouri Aqua Plast",
       companyAddress: "Nagpur, Maharashtra",
       createdAt: new Date().toISOString()
+    },
+    {
+      id: "usr_7768807208",
+      userId: "7768807208",
+      name: "Gouri Aqua Plast Customer",
+      email: "user7768807208@gouriaquaplast.com",
+      mobile: "7768807208",
+      passwordHash: "$2a$10$41/Sb9f79KHF0jXWjzvrDe7fm.2Yv5EVxWuf9snFP1pSt8FDoOHKm",
+      role: "customer",
+      status: "active",
+      companyName: "Gouri Aqua Plast",
+      companyAddress: "Nagpur, Maharashtra",
+      createdAt: new Date().toISOString()
     }
   ],
   categories: [
@@ -1735,74 +1748,96 @@ async function readData() {
     return cachedData;
   }
 
+  let fileData = null;
+  // Load from local DB_FILE if exists
+  try {
+    if (fs.existsSync(DB_FILE)) {
+      const raw = fs.readFileSync(DB_FILE, 'utf8');
+      fileData = JSON.parse(raw);
+    }
+  } catch (e) {
+    console.error('❌ Failed to read DB_FILE:', e);
+  }
+
   await connectCouchbase();
+  let cbData = null;
 
-  let data = null;
-
-  // COUCHBASE MODE
   if (isCouchbaseConnected) {
     try {
       const result = await cbCollection.get(COUCHBASE_DOC_KEY);
-      data = result.value;
+      cbData = result.value;
     } catch (err) {
-      // DocumentNotFoundError — seed initial data
       if (err.constructor && err.constructor.name === 'DocumentNotFoundError') {
-        const seeded = seedProducts({ ...initialData });
+        const seeded = fileData || seedProducts({ ...initialData });
         await cbCollection.upsert(COUCHBASE_DOC_KEY, seeded);
-        console.log('🌱 Couchbase seeded with initial data.');
-        data = seeded;
+        cbData = seeded;
       } else {
         console.error('❌ Couchbase read error:', err.message || err);
-        data = initialData;
       }
     }
   }
 
-  // LOCAL FILE FALLBACK MODE
-  if (!data) {
-    try {
-      if (!fs.existsSync(DB_FILE)) {
-        const seeded = seedProducts({ ...initialData });
-        fs.writeFileSync(DB_FILE, JSON.stringify(seeded, null, 2));
-        data = seeded;
-      } else {
-        const raw = fs.readFileSync(DB_FILE, 'utf8');
-        data = JSON.parse(raw);
-      }
-    } catch (err) {
-      console.error('❌ DB read error, using initial data:', err);
-      data = initialData;
-    }
+  // Merge fileData and cbData so added products/categories are never lost across logouts/logins
+  let finalData = cbData || fileData || seedProducts({ ...initialData });
+
+  if (fileData && cbData) {
+    // Merge products
+    const productMap = new Map();
+    (fileData.products || []).forEach(p => productMap.set(p.id, p));
+    (cbData.products || []).forEach(p => productMap.set(p.id, p));
+    finalData.products = Array.from(productMap.values());
+
+    // Merge categories
+    const catMap = new Map();
+    (fileData.categories || []).forEach(c => catMap.set(c.id, c));
+    (cbData.categories || []).forEach(c => catMap.set(c.id, c));
+    finalData.categories = Array.from(catMap.values());
+
+    // Merge subcategories
+    const subCatMap = new Map();
+    (fileData.subCategories || []).forEach(s => subCatMap.set(s.id, s));
+    (cbData.subCategories || []).forEach(s => subCatMap.set(s.id, s));
+    finalData.subCategories = Array.from(subCatMap.values());
+
+    // Merge users
+    const userMap = new Map();
+    (fileData.users || []).forEach(u => userMap.set(u.id, u));
+    (cbData.users || []).forEach(u => userMap.set(u.id, u));
+    finalData.users = Array.from(userMap.values());
   }
 
-  // Update cache
-  cachedData = data;
+  // Auto-sync merged dataset back to disk so db_data.json is always complete
+  try {
+    fs.writeFileSync(DB_FILE, JSON.stringify(finalData, null, 2));
+  } catch (e) {}
+
+  cachedData = finalData;
   cacheTimestamp = Date.now();
-  return data;
+  return finalData;
 }
 
 async function writeData(data) {
-  // Invalidate cache on write so next read gets fresh data
+  // Invalidate in-memory cache on write so next read gets fresh data
   cachedData = data;
   cacheTimestamp = Date.now();
 
-  await connectCouchbase();
+  // 1. Local disk JSON write (guarantees local db_data.json is always synced)
+  try {
+    fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2));
+    console.log('✅ Auto-synced changes to db_data.json');
+  } catch (err) {
+    console.error('❌ Local DB write error:', err);
+  }
 
-  // COUCHBASE MODE
+  // 2. Couchbase Cloud Persistence Sync
+  await connectCouchbase();
   if (isCouchbaseConnected) {
     try {
       await cbCollection.upsert(COUCHBASE_DOC_KEY, data);
-      return;
+      console.log('✅ Auto-synced changes to Couchbase cluster.');
     } catch (err) {
       console.error('❌ Couchbase write error:', err.message || err);
     }
-  }
-
-  // LOCAL FILE FALLBACK MODE
-  try {
-    fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2));
-  } catch (err) {
-    console.error('❌ DB write error:', err);
   }
 }
 

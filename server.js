@@ -11,6 +11,7 @@ const favoriteRoutes = require('./routes/favoriteRoutes');
 const cartRoutes = require('./routes/cartRoutes');
 const orderRoutes = require('./routes/orderRoutes');
 const adminRoutes = require('./routes/adminRoutes');
+const draftRoutes = require('./routes/draftRoutes');
 
 const path = require('path');
 
@@ -51,6 +52,7 @@ app.use('/api/favorites', favoriteRoutes);
 app.use('/api/cart', cartRoutes);
 app.use('/api/orders', orderRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/drafts', draftRoutes);
 
 app.get('/', (req, res) => {
   res.json({
