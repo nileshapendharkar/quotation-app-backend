@@ -12292,7 +12292,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "ROUND DRIP ISI",
     "Size / Variant": "12-4-30 CLASS 1",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "ROUND DRIPLINE 12MM ISI certified."
@@ -12305,7 +12305,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "ROUND DRIP ISI",
     "Size / Variant": "12-4-40 CLASS 1",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "ROUND DRIPLINE 12MM ISI certified."
@@ -12318,7 +12318,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "ROUND DRIP ISI",
     "Size / Variant": "12-4-50 CLASS 1",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "ROUND DRIPLINE 12MM ISI certified."
@@ -12331,7 +12331,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "ROUND DRIP ISI",
     "Size / Variant": "12-4-30 CLASS 3",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "ROUND DRIPLINE 12MM ISI certified."
@@ -12344,7 +12344,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "ROUND DRIP ISI",
     "Size / Variant": "12-4-40 CLASS 3",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "ROUND DRIPLINE 12MM ISI certified."
@@ -12357,7 +12357,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "ROUND DRIP ISI",
     "Size / Variant": "12-4-50 CLASS 3",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "ROUND DRIPLINE 12MM ISI certified."
@@ -12370,7 +12370,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "ROUND DRIP ISI",
     "Size / Variant": "12-4-30 CLASS 2",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "ROUND DRIPLINE 12MM ISI certified."
@@ -12383,7 +12383,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "ROUND DRIP ISI",
     "Size / Variant": "12-4-40 CLASS 2",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "ROUND DRIPLINE 12MM ISI certified."
@@ -12396,7 +12396,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "ROUND DRIP ISI",
     "Size / Variant": "12-4-50 CLASS 2",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "ROUND DRIPLINE 12MM ISI certified."
@@ -12409,7 +12409,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "ROUND DRIP ISI",
     "Size / Variant": "16-4-30 CLASS 1",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "ROUND DRIPLINE 16MM ISI certified."
@@ -12422,7 +12422,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "ROUND DRIP ISI",
     "Size / Variant": "16-4-40 CLASS 1",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "ROUND DRIPLINE 16MM ISI certified."
@@ -12435,7 +12435,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "ROUND DRIP ISI",
     "Size / Variant": "16-4-50 CLASS 1",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "ROUND DRIPLINE 16MM ISI certified."
@@ -12448,7 +12448,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "ROUND DRIP ISI",
     "Size / Variant": "16-4-30 CLASS 2",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "ROUND DRIPLINE 16MM ISI certified."
@@ -12461,7 +12461,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "ROUND DRIP ISI",
     "Size / Variant": "16-4-40 CLASS 2",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "ROUND DRIPLINE 16MM ISI certified."
@@ -12474,7 +12474,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "ROUND DRIP ISI",
     "Size / Variant": "16-4-50 CLASS 2",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "ROUND DRIPLINE 16MM ISI certified."
@@ -12526,7 +12526,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP ISI",
     "Size / Variant": "12-4-30 CLASS 2",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "FLAT DRIPLINE 12MM ISI certified."
@@ -12539,7 +12539,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP ISI",
     "Size / Variant": "12-4-40 CLASS 2",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "FLAT DRIPLINE 12MM ISI certified."
@@ -12552,7 +12552,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP ISI",
     "Size / Variant": "12-4-50 CLASS 2",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "FLAT DRIPLINE 12MM ISI certified."
@@ -12565,7 +12565,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP ISI",
     "Size / Variant": "12-4-30 CLASS 3",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "FLAT DRIPLINE 12MM ISI certified."
@@ -12578,7 +12578,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP ISI",
     "Size / Variant": "12-4-40 CLASS 3",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "FLAT DRIPLINE 12MM ISI certified."
@@ -12591,7 +12591,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP ISI",
     "Size / Variant": "12-4-50 CLASS 3",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "FLAT DRIPLINE 12MM ISI certified."
@@ -12604,7 +12604,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP ISI",
     "Size / Variant": "16-4-30 CLASS 1",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "FLAT DRIPLINE 16MM ISI certified."
@@ -12617,7 +12617,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP ISI",
     "Size / Variant": "16-4-40 CLASS 1",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "FLAT DRIPLINE 16MM ISI certified."
@@ -12630,7 +12630,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP ISI",
     "Size / Variant": "16-4-50 CLASS 1",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "FLAT DRIPLINE 16MM ISI certified."
@@ -12643,7 +12643,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP ISI",
     "Size / Variant": "16-4-30 CLASS 2",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "FLAT DRIPLINE 16MM ISI certified."
@@ -12656,7 +12656,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP ISI",
     "Size / Variant": "16-4-40 CLASS 2",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "FLAT DRIPLINE 16MM ISI certified."
@@ -12669,7 +12669,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP ISI",
     "Size / Variant": "16-4-50 CLASS 2",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "FLAT DRIPLINE 16MM ISI certified."
@@ -12682,7 +12682,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP ISI",
     "Size / Variant": "20-4-30 CLASS 1",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "FLAT DRIPLINE 20MM ISI certified."
@@ -12695,7 +12695,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP ISI",
     "Size / Variant": "20-4-40 CLASS 1",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "FLAT DRIPLINE 20MM ISI certified."
@@ -12708,7 +12708,7 @@
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP ISI",
     "Size / Variant": "20-4-50 CLASS 1",
-    "UOM": "BDL",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "FLAT DRIPLINE 20MM ISI certified."
