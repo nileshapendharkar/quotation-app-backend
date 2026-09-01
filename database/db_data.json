@@ -180,18 +180,22 @@
       "categoryId": "cat_tanks",
       "categoryName": "Water Storage Tanks",
       "image": "/images/tanks/Blow 10 Layer Gold.png",
-      "description": "HDPE 10L GOLD GAP. Available sizes: 300, 500, 750, 1000.",
+      "description": "HDPE 10L GOLD GAP. Available sizes: 300, 500, 750, 1000, 1500, 2000.",
       "sizes": [
         "300",
         "500",
         "750",
-        "1000"
+        "1000",
+        "1500",
+        "2000"
       ],
       "sizeProductCodes": {
         "300": "FG-400128",
         "500": "FG-400124",
         "750": "FG-400125",
-        "1000": "FG-400126"
+        "1000": "FG-400126",
+        "1500": "FG-400085",
+        "2000": "FG-400084"
       },
       "subcategoryId": "subcat_tanks_blow",
       "status": "Active",
