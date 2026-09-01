@@ -1333,7 +1333,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1/2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 50,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 13.5) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1346,7 +1346,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1/2\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 50,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 13.5) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1359,7 +1359,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "3/4\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 50,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 13.5) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1372,7 +1372,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "3/4\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 50,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 13.5) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1385,7 +1385,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 25,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 13.5) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1398,7 +1398,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 25,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 13.5) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1411,7 +1411,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/4\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 20,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 13.5) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1424,7 +1424,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/4\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 20,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 13.5) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1437,7 +1437,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 13.5) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1450,7 +1450,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/2\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 13.5) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1463,7 +1463,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 13.5) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1476,7 +1476,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "2\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 13.5) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1489,7 +1489,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1/2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 50,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 11) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1502,7 +1502,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1/2\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 50,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 11) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1515,7 +1515,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "3/4\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 50,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 11) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1528,7 +1528,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "3/4\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 50,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 11) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1541,7 +1541,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 25,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 11) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1554,7 +1554,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 25,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 11) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1567,7 +1567,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/4\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 20,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 11) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1580,7 +1580,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/4\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 20,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 11) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1593,7 +1593,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 11) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1606,7 +1606,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/2\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 11) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1619,7 +1619,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 11) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1632,7 +1632,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "2\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "CPVC PIPES (SDR 11) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\"."
@@ -1645,7 +1645,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "2 1/2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 5,
     "Status": "Active",
     "Description": "CPVC PIPES (SCH-80). Available in 3MTR and 5MTR lengths. Sizes: 2 1/2\", 3\", 4\"."
@@ -1658,7 +1658,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "2 1/2\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 5,
     "Status": "Active",
     "Description": "CPVC PIPES (SCH-80). Available in 3MTR and 5MTR lengths. Sizes: 2 1/2\", 3\", 4\"."
@@ -1671,7 +1671,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "3\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 4,
     "Status": "Active",
     "Description": "CPVC PIPES (SCH-80). Available in 3MTR and 5MTR lengths. Sizes: 2 1/2\", 3\", 4\"."
@@ -1684,7 +1684,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "3\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 4,
     "Status": "Active",
     "Description": "CPVC PIPES (SCH-80). Available in 3MTR and 5MTR lengths. Sizes: 2 1/2\", 3\", 4\"."
@@ -1697,7 +1697,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "4\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 2,
     "Status": "Active",
     "Description": "CPVC PIPES (SCH-80). Available in 3MTR and 5MTR lengths. Sizes: 2 1/2\", 3\", 4\"."
@@ -1710,7 +1710,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "4\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 2,
     "Status": "Active",
     "Description": "CPVC PIPES (SCH-80). Available in 3MTR and 5MTR lengths. Sizes: 2 1/2\", 3\", 4\"."
@@ -1723,7 +1723,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "2 1/2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 5,
     "Status": "Active",
     "Description": "CPVC PIPES (SCH-40). Available in 3MTR and 5MTR lengths. Sizes: 2 1/2\", 3\", 4\"."
@@ -1736,7 +1736,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "2 1/2\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 5,
     "Status": "Active",
     "Description": "CPVC PIPES (SCH-40). Available in 3MTR and 5MTR lengths. Sizes: 2 1/2\", 3\", 4\"."
@@ -1749,7 +1749,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "3\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 4,
     "Status": "Active",
     "Description": "CPVC PIPES (SCH-40). Available in 3MTR and 5MTR lengths. Sizes: 2 1/2\", 3\", 4\"."
@@ -1762,7 +1762,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "3\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 4,
     "Status": "Active",
     "Description": "CPVC PIPES (SCH-40). Available in 3MTR and 5MTR lengths. Sizes: 2 1/2\", 3\", 4\"."
@@ -1775,7 +1775,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "4\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 2,
     "Status": "Active",
     "Description": "CPVC PIPES (SCH-40). Available in 3MTR and 5MTR lengths. Sizes: 2 1/2\", 3\", 4\"."
@@ -1788,7 +1788,7 @@
     "Category": "CPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "4\" - 5MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 2,
     "Status": "Active",
     "Description": "CPVC PIPES (SCH-40). Available in 3MTR and 5MTR lengths. Sizes: 2 1/2\", 3\", 4\"."
@@ -3608,7 +3608,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1/2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 50,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-40). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3621,7 +3621,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1/2\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 25,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-40). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3634,7 +3634,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "3/4\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 50,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-40). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3647,7 +3647,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "3/4\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 25,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-40). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3660,7 +3660,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 30,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-40). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3673,7 +3673,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 15,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-40). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3686,7 +3686,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/4\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 15,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-40). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3699,7 +3699,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/4\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 15,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-40). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3712,7 +3712,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-40). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3725,7 +3725,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/2\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-40). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3738,7 +3738,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 6,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-40). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3751,7 +3751,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "2\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 6,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-40). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3764,7 +3764,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1/2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 50,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3777,7 +3777,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1/2\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 25,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3790,7 +3790,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "3/4\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 50,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3803,7 +3803,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "3/4\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 25,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3816,7 +3816,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 30,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3829,7 +3829,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 15,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3842,7 +3842,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/4\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 15,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3855,7 +3855,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/4\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 15,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3868,7 +3868,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3881,7 +3881,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/2\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3894,7 +3894,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 6,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3907,7 +3907,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "2\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 6,
     "Status": "Active",
     "Description": "UPVC PIPES (SCH-80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3920,7 +3920,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1/2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 50,
     "Status": "Active",
     "Description": "UPVC THRD (SCH 80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3933,7 +3933,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1/2\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 25,
     "Status": "Active",
     "Description": "UPVC THRD (SCH 80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3946,7 +3946,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "3/4\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 50,
     "Status": "Active",
     "Description": "UPVC THRD (SCH 80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3959,7 +3959,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "3/4\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 25,
     "Status": "Active",
     "Description": "UPVC THRD (SCH 80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3972,7 +3972,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 30,
     "Status": "Active",
     "Description": "UPVC THRD (SCH 80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3985,7 +3985,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 15,
     "Status": "Active",
     "Description": "UPVC THRD (SCH 80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -3998,7 +3998,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/4\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 15,
     "Status": "Active",
     "Description": "UPVC THRD (SCH 80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -4011,7 +4011,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/4\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 15,
     "Status": "Active",
     "Description": "UPVC THRD (SCH 80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -4024,7 +4024,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "UPVC THRD (SCH 80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -4037,7 +4037,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "1 1/2\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "UPVC THRD (SCH 80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -4050,7 +4050,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "2\" - 3MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 6,
     "Status": "Active",
     "Description": "UPVC THRD (SCH 80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
@@ -4063,7 +4063,7 @@
     "Category": "UPVC Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "2\" - 6MTR",
-    "UOM": "BOX",
+    "UOM": "BDL",
     "Packing / Pack Size": 6,
     "Status": "Active",
     "Description": "UPVC THRD (SCH 80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR."
