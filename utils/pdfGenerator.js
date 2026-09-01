@@ -1,5 +1,35 @@
 const PDFDocument = require('pdfkit');
 
+const columns = [
+  { id: 'productCode', label: 'ProductCode', x: 40, width: 75, align: 'left', fontColor: '#0369a1' },
+  { id: 'productName', label: 'Product Name', x: 115, width: 150, align: 'left', fontColor: '#0f172a', isBold: true },
+  { id: 'size', label: 'Size', x: 265, width: 55, align: 'center', fontColor: '#334155' },
+  { id: 'packing', label: 'Packing', x: 320, width: 50, align: 'center', fontColor: '#334155' },
+  { id: 'quantity', label: 'Quantity', x: 370, width: 50, align: 'center', fontColor: '#0284c7', isBold: true },
+  { id: 'uom', label: 'UOM', x: 420, width: 40, align: 'center', fontColor: '#334155' },
+  { id: 'total', label: 'Total', x: 460, width: 95, align: 'right', fontColor: '#0f172a', isBold: true }
+];
+
+function renderTableHeader(doc, y) {
+  doc
+    .fillColor('#0284c7')
+    .rect(40, y, 515, 28)
+    .fill();
+
+  columns.forEach(col => {
+    doc
+      .fillColor('#ffffff')
+      .fontSize(8.5)
+      .font('Helvetica-Bold')
+      .text(col.label, col.x + 4, y + 9, {
+        width: col.width - 8,
+        align: col.align
+      });
+  });
+
+  return y + 28;
+}
+
 function generateQuotationPDF(order, res) {
   const doc = new PDFDocument({ margin: 40, size: 'A4' });
 
@@ -80,30 +110,22 @@ function generateQuotationPDF(order, res) {
 
   y += 115;
 
-  // Quotation Items Header
-  doc
-    .fillColor('#0284c7')
-    .rect(40, y, 515, 30)
-    .fill();
+  // Render Table Header
+  y = renderTableHeader(doc, y);
 
-  doc
-    .fillColor('#ffffff')
-    .fontSize(8)
-    .font('Helvetica-Bold')
-    .text('ProductCode', 45, y + 10)
-    .text('Product Name', 105, y + 10)
-    .text('Size', 265, y + 10)
-    .text('Packing', 315, y + 10)
-    .text('Quantity', 370, y + 10)
-    .text('UOM', 430, y + 10)
-    .text('Total', 480, y + 10, { width: 65, align: 'right' });
+  const rowHeight = 32;
 
-  y += 30;
-
-  // Items List (strictly NO PRICE!)
+  // Render Items List
   order.items.forEach((item, index) => {
-    const bgColor = index % 2 === 0 ? '#ffffff' : '#f1f5f9';
-    const rowHeight = 36;
+    // Check page break before rendering row
+    if (y + rowHeight > 740) {
+      doc.addPage();
+      y = 40;
+      y = renderTableHeader(doc, y);
+    }
+
+    const bgColor = index % 2 === 0 ? '#ffffff' : '#f8fafc';
+    const cellY = y + 9;
 
     doc
       .fillColor(bgColor)
@@ -111,75 +133,44 @@ function generateQuotationPDF(order, res) {
       .fill();
 
     doc
-      .strokeColor('#cbd5e1')
+      .strokeColor('#e2e8f0')
       .lineWidth(0.5)
       .rect(40, y, 515, rowHeight)
       .stroke();
 
-    const cellY = y + 11;
+    columns.forEach(col => {
+      let val = item[col.id];
+      if (val === undefined || val === null || val === '') {
+        val = '—';
+      } else {
+        val = String(val);
+      }
 
-    // Product Code
-    doc
-      .font('Helvetica')
-      .fillColor('#0369a1')
-      .fontSize(8)
-      .text(item.productCode || '—', 45, cellY, { width: 55, ellipsis: true });
+      const fontName = col.isBold ? 'Helvetica-Bold' : 'Helvetica';
 
-    // Product Name
-    doc
-      .font('Helvetica-Bold')
-      .fillColor('#1e293b')
-      .fontSize(8)
-      .text(item.productName, 105, cellY, { width: 155, ellipsis: true });
-
-    // Size
-    doc
-      .font('Helvetica')
-      .fillColor('#334155')
-      .fontSize(8)
-      .text(item.size || '—', 265, cellY, { width: 45 });
-
-    // Packing
-    doc
-      .font('Helvetica')
-      .fillColor('#334155')
-      .fontSize(8)
-      .text(item.packing || '—', 315, cellY, { width: 50 });
-
-    // Quantity
-    doc
-      .font('Helvetica-Bold')
-      .fillColor('#0284c7')
-      .fontSize(8)
-      .text(item.quantity, 370, cellY, { width: 50 });
-
-    // UOM
-    doc
-      .font('Helvetica')
-      .fillColor('#334155')
-      .fontSize(8)
-      .text(item.uom || '—', 430, cellY, { width: 40 });
-
-    // Total
-    doc
-      .font('Helvetica-Bold')
-      .fillColor('#0f172a')
-      .fontSize(8)
-      .text(item.total || '—', 480, cellY, { width: 65, align: 'right' });
+      doc
+        .font(fontName)
+        .fillColor(col.fontColor || '#1e293b')
+        .fontSize(8)
+        .text(val, col.x + 4, cellY, {
+          width: col.width - 8,
+          align: col.align,
+          ellipsis: true
+        });
+    });
 
     y += rowHeight;
-
-    if (y > 720) {
-      doc.addPage();
-      y = 40;
-    }
   });
-
 
   y += 20;
 
   // Notes & Instructions
   if (order.notes) {
+    if (y + 60 > 760) {
+      doc.addPage();
+      y = 40;
+    }
+
     doc
       .fillColor('#fffbe1')
       .rect(40, y, 515, 50)
@@ -202,6 +193,11 @@ function generateQuotationPDF(order, res) {
   }
 
   // Footer Disclaimer
+  if (y + 50 > 780) {
+    doc.addPage();
+    y = 40;
+  }
+
   doc
     .fillColor('#64748b')
     .fontSize(9)
@@ -216,3 +212,4 @@ function generateQuotationPDF(order, res) {
 module.exports = {
   generateQuotationPDF
 };
+

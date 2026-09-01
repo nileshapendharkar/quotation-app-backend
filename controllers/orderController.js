@@ -182,22 +182,40 @@ exports.downloadQuotationPDF = async (req, res) => {
       return res.status(404).json({ success: false, message: 'Quotation request not found' });
     }
 
-    // Inject uom and total into items for PDF generation
+    // Inject uom, productCode, packing and total into items for PDF generation
     order.items = order.items.map(item => {
       const prod = data.products.find(p => p.id === item.productId);
+      const matchedSizeKey = prod && prod.sizeProductCodes ? findSizeKey(prod.sizeProductCodes, item.size) : null;
+      const matchedPackKey = prod && prod.packSizes ? findSizeKey(prod.packSizes, item.size) : null;
+
+      const productCode = item.productCode || (matchedSizeKey ? prod.sizeProductCodes[matchedSizeKey] : (prod ? (prod.productCode || prod.code || '') : '')) || '—';
+      const size = item.size || matchedSizeKey || '—';
+      const packing = item.packing || (matchedPackKey ? prod.packSizes[matchedPackKey] : (prod ? (prod.packing || prod.packSize || '') : '')) || '—';
       const uom = item.uom || (prod ? prod.uom : 'Nos');
       const categoryName = item.categoryName || (prod ? prod.categoryName : '');
       
-      let total = 0;
+      let formattedTotal = '—';
+      let numericTotal = 0;
       if (categoryName.toLowerCase().includes('tank')) {
-        const parsedSize = parseFloat(item.size);
-        if (!isNaN(parsedSize)) total = parsedSize * item.quantity;
+        const parsedSize = parseFloat(size);
+        if (!isNaN(parsedSize)) numericTotal = parsedSize * item.quantity;
       } else {
-        const parsedPacking = parseFloat(item.packing);
-        if (!isNaN(parsedPacking)) total = parsedPacking * item.quantity;
+        const parsedPacking = parseFloat(packing);
+        if (!isNaN(parsedPacking)) numericTotal = parsedPacking * item.quantity;
       }
 
-      return { ...item, uom, total };
+      if (numericTotal > 0) {
+        formattedTotal = numericTotal.toLocaleString('en-IN');
+      }
+
+      return {
+        ...item,
+        productCode,
+        size,
+        packing,
+        uom,
+        total: formattedTotal
+      };
     });
 
     generateQuotationPDF(order, res);
@@ -241,26 +259,37 @@ exports.downloadQuotationExcel = async (req, res) => {
 
     order.items.forEach(item => {
       const prod = data.products.find(p => p.id === item.productId);
+      const matchedSizeKey = prod && prod.sizeProductCodes ? findSizeKey(prod.sizeProductCodes, item.size) : null;
+      const matchedPackKey = prod && prod.packSizes ? findSizeKey(prod.packSizes, item.size) : null;
+
+      const productCode = item.productCode || (matchedSizeKey ? prod.sizeProductCodes[matchedSizeKey] : (prod ? (prod.productCode || prod.code || '') : '')) || '—';
+      const size = item.size || matchedSizeKey || '—';
+      const packing = item.packing || (matchedPackKey ? prod.packSizes[matchedPackKey] : (prod ? (prod.packing || prod.packSize || '') : '')) || '—';
       const uom = item.uom || (prod ? prod.uom : 'Nos');
       const categoryName = item.categoryName || (prod ? prod.categoryName : '');
 
-      let total = 0;
+      let formattedTotal = '—';
+      let numericTotal = 0;
       if (categoryName.toLowerCase().includes('tank')) {
-        const parsedSize = parseFloat(item.size);
-        if (!isNaN(parsedSize)) total = parsedSize * item.quantity;
+        const parsedSize = parseFloat(size);
+        if (!isNaN(parsedSize)) numericTotal = parsedSize * item.quantity;
       } else {
-        const parsedPacking = parseFloat(item.packing);
-        if (!isNaN(parsedPacking)) total = parsedPacking * item.quantity;
+        const parsedPacking = parseFloat(packing);
+        if (!isNaN(parsedPacking)) numericTotal = parsedPacking * item.quantity;
+      }
+
+      if (numericTotal > 0) {
+        formattedTotal = numericTotal.toLocaleString('en-IN');
       }
 
       rows.push([
-        item.productCode || '—',
+        productCode,
         item.productName,
-        item.size || '—',
-        item.packing || '—',
+        size,
+        packing,
         item.quantity,
         uom,
-        total || '—'
+        formattedTotal
       ]);
     });
 
