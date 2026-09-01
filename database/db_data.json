@@ -5544,7 +5544,7 @@
         "12-4-50 CLASS 2"
       ],
       "status": "Active",
-      "uom": "ROLL",
+      "uom": "BDL",
       "sizeProductCodes": {
         "12-4-30 CLASS 1": "FG-401742",
         "12-4-40 CLASS 1": "FG-401743",
@@ -5574,7 +5574,7 @@
         "16-4-50 CLASS 2"
       ],
       "status": "Active",
-      "uom": "ROLL",
+      "uom": "BDL",
       "sizeProductCodes": {
         "16-4-30 CLASS 1": "FG-401745",
         "16-4-40 CLASS 1": "FG-401746",
@@ -5617,7 +5617,7 @@
         "12-4-50 CLASS 3"
       ],
       "status": "Active",
-      "uom": "ROLL",
+      "uom": "BDL",
       "sizeProductCodes": {
         "12-4-30 CLASS 2": "FG-401763",
         "12-4-40 CLASS 2": "FG-401764",
@@ -5644,7 +5644,7 @@
         "16-4-50 CLASS 2"
       ],
       "status": "Active",
-      "uom": "ROLL",
+      "uom": "BDL",
       "sizeProductCodes": {
         "16-4-30 CLASS 1": "FG-401760",
         "16-4-40 CLASS 1": "FG-401761",
@@ -5668,7 +5668,7 @@
         "20-4-50 CLASS 1"
       ],
       "status": "Active",
-      "uom": "ROLL",
+      "uom": "BDL",
       "sizeProductCodes": {
         "20-4-30 CLASS 1": "FG-401771",
         "20-4-40 CLASS 1": "FG-401772",
