@@ -6406,8 +6406,11 @@
       "status": "Active",
       "uom": "NOS",
       "sizeProductCodes": {
-        "1/2 inch": "FG-401552"
-      }
+        "1/2 inch": "FG-401552",
+        "1/2": "FG-401552",
+        "1/2\"": "FG-401552"
+      },
+      "productCode": "FG-401552"
     },
     {
       "id": "prod_faucet_2",
@@ -6422,8 +6425,11 @@
       "status": "Active",
       "uom": "NOS",
       "sizeProductCodes": {
-        "1/2 inch": "FG-401551"
-      }
+        "1/2 inch": "FG-401551",
+        "1/2": "FG-401551",
+        "1/2\"": "FG-401551"
+      },
+      "productCode": "FG-401551"
     },
     {
       "id": "prod_faucet_3",
@@ -6438,8 +6444,11 @@
       "status": "Active",
       "uom": "NOS",
       "sizeProductCodes": {
-        "1/2 inch": "FG-401549"
-      }
+        "1/2 inch": "FG-401549",
+        "1/2": "FG-401549",
+        "1/2\"": "FG-401549"
+      },
+      "productCode": "FG-401549"
     },
     {
       "id": "prod_faucet_4",
@@ -6454,8 +6463,11 @@
       "status": "Active",
       "uom": "NOS",
       "sizeProductCodes": {
-        "1/2 inch": "FG-401546"
-      }
+        "1/2 inch": "FG-401546",
+        "1/2": "FG-401546",
+        "1/2\"": "FG-401546"
+      },
+      "productCode": "FG-401546"
     },
     {
       "id": "prod_faucet_5",
@@ -6470,8 +6482,11 @@
       "status": "Active",
       "uom": "NOS",
       "sizeProductCodes": {
-        "1/2 inch": "FG-401547"
-      }
+        "1/2 inch": "FG-401547",
+        "1/2": "FG-401547",
+        "1/2\"": "FG-401547"
+      },
+      "productCode": "FG-401547"
     },
     {
       "id": "prod_faucet_6",
@@ -6486,8 +6501,11 @@
       "status": "Active",
       "uom": "NOS",
       "sizeProductCodes": {
-        "1/2 inch": "FG-401550"
-      }
+        "1/2 inch": "FG-401550",
+        "1/2": "FG-401550",
+        "1/2\"": "FG-401550"
+      },
+      "productCode": "FG-401550"
     },
     {
       "id": "prod_faucet_7",
@@ -6502,8 +6520,11 @@
       "status": "Active",
       "uom": "NOS",
       "sizeProductCodes": {
-        "1/2 inch": "FG-401548"
-      }
+        "1/2 inch": "FG-401548",
+        "1/2": "FG-401548",
+        "1/2\"": "FG-401548"
+      },
+      "productCode": "FG-401548"
     },
     {
       "id": "prod_faucet_8",
@@ -6518,8 +6539,11 @@
       "status": "Active",
       "uom": "NOS",
       "sizeProductCodes": {
-        "1/2 inch": "FG-401568"
-      }
+        "1/2 inch": "FG-401568",
+        "1/2": "FG-401568",
+        "1/2\"": "FG-401568"
+      },
+      "productCode": "FG-401568"
     },
     {
       "id": "prod_faucet_9",
@@ -6534,8 +6558,11 @@
       "status": "Active",
       "uom": "NOS",
       "sizeProductCodes": {
-        "1/2 inch": "FG-401567"
-      }
+        "1/2 inch": "FG-401567",
+        "1/2": "FG-401567",
+        "1/2\"": "FG-401567"
+      },
+      "productCode": "FG-401567"
     },
     {
       "id": "prod_faucet_10",
@@ -6550,8 +6577,11 @@
       "status": "Active",
       "uom": "NOS",
       "sizeProductCodes": {
-        "1/2 inch": "FG-401562"
-      }
+        "1/2 inch": "FG-401562",
+        "1/2": "FG-401562",
+        "1/2\"": "FG-401562"
+      },
+      "productCode": "FG-401562"
     },
     {
       "id": "prod_faucet_11",
@@ -6566,8 +6596,11 @@
       "status": "Active",
       "uom": "NOS",
       "sizeProductCodes": {
-        "1/2 inch": "FG-401563"
-      }
+        "1/2 inch": "FG-401563",
+        "1/2": "FG-401563",
+        "1/2\"": "FG-401563"
+      },
+      "productCode": "FG-401563"
     },
     {
       "id": "prod_faucet_12",
@@ -6582,8 +6615,11 @@
       "status": "Active",
       "uom": "NOS",
       "sizeProductCodes": {
-        "1/2 inch": "FG-401564"
-      }
+        "1/2 inch": "FG-401564",
+        "1/2": "FG-401564",
+        "1/2\"": "FG-401564"
+      },
+      "productCode": "FG-401564"
     },
     {
       "id": "prod_faucet_13",
@@ -6614,8 +6650,11 @@
       "status": "Active",
       "uom": "NOS",
       "sizeProductCodes": {
-        "1/2 inch": "FG-401566"
-      }
+        "1/2 inch": "FG-401566",
+        "1/2": "FG-401566",
+        "1/2\"": "FG-401566"
+      },
+      "productCode": "FG-401566"
     },
     {
       "id": "prod_faucet_15",
@@ -6630,8 +6669,11 @@
       "status": "Active",
       "uom": "NOS",
       "sizeProductCodes": {
-        "1/2 inch": "FG-401565"
-      }
+        "1/2 inch": "FG-401565",
+        "1/2": "FG-401565",
+        "1/2\"": "FG-401565"
+      },
+      "productCode": "FG-401565"
     },
     {
       "id": "prod_faucet_16",
@@ -6646,8 +6688,11 @@
       "status": "Active",
       "uom": "NOS",
       "sizeProductCodes": {
-        "1/2 inch": "FG-401560"
-      }
+        "1/2 inch": "FG-401560",
+        "1/2": "FG-401560",
+        "1/2\"": "FG-401560"
+      },
+      "productCode": "FG-401560"
     },
     {
       "id": "prod_faucet_17",
