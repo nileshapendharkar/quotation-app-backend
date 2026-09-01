@@ -5991,9 +5991,13 @@
         "15 Inch"
       ],
       "status": "Active",
-      "uom": "NOS",
+      "uom": "BAGS",
       "sizeProductCodes": {
         "15 Inch": "FG-401569"
+      },
+      "packing": "75",
+      "packSizes": {
+        "15 Inch": "75"
       }
     },
     {
@@ -6007,9 +6011,13 @@
         "15 Inch"
       ],
       "status": "Active",
-      "uom": "NOS",
+      "uom": "BAGS",
       "sizeProductCodes": {
         "15 Inch": "FG-401570"
+      },
+      "packing": "75",
+      "packSizes": {
+        "15 Inch": "75"
       }
     },
     {
@@ -6023,9 +6031,13 @@
         "16 Inch"
       ],
       "status": "Active",
-      "uom": "NOS",
+      "uom": "BAGS",
       "sizeProductCodes": {
         "16 Inch": "FG-401571"
+      },
+      "packing": "60",
+      "packSizes": {
+        "16 Inch": "60"
       }
     },
     {
@@ -6039,9 +6051,13 @@
         "18 Inch"
       ],
       "status": "Active",
-      "uom": "NOS",
+      "uom": "BAGS",
       "sizeProductCodes": {
         "18 Inch": "FG-401573"
+      },
+      "packing": "50",
+      "packSizes": {
+        "18 Inch": "50"
       }
     },
     {
@@ -6055,9 +6071,13 @@
         "20 Inch"
       ],
       "status": "Active",
-      "uom": "NOS",
+      "uom": "BAGS",
       "sizeProductCodes": {
         "20 Inch": "FG-401574"
+      },
+      "packing": "40",
+      "packSizes": {
+        "20 Inch": "40"
       }
     },
     {
@@ -6071,9 +6091,13 @@
         "17 Inch"
       ],
       "status": "Active",
-      "uom": "NOS",
+      "uom": "BAGS",
       "sizeProductCodes": {
         "17 Inch": "FG-401572"
+      },
+      "packing": "60",
+      "packSizes": {
+        "17 Inch": "60"
       }
     },
     {
@@ -6087,9 +6111,13 @@
         "22 Inch"
       ],
       "status": "Active",
-      "uom": "NOS",
+      "uom": "BAGS",
       "sizeProductCodes": {
         "22 Inch": "FG-401575"
+      },
+      "packing": "40",
+      "packSizes": {
+        "22 Inch": "40"
       }
     },
     {
@@ -6103,9 +6131,13 @@
         "16 Inch"
       ],
       "status": "Active",
-      "uom": "NOS",
+      "uom": "BAGS",
       "sizeProductCodes": {
         "16 Inch": "FG-401578"
+      },
+      "packing": "60",
+      "packSizes": {
+        "16 Inch": "60"
       }
     },
     {
@@ -6119,9 +6151,13 @@
         "17 Inch"
       ],
       "status": "Active",
-      "uom": "NOS",
+      "uom": "BAGS",
       "sizeProductCodes": {
         "17 Inch": "FG-401579"
+      },
+      "packing": "60",
+      "packSizes": {
+        "17 Inch": "60"
       }
     },
     {
