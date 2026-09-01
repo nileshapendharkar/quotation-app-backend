@@ -4394,7 +4394,7 @@
         "75MM"
       ],
       "status": "Active",
-      "uom": "MTR",
+      "uom": "ROLL",
       "sizeProductCodes": {
         "32MM": "FG-401339",
         "40MM": "FG-401221",
@@ -4415,7 +4415,7 @@
         "20MM - 300MTR"
       ],
       "status": "Active",
-      "uom": "MTR",
+      "uom": "ROLL",
       "packSizes": {
         "20MM - 500MTR": 500,
         "20MM - 300MTR": 300

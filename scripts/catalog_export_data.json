@@ -8873,7 +8873,7 @@
     "Category": "HDPE PIPE & FITTINGS",
     "SubCategory": "General",
     "Size / Variant": "32MM",
-    "UOM": "MTR",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "HDPE PIPE PE63. Available sizes: 32MM, 40MM, 50MM, 63MM, 75MM."
@@ -8925,7 +8925,7 @@
     "Category": "HDPE PIPE & FITTINGS",
     "SubCategory": "General",
     "Size / Variant": "75MM",
-    "UOM": "MTR",
+    "UOM": "ROLL",
     "Packing / Pack Size": "-",
     "Status": "Active",
     "Description": "HDPE PIPE PE63. Available sizes: 32MM, 40MM, 50MM, 63MM, 75MM."
@@ -8938,7 +8938,7 @@
     "Category": "HDPE PIPE & FITTINGS",
     "SubCategory": "General",
     "Size / Variant": "20MM - 500MTR",
-    "UOM": "MTR",
+    "UOM": "ROLL",
     "Packing / Pack Size": 500,
     "Status": "Active",
     "Description": "MDPE PIPES PE80 PN16 DN20MM. Medium Density Polyethylene Pipe. Available in 500MTR and 300MTR coils."
@@ -8951,7 +8951,7 @@
     "Category": "HDPE PIPE & FITTINGS",
     "SubCategory": "General",
     "Size / Variant": "20MM - 300MTR",
-    "UOM": "MTR",
+    "UOM": "ROLL",
     "Packing / Pack Size": 300,
     "Status": "Active",
     "Description": "MDPE PIPES PE80 PN16 DN20MM. Medium Density Polyethylene Pipe. Available in 500MTR and 300MTR coils."
