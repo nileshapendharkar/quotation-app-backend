@@ -6235,7 +6235,7 @@
     "SubCategory": "General",
     "Size / Variant": "2 1/2\" (75MM) - 3MTR",
     "UOM": "Nos",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 1,
     "Status": "Active",
     "Description": "SWR PIPES ISI RINGFIT (3 MTR). Available sizes: 2 1/2\" (75MM) - 3MTR, 3\" (90MM) - 3MTR, 4\" (110MM) - 3MTR, 6\" (160MM) - 3MTR."
   },
@@ -6248,7 +6248,7 @@
     "SubCategory": "General",
     "Size / Variant": "3\" (90MM) - 3MTR",
     "UOM": "Nos",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 1,
     "Status": "Active",
     "Description": "SWR PIPES ISI RINGFIT (3 MTR). Available sizes: 2 1/2\" (75MM) - 3MTR, 3\" (90MM) - 3MTR, 4\" (110MM) - 3MTR, 6\" (160MM) - 3MTR."
   },
@@ -6261,7 +6261,7 @@
     "SubCategory": "General",
     "Size / Variant": "4\" (110MM) - 3MTR",
     "UOM": "Nos",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 1,
     "Status": "Active",
     "Description": "SWR PIPES ISI RINGFIT (3 MTR). Available sizes: 2 1/2\" (75MM) - 3MTR, 3\" (90MM) - 3MTR, 4\" (110MM) - 3MTR, 6\" (160MM) - 3MTR."
   },
@@ -6274,7 +6274,7 @@
     "SubCategory": "General",
     "Size / Variant": "6\" (160MM) - 3MTR",
     "UOM": "Nos",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 1,
     "Status": "Active",
     "Description": "SWR PIPES ISI RINGFIT (3 MTR). Available sizes: 2 1/2\" (75MM) - 3MTR, 3\" (90MM) - 3MTR, 4\" (110MM) - 3MTR, 6\" (160MM) - 3MTR."
   },
@@ -6287,7 +6287,7 @@
     "SubCategory": "General",
     "Size / Variant": "2 1/2\" (75MM) 4KG - 3MTR",
     "UOM": "Nos",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 1,
     "Status": "Active",
     "Description": "SWR PIPES NISI RINGFIT (3 MTR). Available sizes: 2 1/2\" (75MM) 4KG - 3MTR, 3\" (90MM) 4KG - 3MTR, 4\" (110MM) 4KG - 3MTR, 6\" (160MM) 4KG - 3MTR."
   },
@@ -6300,7 +6300,7 @@
     "SubCategory": "General",
     "Size / Variant": "3\" (90MM) 4KG - 3MTR",
     "UOM": "Nos",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 1,
     "Status": "Active",
     "Description": "SWR PIPES NISI RINGFIT (3 MTR). Available sizes: 2 1/2\" (75MM) 4KG - 3MTR, 3\" (90MM) 4KG - 3MTR, 4\" (110MM) 4KG - 3MTR, 6\" (160MM) 4KG - 3MTR."
   },
@@ -6313,7 +6313,7 @@
     "SubCategory": "General",
     "Size / Variant": "4\" (110MM) 4KG - 3MTR",
     "UOM": "Nos",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 1,
     "Status": "Active",
     "Description": "SWR PIPES NISI RINGFIT (3 MTR). Available sizes: 2 1/2\" (75MM) 4KG - 3MTR, 3\" (90MM) 4KG - 3MTR, 4\" (110MM) 4KG - 3MTR, 6\" (160MM) 4KG - 3MTR."
   },
@@ -6326,7 +6326,7 @@
     "SubCategory": "General",
     "Size / Variant": "6\" (160MM) 4KG - 3MTR",
     "UOM": "Nos",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 1,
     "Status": "Active",
     "Description": "SWR PIPES NISI RINGFIT (3 MTR). Available sizes: 2 1/2\" (75MM) 4KG - 3MTR, 3\" (90MM) 4KG - 3MTR, 4\" (110MM) 4KG - 3MTR, 6\" (160MM) 4KG - 3MTR."
   },
@@ -8055,7 +8055,7 @@
     "SubCategory": "General",
     "Size / Variant": "59ML",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 30,
     "Status": "Active",
     "Description": "CPVC SOLVENT CEMENT (TIN). Available packaging sizes: 59ML, 118ML, 237ML."
   },
@@ -8068,7 +8068,7 @@
     "SubCategory": "General",
     "Size / Variant": "118ML",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 24,
     "Status": "Active",
     "Description": "CPVC SOLVENT CEMENT (TIN). Available packaging sizes: 59ML, 118ML, 237ML."
   },
@@ -8081,7 +8081,7 @@
     "SubCategory": "General",
     "Size / Variant": "237ML",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 24,
     "Status": "Active",
     "Description": "CPVC SOLVENT CEMENT (TIN). Available packaging sizes: 59ML, 118ML, 237ML."
   },
@@ -8094,7 +8094,7 @@
     "SubCategory": "General",
     "Size / Variant": "59ML",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 30,
     "Status": "Active",
     "Description": "UPVC SOLVENT CEMENT (TIN). Available packaging sizes: 59ML, 118ML, 237ML."
   },
@@ -8107,7 +8107,7 @@
     "SubCategory": "General",
     "Size / Variant": "118ML",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 24,
     "Status": "Active",
     "Description": "UPVC SOLVENT CEMENT (TIN). Available packaging sizes: 59ML, 118ML, 237ML."
   },
@@ -8120,7 +8120,7 @@
     "SubCategory": "General",
     "Size / Variant": "237ML",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 24,
     "Status": "Active",
     "Description": "UPVC SOLVENT CEMENT (TIN). Available packaging sizes: 59ML, 118ML, 237ML."
   },
@@ -8211,7 +8211,7 @@
     "SubCategory": "General",
     "Size / Variant": "50ML",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 36,
     "Status": "Active",
     "Description": "PVC SOLVENT CEMENT (PLASTIC BOTTLE). Available packaging sizes: 50ML, 100ML, 250ML."
   },
@@ -8224,7 +8224,7 @@
     "SubCategory": "General",
     "Size / Variant": "100ML",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 18,
     "Status": "Active",
     "Description": "PVC SOLVENT CEMENT (PLASTIC BOTTLE). Available packaging sizes: 50ML, 100ML, 250ML."
   },
@@ -8237,7 +8237,7 @@
     "SubCategory": "General",
     "Size / Variant": "250ML",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 12,
     "Status": "Active",
     "Description": "PVC SOLVENT CEMENT (PLASTIC BOTTLE). Available packaging sizes: 50ML, 100ML, 250ML."
   },
@@ -8341,7 +8341,7 @@
     "SubCategory": "General",
     "Size / Variant": "50ML",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 36,
     "Status": "Active",
     "Description": "RUBBER LUBRICANT (PLASTIC BOTTLE). Available packaging sizes: 50ML, 100ML, 250ML."
   },
@@ -8354,7 +8354,7 @@
     "SubCategory": "General",
     "Size / Variant": "100ML",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 18,
     "Status": "Active",
     "Description": "RUBBER LUBRICANT (PLASTIC BOTTLE). Available packaging sizes: 50ML, 100ML, 250ML."
   },
@@ -8367,7 +8367,7 @@
     "SubCategory": "General",
     "Size / Variant": "250ML",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 18,
     "Status": "Active",
     "Description": "RUBBER LUBRICANT (PLASTIC BOTTLE). Available packaging sizes: 50ML, 100ML, 250ML."
   },
@@ -14061,7 +14061,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 20,
     "Status": "Active",
     "Description": "EDGE SERIES SHORT BODY TAP high quality faucet."
   },
@@ -14074,7 +14074,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 18,
     "Status": "Active",
     "Description": "EDGE SERIES LONG BODY TAP high quality faucet."
   },
@@ -14087,7 +14087,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 8,
     "Status": "Active",
     "Description": "EDGE SERIES SWAN NECK high quality faucet."
   },
@@ -14100,7 +14100,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 30,
     "Status": "Active",
     "Description": "EDGE SERIES ANGULAR VALVE high quality faucet."
   },
@@ -14113,7 +14113,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 14,
     "Status": "Active",
     "Description": "EDGE SERIES PILLAR TAP high quality faucet."
   },
@@ -14126,7 +14126,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 6,
     "Status": "Active",
     "Description": "EDGE SERIES 2 WAY BIB TAB high quality faucet."
   },
@@ -14139,7 +14139,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 8,
     "Status": "Active",
     "Description": "EDGE SERIES SINK TAP high quality faucet."
   },
@@ -14152,7 +14152,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 52,
     "Status": "Active",
     "Description": "SMART SERIES SHORT BODY BIB TAP high quality faucet."
   },
@@ -14165,7 +14165,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 52,
     "Status": "Active",
     "Description": "SMART SERIES LONG BODY BIB TAP high quality faucet."
   },
@@ -14178,7 +14178,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 26,
     "Status": "Active",
     "Description": "SMART SERIES PILLAR TAP high quality faucet."
   },
@@ -14191,7 +14191,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 26,
     "Status": "Active",
     "Description": "SMART SERIES SINK TAP high quality faucet."
   },
@@ -14204,7 +14204,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 26,
     "Status": "Active",
     "Description": "SMART SERIES SWAN NECK high quality faucet."
   },
@@ -14217,7 +14217,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 52,
     "Status": "Active",
     "Description": "SMART SERIES ANGULAR VALVE high quality faucet."
   },
@@ -14230,7 +14230,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 26,
     "Status": "Active",
     "Description": "SMART SERIES 2 WAY ANGULAR VALVE high quality faucet."
   },
@@ -14243,7 +14243,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 26,
     "Status": "Active",
     "Description": "SMART SERIES 2 WAY BIB TAP high quality faucet."
   },
@@ -14256,7 +14256,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 52,
     "Status": "Active",
     "Description": "REGULAR SERIES SHORT BODY BIB TAP high quality faucet."
   },
@@ -14269,7 +14269,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 52,
     "Status": "Active",
     "Description": "REGULAR SERIES LONG BODY BIB TAP high quality faucet."
   },
@@ -14282,7 +14282,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 26,
     "Status": "Active",
     "Description": "REGULAR SERIES PILLAR TAP high quality faucet."
   },
@@ -14295,7 +14295,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 26,
     "Status": "Active",
     "Description": "REGULAR SERIES SINK TAP high quality faucet."
   },
@@ -14308,7 +14308,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 26,
     "Status": "Active",
     "Description": "REGULAR SERIES SWAN NECK high quality faucet."
   },
@@ -14321,7 +14321,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 52,
     "Status": "Active",
     "Description": "REGULAR SERIES ANGULAR VALVE high quality faucet."
   },
@@ -14334,7 +14334,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 26,
     "Status": "Active",
     "Description": "REGULAR SERIES 2 WAY ANGULAR VALVE high quality faucet."
   },
@@ -14347,7 +14347,7 @@
     "SubCategory": "General",
     "Size / Variant": "1/2 inch",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 26,
     "Status": "Active",
     "Description": "REGULAR SERIES 2 WAY BIB TAP high quality faucet."
   },
@@ -14360,7 +14360,7 @@
     "SubCategory": "General",
     "Size / Variant": "8L",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "8 Litre Single Side Handle Flushing Cistern."
   },
@@ -14373,7 +14373,7 @@
     "SubCategory": "General",
     "Size / Variant": "8L",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "8 Litre Center Single Push Flushing Cistern."
   },
@@ -14386,7 +14386,7 @@
     "SubCategory": "General",
     "Size / Variant": "10L",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "10 Litre Dual Flush Cistern."
   },
@@ -14399,7 +14399,7 @@
     "SubCategory": "General",
     "Size / Variant": "Standard",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 20,
     "Status": "Active",
     "Description": "EWC Toilet Seat Cover with integrated jet spray."
   },
@@ -14412,7 +14412,7 @@
     "SubCategory": "General",
     "Size / Variant": "10L",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "10 Litre Premium Dual Colour Dual Flush Cistern."
   },
@@ -14425,7 +14425,7 @@
     "SubCategory": "General",
     "Size / Variant": "10L",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 10,
     "Status": "Active",
     "Description": "10 Litre Economy Dual Colour Dual Flush Cistern."
   },
@@ -14438,7 +14438,7 @@
     "SubCategory": "General",
     "Size / Variant": "Standard",
     "UOM": "NOS",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": 20,
     "Status": "Active",
     "Description": "EWC Toilet Seat Cover without jet spray."
   }
