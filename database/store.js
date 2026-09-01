@@ -680,19 +680,6 @@ const initialData = {
         "1000L": "FG-401590"
       }
     },
-    {
-      id: "prod_tank_6",
-      name: "HDPE 6L GOLD GAP",
-      categoryId: "cat_tanks",
-      categoryName: "Water Storage Tanks",
-      image: "/images/tanks/Blow 6 Layer Gold.png",
-      description: "HDPE 6L GOLD GAP water storage tank. Available in 1500L, 2000L.",
-      sizes: ["1500L", "2000L"],
-      sizeProductCodes: {
-        "1500L": "FG-400085",
-        "2000L": "FG-400084"
-      }
-    },
 
     {
       id: "prod_tank_8",

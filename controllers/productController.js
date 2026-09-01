@@ -1,7 +1,7 @@
 const { readData, writeData } = require('../database/store');
 
 // Product IDs that should always appear first, in display order
-const PINNED_PRODUCT_IDS = ['prod_tank_1', 'prod_tank_6']; // HDPE 10L GOLD GAP, HDPE 6L GOLD GAP
+const PINNED_PRODUCT_IDS = ['prod_tank_1']; // HDPE 10L GOLD GAP
 
 exports.getAllProducts = async (req, res) => {
   try {
