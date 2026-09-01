@@ -2980,23 +2980,39 @@
     },
     {
       "id": "prod_swr_2",
-      "name": "SWR RINGFIT - RINGFIT PIPE",
+      "name": "SWR PIPES NISI RINGFIT (3 MTR)",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR RINGFIT - RINGFIT PIPE.png",
-      "description": "SWR RINGFIT - RINGFIT PIPE. Available sizes: 2 1/2, 3, 4, 6.",
+      "description": "SWR PIPES NISI RINGFIT (3 MTR). Available sizes: 2 1/2\" (75MM) 4KG - 3MTR, 3\" (90MM) 4KG - 3MTR, 4\" (110MM) 4KG - 3MTR, 6\" (160MM) 4KG - 3MTR.",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4",
-        "6"
+        "2 1/2\" (75MM) 4KG - 3MTR",
+        "3\" (90MM) 4KG - 3MTR",
+        "4\" (110MM) 4KG - 3MTR",
+        "6\" (160MM) 4KG - 3MTR"
       ],
       "status": "Active",
       "sizeProductCodes": {
         "3": "FG-401426",
         "4": "FG-401427",
         "6": "FG-401428",
-        "2 1/2": "FG-401425"
+        "2 1/2\" (75MM) 4KG - 3MTR": "FG-401425",
+        "2 1/2": "FG-401425",
+        "75MM 4KG": "FG-401425",
+        "2 1/2 75MM 4KG": "FG-401425",
+        "2 1/2\" (75MM) 4KG": "FG-401425",
+        "3\" (90MM) 4KG - 3MTR": "FG-401426",
+        "90MM 4KG": "FG-401426",
+        "3 90MM 4KG": "FG-401426",
+        "3\" (90MM) 4KG": "FG-401426",
+        "4\" (110MM) 4KG - 3MTR": "FG-401427",
+        "110MM 4KG": "FG-401427",
+        "4 110MM 4KG": "FG-401427",
+        "4\" (110MM) 4KG": "FG-401427",
+        "6\" (160MM) 4KG - 3MTR": "FG-401428",
+        "160MM 4KG": "FG-401428",
+        "6 160MM 4KG": "FG-401428",
+        "6\" (160MM) 4KG": "FG-401428"
       }
     },
     {
