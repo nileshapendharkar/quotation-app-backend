@@ -2990,7 +2990,8 @@
       "sizeProductCodes": {
         "110 X 75": "FG-400779",
         "160 X 110": "FG-400732"
-      }
+      },
+      "uom": "BOX"
     },
     {
       "id": "prod_swr_4",
@@ -3008,7 +3009,8 @@
       },
       "sizeProductCodes": {
         "110 X 75": "FG-400768"
-      }
+      },
+      "uom": "BOX"
     },
     {
       "id": "prod_swr_5",
@@ -3039,7 +3041,8 @@
       },
       "sizeProductCodes": {
         "160 X 110": "FG-400731"
-      }
+      },
+      "uom": "BOX"
     },
     {
       "id": "prod_swr_7",
@@ -3060,7 +3063,8 @@
       "sizeProductCodes": {
         "110 X 75": "FG-400773",
         "110 X 90": "FG-400787"
-      }
+      },
+      "uom": "BOX"
     },
     {
       "id": "prod_swr_8",
@@ -3087,7 +3091,8 @@
         "90MM": "FG-400784",
         "110MM": "FG-400757",
         "160MM": "FG-400794"
-      }
+      },
+      "uom": "BOX"
     },
     {
       "id": "prod_swr_9",
@@ -3123,7 +3128,8 @@
       "sizeProductCodes": {
         "75MM": "FG-400789",
         "90MM": "FG-400700"
-      }
+      },
+      "uom": "BOX"
     },
     {
       "id": "prod_swr_11",
@@ -3144,7 +3150,8 @@
       "sizeProductCodes": {
         "75MM": "FG-400819",
         "110MM": "FG-400770"
-      }
+      },
+      "uom": "BOX"
     },
     {
       "id": "prod_swr_12",
@@ -3171,7 +3178,8 @@
         "90MM": "FG-400776",
         "110MM": "FG-400805",
         "160MM": "FG-400729"
-      }
+      },
+      "uom": "BOX"
     },
     {
       "id": "prod_swr_13",
@@ -3209,7 +3217,8 @@
         "75MM": "FG-400759",
         "90MM": "FG-400783",
         "110MM": "FG-400763"
-      }
+      },
+      "uom": "BOX"
     },
     {
       "id": "prod_swr_15",
@@ -3230,7 +3239,8 @@
       "sizeProductCodes": {
         "75MM": "FG-400765",
         "110MM": "FG-400767"
-      }
+      },
+      "uom": "BOX"
     },
     {
       "id": "prod_swr_16",
@@ -3254,7 +3264,8 @@
         "75MM": "FG-401831",
         "90MM": "FG-400780",
         "110MM": "FG-400743"
-      }
+      },
+      "uom": "BOX"
     },
     {
       "id": "prod_swr_17",
@@ -3290,7 +3301,8 @@
       "sizeProductCodes": {
         "75MM": "FG-400775",
         "110MM": "FG-400761"
-      }
+      },
+      "uom": "BOX"
     },
     {
       "id": "prod_swr_19",
