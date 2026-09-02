@@ -6164,9 +6164,26 @@
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/LONG BEND (LW).png",
-      "description": "AGRI LONG BEND for agriculture irrigation and piping systems.",
-      "sizes": [],
+      "description": "AGRI LONG BEND for agriculture irrigation and piping systems. Available sizes: 63MM, 75MM, 90MM, 110MM.",
+      "sizes": [
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM"
+      ],
       "status": "Active",
+      "sizeProductCodes": {
+        "63MM": "FG-400570",
+        "75MM": "FG-400571",
+        "90MM": "FG-400572",
+        "110MM": "FG-400573"
+      },
+      "packings": {
+        "63MM": 50,
+        "75MM": 40,
+        "90MM": 20,
+        "110MM": 10
+      },
       "uom": "BOX"
     },
     {
