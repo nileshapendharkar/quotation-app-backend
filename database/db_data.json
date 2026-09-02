@@ -6570,9 +6570,24 @@
       "categoryName": "DRIP IRRIGATION SYSTEM",
       "subCategory": "FLAT DRIP (PEPSI) - INLINE",
       "image": "/images/drip/16MM FLAT EMITTING PIPE.png",
-      "description": "FLAT DRIPLINE ISI 500MTR 16",
-      "sizes": [],
+      "description": "FLAT DRIPLINE ISI 500MTR 16. Available sizes: 16-4-30 CLASS 1, 16-4-40 CLASS 1, 16-4-50 CLASS 1, 16-4-30 CLASS 2, 16-4-40 CLASS 2, 16-4-50 CLASS 2.",
+      "sizes": [
+        "16-4-30 CLASS 1",
+        "16-4-40 CLASS 1",
+        "16-4-50 CLASS 1",
+        "16-4-30 CLASS 2",
+        "16-4-40 CLASS 2",
+        "16-4-50 CLASS 2"
+      ],
       "status": "Active",
+      "sizeProductCodes": {
+        "16-4-30 CLASS 1": "FG-401760",
+        "16-4-40 CLASS 1": "FG-401761",
+        "16-4-50 CLASS 1": "FG-401762",
+        "16-4-30 CLASS 2": "FG-401769",
+        "16-4-40 CLASS 2": "FG-401770",
+        "16-4-50 CLASS 2": "FG-401779"
+      },
       "uom": "MTR"
     },
     {
