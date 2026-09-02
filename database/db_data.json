@@ -6038,16 +6038,24 @@
     },
     {
       "id": "prod_agri_30",
-      "name": "FABRICATED COUPLER 6KG (LW)",
+      "name": "AGRI FABRICATED COUPLER 6KG",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/FABRICATED COUPLER 6KG (LW).png",
-      "description": "FABRICATED COUPLER 6KG (LW) for agriculture irrigation and piping systems.",
+      "description": "AGRI FABRICATED COUPLER 6KG for agriculture irrigation and piping systems. Available sizes: 140MM, 160MM.",
       "sizes": [
         "140MM",
         "160MM"
       ],
       "status": "Active",
+      "sizeProductCodes": {
+        "140MM": "FG-400567",
+        "160MM": "FG-400569"
+      },
+      "packings": {
+        "140MM": 25,
+        "160MM": 20
+      },
       "uom": "BOX"
     },
     {
