@@ -6160,17 +6160,12 @@
     },
     {
       "id": "prod_agri_33",
-      "name": "LONG BEND (LW)",
+      "name": "AGRI LONG BEND",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/LONG BEND (LW).png",
-      "description": "LONG BEND (LW) for agriculture irrigation and piping systems.",
-      "sizes": [
-        "63MM",
-        "75MM",
-        "90MM",
-        "110MM"
-      ],
+      "description": "AGRI LONG BEND for agriculture irrigation and piping systems.",
+      "sizes": [],
       "status": "Active",
       "uom": "BOX"
     },
