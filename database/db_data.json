@@ -7085,17 +7085,12 @@
     },
     {
       "id": "prod_garden_1",
-      "name": "ORA FLOW - HEAVY DUTY PIPE",
+      "name": "GAP-ORA FLOW GARDEN PIPE",
       "categoryId": "cat_garden",
       "categoryName": "Garden, Braided & LDPE Pipes",
       "image": "/images/garden/ORA FLOW - HEAVY DUTY PIPE.png",
-      "description": "Ora Flow Heavy Duty Garden Pipe.",
-      "sizes": [
-        "15MM",
-        "20MM",
-        "25MM",
-        "32MM"
-      ],
+      "description": "GAP-ORA FLOW GARDEN PIPE",
+      "sizes": [],
       "status": "Active",
       "uom": "BDL"
     },
