@@ -3752,18 +3752,31 @@
     },
     {
       "id": "prod_swr_selfit_7",
-      "name": "SWR SELFIT - DOOR BEND 87.5 ISI",
+      "name": "SWR SELFIT ISI DOOR BEND",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - DOOR BEND 87.5 ISI.png",
-      "description": "SWR SELFIT - DOOR BEND 87.5 ISI. Available sizes: 2 1/2, 3, 4, 6.",
+      "description": "SWR SELFIT ISI DOOR BEND. Available sizes: 75MM, 90MM, 110MM (20 NOS), 110MM (34 NOS).",
       "sizes": [
-        "2 1/2",
-        "3",
-        "4",
-        "6"
+        "75MM",
+        "90MM",
+        "110MM (20 NOS)",
+        "110MM (34 NOS)"
       ],
-      "status": "Active"
+      "status": "Active",
+      "sizeProductCodes": {
+        "75MM": "FG-400737",
+        "90MM": "FG-400782",
+        "110MM (20 NOS)": "FG-400793",
+        "110MM (34 NOS)": "FG-400807"
+      },
+      "packings": {
+        "75MM": 75,
+        "90MM": 40,
+        "110MM (20 NOS)": 20,
+        "110MM (34 NOS)": 34
+      },
+      "uom": "Nos"
     },
     {
       "id": "prod_swr_selfit_8",
