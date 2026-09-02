@@ -5013,6 +5013,17 @@
       "uom": "MTR"
     },
     {
+      "id": "prod_hdpe_3f",
+      "name": "HDPE ISI PIPE PE80 PN10",
+      "categoryId": "cat_hdpe",
+      "categoryName": "HDPE PIPE & FITTINGS",
+      "image": "/images/hdpe/PE-80 OD PIPE ISI.png",
+      "description": "HDPE ISI PIPE PE80 PN10",
+      "sizes": [],
+      "status": "Active",
+      "uom": "MTR"
+    },
+    {
       "id": "prod_hdpe_4",
       "name": "HDPE END CAP",
       "categoryId": "cat_hdpe",
