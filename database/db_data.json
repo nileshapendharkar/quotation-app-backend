@@ -4988,9 +4988,28 @@
       "categoryId": "cat_hdpe",
       "categoryName": "HDPE PIPE & FITTINGS",
       "image": "/images/hdpe/PE-80 OD PIPE ISI.png",
-      "description": "HDPE ISI PIPE PE80 PN8",
-      "sizes": [],
+      "description": "HDPE ISI PIPE PE80 PN8. Available sizes: 25MM, 32MM, 40MM, 50MM, 63MM, 75MM, 90MM, 110MM.",
+      "sizes": [
+        "25MM",
+        "32MM",
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM"
+      ],
       "status": "Active",
+      "sizeProductCodes": {
+        "25MM": "FG-401245",
+        "32MM": "FG-401246",
+        "40MM": "FG-401247",
+        "50MM": "FG-401248",
+        "63MM": "FG-401249",
+        "75MM": "FG-401250",
+        "90MM": "FG-401251",
+        "110MM": "FG-401252"
+      },
       "uom": "MTR"
     },
     {
