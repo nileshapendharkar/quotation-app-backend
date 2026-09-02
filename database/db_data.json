@@ -3740,13 +3740,25 @@
     },
     {
       "id": "prod_swr_selfit_6",
-      "name": "SWR SELFIT ISI PLAIN BEND 87.5",
+      "name": "SWR SELFIT PLAIN BEND 87.5",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
-      "image": "/images/swr/SWR SELFIT - BEND 87.5.png",
-      "description": "SWR SELFIT ISI PLAIN BEND 87.5.",
-      "sizes": [],
-      "status": "Active"
+      "image": "/images/swr/SWR SELFIT - BEND 87.5 ISI.png",
+      "description": "SWR SELFIT PLAIN BEND 87.5. Available sizes: 75MM, 110MM.",
+      "sizes": [
+        "75MM",
+        "110MM"
+      ],
+      "status": "Active",
+      "sizeProductCodes": {
+        "75MM": "FG-400702",
+        "110MM": "FG-400703"
+      },
+      "packings": {
+        "75MM": 45,
+        "110MM": 35
+      },
+      "uom": "Nos"
     },
     {
       "id": "prod_swr_selfit_7",
