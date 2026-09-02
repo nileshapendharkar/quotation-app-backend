@@ -1,3 +1,5 @@
+const fs = require('fs');
+const path = require('path');
 const PDFDocument = require('pdfkit');
 
 const columns = [
@@ -12,8 +14,8 @@ const columns = [
 
 function renderTableHeader(doc, y) {
   doc
-    .fillColor('#0284c7')
-    .rect(40, y, 515, 28)
+    .fillColor('#0f3885')
+    .rect(40, y, 515.28, 26)
     .fill();
 
   columns.forEach(col => {
@@ -21,13 +23,13 @@ function renderTableHeader(doc, y) {
       .fillColor('#ffffff')
       .fontSize(8.5)
       .font('Helvetica-Bold')
-      .text(col.label, col.x + 4, y + 9, {
+      .text(col.label, col.x + 4, y + 8, {
         width: col.width - 8,
         align: col.align
       });
   });
 
-  return y + 28;
+  return y + 26;
 }
 
 function generateQuotationPDF(order, res) {
@@ -38,77 +40,110 @@ function generateQuotationPDF(order, res) {
   res.setHeader('Content-Disposition', `attachment; filename=Quotation_${order.orderNo}.pdf`);
   doc.pipe(res);
 
-  // Header Banner / Brand Title
+  const logoPath = path.join(__dirname, '..', 'assets', 'logo.png');
+
+  // --- HEADER SECTION ---
+  const headerX = 40;
+  const headerY = 30;
+  const headerWidth = 515.28;
+  const headerHeight = 115;
+
+  // Outer Header Box with Rounded Corners
   doc
-    .fillColor('#0f172a')
-    .rect(0, 0, 595.28, 90)
-    .fill();
+    .lineWidth(1)
+    .strokeColor('#333333')
+    .roundedRect(headerX, headerY, headerWidth, headerHeight, 8)
+    .stroke();
+
+  // Left Side: PNG Logo & Subtitle
+  if (fs.existsSync(logoPath)) {
+    doc.image(logoPath, headerX + 12, headerY + 12, { width: 175 });
+  } else {
+    doc
+      .fillColor('#0d3880')
+      .fontSize(18)
+      .font('Helvetica-Bold')
+      .text('GOURI AQUA PLAST®', headerX + 15, headerY + 15);
+  }
 
   doc
-    .fillColor('#38bdf8')
-    .fontSize(22)
-    .font('Helvetica-Bold')
-    .text('GOURI AQUA PLAST', 40, 20);
-
-  doc
-    .fillColor('#f59e0b')
-    .fontSize(11)
-    .font('Helvetica-Bold')
-    .text('Ganesh Gouri Industries Pvt. Ltd.', 40, 45);
-
-  doc
-    .fillColor('#94a3b8')
-    .fontSize(9)
-    .font('Helvetica')
-    .text('Product Quantity Quotation Document | Water Tanks, Pipes & Fittings', 40, 60);
-
-  // Order Details Box
-  doc
-    .fillColor('#1e293b')
+    .fillColor('#0f3885')
     .fontSize(12)
     .font('Helvetica-Bold')
-    .text(`Quotation No: ${order.orderNo}`, 380, 25, { align: 'right' });
+    .text('TANKS, PIPE & FITTING', headerX + 12, headerY + 84, {
+      characterSpacing: 0.3
+    });
+
+  // Right Side: Company Details
+  const rightX = 325;
+  let textY = headerY + 10;
 
   doc
-    .fillColor('#cbd5e1')
-    .fontSize(10)
+    .fillColor('#000000')
+    .fontSize(10.5)
+    .font('Helvetica-Bold')
+    .text('Ganesh Gouri Industries Pvt. Ltd.', rightX, textY);
+
+  textY += 14;
+
+  doc
+    .fillColor('#111111')
+    .fontSize(7.5)
     .font('Helvetica')
-    .text(`Date: ${new Date(order.createdAt).toLocaleDateString()}`, 380, 42, { align: 'right' })
-    .text(`Status: ${order.status.toUpperCase()}`, 380, 57, { align: 'right' });
+    .text('KH NO. 55/3', rightX, textY)
+    .text('Lihigoan, kamptee, Nagpur-441001', rightX, textY + 10)
+    .text('INDIA', rightX, textY + 20)
+    .text('Mob :', rightX, textY + 30)
+    .text('Email : care@ganeshgouriindustries.com', rightX, textY + 40)
+    .text('Web : www.ganeshgouriindustries.com', rightX, textY + 50);
 
-  let y = 110;
+  doc
+    .font('Helvetica-Bold')
+    .text('GST No. : 27AALCG9542P1ZP', rightX, textY + 60);
 
-  // Customer Information Card
+  // --- QUOTATION & CUSTOMER DETAILS CARD ---
+  let y = headerY + headerHeight + 15;
+
   doc
     .fillColor('#f8fafc')
-    .rect(40, y, 515, 95)
+    .rect(40, y, 515.28, 80)
     .fill();
 
   doc
-    .strokeColor('#e2e8f0')
-    .lineWidth(1)
-    .rect(40, y, 515, 95)
+    .strokeColor('#cbd5e1')
+    .lineWidth(0.8)
+    .rect(40, y, 515.28, 80)
     .stroke();
 
   doc
     .fillColor('#0f172a')
-    .fontSize(12)
+    .fontSize(11)
     .font('Helvetica-Bold')
-    .text('CUSTOMER / COMPANY DETAILS', 55, y + 12);
+    .text('QUOTATION DETAILS', 52, y + 10);
 
   doc
     .fillColor('#334155')
-    .fontSize(10)
+    .fontSize(9)
     .font('Helvetica')
-    .text(`Customer Name: ${order.userName}`, 55, y + 32)
-    .text(`Email Address: ${order.userEmail}`, 55, y + 48)
-    .text(`Mobile Number: ${order.userMobile}`, 55, y + 64);
+    .text(`Quotation No: ${order.orderNo}`, 52, y + 26)
+    .text(`Date: ${new Date(order.createdAt).toLocaleDateString('en-IN')}`, 52, y + 40)
+    .text(`Status: ${order.status ? order.status.toUpperCase() : 'PENDING'}`, 52, y + 54);
 
   doc
-    .text(`Company: ${order.companyName || 'N/A'}`, 300, y + 32)
-    .text(`Address: ${order.companyAddress || 'N/A'}`, 300, y + 48);
+    .fillColor('#0f172a')
+    .fontSize(11)
+    .font('Helvetica-Bold')
+    .text('CUSTOMER DETAILS', 310, y + 10);
 
-  y += 115;
+  doc
+    .fillColor('#334155')
+    .fontSize(9)
+    .font('Helvetica')
+    .text(`Name: ${order.userName || 'N/A'}`, 310, y + 26)
+    .text(`Mobile: ${order.userMobile || 'N/A'}`, 310, y + 40)
+    .text(`Company: ${order.companyName || 'N/A'}`, 310, y + 54);
+
+  y += 95;
 
   // Render Table Header
   y = renderTableHeader(doc, y);
