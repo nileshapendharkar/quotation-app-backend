@@ -31,7 +31,7 @@ db.products.forEach(p => {
   // If sizeProductCodes or sizes exist, list each size item
   if (p.sizeProductCodes && Object.keys(p.sizeProductCodes).length > 0) {
     Object.entries(p.sizeProductCodes).forEach(([size, code]) => {
-      const packQty = (p.packSizes && p.packSizes[size]) ? p.packSizes[size] : '-';
+      const packQty = (p.packings && p.packings[size]) ? p.packings[size] : ((p.packSizes && p.packSizes[size]) ? p.packSizes[size] : '-');
       rows.push({
         'Sr No': srNo++,
         'Product Code': code || (p.code || '-'),
@@ -48,7 +48,7 @@ db.products.forEach(p => {
     });
   } else if (p.sizes && Array.isArray(p.sizes) && p.sizes.length > 0) {
     p.sizes.forEach(size => {
-      const packQty = (p.packSizes && p.packSizes[size]) ? p.packSizes[size] : '-';
+      const packQty = (p.packings && p.packings[size]) ? p.packings[size] : ((p.packSizes && p.packSizes[size]) ? p.packSizes[size] : '-');
       const code = (p.sizeProductCodes && p.sizeProductCodes[size]) ? p.sizeProductCodes[size] : (p.code || '-');
       rows.push({
         'Sr No': srNo++,
