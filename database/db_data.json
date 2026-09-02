@@ -4748,11 +4748,11 @@
     },
     {
       "id": "prod_hdpe_2",
-      "name": "HDPE ISI PIPE PE63",
+      "name": "HDPE ISI PIPE PE63 PN3.2",
       "categoryId": "cat_hdpe",
       "categoryName": "HDPE PIPE & FITTINGS",
       "image": "/images/hdpe/PE-63 OD PIPE ISI.png",
-      "description": "HDPE ISI PIPE PE63",
+      "description": "HDPE ISI PIPE PE63 PN3.2",
       "sizes": [],
       "status": "Active",
       "uom": "MTR"
