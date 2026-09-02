@@ -6642,21 +6642,12 @@
     },
     {
       "id": "prod_casing_2",
-      "name": "3M CASING PIPE",
+      "name": "CASING PIPE BLUE PLN CS-SCH-40-3M",
       "categoryId": "cat_casing",
       "categoryName": "UPVC CASING PIPES",
       "image": "/images/casing/3M CASING PIPE.png",
-      "description": "3M UPVC Casing Pipe for bore wells.",
-      "sizes": [
-        "35MM",
-        "40MM",
-        "50MM",
-        "100MM",
-        "125MM",
-        "150MM",
-        "175MM",
-        "200MM"
-      ],
+      "description": "CASING PIPE BLUE PLN CS-SCH-40-3M",
+      "sizes": [],
       "status": "Active",
       "uom": "MTR"
     },
