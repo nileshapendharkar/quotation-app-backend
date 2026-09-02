@@ -6306,16 +6306,23 @@
     },
     {
       "id": "prod_sprinkler_5",
-      "name": "SPRINKLER TEE ISI",
+      "name": "SPRINKLER FITTINGS TEE",
       "categoryId": "cat_sprinkler",
       "categoryName": "Sprinkler Pipes & Fittings",
       "image": "/images/sprinkler/SPRINKLER TEE ISI.png",
-      "description": "SPRINKLER TEE ISI for sprinkler irrigation systems.",
+      "description": "SPRINKLER FITTINGS TEE for sprinkler irrigation systems. Available sizes: 75MM, C TYPE, 75MM, L TYPE, 63MM, C TYPE.",
       "sizes": [
-        "63MM",
-        "75MM"
+        "75MM, C TYPE",
+        "75MM, L TYPE",
+        "63MM, C TYPE"
       ],
-      "status": "Active"
+      "status": "Active",
+      "sizeProductCodes": {
+        "75MM, C TYPE": "FG-401503",
+        "75MM, L TYPE": "FG-401511",
+        "63MM, C TYPE": "FG-401526"
+      },
+      "packings": {}
     },
     {
       "id": "prod_sprinkler_6",

@@ -14326,30 +14326,43 @@
     "Description": "SPRINKLER SET 6 MTR N-ISI for sprinkler irrigation systems."
   },
   {
-    "Sr No": 1105,
-    "Product Code": "-",
-    "Product Name": "SPRINKLER TEE ISI (63MM)",
-    "Base Product": "SPRINKLER TEE ISI",
+    "Sr No": 1105.1,
+    "Product Code": "FG-401503",
+    "Product Name": "SPRINKLER FITTINGS TEE (75MM, C TYPE)",
+    "Base Product": "SPRINKLER FITTINGS TEE",
     "Category": "Sprinkler Pipes & Fittings",
     "SubCategory": "General",
-    "Size / Variant": "63MM",
+    "Size / Variant": "75MM, C TYPE",
     "UOM": "Nos",
     "Packing / Pack Size": "-",
     "Status": "Active",
-    "Description": "SPRINKLER TEE ISI for sprinkler irrigation systems."
+    "Description": "SPRINKLER FITTINGS TEE for sprinkler irrigation systems."
   },
   {
-    "Sr No": 1106,
-    "Product Code": "-",
-    "Product Name": "SPRINKLER TEE ISI (75MM)",
-    "Base Product": "SPRINKLER TEE ISI",
+    "Sr No": 1105.2,
+    "Product Code": "FG-401511",
+    "Product Name": "SPRINKLER FITTINGS TEE (75MM, L TYPE)",
+    "Base Product": "SPRINKLER FITTINGS TEE",
     "Category": "Sprinkler Pipes & Fittings",
     "SubCategory": "General",
-    "Size / Variant": "75MM",
+    "Size / Variant": "75MM, L TYPE",
     "UOM": "Nos",
     "Packing / Pack Size": "-",
     "Status": "Active",
-    "Description": "SPRINKLER TEE ISI for sprinkler irrigation systems."
+    "Description": "SPRINKLER FITTINGS TEE for sprinkler irrigation systems."
+  },
+  {
+    "Sr No": 1105.3,
+    "Product Code": "FG-401526",
+    "Product Name": "SPRINKLER FITTINGS TEE (63MM, C TYPE)",
+    "Base Product": "SPRINKLER FITTINGS TEE",
+    "Category": "Sprinkler Pipes & Fittings",
+    "SubCategory": "General",
+    "Size / Variant": "63MM, C TYPE",
+    "UOM": "Nos",
+    "Packing / Pack Size": "-",
+    "Status": "Active",
+    "Description": "SPRINKLER FITTINGS TEE for sprinkler irrigation systems."
   },
   {
     "Sr No": 1107,
