@@ -6538,20 +6538,29 @@
     },
     {
       "id": "prod_drip_flat_pepsi_1",
-      "name": "12MM FLAT EMITTING PIPE",
+      "name": "FLAT DRIPLINE ISI 500MTR",
       "categoryId": "cat_drip",
       "categoryName": "DRIP IRRIGATION SYSTEM",
       "subCategory": "FLAT DRIP (PEPSI) - INLINE",
       "image": "/images/drip/12MM FLAT EMITTING PIPE.png",
-      "description": "12mm Flat Emitting Pipe (Pepsi Inline).",
+      "description": "FLAT DRIPLINE ISI 500MTR. Available sizes: 12-4-30 CLASS 2, 12-4-40 CLASS 2, 12-4-50 CLASS 2, 12-4-30 CLASS 3, 12-4-40 CLASS 3, 12-4-50 CLASS 3.",
       "sizes": [
-        "2/4 40 14KG 0.2",
-        "2/4 40 17KG 0.4",
-        "2/4 30 17KG 0.4",
-        "2/4 40 14KG 0.3",
-        "2/4 40 14KG 0.4"
+        "12-4-30 CLASS 2",
+        "12-4-40 CLASS 2",
+        "12-4-50 CLASS 2",
+        "12-4-30 CLASS 3",
+        "12-4-40 CLASS 3",
+        "12-4-50 CLASS 3"
       ],
       "status": "Active",
+      "sizeProductCodes": {
+        "12-4-30 CLASS 2": "FG-401763",
+        "12-4-40 CLASS 2": "FG-401764",
+        "12-4-50 CLASS 2": "FG-401765",
+        "12-4-30 CLASS 3": "FG-401766",
+        "12-4-40 CLASS 3": "FG-401767",
+        "12-4-50 CLASS 3": "FG-401768"
+      },
       "uom": "MTR"
     },
     {
