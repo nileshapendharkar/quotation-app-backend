@@ -6669,9 +6669,14 @@
       "categoryId": "cat_casing",
       "categoryName": "UPVC CASING PIPES",
       "image": "/images/casing/CASING PIPE BLUE THD.png",
-      "description": "CASING PIPE BLUE THD CS-SCH-80-5M",
-      "sizes": [],
+      "description": "CASING PIPE BLUE THD CS-SCH-80-5M. Available sizes: 140MM 5 Inch.",
+      "sizes": [
+        "140MM 5 Inch"
+      ],
       "status": "Active",
+      "sizeProductCodes": {
+        "140MM 5 Inch": "FG-401150"
+      },
       "uom": "MTR"
     },
     {
