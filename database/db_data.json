@@ -6064,14 +6064,16 @@
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/ELBOW 90 (LW).png",
-      "description": "AGRI ELBOW for agriculture irrigation and piping systems. Available sizes: 40MM, 50MM, 63MM, 75MM, 90MM, 110MM.",
+      "description": "AGRI ELBOW for agriculture irrigation and piping systems. Available sizes: 40MM, 50MM, 63MM, 75MM, 90MM, 110MM, 140MM, 160MM.",
       "sizes": [
         "40MM",
         "50MM",
         "63MM",
         "75MM",
         "90MM",
-        "110MM"
+        "110MM",
+        "140MM",
+        "160MM"
       ],
       "status": "Active",
       "sizeProductCodes": {
@@ -6080,7 +6082,9 @@
         "63MM": "FG-400546",
         "75MM": "FG-400547",
         "90MM": "FG-400548",
-        "110MM": "FG-400549"
+        "110MM": "FG-400549",
+        "140MM": "FG-400595",
+        "160MM": "FG-400596"
       },
       "packings": {
         "40MM": 250,
@@ -6088,7 +6092,9 @@
         "63MM": 100,
         "75MM": 50,
         "90MM": 35,
-        "110MM": 50
+        "110MM": 50,
+        "140MM": 8,
+        "160MM": 12
       },
       "uom": "BOX"
     },
