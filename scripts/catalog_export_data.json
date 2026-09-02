@@ -8054,10 +8054,10 @@
     "Category": "SWR Drainage Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "75MM",
-    "UOM": "BOX",
-    "Packing / Pack Size": 100,
+    "UOM": "Nos",
+    "Packing / Pack Size": "100",
     "Status": "Active",
-    "Description": "SWR SELFIT ISI PLAIN BEND 87.5. Available sizes: 75MM, 90MM, 110MM, 160MM."
+    "Description": "SWR SELFIT ISI PLAIN BEND 87.5."
   },
   {
     "Sr No": 621,
@@ -8067,23 +8067,36 @@
     "Category": "SWR Drainage Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "90MM",
-    "UOM": "BOX",
-    "Packing / Pack Size": 55,
+    "UOM": "Nos",
+    "Packing / Pack Size": "55",
     "Status": "Active",
-    "Description": "SWR SELFIT ISI PLAIN BEND 87.5. Available sizes: 75MM, 90MM, 110MM, 160MM."
+    "Description": "SWR SELFIT ISI PLAIN BEND 87.5."
   },
   {
     "Sr No": 622,
     "Product Code": "FG-400762",
-    "Product Name": "SWR SELFIT ISI PLAIN BEND 87.5 (110MM)",
+    "Product Name": "SWR SELFIT ISI PLAIN BEND 87.5 (110MM (30 NOS))",
     "Base Product": "SWR SELFIT ISI PLAIN BEND 87.5",
     "Category": "SWR Drainage Pipes & Fittings",
     "SubCategory": "General",
-    "Size / Variant": "110MM",
-    "UOM": "BOX",
-    "Packing / Pack Size": 30,
+    "Size / Variant": "110MM (30 NOS)",
+    "UOM": "Nos",
+    "Packing / Pack Size": "30",
     "Status": "Active",
-    "Description": "SWR SELFIT ISI PLAIN BEND 87.5. Available sizes: 75MM, 90MM, 110MM, 160MM."
+    "Description": "SWR SELFIT ISI PLAIN BEND 87.5."
+  },
+  {
+    "Sr No": 622.1,
+    "Product Code": "FG-400806",
+    "Product Name": "SWR SELFIT ISI PLAIN BEND 87.5 (110MM (32 NOS))",
+    "Base Product": "SWR SELFIT ISI PLAIN BEND 87.5",
+    "Category": "SWR Drainage Pipes & Fittings",
+    "SubCategory": "General",
+    "Size / Variant": "110MM (32 NOS)",
+    "UOM": "Nos",
+    "Packing / Pack Size": "32",
+    "Status": "Active",
+    "Description": "SWR SELFIT ISI PLAIN BEND 87.5."
   },
   {
     "Sr No": 623,
@@ -8093,62 +8106,23 @@
     "Category": "SWR Drainage Pipes & Fittings",
     "SubCategory": "General",
     "Size / Variant": "160MM",
-    "UOM": "BOX",
-    "Packing / Pack Size": 9,
+    "UOM": "Nos",
+    "Packing / Pack Size": "9",
     "Status": "Active",
-    "Description": "SWR SELFIT ISI PLAIN BEND 87.5. Available sizes: 75MM, 90MM, 110MM, 160MM."
+    "Description": "SWR SELFIT ISI PLAIN BEND 87.5."
   },
   {
     "Sr No": 624,
     "Product Code": "-",
-    "Product Name": "SWR SELFIT - BEND 87.5 (2 1/2)",
-    "Base Product": "SWR SELFIT - BEND 87.5",
+    "Product Name": "SWR SELFIT ISI PLAIN BEND 87.5",
+    "Base Product": "SWR SELFIT ISI PLAIN BEND 87.5",
     "Category": "SWR Drainage Pipes & Fittings",
     "SubCategory": "General",
-    "Size / Variant": "2 1/2",
-    "UOM": "Nos",
+    "Size / Variant": "-",
+    "UOM": "BOX",
     "Packing / Pack Size": "-",
     "Status": "Active",
-    "Description": "SWR SELFIT - BEND 87.5. Available sizes: 2 1/2, 3, 4, 6."
-  },
-  {
-    "Sr No": 625,
-    "Product Code": "-",
-    "Product Name": "SWR SELFIT - BEND 87.5 (3)",
-    "Base Product": "SWR SELFIT - BEND 87.5",
-    "Category": "SWR Drainage Pipes & Fittings",
-    "SubCategory": "General",
-    "Size / Variant": "3",
-    "UOM": "Nos",
-    "Packing / Pack Size": "-",
-    "Status": "Active",
-    "Description": "SWR SELFIT - BEND 87.5. Available sizes: 2 1/2, 3, 4, 6."
-  },
-  {
-    "Sr No": 626,
-    "Product Code": "-",
-    "Product Name": "SWR SELFIT - BEND 87.5 (4)",
-    "Base Product": "SWR SELFIT - BEND 87.5",
-    "Category": "SWR Drainage Pipes & Fittings",
-    "SubCategory": "General",
-    "Size / Variant": "4",
-    "UOM": "Nos",
-    "Packing / Pack Size": "-",
-    "Status": "Active",
-    "Description": "SWR SELFIT - BEND 87.5. Available sizes: 2 1/2, 3, 4, 6."
-  },
-  {
-    "Sr No": 627,
-    "Product Code": "-",
-    "Product Name": "SWR SELFIT - BEND 87.5 (6)",
-    "Base Product": "SWR SELFIT - BEND 87.5",
-    "Category": "SWR Drainage Pipes & Fittings",
-    "SubCategory": "General",
-    "Size / Variant": "6",
-    "UOM": "Nos",
-    "Packing / Pack Size": "-",
-    "Status": "Active",
-    "Description": "SWR SELFIT - BEND 87.5. Available sizes: 2 1/2, 3, 4, 6."
+    "Description": "SWR SELFIT ISI PLAIN BEND 87.5."
   },
   {
     "Sr No": 628.1,
