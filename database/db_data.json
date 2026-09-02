@@ -6631,9 +6631,20 @@
       "categoryId": "cat_casing",
       "categoryName": "UPVC CASING PIPES",
       "image": "/images/casing/CASING PIPE BLUE THD.png",
-      "description": "CASING PIPE BLUE THD CS-SCH-40-3M",
-      "sizes": [],
+      "description": "CASING PIPE BLUE THD CS-SCH-40-3M. Available sizes: 125MM 5 Inch, 150MM 6 Inch, 175MM 7 Inch, 200MM 8 Inch.",
+      "sizes": [
+        "125MM 5 Inch",
+        "150MM 6 Inch",
+        "175MM 7 Inch",
+        "200MM 8 Inch"
+      ],
       "status": "Active",
+      "sizeProductCodes": {
+        "125MM 5 Inch": "FG-401074",
+        "150MM 6 Inch": "FG-401075",
+        "175MM 7 Inch": "FG-401076",
+        "200MM 8 Inch": "FG-401077"
+      },
       "uom": "MTR"
     },
     {
