@@ -8827,7 +8827,7 @@
     "Description": "HDPE ISI PIPE PE100 PN12.5"
   },
   {
-    "Sr No": 663.10,
+    "Sr No": 663.1,
     "Product Code": "FG-401328",
     "Product Name": "HDPE ISI PIPE PE100 PN12.5 (125MM)",
     "Base Product": "HDPE ISI PIPE PE100 PN12.5",
@@ -8957,7 +8957,7 @@
     "Description": "HDPE ISI PIPE PE100 PN3.2"
   },
   {
-    "Sr No": 663.20,
+    "Sr No": 663.2,
     "Product Code": "FG-401269",
     "Product Name": "HDPE ISI PIPE PE100 PN4 (75MM)",
     "Base Product": "HDPE ISI PIPE PE100 PN4",
@@ -9087,7 +9087,7 @@
     "Description": "HDPE ISI PIPE PE100 PN5"
   },
   {
-    "Sr No": 663.30,
+    "Sr No": 663.3,
     "Product Code": "FG-401336",
     "Product Name": "HDPE ISI PIPE PE100 PN6 (32MM)",
     "Base Product": "HDPE ISI PIPE PE100 PN6",
@@ -9217,7 +9217,7 @@
     "Description": "HDPE ISI PIPE PE100 PN6"
   },
   {
-    "Sr No": 663.40,
+    "Sr No": 663.4,
     "Product Code": "FG-401310",
     "Product Name": "HDPE ISI PIPE PE100 PN6 (180MM)",
     "Base Product": "HDPE ISI PIPE PE100 PN6",
@@ -9347,7 +9347,7 @@
     "Description": "HDPE ISI PIPE PE100 PN8"
   },
   {
-    "Sr No": 663.50,
+    "Sr No": 663.5,
     "Product Code": "FG-401289",
     "Product Name": "HDPE ISI PIPE PE100 PN8 (110MM)",
     "Base Product": "HDPE ISI PIPE PE100 PN8",
@@ -9568,7 +9568,7 @@
     "Description": "HDPE ISI PIPE PE63 PN4"
   },
   {
-    "Sr No": 664.10,
+    "Sr No": 664.1,
     "Product Code": "FG-401196",
     "Product Name": "HDPE ISI PIPE PE63 PN4 (90MM)",
     "Base Product": "HDPE ISI PIPE PE63 PN4",
@@ -9698,7 +9698,7 @@
     "Description": "HDPE ISI PIPE PE63 PN6"
   },
   {
-    "Sr No": 664.20,
+    "Sr No": 664.2,
     "Product Code": "FG-401206",
     "Product Name": "HDPE ISI PIPE PE63 PN6 (32MM)",
     "Base Product": "HDPE ISI PIPE PE63 PN6",
@@ -9828,7 +9828,7 @@
     "Description": "HDPE ISI PIPE PE63 PN8"
   },
   {
-    "Sr No": 664.30,
+    "Sr No": 664.3,
     "Product Code": "FG-401216",
     "Product Name": "HDPE ISI PIPE PE63 PN8 (50MM)",
     "Base Product": "HDPE ISI PIPE PE63 PN8",
@@ -10010,7 +10010,7 @@
     "Description": "HDPE ISI PIPE PE80 PN5"
   },
   {
-    "Sr No": 672.10,
+    "Sr No": 672.1,
     "Product Code": "FG-401233",
     "Product Name": "HDPE ISI PIPE PE80 PN5 (50MM)",
     "Base Product": "HDPE ISI PIPE PE80 PN5",
@@ -10140,7 +10140,7 @@
     "Description": "HDPE ISI PIPE PE80 PN6"
   },
   {
-    "Sr No": 672.20,
+    "Sr No": 672.2,
     "Product Code": "FG-401243",
     "Product Name": "HDPE ISI PIPE PE80 PN6 (90MM)",
     "Base Product": "HDPE ISI PIPE PE80 PN6",
@@ -10270,7 +10270,7 @@
     "Description": "HDPE ISI PIPE PE80 PN8"
   },
   {
-    "Sr No": 672.30,
+    "Sr No": 672.3,
     "Product Code": "FG-401253",
     "Product Name": "HDPE ISI PIPE PE80 PN10 (20MM)",
     "Base Product": "HDPE ISI PIPE PE80 PN10",
@@ -10400,7 +10400,7 @@
     "Description": "HDPE ISI PIPE PE80 PN12.5"
   },
   {
-    "Sr No": 672.40,
+    "Sr No": 672.4,
     "Product Code": "FG-401263",
     "Product Name": "HDPE ISI PIPE PE80 PN12.5 (25MM)",
     "Base Product": "HDPE ISI PIPE PE80 PN12.5",
@@ -14419,236 +14419,93 @@
   {
     "Sr No": 984.1,
     "Product Code": "FG-401763",
-    "Product Name": "FLAT DRIPLINE ISI 500MTR (12-4-30 CLASS 2)",
-    "Base Product": "FLAT DRIPLINE ISI 500MTR",
+    "Product Name": "FLAT DRIPLINE ISI 500MTR 12 (12-4-30 CLASS 2)",
+    "Base Product": "FLAT DRIPLINE ISI 500MTR 12",
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
     "Size / Variant": "12-4-30 CLASS 2",
     "UOM": "MTR",
     "Packing / Pack Size": "-",
     "Status": "Active",
-    "Description": "FLAT DRIPLINE ISI 500MTR"
+    "Description": "FLAT DRIPLINE ISI 500MTR 12"
   },
   {
     "Sr No": 984.2,
     "Product Code": "FG-401764",
-    "Product Name": "FLAT DRIPLINE ISI 500MTR (12-4-40 CLASS 2)",
-    "Base Product": "FLAT DRIPLINE ISI 500MTR",
+    "Product Name": "FLAT DRIPLINE ISI 500MTR 12 (12-4-40 CLASS 2)",
+    "Base Product": "FLAT DRIPLINE ISI 500MTR 12",
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
     "Size / Variant": "12-4-40 CLASS 2",
     "UOM": "MTR",
     "Packing / Pack Size": "-",
     "Status": "Active",
-    "Description": "FLAT DRIPLINE ISI 500MTR"
+    "Description": "FLAT DRIPLINE ISI 500MTR 12"
   },
   {
     "Sr No": 984.3,
     "Product Code": "FG-401765",
-    "Product Name": "FLAT DRIPLINE ISI 500MTR (12-4-50 CLASS 2)",
-    "Base Product": "FLAT DRIPLINE ISI 500MTR",
+    "Product Name": "FLAT DRIPLINE ISI 500MTR 12 (12-4-50 CLASS 2)",
+    "Base Product": "FLAT DRIPLINE ISI 500MTR 12",
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
     "Size / Variant": "12-4-50 CLASS 2",
     "UOM": "MTR",
     "Packing / Pack Size": "-",
     "Status": "Active",
-    "Description": "FLAT DRIPLINE ISI 500MTR"
+    "Description": "FLAT DRIPLINE ISI 500MTR 12"
   },
   {
     "Sr No": 984.4,
     "Product Code": "FG-401766",
-    "Product Name": "FLAT DRIPLINE ISI 500MTR (12-4-30 CLASS 3)",
-    "Base Product": "FLAT DRIPLINE ISI 500MTR",
+    "Product Name": "FLAT DRIPLINE ISI 500MTR 12 (12-4-30 CLASS 3)",
+    "Base Product": "FLAT DRIPLINE ISI 500MTR 12",
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
     "Size / Variant": "12-4-30 CLASS 3",
     "UOM": "MTR",
     "Packing / Pack Size": "-",
     "Status": "Active",
-    "Description": "FLAT DRIPLINE ISI 500MTR"
+    "Description": "FLAT DRIPLINE ISI 500MTR 12"
   },
   {
     "Sr No": 984.5,
     "Product Code": "FG-401767",
-    "Product Name": "FLAT DRIPLINE ISI 500MTR (12-4-40 CLASS 3)",
-    "Base Product": "FLAT DRIPLINE ISI 500MTR",
+    "Product Name": "FLAT DRIPLINE ISI 500MTR 12 (12-4-40 CLASS 3)",
+    "Base Product": "FLAT DRIPLINE ISI 500MTR 12",
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
     "Size / Variant": "12-4-40 CLASS 3",
     "UOM": "MTR",
     "Packing / Pack Size": "-",
     "Status": "Active",
-    "Description": "FLAT DRIPLINE ISI 500MTR"
+    "Description": "FLAT DRIPLINE ISI 500MTR 12"
   },
   {
     "Sr No": 984.6,
     "Product Code": "FG-401768",
-    "Product Name": "FLAT DRIPLINE ISI 500MTR (12-4-50 CLASS 3)",
-    "Base Product": "FLAT DRIPLINE ISI 500MTR",
+    "Product Name": "FLAT DRIPLINE ISI 500MTR 12 (12-4-50 CLASS 3)",
+    "Base Product": "FLAT DRIPLINE ISI 500MTR 12",
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
     "Size / Variant": "12-4-50 CLASS 3",
     "UOM": "MTR",
     "Packing / Pack Size": "-",
     "Status": "Active",
-    "Description": "FLAT DRIPLINE ISI 500MTR"
+    "Description": "FLAT DRIPLINE ISI 500MTR 12"
   },
   {
     "Sr No": 989,
     "Product Code": "-",
-    "Product Name": "16MM FLAT EMITTING PIPE (2/4 30 8KG 0.2)",
-    "Base Product": "16MM FLAT EMITTING PIPE",
+    "Product Name": "FLAT DRIPLINE ISI 500MTR 16",
+    "Base Product": "FLAT DRIPLINE ISI 500MTR 16",
     "Category": "DRIP IRRIGATION SYSTEM",
     "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
-    "Size / Variant": "2/4 30 8KG 0.2",
+    "Size / Variant": "-",
     "UOM": "MTR",
     "Packing / Pack Size": "-",
     "Status": "Active",
-    "Description": "16mm Flat Emitting Pipe (Pepsi Inline)."
-  },
-  {
-    "Sr No": 990,
-    "Product Code": "-",
-    "Product Name": "16MM FLAT EMITTING PIPE (2/4 40 8KG 0.2)",
-    "Base Product": "16MM FLAT EMITTING PIPE",
-    "Category": "DRIP IRRIGATION SYSTEM",
-    "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
-    "Size / Variant": "2/4 40 8KG 0.2",
-    "UOM": "MTR",
-    "Packing / Pack Size": "-",
-    "Status": "Active",
-    "Description": "16mm Flat Emitting Pipe (Pepsi Inline)."
-  },
-  {
-    "Sr No": 991,
-    "Product Code": "-",
-    "Product Name": "16MM FLAT EMITTING PIPE (2/4 40 9KG 0.2)",
-    "Base Product": "16MM FLAT EMITTING PIPE",
-    "Category": "DRIP IRRIGATION SYSTEM",
-    "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
-    "Size / Variant": "2/4 40 9KG 0.2",
-    "UOM": "MTR",
-    "Packing / Pack Size": "-",
-    "Status": "Active",
-    "Description": "16mm Flat Emitting Pipe (Pepsi Inline)."
-  },
-  {
-    "Sr No": 992,
-    "Product Code": "-",
-    "Product Name": "16MM FLAT EMITTING PIPE (2/4 30 10KG 0.2)",
-    "Base Product": "16MM FLAT EMITTING PIPE",
-    "Category": "DRIP IRRIGATION SYSTEM",
-    "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
-    "Size / Variant": "2/4 30 10KG 0.2",
-    "UOM": "MTR",
-    "Packing / Pack Size": "-",
-    "Status": "Active",
-    "Description": "16mm Flat Emitting Pipe (Pepsi Inline)."
-  },
-  {
-    "Sr No": 993,
-    "Product Code": "-",
-    "Product Name": "16MM FLAT EMITTING PIPE (2/4 40 10KG 0.2)",
-    "Base Product": "16MM FLAT EMITTING PIPE",
-    "Category": "DRIP IRRIGATION SYSTEM",
-    "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
-    "Size / Variant": "2/4 40 10KG 0.2",
-    "UOM": "MTR",
-    "Packing / Pack Size": "-",
-    "Status": "Active",
-    "Description": "16mm Flat Emitting Pipe (Pepsi Inline)."
-  },
-  {
-    "Sr No": 994,
-    "Product Code": "-",
-    "Product Name": "16MM FLAT EMITTING PIPE (2/4 40 14KG 0.4)",
-    "Base Product": "16MM FLAT EMITTING PIPE",
-    "Category": "DRIP IRRIGATION SYSTEM",
-    "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
-    "Size / Variant": "2/4 40 14KG 0.4",
-    "UOM": "MTR",
-    "Packing / Pack Size": "-",
-    "Status": "Active",
-    "Description": "16mm Flat Emitting Pipe (Pepsi Inline)."
-  },
-  {
-    "Sr No": 995,
-    "Product Code": "-",
-    "Product Name": "16MM FLAT EMITTING PIPE (2/4 40 17KG 0.5)",
-    "Base Product": "16MM FLAT EMITTING PIPE",
-    "Category": "DRIP IRRIGATION SYSTEM",
-    "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
-    "Size / Variant": "2/4 40 17KG 0.5",
-    "UOM": "MTR",
-    "Packing / Pack Size": "-",
-    "Status": "Active",
-    "Description": "16mm Flat Emitting Pipe (Pepsi Inline)."
-  },
-  {
-    "Sr No": 996,
-    "Product Code": "-",
-    "Product Name": "16MM FLAT EMITTING PIPE (2/4 40 12KG 0.25)",
-    "Base Product": "16MM FLAT EMITTING PIPE",
-    "Category": "DRIP IRRIGATION SYSTEM",
-    "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
-    "Size / Variant": "2/4 40 12KG 0.25",
-    "UOM": "MTR",
-    "Packing / Pack Size": "-",
-    "Status": "Active",
-    "Description": "16mm Flat Emitting Pipe (Pepsi Inline)."
-  },
-  {
-    "Sr No": 997,
-    "Product Code": "-",
-    "Product Name": "16MM FLAT EMITTING PIPE (2/4 30 12KG 0.25)",
-    "Base Product": "16MM FLAT EMITTING PIPE",
-    "Category": "DRIP IRRIGATION SYSTEM",
-    "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
-    "Size / Variant": "2/4 30 12KG 0.25",
-    "UOM": "MTR",
-    "Packing / Pack Size": "-",
-    "Status": "Active",
-    "Description": "16mm Flat Emitting Pipe (Pepsi Inline)."
-  },
-  {
-    "Sr No": 998,
-    "Product Code": "-",
-    "Product Name": "16MM FLAT EMITTING PIPE (2/4 30 14KG 0.4)",
-    "Base Product": "16MM FLAT EMITTING PIPE",
-    "Category": "DRIP IRRIGATION SYSTEM",
-    "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
-    "Size / Variant": "2/4 30 14KG 0.4",
-    "UOM": "MTR",
-    "Packing / Pack Size": "-",
-    "Status": "Active",
-    "Description": "16mm Flat Emitting Pipe (Pepsi Inline)."
-  },
-  {
-    "Sr No": 999,
-    "Product Code": "-",
-    "Product Name": "16MM FLAT EMITTING PIPE (2/4 40 14KG 0.4)",
-    "Base Product": "16MM FLAT EMITTING PIPE",
-    "Category": "DRIP IRRIGATION SYSTEM",
-    "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
-    "Size / Variant": "2/4 40 14KG 0.4",
-    "UOM": "MTR",
-    "Packing / Pack Size": "-",
-    "Status": "Active",
-    "Description": "16mm Flat Emitting Pipe (Pepsi Inline)."
-  },
-  {
-    "Sr No": 1000,
-    "Product Code": "-",
-    "Product Name": "16MM FLAT EMITTING PIPE (2/4 30 14KG 0.3)",
-    "Base Product": "16MM FLAT EMITTING PIPE",
-    "Category": "DRIP IRRIGATION SYSTEM",
-    "SubCategory": "FLAT DRIP (PEPSI) - INLINE",
-    "Size / Variant": "2/4 30 14KG 0.3",
-    "UOM": "MTR",
-    "Packing / Pack Size": "-",
-    "Status": "Active",
-    "Description": "16mm Flat Emitting Pipe (Pepsi Inline)."
+    "Description": "FLAT DRIPLINE ISI 500MTR 16"
   },
   {
     "Sr No": 1001,
