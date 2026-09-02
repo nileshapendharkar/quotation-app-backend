@@ -2714,17 +2714,27 @@
     },
     {
       "id": "prod_upvc_25",
-      "name": "UPVC- BRASS ELBOW 90",
+      "name": "UPVC BRASS ELBOW",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
       "image": "/images/upvc/UPVC- BRASS ELBOW 90.png",
-      "description": "UPVC- BRASS ELBOW 90. Available sizes: 1/2, 3/4, 1.",
+      "description": "UPVC BRASS ELBOW. Available sizes: 1/2, 3/4, 1.",
       "sizes": [
         "1/2",
         "3/4",
         "1"
       ],
       "status": "Active",
+      "sizeProductCodes": {
+        "1/2": "FG-400257",
+        "3/4": "FG-400258",
+        "1": "FG-400259"
+      },
+      "packings": {
+        "1/2": 210,
+        "3/4": 100,
+        "1": 70
+      },
       "uom": "BOX"
     },
     {
