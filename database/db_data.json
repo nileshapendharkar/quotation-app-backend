@@ -6663,6 +6663,34 @@
       "uom": "MTR"
     },
     {
+      "id": "prod_casing_2b",
+      "name": "CASING PIPE BLUE PLN CM-SCH-80-3M",
+      "categoryId": "cat_casing",
+      "categoryName": "UPVC CASING PIPES",
+      "image": "/images/casing/3M CASING PIPE.png",
+      "description": "CASING PIPE BLUE PLN CM-SCH-80-3M. Available sizes: 35MM 1 1/4 Inch, 50MM 2 Inch, 100MM 4 Inch, 125MM 5 Inch, 150MM 6 Inch, 175MM 7 Inch, 200MM 8 Inch.",
+      "sizes": [
+        "35MM 1 1/4 Inch",
+        "50MM 2 Inch",
+        "100MM 4 Inch",
+        "125MM 5 Inch",
+        "150MM 6 Inch",
+        "175MM 7 Inch",
+        "200MM 8 Inch"
+      ],
+      "status": "Active",
+      "sizeProductCodes": {
+        "35MM 1 1/4 Inch": "FG-401119",
+        "50MM 2 Inch": "FG-401121",
+        "100MM 4 Inch": "FG-401122",
+        "125MM 5 Inch": "FG-401123",
+        "150MM 6 Inch": "FG-401124",
+        "175MM 7 Inch": "FG-401125",
+        "200MM 8 Inch": "FG-401126"
+      },
+      "uom": "MTR"
+    },
+    {
       "id": "prod_column_1",
       "name": "COLOUMN PIPE ECO V4",
       "categoryId": "cat_column",
