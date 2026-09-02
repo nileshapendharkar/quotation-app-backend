@@ -4639,6 +4639,17 @@
       "uom": "MTR"
     },
     {
+      "id": "prod_hdpe_1e",
+      "name": "HDPE ISI PIPE PE100 PN5",
+      "categoryId": "cat_hdpe",
+      "categoryName": "HDPE PIPE & FITTINGS",
+      "image": "/images/hdpe/PE-100 OD PIPE ISI.png",
+      "description": "HDPE ISI PIPE PE100 PN5",
+      "sizes": [],
+      "status": "Active",
+      "uom": "MTR"
+    },
+    {
       "id": "prod_hdpe_2",
       "name": "PE-63 OD PIPE ISI",
       "categoryId": "cat_hdpe",
