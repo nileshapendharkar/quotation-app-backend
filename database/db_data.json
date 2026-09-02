@@ -5471,19 +5471,24 @@
     },
     {
       "id": "prod_agri_7",
-      "name": "LAPETA (LDPE) AGRICULTURE PIPE",
+      "name": "LDPE AGRICULTURE LAPETA PIPE 61 MTR",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/LAPETA (LDPE) AGRICULTURE PIPE.png",
-      "description": "LAPETA (LDPE) AGRICULTURE PIPE for agriculture irrigation and piping systems.",
+      "description": "LDPE AGRICULTURE LAPETA PIPE 61 MTR for agriculture irrigation and piping systems.",
       "sizes": [
-        "40MM",
-        "50MM",
-        "65MM",
+        "63MM",
         "75MM",
-        "100MM"
+        "90MM",
+        "110MM"
       ],
       "status": "Active",
+      "sizeProductCodes": {
+        "63MM": "FG-401347",
+        "75MM": "FG-401348",
+        "90MM": "FG-401349",
+        "110MM": "FG-401350"
+      },
       "uom": "BOX"
     },
     {
