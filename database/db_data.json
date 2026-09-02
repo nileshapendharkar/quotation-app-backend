@@ -6597,9 +6597,18 @@
       "categoryName": "DRIP IRRIGATION SYSTEM",
       "subCategory": "FLAT DRIP (PEPSI) - INLINE",
       "image": "/images/drip/20MM FLAT EMITTING PIPE.png",
-      "description": "FLAT DRIPLINE ISI 400MTR 20",
-      "sizes": [],
+      "description": "FLAT DRIPLINE ISI 400MTR 20. Available sizes: 20-4-30 CLASS 1, 20-4-40 CLASS 1, 20-4-50 CLASS 1.",
+      "sizes": [
+        "20-4-30 CLASS 1",
+        "20-4-40 CLASS 1",
+        "20-4-50 CLASS 1"
+      ],
       "status": "Active",
+      "sizeProductCodes": {
+        "20-4-30 CLASS 1": "FG-401771",
+        "20-4-40 CLASS 1": "FG-401772",
+        "20-4-50 CLASS 1": "FG-401773"
+      },
       "uom": "MTR"
     },
     {
