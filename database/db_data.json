@@ -6592,17 +6592,13 @@
     },
     {
       "id": "prod_drip_flat_pepsi_3",
-      "name": "20MM FLAT EMITTING PIPE",
+      "name": "FLAT DRIPLINE ISI 400MTR 20",
       "categoryId": "cat_drip",
       "categoryName": "DRIP IRRIGATION SYSTEM",
       "subCategory": "FLAT DRIP (PEPSI) - INLINE",
       "image": "/images/drip/20MM FLAT EMITTING PIPE.png",
-      "description": "20mm Flat Emitting Pipe (Pepsi Inline).",
-      "sizes": [
-        "20-4-30 CLASS-2",
-        "20-4-40 CLASS-2",
-        "20-4-50 CLASS-2"
-      ],
+      "description": "FLAT DRIPLINE ISI 400MTR 20",
+      "sizes": [],
       "status": "Active",
       "uom": "MTR"
     },
