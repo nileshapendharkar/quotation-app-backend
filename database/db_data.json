@@ -6080,11 +6080,11 @@
     },
     {
       "id": "prod_agri_32",
-      "name": "END CAP (LW)",
+      "name": "AGRI END CAP",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/END CAP (LW).png",
-      "description": "END CAP (LW) for agriculture irrigation and piping systems.",
+      "description": "AGRI END CAP for agriculture irrigation and piping systems. Available sizes: 40MM, 50MM, 63MM, 75MM, 90MM, 110MM, 140MM 4KG, 160MM 4KG.",
       "sizes": [
         "40MM",
         "50MM",
@@ -6092,10 +6092,30 @@
         "75MM",
         "90MM",
         "110MM",
-        "140MM",
-        "160MM"
+        "140MM 4KG",
+        "160MM 4KG"
       ],
       "status": "Active",
+      "sizeProductCodes": {
+        "40MM": "FG-400555",
+        "50MM": "FG-400556",
+        "63MM": "FG-400557",
+        "75MM": "FG-400558",
+        "90MM": "FG-400559",
+        "110MM": "FG-400560",
+        "140MM 4KG": "FG-400639",
+        "160MM 4KG": "FG-400640"
+      },
+      "packings": {
+        "40MM": 800,
+        "50MM": 450,
+        "63MM": 300,
+        "75MM": 150,
+        "90MM": 100,
+        "110MM": 60,
+        "140MM 4KG": 30,
+        "160MM 4KG": 16
+      },
       "uom": "BOX"
     },
     {
