@@ -7267,30 +7267,43 @@
     "Description": "SWR RINGFIT ISI COUPLER. Available sizes: 75MM, 90MM, 110MM, 160MM."
   },
   {
-    "Sr No": 560,
-    "Product Code": "-",
-    "Product Name": "SWR RINGFIT - COUPLER (2 1/2)",
-    "Base Product": "SWR RINGFIT - COUPLER",
+    "Sr No": 560.1,
+    "Product Code": "FG-400764",
+    "Product Name": "SWR RINGFIT COUPLER (75MM)",
+    "Base Product": "SWR RINGFIT COUPLER",
     "Category": "SWR Drainage Pipes & Fittings",
     "SubCategory": "General",
-    "Size / Variant": "2 1/2",
+    "Size / Variant": "75MM",
     "UOM": "Nos",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": "144",
     "Status": "Active",
-    "Description": "SWR RINGFIT - COUPLER. Available sizes: 2 1/2, 4."
+    "Description": "SWR RINGFIT COUPLER. Available sizes: 75MM, 110MM, 160MM."
   },
   {
-    "Sr No": 561,
-    "Product Code": "-",
-    "Product Name": "SWR RINGFIT - COUPLER (4)",
-    "Base Product": "SWR RINGFIT - COUPLER",
+    "Sr No": 560.2,
+    "Product Code": "FG-400748",
+    "Product Name": "SWR RINGFIT COUPLER (110MM)",
+    "Base Product": "SWR RINGFIT COUPLER",
     "Category": "SWR Drainage Pipes & Fittings",
     "SubCategory": "General",
-    "Size / Variant": "4",
+    "Size / Variant": "110MM",
     "UOM": "Nos",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": "48",
     "Status": "Active",
-    "Description": "SWR RINGFIT - COUPLER. Available sizes: 2 1/2, 4."
+    "Description": "SWR RINGFIT COUPLER. Available sizes: 75MM, 110MM, 160MM."
+  },
+  {
+    "Sr No": 560.3,
+    "Product Code": "FG-400728",
+    "Product Name": "SWR RINGFIT COUPLER (160MM)",
+    "Base Product": "SWR RINGFIT COUPLER",
+    "Category": "SWR Drainage Pipes & Fittings",
+    "SubCategory": "General",
+    "Size / Variant": "160MM",
+    "UOM": "Nos",
+    "Packing / Pack Size": "16",
+    "Status": "Active",
+    "Description": "SWR RINGFIT COUPLER. Available sizes: 75MM, 110MM, 160MM."
   },
   {
     "Sr No": 562,
