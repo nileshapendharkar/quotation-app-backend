@@ -8203,30 +8203,30 @@
     "Description": "SWR SELFIT ISI DOOR BEND. Available sizes: 75MM, 90MM, 110MM (20 NOS), 110MM (34 NOS)."
   },
   {
-    "Sr No": 632,
-    "Product Code": "-",
-    "Product Name": "SWR SELFIT - DOOR BEND 87.5 (2 1/2)",
-    "Base Product": "SWR SELFIT - DOOR BEND 87.5",
+    "Sr No": 632.1,
+    "Product Code": "FG-400711",
+    "Product Name": "SWR SELFIT DOOR BEND (75MM)",
+    "Base Product": "SWR SELFIT DOOR BEND",
     "Category": "SWR Drainage Pipes & Fittings",
     "SubCategory": "General",
-    "Size / Variant": "2 1/2",
+    "Size / Variant": "75MM",
     "UOM": "Nos",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": "35",
     "Status": "Active",
-    "Description": "SWR SELFIT - DOOR BEND 87.5. Available sizes: 2 1/2, 4."
+    "Description": "SWR SELFIT DOOR BEND."
   },
   {
-    "Sr No": 633,
-    "Product Code": "-",
-    "Product Name": "SWR SELFIT - DOOR BEND 87.5 (4)",
-    "Base Product": "SWR SELFIT - DOOR BEND 87.5",
+    "Sr No": 632.2,
+    "Product Code": "FG-400712",
+    "Product Name": "SWR SELFIT DOOR BEND (110MM)",
+    "Base Product": "SWR SELFIT DOOR BEND",
     "Category": "SWR Drainage Pipes & Fittings",
     "SubCategory": "General",
-    "Size / Variant": "4",
+    "Size / Variant": "110MM",
     "UOM": "Nos",
-    "Packing / Pack Size": "-",
+    "Packing / Pack Size": "30",
     "Status": "Active",
-    "Description": "SWR SELFIT - DOOR BEND 87.5. Available sizes: 2 1/2, 4."
+    "Description": "SWR SELFIT DOOR BEND."
   },
   {
     "Sr No": 634,

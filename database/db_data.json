@@ -3780,16 +3780,25 @@
     },
     {
       "id": "prod_swr_selfit_8",
-      "name": "SWR SELFIT - DOOR BEND 87.5",
+      "name": "SWR SELFIT DOOR BEND",
       "categoryId": "cat_swr",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "image": "/images/swr/SWR SELFIT - DOOR BEND 87.5.png",
-      "description": "SWR SELFIT - DOOR BEND 87.5. Available sizes: 2 1/2, 4.",
+      "description": "SWR SELFIT DOOR BEND. Available sizes: 75MM, 110MM.",
       "sizes": [
-        "2 1/2",
-        "4"
+        "75MM",
+        "110MM"
       ],
-      "status": "Active"
+      "status": "Active",
+      "sizeProductCodes": {
+        "75MM": "FG-400711",
+        "110MM": "FG-400712"
+      },
+      "packings": {
+        "75MM": 35,
+        "110MM": 30
+      },
+      "uom": "Nos"
     },
     {
       "id": "prod_swr_selfit_9",
