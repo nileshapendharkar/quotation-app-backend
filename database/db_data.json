@@ -6648,6 +6648,17 @@
       "uom": "MTR"
     },
     {
+      "id": "prod_casing_1c",
+      "name": "CASING PIPE BLUE THD CS-SCH-40-5M",
+      "categoryId": "cat_casing",
+      "categoryName": "UPVC CASING PIPES",
+      "image": "/images/casing/CASING PIPE BLUE THD.png",
+      "description": "CASING PIPE BLUE THD CS-SCH-40-5M",
+      "sizes": [],
+      "status": "Active",
+      "uom": "MTR"
+    },
+    {
       "id": "prod_casing_2",
       "name": "CASING PIPE BLUE PLN CS-SCH-40-3M",
       "categoryId": "cat_casing",
