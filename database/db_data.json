@@ -4620,9 +4620,22 @@
       "categoryId": "cat_hdpe",
       "categoryName": "HDPE PIPE & FITTINGS",
       "image": "/images/hdpe/PE-100 OD PIPE ISI.png",
-      "description": "HDPE ISI PIPE PE100 PN4",
-      "sizes": [],
+      "description": "HDPE ISI PIPE PE100 PN4. Available sizes: 75MM, 90MM, 110MM, 140MM, 160MM.",
+      "sizes": [
+        "75MM",
+        "90MM",
+        "110MM",
+        "140MM",
+        "160MM"
+      ],
       "status": "Active",
+      "sizeProductCodes": {
+        "75MM": "FG-401269",
+        "90MM": "FG-401270",
+        "110MM": "FG-401271",
+        "140MM": "FG-401338",
+        "160MM": "FG-401337"
+      },
       "uom": "MTR"
     },
     {
