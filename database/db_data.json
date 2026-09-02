@@ -5492,6 +5492,17 @@
       "uom": "BOX"
     },
     {
+      "id": "prod_agri_7b",
+      "name": "LDPE AGRICULTURE LAPETA PIPE 91 MTR",
+      "categoryId": "cat_agri",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "image": "/images/agri/LAPETA (LDPE) AGRICULTURE PIPE.png",
+      "description": "LDPE AGRICULTURE LAPETA PIPE 91 MTR for agriculture irrigation and piping systems.",
+      "sizes": [],
+      "status": "Active",
+      "uom": "BOX"
+    },
+    {
       "id": "prod_agri_8",
       "name": "AGRI ELBOW PN6",
       "categoryId": "cat_agri",
