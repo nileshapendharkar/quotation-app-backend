@@ -5045,6 +5045,28 @@
       "uom": "MTR"
     },
     {
+      "id": "prod_hdpe_3g",
+      "name": "HDPE ISI PIPE PE80 PN12.5",
+      "categoryId": "cat_hdpe",
+      "categoryName": "HDPE PIPE & FITTINGS",
+      "image": "/images/hdpe/PE-80 OD PIPE ISI.png",
+      "description": "HDPE ISI PIPE PE80 PN12.5. Available sizes: 20MM, 25MM, 32MM, 40MM.",
+      "sizes": [
+        "20MM",
+        "25MM",
+        "32MM",
+        "40MM"
+      ],
+      "status": "Active",
+      "sizeProductCodes": {
+        "20MM": "FG-401262",
+        "25MM": "FG-401263",
+        "32MM": "FG-401264",
+        "40MM": "FG-401265"
+      },
+      "uom": "MTR"
+    },
+    {
       "id": "prod_hdpe_4",
       "name": "HDPE END CAP",
       "categoryId": "cat_hdpe",
