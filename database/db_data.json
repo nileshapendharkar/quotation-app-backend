@@ -4825,6 +4825,17 @@
       "uom": "MTR"
     },
     {
+      "id": "prod_hdpe_2d",
+      "name": "HDPE ISI PIPE PE63 PN6",
+      "categoryId": "cat_hdpe",
+      "categoryName": "HDPE PIPE & FITTINGS",
+      "image": "/images/hdpe/PE-63 OD PIPE ISI.png",
+      "description": "HDPE ISI PIPE PE63 PN6",
+      "sizes": [],
+      "status": "Active",
+      "uom": "MTR"
+    },
+    {
       "id": "prod_hdpe_3",
       "name": "PE-80 OD PIPE ISI",
       "categoryId": "cat_hdpe",
