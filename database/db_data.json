@@ -7089,9 +7089,20 @@
       "categoryId": "cat_garden",
       "categoryName": "Garden, Braided & LDPE Pipes",
       "image": "/images/garden/ORA FLOW - HEAVY DUTY PIPE.png",
-      "description": "GAP-ORA FLOW GARDEN PIPE",
-      "sizes": [],
+      "description": "GAP-ORA FLOW GARDEN PIPE. Available sizes: 1/2 15MM, 3/4 20MM, 1 25MM, 1 1/4 32MM.",
+      "sizes": [
+        "1/2 15MM",
+        "3/4 20MM",
+        "1 25MM",
+        "1 1/4 32MM"
+      ],
       "status": "Active",
+      "sizeProductCodes": {
+        "1/2 15MM": "FG-401364",
+        "3/4 20MM": "FG-401365",
+        "1 25MM": "FG-401366",
+        "1 1/4 32MM": "FG-401367"
+      },
       "uom": "BDL"
     },
     {
