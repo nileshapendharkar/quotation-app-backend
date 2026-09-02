@@ -6002,9 +6002,38 @@
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/FABRICATED COUPLER (LW).png",
-      "description": "AGRI FABRICATED COUPLER for agriculture irrigation and piping systems.",
-      "sizes": [],
+      "description": "AGRI FABRICATED COUPLER for agriculture irrigation and piping systems. Available sizes: 40MM, 50MM, 63MM, 75MM, 90MM, 110MM, 140MM 4KG, 160MM 4KG.",
+      "sizes": [
+        "40MM",
+        "50MM",
+        "63MM",
+        "75MM",
+        "90MM",
+        "110MM",
+        "140MM 4KG",
+        "160MM 4KG"
+      ],
       "status": "Active",
+      "sizeProductCodes": {
+        "40MM": "FG-400561",
+        "50MM": "FG-400562",
+        "63MM": "FG-400563",
+        "75MM": "FG-400564",
+        "90MM": "FG-400565",
+        "110MM": "FG-400566",
+        "140MM 4KG": "FG-400587",
+        "160MM 4KG": "FG-400568"
+      },
+      "packings": {
+        "40MM": 300,
+        "50MM": 200,
+        "63MM": 200,
+        "75MM": 120,
+        "90MM": 80,
+        "110MM": 50,
+        "140MM 4KG": 25,
+        "160MM 4KG": 20
+      },
       "uom": "BOX"
     },
     {
