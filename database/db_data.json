@@ -6601,9 +6601,28 @@
       "categoryId": "cat_casing",
       "categoryName": "UPVC CASING PIPES",
       "image": "/images/casing/CASING PIPE BLUE THD.png",
-      "description": "CASING PIPE BLUE THD CM-SCH-80-3M",
-      "sizes": [],
+      "description": "CASING PIPE BLUE THD CM-SCH-80-3M. Available sizes: 35MM 1 1/4 Inch, 40MM 1 1/2 Inch, 50MM 2 Inch, 100MM 4 Inch, 125MM 5 Inch, 150MM 6 Inch, 175MM 7 Inch, 200MM 8 Inch.",
+      "sizes": [
+        "35MM 1 1/4 Inch",
+        "40MM 1 1/2 Inch",
+        "50MM 2 Inch",
+        "100MM 4 Inch",
+        "125MM 5 Inch",
+        "150MM 6 Inch",
+        "175MM 7 Inch",
+        "200MM 8 Inch"
+      ],
       "status": "Active",
+      "sizeProductCodes": {
+        "35MM 1 1/4 Inch": "FG-401066",
+        "40MM 1 1/2 Inch": "FG-401067",
+        "50MM 2 Inch": "FG-401068",
+        "100MM 4 Inch": "FG-401069",
+        "125MM 5 Inch": "FG-401070",
+        "150MM 6 Inch": "FG-401071",
+        "175MM 7 Inch": "FG-401072",
+        "200MM 8 Inch": "FG-401073"
+      },
       "uom": "MTR"
     },
     {
