@@ -6053,15 +6053,12 @@
     },
     {
       "id": "prod_agri_23",
-      "name": "PN10 - END CAP ISI",
+      "name": "AGRI END CAP 10KG",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/PN10 - END CAP ISI.png",
-      "description": "PN10 - END CAP ISI for agriculture irrigation and piping systems.",
-      "sizes": [
-        "25MM",
-        "32MM"
-      ],
+      "description": "AGRI END CAP 10KG.",
+      "sizes": [],
       "status": "Active",
       "uom": "BOX"
     },
