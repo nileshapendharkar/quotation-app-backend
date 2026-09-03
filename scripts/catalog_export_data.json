@@ -17405,5 +17405,31 @@
     "Packing / Pack Size": 20,
     "Status": "Active",
     "Description": "EWC Toilet Seat Cover without jet spray."
+  },
+  {
+    "Sr No": 1340,
+    "Product Code": "-",
+    "Product Name": "DWC PIPE SN4",
+    "Base Product": "DWC PIPE SN4",
+    "Category": "DWC",
+    "SubCategory": "General",
+    "Size / Variant": "Standard",
+    "UOM": "MTR",
+    "Packing / Pack Size": "-",
+    "Status": "Active",
+    "Description": "DWC PIPE SN4 for underground cable protection and drainage systems."
+  },
+  {
+    "Sr No": 1341,
+    "Product Code": "-",
+    "Product Name": "DWC PIPE SN8",
+    "Base Product": "DWC PIPE SN8",
+    "Category": "DWC",
+    "SubCategory": "General",
+    "Size / Variant": "Standard",
+    "UOM": "MTR",
+    "Packing / Pack Size": "-",
+    "Status": "Active",
+    "Description": "DWC PIPE SN8 for underground cable protection and drainage systems."
   }
 ]

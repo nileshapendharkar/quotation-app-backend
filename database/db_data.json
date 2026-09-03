@@ -8324,6 +8324,28 @@
       },
       "packing": 20,
       "packSize": 20
+    },
+    {
+      "id": "prod_dwc_1",
+      "name": "DWC PIPE SN4",
+      "categoryId": "cat_dwc",
+      "categoryName": "DWC",
+      "image": "/images/categories/cat_dwc.png",
+      "description": "DWC PIPE SN4 for underground cable protection and drainage systems.",
+      "sizes": [],
+      "status": "Active",
+      "uom": "MTR"
+    },
+    {
+      "id": "prod_dwc_2",
+      "name": "DWC PIPE SN8",
+      "categoryId": "cat_dwc",
+      "categoryName": "DWC",
+      "image": "/images/categories/cat_dwc.png",
+      "description": "DWC PIPE SN8 for underground cable protection and drainage systems.",
+      "sizes": [],
+      "status": "Active",
+      "uom": "MTR"
     }
   ],
   "favorites": {
