@@ -2726,14 +2726,14 @@
       ],
       "status": "Active",
       "sizeProductCodes": {
+        "1": "FG-400259",
         "1/2": "FG-400257",
-        "3/4": "FG-400258",
-        "1": "FG-400259"
+        "3/4": "FG-400258"
       },
       "packings": {
+        "1": 70,
         "1/2": 210,
-        "3/4": 100,
-        "1": 70
+        "3/4": 100
       },
       "uom": "BOX"
     },
@@ -2904,16 +2904,29 @@
     },
     {
       "id": "prod_upvc_32",
-      "name": "UPVC- REDUCING BRASS ELBOW 90",
+      "name": "UPVC REDUCER BRASS ELBOW",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
       "image": "/images/upvc/UPVC- REDUCING BRASS ELBOW 90.png",
-      "description": "UPVC- REDUCING BRASS ELBOW 90. Available sizes: 3/4 X 1/2.",
+      "description": "UPVC REDUCER BRASS ELBOW. Available sizes: 3/4 X 1/2, 1 X 1/2.",
       "sizes": [
-        "3/4 X 1/2"
+        "3/4 X 1/2",
+        "1 X 1/2"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "3/4 X 1/2": 100,
+        "1 X 1/2": 100
+      },
+      "packings": {
+        "3/4 X 1/2": 100,
+        "1 X 1/2": 100
+      },
+      "sizeProductCodes": {
+        "3/4 X 1/2": "FG-400260",
+        "1 X 1/2": "FG-400261"
+      }
     },
     {
       "id": "prod_upvc_33",
