@@ -7153,10 +7153,21 @@
       "categoryId": "cat_column",
       "categoryName": "UPVC COLUMN PIPES",
       "image": "/images/column/3M STANDARD PLUS PIPE.png",
-      "description": "COLOUMN PIPE STANDARD PLUS.",
-      "sizes": [],
+      "description": "COLOUMN PIPE STANDARD PLUS. Available sizes: 60MM 2 Inch 25KG COUPLER TYPE.",
+      "sizes": [
+        "60MM 2 Inch 25KG COUPLER TYPE"
+      ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "packSizes": {
+        "60MM 2 Inch 25KG COUPLER TYPE": 12
+      },
+      "packings": {
+        "60MM 2 Inch 25KG COUPLER TYPE": 12
+      },
+      "sizeProductCodes": {
+        "60MM 2 Inch 25KG COUPLER TYPE": "FG-401173"
+      }
     },
     {
       "id": "prod_column_5",
