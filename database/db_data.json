@@ -2975,10 +2975,21 @@
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
       "image": "/images/upvc/UPVC- END PLUG.png",
-      "description": "UPVC CIRCUIT PLUG.",
-      "sizes": [],
+      "description": "UPVC CIRCUIT PLUG. Available sizes: 1/2.",
+      "sizes": [
+        "1/2"
+      ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "1/2": 300
+      },
+      "packings": {
+        "1/2": 300
+      },
+      "sizeProductCodes": {
+        "1/2": "FG-400402"
+      }
     },
     {
       "id": "prod_swr_1",
