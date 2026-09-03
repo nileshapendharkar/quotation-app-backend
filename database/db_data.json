@@ -5229,37 +5229,14 @@
     },
     {
       "id": "prod_eco_2",
-      "name": "RINGFIT PIPE",
+      "name": "ECO DRAINAGE PIPES RINGFIT",
       "categoryId": "cat_eco_drainage",
       "categoryName": "Eco Drainage Pipes",
       "image": "/images/eco_drainage/RINGFIT PIPE.png",
-      "description": "Eco Drainage Ringfit Pipe.",
-      "sizes": [
-        "110MM",
-        "160MM",
-        "200MM",
-        "250MM",
-        "2 1/2",
-        "3",
-        "4",
-        "6"
-      ],
+      "description": "ECO DRAINAGE PIPES RINGFIT.",
+      "sizes": [],
       "status": "Active",
-      "uom": "MTR",
-      "sizeProductCodes": {
-        "3": "FG-401426",
-        "4": "FG-401427",
-        "6": "FG-401428",
-        "2 1/2": "FG-401425"
-      },
-      "packSizes": {
-        "3": 1,
-        "4": 1,
-        "6": 1,
-        "2 1/2": 1
-      },
-      "packing": 1,
-      "packSize": 1
+      "uom": "MTR"
     },
     {
       "id": "prod_agri_1",
