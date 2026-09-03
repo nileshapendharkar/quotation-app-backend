@@ -5705,17 +5705,12 @@
     },
     {
       "id": "prod_agri_11",
-      "name": "PN6 - END CAP (THREADED) ISI",
+      "name": "AGRI END CAP THREADED",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/PN6 - END CAP (THREADED) ISI.png",
-      "description": "PN6 - END CAP (THREADED) ISI for agriculture irrigation and piping systems.",
-      "sizes": [
-        "63MM",
-        "75MM",
-        "90MM",
-        "110MM"
-      ],
+      "description": "AGRI END CAP THREADED.",
+      "sizes": [],
       "status": "Active",
       "uom": "BOX"
     },
