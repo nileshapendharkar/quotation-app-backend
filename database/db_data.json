@@ -5213,17 +5213,12 @@
     },
     {
       "id": "prod_eco_1",
-      "name": "SELFIT PIPE",
+      "name": "ECO DRAINAGE PIPES SELFIT",
       "categoryId": "cat_eco_drainage",
       "categoryName": "Eco Drainage Pipes",
       "image": "/images/eco_drainage/SELFIT PIPE.png",
-      "description": "Eco Drainage Selfit Pipe.",
-      "sizes": [
-        "110MM",
-        "160MM",
-        "200MM",
-        "250MM"
-      ],
+      "description": "ECO DRAINAGE PIPES SELFIT.",
+      "sizes": [],
       "status": "Active",
       "uom": "MTR"
     },
