@@ -5897,15 +5897,12 @@
     },
     {
       "id": "prod_agri_17",
-      "name": "PN10 - ELBOW ISI",
+      "name": "AGRI ELBOW 10KG",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/PN10 - ELBOW ISI.png",
-      "description": "PN10 - ELBOW ISI for agriculture irrigation and piping systems.",
-      "sizes": [
-        "25MM",
-        "32MM"
-      ],
+      "description": "AGRI ELBOW 10KG.",
+      "sizes": [],
       "status": "Active",
       "uom": "BOX"
     },
