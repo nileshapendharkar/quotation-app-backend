@@ -5233,10 +5233,29 @@
       "categoryId": "cat_eco_drainage",
       "categoryName": "Eco Drainage Pipes",
       "image": "/images/eco_drainage/RINGFIT PIPE.png",
-      "description": "ECO DRAINAGE PIPES RINGFIT.",
-      "sizes": [],
+      "description": "ECO DRAINAGE PIPES RINGFIT. Available sizes: 110MM 3M HEAVY, 160MM 3M LIGHT, 110MM 3M LIGHT.",
+      "sizes": [
+        "110MM 3M HEAVY",
+        "160MM 3M LIGHT",
+        "110MM 3M LIGHT"
+      ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "packSizes": {
+        "110MM 3M HEAVY": 1,
+        "160MM 3M LIGHT": 1,
+        "110MM 3M LIGHT": 1
+      },
+      "packings": {
+        "110MM 3M HEAVY": 1,
+        "160MM 3M LIGHT": 1,
+        "110MM 3M LIGHT": 1
+      },
+      "sizeProductCodes": {
+        "110MM 3M HEAVY": "FG-401481",
+        "160MM 3M LIGHT": "FG-401482",
+        "110MM 3M LIGHT": "FG-401483"
+      }
     },
     {
       "id": "prod_agri_1",
