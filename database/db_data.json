@@ -6001,15 +6001,12 @@
     },
     {
       "id": "prod_agri_21",
-      "name": "PN10 - MTA ISI",
+      "name": "AGRI MTA 10KG",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/PN10 - MTA ISI.png",
-      "description": "PN10 - MTA ISI for agriculture irrigation and piping systems.",
-      "sizes": [
-        "25MM",
-        "32MM"
-      ],
+      "description": "AGRI MTA 10KG.",
+      "sizes": [],
       "status": "Active",
       "uom": "BOX"
     },
