@@ -5901,10 +5901,25 @@
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/PN10 - ELBOW ISI.png",
-      "description": "AGRI ELBOW 10KG.",
-      "sizes": [],
+      "description": "AGRI ELBOW 10KG. Available sizes: 25MM, 32MM.",
+      "sizes": [
+        "25MM",
+        "32MM"
+      ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "25MM": 300,
+        "32MM": 150
+      },
+      "packings": {
+        "25MM": 300,
+        "32MM": 150
+      },
+      "sizeProductCodes": {
+        "25MM": "FG-400665",
+        "32MM": "FG-400666"
+      }
     },
     {
       "id": "prod_agri_18",
