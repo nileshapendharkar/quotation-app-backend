@@ -6079,17 +6079,29 @@
     },
     {
       "id": "prod_agri_24",
-      "name": "PN10 - REDUCING BUSH ISI",
+      "name": "AGRI REDUCING BUSH 10KG",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/PN10 - REDUCING BUSH ISI.png",
-      "description": "PN10 - REDUCING BUSH ISI for agriculture irrigation and piping systems.",
+      "description": "AGRI REDUCING BUSH 10KG. Available sizes: 32 X 20MM, 32 X 25MM.",
       "sizes": [
-        "32 X 20",
-        "32 X 25"
+        "32 X 20MM",
+        "32 X 25MM"
       ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "32 X 20MM": 250,
+        "32 X 25MM": 250
+      },
+      "packings": {
+        "32 X 20MM": 250,
+        "32 X 25MM": 250
+      },
+      "sizeProductCodes": {
+        "32 X 20MM": "FG-400673",
+        "32 X 25MM": "FG-400674"
+      }
     },
     {
       "id": "prod_agri_25",
