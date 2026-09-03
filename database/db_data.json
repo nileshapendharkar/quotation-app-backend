@@ -6027,15 +6027,12 @@
     },
     {
       "id": "prod_agri_22",
-      "name": "PN10 - FTA ISI",
+      "name": "AGRI FTA 10KG",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/PN10 - FTA ISI.png",
-      "description": "PN10 - FTA ISI for agriculture irrigation and piping systems.",
-      "sizes": [
-        "25MM",
-        "32MM"
-      ],
+      "description": "AGRI FTA 10KG.",
+      "sizes": [],
       "status": "Active",
       "uom": "BOX"
     },
