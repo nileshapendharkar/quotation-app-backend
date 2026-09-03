@@ -8331,10 +8331,41 @@
       "categoryId": "cat_dwc",
       "categoryName": "DWC",
       "image": "/images/categories/cat_dwc.png",
-      "description": "DWC PIPE SN4 for underground cable protection and drainage systems.",
-      "sizes": [],
+      "description": "DWC PIPE SN4 for underground cable protection and drainage systems. Available sizes: 150MM, 200MM, 250MM, 300MM, 400MM, 500MM.",
+      "sizes": [
+        "150MM",
+        "200MM",
+        "250MM",
+        "300MM",
+        "400MM",
+        "500MM"
+      ],
       "status": "Active",
-      "uom": "MTR"
+      "uom": "MTR",
+      "packSizes": {
+        "150MM": 1,
+        "200MM": 1,
+        "250MM": 1,
+        "300MM": 1,
+        "400MM": 1,
+        "500MM": 1
+      },
+      "packings": {
+        "150MM": 1,
+        "200MM": 1,
+        "250MM": 1,
+        "300MM": 1,
+        "400MM": 1,
+        "500MM": 1
+      },
+      "sizeProductCodes": {
+        "150MM": "FG-401854",
+        "200MM": "FG-401855",
+        "250MM": "FG-401856",
+        "300MM": "FG-401857",
+        "400MM": "FG-401858",
+        "500MM": "FG-401859"
+      }
     },
     {
       "id": "prod_dwc_2",
