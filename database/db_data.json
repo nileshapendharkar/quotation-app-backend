@@ -5709,10 +5709,33 @@
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/PN6 - END CAP (THREADED) ISI.png",
-      "description": "AGRI END CAP THREADED.",
-      "sizes": [],
+      "description": "AGRI END CAP THREADED. Available sizes: 63MM 6KG, 75MM 6KG, 90MM 6KG, 110MM 6KG.",
+      "sizes": [
+        "63MM 6KG",
+        "75MM 6KG",
+        "90MM 6KG",
+        "110MM 6KG"
+      ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "63MM 6KG": 60,
+        "75MM 6KG": 80,
+        "90MM 6KG": 54,
+        "110MM 6KG": 48
+      },
+      "packings": {
+        "63MM 6KG": 60,
+        "75MM 6KG": 80,
+        "90MM 6KG": 54,
+        "110MM 6KG": 48
+      },
+      "sizeProductCodes": {
+        "63MM 6KG": "FG-400635",
+        "75MM 6KG": "FG-400636",
+        "90MM 6KG": "FG-400637",
+        "110MM 6KG": "FG-400638"
+      }
     },
     {
       "id": "prod_agri_12",
