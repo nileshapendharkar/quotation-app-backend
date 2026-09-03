@@ -5953,10 +5953,25 @@
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/PN10 - TEE ISI.png",
-      "description": "AGRI TEE 10KG.",
-      "sizes": [],
+      "description": "AGRI TEE 10KG. Available sizes: 25MM, 32MM.",
+      "sizes": [
+        "25MM",
+        "32MM"
+      ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "25MM": 180,
+        "32MM": 100
+      },
+      "packings": {
+        "25MM": 180,
+        "32MM": 100
+      },
+      "sizeProductCodes": {
+        "25MM": "FG-400667",
+        "32MM": "FG-400668"
+      }
     },
     {
       "id": "prod_agri_20",
