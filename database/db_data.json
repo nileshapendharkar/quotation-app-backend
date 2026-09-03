@@ -5923,15 +5923,12 @@
     },
     {
       "id": "prod_agri_18",
-      "name": "PN10 - UNION ISI",
+      "name": "AGRI UNION 10KG",
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/PN10 - UNION ISI.png",
-      "description": "PN10 - UNION ISI for agriculture irrigation and piping systems.",
-      "sizes": [
-        "25MM",
-        "32MM"
-      ],
+      "description": "AGRI UNION 10KG.",
+      "sizes": [],
       "status": "Active",
       "uom": "BOX"
     },
