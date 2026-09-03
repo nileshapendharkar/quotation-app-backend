@@ -5979,10 +5979,25 @@
       "categoryId": "cat_agri",
       "categoryName": "Agriculture Pipes & Fittings",
       "image": "/images/agri/PN10 - COUPLER ISI.png",
-      "description": "AGRI COUPLER 10KG.",
-      "sizes": [],
+      "description": "AGRI COUPLER 10KG. Available sizes: 25MM, 32MM.",
+      "sizes": [
+        "25MM",
+        "32MM"
+      ],
       "status": "Active",
-      "uom": "BOX"
+      "uom": "BOX",
+      "packSizes": {
+        "25MM": 450,
+        "32MM": 250
+      },
+      "packings": {
+        "25MM": 450,
+        "32MM": 250
+      },
+      "sizeProductCodes": {
+        "25MM": "FG-400669",
+        "32MM": "FG-400670"
+      }
     },
     {
       "id": "prod_agri_21",
