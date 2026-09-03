@@ -10,8 +10,8 @@ if (!p) {
   process.exit(1);
 }
 
-p.name = 'COLOUMN PIPE COUPLER STANDARD PLUS';
-p.description = 'COLOUMN PIPE COUPLER STANDARD PLUS.';
+p.name = 'COLOUMN PIPE STANDARD PLUS';
+p.description = 'COLOUMN PIPE STANDARD PLUS.';
 p.sizes = [];
 delete p.packSizes;
 delete p.sizeProductCodes;
