@@ -2971,14 +2971,12 @@
     },
     {
       "id": "prod_upvc_35",
-      "name": "UPVC- END PLUG",
+      "name": "UPVC CIRCUIT PLUG",
       "categoryId": "cat_upvc",
       "categoryName": "UPVC Pipes & Fittings",
       "image": "/images/upvc/UPVC- END PLUG.png",
-      "description": "UPVC- END PLUG. Available sizes: 1/2.",
-      "sizes": [
-        "1/2"
-      ],
+      "description": "UPVC CIRCUIT PLUG.",
+      "sizes": [],
       "status": "Active",
       "uom": "BOX"
     },
