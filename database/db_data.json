@@ -7149,14 +7149,12 @@
     },
     {
       "id": "prod_column_4",
-      "name": "3M STANDARD PLUS PIPE",
+      "name": "COLOUMN PIPE COUPLER STANDARD PLUS",
       "categoryId": "cat_column",
       "categoryName": "UPVC COLUMN PIPES",
       "image": "/images/column/3M STANDARD PLUS PIPE.png",
-      "description": "3M Standard Plus UPVC Column Pipe for submersible pump systems.",
-      "sizes": [
-        "60MM 25 COUPLER TYPE"
-      ],
+      "description": "COLOUMN PIPE COUPLER STANDARD PLUS.",
+      "sizes": [],
       "status": "Active",
       "uom": "MTR"
     },
