@@ -192,6 +192,13 @@ const initialData = {
       name: "Garden, Braided & LDPE Pipes",
       image: "/images/categories/cat_garden.png",
       description: "Flexible garden hose pipes, braided pipes, and LDPE pipes for domestic & outdoor use."
+    },
+    {
+      id: "cat_dwc",
+      name: "DWC",
+      image: "/images/categories/cat_dwc.png",
+      description: "Double Wall Corrugated (DWC) pipes for underground cable protection and drainage.",
+      uom: "MTR"
     }
   ],
   products: [
