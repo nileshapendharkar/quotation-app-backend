@@ -75,38 +75,39 @@ exports.sendOtp = async (req, res) => {
       let uUserId = (u.userId || '').replace(/\s+/g, '').toLowerCase();
       if (uUserId.startsWith('+91')) uUserId = uUserId.slice(3);
       else if (uUserId.length > 10 && uUserId.startsWith('91')) uUserId = uUserId.slice(2);
-      
+
       const uEmail = (u.email || '').trim().toLowerCase();
-      
-      return uMobile === cleanIdentifier || 
-             uUserId === cleanIdentifier || 
-             uEmail === rawIdentifier;
+
+      return uMobile === cleanIdentifier ||
+        uUserId === cleanIdentifier ||
+        uEmail === rawIdentifier;
     });
 
     if (!user) {
       return res.status(404).json({ success: false, message: 'Account not found. Please register or contact Admin.' });
     }
-    
+
     if (user.status === 'Inactive' || user.status === 'inactive') {
       return res.status(403).json({ success: false, message: 'Your account is currently inactive. Please contact admin.' });
     }
 
     // Generate 6-digit OTP
     let otp = Math.floor(100000 + Math.random() * 900000).toString();
-    
+
     // Temporary bypass for testing / instant login
     if (cleanIdentifier === '9225087140' || cleanIdentifier === '9876543210' || cleanIdentifier === '7249722749') {
       otp = '123456';
     }
-    
+
     console.log(`[AUTH] Generated OTP for ${mobile}: ${otp}`);
 
-    const MSG91_AUTH_KEY = process.env.MSG91_AUTH_KEY || '';
-    const MSG91_TEMPLATE_ID = process.env.MSG91_TEMPLATE_ID || '';
+    const MSG91_AUTH_KEY = (process.env.MSG91_AUTH_KEY || '').trim();
+    const MSG91_TEMPLATE_ID = (process.env.MSG91_TEMPLATE_ID || '').trim();
+    let smsSent = false; // true only when MSG91 really accepted the SMS
 
     if (MSG91_AUTH_KEY && MSG91_TEMPLATE_ID) {
       const formattedMobile = cleanIdentifier.length === 10 ? `91${cleanIdentifier}` : cleanIdentifier;
-      
+
       const options = {
         hostname: 'control.msg91.com',
         path: `/api/v5/otp?template_id=${MSG91_TEMPLATE_ID}&mobile=${formattedMobile}&otp=${otp}`,
@@ -122,22 +123,22 @@ exports.sendOtp = async (req, res) => {
             let responseData = '';
             msgRes.on('data', chunk => responseData += chunk);
             msgRes.on('end', () => {
-              console.log(`[MSG91] SMS Sent to ${formattedMobile}:`, responseData);
-              try {
-                const parsed = JSON.parse(responseData);
-                if (parsed.type === 'error' || parsed.type === 'failure') {
-                  reject(new Error(parsed.message || 'MSG91 SMS Gateway Error'));
-                } else {
-                  resolve(parsed);
-                }
-              } catch (e) {
-                resolve(responseData);
+              console.log(`[MSG91] Response for ${formattedMobile} (HTTP ${msgRes.statusCode}):`, responseData);
+              let parsed = null;
+              try { parsed = JSON.parse(responseData); } catch (e) { }
+              if (parsed && (parsed.type === 'error' || parsed.type === 'failure')) {
+                reject(new Error(parsed.message || 'MSG91 SMS Gateway Error'));
+              } else if (msgRes.statusCode >= 400) {
+                reject(new Error(`MSG91 HTTP ${msgRes.statusCode}`));
+              } else {
+                resolve(parsed || responseData);
               }
             });
           });
           req.on('error', (err) => reject(err));
           req.end();
         });
+        smsSent = true;
       } catch (err) {
         console.error(`[MSG91] Delivery Error for ${formattedMobile}:`, err.message);
         return res.status(500).json({ success: false, message: `SMS Delivery Failed: ${err.message}` });
@@ -157,7 +158,10 @@ exports.sendOtp = async (req, res) => {
       success: true,
       message: 'OTP sent securely to your mobile number',
       otpToken, // Returned to client to submit back during login verification
-      mockOtp: otp // For testing purposes in a development environment
+      // The OTP itself is returned ONLY in simulation mode (MSG91 keys not set), so development
+      // still works. Once a real SMS has been sent, the OTP is never sent back to the app –
+      // the user must type the code received on the phone.
+      ...(smsSent ? {} : { mockOtp: otp })
     });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
@@ -187,7 +191,7 @@ exports.login = async (req, res) => {
         let decodedMobile = (decoded.mobile || '').replace(/\s+/g, '').toLowerCase();
         if (decodedMobile.startsWith('+91')) decodedMobile = decodedMobile.slice(3);
         else if (decodedMobile.length > 10 && decodedMobile.startsWith('91')) decodedMobile = decodedMobile.slice(2);
-        
+
         if (decodedMobile === cleanIdentifier) {
           isMatch = await bcrypt.compare(rawPassword, decoded.otpHash);
           if (!isMatch) {
@@ -210,7 +214,7 @@ exports.login = async (req, res) => {
       else if (uMobile.length > 10 && uMobile.startsWith('91')) uMobile = uMobile.slice(2);
 
       const uEmail = (u.email || '').trim().toLowerCase();
-      
+
       return uUserId === cleanIdentifier || uMobile === cleanIdentifier || uEmail === rawIdentifier;
     });
 

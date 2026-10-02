@@ -2,8 +2,6 @@ const https = require('https');
 
 const MSG91_AUTH_KEY = '563882AGq16MsfTEpD6a8c1566P1';
 const MSG91_TEMPLATE_ID = '6a8c1a14129ac89dd5062993';
-const mobile = '919225087140'; // Replace with a test number if needed
-const otp = '123456';
 
 const options = {
   hostname: 'control.msg91.com',
