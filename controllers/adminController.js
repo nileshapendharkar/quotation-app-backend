@@ -247,7 +247,7 @@ exports.createUser = async (req, res) => {
 
     res.status(201).json({
       success: true,
-      message: 'User created successfully and synced to Couchbase',
+      message: 'User created successfully and synced to database',
       user: userResp
     });
   } catch (err) {
@@ -324,7 +324,7 @@ exports.uploadExcelUsers = async (req, res) => {
 
     res.json({
       success: true,
-      message: `Excel import complete! ${addedCount} new users created, ${updatedCount} existing users updated. Synced to Couchbase.`,
+      message: `Excel import complete! ${addedCount} new users created, ${updatedCount} existing users updated. Synced to database.`,
       addedCount,
       updatedCount
     });
