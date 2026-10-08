@@ -1,6 +1,11 @@
 const fs = require('fs');
 const path = require('path');
-const couchbase = require('couchbase');
+let couchbase = null;
+try {
+  couchbase = require('couchbase');
+} catch (e) {
+  console.warn('⚠️ Couchbase module not loaded:', e.message);
+}
 
 const DB_FILE = path.join(__dirname, 'db_data.json');
 const COUCHBASE_DOC_KEY = 'appdata';
@@ -17,6 +22,7 @@ let isCouchbaseConnected = false;
 let hasAttemptedConnection = false;
 
 async function connectCouchbase() {
+  if (!couchbase) return;
   if (isCouchbaseConnected) return;
   if (hasAttemptedConnection) return;
   hasAttemptedConnection = true;

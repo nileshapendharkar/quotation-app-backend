@@ -63,23 +63,27 @@ app.get('/', (req, res) => {
   });
 });
 
-const PORT = process.env.PORT || 5000;
-const server = app.listen(PORT, () => {
-  console.log(`=================================================`);
-  console.log(`🚀 Quotation App Backend Server running on port ${PORT}`);
-  console.log(`🔒 Policy: ZERO Price / Product Name & Qty Only`);
-  console.log(`=================================================`);
-});
+if (require.main === module) {
+  const PORT = process.env.PORT || 5000;
+  const server = app.listen(PORT, () => {
+    console.log(`=================================================`);
+    console.log(`🚀 Quotation App Backend Server running on port ${PORT}`);
+    console.log(`🔒 Policy: ZERO Price / Product Name & Qty Only`);
+    console.log(`=================================================`);
+  });
 
-server.on('error', (err) => {
-  if (err.code === 'EADDRINUSE') {
-    console.log(`⚠️ Port ${PORT} in use, switching to port 5001...`);
-    app.listen(5001, () => {
-      console.log(`=================================================`);
-      console.log(`🚀 Quotation App Backend Server running on port 5001`);
-      console.log(`🔒 Policy: ZERO Price / Product Name & Qty Only`);
-      console.log(`=================================================`);
-    });
-  }
-});
+  server.on('error', (err) => {
+    if (err.code === 'EADDRINUSE') {
+      console.log(`⚠️ Port ${PORT} in use, switching to port 5001...`);
+      app.listen(5001, () => {
+        console.log(`=================================================`);
+        console.log(`🚀 Quotation App Backend Server running on port 5001`);
+        console.log(`🔒 Policy: ZERO Price / Product Name & Qty Only`);
+        console.log(`=================================================`);
+      });
+    }
+  });
+}
+
+module.exports = app;
 

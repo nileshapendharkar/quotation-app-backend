@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "type": "service",
+        "service": "quotation-app-backend"
+      }
+    }
+  ],
+  "services": {
+    "quotation-app-backend": {
+      "root": ".",
+      "entrypoint": "api/index.js"
+    }
+  }
+}
