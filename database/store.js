@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+const { neon } = require('@neondatabase/serverless');
+
 let couchbase = null;
 try {
   couchbase = require('couchbase');
@@ -14,6 +16,45 @@ const COUCHBASE_DOC_KEY = 'appdata';
 let cachedData = null;
 let cacheTimestamp = 0;
 const CACHE_TTL = 30 * 1000; // 30 seconds
+
+// Neon PostgreSQL Setup
+let neonSql = null;
+let isNeonInitialized = false;
+
+function getNeonSql() {
+  const dbUrl = process.env.DATABASE_URL || process.env.NEON_DATABASE_URL || process.env.POSTGRES_URL;
+  if (!dbUrl) return null;
+  if (!neonSql) {
+    try {
+      neonSql = neon(dbUrl);
+    } catch (err) {
+      console.error('❌ Failed to create Neon SQL client:', err.message);
+      return null;
+    }
+  }
+  return neonSql;
+}
+
+async function ensureNeonTable() {
+  if (isNeonInitialized) return true;
+  const sql = getNeonSql();
+  if (!sql) return false;
+  try {
+    await sql`
+      CREATE TABLE IF NOT EXISTS app_state (
+        key VARCHAR(50) PRIMARY KEY,
+        data JSONB NOT NULL,
+        updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+      );
+    `;
+    isNeonInitialized = true;
+    console.log('✅ Connected to Neon PostgreSQL (table: app_state).');
+    return true;
+  } catch (err) {
+    console.error('❌ Neon table initialization error:', err.message);
+    return false;
+  }
+}
 
 // Couchbase Setup
 let cbCluster = null;
@@ -1779,36 +1820,63 @@ async function readData() {
     }
   }
 
-  // Merge fileData and cbData so added products/categories are never lost across logouts/logins
-  let finalData = cbData || fileData || seedProducts({ ...initialData });
+  // Neon PostgreSQL Cloud Persistence Read
+  let neonData = null;
+  const isNeonReady = await ensureNeonTable();
+  if (isNeonReady) {
+    try {
+      const sql = getNeonSql();
+      const rows = await sql`SELECT data FROM app_state WHERE key = 'appdata' LIMIT 1`;
+      if (rows && rows.length > 0 && rows[0].data) {
+        neonData = rows[0].data;
+      } else {
+        // Initial seed into Neon DB from existing database data or initialData
+        const seedPayload = cbData || fileData || seedProducts({ ...initialData });
+        const seedJson = JSON.stringify(seedPayload);
+        await sql`
+          INSERT INTO app_state (key, data, updated_at)
+          VALUES ('appdata', ${seedJson}::jsonb, NOW())
+          ON CONFLICT (key) DO UPDATE SET data = EXCLUDED.data, updated_at = NOW()
+        `;
+        neonData = seedPayload;
+        console.log('🌱 Seeded initial app data into Neon PostgreSQL.');
+      }
+    } catch (err) {
+      console.error('❌ Neon DB read error:', err.message || err);
+    }
+  }
 
-  if (fileData && cbData) {
+  // Merge datasets so added products/categories/users are never lost
+  const primaryDbData = neonData || cbData;
+  let finalData = primaryDbData || fileData || seedProducts({ ...initialData });
+
+  if (fileData && primaryDbData) {
     // Merge products
     const productMap = new Map();
     (fileData.products || []).forEach(p => productMap.set(p.id, p));
-    (cbData.products || []).forEach(p => productMap.set(p.id, p));
+    (primaryDbData.products || []).forEach(p => productMap.set(p.id, p));
     finalData.products = Array.from(productMap.values());
 
     // Merge categories
     const catMap = new Map();
     (fileData.categories || []).forEach(c => catMap.set(c.id, c));
-    (cbData.categories || []).forEach(c => catMap.set(c.id, c));
+    (primaryDbData.categories || []).forEach(c => catMap.set(c.id, c));
     finalData.categories = Array.from(catMap.values());
 
     // Merge subcategories
     const subCatMap = new Map();
     (fileData.subCategories || []).forEach(s => subCatMap.set(s.id, s));
-    (cbData.subCategories || []).forEach(s => subCatMap.set(s.id, s));
+    (primaryDbData.subCategories || []).forEach(s => subCatMap.set(s.id, s));
     finalData.subCategories = Array.from(subCatMap.values());
 
     // Merge users
     const userMap = new Map();
     (fileData.users || []).forEach(u => userMap.set(u.id, u));
-    (cbData.users || []).forEach(u => userMap.set(u.id, u));
+    (primaryDbData.users || []).forEach(u => userMap.set(u.id, u));
     finalData.users = Array.from(userMap.values());
   }
 
-  // Auto-sync merged dataset back to disk so db_data.json is always complete
+  // Auto-sync merged dataset back to disk if filesystem is writable
   try {
     fs.writeFileSync(DB_FILE, JSON.stringify(finalData, null, 2));
   } catch (e) {}
@@ -1823,15 +1891,32 @@ async function writeData(data) {
   cachedData = data;
   cacheTimestamp = Date.now();
 
-  // 1. Local disk JSON write (guarantees local db_data.json is always synced)
+  // 1. Local disk JSON write (guarantees local db_data.json is synced in writable envs)
   try {
     fs.writeFileSync(DB_FILE, JSON.stringify(data, null, 2));
     console.log('✅ Auto-synced changes to db_data.json');
   } catch (err) {
-    console.error('❌ Local DB write error:', err);
+    // Safely ignored in read-only serverless lambdas
   }
 
-  // 2. Couchbase Cloud Persistence Sync
+  // 2. Primary: Neon PostgreSQL Cloud Persistence Sync
+  const isNeonReady = await ensureNeonTable();
+  if (isNeonReady) {
+    try {
+      const sql = getNeonSql();
+      const dataJson = JSON.stringify(data);
+      await sql`
+        INSERT INTO app_state (key, data, updated_at)
+        VALUES ('appdata', ${dataJson}::jsonb, NOW())
+        ON CONFLICT (key) DO UPDATE SET data = EXCLUDED.data, updated_at = NOW()
+      `;
+      console.log('✅ Auto-synced changes to Neon PostgreSQL cluster.');
+    } catch (err) {
+      console.error('❌ Neon DB write error:', err.message || err);
+    }
+  }
+
+  // 3. Secondary: Couchbase Cloud Persistence Sync
   await connectCouchbase();
   if (isCouchbaseConnected) {
     try {

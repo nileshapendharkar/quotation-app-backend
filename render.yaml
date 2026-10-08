@@ -11,11 +11,9 @@ services:
         value: 10000
       - key: JWT_SECRET
         value: ganesh_gouri_quotation_jwt_secret_key_2026
-      - key: COUCHBASE_URI
+      - key: DATABASE_URL
+        sync: false   # Set Neon DB connection string in Render dashboard
+      - key: MSG91_AUTH_KEY
         sync: false   # Set in Render dashboard
-      - key: COUCHBASE_USER
+      - key: MSG91_TEMPLATE_ID
         sync: false   # Set in Render dashboard
-      - key: COUCHBASE_PASSWORD
-        sync: false   # Set in Render dashboard
-      - key: COUCHBASE_BUCKET
-        value: quotation_app
