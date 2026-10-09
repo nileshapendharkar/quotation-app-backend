@@ -13,6 +13,7 @@ const orderRoutes = require('./routes/orderRoutes');
 const adminRoutes = require('./routes/adminRoutes');
 const draftRoutes = require('./routes/draftRoutes');
 
+const fs = require('fs');
 const path = require('path');
 
 const app = express();
@@ -34,6 +35,40 @@ app.use(compression({
   }
 }));
 app.use(express.json());
+
+// Smart image serving with .webp <-> .png fallback
+app.use('/images', (req, res, next) => {
+  try {
+    const rawPath = decodeURIComponent(req.path);
+    const targetFile = path.join(__dirname, 'public/images', rawPath);
+
+    if (fs.existsSync(targetFile)) {
+      return next();
+    }
+
+    if (rawPath.endsWith('.webp')) {
+      const pngFile = path.join(__dirname, 'public/images', rawPath.replace(/\.webp$/i, '.png'));
+      if (fs.existsSync(pngFile)) {
+        res.setHeader('Content-Type', 'image/png');
+        res.setHeader('Cache-Control', 'public, max-age=2592000, immutable');
+        return res.sendFile(pngFile);
+      }
+    }
+
+    if (rawPath.endsWith('.png')) {
+      const webpFile = path.join(__dirname, 'public/images', rawPath.replace(/\.png$/i, '.webp'));
+      if (fs.existsSync(webpFile)) {
+        res.setHeader('Content-Type', 'image/webp');
+        res.setHeader('Cache-Control', 'public, max-age=2592000, immutable');
+        return res.sendFile(webpFile);
+      }
+    }
+  } catch (err) {
+    console.error('Image fallback middleware error:', err.message);
+  }
+  next();
+});
+
 app.use(express.static(path.join(__dirname, 'public'), {
   maxAge: '7d',
   immutable: true
