@@ -3399,7 +3399,7 @@
         {
           "uom": "LTR",
           "size": "500",
-          "image": "/images/tanks/Blow 6 Layer White.png",
+          "image": "/images/tanks/Blow 6 Layer White.webp",
           "packing": "",
           "quantity": 6,
           "productId": "prod_tank_3",
@@ -3410,7 +3410,7 @@
         {
           "uom": "LTR",
           "size": "750",
-          "image": "/images/tanks/Blow 6 Layer White.png",
+          "image": "/images/tanks/Blow 6 Layer White.webp",
           "packing": "",
           "quantity": 5,
           "productId": "prod_tank_3",
@@ -3421,7 +3421,7 @@
         {
           "uom": "LTR",
           "size": "1000",
-          "image": "/images/tanks/Blow 6 Layer White.png",
+          "image": "/images/tanks/Blow 6 Layer White.webp",
           "packing": "",
           "quantity": 7,
           "productId": "prod_tank_3",
@@ -3432,7 +3432,7 @@
         {
           "uom": "LTR",
           "size": "2000",
-          "image": "/images/tanks/Blow 6 Layer White.png",
+          "image": "/images/tanks/Blow 6 Layer White.webp",
           "packing": "",
           "quantity": 3,
           "productId": "prod_tank_3",
@@ -3443,7 +3443,7 @@
         {
           "uom": "BDL",
           "size": "3/4\" - 3MTR",
-          "image": "/images/cpvc/CPVC - SDR-13.5 Pipe ISI.png",
+          "image": "/images/cpvc/CPVC - SDR-13.5 Pipe ISI.webp",
           "packing": 50,
           "quantity": 10,
           "productId": "prod_cpvc_1",
@@ -3454,7 +3454,7 @@
         {
           "uom": "BDL",
           "size": "1\" - 3MTR",
-          "image": "/images/cpvc/CPVC - SDR-13.5 Pipe ISI.png",
+          "image": "/images/cpvc/CPVC - SDR-13.5 Pipe ISI.webp",
           "packing": 25,
           "quantity": 6,
           "productId": "prod_cpvc_1",
@@ -3465,7 +3465,7 @@
         {
           "uom": "BDL",
           "size": "1 1/2\" - 3MTR",
-          "image": "/images/cpvc/CPVC - SDR-13.5 Pipe ISI.png",
+          "image": "/images/cpvc/CPVC - SDR-13.5 Pipe ISI.webp",
           "packing": 10,
           "quantity": 11,
           "productId": "prod_cpvc_1",
@@ -3491,7 +3491,7 @@
         {
           "uom": "BOX",
           "size": "3/4",
-          "image": "/images/cpvc/CPVC - Elbow 90.png",
+          "image": "/images/cpvc/CPVC - Elbow 90.webp",
           "packing": 200,
           "quantity": 7,
           "productId": "prod_cpvc_8",
@@ -3502,7 +3502,7 @@
         {
           "uom": "BOX",
           "size": "1",
-          "image": "/images/cpvc/CPVC - Elbow 90.png",
+          "image": "/images/cpvc/CPVC - Elbow 90.webp",
           "packing": 100,
           "quantity": 11,
           "productId": "prod_cpvc_8",
@@ -3513,7 +3513,7 @@
         {
           "uom": "BOX",
           "size": "1 1/2",
-          "image": "/images/cpvc/CPVC - Elbow 90.png",
+          "image": "/images/cpvc/CPVC - Elbow 90.webp",
           "packing": 40,
           "quantity": 7,
           "productId": "prod_cpvc_8",
@@ -3524,7 +3524,7 @@
         {
           "uom": "BOX",
           "size": "1 1/4",
-          "image": "/images/cpvc/CPVC - Tee.png",
+          "image": "/images/cpvc/CPVC - Tee.webp",
           "packing": 40,
           "quantity": 4,
           "productId": "prod_cpvc_13",
@@ -3535,7 +3535,7 @@
         {
           "uom": "BOX",
           "size": "1",
-          "image": "/images/cpvc/CPVC - Tee.png",
+          "image": "/images/cpvc/CPVC - Tee.webp",
           "packing": 80,
           "quantity": 6,
           "productId": "prod_cpvc_13",
@@ -3546,7 +3546,7 @@
         {
           "uom": "BOX",
           "size": "3/4",
-          "image": "/images/cpvc/CPVC - Tee.png",
+          "image": "/images/cpvc/CPVC - Tee.webp",
           "packing": 160,
           "quantity": 5,
           "productId": "prod_cpvc_13",
@@ -3557,7 +3557,7 @@
         {
           "uom": "BOX",
           "size": "1 X 1/2",
-          "image": "/images/cpvc/CPVC - Reducing Elbow 90.png",
+          "image": "/images/cpvc/CPVC - Reducing Elbow 90.webp",
           "packing": 160,
           "quantity": 8,
           "productId": "prod_cpvc_20",
@@ -3568,7 +3568,7 @@
         {
           "uom": "BOX",
           "size": "1 X 3/4",
-          "image": "/images/cpvc/CPVC - Reducing Elbow 90.png",
+          "image": "/images/cpvc/CPVC - Reducing Elbow 90.webp",
           "packing": 120,
           "quantity": 3,
           "productId": "prod_cpvc_20",
@@ -3579,7 +3579,7 @@
         {
           "uom": "BDL",
           "size": "3/4\" - 3MTR",
-          "image": "/images/upvc/UPVC- SCH-40 PIPE.png",
+          "image": "/images/upvc/UPVC- SCH-40 PIPE.webp",
           "packing": 50,
           "quantity": 4,
           "productId": "prod_upvc_1",
@@ -3590,7 +3590,7 @@
         {
           "uom": "BDL",
           "size": "1\" - 3MTR",
-          "image": "/images/upvc/UPVC- SCH-40 PIPE.png",
+          "image": "/images/upvc/UPVC- SCH-40 PIPE.webp",
           "packing": 30,
           "quantity": 6,
           "productId": "prod_upvc_1",
@@ -3601,7 +3601,7 @@
         {
           "uom": "BDL",
           "size": "1/2\" - 3MTR",
-          "image": "/images/upvc/UPVC- SCH-40 PIPE.png",
+          "image": "/images/upvc/UPVC- SCH-40 PIPE.webp",
           "packing": 50,
           "quantity": 10,
           "productId": "prod_upvc_1",
@@ -3612,7 +3612,7 @@
         {
           "uom": "BOX",
           "size": "1 X 1/2",
-          "image": "/images/upvc/UPVC- REDUCING TEE.png",
+          "image": "/images/upvc/UPVC- REDUCING TEE.webp",
           "packing": 60,
           "quantity": 3,
           "productId": "prod_upvc_5",
@@ -3623,7 +3623,7 @@
         {
           "uom": "BOX",
           "size": "1 X 3/4",
-          "image": "/images/upvc/UPVC- REDUCING TEE.png",
+          "image": "/images/upvc/UPVC- REDUCING TEE.webp",
           "packing": 60,
           "quantity": 4,
           "productId": "prod_upvc_5",
@@ -3649,7 +3649,7 @@
         {
           "uom": "LTR",
           "size": "500L",
-          "image": "/images/tanks/Blow 10 Layer Gold.png",
+          "image": "/images/tanks/Blow 10 Layer Gold.webp",
           "packing": "Standard",
           "quantity": 5,
           "productId": "prod_tank_1",
@@ -3675,7 +3675,7 @@
         {
           "uom": "LTR",
           "size": "1000L",
-          "image": "/images/tanks/Blow 6 Layer Gold.png",
+          "image": "/images/tanks/Blow 6 Layer Gold.webp",
           "packing": "Standard",
           "quantity": 3,
           "productId": "prod_tank_6",
@@ -3701,7 +3701,7 @@
         {
           "uom": "LTR",
           "size": "300L",
-          "image": "/images/tanks/Blow 10 Layer Gold.png",
+          "image": "/images/tanks/Blow 10 Layer Gold.webp",
           "packing": "Standard",
           "quantity": 10,
           "productId": "prod_tank_1",
@@ -3727,7 +3727,7 @@
         {
           "uom": "LTR",
           "size": "500L",
-          "image": "/images/tanks/Blow 10 Layer Gold.png",
+          "image": "/images/tanks/Blow 10 Layer Gold.webp",
           "packing": "Standard",
           "quantity": 12,
           "productId": "prod_tank_1",
@@ -3753,7 +3753,7 @@
         {
           "uom": "LTR",
           "size": "1000L",
-          "image": "/images/tanks/Blow 6 Layer Gold.png",
+          "image": "/images/tanks/Blow 6 Layer Gold.webp",
           "packing": "Standard",
           "quantity": 8,
           "productId": "prod_tank_6",
@@ -3779,7 +3779,7 @@
         {
           "uom": "LTR",
           "size": "300L",
-          "image": "/images/tanks/Blow 10 Layer Gold.png",
+          "image": "/images/tanks/Blow 10 Layer Gold.webp",
           "packing": "Standard",
           "quantity": 20,
           "productId": "prod_tank_1",
@@ -3859,7 +3859,7 @@
       "id": "prod_tank_1",
       "uom": "LTR",
       "name": "HDPE 10L GOLD GAP",
-      "image": "/images/tanks/Blow 10 Layer Gold.png",
+      "image": "/images/tanks/Blow 10 Layer Gold.webp",
       "sizes": [
         "300",
         "500",
@@ -3887,7 +3887,7 @@
       "id": "prod_tank_2",
       "uom": "LTR",
       "name": "HDPE 10L ORG GAP",
-      "image": "/images/tanks/Blow 10 Layer Ora.png",
+      "image": "/images/tanks/Blow 10 Layer Ora.webp",
       "sizes": [
         "500",
         "750",
@@ -3909,7 +3909,7 @@
       "id": "prod_tank_3",
       "uom": "LTR",
       "name": "HDPE 6L WHITE GAP",
-      "image": "/images/tanks/Blow 6 Layer White.png",
+      "image": "/images/tanks/Blow 6 Layer White.webp",
       "sizes": [
         "200",
         "300",
@@ -3939,7 +3939,7 @@
       "id": "prod_tank_5",
       "uom": "LTR",
       "name": "HDPE 6L ORG GAP",
-      "image": "/images/tanks/Blow 6 Layer Ora.png",
+      "image": "/images/tanks/Blow 6 Layer Ora.webp",
       "sizes": [
         "500",
         "750",
@@ -3961,7 +3961,7 @@
       "id": "prod_tank_8",
       "uom": "LTR",
       "name": "HDPE LOFT WHITE GAP",
-      "image": "/images/tanks/Loft Tank White.png",
+      "image": "/images/tanks/Loft Tank White.webp",
       "sizes": [
         "200",
         "300",
@@ -3985,7 +3985,7 @@
       "id": "prod_tank_9",
       "uom": "LTR",
       "name": "10L ROTO T3 ORANGE FOAM GAP",
-      "image": "/images/tanks/Roto 10 Layer T3 Ora.png",
+      "image": "/images/tanks/Roto 10 Layer T3 Ora.webp",
       "sizes": [
         "500",
         "750",
@@ -4009,7 +4009,7 @@
       "id": "prod_tank_10",
       "uom": "LTR",
       "name": "6L ROTO MARBLE FOAM GAP",
-      "image": "/images/tanks/Roto 6 Layer Double Puff Marble.png",
+      "image": "/images/tanks/Roto 6 Layer Double Puff Marble.webp",
       "sizes": [
         "500",
         "750",
@@ -4039,7 +4039,7 @@
       "id": "prod_tank_11",
       "uom": "LTR",
       "name": "6L ROTO WHITE FOAM GAP",
-      "image": "/images/tanks/Roto 6 Layer Double Puff White.png",
+      "image": "/images/tanks/Roto 6 Layer Double Puff White.webp",
       "sizes": [
         "500",
         "750",
@@ -4069,7 +4069,7 @@
       "id": "prod_tank_12",
       "uom": "LTR",
       "name": "4L ROTO MARBLE FOAM GAP",
-      "image": "/images/tanks/Roto 4 Layer Double Puff Marble.png",
+      "image": "/images/tanks/Roto 4 Layer Double Puff Marble.webp",
       "sizes": [
         "500",
         "750",
@@ -4099,7 +4099,7 @@
       "id": "prod_tank_13",
       "uom": "LTR",
       "name": "4L ROTO WHITE FOAM GAP",
-      "image": "/images/tanks/Roto 4 Layer Double Puff White.png",
+      "image": "/images/tanks/Roto 4 Layer Double Puff White.webp",
       "sizes": [
         "500",
         "750",
@@ -4129,7 +4129,7 @@
       "id": "prod_tank_14",
       "uom": "LTR",
       "name": "3L ROTO WHITE GAP",
-      "image": "/images/tanks/Roto 3 Layer White.png",
+      "image": "/images/tanks/Roto 3 Layer White.webp",
       "sizes": [
         "500",
         "750",
@@ -4159,7 +4159,7 @@
       "id": "prod_tank_15",
       "uom": "LTR",
       "name": "2L ROTO BLACK ISI GAP",
-      "image": "/images/tanks/Roto 2 Layer ISI Black.png",
+      "image": "/images/tanks/Roto 2 Layer ISI Black.webp",
       "sizes": [
         "500",
         "750",
@@ -4189,7 +4189,7 @@
       "id": "prod_tank_17",
       "uom": "LTR",
       "name": "ROTO UNDERGROUND TANK",
-      "image": "/images/tanks/Underground Tank Black.png",
+      "image": "/images/tanks/Underground Tank Black.webp",
       "sizes": [
         "1000",
         "2000"
@@ -4208,7 +4208,7 @@
       "id": "prod_tank_19",
       "uom": "LTR",
       "name": "3L ROTO ORG GAP",
-      "image": "/images/tanks/Roto 3 Layer Ora.png",
+      "image": "/images/tanks/Roto 3 Layer Ora.webp",
       "sizes": [
         "500",
         "750",
@@ -4238,7 +4238,7 @@
       "id": "prod_tank_20",
       "uom": "LTR",
       "name": "3L ROTO BLACK GAP",
-      "image": "/images/tanks/Roto 3 Layer Black.png",
+      "image": "/images/tanks/Roto 3 Layer Black.webp",
       "sizes": [
         "500",
         "750",
@@ -4268,7 +4268,7 @@
       "id": "prod_tank_21",
       "uom": "LTR",
       "name": "6L ROTO MARBLE DOUBLE FOAM GAP",
-      "image": "/images/tanks/Roto 6 Layer Double Puff Marble.png",
+      "image": "/images/tanks/Roto 6 Layer Double Puff Marble.webp",
       "sizes": [
         "500",
         "750",
@@ -4298,7 +4298,7 @@
       "id": "prod_tank_22",
       "uom": "LTR",
       "name": "6L ROTO WHITE DOUBLE FOAM GAP",
-      "image": "/images/tanks/Roto 6 Layer Double Puff White.png",
+      "image": "/images/tanks/Roto 6 Layer Double Puff White.webp",
       "sizes": [
         "500",
         "750",
@@ -4328,7 +4328,7 @@
       "id": "prod_tank_23",
       "uom": "LTR",
       "name": "6L ROTO ORG DOUBLE FOAM GAP",
-      "image": "/images/tanks/Roto 6 Layer Double Puff Ora.png",
+      "image": "/images/tanks/Roto 6 Layer Double Puff Ora.webp",
       "sizes": [
         "500",
         "750",
@@ -4350,7 +4350,7 @@
       "id": "prod_cpvc_1",
       "uom": "BDL",
       "name": "CPVC PIPES (SDR 13.5)",
-      "image": "/images/cpvc/CPVC - SDR-13.5 Pipe ISI.png",
+      "image": "/images/cpvc/CPVC - SDR-13.5 Pipe ISI.webp",
       "sizes": [
         "1/2\" - 3MTR",
         "1/2\" - 5MTR",
@@ -4402,7 +4402,7 @@
       "id": "prod_cpvc_2",
       "uom": "BDL",
       "name": "CPVC PIPES (SDR 11)",
-      "image": "/images/cpvc/CPVC - SDR-11 Pipe ISI.png",
+      "image": "/images/cpvc/CPVC - SDR-11 Pipe ISI.webp",
       "sizes": [
         "1/2\" - 3MTR",
         "1/2\" - 5MTR",
@@ -4454,7 +4454,7 @@
       "id": "prod_cpvc_3",
       "uom": "BDL",
       "name": "CPVC PIPES (SCH-80)",
-      "image": "/images/cpvc/CPVC - SCH-80 Pipe.png",
+      "image": "/images/cpvc/CPVC - SCH-80 Pipe.webp",
       "sizes": [
         "2 1/2\" - 3MTR",
         "2 1/2\" - 5MTR",
@@ -4488,7 +4488,7 @@
       "id": "prod_cpvc_4",
       "uom": "BDL",
       "name": "CPVC PIPES (SCH-40)",
-      "image": "/images/cpvc/CPVC - SCH-40 Pipe.png",
+      "image": "/images/cpvc/CPVC - SCH-40 Pipe.webp",
       "sizes": [
         "2 1/2\" - 3MTR",
         "2 1/2\" - 5MTR",
@@ -4522,7 +4522,7 @@
       "id": "prod_cpvc_5",
       "uom": "BOX",
       "name": "CPVC COUPLER",
-      "image": "/images/cpvc/CPVC - Coupler.png",
+      "image": "/images/cpvc/CPVC - Coupler.webp",
       "sizes": [
         "3/4",
         "1",
@@ -4553,7 +4553,7 @@
       "id": "prod_cpvc_6",
       "uom": "BOX",
       "name": "CPVC END CAP",
-      "image": "/images/cpvc/CPVC - End Cap.png",
+      "image": "/images/cpvc/CPVC - End Cap.webp",
       "sizes": [
         "3/4",
         "1",
@@ -4584,7 +4584,7 @@
       "id": "prod_cpvc_7",
       "uom": "BOX",
       "name": "CPVC METAL CLAMP",
-      "image": "/images/cpvc/CPVC - Metal Clamp.png",
+      "image": "/images/cpvc/CPVC - Metal Clamp.webp",
       "sizes": [
         "3/4",
         "1",
@@ -4615,7 +4615,7 @@
       "id": "prod_cpvc_8",
       "uom": "BOX",
       "name": "CPVC ELBOW 90",
-      "image": "/images/cpvc/CPVC - Elbow 90.png",
+      "image": "/images/cpvc/CPVC - Elbow 90.webp",
       "sizes": [
         "3/4",
         "1",
@@ -4646,7 +4646,7 @@
       "id": "prod_cpvc_9",
       "uom": "BOX",
       "name": "CPVC MTA",
-      "image": "/images/cpvc/CPVC - MTA.png",
+      "image": "/images/cpvc/CPVC - MTA.webp",
       "sizes": [
         "3/4",
         "1",
@@ -4677,7 +4677,7 @@
       "id": "prod_cpvc_10",
       "uom": "BOX",
       "name": "CPVC SHOE BEND 45",
-      "image": "/images/cpvc/CPVC - Bend 45.png",
+      "image": "/images/cpvc/CPVC - Bend 45.webp",
       "sizes": [
         "3/4",
         "1",
@@ -4708,7 +4708,7 @@
       "id": "prod_cpvc_11",
       "uom": "BOX",
       "name": "CPVC FTA",
-      "image": "/images/cpvc/CPVC - FTA.png",
+      "image": "/images/cpvc/CPVC - FTA.webp",
       "sizes": [
         "3/4",
         "1",
@@ -4739,7 +4739,7 @@
       "id": "prod_cpvc_12",
       "uom": "BOX",
       "name": "CPVC NAIL CLAMP",
-      "image": "/images/cpvc/CPVC - Nail Clamp.png",
+      "image": "/images/cpvc/CPVC - Nail Clamp.webp",
       "sizes": [
         "3/4",
         "1",
@@ -4770,7 +4770,7 @@
       "id": "prod_cpvc_13",
       "uom": "BOX",
       "name": "CPVC TEE",
-      "image": "/images/cpvc/CPVC - Tee.png",
+      "image": "/images/cpvc/CPVC - Tee.webp",
       "sizes": [
         "3/4",
         "1",
@@ -4801,7 +4801,7 @@
       "id": "prod_cpvc_14",
       "uom": "BOX",
       "name": "CPVC BRASS FTA",
-      "image": "/images/cpvc/CPVC - Brass FTA.png",
+      "image": "/images/cpvc/CPVC - Brass FTA.webp",
       "sizes": [
         "3/4",
         "1",
@@ -4832,7 +4832,7 @@
       "id": "prod_cpvc_15",
       "uom": "BOX",
       "name": "CPVC CROSS TEE",
-      "image": "/images/cpvc/CPVC - Cross Tee.png",
+      "image": "/images/cpvc/CPVC - Cross Tee.webp",
       "sizes": [
         "3/4",
         "1",
@@ -4857,7 +4857,7 @@
       "id": "prod_cpvc_16",
       "uom": "BOX",
       "name": "CPVC TANK NIPPLE (SOCKETED)",
-      "image": "/images/cpvc/CPVC - Tank Nipple (Socketed).png",
+      "image": "/images/cpvc/CPVC - Tank Nipple (Socketed).webp",
       "sizes": [
         "3/4",
         "1",
@@ -4888,7 +4888,7 @@
       "id": "prod_cpvc_17",
       "uom": "BOX",
       "name": "CPVC BRASS MTA",
-      "image": "/images/cpvc/CPVC - Brass MTA.png",
+      "image": "/images/cpvc/CPVC - Brass MTA.webp",
       "sizes": [
         "3/4",
         "1",
@@ -4919,7 +4919,7 @@
       "id": "prod_cpvc_18",
       "uom": "BOX",
       "name": "CPVC TANK NIPPLE",
-      "image": "/images/cpvc/CPVC - Tank Nipple (Threaded).png",
+      "image": "/images/cpvc/CPVC - Tank Nipple (Threaded).webp",
       "sizes": [
         "3/4",
         "1",
@@ -4950,7 +4950,7 @@
       "id": "prod_cpvc_19",
       "uom": "BOX",
       "name": "CPVC UNION",
-      "image": "/images/cpvc/CPVC - Union.png",
+      "image": "/images/cpvc/CPVC - Union.webp",
       "sizes": [
         "3/4",
         "1",
@@ -4981,7 +4981,7 @@
       "id": "prod_cpvc_20",
       "uom": "BOX",
       "name": "CPVC REDUCER ELBOW",
-      "image": "/images/cpvc/CPVC - Reducing Elbow 90.png",
+      "image": "/images/cpvc/CPVC - Reducing Elbow 90.webp",
       "sizes": [
         "1 X 1/2",
         "1 X 3/4"
@@ -5003,7 +5003,7 @@
       "id": "prod_cpvc_21",
       "uom": "BOX",
       "name": "CPVC TRANSITION BUSH",
-      "image": "/images/cpvc/CPVC - Transition Bush.png",
+      "image": "/images/cpvc/CPVC - Transition Bush.webp",
       "sizes": [
         "3/4",
         "1"
@@ -5025,7 +5025,7 @@
       "id": "prod_cpvc_22",
       "uom": "BOX",
       "name": "CPVC CONCEALED VALVE (Quarter Turn)",
-      "image": "/images/cpvc/CPVC - Concealed Valve (Quarter Turn).png",
+      "image": "/images/cpvc/CPVC - Concealed Valve (Quarter Turn).webp",
       "sizes": [
         "3/4",
         "1"
@@ -5047,7 +5047,7 @@
       "id": "prod_cpvc_23",
       "uom": "BOX",
       "name": "CPVC CONCEALED VALVE (Full Turn)",
-      "image": "/images/cpvc/CPVC - Concealed Valve (Full Turn).png",
+      "image": "/images/cpvc/CPVC - Concealed Valve (Full Turn).webp",
       "sizes": [
         "3/4",
         "1"
@@ -5069,7 +5069,7 @@
       "id": "prod_cpvc_24",
       "uom": "BOX",
       "name": "CPVC END PLUG",
-      "image": "/images/cpvc/CPVC - End Plug.png",
+      "image": "/images/cpvc/CPVC - End Plug.webp",
       "sizes": [
         "1/2"
       ],
@@ -5088,7 +5088,7 @@
       "id": "prod_cpvc_25",
       "uom": "BOX",
       "name": "CPVC 3 IN 1 MIXTURE ADAPTOR 6",
-      "image": "/images/cpvc/CPVC - 3 In 1 Mixer Adaptor 6.png",
+      "image": "/images/cpvc/CPVC - 3 In 1 Mixer Adaptor 6.webp",
       "sizes": [
         "3/4 X 1/2"
       ],
@@ -5107,7 +5107,7 @@
       "id": "prod_cpvc_26",
       "uom": "BOX",
       "name": "CPVC 3 IN 1 MIXTURE FRAME 6",
-      "image": "/images/cpvc/CPVC - 3 In 1 Mixer Frame 6.png",
+      "image": "/images/cpvc/CPVC - 3 In 1 Mixer Frame 6.webp",
       "sizes": [
         "3/4 X 1/2"
       ],
@@ -5126,7 +5126,7 @@
       "id": "prod_cpvc_27",
       "uom": "BOX",
       "name": "CPVC REDUCER FTA HEXA BRASS",
-      "image": "/images/cpvc/CPVC - Reducing FTA Hexa Brass.png",
+      "image": "/images/cpvc/CPVC - Reducing FTA Hexa Brass.webp",
       "sizes": [
         "3/4 X 1/2"
       ],
@@ -5145,7 +5145,7 @@
       "id": "prod_cpvc_28",
       "uom": "BOX",
       "name": "CPVC REDUCER BRASS MTA",
-      "image": "/images/cpvc/CPVC - Reducing Brass MTA.png",
+      "image": "/images/cpvc/CPVC - Reducing Brass MTA.webp",
       "sizes": [
         "3/4 X 1/2",
         "1 X 1/2"
@@ -5167,7 +5167,7 @@
       "id": "prod_cpvc_29",
       "uom": "BOX",
       "name": "CPVC REDUCER BRASS FTA",
-      "image": "/images/cpvc/CPVC - Reducing Brass FTA.png",
+      "image": "/images/cpvc/CPVC - Reducing Brass FTA.webp",
       "sizes": [
         "3/4 X 1/2",
         "1 X 1/2"
@@ -5189,7 +5189,7 @@
       "id": "prod_cpvc_30",
       "uom": "BOX",
       "name": "CPVC REDUCER BRASS TEE",
-      "image": "/images/cpvc/CPVC - Reducing Brass Tee.png",
+      "image": "/images/cpvc/CPVC - Reducing Brass Tee.webp",
       "sizes": [
         "3/4 X 1/2",
         "1 X 1/2",
@@ -5214,7 +5214,7 @@
       "id": "prod_cpvc_31",
       "uom": "BOX",
       "name": "CPVC STEPOVER BEND (MOULDED)",
-      "image": "/images/cpvc/CPVC - Step Over Bend (Moulded).png",
+      "image": "/images/cpvc/CPVC - Step Over Bend (Moulded).webp",
       "sizes": [
         "3/4",
         "1",
@@ -5239,7 +5239,7 @@
       "id": "prod_cpvc_32",
       "uom": "BOX",
       "name": "CPVC STEPOVER BEND",
-      "image": "/images/cpvc/CPVC - Step Over Bend.png",
+      "image": "/images/cpvc/CPVC - Step Over Bend.webp",
       "sizes": [
         "3/4",
         "1"
@@ -5261,7 +5261,7 @@
       "id": "prod_cpvc_33",
       "uom": "BOX",
       "name": "CPVC NRV",
-      "image": "/images/cpvc/CPVC - NRV.png",
+      "image": "/images/cpvc/CPVC - NRV.webp",
       "sizes": [
         "3/4",
         "1",
@@ -5286,7 +5286,7 @@
       "id": "prod_cpvc_34",
       "uom": "BOX",
       "name": "CPVC BRASS TEE",
-      "image": "/images/cpvc/CPVC - Brass Tee.png",
+      "image": "/images/cpvc/CPVC - Brass Tee.webp",
       "sizes": [
         "3/4",
         "1"
@@ -5308,7 +5308,7 @@
       "id": "prod_cpvc_35",
       "uom": "BOX",
       "name": "CPVC REDUCER MTA HEXA BRASS",
-      "image": "/images/cpvc/CPVC - Reducing MTA Hexa Brass.png",
+      "image": "/images/cpvc/CPVC - Reducing MTA Hexa Brass.webp",
       "sizes": [
         "3/4 X 1/2"
       ],
@@ -5327,7 +5327,7 @@
       "id": "prod_cpvc_36",
       "uom": "BOX",
       "name": "CPVC REDUCER COUPLER",
-      "image": "/images/cpvc/CPVC - Reducing Coupler.png",
+      "image": "/images/cpvc/CPVC - Reducing Coupler.webp",
       "sizes": [
         "3/4 X 1/2",
         "1 X 1/2",
@@ -5379,7 +5379,7 @@
       "id": "prod_cpvc_37",
       "uom": "BOX",
       "name": "CPVC REDUCER TEE",
-      "image": "/images/cpvc/CPVC - Reducing Tee.png",
+      "image": "/images/cpvc/CPVC - Reducing Tee.webp",
       "sizes": [
         "1 X 3/4",
         "1 1/4 X 3/4",
@@ -5425,7 +5425,7 @@
       "id": "prod_cpvc_38",
       "uom": "BOX",
       "name": "CPVC REDUCER BUSH",
-      "image": "/images/cpvc/CPVC - Reducing Bush.png",
+      "image": "/images/cpvc/CPVC - Reducing Bush.webp",
       "sizes": [
         "1 X 3/4",
         "1 1/4 X 1",
@@ -5468,7 +5468,7 @@
       "id": "prod_cpvc_39",
       "uom": "BOX",
       "name": "CPVC BALL VALVE (LONG HANDLE)",
-      "image": "/images/cpvc/CPVC - Ball Valve.png",
+      "image": "/images/cpvc/CPVC - Ball Valve.webp",
       "price": 0,
       "sizes": [
         "3/4",
@@ -5500,7 +5500,7 @@
       "id": "prod_upvc_1",
       "uom": "BDL",
       "name": "UPVC PIPES (SCH-40)",
-      "image": "/images/upvc/UPVC- SCH-40 PIPE.png",
+      "image": "/images/upvc/UPVC- SCH-40 PIPE.webp",
       "sizes": [
         "1/2\" - 3MTR",
         "1/2\" - 6MTR",
@@ -5552,7 +5552,7 @@
       "id": "prod_upvc_2",
       "uom": "BDL",
       "name": "UPVC PIPES (SCH-80)",
-      "image": "/images/upvc/UPVC- SCH-80 PIPE.png",
+      "image": "/images/upvc/UPVC- SCH-80 PIPE.webp",
       "sizes": [
         "1/2\" - 3MTR",
         "1/2\" - 6MTR",
@@ -5604,7 +5604,7 @@
       "id": "prod_upvc_3",
       "uom": "BDL",
       "name": "UPVC THRD (SCH 80)",
-      "image": "/images/upvc/UPVC- SCH-80 THREADED PIPE.png",
+      "image": "/images/upvc/UPVC- SCH-80 THREADED PIPE.webp",
       "sizes": [
         "1/2\" - 3MTR",
         "1/2\" - 6MTR",
@@ -5656,7 +5656,7 @@
       "id": "prod_upvc_4",
       "uom": "BOX",
       "name": "UPVC REDUCER COUPLER",
-      "image": "/images/upvc/UPVC- REDUCING COUPLER.png",
+      "image": "/images/upvc/UPVC- REDUCING COUPLER.webp",
       "sizes": [
         "3/4 X 1/2",
         "1 X 1/2",
@@ -5711,7 +5711,7 @@
       "id": "prod_upvc_5",
       "uom": "BOX",
       "name": "UPVC REDUCER TEE",
-      "image": "/images/upvc/UPVC- REDUCING TEE.png",
+      "image": "/images/upvc/UPVC- REDUCING TEE.webp",
       "sizes": [
         "3/4 X 1/2",
         "1 X 1/2",
@@ -5766,7 +5766,7 @@
       "id": "prod_upvc_6",
       "uom": "BOX",
       "name": "UPVC REDUCER BUSH",
-      "image": "/images/upvc/UPVC- REDUCING BUSH.png",
+      "image": "/images/upvc/UPVC- REDUCING BUSH.webp",
       "sizes": [
         "3/4 X 1/2",
         "1 X 1/2",
@@ -5821,7 +5821,7 @@
       "id": "prod_upvc_7",
       "uom": "BOX",
       "name": "UPVC ELBOW 90",
-      "image": "/images/upvc/UPVC- ELBOW 90.png",
+      "image": "/images/upvc/UPVC- ELBOW 90.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -5855,7 +5855,7 @@
       "id": "prod_upvc_8",
       "uom": "BOX",
       "name": "UPVC TEE",
-      "image": "/images/upvc/UPVC- TEE.png",
+      "image": "/images/upvc/UPVC- TEE.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -5889,7 +5889,7 @@
       "id": "prod_upvc_9",
       "uom": "BOX",
       "name": "UPVC COUPLER",
-      "image": "/images/upvc/UPVC- COUPLER.png",
+      "image": "/images/upvc/UPVC- COUPLER.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -5923,7 +5923,7 @@
       "id": "prod_upvc_10",
       "uom": "BOX",
       "name": "UPVC SHOE BEND 45",
-      "image": "/images/upvc/UPVC- BEND 45.png",
+      "image": "/images/upvc/UPVC- BEND 45.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -5957,7 +5957,7 @@
       "id": "prod_upvc_11",
       "uom": "BOX",
       "name": "UPVC MTA",
-      "image": "/images/upvc/UPVC- MTA.png",
+      "image": "/images/upvc/UPVC- MTA.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -5991,7 +5991,7 @@
       "id": "prod_upvc_12",
       "uom": "BOX",
       "name": "UPVC FTA",
-      "image": "/images/upvc/UPVC- FTA.png",
+      "image": "/images/upvc/UPVC- FTA.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6025,7 +6025,7 @@
       "id": "prod_upvc_13",
       "uom": "BOX",
       "name": "UPVC TANK NIPPLE (SOCKETED)",
-      "image": "/images/upvc/UPVC- TANK NIPPLE (SOCKETED).png",
+      "image": "/images/upvc/UPVC- TANK NIPPLE (SOCKETED).webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6059,7 +6059,7 @@
       "id": "prod_upvc_14",
       "uom": "BOX",
       "name": "UPVC TANK NIPPLE (THREADED)",
-      "image": "/images/upvc/UPVC- TANK NIPPLE (THREADED).png",
+      "image": "/images/upvc/UPVC- TANK NIPPLE (THREADED).webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6093,7 +6093,7 @@
       "id": "prod_upvc_15",
       "uom": "BOX",
       "name": "UPVC BRASS MTA",
-      "image": "/images/upvc/UPVC- BRASS MTA.png",
+      "image": "/images/upvc/UPVC- BRASS MTA.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6127,7 +6127,7 @@
       "id": "prod_upvc_16",
       "uom": "BOX",
       "name": "UPVC BRASS FTA",
-      "image": "/images/upvc/UPVC- BRASS FTA.png",
+      "image": "/images/upvc/UPVC- BRASS FTA.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6161,7 +6161,7 @@
       "id": "prod_upvc_17",
       "uom": "BOX",
       "name": "UPVC END CAP",
-      "image": "/images/upvc/UPVC- END CAP.png",
+      "image": "/images/upvc/UPVC- END CAP.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6195,7 +6195,7 @@
       "id": "prod_upvc_18",
       "uom": "BOX",
       "name": "UPVC UNION",
-      "image": "/images/upvc/UPVC- UNION.png",
+      "image": "/images/upvc/UPVC- UNION.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6229,7 +6229,7 @@
       "id": "prod_upvc_19",
       "uom": "BOX",
       "name": "UPVC NAIL CLAMP",
-      "image": "/images/upvc/UPVC- NAIL CLAMP.png",
+      "image": "/images/upvc/UPVC- NAIL CLAMP.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6263,7 +6263,7 @@
       "id": "prod_upvc_20",
       "uom": "BOX",
       "name": "UPVC METAL CLAMP",
-      "image": "/images/upvc/UPVC- METAL CLAMP.png",
+      "image": "/images/upvc/UPVC- METAL CLAMP.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6297,7 +6297,7 @@
       "id": "prod_upvc_21",
       "uom": "BOX",
       "name": "UPVC REDUCER ELBOW",
-      "image": "/images/upvc/UPVC- REDUCING ELBOW 90.png",
+      "image": "/images/upvc/UPVC- REDUCING ELBOW 90.webp",
       "sizes": [
         "1 X 1/2",
         "1 X 3/4",
@@ -6322,7 +6322,7 @@
       "id": "prod_upvc_22",
       "uom": "BOX",
       "name": "UPVC CROSS TEE",
-      "image": "/images/upvc/UPVC- CROSS TEE.png",
+      "image": "/images/upvc/UPVC- CROSS TEE.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6347,7 +6347,7 @@
       "id": "prod_upvc_23",
       "uom": "BOX",
       "name": "UPVC STEPOVER BEND",
-      "image": "/images/upvc/UPVC- STEP OVER BEND.png",
+      "image": "/images/upvc/UPVC- STEP OVER BEND.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6372,7 +6372,7 @@
       "id": "prod_upvc_24",
       "uom": "BOX",
       "name": "UPVC BRASS TEE",
-      "image": "/images/upvc/UPVC- BRASS TEE.png",
+      "image": "/images/upvc/UPVC- BRASS TEE.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6397,7 +6397,7 @@
       "id": "prod_upvc_25",
       "uom": "BOX",
       "name": "UPVC BRASS ELBOW",
-      "image": "/images/upvc/UPVC- BRASS ELBOW 90.png",
+      "image": "/images/upvc/UPVC- BRASS ELBOW 90.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6422,7 +6422,7 @@
       "id": "prod_upvc_26",
       "uom": "BOX",
       "name": "UPVC UNION BALL VALVE (SHORT HANDLE)",
-      "image": "/images/upvc/UPVC- BALL VALVE (SHORT HANDLE).png",
+      "image": "/images/upvc/UPVC- BALL VALVE (SHORT HANDLE).webp",
       "sizes": [
         "3/4",
         "1"
@@ -6444,7 +6444,7 @@
       "id": "prod_upvc_27",
       "uom": "BOX",
       "name": "UPVC BALL VALVE (LONG HANDLE)",
-      "image": "/images/upvc/UPVC- BALL VALVE (LONG HANDLE).png",
+      "image": "/images/upvc/UPVC- BALL VALVE (LONG HANDLE).webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6478,7 +6478,7 @@
       "id": "prod_upvc_28",
       "uom": "BOX",
       "name": "UPVC BALL VALVE (SHORT HANDLE)",
-      "image": "/images/upvc/UPVC- UNION BALL VALVE (SHORT HANDLE).png",
+      "image": "/images/upvc/UPVC- UNION BALL VALVE (SHORT HANDLE).webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6512,7 +6512,7 @@
       "id": "prod_upvc_29",
       "uom": "BOX",
       "name": "UPVC UNION BALL VALVE (LONG HANDLE)",
-      "image": "/images/upvc/UPVC- UNION BALL VALVE (LONG HANDLE).png",
+      "image": "/images/upvc/UPVC- UNION BALL VALVE (LONG HANDLE).webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6537,7 +6537,7 @@
       "id": "prod_upvc_30",
       "uom": "BOX",
       "name": "UPVC CONCEALED VALVE (FULL TURN)",
-      "image": "/images/upvc/UPVC- CONCEALED VALVE (FULL TURN).png",
+      "image": "/images/upvc/UPVC- CONCEALED VALVE (FULL TURN).webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6562,7 +6562,7 @@
       "id": "prod_upvc_31",
       "uom": "BOX",
       "name": "UPVC NVR",
-      "image": "/images/upvc/UPVC- NRV.png",
+      "image": "/images/upvc/UPVC- NRV.webp",
       "sizes": [
         "1/2",
         "3/4",
@@ -6587,7 +6587,7 @@
       "id": "prod_upvc_32",
       "uom": "BOX",
       "name": "UPVC REDUCER BRASS ELBOW",
-      "image": "/images/upvc/UPVC- REDUCING BRASS ELBOW 90.png",
+      "image": "/images/upvc/UPVC- REDUCING BRASS ELBOW 90.webp",
       "sizes": [
         "3/4 X 1/2",
         "1 X 1/2"
@@ -6613,7 +6613,7 @@
       "id": "prod_upvc_33",
       "uom": "BOX",
       "name": "UPVC THREADED ELBOW",
-      "image": "/images/upvc/UPVC- THREADED ELBOW 90.png",
+      "image": "/images/upvc/UPVC- THREADED ELBOW 90.webp",
       "sizes": [
         "1/2"
       ],
@@ -6632,7 +6632,7 @@
       "id": "prod_upvc_34",
       "uom": "BOX",
       "name": "UPVC REDUCER BRASS TEE",
-      "image": "/images/upvc/UPVC- REDUCING BRASS TEE.png",
+      "image": "/images/upvc/UPVC- REDUCING BRASS TEE.webp",
       "sizes": [
         "3/4 X 1/2",
         "1 X 1/2"
@@ -6654,7 +6654,7 @@
       "id": "prod_upvc_35",
       "uom": "BOX",
       "name": "UPVC CIRCUIT PLUG",
-      "image": "/images/upvc/UPVC- END PLUG.png",
+      "image": "/images/upvc/UPVC- END PLUG.webp",
       "sizes": [
         "1/2"
       ],
@@ -6675,7 +6675,7 @@
     {
       "id": "prod_swr_1",
       "name": "SWR PIPES ISI RINGFIT (3 MTR)",
-      "image": "/images/swr/SWR RINGFIT - RINGFIT PIPE ISI.png",
+      "image": "/images/swr/SWR RINGFIT - RINGFIT PIPE ISI.webp",
       "sizes": [
         "2 1/2\" (75MM) - 3MTR",
         "3\" (90MM) - 3MTR",
@@ -6736,7 +6736,7 @@
     {
       "id": "prod_swr_2",
       "name": "SWR PIPES NISI RINGFIT (3 MTR)",
-      "image": "/images/swr/SWR RINGFIT - RINGFIT PIPE.png",
+      "image": "/images/swr/SWR RINGFIT - RINGFIT PIPE.webp",
       "sizes": [
         "2 1/2\" (75MM) 4KG - 3MTR",
         "3\" (90MM) 4KG - 3MTR",
@@ -6798,7 +6798,7 @@
       "id": "prod_swr_3",
       "uom": "BOX",
       "name": "SWR RINGFIT ISI REDUCER TEE",
-      "image": "/images/swr/SWR RINGFIT - REDUCING TEE ISI.png",
+      "image": "/images/swr/SWR RINGFIT - REDUCING TEE ISI.webp",
       "sizes": [
         "110 X 75",
         "160 X 110"
@@ -6820,7 +6820,7 @@
       "id": "prod_swr_4",
       "uom": "BOX",
       "name": "SWR RINGFIT REDUCER TEE",
-      "image": "/images/swr/SWR RINGFIT - REDUCING TEE.png",
+      "image": "/images/swr/SWR RINGFIT - REDUCING TEE.webp",
       "sizes": [
         "110 X 75"
       ],
@@ -6838,7 +6838,7 @@
     {
       "id": "prod_swr_5",
       "name": "SWR RINGFIT (DSOCKET) TYPE A",
-      "image": "/images/swr/SWR RINGFIT - RINGFIT (DOUBLE SOCKET) PIPE.png",
+      "image": "/images/swr/SWR RINGFIT - RINGFIT (DOUBLE SOCKET) PIPE.webp",
       "sizes": [
         "2 1/2  2FT 75MM",
         "4  2FT 110MM",
@@ -6906,7 +6906,7 @@
       "id": "prod_swr_6",
       "uom": "BOX",
       "name": "SWR RINGFIT ISI REDUCER",
-      "image": "/images/swr/SWR RINGFIT - REDUCER ISI.png",
+      "image": "/images/swr/SWR RINGFIT - REDUCER ISI.webp",
       "sizes": [
         "160 X 110"
       ],
@@ -6925,7 +6925,7 @@
       "id": "prod_swr_7",
       "uom": "BOX",
       "name": "SWR RINGFIT REDUCER",
-      "image": "/images/swr/SWR RINGFIT - REDUCER.png",
+      "image": "/images/swr/SWR RINGFIT - REDUCER.webp",
       "sizes": [
         "110 X 75",
         "110 X 90"
@@ -6947,7 +6947,7 @@
       "id": "prod_swr_8",
       "uom": "BOX",
       "name": "SWR RINGFIT ISI COUPLER",
-      "image": "/images/swr/SWR RINGFIT - COUPLER ISI.png",
+      "image": "/images/swr/SWR RINGFIT - COUPLER ISI.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -6975,7 +6975,7 @@
       "id": "prod_swr_9",
       "uom": "Nos",
       "name": "SWR RINGFIT COUPLER",
-      "image": "/images/swr/SWR RINGFIT - COUPLER.png",
+      "image": "/images/swr/SWR RINGFIT - COUPLER.webp",
       "sizes": [
         "75MM",
         "110MM",
@@ -7000,7 +7000,7 @@
       "id": "prod_swr_10",
       "uom": "BOX",
       "name": "SWR RINGFIT ISI DOOR TEE",
-      "image": "/images/swr/SWR RINGFIT - DOOR TEE ISI.png",
+      "image": "/images/swr/SWR RINGFIT - DOOR TEE ISI.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -7024,7 +7024,7 @@
       "id": "prod_swr_11",
       "uom": "BOX",
       "name": "SWR RINGFIT DOOR TEE",
-      "image": "/images/swr/SWR RINGFIT - DOOR TEE.png",
+      "image": "/images/swr/SWR RINGFIT - DOOR TEE.webp",
       "sizes": [
         "75MM",
         "110MM"
@@ -7046,7 +7046,7 @@
       "id": "prod_swr_12",
       "uom": "BOX",
       "name": "SWR RINGFIT ISI PLAIN TEE",
-      "image": "/images/swr/SWR RINGFIT - SINGLE TEE ISI.png",
+      "image": "/images/swr/SWR RINGFIT - SINGLE TEE ISI.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -7073,7 +7073,7 @@
     {
       "id": "prod_swr_13",
       "name": "SWR RINGFIT - SINGLE TEE",
-      "image": "/images/swr/SWR RINGFIT - SINGLE TEE.png",
+      "image": "/images/swr/SWR RINGFIT - SINGLE TEE.webp",
       "sizes": [
         "2 1/2",
         "4"
@@ -7087,7 +7087,7 @@
       "id": "prod_swr_14",
       "uom": "BOX",
       "name": "SWR RINGFIT ISI DOOR BEND",
-      "image": "/images/swr/SWR RINGFIT - DOOR BEND 87.5 ISI.png",
+      "image": "/images/swr/SWR RINGFIT - DOOR BEND 87.5 ISI.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -7113,7 +7113,7 @@
       "id": "prod_swr_15",
       "uom": "BOX",
       "name": "SWR RINGFIT DOOR BEND",
-      "image": "/images/swr/SWR RINGFIT - DOOR BEND 87.5.png",
+      "image": "/images/swr/SWR RINGFIT - DOOR BEND 87.5.webp",
       "sizes": [
         "75MM",
         "110MM"
@@ -7135,7 +7135,7 @@
       "id": "prod_swr_16",
       "uom": "BOX",
       "name": "SWR RINGFIT ISI SHOE BEND 45",
-      "image": "/images/swr/SWR RINGFIT - BEND 45 ISI.png",
+      "image": "/images/swr/SWR RINGFIT - BEND 45 ISI.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -7159,7 +7159,7 @@
     {
       "id": "prod_swr_17",
       "name": "SWR RINGFIT - BEND 45",
-      "image": "/images/swr/SWR RINGFIT - BEND 45.png",
+      "image": "/images/swr/SWR RINGFIT - BEND 45.webp",
       "sizes": [
         "2 1/2",
         "4"
@@ -7173,7 +7173,7 @@
       "id": "prod_swr_18",
       "uom": "BOX",
       "name": "SWR RINGFIT ISI SINGLE Y",
-      "image": "/images/swr/SWR RINGFIT - SINGLE Y ISI.png",
+      "image": "/images/swr/SWR RINGFIT - SINGLE Y ISI.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -7196,7 +7196,7 @@
     {
       "id": "prod_swr_19",
       "name": "SWR RINGFIT CLEANING PIPE",
-      "image": "/images/swr/SWR RINGFIT - CLEANING PIPES.png",
+      "image": "/images/swr/SWR RINGFIT - CLEANING PIPES.webp",
       "sizes": [
         "110MM"
       ],
@@ -7215,7 +7215,7 @@
       "id": "prod_swr_20",
       "uom": "BOX",
       "name": "SWR RINGFIT ISI PLAIN BEND 87.5",
-      "image": "/images/swr/SWR RINGFIT - BEND 87.5 ISI.png",
+      "image": "/images/swr/SWR RINGFIT - BEND 87.5 ISI.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -7243,7 +7243,7 @@
       "id": "prod_swr_21",
       "uom": "BOX",
       "name": "SWR RINGFIT PLAIN BEND 87.5",
-      "image": "/images/swr/SWR RINGFIT - BEND 87.5.png",
+      "image": "/images/swr/SWR RINGFIT - BEND 87.5.webp",
       "sizes": [
         "75MM",
         "110MM"
@@ -7265,7 +7265,7 @@
       "id": "prod_swr_22",
       "uom": "BOX",
       "name": "SWR RINGFIT ISI DOOR Y",
-      "image": "/images/swr/SWR RINGFIT - DOOR Y ISI.png",
+      "image": "/images/swr/SWR RINGFIT - DOOR Y ISI.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -7289,7 +7289,7 @@
       "id": "prod_swr_23",
       "uom": "BOX",
       "name": "SWR RINGFIT DOOR REDUCER TEE",
-      "image": "/images/swr/SWR RINGFIT - DOOR REDUCING TEE.png",
+      "image": "/images/swr/SWR RINGFIT - DOOR REDUCING TEE.webp",
       "sizes": [
         "110 X 75MM"
       ],
@@ -7308,7 +7308,7 @@
       "id": "prod_swr_selfit_1",
       "uom": "MTR",
       "name": "SWR PIPES ISI SELFIT",
-      "image": "/images/swr/SWR SELFIT - SELFIT PIPES ISI.png",
+      "image": "/images/swr/SWR SELFIT - SELFIT PIPES ISI.webp",
       "sizes": [
         "75MM - 3MTR - TYPE A",
         "75MM - 6MTR - TYPE A",
@@ -7347,7 +7347,7 @@
       "id": "prod_swr_selfit_2",
       "uom": "BOX",
       "name": "SWR PIPES NISI SELFIT",
-      "image": "/images/swr/SWR SELFIT - SELFIT PIPES.png",
+      "image": "/images/swr/SWR SELFIT - SELFIT PIPES.webp",
       "sizes": [
         "75MM - 3MTR - TYPE A",
         "75MM - 6MTR - TYPE A",
@@ -7382,7 +7382,7 @@
       "id": "prod_swr_selfit_3",
       "uom": "BOX",
       "name": "SWR SELFIT ISI DOOR Y",
-      "image": "/images/swr/SWR SELFIT - DOOR Y ISI.png",
+      "image": "/images/swr/SWR SELFIT - DOOR Y ISI.webp",
       "sizes": [
         "75MM",
         "110MM"
@@ -7404,7 +7404,7 @@
       "id": "prod_swr_selfit_4",
       "uom": "BOX",
       "name": "SWR SELFIT ISI SINGLE Y",
-      "image": "/images/swr/SWR SELFIT - SINGLE Y ISI.png",
+      "image": "/images/swr/SWR SELFIT - SINGLE Y ISI.webp",
       "sizes": [
         "75MM",
         "110MM"
@@ -7426,7 +7426,7 @@
       "id": "prod_swr_selfit_5",
       "uom": "BOX",
       "name": "SWR SELFIT ISI PLAIN BEND 87.5",
-      "image": "/images/swr/SWR SELFIT - BEND 87.5 ISI.png",
+      "image": "/images/swr/SWR SELFIT - BEND 87.5 ISI.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -7457,7 +7457,7 @@
       "id": "prod_swr_selfit_6",
       "uom": "Nos",
       "name": "SWR SELFIT PLAIN BEND 87.5",
-      "image": "/images/swr/SWR SELFIT - BEND 87.5 ISI.png",
+      "image": "/images/swr/SWR SELFIT - BEND 87.5 ISI.webp",
       "sizes": [
         "75MM",
         "110MM"
@@ -7479,7 +7479,7 @@
       "id": "prod_swr_selfit_7",
       "uom": "Nos",
       "name": "SWR SELFIT ISI DOOR BEND",
-      "image": "/images/swr/SWR SELFIT - DOOR BEND 87.5 ISI.png",
+      "image": "/images/swr/SWR SELFIT - DOOR BEND 87.5 ISI.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -7507,7 +7507,7 @@
       "id": "prod_swr_selfit_8",
       "uom": "Nos",
       "name": "SWR SELFIT DOOR BEND",
-      "image": "/images/swr/SWR SELFIT - DOOR BEND 87.5.png",
+      "image": "/images/swr/SWR SELFIT - DOOR BEND 87.5.webp",
       "sizes": [
         "75MM",
         "110MM"
@@ -7529,7 +7529,7 @@
       "id": "prod_swr_selfit_9",
       "uom": "BOX",
       "name": "SWR SELFIT ISI COUPLER",
-      "image": "/images/swr/SWR SELFIT - COUPLER ISI.png",
+      "image": "/images/swr/SWR SELFIT - COUPLER ISI.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -7556,7 +7556,7 @@
     {
       "id": "prod_swr_selfit_10",
       "name": "SWR SELFIT COUPLER",
-      "image": "/images/swr/SWR SELFIT - COUPLER.png",
+      "image": "/images/swr/SWR SELFIT - COUPLER.webp",
       "sizes": [
         "75MM",
         "110MM"
@@ -7578,7 +7578,7 @@
       "id": "prod_swr_selfit_11",
       "uom": "BOX",
       "name": "SWR SELFIT REDUCER",
-      "image": "/images/swr/SWR SELFIT - REDUCER.png",
+      "image": "/images/swr/SWR SELFIT - REDUCER.webp",
       "sizes": [
         "110 X 75MM",
         "110 X 90MM",
@@ -7602,7 +7602,7 @@
     {
       "id": "prod_swr_selfit_12",
       "name": "SWR SELFIT ISI REDUCER",
-      "image": "/images/swr/SWR SELFIT - REDUCER ISI.png",
+      "image": "/images/swr/SWR SELFIT - REDUCER ISI.webp",
       "sizes": [
         "110 X 75MM"
       ],
@@ -7620,7 +7620,7 @@
     {
       "id": "prod_swr_selfit_13",
       "name": "SWR SELFIT PLAIN TEE",
-      "image": "/images/swr/SWR SELFIT - SINGLE TEE.png",
+      "image": "/images/swr/SWR SELFIT - SINGLE TEE.webp",
       "sizes": [
         "75MM",
         "110MM"
@@ -7642,7 +7642,7 @@
       "id": "prod_swr_selfit_14",
       "uom": "BOX",
       "name": "SWR SELFIT ISI PLAIN TEE",
-      "image": "/images/swr/SWR SELFIT - SINGLE TEE ISI.png",
+      "image": "/images/swr/SWR SELFIT - SINGLE TEE ISI.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -7670,7 +7670,7 @@
       "id": "prod_swr_selfit_15",
       "uom": "BOX",
       "name": "SWR SELFIT ISI DOOR TEE",
-      "image": "/images/swr/SWR SELFIT - DOOR TEE ISI.png",
+      "image": "/images/swr/SWR SELFIT - DOOR TEE ISI.webp",
       "sizes": [
         "75MM",
         "110MM"
@@ -7691,7 +7691,7 @@
     {
       "id": "prod_swr_selfit_16",
       "name": "SWR SELFIT DOOR TEE",
-      "image": "/images/swr/SWR SELFIT - DOOR TEE.png",
+      "image": "/images/swr/SWR SELFIT - DOOR TEE.webp",
       "sizes": [
         "75MM",
         "110MM"
@@ -7713,7 +7713,7 @@
       "id": "prod_swr_selfit_17",
       "uom": "BOX",
       "name": "SWR SELFIT ISI SHOE BEND",
-      "image": "/images/swr/SWR SELFIT - BEND 45 ISI.png",
+      "image": "/images/swr/SWR SELFIT - BEND 45 ISI.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -7737,7 +7737,7 @@
     {
       "id": "prod_swr_selfit_18",
       "name": "SWR SELFIT SHOE BEND",
-      "image": "/images/swr/SWR SELFIT - BEND 45.png",
+      "image": "/images/swr/SWR SELFIT - BEND 45.webp",
       "sizes": [
         "75MM",
         "110MM"
@@ -7759,7 +7759,7 @@
       "id": "prod_swr_selfit_19",
       "uom": "BOX",
       "name": "SWR SELFIT ISI REDUCER TEE",
-      "image": "/images/swr/SWR SELFIT - REDUCING TEE ISI.png",
+      "image": "/images/swr/SWR SELFIT - REDUCING TEE ISI.webp",
       "sizes": [
         "110 X 75MM"
       ],
@@ -7777,7 +7777,7 @@
     {
       "id": "prod_swr_selfit_20",
       "name": "SWR SELFIT REDUCER TEE",
-      "image": "/images/swr/SWR SELFIT - REDUCING TEE.png",
+      "image": "/images/swr/SWR SELFIT - REDUCING TEE.webp",
       "sizes": [
         "110 X 75MM"
       ],
@@ -7795,7 +7795,7 @@
     {
       "id": "prod_swr_selfit_21",
       "name": "SWR SELFIT CLEANING PIPE",
-      "image": "/images/swr/SWR SELFIT - CLEANING PIPE.png",
+      "image": "/images/swr/SWR SELFIT - CLEANING PIPE.webp",
       "sizes": [
         "110MM"
       ],
@@ -7814,7 +7814,7 @@
       "id": "prod_swr_common_1",
       "uom": "BOX",
       "name": "SWR CMN FTNG N TRAP WITH JALI",
-      "image": "/images/swr/NAHANI TRAP (WITH JALI).png",
+      "image": "/images/swr/NAHANI TRAP (WITH JALI).webp",
       "sizes": [
         "110 X 75MM",
         "110 X 90MM",
@@ -7839,7 +7839,7 @@
       "id": "prod_swr_common_2",
       "uom": "BOX",
       "name": "SWR CMN FTNG N TRAP WITHOUT JALI",
-      "image": "/images/swr/NAHANI TRAP (WITHOUT JALI).png",
+      "image": "/images/swr/NAHANI TRAP (WITHOUT JALI).webp",
       "sizes": [
         "110 X 75MM",
         "110 X 90MM",
@@ -7864,7 +7864,7 @@
       "id": "prod_swr_common_3",
       "uom": "BOX",
       "name": "SWR CMN FTNG M TRAP (WITHOUT JALI)",
-      "image": "/images/swr/MULTI FLOW TRAP (WITHOUT JALI).png",
+      "image": "/images/swr/MULTI FLOW TRAP (WITHOUT JALI).webp",
       "sizes": [
         "110 X 75 X 50MM"
       ],
@@ -7883,7 +7883,7 @@
       "id": "prod_swr_common_4",
       "uom": "BOX",
       "name": "SWR CMN FTNG M TRAP (WITH JALI)",
-      "image": "/images/swr/MULTI FLOW TRAP (WITH JALI).png",
+      "image": "/images/swr/MULTI FLOW TRAP (WITH JALI).webp",
       "sizes": [
         "110 X 75 X 50MM"
       ],
@@ -7902,7 +7902,7 @@
       "id": "prod_swr_common_5",
       "uom": "BOX",
       "name": "SWR CMN FTNG VENT COWL",
-      "image": "/images/swr/VENT COWL.png",
+      "image": "/images/swr/VENT COWL.webp",
       "sizes": [
         "75MM",
         "110MM"
@@ -7924,7 +7924,7 @@
       "id": "prod_swr_common_6",
       "uom": "BOX",
       "name": "SWR CMN FTNG JALI",
-      "image": "/images/swr/JALI.png",
+      "image": "/images/swr/JALI.webp",
       "sizes": [
         "110MM"
       ],
@@ -7943,7 +7943,7 @@
       "id": "prod_swr_common_7",
       "uom": "BOX",
       "name": "SWR CMN FTNG PIPE CLIP",
-      "image": "/images/swr/PIPE CLIP.png",
+      "image": "/images/swr/PIPE CLIP.webp",
       "sizes": [
         "75MM",
         "110MM"
@@ -7965,7 +7965,7 @@
       "id": "prod_swr_common_8",
       "uom": "BOX",
       "name": "SWR CMN FTNG P TRAP",
-      "image": "/images/swr/P TRAP.png",
+      "image": "/images/swr/P TRAP.webp",
       "sizes": [
         "110 X 110MM",
         "125 X 110MM"
@@ -7986,7 +7986,7 @@
     {
       "id": "prod_swr_common_9",
       "name": "SWR DOOR CAP",
-      "image": "/images/swr/SWR DOOR CAP.png",
+      "image": "/images/swr/SWR DOOR CAP.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -8011,7 +8011,7 @@
       "id": "prod_solvent_1",
       "uom": "NOS",
       "name": "CPVC SOLVENT CEMENT (TIN)",
-      "image": "/images/solvent/CPVC SOLVENT CEMENT (TIN).png",
+      "image": "/images/solvent/CPVC SOLVENT CEMENT (TIN).webp",
       "sizes": [
         "59ML",
         "118ML",
@@ -8038,7 +8038,7 @@
       "id": "prod_solvent_2",
       "uom": "NOS",
       "name": "UPVC SOLVENT CEMENT (TIN)",
-      "image": "/images/solvent/UPVC SOLVENT CEMENT (TIN).png",
+      "image": "/images/solvent/UPVC SOLVENT CEMENT (TIN).webp",
       "sizes": [
         "59ML",
         "118ML",
@@ -8065,7 +8065,7 @@
       "id": "prod_solvent_3",
       "uom": "NOS",
       "name": "PLASTIC CAN CPVC SOLVENT MD YELLOW",
-      "image": "/images/solvent/CPVC SOLVENT CEMENT (PLASTIC BOTTLE).png",
+      "image": "/images/solvent/CPVC SOLVENT CEMENT (PLASTIC BOTTLE).webp",
       "sizes": [
         "50ML",
         "100ML",
@@ -8090,7 +8090,7 @@
       "id": "prod_solvent_4",
       "uom": "NOS",
       "name": "PLASTIC CAN UPVC SOLVENT MD",
-      "image": "/images/solvent/UPVC SOLVENT CEMENT (PLASTIC BOTTLE).png",
+      "image": "/images/solvent/UPVC SOLVENT CEMENT (PLASTIC BOTTLE).webp",
       "sizes": [
         "50ML",
         "100ML",
@@ -8115,7 +8115,7 @@
       "id": "prod_solvent_5",
       "uom": "NOS",
       "name": "PVC SOLVENT CEMENT (PLASTIC BOTTLE)",
-      "image": "/images/solvent/PVC SOLVENT CEMENT (PLASTIC BOTTLE).png",
+      "image": "/images/solvent/PVC SOLVENT CEMENT (PLASTIC BOTTLE).webp",
       "sizes": [
         "50ML",
         "100ML",
@@ -8142,7 +8142,7 @@
       "id": "prod_solvent_6",
       "uom": "NOS",
       "name": "CPVC SOLVENT MD YELLOW (TUBE)",
-      "image": "/images/solvent/CPVC SOLVENT CEMENT (TUBE).png",
+      "image": "/images/solvent/CPVC SOLVENT CEMENT (TUBE).webp",
       "sizes": [
         "10ML",
         "25ML"
@@ -8164,7 +8164,7 @@
       "id": "prod_solvent_7",
       "uom": "NOS",
       "name": "UPVC SOLVENT MD (TUBE)",
-      "image": "/images/solvent/UPVC SOLVENT CEMENT (TUBE).png",
+      "image": "/images/solvent/UPVC SOLVENT CEMENT (TUBE).webp",
       "sizes": [
         "10ML",
         "25ML"
@@ -8186,7 +8186,7 @@
       "id": "prod_solvent_8",
       "uom": "NOS",
       "name": "PLASTIC CAN PVC ECO SOLVENT",
-      "image": "/images/solvent/ECO - PVC SOLVENT CEMENT (PLASTIC BOTTLE).png",
+      "image": "/images/solvent/ECO - PVC SOLVENT CEMENT (PLASTIC BOTTLE).webp",
       "sizes": [
         "25ML",
         "50ML",
@@ -8211,7 +8211,7 @@
       "id": "prod_solvent_9",
       "uom": "NOS",
       "name": "RUBBER LUBRICANT (PLASTIC BOTTLE)",
-      "image": "/images/solvent/RUBBER LUBRICANT (PLASTIC BOTTLE).png",
+      "image": "/images/solvent/RUBBER LUBRICANT (PLASTIC BOTTLE).webp",
       "sizes": [
         "50ML",
         "100ML",
@@ -8238,7 +8238,7 @@
       "id": "prod_solvent_10",
       "uom": "NOS",
       "name": "PLASTIC CAN SWR SOLVENT Rubber Lub",
-      "image": "/images/solvent/RUBBER LUBRICANT (PLASTIC BOTTLE).png",
+      "image": "/images/solvent/RUBBER LUBRICANT (PLASTIC BOTTLE).webp",
       "sizes": [
         "50ML",
         "100ML",
@@ -8265,7 +8265,7 @@
       "id": "prod_hdpe_1",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE100 PN10",
-      "image": "/images/hdpe/PE-100 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-100 OD PIPE ISI.webp",
       "sizes": [
         "25MM",
         "32MM",
@@ -8309,7 +8309,7 @@
       "id": "prod_hdpe_1b",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE100 PN12.5",
-      "image": "/images/hdpe/PE-100 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-100 OD PIPE ISI.webp",
       "sizes": [
         "20MM",
         "25MM",
@@ -8355,7 +8355,7 @@
       "id": "prod_hdpe_1c",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE100 PN3.2",
-      "image": "/images/hdpe/PE-100 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-100 OD PIPE ISI.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -8375,7 +8375,7 @@
       "id": "prod_hdpe_1d",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE100 PN4",
-      "image": "/images/hdpe/PE-100 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-100 OD PIPE ISI.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -8399,7 +8399,7 @@
       "id": "prod_hdpe_1e",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE100 PN5",
-      "image": "/images/hdpe/PE-100 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-100 OD PIPE ISI.webp",
       "sizes": [
         "50MM",
         "63MM",
@@ -8423,7 +8423,7 @@
       "id": "prod_hdpe_1f",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE100 PN6",
-      "image": "/images/hdpe/PE-100 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-100 OD PIPE ISI.webp",
       "sizes": [
         "32MM",
         "40MM",
@@ -8465,7 +8465,7 @@
       "id": "prod_hdpe_1g",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE100 PN8",
-      "image": "/images/hdpe/PE-100 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-100 OD PIPE ISI.webp",
       "sizes": [
         "32MM",
         "40MM",
@@ -8507,7 +8507,7 @@
       "id": "prod_hdpe_2",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE63 PN3.2",
-      "image": "/images/hdpe/PE-63 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-63 OD PIPE ISI.webp",
       "sizes": [
         "50MM",
         "63MM",
@@ -8531,7 +8531,7 @@
       "id": "prod_hdpe_2b",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE63 PN4",
-      "image": "/images/hdpe/PE-63 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-63 OD PIPE ISI.webp",
       "sizes": [
         "40MM",
         "50MM",
@@ -8557,7 +8557,7 @@
       "id": "prod_hdpe_2c",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE63 PN5",
-      "image": "/images/hdpe/PE-63 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-63 OD PIPE ISI.webp",
       "sizes": [
         "32MM",
         "40MM",
@@ -8585,7 +8585,7 @@
       "id": "prod_hdpe_2d",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE63 PN6",
-      "image": "/images/hdpe/PE-63 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-63 OD PIPE ISI.webp",
       "sizes": [
         "25MM",
         "32MM",
@@ -8615,7 +8615,7 @@
       "id": "prod_hdpe_2e",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE63 PN8",
-      "image": "/images/hdpe/PE-63 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-63 OD PIPE ISI.webp",
       "sizes": [
         "25MM",
         "32MM",
@@ -8645,7 +8645,7 @@
       "id": "prod_hdpe_3",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE80 PN3.2",
-      "image": "/images/hdpe/PE-80 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-80 OD PIPE ISI.webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -8665,7 +8665,7 @@
       "id": "prod_hdpe_3b",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE80 PN4",
-      "image": "/images/hdpe/PE-80 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-80 OD PIPE ISI.webp",
       "sizes": [
         "50MM",
         "63MM",
@@ -8689,7 +8689,7 @@
       "id": "prod_hdpe_3c",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE80 PN5",
-      "image": "/images/hdpe/PE-80 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-80 OD PIPE ISI.webp",
       "sizes": [
         "40MM",
         "50MM",
@@ -8715,7 +8715,7 @@
       "id": "prod_hdpe_3d",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE80 PN6",
-      "image": "/images/hdpe/PE-80 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-80 OD PIPE ISI.webp",
       "sizes": [
         "32MM",
         "40MM",
@@ -8743,7 +8743,7 @@
       "id": "prod_hdpe_3e",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE80 PN8",
-      "image": "/images/hdpe/PE-80 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-80 OD PIPE ISI.webp",
       "sizes": [
         "25MM",
         "32MM",
@@ -8773,7 +8773,7 @@
       "id": "prod_hdpe_3f",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE80 PN10",
-      "image": "/images/hdpe/PE-80 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-80 OD PIPE ISI.webp",
       "sizes": [
         "20MM",
         "25MM",
@@ -8805,7 +8805,7 @@
       "id": "prod_hdpe_3g",
       "uom": "MTR",
       "name": "HDPE ISI PIPE PE80 PN12.5",
-      "image": "/images/hdpe/PE-80 OD PIPE ISI.png",
+      "image": "/images/hdpe/PE-80 OD PIPE ISI.webp",
       "sizes": [
         "20MM",
         "25MM",
@@ -8827,7 +8827,7 @@
       "id": "prod_hdpe_4",
       "uom": "MTR",
       "name": "HDPE END CAP",
-      "image": "/images/hdpe/HDPE END CAP.png",
+      "image": "/images/hdpe/HDPE END CAP.webp",
       "sizes": [
         "90MM",
         "110MM"
@@ -8849,7 +8849,7 @@
       "id": "prod_hdpe_5",
       "uom": "ROLL",
       "name": "HDPE PIPE PE63",
-      "image": "/images/hdpe/PE-63 ID PIPE.png",
+      "image": "/images/hdpe/PE-63 ID PIPE.webp",
       "sizes": [
         "32MM",
         "40MM",
@@ -8874,7 +8874,7 @@
       "id": "prod_hdpe_6",
       "uom": "ROLL",
       "name": "MDPE PIPES PE80 PN16 DN20MM",
-      "image": "/images/hdpe/MDPE PIPE.png",
+      "image": "/images/hdpe/MDPE PIPE.webp",
       "sizes": [
         "20MM - 500MTR",
         "20MM - 300MTR"
@@ -8896,7 +8896,7 @@
       "id": "prod_eco_1",
       "uom": "MTR",
       "name": "ECO DRAINAGE PIPES SELFIT",
-      "image": "/images/eco_drainage/SELFIT PIPE.png",
+      "image": "/images/eco_drainage/SELFIT PIPE.webp",
       "sizes": [
         "110MM 3M LIGHT",
         "160MM 3M LIGHT",
@@ -8970,7 +8970,7 @@
       "id": "prod_eco_2",
       "uom": "MTR",
       "name": "ECO DRAINAGE PIPES RINGFIT",
-      "image": "/images/eco_drainage/RINGFIT PIPE.png",
+      "image": "/images/eco_drainage/RINGFIT PIPE.webp",
       "sizes": [
         "110MM 3M HEAVY",
         "160MM 3M LIGHT",
@@ -9000,7 +9000,7 @@
       "id": "prod_agri_1",
       "uom": "MTR",
       "name": "AGRI ISI PIPES 6MTR",
-      "image": "/images/agri/6M PVC PIPE ISI.png",
+      "image": "/images/agri/6M PVC PIPE ISI.webp",
       "sizes": [
         "20MM",
         "25MM",
@@ -9067,7 +9067,7 @@
       "id": "prod_agri_2",
       "uom": "MTR",
       "name": "AGRI NISI PIPES 6MTR",
-      "image": "/images/agri/6M PVC PIPE.png",
+      "image": "/images/agri/6M PVC PIPE.webp",
       "sizes": [
         "20MM - 10KG",
         "25MM - 10KG",
@@ -9188,7 +9188,7 @@
       "id": "prod_agri_3",
       "uom": "BOX",
       "name": "3M PVC PIPE ISI",
-      "image": "/images/agri/3M PVC PIPE ISI.png",
+      "image": "/images/agri/3M PVC PIPE ISI.webp",
       "sizes": [
         "20MM",
         "25MM",
@@ -9206,7 +9206,7 @@
       "id": "prod_agri_4",
       "uom": "BOX",
       "name": "3M PVC PIPE",
-      "image": "/images/agri/3M PVC PIPE.png",
+      "image": "/images/agri/3M PVC PIPE.webp",
       "sizes": [
         "20MM",
         "25MM",
@@ -9224,7 +9224,7 @@
       "id": "prod_agri_5",
       "uom": "BOX",
       "name": "6M ECO PVC PIPE",
-      "image": "/images/agri/6M ECO PVC PIPE.png",
+      "image": "/images/agri/6M ECO PVC PIPE.webp",
       "sizes": [
         "63MM",
         "75MM",
@@ -9240,7 +9240,7 @@
       "id": "prod_agri_6",
       "uom": "BOX",
       "name": "AGRI REDUCER TEE PN6",
-      "image": "/images/agri/AGRI REDUCER TEE PN6.png",
+      "image": "/images/agri/AGRI REDUCER TEE PN6.webp",
       "sizes": [
         "63 X 40",
         "63 X 50",
@@ -9284,7 +9284,7 @@
       "id": "prod_agri_7",
       "uom": "BOX",
       "name": "LDPE AGRICULTURE LAPETA PIPE 61 MTR",
-      "image": "/images/agri/LAPETA (LDPE) AGRICULTURE PIPE.png",
+      "image": "/images/agri/LAPETA (LDPE) AGRICULTURE PIPE.webp",
       "sizes": [
         "63MM",
         "75MM",
@@ -9306,7 +9306,7 @@
       "id": "prod_agri_7b",
       "uom": "BOX",
       "name": "LDPE AGRICULTURE LAPETA PIPE 91 MTR",
-      "image": "/images/agri/LAPETA (LDPE) AGRICULTURE PIPE.png",
+      "image": "/images/agri/LAPETA (LDPE) AGRICULTURE PIPE.webp",
       "sizes": [
         "63MM",
         "75MM",
@@ -9328,7 +9328,7 @@
       "id": "prod_agri_8",
       "uom": "BOX",
       "name": "AGRI ELBOW PN6",
-      "image": "/images/agri/AGRI ELBOW PN6.png",
+      "image": "/images/agri/AGRI ELBOW PN6.webp",
       "sizes": [
         "40MM",
         "50MM",
@@ -9368,7 +9368,7 @@
       "id": "prod_agri_9",
       "uom": "BOX",
       "name": "AGRI TEE PN6",
-      "image": "/images/agri/AGRI TEE PN6.png",
+      "image": "/images/agri/AGRI TEE PN6.webp",
       "sizes": [
         "40MM",
         "50MM",
@@ -9408,7 +9408,7 @@
       "id": "prod_agri_10",
       "uom": "BOX",
       "name": "AGRI F.T.A PN6",
-      "image": "/images/agri/AGRI F.T.A PN6.png",
+      "image": "/images/agri/AGRI F.T.A PN6.webp",
       "sizes": [
         "40MM",
         "50MM",
@@ -9442,7 +9442,7 @@
       "id": "prod_agri_11",
       "uom": "BOX",
       "name": "AGRI END CAP THREADED",
-      "image": "/images/agri/PN6 - END CAP (THREADED) ISI.png",
+      "image": "/images/agri/PN6 - END CAP (THREADED) ISI.webp",
       "sizes": [
         "63MM 6KG",
         "75MM 6KG",
@@ -9476,7 +9476,7 @@
       "id": "prod_agri_12",
       "uom": "BOX",
       "name": "SERVICE SADDLE PN6",
-      "image": "/images/agri/SERVICE SADDLE PN6.png",
+      "image": "/images/agri/SERVICE SADDLE PN6.webp",
       "sizes": [
         "75 X 20",
         "75 X 25",
@@ -9502,7 +9502,7 @@
       "id": "prod_agri_13",
       "uom": "BOX",
       "name": "AGRI COUPLER PN6",
-      "image": "/images/agri/AGRI COUPLER PN6.png",
+      "image": "/images/agri/AGRI COUPLER PN6.webp",
       "sizes": [
         "40MM",
         "50MM",
@@ -9538,7 +9538,7 @@
       "id": "prod_agri_14",
       "uom": "BOX",
       "name": "AGRI SHOE BEND PN6",
-      "image": "/images/agri/AGRI SHOE BEND PN6.png",
+      "image": "/images/agri/AGRI SHOE BEND PN6.webp",
       "sizes": [
         "40MM",
         "50MM",
@@ -9566,7 +9566,7 @@
       "id": "prod_agri_15",
       "uom": "BOX",
       "name": "AGRI END CAP PN6",
-      "image": "/images/agri/AGRI END CAP PN6.png",
+      "image": "/images/agri/AGRI END CAP PN6.webp",
       "sizes": [
         "40MM",
         "50MM",
@@ -9600,7 +9600,7 @@
       "id": "prod_agri_16",
       "uom": "BOX",
       "name": "AGRI M.T.A PN6",
-      "image": "/images/agri/AGRI M.T.A PN6.png",
+      "image": "/images/agri/AGRI M.T.A PN6.webp",
       "sizes": [
         "40MM",
         "50MM",
@@ -9634,7 +9634,7 @@
       "id": "prod_agri_17",
       "uom": "BOX",
       "name": "AGRI ELBOW 10KG",
-      "image": "/images/agri/PN10 - ELBOW ISI.png",
+      "image": "/images/agri/PN10 - ELBOW ISI.webp",
       "sizes": [
         "25MM",
         "32MM"
@@ -9660,7 +9660,7 @@
       "id": "prod_agri_18",
       "uom": "BOX",
       "name": "AGRI UNION 10KG",
-      "image": "/images/agri/PN10 - UNION ISI.png",
+      "image": "/images/agri/PN10 - UNION ISI.webp",
       "sizes": [
         "25MM",
         "32MM"
@@ -9686,7 +9686,7 @@
       "id": "prod_agri_19",
       "uom": "BOX",
       "name": "AGRI TEE 10KG",
-      "image": "/images/agri/PN10 - TEE ISI.png",
+      "image": "/images/agri/PN10 - TEE ISI.webp",
       "sizes": [
         "25MM",
         "32MM"
@@ -9712,7 +9712,7 @@
       "id": "prod_agri_20",
       "uom": "BOX",
       "name": "AGRI COUPLER 10KG",
-      "image": "/images/agri/PN10 - COUPLER ISI.png",
+      "image": "/images/agri/PN10 - COUPLER ISI.webp",
       "sizes": [
         "25MM",
         "32MM"
@@ -9738,7 +9738,7 @@
       "id": "prod_agri_21",
       "uom": "BOX",
       "name": "AGRI MTA 10KG",
-      "image": "/images/agri/PN10 - MTA ISI.png",
+      "image": "/images/agri/PN10 - MTA ISI.webp",
       "sizes": [
         "25MM",
         "32MM"
@@ -9764,7 +9764,7 @@
       "id": "prod_agri_22",
       "uom": "BOX",
       "name": "AGRI FTA 10KG",
-      "image": "/images/agri/PN10 - FTA ISI.png",
+      "image": "/images/agri/PN10 - FTA ISI.webp",
       "sizes": [
         "25MM",
         "32MM"
@@ -9790,7 +9790,7 @@
       "id": "prod_agri_23",
       "uom": "BOX",
       "name": "AGRI END CAP 10KG",
-      "image": "/images/agri/PN10 - END CAP ISI.png",
+      "image": "/images/agri/PN10 - END CAP ISI.webp",
       "sizes": [
         "25MM",
         "32MM"
@@ -9816,7 +9816,7 @@
       "id": "prod_agri_24",
       "uom": "BOX",
       "name": "AGRI REDUCING BUSH 10KG",
-      "image": "/images/agri/PN10 - REDUCING BUSH ISI.png",
+      "image": "/images/agri/PN10 - REDUCING BUSH ISI.webp",
       "sizes": [
         "32 X 20MM",
         "32 X 25MM"
@@ -9842,7 +9842,7 @@
       "id": "prod_agri_25",
       "uom": "BOX",
       "name": "AGRI REDUCER",
-      "image": "/images/agri/REDUCER (LW).png",
+      "image": "/images/agri/REDUCER (LW).webp",
       "sizes": [
         "50X40MM",
         "63X40MM",
@@ -9894,7 +9894,7 @@
       "id": "prod_agri_26",
       "uom": "BOX",
       "name": "REDUCING BUSH (LW)",
-      "image": "/images/agri/REDUCING BUSH (LW).png",
+      "image": "/images/agri/REDUCING BUSH (LW).webp",
       "sizes": [
         "63 X 40",
         "63 X 50",
@@ -9916,7 +9916,7 @@
       "id": "prod_agri_27",
       "uom": "BOX",
       "name": "AGRI TEE",
-      "image": "/images/agri/TEE (LW).png",
+      "image": "/images/agri/TEE (LW).webp",
       "sizes": [
         "40MM",
         "50MM",
@@ -9956,7 +9956,7 @@
       "id": "prod_agri_28",
       "uom": "BOX",
       "name": "COUPLER (LW)",
-      "image": "/images/agri/COUPLER (LW).png",
+      "image": "/images/agri/COUPLER (LW).webp",
       "sizes": [
         "75MM",
         "90MM",
@@ -9971,7 +9971,7 @@
       "id": "prod_agri_29",
       "uom": "BOX",
       "name": "AGRI FABRICATED COUPLER",
-      "image": "/images/agri/FABRICATED COUPLER (LW).png",
+      "image": "/images/agri/FABRICATED COUPLER (LW).webp",
       "sizes": [
         "40MM",
         "50MM",
@@ -10011,7 +10011,7 @@
       "id": "prod_agri_30",
       "uom": "BOX",
       "name": "AGRI FABRICATED COUPLER 6KG",
-      "image": "/images/agri/FABRICATED COUPLER 6KG (LW).png",
+      "image": "/images/agri/FABRICATED COUPLER 6KG (LW).webp",
       "sizes": [
         "140MM",
         "160MM"
@@ -10033,7 +10033,7 @@
       "id": "prod_agri_31",
       "uom": "BOX",
       "name": "AGRI ELBOW",
-      "image": "/images/agri/ELBOW 90 (LW).png",
+      "image": "/images/agri/ELBOW 90 (LW).webp",
       "sizes": [
         "40MM",
         "50MM",
@@ -10073,7 +10073,7 @@
       "id": "prod_agri_32",
       "uom": "BOX",
       "name": "AGRI END CAP",
-      "image": "/images/agri/END CAP (LW).png",
+      "image": "/images/agri/END CAP (LW).webp",
       "sizes": [
         "40MM",
         "50MM",
@@ -10113,7 +10113,7 @@
       "id": "prod_agri_33",
       "uom": "BOX",
       "name": "AGRI LONG BEND",
-      "image": "/images/agri/LONG BEND (LW).png",
+      "image": "/images/agri/LONG BEND (LW).webp",
       "sizes": [
         "63MM",
         "75MM",
@@ -10140,7 +10140,7 @@
     {
       "id": "prod_sprinkler_1",
       "name": "SPRINKLER ISI PIPE 6 MTR",
-      "image": "/images/sprinkler/SPRINKLER ISI PIPE 6 MTR.png",
+      "image": "/images/sprinkler/SPRINKLER ISI PIPE 6 MTR.webp",
       "sizes": [
         "63MM C TYPE 3.2 KG",
         "63MM L TYPE 3.2 KG",
@@ -10166,7 +10166,7 @@
     {
       "id": "prod_sprinkler_2",
       "name": "SPRINKLER NISI PIPE 6 MTR",
-      "image": "/images/sprinkler/SPRINKLER NISI PIPE 6 MTR.png",
+      "image": "/images/sprinkler/SPRINKLER NISI PIPE 6 MTR.webp",
       "sizes": [
         "75MM C TYPE 3.2 KG",
         "63MM C TYPE 3.2 KG",
@@ -10188,7 +10188,7 @@
     {
       "id": "prod_sprinkler_3",
       "name": "SPRINKLER SET 6 MTR ISI",
-      "image": "/images/sprinkler/SPRINKLER SET 6 MTR ISI.png",
+      "image": "/images/sprinkler/SPRINKLER SET 6 MTR ISI.webp",
       "sizes": [
         "75MM L TYPE 3.2 KG",
         "75MM C TYPE 3.2 KG",
@@ -10212,7 +10212,7 @@
     {
       "id": "prod_sprinkler_4",
       "name": "SPRINKLER SET 6 MTR N-ISI",
-      "image": "/images/sprinkler/SPRINKLER SET 6 MTR N-ISI.png",
+      "image": "/images/sprinkler/SPRINKLER SET 6 MTR N-ISI.webp",
       "sizes": [
         "75MM L TYPE 3.2 KG",
         "75MM C TYPE 3.2 KG",
@@ -10232,7 +10232,7 @@
     {
       "id": "prod_sprinkler_5",
       "name": "SPRINKLER FITTINGS TEE",
-      "image": "/images/sprinkler/SPRINKLER TEE ISI.png",
+      "image": "/images/sprinkler/SPRINKLER TEE ISI.webp",
       "sizes": [
         "75MM, C TYPE",
         "75MM, L TYPE",
@@ -10252,7 +10252,7 @@
     {
       "id": "prod_sprinkler_6",
       "name": "SPRINKLER FITTINGS ADAPTOR",
-      "image": "/images/sprinkler/SPRINKLER FITTINGS ADAPTOR.png",
+      "image": "/images/sprinkler/SPRINKLER FITTINGS ADAPTOR.webp",
       "sizes": [
         "63MM C TYPE",
         "75MM C TYPE",
@@ -10272,7 +10272,7 @@
     {
       "id": "prod_sprinkler_7",
       "name": "SPRINKLER FITTINGS BEND",
-      "image": "/images/sprinkler/SPRINKLER FITTINGS BEND.png",
+      "image": "/images/sprinkler/SPRINKLER FITTINGS BEND.webp",
       "sizes": [
         "63MM C TYPE",
         "75MM C TYPE",
@@ -10292,7 +10292,7 @@
     {
       "id": "prod_sprinkler_8",
       "name": "SPRINKLER FITTINGS END CAP",
-      "image": "/images/sprinkler/SPRINKLER FITTINGS END CAP.png",
+      "image": "/images/sprinkler/SPRINKLER FITTINGS END CAP.webp",
       "sizes": [
         "75MM L TYPE",
         "75MM C TYPE",
@@ -10312,7 +10312,7 @@
     {
       "id": "prod_sprinkler_9",
       "name": "SPRINKLER FITTINGS LATCH & CLAMP",
-      "image": "/images/sprinkler/SPRINKLER FITTINGS LATCH & CLAMP.png",
+      "image": "/images/sprinkler/SPRINKLER FITTINGS LATCH & CLAMP.webp",
       "sizes": [
         "75MM P TYPE",
         "63MM P TYPE"
@@ -10330,7 +10330,7 @@
     {
       "id": "prod_sprinkler_10",
       "name": "SPRINKLER FITTINGS PCN",
-      "image": "/images/sprinkler/SPRINKLER FITTINGS PCN.png",
+      "image": "/images/sprinkler/SPRINKLER FITTINGS PCN.webp",
       "sizes": [
         "63MM C TYPE",
         "75MM C TYPE",
@@ -10350,7 +10350,7 @@
     {
       "id": "prod_sprinkler_11",
       "name": "SPRINKLER FITTINGS NOZZELGUN METAL",
-      "image": "/images/sprinkler/SPRINKLER FITTINGS NOZZELGUN METAL.png",
+      "image": "/images/sprinkler/SPRINKLER FITTINGS NOZZELGUN METAL.webp",
       "sizes": [
         "20MM"
       ],
@@ -10366,7 +10366,7 @@
     {
       "id": "prod_sprinkler_12",
       "name": "SPRINKLER FITTINGS GI RISER PIPE",
-      "image": "/images/sprinkler/SPRINKLER FITTINGS GI RISER PIPE.png",
+      "image": "/images/sprinkler/SPRINKLER FITTINGS GI RISER PIPE.webp",
       "sizes": [
         "75MM C TYPE",
         "20MM L TYPE"
@@ -10385,7 +10385,7 @@
       "id": "prod_drip_round_isi_1",
       "uom": "ROLL",
       "name": "ROUND DRIPLINE 12MM ISI",
-      "image": "/images/drip/ROUND DRIPLINE 12MM ISI.png",
+      "image": "/images/drip/ROUND DRIPLINE 12MM ISI.webp",
       "sizes": [
         "12-4-30 CLASS 1",
         "12-4-40 CLASS 1",
@@ -10419,7 +10419,7 @@
       "id": "prod_drip_round_isi_2",
       "uom": "ROLL",
       "name": "ROUND DRIPLINE 16MM ISI",
-      "image": "/images/drip/ROUND DRIPLINE 16MM ISI.png",
+      "image": "/images/drip/ROUND DRIPLINE 16MM ISI.webp",
       "sizes": [
         "16-4-30 CLASS 1",
         "16-4-40 CLASS 1",
@@ -10447,7 +10447,7 @@
       "id": "prod_drip_round_isi_3",
       "uom": "MTR",
       "name": "20MM ROUND INLINE PIPE ISI",
-      "image": "/images/drip/20MM ROUND INLINE PIPE ISI.png",
+      "image": "/images/drip/20MM ROUND INLINE PIPE ISI.webp",
       "sizes": [
         "20-4-30 CLASS-1",
         "20-4-40 CLASS-1",
@@ -10463,7 +10463,7 @@
       "id": "prod_drip_flat_isi_1",
       "uom": "ROLL",
       "name": "FLAT DRIPLINE 12MM ISI",
-      "image": "/images/drip/FLAT DRIPLINE 12MM ISI.png",
+      "image": "/images/drip/FLAT DRIPLINE 12MM ISI.webp",
       "sizes": [
         "12-4-30 CLASS 2",
         "12-4-40 CLASS 2",
@@ -10491,7 +10491,7 @@
       "id": "prod_drip_flat_isi_2",
       "uom": "ROLL",
       "name": "FLAT DRIPLINE 16MM ISI",
-      "image": "/images/drip/FLAT DRIPLINE 16MM ISI.png",
+      "image": "/images/drip/FLAT DRIPLINE 16MM ISI.webp",
       "sizes": [
         "16-4-30 CLASS 1",
         "16-4-40 CLASS 1",
@@ -10519,7 +10519,7 @@
       "id": "prod_drip_flat_isi_3",
       "uom": "ROLL",
       "name": "FLAT DRIPLINE 20MM ISI",
-      "image": "/images/drip/FLAT DRIPLINE 20MM ISI.png",
+      "image": "/images/drip/FLAT DRIPLINE 20MM ISI.webp",
       "sizes": [
         "20-4-30 CLASS 1",
         "20-4-40 CLASS 1",
@@ -10541,7 +10541,7 @@
       "id": "prod_drip_round_online_1",
       "uom": "MTR",
       "name": "12MM PLAIN LATERAL ONLINE PIPE",
-      "image": "/images/drip/12MM PLAIN LATERAL ONLINE PIPE.png",
+      "image": "/images/drip/12MM PLAIN LATERAL ONLINE PIPE.webp",
       "sizes": [
         "CLASS-2"
       ],
@@ -10555,7 +10555,7 @@
       "id": "prod_drip_round_online_2",
       "uom": "MTR",
       "name": "16MM PLAIN LATERAL ONLINE PIPE",
-      "image": "/images/drip/16MM PLAIN LATERAL ONLINE PIPE.png",
+      "image": "/images/drip/16MM PLAIN LATERAL ONLINE PIPE.webp",
       "sizes": [
         "CLASS-2"
       ],
@@ -10569,7 +10569,7 @@
       "id": "prod_drip_round_online_3",
       "uom": "MTR",
       "name": "20MM PLAIN LATERAL ONLINE PIPE",
-      "image": "/images/drip/20MM PLAIN LATERAL ONLINE PIPE.png",
+      "image": "/images/drip/20MM PLAIN LATERAL ONLINE PIPE.webp",
       "sizes": [
         "CLASS-2"
       ],
@@ -10583,7 +10583,7 @@
       "id": "prod_drip_round_online_4",
       "uom": "MTR",
       "name": "32MM PLAIN LATERAL ONLINE PIPE",
-      "image": "/images/drip/32MM PLAIN LATERAL ONLINE PIPE.png",
+      "image": "/images/drip/32MM PLAIN LATERAL ONLINE PIPE.webp",
       "sizes": [
         "CLASS-1",
         "CLASS-2"
@@ -10598,7 +10598,7 @@
       "id": "prod_drip_flat_pepsi_1",
       "uom": "MTR",
       "name": "FLAT DRIPLINE ISI 500MTR 12",
-      "image": "/images/drip/12MM FLAT EMITTING PIPE.png",
+      "image": "/images/drip/12MM FLAT EMITTING PIPE.webp",
       "sizes": [
         "12-4-30 CLASS 2",
         "12-4-40 CLASS 2",
@@ -10625,7 +10625,7 @@
       "id": "prod_drip_flat_pepsi_2",
       "uom": "MTR",
       "name": "FLAT DRIPLINE ISI 500MTR 16",
-      "image": "/images/drip/16MM FLAT EMITTING PIPE.png",
+      "image": "/images/drip/16MM FLAT EMITTING PIPE.webp",
       "sizes": [
         "16-4-30 CLASS 1",
         "16-4-40 CLASS 1",
@@ -10652,7 +10652,7 @@
       "id": "prod_drip_flat_pepsi_3",
       "uom": "MTR",
       "name": "FLAT DRIPLINE ISI 400MTR 20",
-      "image": "/images/drip/20MM FLAT EMITTING PIPE.png",
+      "image": "/images/drip/20MM FLAT EMITTING PIPE.webp",
       "sizes": [
         "20-4-30 CLASS 1",
         "20-4-40 CLASS 1",
@@ -10673,7 +10673,7 @@
       "id": "prod_casing_1",
       "uom": "MTR",
       "name": "CASING PIPE BLUE THD CM-SCH-80-3M",
-      "image": "/images/casing/CASING PIPE BLUE THD.png",
+      "image": "/images/casing/CASING PIPE BLUE THD.webp",
       "sizes": [
         "35MM 1 1/4 Inch",
         "40MM 1 1/2 Inch",
@@ -10703,7 +10703,7 @@
       "id": "prod_casing_1b",
       "uom": "MTR",
       "name": "CASING PIPE BLUE THD CS-SCH-40-3M",
-      "image": "/images/casing/CASING PIPE BLUE THD.png",
+      "image": "/images/casing/CASING PIPE BLUE THD.webp",
       "sizes": [
         "125MM 5 Inch",
         "150MM 6 Inch",
@@ -10725,7 +10725,7 @@
       "id": "prod_casing_1c",
       "uom": "MTR",
       "name": "CASING PIPE BLUE THD CS-SCH-40-5M",
-      "image": "/images/casing/CASING PIPE BLUE THD.png",
+      "image": "/images/casing/CASING PIPE BLUE THD.webp",
       "sizes": [
         "140MM 5 Inch"
       ],
@@ -10741,7 +10741,7 @@
       "id": "prod_casing_1d",
       "uom": "MTR",
       "name": "CASING PIPE BLUE THD CS-SCH-80-5M",
-      "image": "/images/casing/CASING PIPE BLUE THD.png",
+      "image": "/images/casing/CASING PIPE BLUE THD.webp",
       "sizes": [
         "140MM 5 Inch"
       ],
@@ -10757,7 +10757,7 @@
       "id": "prod_casing_2",
       "uom": "MTR",
       "name": "CASING PIPE BLUE PLN CS-SCH-40-3M",
-      "image": "/images/casing/3M CASING PIPE.png",
+      "image": "/images/casing/3M CASING PIPE.webp",
       "sizes": [
         "125MM 5 Inch",
         "150MM 6 Inch",
@@ -10779,7 +10779,7 @@
       "id": "prod_casing_2b",
       "uom": "MTR",
       "name": "CASING PIPE BLUE PLN CM-SCH-80-3M",
-      "image": "/images/casing/3M CASING PIPE.png",
+      "image": "/images/casing/3M CASING PIPE.webp",
       "sizes": [
         "35MM 1 1/4 Inch",
         "50MM 2 Inch",
@@ -10807,7 +10807,7 @@
       "id": "prod_column_1",
       "uom": "MTR",
       "name": "COLOUMN PIPE ECO V4",
-      "image": "/images/column/COLOUMN PIPE ECO V4.png",
+      "image": "/images/column/COLOUMN PIPE ECO V4.webp",
       "sizes": [
         "33MM 12.5KG COUPLER TYPE",
         "33MM 12.5KG BELL END TYPE",
@@ -10836,7 +10836,7 @@
       "id": "prod_column_2",
       "uom": "MTR",
       "name": "COLOUMN PIPE MEDIUM",
-      "image": "/images/column/COLOUMN PIPE MEDIUM.png",
+      "image": "/images/column/COLOUMN PIPE MEDIUM.webp",
       "sizes": [
         "33MM 18KG COUPLER TYPE",
         "42MM 18KG COUPLER TYPE",
@@ -10861,7 +10861,7 @@
       "id": "prod_column_3",
       "uom": "MTR",
       "name": "COLOUMN PIPE STANDARD",
-      "image": "/images/column/COLOUMN PIPE STANDARD.png",
+      "image": "/images/column/COLOUMN PIPE STANDARD.webp",
       "sizes": [
         "33MM 25KG COUPLER TYPE",
         "42MM 25KG COUPLER TYPE",
@@ -10886,7 +10886,7 @@
       "id": "prod_column_4",
       "uom": "MTR",
       "name": "COLOUMN PIPE STANDARD PLUS",
-      "image": "/images/column/3M STANDARD PLUS PIPE.png",
+      "image": "/images/column/3M STANDARD PLUS PIPE.webp",
       "sizes": [
         "60MM 2 Inch 25KG COUPLER TYPE"
       ],
@@ -10908,7 +10908,7 @@
       "id": "prod_column_5",
       "uom": "MTR",
       "name": "COLOUMN PIPE HEAVY",
-      "image": "/images/column/COLOUMN PIPE HEAVY.png",
+      "image": "/images/column/COLOUMN PIPE HEAVY.webp",
       "sizes": [
         "42MM 30KG COUPLER TYPE",
         "48MM 30KG COUPLER TYPE",
@@ -10929,7 +10929,7 @@
       "id": "prod_column_6",
       "uom": "MTR",
       "name": "COLOUMN PIPE MEDIUM PLUS",
-      "image": "/images/column/COLOUMN PIPE MEDIUM PLUS.png",
+      "image": "/images/column/COLOUMN PIPE MEDIUM PLUS.webp",
       "sizes": [
         "60MM 18KG COUPLER TYPE"
       ],
@@ -10946,7 +10946,7 @@
       "id": "prod_household_1",
       "uom": "BAGS",
       "name": "CONSTRUCTION GHAMELA SHIVA",
-      "image": "/images/household/CONSTRUCTION GHAMELA SHIVA.png",
+      "image": "/images/household/CONSTRUCTION GHAMELA SHIVA.webp",
       "sizes": [
         "15 Inch"
       ],
@@ -10966,7 +10966,7 @@
       "id": "prod_household_2",
       "uom": "BAGS",
       "name": "MULTIPURPOSE GHAMELA GOURI",
-      "image": "/images/household/MULTIPURPOSE GHAMELA GOURI.png",
+      "image": "/images/household/MULTIPURPOSE GHAMELA GOURI.webp",
       "sizes": [
         "15 Inch"
       ],
@@ -10986,7 +10986,7 @@
       "id": "prod_household_3",
       "uom": "BAGS",
       "name": "MULTIPURPOSE GHAMELA KRISHNA",
-      "image": "/images/household/MULTIPURPOSE GHAMELA KRISHNA.png",
+      "image": "/images/household/MULTIPURPOSE GHAMELA KRISHNA.webp",
       "sizes": [
         "16 Inch"
       ],
@@ -11006,7 +11006,7 @@
       "id": "prod_household_4",
       "uom": "BAGS",
       "name": "MULTIPURPOSE GHAMELA RAGHAV",
-      "image": "/images/household/MULTIPURPOSE GHAMELA RAGHAV.png",
+      "image": "/images/household/MULTIPURPOSE GHAMELA RAGHAV.webp",
       "sizes": [
         "18 Inch"
       ],
@@ -11026,7 +11026,7 @@
       "id": "prod_household_5",
       "uom": "BAGS",
       "name": "MULTIPURPOSE GHAMELA ANIKET",
-      "image": "/images/household/MULTIPURPOSE GHAMELA ANIKET.png",
+      "image": "/images/household/MULTIPURPOSE GHAMELA ANIKET.webp",
       "sizes": [
         "20 Inch"
       ],
@@ -11046,7 +11046,7 @@
       "id": "prod_household_6",
       "uom": "BAGS",
       "name": "MULTIPURPOSE GHAMELA TEJASWI",
-      "image": "/images/household/MULTIPURPOSE GHAMELA TEJASWI.png",
+      "image": "/images/household/MULTIPURPOSE GHAMELA TEJASWI.webp",
       "sizes": [
         "17 Inch"
       ],
@@ -11066,7 +11066,7 @@
       "id": "prod_household_7",
       "uom": "BAGS",
       "name": "MULTIPURPOSE GHAMELA GAJRAJ",
-      "image": "/images/household/MULTIPURPOSE GHAMELA GAJRAJ.png",
+      "image": "/images/household/MULTIPURPOSE GHAMELA GAJRAJ.webp",
       "sizes": [
         "22 Inch"
       ],
@@ -11086,7 +11086,7 @@
       "id": "prod_household_8",
       "uom": "BAGS",
       "name": "AQUA PLAST GHAMELA 16",
-      "image": "/images/household/AQUA PLAST GHAMELA 16.png",
+      "image": "/images/household/AQUA PLAST GHAMELA 16.webp",
       "sizes": [
         "16 Inch"
       ],
@@ -11106,7 +11106,7 @@
       "id": "prod_household_9",
       "uom": "BAGS",
       "name": "AQUA PLAST GHAMELA 17",
-      "image": "/images/household/AQUA PLAST GHAMELA 17.png",
+      "image": "/images/household/AQUA PLAST GHAMELA 17.webp",
       "sizes": [
         "17 Inch"
       ],
@@ -11126,7 +11126,7 @@
       "id": "prod_garden_1",
       "uom": "BDL",
       "name": "GAP-ORA FLOW GARDEN PIPE",
-      "image": "/images/garden/ORA FLOW - HEAVY DUTY PIPE.png",
+      "image": "/images/garden/ORA FLOW - HEAVY DUTY PIPE.webp",
       "sizes": [
         "1/2 15MM",
         "3/4 20MM",
@@ -11148,7 +11148,7 @@
       "id": "prod_garden_2",
       "uom": "BDL",
       "name": "GAP-ORA BRAIDED PIPE",
-      "image": "/images/garden/GAP-ORA BRAIDED PIPE.png",
+      "image": "/images/garden/GAP-ORA BRAIDED PIPE.webp",
       "sizes": [
         "15MM 1/2",
         "20MM 3/4",
@@ -11171,7 +11171,7 @@
       "id": "prod_garden_3",
       "uom": "BDL",
       "name": "GARDEN FOAM PIPES",
-      "image": "/images/garden/GARDEN FOAM PIPES.png",
+      "image": "/images/garden/GARDEN FOAM PIPES.webp",
       "sizes": [
         "15MM 1/2",
         "20MM 3/4",
@@ -11196,7 +11196,7 @@
       "id": "prod_garden_4",
       "uom": "BDL",
       "name": "BRAIDED PIPE",
-      "image": "/images/garden/BRAIDED PIPE.png",
+      "image": "/images/garden/BRAIDED PIPE.webp",
       "sizes": [
         "15MM 1/2",
         "20MM 3/4",
@@ -11219,7 +11219,7 @@
       "id": "prod_garden_5",
       "uom": "BDL",
       "name": "LEVEL PIPE",
-      "image": "/images/garden/LEVEL PIPE.png",
+      "image": "/images/garden/LEVEL PIPE.webp",
       "sizes": [
         "6MM"
       ],
@@ -11236,7 +11236,7 @@
       "id": "prod_garden_6",
       "uom": "BDL",
       "name": "GARDEN PIPES SUPER FLOW",
-      "image": "/images/garden/GARDEN PIPES SUPER FLOW.png",
+      "image": "/images/garden/GARDEN PIPES SUPER FLOW.webp",
       "sizes": [
         "15MM 1/2",
         "20MM 3/4",
@@ -11263,7 +11263,7 @@
       "id": "prod_faucet_1",
       "uom": "NOS",
       "name": "EDGE SERIES SHORT BODY TAP",
-      "image": "/images/faucets/EDGE SERIES SHORT BODY TAP.png",
+      "image": "/images/faucets/EDGE SERIES SHORT BODY TAP.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11289,7 +11289,7 @@
       "id": "prod_faucet_2",
       "uom": "NOS",
       "name": "EDGE SERIES LONG BODY TAP",
-      "image": "/images/faucets/EDGE SERIES LONG BODY TAP.png",
+      "image": "/images/faucets/EDGE SERIES LONG BODY TAP.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11315,7 +11315,7 @@
       "id": "prod_faucet_3",
       "uom": "NOS",
       "name": "EDGE SERIES SWAN NECK",
-      "image": "/images/faucets/EDGE SERIES SWAN NECK.png",
+      "image": "/images/faucets/EDGE SERIES SWAN NECK.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11341,7 +11341,7 @@
       "id": "prod_faucet_4",
       "uom": "NOS",
       "name": "EDGE SERIES ANGULAR VALVE",
-      "image": "/images/faucets/EDGE SERIES ANGULAR VALVE.png",
+      "image": "/images/faucets/EDGE SERIES ANGULAR VALVE.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11367,7 +11367,7 @@
       "id": "prod_faucet_5",
       "uom": "NOS",
       "name": "EDGE SERIES PILLAR TAP",
-      "image": "/images/faucets/EDGE SERIES PILLAR TAP.png",
+      "image": "/images/faucets/EDGE SERIES PILLAR TAP.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11393,7 +11393,7 @@
       "id": "prod_faucet_6",
       "uom": "NOS",
       "name": "EDGE SERIES 2 WAY BIB TAB",
-      "image": "/images/faucets/EDGE SERIES 2 WAY BIB TAB.png",
+      "image": "/images/faucets/EDGE SERIES 2 WAY BIB TAB.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11419,7 +11419,7 @@
       "id": "prod_faucet_7",
       "uom": "NOS",
       "name": "EDGE SERIES SINK TAP",
-      "image": "/images/faucets/EDGE SERIES SINK TAP.png",
+      "image": "/images/faucets/EDGE SERIES SINK TAP.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11445,7 +11445,7 @@
       "id": "prod_faucet_8",
       "uom": "NOS",
       "name": "SMART SERIES SHORT BODY BIB TAP",
-      "image": "/images/faucets/SMART SERIES SHORT BODY BIB TAP.png",
+      "image": "/images/faucets/SMART SERIES SHORT BODY BIB TAP.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11471,7 +11471,7 @@
       "id": "prod_faucet_9",
       "uom": "NOS",
       "name": "SMART SERIES LONG BODY BIB TAP",
-      "image": "/images/faucets/SMART SERIES LONG BODY BIB TAP.png",
+      "image": "/images/faucets/SMART SERIES LONG BODY BIB TAP.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11497,7 +11497,7 @@
       "id": "prod_faucet_10",
       "uom": "NOS",
       "name": "SMART SERIES PILLAR TAP",
-      "image": "/images/faucets/SMART SERIES PILLAR TAP.png",
+      "image": "/images/faucets/SMART SERIES PILLAR TAP.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11523,7 +11523,7 @@
       "id": "prod_faucet_11",
       "uom": "NOS",
       "name": "SMART SERIES SINK TAP",
-      "image": "/images/faucets/SMART SERIES SINK TAP.png",
+      "image": "/images/faucets/SMART SERIES SINK TAP.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11549,7 +11549,7 @@
       "id": "prod_faucet_12",
       "uom": "NOS",
       "name": "SMART SERIES SWAN NECK",
-      "image": "/images/faucets/SMART SERIES SWAN NECK.png",
+      "image": "/images/faucets/SMART SERIES SWAN NECK.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11575,7 +11575,7 @@
       "id": "prod_faucet_13",
       "uom": "NOS",
       "name": "SMART SERIES ANGULAR VALVE",
-      "image": "/images/faucets/SMART SERIES ANGULAR VALVE.png",
+      "image": "/images/faucets/SMART SERIES ANGULAR VALVE.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11596,7 +11596,7 @@
       "id": "prod_faucet_14",
       "uom": "NOS",
       "name": "SMART SERIES 2 WAY ANGULAR VALVE",
-      "image": "/images/faucets/SMART SERIES 2 WAY ANGULAR VALVE.png",
+      "image": "/images/faucets/SMART SERIES 2 WAY ANGULAR VALVE.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11622,7 +11622,7 @@
       "id": "prod_faucet_15",
       "uom": "NOS",
       "name": "SMART SERIES 2 WAY BIB TAP",
-      "image": "/images/faucets/SMART SERIES 2 WAY BIB TAP.png",
+      "image": "/images/faucets/SMART SERIES 2 WAY BIB TAP.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11648,7 +11648,7 @@
       "id": "prod_faucet_16",
       "uom": "NOS",
       "name": "REGULAR SERIES SHORT BODY BIB TAP",
-      "image": "/images/faucets/REGULAR SERIES SHORT BODY BIB TAP.png",
+      "image": "/images/faucets/REGULAR SERIES SHORT BODY BIB TAP.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11674,7 +11674,7 @@
       "id": "prod_faucet_17",
       "uom": "NOS",
       "name": "REGULAR SERIES LONG BODY BIB TAP",
-      "image": "/images/faucets/REGULAR SERIES LONG BODY BIB TAP.png",
+      "image": "/images/faucets/REGULAR SERIES LONG BODY BIB TAP.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11700,7 +11700,7 @@
       "id": "prod_faucet_18",
       "uom": "NOS",
       "name": "REGULAR SERIES PILLAR TAP",
-      "image": "/images/faucets/REGULAR SERIES PILLAR TAP.png",
+      "image": "/images/faucets/REGULAR SERIES PILLAR TAP.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11726,7 +11726,7 @@
       "id": "prod_faucet_19",
       "uom": "NOS",
       "name": "REGULAR SERIES SINK TAP",
-      "image": "/images/faucets/REGULAR SERIES SINK TAP.png",
+      "image": "/images/faucets/REGULAR SERIES SINK TAP.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11752,7 +11752,7 @@
       "id": "prod_faucet_20",
       "uom": "NOS",
       "name": "REGULAR SERIES SWAN NECK",
-      "image": "/images/faucets/REGULAR SERIES SWAN NECK.png",
+      "image": "/images/faucets/REGULAR SERIES SWAN NECK.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11778,7 +11778,7 @@
       "id": "prod_faucet_21",
       "uom": "NOS",
       "name": "REGULAR SERIES ANGULAR VALVE",
-      "image": "/images/faucets/REGULAR SERIES ANGULAR VALVE.png",
+      "image": "/images/faucets/REGULAR SERIES ANGULAR VALVE.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11804,7 +11804,7 @@
       "id": "prod_faucet_22",
       "uom": "NOS",
       "name": "REGULAR SERIES 2 WAY ANGULAR VALVE",
-      "image": "/images/faucets/REGULAR SERIES 2 WAY ANGULAR VALVE.png",
+      "image": "/images/faucets/REGULAR SERIES 2 WAY ANGULAR VALVE.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11830,7 +11830,7 @@
       "id": "prod_faucet_23",
       "uom": "NOS",
       "name": "REGULAR SERIES 2 WAY BIB TAP",
-      "image": "/images/faucets/REGULAR SERIES 2 WAY BIB TAP.png",
+      "image": "/images/faucets/REGULAR SERIES 2 WAY BIB TAP.webp",
       "sizes": [
         "1/2 inch"
       ],
@@ -11856,7 +11856,7 @@
       "id": "prod_sanitary_1",
       "uom": "NOS",
       "name": "SINGLE SIDE HANDLE FLUSH 8L",
-      "image": "/images/sanitary/SINGLE SIDE HANDLE FLUSH 8L.png",
+      "image": "/images/sanitary/SINGLE SIDE HANDLE FLUSH 8L.webp",
       "sizes": [
         "8L"
       ],
@@ -11878,7 +11878,7 @@
       "id": "prod_sanitary_2",
       "uom": "NOS",
       "name": "CENTER SINGLE PUSH FLUSH 8L",
-      "image": "/images/sanitary/CENTER SINGLE PUSH FLUSH 8L.png",
+      "image": "/images/sanitary/CENTER SINGLE PUSH FLUSH 8L.webp",
       "sizes": [
         "8L"
       ],
@@ -11900,7 +11900,7 @@
       "id": "prod_sanitary_3",
       "uom": "NOS",
       "name": "DUAL FLUSH 10L",
-      "image": "/images/sanitary/DUAL FLUSH 10L.png",
+      "image": "/images/sanitary/DUAL FLUSH 10L.webp",
       "sizes": [
         "10L"
       ],
@@ -11922,7 +11922,7 @@
       "id": "prod_sanitary_4",
       "uom": "NOS",
       "name": "EWC SEAT COVER (WITH JET)",
-      "image": "/images/sanitary/EWC SEAT COVER (WITH JET).png",
+      "image": "/images/sanitary/EWC SEAT COVER (WITH JET).webp",
       "sizes": [
         "Standard"
       ],
@@ -11944,7 +11944,7 @@
       "id": "prod_sanitary_5",
       "uom": "NOS",
       "name": "DUAL FLUSH DUAL COLOUR (PREMIUM 10L)",
-      "image": "/images/sanitary/DUAL FLUSH DUAL COLOUR (PREMIUM 10L).png",
+      "image": "/images/sanitary/DUAL FLUSH DUAL COLOUR (PREMIUM 10L).webp",
       "sizes": [
         "10L"
       ],
@@ -11966,7 +11966,7 @@
       "id": "prod_sanitary_6",
       "uom": "NOS",
       "name": "DUAL FLUSH DUAL COLOUR (ECONOMY 10L)",
-      "image": "/images/sanitary/DUAL FLUSH DUAL COLOUR (ECONOMY 10L).png",
+      "image": "/images/sanitary/DUAL FLUSH DUAL COLOUR (ECONOMY 10L).webp",
       "sizes": [
         "10L"
       ],
@@ -11988,7 +11988,7 @@
       "id": "prod_sanitary_7",
       "uom": "NOS",
       "name": "EWC SEAT COVER (WITHOUT JET)",
-      "image": "/images/sanitary/EWC SEAT COVER (WITHOUT JET).png",
+      "image": "/images/sanitary/EWC SEAT COVER (WITHOUT JET).webp",
       "sizes": [
         "Standard"
       ],
@@ -12010,7 +12010,7 @@
       "id": "prod_dwc_1",
       "uom": "MTR",
       "name": "DWC PIPE SN4",
-      "image": "/images/dwc/DWC PIPE SN4.png",
+      "image": "/images/dwc/DWC PIPE SN4.webp",
       "sizes": [
         "150MM",
         "200MM",
@@ -12052,7 +12052,7 @@
       "id": "prod_dwc_2",
       "uom": "MTR",
       "name": "DWC PIPE SN8",
-      "image": "/images/dwc/DWC PIPE SN8.png",
+      "image": "/images/dwc/DWC PIPE SN8.webp",
       "sizes": [
         "150MM",
         "200MM",
