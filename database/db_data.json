@@ -3867,6 +3867,7 @@
         "5000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "10L ROTO T3 ORANGE FOAM GAP. Available sizes: 500, 750, 1000, 5000.",
@@ -3877,8 +3878,7 @@
         "750": "FG-401659",
         "1000": "FG-401660",
         "5000": "FG-401674"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_tank_15",
@@ -3895,6 +3895,7 @@
         "5000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "2L ROTO BLACK ISI GAP. Available sizes: 500, 750, 1000, 1500, 2000, 3000, 5000.",
@@ -3908,8 +3909,7 @@
         "2000": "FG-400010",
         "3000": "FG-400009",
         "5000": "FG-400008"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_tank_20",
@@ -3926,6 +3926,7 @@
         "5000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "3L ROTO BLACK GAP. Available sizes: 500, 750, 1000, 1500, 2000, 3000, 5000.",
@@ -3939,8 +3940,7 @@
         "2000": "FG-400111",
         "3000": "FG-400112",
         "5000": "FG-400113"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_tank_19",
@@ -3957,6 +3957,7 @@
         "5000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "3L ROTO ORG GAP. Available sizes: 500, 750, 1000, 1500, 2000, 3000, 5000.",
@@ -3970,8 +3971,7 @@
         "2000": "FG-400104",
         "3000": "FG-400105",
         "5000": "FG-400106"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_tank_14",
@@ -3988,6 +3988,7 @@
         "5000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "3L ROTO WHITE GAP. Available sizes: 500, 750, 1000, 1500, 2000, 3000, 5000.",
@@ -4001,8 +4002,7 @@
         "2000": "FG-400017",
         "3000": "FG-400016",
         "5000": "FG-400015"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_agri_4",
@@ -4015,6 +4015,12 @@
         "32MM"
       ],
       "status": "Active",
+      "packing": "20MM:1, 25MM:1, 32MM:1",
+      "packSizes": {
+        "20MM": 1,
+        "25MM": 1,
+        "32MM": 1
+      },
       "categoryId": "cat_agri",
       "description": "3M PVC PIPE for agriculture irrigation and piping systems.",
       "categoryName": "Agriculture Pipes & Fittings",
@@ -4022,13 +4028,7 @@
         "20MM": "FG-401116",
         "25MM": "FG-401117",
         "32MM": "FG-401118"
-      },
-      "packSizes": {
-        "20MM": 1,
-        "25MM": 1,
-        "32MM": 1
-      },
-      "packing": "20MM:1, 25MM:1, 32MM:1"
+      }
     },
     {
       "id": "prod_agri_3",
@@ -4043,6 +4043,14 @@
         "50MM"
       ],
       "status": "Active",
+      "packing": "20MM:1, 25MM:1, 32MM:1, 40MM:1, 50MM:1",
+      "packSizes": {
+        "20MM": 1,
+        "25MM": 1,
+        "32MM": 1,
+        "40MM": 1,
+        "50MM": 1
+      },
       "categoryId": "cat_agri",
       "description": "3M PVC PIPE ISI for agriculture irrigation and piping systems.",
       "categoryName": "Agriculture Pipes & Fittings",
@@ -4052,15 +4060,7 @@
         "32MM": "FG-401101",
         "40MM": "FG-401102",
         "50MM": "FG-401103"
-      },
-      "packSizes": {
-        "20MM": 1,
-        "25MM": 1,
-        "32MM": 1,
-        "40MM": 1,
-        "50MM": 1
-      },
-      "packing": "20MM:1, 25MM:1, 32MM:1, 40MM:1, 50MM:1"
+      }
     },
     {
       "id": "prod_tank_12",
@@ -4077,6 +4077,7 @@
         "5000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "4L ROTO MARBLE FOAM GAP. Available sizes: 500, 750, 1000, 1500, 2000, 3000, 5000.",
@@ -4090,8 +4091,7 @@
         "2000": "FG-400024",
         "3000": "FG-400023",
         "5000": "FG-400022"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_tank_13",
@@ -4108,6 +4108,7 @@
         "5000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "4L ROTO WHITE FOAM GAP. Available sizes: 500, 750, 1000, 1500, 2000, 3000, 5000.",
@@ -4121,8 +4122,7 @@
         "2000": "FG-400031",
         "3000": "FG-400030",
         "5000": "FG-400029"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_tank_21",
@@ -4139,6 +4139,7 @@
         "5000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "6L ROTO MARBLE DOUBLE FOAM GAP. Available sizes: 500, 750, 1000, 1500, 2000, 3000, 5000.",
@@ -4152,8 +4153,7 @@
         "2000": "FG-400045",
         "3000": "FG-400044",
         "5000": "FG-400043"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_tank_10",
@@ -4170,6 +4170,7 @@
         "5000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "6L ROTO MARBLE FOAM GAP. Available sizes: 500, 750, 1000, 1500, 2000, 3000, 5000.",
@@ -4183,8 +4184,7 @@
         "2000": "FG-400052",
         "3000": "FG-400051",
         "5000": "FG-400050"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_tank_23",
@@ -4197,6 +4197,7 @@
         "1000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "6L ROTO ORG DOUBLE FOAM GAP. Available sizes: 500, 750, 1000.",
@@ -4206,8 +4207,7 @@
         "500": "FG-401588",
         "750": "FG-401593",
         "1000": "FG-401587"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_tank_22",
@@ -4224,6 +4224,7 @@
         "5000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "6L ROTO WHITE DOUBLE FOAM GAP. Available sizes: 500, 750, 1000, 1500, 2000, 3000, 5000.",
@@ -4237,8 +4238,7 @@
         "2000": "FG-400059",
         "3000": "FG-400058",
         "5000": "FG-400057"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_tank_11",
@@ -4255,6 +4255,7 @@
         "5000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "6L ROTO WHITE FOAM GAP. Available sizes: 500, 750, 1000, 1500, 2000, 3000, 5000.",
@@ -4268,8 +4269,7 @@
         "2000": "FG-400066",
         "3000": "FG-400065",
         "5000": "FG-400064"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_agri_5",
@@ -4283,6 +4283,13 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "63MM:1, 75MM:1, 90MM:1, 110MM:1",
+      "packSizes": {
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1
+      },
       "categoryId": "cat_agri",
       "description": "6M ECO PVC PIPE for agriculture irrigation and piping systems.",
       "categoryName": "Agriculture Pipes & Fittings",
@@ -4291,14 +4298,7 @@
         "75MM": "FG-401153",
         "90MM": "FG-401152",
         "110MM": "FG-401151"
-      },
-      "packSizes": {
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1
-      },
-      "packing": "63MM:1, 75MM:1, 90MM:1, 110MM:1"
+      }
     },
     {
       "id": "prod_agri_20",
@@ -4310,6 +4310,7 @@
         "32MM"
       ],
       "status": "Active",
+      "packing": "25MM:450, 32MM:250",
       "packings": {
         "25MM": 450,
         "32MM": 250
@@ -4324,8 +4325,7 @@
       "sizeProductCodes": {
         "25MM": "FG-400669",
         "32MM": "FG-400670"
-      },
-      "packing": "25MM:450, 32MM:250"
+      }
     },
     {
       "id": "prod_agri_13",
@@ -4342,9 +4342,10 @@
         "160MM"
       ],
       "status": "Active",
+      "packing": "63MM:50, 50MM:63, 75MM:36, 90MM:56, 110MM:27, 140MM:18, 160MM:8",
       "packSizes": {
-        "63MM": 50,
         "50MM": 63,
+        "63MM": 50,
         "75MM": 36,
         "90MM": 56,
         "110MM": 27,
@@ -4355,15 +4356,14 @@
       "description": "AGRI COUPLER PN6 for agriculture irrigation and piping systems.",
       "categoryName": "Agriculture Pipes & Fittings",
       "sizeProductCodes": {
-        "63MM": "FG-400601",
         "50MM": "FG-401737",
+        "63MM": "FG-400601",
         "75MM": "FG-400602",
         "90MM": "FG-400603",
         "110MM": "FG-400604",
         "140MM": "FG-400609",
         "160MM": "FG-400610"
-      },
-      "packing": "63MM:50, 50MM:63, 75MM:36, 90MM:56, 110MM:27, 140MM:18, 160MM:8"
+      }
     },
     {
       "id": "prod_agri_31",
@@ -4381,7 +4381,18 @@
         "160MM"
       ],
       "status": "Active",
+      "packing": "40MM:250, 50MM:150, 63MM:100, 75MM:50, 90MM:35, 110MM:50, 140MM:8, 160MM:12",
       "packings": {
+        "40MM": 250,
+        "50MM": 150,
+        "63MM": 100,
+        "75MM": 50,
+        "90MM": 35,
+        "110MM": 50,
+        "140MM": 8,
+        "160MM": 12
+      },
+      "packSizes": {
         "40MM": 250,
         "50MM": 150,
         "63MM": 100,
@@ -4403,18 +4414,7 @@
         "110MM": "FG-400549",
         "140MM": "FG-400595",
         "160MM": "FG-400596"
-      },
-      "packSizes": {
-        "40MM": 250,
-        "50MM": 150,
-        "63MM": 100,
-        "75MM": 50,
-        "90MM": 35,
-        "110MM": 50,
-        "140MM": 8,
-        "160MM": 12
-      },
-      "packing": "40MM:250, 50MM:150, 63MM:100, 75MM:50, 90MM:35, 110MM:50, 140MM:8, 160MM:12"
+      }
     },
     {
       "id": "prod_agri_17",
@@ -4426,6 +4426,7 @@
         "32MM"
       ],
       "status": "Active",
+      "packing": "25MM:300, 32MM:150",
       "packings": {
         "25MM": 300,
         "32MM": 150
@@ -4440,8 +4441,7 @@
       "sizeProductCodes": {
         "25MM": "FG-400665",
         "32MM": "FG-400666"
-      },
-      "packing": "25MM:300, 32MM:150"
+      }
     },
     {
       "id": "prod_agri_8",
@@ -4459,6 +4459,7 @@
         "160MM"
       ],
       "status": "Active",
+      "packing": "40MM:180, 50MM:100, 63MM:150, 75MM:90, 90MM:55, 110MM:30, 140MM:8, 160MM:12",
       "packSizes": {
         "40MM": 180,
         "50MM": 100,
@@ -4481,8 +4482,7 @@
         "110MM": "FG-400664",
         "140MM": "FG-400605",
         "160MM": "FG-400606"
-      },
-      "packing": "40MM:180, 50MM:100, 63MM:150, 75MM:90, 90MM:55, 110MM:30, 140MM:8, 160MM:12"
+      }
     },
     {
       "id": "prod_agri_32",
@@ -4500,7 +4500,18 @@
         "160MM 4KG"
       ],
       "status": "Active",
+      "packing": "40MM:800, 50MM:450, 63MM:300, 75MM:150, 90MM:100, 110MM:60, 140MM 4KG:30, 160MM 4KG:16",
       "packings": {
+        "40MM": 800,
+        "50MM": 450,
+        "63MM": 300,
+        "75MM": 150,
+        "90MM": 100,
+        "110MM": 60,
+        "140MM 4KG": 30,
+        "160MM 4KG": 16
+      },
+      "packSizes": {
         "40MM": 800,
         "50MM": 450,
         "63MM": 300,
@@ -4522,18 +4533,7 @@
         "110MM": "FG-400560",
         "140MM 4KG": "FG-400639",
         "160MM 4KG": "FG-400640"
-      },
-      "packSizes": {
-        "40MM": 800,
-        "50MM": 450,
-        "63MM": 300,
-        "75MM": 150,
-        "90MM": 100,
-        "110MM": 60,
-        "140MM 4KG": 30,
-        "160MM 4KG": 16
-      },
-      "packing": "40MM:800, 50MM:450, 63MM:300, 75MM:150, 90MM:100, 110MM:60, 140MM 4KG:30, 160MM 4KG:16"
+      }
     },
     {
       "id": "prod_agri_23",
@@ -4545,6 +4545,7 @@
         "32MM"
       ],
       "status": "Active",
+      "packing": "25MM:400, 32MM:500",
       "packings": {
         "25MM": 400,
         "32MM": 500
@@ -4559,8 +4560,7 @@
       "sizeProductCodes": {
         "25MM": "FG-400671",
         "32MM": "FG-400672"
-      },
-      "packing": "25MM:400, 32MM:500"
+      }
     },
     {
       "id": "prod_agri_15",
@@ -4576,6 +4576,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "40MM:125, 50MM:200, 63MM:95, 75MM:60, 90MM:45, 110MM:60",
       "packSizes": {
         "40MM": 125,
         "50MM": 200,
@@ -4594,8 +4595,7 @@
         "75MM": "FG-400657",
         "90MM": "FG-400658",
         "110MM": "FG-400659"
-      },
-      "packing": "40MM:125, 50MM:200, 63MM:95, 75MM:60, 90MM:45, 110MM:60"
+      }
     },
     {
       "id": "prod_agri_11",
@@ -4609,6 +4609,7 @@
         "110MM 6KG"
       ],
       "status": "Active",
+      "packing": "63MM 6KG:60, 75MM 6KG:80, 90MM 6KG:54, 110MM 6KG:48",
       "packings": {
         "63MM 6KG": 60,
         "75MM 6KG": 80,
@@ -4629,8 +4630,7 @@
         "75MM 6KG": "FG-400636",
         "90MM 6KG": "FG-400637",
         "110MM 6KG": "FG-400638"
-      },
-      "packing": "63MM 6KG:60, 75MM 6KG:80, 90MM 6KG:54, 110MM 6KG:48"
+      }
     },
     {
       "id": "prod_agri_10",
@@ -4646,6 +4646,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "40MM:180, 50MM:110, 63MM:32, 75MM:64, 90MM:27, 110MM:33",
       "packSizes": {
         "40MM": 180,
         "50MM": 110,
@@ -4664,8 +4665,7 @@
         "75MM": "FG-400632",
         "90MM": "FG-400633",
         "110MM": "FG-400634"
-      },
-      "packing": "40MM:180, 50MM:110, 63MM:32, 75MM:64, 90MM:27, 110MM:33"
+      }
     },
     {
       "id": "prod_agri_29",
@@ -4683,7 +4683,18 @@
         "160MM 4KG"
       ],
       "status": "Active",
+      "packing": "40MM:300, 50MM:200, 63MM:200, 75MM:120, 90MM:80, 110MM:50, 140MM 4KG:25, 160MM 4KG:20",
       "packings": {
+        "40MM": 300,
+        "50MM": 200,
+        "63MM": 200,
+        "75MM": 120,
+        "90MM": 80,
+        "110MM": 50,
+        "140MM 4KG": 25,
+        "160MM 4KG": 20
+      },
+      "packSizes": {
         "40MM": 300,
         "50MM": 200,
         "63MM": 200,
@@ -4705,18 +4716,7 @@
         "110MM": "FG-400566",
         "140MM 4KG": "FG-400587",
         "160MM 4KG": "FG-400568"
-      },
-      "packSizes": {
-        "40MM": 300,
-        "50MM": 200,
-        "63MM": 200,
-        "75MM": 120,
-        "90MM": 80,
-        "110MM": 50,
-        "140MM 4KG": 25,
-        "160MM 4KG": 20
-      },
-      "packing": "40MM:300, 50MM:200, 63MM:200, 75MM:120, 90MM:80, 110MM:50, 140MM 4KG:25, 160MM 4KG:20"
+      }
     },
     {
       "id": "prod_agri_30",
@@ -4728,7 +4728,12 @@
         "160MM"
       ],
       "status": "Active",
+      "packing": "140MM:25, 160MM:20",
       "packings": {
+        "140MM": 25,
+        "160MM": 20
+      },
+      "packSizes": {
         "140MM": 25,
         "160MM": 20
       },
@@ -4738,12 +4743,7 @@
       "sizeProductCodes": {
         "140MM": "FG-400567",
         "160MM": "FG-400569"
-      },
-      "packSizes": {
-        "140MM": 25,
-        "160MM": 20
-      },
-      "packing": "140MM:25, 160MM:20"
+      }
     },
     {
       "id": "prod_agri_22",
@@ -4755,6 +4755,7 @@
         "32MM"
       ],
       "status": "Active",
+      "packing": "25MM:200, 32MM:250",
       "packings": {
         "25MM": 200,
         "32MM": 250
@@ -4769,8 +4770,7 @@
       "sizeProductCodes": {
         "25MM": "FG-400677",
         "32MM": "FG-400678"
-      },
-      "packing": "25MM:200, 32MM:250"
+      }
     },
     {
       "id": "prod_agri_1",
@@ -4797,6 +4797,7 @@
         "250MM"
       ],
       "status": "Active",
+      "packing": "20MM:10, 25MM:10, 32MM:10, 40MM:10, 50MM:10, 63MM:10, 75MM:10, 90MM:10, 110MM:10, 125MM:10, 140MM:10, 160MM:10, 180MM:10, 200MM:10, 225MM - 10KG:10, 225MM - 2.5KG:2.5, 250MM:10",
       "packSizes": {
         "20MM": 10,
         "25MM": 10,
@@ -4812,9 +4813,9 @@
         "160MM": 10,
         "180MM": 10,
         "200MM": 10,
+        "250MM": 10,
         "225MM - 10KG": 10,
-        "225MM - 2.5KG": 2.5,
-        "250MM": 10
+        "225MM - 2.5KG": 2.5
       },
       "categoryId": "cat_agri",
       "description": "AGRI ISI PIPES 6MTR for agriculture irrigation and piping systems.",
@@ -4834,11 +4835,10 @@
         "160MM": "FG-401094",
         "180MM": "FG-401095",
         "200MM": "FG-401096",
+        "250MM": "FG-401098",
         "225MM - 10KG": "FG-401097",
-        "225MM - 2.5KG": "FG-401104",
-        "250MM": "FG-401098"
-      },
-      "packing": "20MM:10, 25MM:10, 32MM:10, 40MM:10, 50MM:10, 63MM:10, 75MM:10, 90MM:10, 110MM:10, 125MM:10, 140MM:10, 160MM:10, 180MM:10, 200MM:10, 225MM - 10KG:10, 225MM - 2.5KG:2.5, 250MM:10"
+        "225MM - 2.5KG": "FG-401104"
+      }
     },
     {
       "id": "prod_agri_33",
@@ -4852,7 +4852,14 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "63MM:50, 75MM:40, 90MM:20, 110MM:10",
       "packings": {
+        "63MM": 50,
+        "75MM": 40,
+        "90MM": 20,
+        "110MM": 10
+      },
+      "packSizes": {
         "63MM": 50,
         "75MM": 40,
         "90MM": 20,
@@ -4866,14 +4873,7 @@
         "75MM": "FG-400571",
         "90MM": "FG-400572",
         "110MM": "FG-400573"
-      },
-      "packSizes": {
-        "63MM": 50,
-        "75MM": 40,
-        "90MM": 20,
-        "110MM": 10
-      },
-      "packing": "63MM:50, 75MM:40, 90MM:20, 110MM:10"
+      }
     },
     {
       "id": "prod_agri_16",
@@ -4889,6 +4889,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "40MM:190, 50MM:120, 63MM:42, 75MM:60, 90MM:40, 110MM:15",
       "packSizes": {
         "40MM": 190,
         "50MM": 120,
@@ -4907,8 +4908,7 @@
         "75MM": "FG-400626",
         "90MM": "FG-400627",
         "110MM": "FG-400628"
-      },
-      "packing": "40MM:190, 50MM:120, 63MM:42, 75MM:60, 90MM:40, 110MM:15"
+      }
     },
     {
       "id": "prod_agri_21",
@@ -4920,6 +4920,7 @@
         "32MM"
       ],
       "status": "Active",
+      "packing": "25MM:200, 32MM:300",
       "packings": {
         "25MM": 200,
         "32MM": 300
@@ -4934,8 +4935,7 @@
       "sizeProductCodes": {
         "25MM": "FG-400675",
         "32MM": "FG-400676"
-      },
-      "packing": "25MM:200, 32MM:300"
+      }
     },
     {
       "id": "prod_agri_2",
@@ -4980,84 +4980,84 @@
         "200MM - 6KG"
       ],
       "status": "Active",
+      "packing": "20MM - 10KG:10, 25MM - 10KG:10, 32MM - 10KG:10, 40MM - 6KG:6, 50MM - 6KG:6, 63MM - 2.5KG:2.5, 63MM - 4KG:4, 63MM - 6KG:6, 63MM - 10KG:10, 75MM - 2.5KG:2.5, 75MM - 4KG:4, 75MM - 6KG:6, 75MM - 10KG:10, 90MM - 2.5KG:2.5, 90MM - 4KG:4, 90MM - 6KG:6, 90MM - 10KG:10, 110MM - 2.5KG:2.5, 110MM - 4KG:4, 110MM - 6KG:6, 110MM - 10KG:10, 140MM - 2.5KG:2.5, 140MM - 4KG:4, 140MM - 6KG:6, 140MM - 10KG:10, 160MM - 2.5KG:2.5, 160MM - 4KG:4, 160MM - 6KG:6, 160MM - 10KG:10, 180MM - 2.5KG:2.5, 180MM - 4KG:4, 180MM - 6KG:6, 200MM - 2.5KG:2.5, 200MM - 4KG:4, 200MM - 6KG:6",
       "packSizes": {
+        "40MM - 6KG": 6,
+        "50MM - 6KG": 6,
+        "63MM - 4KG": 4,
+        "63MM - 6KG": 6,
+        "75MM - 4KG": 4,
+        "75MM - 6KG": 6,
+        "90MM - 4KG": 4,
+        "90MM - 6KG": 6,
+        "110MM - 4KG": 4,
+        "110MM - 6KG": 6,
+        "140MM - 4KG": 4,
+        "140MM - 6KG": 6,
+        "160MM - 4KG": 4,
+        "160MM - 6KG": 6,
+        "180MM - 4KG": 4,
+        "180MM - 6KG": 6,
+        "200MM - 4KG": 4,
+        "200MM - 6KG": 6,
         "20MM - 10KG": 10,
         "25MM - 10KG": 10,
         "32MM - 10KG": 10,
-        "40MM - 6KG": 6,
-        "50MM - 6KG": 6,
-        "63MM - 2.5KG": 2.5,
-        "63MM - 4KG": 4,
-        "63MM - 6KG": 6,
         "63MM - 10KG": 10,
-        "75MM - 2.5KG": 2.5,
-        "75MM - 4KG": 4,
-        "75MM - 6KG": 6,
         "75MM - 10KG": 10,
-        "90MM - 2.5KG": 2.5,
-        "90MM - 4KG": 4,
-        "90MM - 6KG": 6,
         "90MM - 10KG": 10,
-        "110MM - 2.5KG": 2.5,
-        "110MM - 4KG": 4,
-        "110MM - 6KG": 6,
         "110MM - 10KG": 10,
-        "140MM - 2.5KG": 2.5,
-        "140MM - 4KG": 4,
-        "140MM - 6KG": 6,
         "140MM - 10KG": 10,
-        "160MM - 2.5KG": 2.5,
-        "160MM - 4KG": 4,
-        "160MM - 6KG": 6,
         "160MM - 10KG": 10,
+        "63MM - 2.5KG": 2.5,
+        "75MM - 2.5KG": 2.5,
+        "90MM - 2.5KG": 2.5,
+        "110MM - 2.5KG": 2.5,
+        "140MM - 2.5KG": 2.5,
+        "160MM - 2.5KG": 2.5,
         "180MM - 2.5KG": 2.5,
-        "180MM - 4KG": 4,
-        "180MM - 6KG": 6,
-        "200MM - 2.5KG": 2.5,
-        "200MM - 4KG": 4,
-        "200MM - 6KG": 6
+        "200MM - 2.5KG": 2.5
       },
       "categoryId": "cat_agri",
       "description": "AGRI NISI PIPES 6MTR for agriculture irrigation and piping systems.",
       "categoryName": "Agriculture Pipes & Fittings",
       "sizeProductCodes": {
+        "40MM - 6KG": "FG-401000",
+        "50MM - 6KG": "FG-401001",
+        "63MM - 4KG": "FG-400992",
+        "63MM - 6KG": "FG-401002",
+        "75MM - 4KG": "FG-400993",
+        "75MM - 6KG": "FG-401003",
+        "90MM - 4KG": "FG-400994",
+        "90MM - 6KG": "FG-401004",
+        "110MM - 4KG": "FG-400995",
+        "110MM - 6KG": "FG-401005",
+        "140MM - 4KG": "FG-400996",
+        "140MM - 6KG": "FG-401006",
+        "160MM - 4KG": "FG-400997",
+        "160MM - 6KG": "FG-401007",
+        "180MM - 4KG": "FG-400998",
+        "180MM - 6KG": "FG-401008",
+        "200MM - 4KG": "FG-400999",
+        "200MM - 6KG": "FG-401009",
         "20MM - 10KG": "FG-401010",
         "25MM - 10KG": "FG-401011",
         "32MM - 10KG": "FG-401012",
-        "40MM - 6KG": "FG-401000",
-        "50MM - 6KG": "FG-401001",
-        "63MM - 2.5KG": "FG-400984",
-        "63MM - 4KG": "FG-400992",
-        "63MM - 6KG": "FG-401002",
         "63MM - 10KG": "FG-401013",
-        "75MM - 2.5KG": "FG-400985",
-        "75MM - 4KG": "FG-400993",
-        "75MM - 6KG": "FG-401003",
         "75MM - 10KG": "FG-401014",
-        "90MM - 2.5KG": "FG-400986",
-        "90MM - 4KG": "FG-400994",
-        "90MM - 6KG": "FG-401004",
         "90MM - 10KG": "FG-401015",
-        "110MM - 2.5KG": "FG-400987",
-        "110MM - 4KG": "FG-400995",
-        "110MM - 6KG": "FG-401005",
         "110MM - 10KG": "FG-401016",
-        "140MM - 2.5KG": "FG-400988",
-        "140MM - 4KG": "FG-400996",
-        "140MM - 6KG": "FG-401006",
         "140MM - 10KG": "FG-401017",
-        "160MM - 2.5KG": "FG-400989",
-        "160MM - 4KG": "FG-400997",
-        "160MM - 6KG": "FG-401007",
         "160MM - 10KG": "FG-401018",
+        "63MM - 2.5KG": "FG-400984",
+        "75MM - 2.5KG": "FG-400985",
+        "90MM - 2.5KG": "FG-400986",
+        "110MM - 2.5KG": "FG-400987",
+        "140MM - 2.5KG": "FG-400988",
+        "160MM - 2.5KG": "FG-400989",
         "180MM - 2.5KG": "FG-400990",
-        "180MM - 4KG": "FG-400998",
-        "180MM - 6KG": "FG-401008",
-        "200MM - 2.5KG": "FG-400991",
-        "200MM - 4KG": "FG-400999",
-        "200MM - 6KG": "FG-401009"
-      },
-      "packing": "20MM - 10KG:10, 25MM - 10KG:10, 32MM - 10KG:10, 40MM - 6KG:6, 50MM - 6KG:6, 63MM - 2.5KG:2.5, 63MM - 4KG:4, 63MM - 6KG:6, 63MM - 10KG:10, 75MM - 2.5KG:2.5, 75MM - 4KG:4, 75MM - 6KG:6, 75MM - 10KG:10, 90MM - 2.5KG:2.5, 90MM - 4KG:4, 90MM - 6KG:6, 90MM - 10KG:10, 110MM - 2.5KG:2.5, 110MM - 4KG:4, 110MM - 6KG:6, 110MM - 10KG:10, 140MM - 2.5KG:2.5, 140MM - 4KG:4, 140MM - 6KG:6, 140MM - 10KG:10, 160MM - 2.5KG:2.5, 160MM - 4KG:4, 160MM - 6KG:6, 160MM - 10KG:10, 180MM - 2.5KG:2.5, 180MM - 4KG:4, 180MM - 6KG:6, 200MM - 2.5KG:2.5, 200MM - 4KG:4, 200MM - 6KG:6"
+        "200MM - 2.5KG": "FG-400991"
+      }
     },
     {
       "id": "prod_agri_25",
@@ -5079,7 +5079,22 @@
         "110X90MM"
       ],
       "status": "Active",
+      "packing": "50X40MM:300, 63X40MM:200, 63X50MM:150, 75X40MM:100, 75X50MM:120, 75X63MM:100, 90X50MM:80, 90X63MM:70, 90X75MM:60, 110X63MM:45, 110X75MM:45, 110X90MM:40",
       "packings": {
+        "50X40MM": 300,
+        "63X40MM": 200,
+        "63X50MM": 150,
+        "75X40MM": 100,
+        "75X50MM": 120,
+        "75X63MM": 100,
+        "90X50MM": 80,
+        "90X63MM": 70,
+        "90X75MM": 60,
+        "110X63MM": 45,
+        "110X75MM": 45,
+        "110X90MM": 40
+      },
+      "packSizes": {
         "50X40MM": 300,
         "63X40MM": 200,
         "63X50MM": 150,
@@ -5109,22 +5124,7 @@
         "110X63MM": "FG-400576",
         "110X75MM": "FG-400575",
         "110X90MM": "FG-400574"
-      },
-      "packSizes": {
-        "50X40MM": 300,
-        "63X40MM": 200,
-        "63X50MM": 150,
-        "75X40MM": 100,
-        "75X50MM": 120,
-        "75X63MM": 100,
-        "90X50MM": 80,
-        "90X63MM": 70,
-        "90X75MM": 60,
-        "110X63MM": 45,
-        "110X75MM": 45,
-        "110X90MM": 40
-      },
-      "packing": "50X40MM:300, 63X40MM:200, 63X50MM:150, 75X40MM:100, 75X50MM:120, 75X63MM:100, 90X50MM:80, 90X63MM:70, 90X75MM:60, 110X63MM:45, 110X75MM:45, 110X90MM:40"
+      }
     },
     {
       "id": "prod_agri_6",
@@ -5146,11 +5146,8 @@
         "110 X 90"
       ],
       "status": "Active",
+      "packing": "140 X 90:6, 140 X 110:6, 160 X 110:10, 160 X 140:9, 63 X 40:24, 63 X 50:24, 75 X 50:24, 75 X 63:24, 90 X 63:24, 90 X 75:24, 110 X 75:26, 110 X 90:24",
       "packSizes": {
-        "140 X 90": 6,
-        "140 X 110": 6,
-        "160 X 110": 10,
-        "160 X 140": 9,
         "63 X 40": 24,
         "63 X 50": 24,
         "75 X 50": 24,
@@ -5158,16 +5155,16 @@
         "90 X 63": 24,
         "90 X 75": 24,
         "110 X 75": 26,
-        "110 X 90": 24
+        "110 X 90": 24,
+        "140 X 90": 6,
+        "140 X 110": 6,
+        "160 X 110": 10,
+        "160 X 140": 9
       },
       "categoryId": "cat_agri",
       "description": "AGRI REDUCER TEE PN6 for agriculture irrigation and piping systems.",
       "categoryName": "Agriculture Pipes & Fittings",
       "sizeProductCodes": {
-        "140 X 90": "FG-400643",
-        "140 X 110": "FG-400644",
-        "160 X 110": "FG-400641",
-        "160 X 140": "FG-400642",
         "63 X 40": "FG-400615",
         "63 X 50": "FG-400616",
         "75 X 50": "FG-400617",
@@ -5175,9 +5172,12 @@
         "90 X 63": "FG-400619",
         "90 X 75": "FG-400620",
         "110 X 75": "FG-400621",
-        "110 X 90": "FG-400622"
-      },
-      "packing": "140 X 90:6, 140 X 110:6, 160 X 110:10, 160 X 140:9, 63 X 40:24, 63 X 50:24, 75 X 50:24, 75 X 63:24, 90 X 63:24, 90 X 75:24, 110 X 75:26, 110 X 90:24"
+        "110 X 90": "FG-400622",
+        "140 X 90": "FG-400643",
+        "140 X 110": "FG-400644",
+        "160 X 110": "FG-400641",
+        "160 X 140": "FG-400642"
+      }
     },
     {
       "id": "prod_agri_24",
@@ -5189,6 +5189,7 @@
         "32 X 25MM"
       ],
       "status": "Active",
+      "packing": "32 X 20MM:250, 32 X 25MM:250",
       "packings": {
         "32 X 20MM": 250,
         "32 X 25MM": 250
@@ -5203,8 +5204,7 @@
       "sizeProductCodes": {
         "32 X 20MM": "FG-400673",
         "32 X 25MM": "FG-400674"
-      },
-      "packing": "32 X 20MM:250, 32 X 25MM:250"
+      }
     },
     {
       "id": "prod_agri_14",
@@ -5216,6 +5216,7 @@
         "160MM"
       ],
       "status": "Active",
+      "packing": "140MM:18, 160MM:12",
       "packSizes": {
         "140MM": 18,
         "160MM": 12
@@ -5226,8 +5227,7 @@
       "sizeProductCodes": {
         "140MM": "FG-400599",
         "160MM": "FG-400600"
-      },
-      "packing": "140MM:18, 160MM:12"
+      }
     },
     {
       "id": "prod_agri_27",
@@ -5243,6 +5243,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "40MM:150, 50MM:100, 63MM:70, 75MM:40, 90MM:50, 110MM:25",
       "packings": {
         "40MM": 150,
         "50MM": 100,
@@ -5252,6 +5253,14 @@
         "110MM": 25,
         "140MM": 6,
         "160MM": 9
+      },
+      "packSizes": {
+        "40MM": 150,
+        "50MM": 100,
+        "63MM": 70,
+        "75MM": 40,
+        "90MM": 50,
+        "110MM": 25
       },
       "categoryId": "cat_agri",
       "description": "AGRI TEE for agriculture irrigation and piping systems. Available sizes: 40MM, 50MM, 63MM, 75MM, 90MM, 110MM, 140MM, 160MM.",
@@ -5263,16 +5272,7 @@
         "75MM": "FG-400553",
         "90MM": "FG-400554",
         "110MM": "FG-400586"
-      },
-      "packSizes": {
-        "40MM": 150,
-        "50MM": 100,
-        "63MM": 70,
-        "75MM": 40,
-        "90MM": 50,
-        "110MM": 25
-      },
-      "packing": "40MM:150, 50MM:100, 63MM:70, 75MM:40, 90MM:50, 110MM:25"
+      }
     },
     {
       "id": "prod_agri_19",
@@ -5284,6 +5284,7 @@
         "32MM"
       ],
       "status": "Active",
+      "packing": "25MM:180, 32MM:100",
       "packings": {
         "25MM": 180,
         "32MM": 100
@@ -5298,34 +5299,33 @@
       "sizeProductCodes": {
         "25MM": "FG-400667",
         "32MM": "FG-400668"
-      },
-      "packing": "25MM:180, 32MM:100"
+      }
     },
     {
       "id": "prod_agri_tee_pn4_1792580759415",
-      "name": "AGRI TEE PN4",
       "uom": "NOS",
-      "categoryId": "cat_agri",
-      "categoryName": "Agriculture Pipes & Fittings",
-      "subcategoryId": null,
+      "name": "AGRI TEE PN4",
       "image": "/images/agri/AGRI TEE PN6.webp",
-      "description": "AGRI TEE PN4. Available sizes: 140MM, 160MM.",
-      "details": "AGRI TEE PN4 manufactured by Ganesh Gouri Industries.",
-      "specification": "",
-      "status": "Active",
       "sizes": [
         "140MM",
         "160MM"
       ],
-      "sizeProductCodes": {
-        "140MM": "FG-400593",
-        "160MM": "FG-400594"
-      },
+      "status": "Active",
+      "details": "AGRI TEE PN4 manufactured by Ganesh Gouri Industries.",
+      "packing": "140MM:6, 160MM:9",
       "packSizes": {
         "140MM": 6,
         "160MM": 9
       },
-      "packing": "140MM:6, 160MM:9"
+      "categoryId": "cat_agri",
+      "description": "AGRI TEE PN4. Available sizes: 140MM, 160MM.",
+      "categoryName": "Agriculture Pipes & Fittings",
+      "specification": "",
+      "subcategoryId": null,
+      "sizeProductCodes": {
+        "140MM": "FG-400593",
+        "160MM": "FG-400594"
+      }
     },
     {
       "id": "prod_agri_9",
@@ -5343,30 +5343,30 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "140MM:6, 160MM:9, 40MM:72, 50MM:40, 63MM:30, 75MM:60, 90MM:18, 110MM:24",
       "packSizes": {
-        "140MM": 6,
-        "160MM": 9,
         "40MM": 72,
         "50MM": 40,
         "63MM": 30,
         "75MM": 60,
         "90MM": 18,
-        "110MM": 24
+        "110MM": 24,
+        "140MM": 6,
+        "160MM": 9
       },
       "categoryId": "cat_agri",
       "description": "AGRI TEE PN6 for agriculture irrigation and piping systems.",
       "categoryName": "Agriculture Pipes & Fittings",
       "sizeProductCodes": {
-        "140MM": "FG-400607",
-        "160MM": "FG-400608",
         "40MM": "FG-400660",
         "50MM": "FG-400661",
         "63MM": "FG-400589",
         "75MM": "FG-400590",
         "90MM": "FG-400591",
-        "110MM": "FG-400592"
-      },
-      "packing": "140MM:6, 160MM:9, 40MM:72, 50MM:40, 63MM:30, 75MM:60, 90MM:18, 110MM:24"
+        "110MM": "FG-400592",
+        "140MM": "FG-400607",
+        "160MM": "FG-400608"
+      }
     },
     {
       "id": "prod_agri_18",
@@ -5378,6 +5378,7 @@
         "32MM"
       ],
       "status": "Active",
+      "packing": "25MM:180, 32MM:100",
       "packings": {
         "25MM": 180,
         "32MM": 100
@@ -5392,8 +5393,7 @@
       "sizeProductCodes": {
         "25MM": "FG-400679",
         "32MM": "FG-400680"
-      },
-      "packing": "25MM:180, 32MM:100"
+      }
     },
     {
       "id": "prod_household_8",
@@ -5447,22 +5447,22 @@
         "32MM 1 1/4"
       ],
       "status": "Active",
+      "packing": "15MM 1/2:1, 20MM 3/4:1, 25MM 1:1, 32MM 1 1/4:1",
       "packSizes": {
+        "25MM 1": 1,
         "15MM 1/2": 1,
         "20MM 3/4": 1,
-        "25MM 1": 1,
         "32MM 1 1/4": 1
       },
       "categoryId": "cat_garden",
       "description": "Reinforced Braided Garden Pipe.",
       "categoryName": "Garden, Braided & LDPE Pipes",
       "sizeProductCodes": {
+        "25MM 1": "FG-401346",
         "15MM 1/2": "FG-401344",
         "20MM 3/4": "FG-401345",
-        "25MM 1": "FG-401346",
         "32MM 1 1/4": "FG-401363"
-      },
-      "packing": "15MM 1/2:1, 20MM 3/4:1, 25MM 1:1, 32MM 1 1/4:1"
+      }
     },
     {
       "id": "prod_casing_2b",
@@ -5479,28 +5479,28 @@
         "200MM 8 Inch"
       ],
       "status": "Active",
-      "categoryId": "cat_casing",
-      "description": "CASING PIPE BLUE PLN CM-SCH-80-3M. Available sizes: 35MM 1 1/4 Inch, 50MM 2 Inch, 100MM 4 Inch, 125MM 5 Inch, 150MM 6 Inch, 175MM 7 Inch, 200MM 8 Inch.",
-      "categoryName": "UPVC CASING PIPES",
-      "sizeProductCodes": {
-        "35MM 1 1/4 Inch": "FG-401119",
-        "50MM 2 Inch": "FG-401121",
-        "100MM 4 Inch": "FG-401122",
-        "125MM 5 Inch": "FG-401123",
-        "150MM 6 Inch": "FG-401124",
-        "175MM 7 Inch": "FG-401125",
-        "200MM 8 Inch": "FG-401126"
-      },
+      "packing": "35MM 1 1/4 Inch:1, 50MM 2 Inch:1, 100MM 4 Inch:1, 125MM 5 Inch:1, 150MM 6 Inch:1, 175MM 7 Inch:1, 200MM 8 Inch:1",
       "packSizes": {
-        "35MM 1 1/4 Inch": 1,
         "50MM 2 Inch": 1,
         "100MM 4 Inch": 1,
         "125MM 5 Inch": 1,
         "150MM 6 Inch": 1,
         "175MM 7 Inch": 1,
-        "200MM 8 Inch": 1
+        "200MM 8 Inch": 1,
+        "35MM 1 1/4 Inch": 1
       },
-      "packing": "35MM 1 1/4 Inch:1, 50MM 2 Inch:1, 100MM 4 Inch:1, 125MM 5 Inch:1, 150MM 6 Inch:1, 175MM 7 Inch:1, 200MM 8 Inch:1"
+      "categoryId": "cat_casing",
+      "description": "CASING PIPE BLUE PLN CM-SCH-80-3M. Available sizes: 35MM 1 1/4 Inch, 50MM 2 Inch, 100MM 4 Inch, 125MM 5 Inch, 150MM 6 Inch, 175MM 7 Inch, 200MM 8 Inch.",
+      "categoryName": "UPVC CASING PIPES",
+      "sizeProductCodes": {
+        "50MM 2 Inch": "FG-401121",
+        "100MM 4 Inch": "FG-401122",
+        "125MM 5 Inch": "FG-401123",
+        "150MM 6 Inch": "FG-401124",
+        "175MM 7 Inch": "FG-401125",
+        "200MM 8 Inch": "FG-401126",
+        "35MM 1 1/4 Inch": "FG-401119"
+      }
     },
     {
       "id": "prod_casing_2",
@@ -5514,6 +5514,13 @@
         "200MM 8 Inch"
       ],
       "status": "Active",
+      "packing": "125MM 5 Inch:1, 150MM 6 Inch:1, 175MM 7 Inch:1, 200MM 8 Inch:1",
+      "packSizes": {
+        "125MM 5 Inch": 1,
+        "150MM 6 Inch": 1,
+        "175MM 7 Inch": 1,
+        "200MM 8 Inch": 1
+      },
       "categoryId": "cat_casing",
       "description": "CASING PIPE BLUE PLN CS-SCH-40-3M. Available sizes: 125MM 5 Inch, 150MM 6 Inch, 175MM 7 Inch, 200MM 8 Inch.",
       "categoryName": "UPVC CASING PIPES",
@@ -5522,14 +5529,7 @@
         "150MM 6 Inch": "FG-401079",
         "175MM 7 Inch": "FG-401080",
         "200MM 8 Inch": "FG-401081"
-      },
-      "packSizes": {
-        "125MM 5 Inch": 1,
-        "150MM 6 Inch": 1,
-        "175MM 7 Inch": 1,
-        "200MM 8 Inch": 1
-      },
-      "packing": "125MM 5 Inch:1, 150MM 6 Inch:1, 175MM 7 Inch:1, 200MM 8 Inch:1"
+      }
     },
     {
       "id": "prod_casing_1",
@@ -5547,30 +5547,30 @@
         "200MM 8 Inch"
       ],
       "status": "Active",
-      "categoryId": "cat_casing",
-      "description": "CASING PIPE BLUE THD CM-SCH-80-3M. Available sizes: 35MM 1 1/4 Inch, 40MM 1 1/2 Inch, 50MM 2 Inch, 100MM 4 Inch, 125MM 5 Inch, 150MM 6 Inch, 175MM 7 Inch, 200MM 8 Inch.",
-      "categoryName": "UPVC CASING PIPES",
-      "sizeProductCodes": {
-        "35MM 1 1/4 Inch": "FG-401066",
-        "40MM 1 1/2 Inch": "FG-401067",
-        "50MM 2 Inch": "FG-401068",
-        "100MM 4 Inch": "FG-401069",
-        "125MM 5 Inch": "FG-401070",
-        "150MM 6 Inch": "FG-401071",
-        "175MM 7 Inch": "FG-401072",
-        "200MM 8 Inch": "FG-401073"
-      },
+      "packing": "35MM 1 1/4 Inch:1, 40MM 1 1/2 Inch:1, 50MM 2 Inch:1, 100MM 4 Inch:1, 125MM 5 Inch:1, 150MM 6 Inch:1, 175MM 7 Inch:1, 200MM 8 Inch:1",
       "packSizes": {
-        "35MM 1 1/4 Inch": 1,
-        "40MM 1 1/2 Inch": 1,
         "50MM 2 Inch": 1,
         "100MM 4 Inch": 1,
         "125MM 5 Inch": 1,
         "150MM 6 Inch": 1,
         "175MM 7 Inch": 1,
-        "200MM 8 Inch": 1
+        "200MM 8 Inch": 1,
+        "35MM 1 1/4 Inch": 1,
+        "40MM 1 1/2 Inch": 1
       },
-      "packing": "35MM 1 1/4 Inch:1, 40MM 1 1/2 Inch:1, 50MM 2 Inch:1, 100MM 4 Inch:1, 125MM 5 Inch:1, 150MM 6 Inch:1, 175MM 7 Inch:1, 200MM 8 Inch:1"
+      "categoryId": "cat_casing",
+      "description": "CASING PIPE BLUE THD CM-SCH-80-3M. Available sizes: 35MM 1 1/4 Inch, 40MM 1 1/2 Inch, 50MM 2 Inch, 100MM 4 Inch, 125MM 5 Inch, 150MM 6 Inch, 175MM 7 Inch, 200MM 8 Inch.",
+      "categoryName": "UPVC CASING PIPES",
+      "sizeProductCodes": {
+        "50MM 2 Inch": "FG-401068",
+        "100MM 4 Inch": "FG-401069",
+        "125MM 5 Inch": "FG-401070",
+        "150MM 6 Inch": "FG-401071",
+        "175MM 7 Inch": "FG-401072",
+        "200MM 8 Inch": "FG-401073",
+        "35MM 1 1/4 Inch": "FG-401066",
+        "40MM 1 1/2 Inch": "FG-401067"
+      }
     },
     {
       "id": "prod_casing_1b",
@@ -5584,6 +5584,13 @@
         "200MM 8 Inch"
       ],
       "status": "Active",
+      "packing": "125MM 5 Inch:1, 150MM 6 Inch:1, 175MM 7 Inch:1, 200MM 8 Inch:1",
+      "packSizes": {
+        "125MM 5 Inch": 1,
+        "150MM 6 Inch": 1,
+        "175MM 7 Inch": 1,
+        "200MM 8 Inch": 1
+      },
       "categoryId": "cat_casing",
       "description": "CASING PIPE BLUE THD CS-SCH-40-3M. Available sizes: 125MM 5 Inch, 150MM 6 Inch, 175MM 7 Inch, 200MM 8 Inch.",
       "categoryName": "UPVC CASING PIPES",
@@ -5592,14 +5599,7 @@
         "150MM 6 Inch": "FG-401075",
         "175MM 7 Inch": "FG-401076",
         "200MM 8 Inch": "FG-401077"
-      },
-      "packSizes": {
-        "125MM 5 Inch": 1,
-        "150MM 6 Inch": 1,
-        "175MM 7 Inch": 1,
-        "200MM 8 Inch": 1
-      },
-      "packing": "125MM 5 Inch:1, 150MM 6 Inch:1, 175MM 7 Inch:1, 200MM 8 Inch:1"
+      }
     },
     {
       "id": "prod_casing_1c",
@@ -5610,16 +5610,16 @@
         "140MM 5 Inch"
       ],
       "status": "Active",
+      "packing": "140MM 5 Inch:1",
+      "packSizes": {
+        "140MM 5 Inch": 1
+      },
       "categoryId": "cat_casing",
       "description": "CASING PIPE BLUE THD CS-SCH-40-5M. Available sizes: 140MM 5 Inch.",
       "categoryName": "UPVC CASING PIPES",
       "sizeProductCodes": {
         "140MM 5 Inch": "FG-401149"
-      },
-      "packSizes": {
-        "140MM 5 Inch": 1
-      },
-      "packing": "140MM 5 Inch:1"
+      }
     },
     {
       "id": "prod_casing_1d",
@@ -5630,16 +5630,16 @@
         "140MM 5 Inch"
       ],
       "status": "Active",
+      "packing": "140MM 5 Inch:1",
+      "packSizes": {
+        "140MM 5 Inch": 1
+      },
       "categoryId": "cat_casing",
       "description": "CASING PIPE BLUE THD CS-SCH-80-5M. Available sizes: 140MM 5 Inch.",
       "categoryName": "UPVC CASING PIPES",
       "sizeProductCodes": {
         "140MM 5 Inch": "FG-401150"
-      },
-      "packSizes": {
-        "140MM 5 Inch": 1
-      },
-      "packing": "140MM 5 Inch:1"
+      }
     },
     {
       "id": "prod_sanitary_2",
@@ -5678,28 +5678,28 @@
         "60MM 12.5KG COUPLER TYPE"
       ],
       "status": "Active",
+      "packing": "33MM 12.5KG COUPLER TYPE:30, 33MM 12.5KG BELL END TYPE:30, 42MM 10KG COUPLER TYPE:25, 42MM 12.5KG COUPLER TYPE:25, 42MM 12.5KG BELL END TYPE:25, 48MM 12.5KG COUPLER TYPE:20, 60MM 12.5KG COUPLER TYPE:12",
       "packSizes": {
-        "33MM 12.5KG COUPLER TYPE": 30,
-        "33MM 12.5KG BELL END TYPE": 30,
         "42MM 10KG COUPLER TYPE": 25,
+        "33MM 12.5KG COUPLER TYPE": 30,
         "42MM 12.5KG COUPLER TYPE": 25,
-        "42MM 12.5KG BELL END TYPE": 25,
         "48MM 12.5KG COUPLER TYPE": 20,
-        "60MM 12.5KG COUPLER TYPE": 12
+        "60MM 12.5KG COUPLER TYPE": 12,
+        "33MM 12.5KG BELL END TYPE": 30,
+        "42MM 12.5KG BELL END TYPE": 25
       },
       "categoryId": "cat_column",
       "description": "COLOUMN PIPE ECO V4 for submersible pump systems.",
       "categoryName": "UPVC COLUMN PIPES",
       "sizeProductCodes": {
-        "33MM 12.5KG COUPLER TYPE": "FG-401166",
-        "33MM 12.5KG BELL END TYPE": "FG-401162",
         "42MM 10KG COUPLER TYPE": "FG-401165",
+        "33MM 12.5KG COUPLER TYPE": "FG-401166",
         "42MM 12.5KG COUPLER TYPE": "FG-401167",
-        "42MM 12.5KG BELL END TYPE": "FG-401163",
         "48MM 12.5KG COUPLER TYPE": "FG-401164",
-        "60MM 12.5KG COUPLER TYPE": "FG-401168"
-      },
-      "packing": "33MM 12.5KG COUPLER TYPE:30, 33MM 12.5KG BELL END TYPE:30, 42MM 10KG COUPLER TYPE:25, 42MM 12.5KG COUPLER TYPE:25, 42MM 12.5KG BELL END TYPE:25, 48MM 12.5KG COUPLER TYPE:20, 60MM 12.5KG COUPLER TYPE:12"
+        "60MM 12.5KG COUPLER TYPE": "FG-401168",
+        "33MM 12.5KG BELL END TYPE": "FG-401162",
+        "42MM 12.5KG BELL END TYPE": "FG-401163"
+      }
     },
     {
       "id": "prod_column_5",
@@ -5712,6 +5712,7 @@
         "60MM 30KG COUPLER TYPE"
       ],
       "status": "Active",
+      "packing": "42MM 30KG COUPLER TYPE:25, 48MM 30KG COUPLER TYPE:20, 60MM 30KG COUPLER TYPE:12",
       "packSizes": {
         "42MM 30KG COUPLER TYPE": 25,
         "48MM 30KG COUPLER TYPE": 20,
@@ -5724,8 +5725,7 @@
         "42MM 30KG COUPLER TYPE": "FG-401182",
         "48MM 30KG COUPLER TYPE": "FG-401181",
         "60MM 30KG COUPLER TYPE": "FG-401183"
-      },
-      "packing": "42MM 30KG COUPLER TYPE:25, 48MM 30KG COUPLER TYPE:20, 60MM 30KG COUPLER TYPE:12"
+      }
     },
     {
       "id": "prod_column_2",
@@ -5740,6 +5740,7 @@
         "75MM 10KG COUPLER TYPE"
       ],
       "status": "Active",
+      "packing": "33MM 18KG COUPLER TYPE:30, 42MM 18KG COUPLER TYPE:25, 48MM 18KG COUPLER TYPE:20, 60MM 15KG COUPLER TYPE:12, 75MM 10KG COUPLER TYPE:10",
       "packSizes": {
         "33MM 18KG COUPLER TYPE": 30,
         "42MM 18KG COUPLER TYPE": 25,
@@ -5756,8 +5757,7 @@
         "48MM 18KG COUPLER TYPE": "FG-401176",
         "60MM 15KG COUPLER TYPE": "FG-401178",
         "75MM 10KG COUPLER TYPE": "FG-401180"
-      },
-      "packing": "33MM 18KG COUPLER TYPE:30, 42MM 18KG COUPLER TYPE:25, 48MM 18KG COUPLER TYPE:20, 60MM 15KG COUPLER TYPE:12, 75MM 10KG COUPLER TYPE:10"
+      }
     },
     {
       "id": "prod_column_6",
@@ -5768,6 +5768,7 @@
         "60MM 18KG COUPLER TYPE"
       ],
       "status": "Active",
+      "packing": "60MM 18KG COUPLER TYPE:12",
       "packSizes": {
         "60MM 18KG COUPLER TYPE": 12
       },
@@ -5776,8 +5777,7 @@
       "categoryName": "UPVC COLUMN PIPES",
       "sizeProductCodes": {
         "60MM 18KG COUPLER TYPE": "FG-401179"
-      },
-      "packing": "60MM 18KG COUPLER TYPE:12"
+      }
     },
     {
       "id": "prod_column_3",
@@ -5792,6 +5792,7 @@
         "75MM 20KG COUPLER TYPE"
       ],
       "status": "Active",
+      "packing": "33MM 25KG COUPLER TYPE:30, 42MM 25KG COUPLER TYPE:25, 48MM 25KG COUPLER TYPE:20, 60MM 20KG COUPLER TYPE:12, 75MM 20KG COUPLER TYPE:10",
       "packSizes": {
         "33MM 25KG COUPLER TYPE": 30,
         "42MM 25KG COUPLER TYPE": 25,
@@ -5808,8 +5809,7 @@
         "48MM 25KG COUPLER TYPE": "FG-401170",
         "60MM 20KG COUPLER TYPE": "FG-401172",
         "75MM 20KG COUPLER TYPE": "FG-401174"
-      },
-      "packing": "33MM 25KG COUPLER TYPE:30, 42MM 25KG COUPLER TYPE:25, 48MM 25KG COUPLER TYPE:20, 60MM 20KG COUPLER TYPE:12, 75MM 20KG COUPLER TYPE:10"
+      }
     },
     {
       "id": "prod_column_4",
@@ -5820,6 +5820,7 @@
         "60MM 2 Inch 25KG COUPLER TYPE"
       ],
       "status": "Active",
+      "packing": "60MM 2 Inch 25KG COUPLER TYPE:12",
       "packings": {
         "60MM 2 Inch 25KG COUPLER TYPE": 12
       },
@@ -5831,8 +5832,7 @@
       "categoryName": "UPVC COLUMN PIPES",
       "sizeProductCodes": {
         "60MM 2 Inch 25KG COUPLER TYPE": "FG-401173"
-      },
-      "packing": "60MM 2 Inch 25KG COUPLER TYPE:12"
+      }
     },
     {
       "id": "prod_household_1",
@@ -5865,6 +5865,12 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:N/A, 90MM:N/A, 110MM:N/A",
+      "packSizes": {
+        "75MM": "N/A",
+        "90MM": "N/A",
+        "110MM": "N/A"
+      },
       "categoryId": "cat_agri",
       "description": "COUPLER (LW) for agriculture irrigation and piping systems.",
       "categoryName": "Agriculture Pipes & Fittings",
@@ -5872,13 +5878,7 @@
         "75MM": "FG-400778",
         "90MM": "FG-400723",
         "110MM": "FG-400777"
-      },
-      "packSizes": {
-        "75MM": "N/A",
-        "90MM": "N/A",
-        "110MM": "N/A"
-      },
-      "packing": "75MM:N/A, 90MM:N/A, 110MM:N/A"
+      }
     },
     {
       "id": "prod_cpvc_25",
@@ -5889,6 +5889,7 @@
         "3/4 X 1/2"
       ],
       "status": "Active",
+      "packing": "3/4 X 1/2:30",
       "packSizes": {
         "3/4 X 1/2": 30
       },
@@ -5897,8 +5898,7 @@
       "categoryName": "CPVC Pipes & Fittings",
       "sizeProductCodes": {
         "3/4 X 1/2": "N/A"
-      },
-      "packing": "3/4 X 1/2:30"
+      }
     },
     {
       "id": "prod_cpvc_26",
@@ -5909,6 +5909,7 @@
         "3/4 X 1/2"
       ],
       "status": "Active",
+      "packing": "3/4 X 1/2:40",
       "packSizes": {
         "3/4 X 1/2": 40
       },
@@ -5917,8 +5918,7 @@
       "categoryName": "CPVC Pipes & Fittings",
       "sizeProductCodes": {
         "3/4 X 1/2": "FG-401623"
-      },
-      "packing": "3/4 X 1/2:40"
+      }
     },
     {
       "id": "prod_cpvc_39",
@@ -5934,13 +5934,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "3/4:40, 1:30, 1 1/4:20, 1 1/2:14, 2:10",
       "createdAt": "2026-08-08T05:32:11.636Z",
       "packSizes": {
         "1": 30,
         "2": 10,
         "3/4": 40,
-        "1 1/4": 20,
-        "1 1/2": 14
+        "1 1/2": 14,
+        "1 1/4": 20
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC BALL VALVE (LONG HANDLE). Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -5948,10 +5949,9 @@
         "1": "FG-400448",
         "2": "FG-400451",
         "3/4": "FG-400447",
-        "1 1/4": "FG-400449",
-        "1 1/2": "FG-400450"
-      },
-      "packing": "3/4:40, 1:30, 1 1/4:20, 1 1/2:14, 2:10"
+        "1 1/2": "FG-400450",
+        "1 1/4": "FG-400449"
+      }
     },
     {
       "id": "prod_cpvc_14",
@@ -5966,12 +5966,13 @@
         "2"
       ],
       "status": "Active",
+      "packing": "3/4:200, 1:100, 1 1/4:80, 1 1/2:40, 2:30",
       "packSizes": {
         "1": 100,
         "2": 30,
         "3/4": 200,
-        "1 1/4": 80,
-        "1 1/2": 40
+        "1 1/2": 40,
+        "1 1/4": 80
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC BRASS FTA. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -5980,10 +5981,9 @@
         "1": "FG-400436",
         "2": "FG-400470",
         "3/4": "FG-400435",
-        "1 1/4": "FG-400468",
-        "1 1/2": "FG-400469"
-      },
-      "packing": "3/4:200, 1:100, 1 1/4:80, 1 1/2:40, 2:30"
+        "1 1/2": "FG-400469",
+        "1 1/4": "FG-400468"
+      }
     },
     {
       "id": "prod_cpvc_17",
@@ -5998,12 +5998,13 @@
         "2"
       ],
       "status": "Active",
+      "packing": "3/4:140, 1:80, 1 1/4:60, 1 1/2:40, 2:22",
       "packSizes": {
         "1": 80,
         "2": 22,
         "3/4": 140,
-        "1 1/4": 60,
-        "1 1/2": 40
+        "1 1/2": 40,
+        "1 1/4": 60
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC BRASS MTA. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -6012,10 +6013,9 @@
         "1": "FG-400417",
         "2": "FG-400467",
         "3/4": "FG-400416",
-        "1 1/4": "FG-400535",
-        "1 1/2": "FG-400466"
-      },
-      "packing": "3/4:140, 1:80, 1 1/4:60, 1 1/2:40, 2:22"
+        "1 1/2": "FG-400466",
+        "1 1/4": "FG-400535"
+      }
     },
     {
       "id": "prod_cpvc_34",
@@ -6027,6 +6027,7 @@
         "1"
       ],
       "status": "Active",
+      "packing": "3/4:120, 1:60",
       "packSizes": {
         "1": 60,
         "3/4": 120
@@ -6037,8 +6038,7 @@
       "sizeProductCodes": {
         "1": "FG-400488",
         "3/4": "FG-400487"
-      },
-      "packing": "3/4:120, 1:60"
+      }
     },
     {
       "id": "prod_cpvc_23",
@@ -6050,6 +6050,7 @@
         "1"
       ],
       "status": "Active",
+      "packing": "3/4:20, 1:20",
       "packSizes": {
         "1": 20,
         "3/4": 20
@@ -6060,8 +6061,7 @@
       "sizeProductCodes": {
         "1": "FG-400460",
         "3/4": "FG-400463"
-      },
-      "packing": "3/4:20, 1:20"
+      }
     },
     {
       "id": "prod_cpvc_22",
@@ -6073,6 +6073,7 @@
         "1"
       ],
       "status": "Active",
+      "packing": "3/4:20, 1:20",
       "packSizes": {
         "1": 20,
         "3/4": 20
@@ -6083,8 +6084,7 @@
       "sizeProductCodes": {
         "1": "FG-400465",
         "3/4": "FG-400464"
-      },
-      "packing": "3/4:20, 1:20"
+      }
     },
     {
       "id": "prod_cpvc_5",
@@ -6099,12 +6099,13 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1 1/4:80, 3/4:300, 1:160, 1 1/2:60, 2:30",
       "packSizes": {
         "1": 160,
         "2": 30,
-        "1 1/4": 80,
         "3/4": 300,
-        "1 1/2": 60
+        "1 1/2": 60,
+        "1 1/4": 80
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC COUPLER. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -6112,11 +6113,10 @@
       "sizeProductCodes": {
         "1": "FG-400408",
         "2": "FG-400483",
-        "1 1/4": "FG-400409",
         "3/4": "FG-400407",
-        "1 1/2": "FG-400482"
-      },
-      "packing": "1 1/4:80, 3/4:300, 1:160, 1 1/2:60, 2:30"
+        "1 1/2": "FG-400482",
+        "1 1/4": "FG-400409"
+      }
     },
     {
       "id": "prod_cpvc_15",
@@ -6129,6 +6129,7 @@
         "1 1/4"
       ],
       "status": "Active",
+      "packing": "3/4:100, 1:60, 1 1/4:30",
       "packSizes": {
         "1": 60,
         "3/4": 100,
@@ -6141,8 +6142,7 @@
         "1": "FG-400520",
         "3/4": "FG-400519",
         "1 1/4": "FG-400530"
-      },
-      "packing": "3/4:100, 1:60, 1 1/4:30"
+      }
     },
     {
       "id": "prod_cpvc_8",
@@ -6157,12 +6157,13 @@
         "2"
       ],
       "status": "Active",
+      "packing": "3/4:200, 1:100, 1 1/4:60, 1 1/2:40, 2:16",
       "packSizes": {
         "1": 100,
         "2": 16,
         "3/4": 200,
-        "1 1/4": 60,
-        "1 1/2": 40
+        "1 1/2": 40,
+        "1 1/4": 60
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC ELBOW 90. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -6171,10 +6172,9 @@
         "1": "FG-400404",
         "2": "FG-400479",
         "3/4": "FG-400403",
-        "1 1/4": "FG-400477",
-        "1 1/2": "FG-401661"
-      },
-      "packing": "3/4:200, 1:100, 1 1/4:60, 1 1/2:40, 2:16"
+        "1 1/2": "FG-401661",
+        "1 1/4": "FG-400477"
+      }
     },
     {
       "id": "prod_cpvc_6",
@@ -6189,12 +6189,13 @@
         "2"
       ],
       "status": "Active",
+      "packing": "3/4:600, 1:320, 1 1/4:160, 1 1/2:100, 2:40",
       "packSizes": {
         "1": 320,
         "2": 40,
         "3/4": 600,
-        "1 1/4": 160,
-        "1 1/2": 100
+        "1 1/2": 100,
+        "1 1/4": 160
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC END CAP. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -6203,10 +6204,9 @@
         "1": "FG-400427",
         "2": "FG-400504",
         "3/4": "FG-400426",
-        "1 1/4": "FG-400428",
-        "1 1/2": "FG-401700"
-      },
-      "packing": "3/4:600, 1:320, 1 1/4:160, 1 1/2:100, 2:40"
+        "1 1/2": "FG-401700",
+        "1 1/4": "FG-400428"
+      }
     },
     {
       "id": "prod_cpvc_24",
@@ -6217,6 +6217,7 @@
         "1/2"
       ],
       "status": "Active",
+      "packing": "1/2:300",
       "packSizes": {
         "1/2": 300
       },
@@ -6225,8 +6226,7 @@
       "categoryName": "CPVC Pipes & Fittings",
       "sizeProductCodes": {
         "1/2": "FG-400462"
-      },
-      "packing": "1/2:300"
+      }
     },
     {
       "id": "prod_cpvc_11",
@@ -6241,12 +6241,13 @@
         "2"
       ],
       "status": "Active",
+      "packing": "3/4:320, 1:120, 1 1/4:80, 1 1/2:50, 2:30",
       "packSizes": {
         "1": 120,
         "2": 30,
         "3/4": 320,
-        "1 1/4": 80,
-        "1 1/2": 50
+        "1 1/2": 50,
+        "1 1/4": 80
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC FTA. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -6255,10 +6256,9 @@
         "1": "FG-400424",
         "2": "FG-400503",
         "3/4": "FG-400423",
-        "1 1/4": "FG-400425",
-        "1 1/2": "FG-400502"
-      },
-      "packing": "3/4:320, 1:120, 1 1/4:80, 1 1/2:50, 2:30"
+        "1 1/2": "FG-400502",
+        "1 1/4": "FG-400425"
+      }
     },
     {
       "id": "prod_cpvc_7",
@@ -6273,12 +6273,13 @@
         "2"
       ],
       "status": "Active",
+      "packing": "3/4:800, 1:500, 1 1/4:500, 1 1/2:300, 2:300",
       "packSizes": {
         "1": 500,
         "2": 300,
         "3/4": 800,
-        "1 1/4": 500,
-        "1 1/2": 300
+        "1 1/2": 300,
+        "1 1/4": 500
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC METAL CLAMP. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -6287,10 +6288,9 @@
         "1": "FG-400454",
         "2": "FG-400457",
         "3/4": "FG-400453",
-        "1 1/4": "FG-400455",
-        "1 1/2": "FG-400456"
-      },
-      "packing": "3/4:800, 1:500, 1 1/4:500, 1 1/2:300, 2:300"
+        "1 1/2": "FG-400456",
+        "1 1/4": "FG-400455"
+      }
     },
     {
       "id": "prod_cpvc_9",
@@ -6305,12 +6305,13 @@
         "2"
       ],
       "status": "Active",
+      "packing": "3/4:270, 1:200, 1 1/4:100, 1 1/2:80, 2:30",
       "packSizes": {
         "1": 200,
         "2": 30,
         "3/4": 270,
-        "1 1/4": 100,
-        "1 1/2": 80
+        "1 1/2": 80,
+        "1 1/4": 100
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC MTA. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -6319,10 +6320,9 @@
         "1": "FG-400421",
         "2": "FG-400501",
         "3/4": "FG-400420",
-        "1 1/4": "FG-400422",
-        "1 1/2": "FG-400500"
-      },
-      "packing": "3/4:270, 1:200, 1 1/4:100, 1 1/2:80, 2:30"
+        "1 1/2": "FG-400500",
+        "1 1/4": "FG-400422"
+      }
     },
     {
       "id": "prod_cpvc_12",
@@ -6337,12 +6337,13 @@
         "2"
       ],
       "status": "Active",
+      "packing": "3/4:1000, 1:600, 1 1/4:500, 1 1/2:300, 2:150",
       "packSizes": {
         "1": 600,
         "2": 150,
         "3/4": 1000,
-        "1 1/4": 500,
-        "1 1/2": 300
+        "1 1/2": 300,
+        "1 1/4": 500
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC NAIL CLAMP. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -6351,10 +6352,9 @@
         "1": "FG-400473",
         "2": "FG-400541",
         "3/4": "FG-400538",
-        "1 1/4": "FG-400539",
-        "1 1/2": "FG-400540"
-      },
-      "packing": "3/4:1000, 1:600, 1 1/4:500, 1 1/2:300, 2:150"
+        "1 1/2": "FG-400540",
+        "1 1/4": "FG-400539"
+      }
     },
     {
       "id": "prod_cpvc_33",
@@ -6367,6 +6367,7 @@
         "1 1/4"
       ],
       "status": "Active",
+      "packing": "3/4:24, 1:24, 1 1/4:24",
       "packSizes": {
         "1": 24,
         "3/4": 24,
@@ -6379,8 +6380,7 @@
         "1": "FG-400475",
         "3/4": "FG-400474",
         "1 1/4": "FG-400476"
-      },
-      "packing": "3/4:24, 1:24, 1 1/4:24"
+      }
     },
     {
       "id": "prod_cpvc_4",
@@ -6396,26 +6396,26 @@
         "4\" - 5MTR"
       ],
       "status": "Active",
+      "packing": "2 1/2\" - 3MTR:5, 2 1/2\" - 5MTR:5, 3\" - 3MTR:4, 3\" - 5MTR:4, 4\" - 3MTR:2, 4\" - 5MTR:2",
       "packSizes": {
-        "2 1/2\" - 3MTR": 5,
-        "2 1/2\" - 5MTR": 5,
         "3\" - 3MTR": 4,
         "3\" - 5MTR": 4,
         "4\" - 3MTR": 2,
-        "4\" - 5MTR": 2
+        "4\" - 5MTR": 2,
+        "2 1/2\" - 3MTR": 5,
+        "2 1/2\" - 5MTR": 5
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC PIPES (SCH-40). Available in 3MTR and 5MTR lengths. Sizes: 2 1/2\", 3\", 4\".",
       "categoryName": "CPVC Pipes & Fittings",
       "sizeProductCodes": {
-        "2 1/2\" - 3MTR": "FG-400933",
-        "2 1/2\" - 5MTR": "FG-400936",
         "3\" - 3MTR": "FG-400934",
         "3\" - 5MTR": "FG-400937",
         "4\" - 3MTR": "FG-400935",
-        "4\" - 5MTR": "FG-400938"
-      },
-      "packing": "2 1/2\" - 3MTR:5, 2 1/2\" - 5MTR:5, 3\" - 3MTR:4, 3\" - 5MTR:4, 4\" - 3MTR:2, 4\" - 5MTR:2"
+        "4\" - 5MTR": "FG-400938",
+        "2 1/2\" - 3MTR": "FG-400933",
+        "2 1/2\" - 5MTR": "FG-400936"
+      }
     },
     {
       "id": "prod_cpvc_3",
@@ -6431,26 +6431,26 @@
         "4\" - 5MTR"
       ],
       "status": "Active",
+      "packing": "2 1/2\" - 3MTR:5, 2 1/2\" - 5MTR:5, 3\" - 3MTR:4, 3\" - 5MTR:4, 4\" - 3MTR:2, 4\" - 5MTR:2",
       "packSizes": {
-        "2 1/2\" - 3MTR": 5,
-        "2 1/2\" - 5MTR": 5,
         "3\" - 3MTR": 4,
         "3\" - 5MTR": 4,
         "4\" - 3MTR": 2,
-        "4\" - 5MTR": 2
+        "4\" - 5MTR": 2,
+        "2 1/2\" - 3MTR": 5,
+        "2 1/2\" - 5MTR": 5
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC PIPES (SCH-80). Available in 3MTR and 5MTR lengths. Sizes: 2 1/2\", 3\", 4\".",
       "categoryName": "CPVC Pipes & Fittings",
       "sizeProductCodes": {
-        "2 1/2\" - 3MTR": "FG-400939",
-        "2 1/2\" - 5MTR": "FG-400942",
         "3\" - 3MTR": "FG-400940",
         "3\" - 5MTR": "FG-400943",
         "4\" - 3MTR": "FG-400941",
-        "4\" - 5MTR": "FG-400944"
-      },
-      "packing": "2 1/2\" - 3MTR:5, 2 1/2\" - 5MTR:5, 3\" - 3MTR:4, 3\" - 5MTR:4, 4\" - 3MTR:2, 4\" - 5MTR:2"
+        "4\" - 5MTR": "FG-400944",
+        "2 1/2\" - 3MTR": "FG-400939",
+        "2 1/2\" - 5MTR": "FG-400942"
+      }
     },
     {
       "id": "prod_cpvc_2",
@@ -6472,38 +6472,38 @@
         "2\" - 5MTR"
       ],
       "status": "Active",
+      "packing": "1/2\" - 3MTR:50, 1/2\" - 5MTR:50, 3/4\" - 3MTR:50, 3/4\" - 5MTR:50, 1\" - 3MTR:25, 1\" - 5MTR:25, 1 1/4\" - 3MTR:20, 1 1/4\" - 5MTR:20, 1 1/2\" - 3MTR:10, 1 1/2\" - 5MTR:10, 2\" - 3MTR:10, 2\" - 5MTR:10",
       "packSizes": {
+        "1\" - 3MTR": 25,
+        "1\" - 5MTR": 25,
+        "2\" - 3MTR": 10,
+        "2\" - 5MTR": 10,
         "1/2\" - 3MTR": 50,
         "1/2\" - 5MTR": 50,
         "3/4\" - 3MTR": 50,
         "3/4\" - 5MTR": 50,
-        "1\" - 3MTR": 25,
-        "1\" - 5MTR": 25,
-        "1 1/4\" - 3MTR": 20,
-        "1 1/4\" - 5MTR": 20,
         "1 1/2\" - 3MTR": 10,
         "1 1/2\" - 5MTR": 10,
-        "2\" - 3MTR": 10,
-        "2\" - 5MTR": 10
+        "1 1/4\" - 3MTR": 20,
+        "1 1/4\" - 5MTR": 20
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC PIPES (SDR 11) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\".",
       "categoryName": "CPVC Pipes & Fittings",
       "sizeProductCodes": {
+        "1\" - 3MTR": "FG-400911",
+        "1\" - 5MTR": "FG-400917",
+        "2\" - 3MTR": "FG-400914",
+        "2\" - 5MTR": "FG-400920",
         "1/2\" - 3MTR": "FG-400909",
         "1/2\" - 5MTR": "FG-400915",
         "3/4\" - 3MTR": "FG-400910",
         "3/4\" - 5MTR": "FG-400916",
-        "1\" - 3MTR": "FG-400911",
-        "1\" - 5MTR": "FG-400917",
-        "1 1/4\" - 3MTR": "FG-400912",
-        "1 1/4\" - 5MTR": "FG-400918",
         "1 1/2\" - 3MTR": "FG-400913",
         "1 1/2\" - 5MTR": "FG-400919",
-        "2\" - 3MTR": "FG-400914",
-        "2\" - 5MTR": "FG-400920"
-      },
-      "packing": "1/2\" - 3MTR:50, 1/2\" - 5MTR:50, 3/4\" - 3MTR:50, 3/4\" - 5MTR:50, 1\" - 3MTR:25, 1\" - 5MTR:25, 1 1/4\" - 3MTR:20, 1 1/4\" - 5MTR:20, 1 1/2\" - 3MTR:10, 1 1/2\" - 5MTR:10, 2\" - 3MTR:10, 2\" - 5MTR:10"
+        "1 1/4\" - 3MTR": "FG-400912",
+        "1 1/4\" - 5MTR": "FG-400918"
+      }
     },
     {
       "id": "prod_cpvc_1",
@@ -6525,38 +6525,38 @@
         "2\" - 5MTR"
       ],
       "status": "Active",
+      "packing": "1/2\" - 3MTR:50, 1/2\" - 5MTR:50, 3/4\" - 3MTR:50, 3/4\" - 5MTR:50, 1\" - 3MTR:25, 1\" - 5MTR:25, 1 1/4\" - 3MTR:20, 1 1/4\" - 5MTR:20, 1 1/2\" - 3MTR:10, 1 1/2\" - 5MTR:10, 2\" - 3MTR:10, 2\" - 5MTR:10",
       "packSizes": {
+        "1\" - 3MTR": 25,
+        "1\" - 5MTR": 25,
+        "2\" - 3MTR": 10,
+        "2\" - 5MTR": 10,
         "1/2\" - 3MTR": 50,
         "1/2\" - 5MTR": 50,
         "3/4\" - 3MTR": 50,
         "3/4\" - 5MTR": 50,
-        "1\" - 3MTR": 25,
-        "1\" - 5MTR": 25,
-        "1 1/4\" - 3MTR": 20,
-        "1 1/4\" - 5MTR": 20,
         "1 1/2\" - 3MTR": 10,
         "1 1/2\" - 5MTR": 10,
-        "2\" - 3MTR": 10,
-        "2\" - 5MTR": 10
+        "1 1/4\" - 3MTR": 20,
+        "1 1/4\" - 5MTR": 20
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC PIPES (SDR 13.5) ISI. Available in 3MTR and 5MTR lengths. Sizes: 1/2\", 3/4\", 1\", 1 1/4\", 1 1/2\", 2\".",
       "categoryName": "CPVC Pipes & Fittings",
       "sizeProductCodes": {
+        "1\" - 3MTR": "FG-400923",
+        "1\" - 5MTR": "FG-400929",
+        "2\" - 3MTR": "FG-400926",
+        "2\" - 5MTR": "FG-400932",
         "1/2\" - 3MTR": "FG-400921",
         "1/2\" - 5MTR": "FG-400927",
         "3/4\" - 3MTR": "FG-400922",
         "3/4\" - 5MTR": "FG-400928",
-        "1\" - 3MTR": "FG-400923",
-        "1\" - 5MTR": "FG-400929",
-        "1 1/4\" - 3MTR": "FG-400924",
-        "1 1/4\" - 5MTR": "FG-400930",
         "1 1/2\" - 3MTR": "FG-400925",
         "1 1/2\" - 5MTR": "FG-400931",
-        "2\" - 3MTR": "FG-400926",
-        "2\" - 5MTR": "FG-400932"
-      },
-      "packing": "1/2\" - 3MTR:50, 1/2\" - 5MTR:50, 3/4\" - 3MTR:50, 3/4\" - 5MTR:50, 1\" - 3MTR:25, 1\" - 5MTR:25, 1 1/4\" - 3MTR:20, 1 1/4\" - 5MTR:20, 1 1/2\" - 3MTR:10, 1 1/2\" - 5MTR:10, 2\" - 3MTR:10, 2\" - 5MTR:10"
+        "1 1/4\" - 3MTR": "FG-400924",
+        "1 1/4\" - 5MTR": "FG-400930"
+      }
     },
     {
       "id": "prod_cpvc_29",
@@ -6568,18 +6568,18 @@
         "1 X 1/2"
       ],
       "status": "Active",
+      "packing": "3/4 X 1/2:240, 1 X 1/2:200",
       "packSizes": {
-        "3/4 X 1/2": 240,
-        "1 X 1/2": 200
+        "1 X 1/2": 200,
+        "3/4 X 1/2": 240
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC REDUCER BRASS FTA. Available sizes: 3/4 X 1/2, 1 X 1/2.",
       "categoryName": "CPVC Pipes & Fittings",
       "sizeProductCodes": {
-        "3/4 X 1/2": "FG-400437",
-        "1 X 1/2": "FG-400438"
-      },
-      "packing": "3/4 X 1/2:240, 1 X 1/2:200"
+        "1 X 1/2": "FG-400438",
+        "3/4 X 1/2": "FG-400437"
+      }
     },
     {
       "id": "prod_cpvc_28",
@@ -6591,18 +6591,18 @@
         "1 X 1/2"
       ],
       "status": "Active",
+      "packing": "3/4 X 1/2:200, 1 X 1/2:160",
       "packSizes": {
-        "3/4 X 1/2": 200,
-        "1 X 1/2": 160
+        "1 X 1/2": 160,
+        "3/4 X 1/2": 200
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC REDUCER BRASS MTA. Available sizes: 3/4 X 1/2, 1 X 1/2.",
       "categoryName": "CPVC Pipes & Fittings",
       "sizeProductCodes": {
-        "3/4 X 1/2": "FG-400418",
-        "1 X 1/2": "FG-400419"
-      },
-      "packing": "3/4 X 1/2:200, 1 X 1/2:160"
+        "1 X 1/2": "FG-400419",
+        "3/4 X 1/2": "FG-400418"
+      }
     },
     {
       "id": "prod_cpvc_30",
@@ -6614,18 +6614,18 @@
         "1 X 1/2"
       ],
       "status": "Active",
+      "packing": "3/4 X 1/2:120, 1 X 1/2:80",
       "packSizes": {
-        "3/4 X 1/2": 120,
-        "1 X 1/2": 80
+        "1 X 1/2": 80,
+        "3/4 X 1/2": 120
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC REDUCER BRASS TEE. Available sizes: 3/4 X 1/2, 1 X 1/2, 1 X 3/4.",
       "categoryName": "CPVC Pipes & Fittings",
       "sizeProductCodes": {
-        "3/4 X 1/2": "FG-400415",
-        "1 X 1/2": "FG-400489"
-      },
-      "packing": "3/4 X 1/2:120, 1 X 1/2:80"
+        "1 X 1/2": "FG-400489",
+        "3/4 X 1/2": "FG-400415"
+      }
     },
     {
       "id": "prod_cpvc_38",
@@ -6642,28 +6642,28 @@
         "2 X 1 1/2"
       ],
       "status": "Active",
+      "packing": "1 X 3/4:400, 1 1/4 X 1:240, 1 1/2 X 3/4:160, 1 1/2 X 1:140, 1 1/2 X 1 1/4:160, 2 X 1 1/4:80, 2 X 1 1/2:80",
       "packSizes": {
         "1 X 3/4": 400,
-        "1 1/4 X 1": 240,
-        "1 1/2 X 3/4": 160,
         "1 1/2 X 1": 140,
-        "1 1/2 X 1 1/4": 160,
+        "1 1/4 X 1": 240,
+        "2 X 1 1/2": 80,
         "2 X 1 1/4": 80,
-        "2 X 1 1/2": 80
+        "1 1/2 X 3/4": 160,
+        "1 1/2 X 1 1/4": 160
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC REDUCER BUSH. Available sizes: 1 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
       "categoryName": "CPVC Pipes & Fittings",
       "sizeProductCodes": {
         "1 X 3/4": "FG-400441",
-        "1 1/4 X 1": "FG-400442",
-        "1 1/2 X 3/4": "FG-400521",
         "1 1/2 X 1": "FG-400443",
-        "1 1/2 X 1 1/4": "FG-400444",
+        "1 1/4 X 1": "FG-400442",
+        "2 X 1 1/2": "FG-400523",
         "2 X 1 1/4": "FG-400522",
-        "2 X 1 1/2": "FG-400523"
-      },
-      "packing": "1 X 3/4:400, 1 1/4 X 1:240, 1 1/2 X 3/4:160, 1 1/2 X 1:140, 1 1/2 X 1 1/4:160, 2 X 1 1/4:80, 2 X 1 1/2:80"
+        "1 1/2 X 3/4": "FG-400521",
+        "1 1/2 X 1 1/4": "FG-400444"
+      }
     },
     {
       "id": "prod_cpvc_36",
@@ -6684,36 +6684,36 @@
         "2 X 1 1/2"
       ],
       "status": "Active",
+      "packing": "3/4 X 1/2:400, 1 X 3/4:200, 1 1/4 X 3/4:140, 1 1/4 X 1:120, 1 1/2 X 3/4:100, 1 1/2 X 1:80, 1 1/2 X 1 1/4:80, 2 X 3/4:60, 2 X 1:50, 2 X 1 1/4:40, 2 X 1 1/2:40",
       "packSizes": {
-        "3/4 X 1/2": 400,
-        "1 X 3/4": 200,
-        "1 1/4 X 3/4": 140,
-        "1 1/4 X 1": 120,
-        "1 1/2 X 3/4": 100,
-        "1 1/2 X 1": 80,
-        "1 1/2 X 1 1/4": 80,
-        "2 X 3/4": 60,
         "2 X 1": 50,
+        "1 X 3/4": 200,
+        "2 X 3/4": 60,
+        "1 1/2 X 1": 80,
+        "1 1/4 X 1": 120,
+        "2 X 1 1/2": 40,
         "2 X 1 1/4": 40,
-        "2 X 1 1/2": 40
+        "3/4 X 1/2": 400,
+        "1 1/2 X 3/4": 100,
+        "1 1/4 X 3/4": 140,
+        "1 1/2 X 1 1/4": 80
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC REDUCER COUPLER. Available sizes: 3/4 X 1/2, 1 X 1/2, 1 X 3/4, 1 1/4 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
       "categoryName": "CPVC Pipes & Fittings",
       "sizeProductCodes": {
-        "3/4 X 1/2": "FG-400430",
-        "1 X 3/4": "FG-400431",
-        "1 1/4 X 3/4": "FG-400432",
-        "1 1/4 X 1": "FG-400433",
-        "1 1/2 X 3/4": "FG-400529",
-        "1 1/2 X 1": "FG-400505",
-        "1 1/2 X 1 1/4": "FG-400506",
-        "2 X 3/4": "FG-400528",
         "2 X 1": "FG-400507",
+        "1 X 3/4": "FG-400431",
+        "2 X 3/4": "FG-400528",
+        "1 1/2 X 1": "FG-400505",
+        "1 1/4 X 1": "FG-400433",
+        "2 X 1 1/2": "FG-400508",
         "2 X 1 1/4": "FG-400471",
-        "2 X 1 1/2": "FG-400508"
-      },
-      "packing": "3/4 X 1/2:400, 1 X 3/4:200, 1 1/4 X 3/4:140, 1 1/4 X 1:120, 1 1/2 X 3/4:100, 1 1/2 X 1:80, 1 1/2 X 1 1/4:80, 2 X 3/4:60, 2 X 1:50, 2 X 1 1/4:40, 2 X 1 1/2:40"
+        "3/4 X 1/2": "FG-400430",
+        "1 1/2 X 3/4": "FG-400529",
+        "1 1/4 X 3/4": "FG-400432",
+        "1 1/2 X 1 1/4": "FG-400506"
+      }
     },
     {
       "id": "prod_cpvc_20",
@@ -6725,6 +6725,7 @@
         "1 X 3/4"
       ],
       "status": "Active",
+      "packing": "1 X 1/2:160, 1 X 3/4:120",
       "packSizes": {
         "1 X 1/2": 160,
         "1 X 3/4": 120
@@ -6735,8 +6736,7 @@
       "sizeProductCodes": {
         "1 X 1/2": "FG-400439",
         "1 X 3/4": "FG-400440"
-      },
-      "packing": "1 X 1/2:160, 1 X 3/4:120"
+      }
     },
     {
       "id": "prod_cpvc_27",
@@ -6747,6 +6747,7 @@
         "3/4 X 1/2"
       ],
       "status": "Active",
+      "packing": "3/4 X 1/2:240",
       "packSizes": {
         "3/4 X 1/2": 240
       },
@@ -6755,8 +6756,7 @@
       "categoryName": "CPVC Pipes & Fittings",
       "sizeProductCodes": {
         "3/4 X 1/2": "FG-400514"
-      },
-      "packing": "3/4 X 1/2:240"
+      }
     },
     {
       "id": "prod_cpvc_35",
@@ -6767,6 +6767,7 @@
         "3/4 X 1/2"
       ],
       "status": "Active",
+      "packing": "3/4 X 1/2:200",
       "packSizes": {
         "3/4 X 1/2": 200
       },
@@ -6775,8 +6776,7 @@
       "categoryName": "CPVC Pipes & Fittings",
       "sizeProductCodes": {
         "3/4 X 1/2": "FG-400434"
-      },
-      "packing": "3/4 X 1/2:200"
+      }
     },
     {
       "id": "prod_cpvc_37",
@@ -6796,34 +6796,34 @@
         "2 X 1 1/2"
       ],
       "status": "Active",
+      "packing": "1 X 3/4:80, 1 1/4 X 3/4:60, 1 1/4 X 1:50, 1 1/2 X 3/4:30, 1 1/2 X 1:30, 1 1/2 X 1 1/4:30, 2 X 3/4:20, 2 X 1:16, 2 X 1 1/4:16, 2 X 1 1/2:14",
       "packSizes": {
-        "1 X 3/4": 80,
-        "1 1/4 X 3/4": 60,
-        "1 1/4 X 1": 50,
-        "1 1/2 X 3/4": 30,
-        "1 1/2 X 1": 30,
-        "1 1/2 X 1 1/4": 30,
-        "2 X 3/4": 20,
         "2 X 1": 16,
+        "1 X 3/4": 80,
+        "2 X 3/4": 20,
+        "1 1/2 X 1": 30,
+        "1 1/4 X 1": 50,
+        "2 X 1 1/2": 14,
         "2 X 1 1/4": 16,
-        "2 X 1 1/2": 14
+        "1 1/2 X 3/4": 30,
+        "1 1/4 X 3/4": 60,
+        "1 1/2 X 1 1/4": 30
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC REDUCER TEE. Available sizes: 1 X 3/4, 1 1/4 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
       "categoryName": "CPVC Pipes & Fittings",
       "sizeProductCodes": {
-        "1 X 3/4": "FG-400490",
-        "1 1/4 X 3/4": "FG-400491",
-        "1 1/4 X 1": "FG-400492",
-        "1 1/2 X 3/4": "FG-400493",
-        "1 1/2 X 1": "FG-400494",
-        "1 1/2 X 1 1/4": "FG-400495",
-        "2 X 3/4": "FG-400496",
         "2 X 1": "FG-400497",
+        "1 X 3/4": "FG-400490",
+        "2 X 3/4": "FG-400496",
+        "1 1/2 X 1": "FG-400494",
+        "1 1/4 X 1": "FG-400492",
+        "2 X 1 1/2": "FG-400499",
         "2 X 1 1/4": "FG-400498",
-        "2 X 1 1/2": "FG-400499"
-      },
-      "packing": "1 X 3/4:80, 1 1/4 X 3/4:60, 1 1/4 X 1:50, 1 1/2 X 3/4:30, 1 1/2 X 1:30, 1 1/2 X 1 1/4:30, 2 X 3/4:20, 2 X 1:16, 2 X 1 1/4:16, 2 X 1 1/2:14"
+        "1 1/2 X 3/4": "FG-400493",
+        "1 1/4 X 3/4": "FG-400491",
+        "1 1/2 X 1 1/4": "FG-400495"
+      }
     },
     {
       "id": "prod_cpvc_10",
@@ -6838,12 +6838,13 @@
         "2"
       ],
       "status": "Active",
+      "packing": "3/4:300, 1:140, 1 1/4:100, 1 1/2:60, 2:30",
       "packSizes": {
         "1": 140,
         "2": 30,
         "3/4": 300,
-        "1 1/4": 100,
-        "1 1/2": 60
+        "1 1/2": 60,
+        "1 1/4": 100
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC SHOE BEND 45. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -6852,10 +6853,9 @@
         "1": "FG-400411",
         "2": "FG-400472",
         "3/4": "FG-400410",
-        "1 1/4": "FG-401666",
-        "1 1/2": "FG-401654"
-      },
-      "packing": "3/4:300, 1:140, 1 1/4:100, 1 1/2:60, 2:30"
+        "1 1/2": "FG-401654",
+        "1 1/4": "FG-401666"
+      }
     },
     {
       "id": "prod_solvent_1",
@@ -6894,6 +6894,7 @@
         "25ML"
       ],
       "status": "Active",
+      "packing": "10ML:50, 25ML:50",
       "packSizes": {
         "10ML": 50,
         "25ML": 50
@@ -6904,8 +6905,7 @@
       "sizeProductCodes": {
         "10ML": "FG-401545",
         "25ML": "FG-401630"
-      },
-      "packing": "10ML:50, 25ML:50"
+      }
     },
     {
       "id": "prod_cpvc_32",
@@ -6917,6 +6917,7 @@
         "1"
       ],
       "status": "Active",
+      "packing": "3/4:60, 1:30",
       "packSizes": {
         "1": 30,
         "3/4": 60
@@ -6927,8 +6928,7 @@
       "sizeProductCodes": {
         "1": "FG-400459",
         "3/4": "FG-400458"
-      },
-      "packing": "3/4:60, 1:30"
+      }
     },
     {
       "id": "prod_cpvc_31",
@@ -6941,6 +6941,7 @@
         "1 1/4"
       ],
       "status": "Active",
+      "packing": "3/4:60, 1:60, 1 1/4:30",
       "packSizes": {
         "1": 60,
         "3/4": 60,
@@ -6953,8 +6954,7 @@
         "1": "FG-400532",
         "3/4": "FG-400531",
         "1 1/4": "FG-400533"
-      },
-      "packing": "3/4:60, 1:60, 1 1/4:30"
+      }
     },
     {
       "id": "prod_cpvc_18",
@@ -6969,12 +6969,13 @@
         "2"
       ],
       "status": "Active",
+      "packing": "3/4:100, 1:60, 1 1/4:40, 1 1/2:30, 2:20",
       "packSizes": {
         "1": 60,
         "2": 20,
         "3/4": 100,
-        "1 1/4": 40,
-        "1 1/2": 30
+        "1 1/2": 30,
+        "1 1/4": 40
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC TANK NIPPLE. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -6983,10 +6984,9 @@
         "1": "FG-400510",
         "2": "FG-400513",
         "3/4": "FG-400509",
-        "1 1/4": "FG-400511",
-        "1 1/2": "FG-400512"
-      },
-      "packing": "3/4:100, 1:60, 1 1/4:40, 1 1/2:30, 2:20"
+        "1 1/2": "FG-400512",
+        "1 1/4": "FG-400511"
+      }
     },
     {
       "id": "prod_cpvc_16",
@@ -7001,12 +7001,13 @@
         "2"
       ],
       "status": "Active",
+      "packing": "3/4:100, 1:80, 1 1/4:60, 1 1/2:40, 2:20",
       "packSizes": {
         "1": 80,
         "2": 20,
         "3/4": 100,
-        "1 1/4": 60,
-        "1 1/2": 40
+        "1 1/2": 40,
+        "1 1/4": 60
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC TANK NIPPLE (SOCKETED). Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -7015,10 +7016,9 @@
         "1": "FG-400452",
         "2": "FG-400527",
         "3/4": "FG-400524",
-        "1 1/4": "FG-400542",
-        "1 1/2": "FG-400536"
-      },
-      "packing": "3/4:100, 1:80, 1 1/4:60, 1 1/2:40, 2:20"
+        "1 1/2": "FG-400536",
+        "1 1/4": "FG-400542"
+      }
     },
     {
       "id": "prod_cpvc_13",
@@ -7033,12 +7033,13 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1 1/4:40, 3/4:160, 1:80, 1 1/2:30, 2:12",
       "packSizes": {
         "1": 80,
         "2": 12,
-        "1 1/4": 40,
         "3/4": 160,
-        "1 1/2": 30
+        "1 1/2": 30,
+        "1 1/4": 40
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC TEE. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -7046,11 +7047,10 @@
       "sizeProductCodes": {
         "1": "FG-400406",
         "2": "FG-400534",
-        "1 1/4": "N/A",
         "3/4": "FG-400405",
-        "1 1/2": "FG-400481"
-      },
-      "packing": "1 1/4:40, 3/4:160, 1:80, 1 1/2:30, 2:12"
+        "1 1/2": "FG-400481",
+        "1 1/4": "N/A"
+      }
     },
     {
       "id": "prod_cpvc_21",
@@ -7062,6 +7062,7 @@
         "1"
       ],
       "status": "Active",
+      "packing": "3/4:400, 1:240",
       "packSizes": {
         "1": 240,
         "3/4": 400
@@ -7072,8 +7073,7 @@
       "sizeProductCodes": {
         "1": "FG-400446",
         "3/4": "FG-400445"
-      },
-      "packing": "3/4:400, 1:240"
+      }
     },
     {
       "id": "prod_cpvc_19",
@@ -7088,12 +7088,13 @@
         "2"
       ],
       "status": "Active",
+      "packing": "3/4:120, 1:60, 1 1/4:40, 1 1/2:30, 2:16",
       "packSizes": {
         "1": 60,
         "2": 16,
         "3/4": 120,
-        "1 1/4": 40,
-        "1 1/2": 30
+        "1 1/2": 30,
+        "1 1/4": 40
       },
       "categoryId": "cat_cpvc",
       "description": "CPVC UNION. Available sizes: 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -7102,10 +7103,9 @@
         "1": "FG-400516",
         "2": "FG-400537",
         "3/4": "FG-400515",
-        "1 1/4": "FG-400517",
-        "1 1/2": "FG-400518"
-      },
-      "packing": "3/4:120, 1:60, 1 1/4:40, 1 1/2:30, 2:16"
+        "1 1/2": "FG-400518",
+        "1 1/4": "FG-400517"
+      }
     },
     {
       "id": "prod_sanitary_3",
@@ -7187,6 +7187,7 @@
         "500MM"
       ],
       "status": "Active",
+      "packing": "150MM:1, 200MM:1, 250MM:1, 300MM:1, 400MM:1, 500MM:1",
       "packings": {
         "150MM": 1,
         "200MM": 1,
@@ -7213,8 +7214,7 @@
         "300MM": "FG-401857",
         "400MM": "FG-401858",
         "500MM": "FG-401859"
-      },
-      "packing": "150MM:1, 200MM:1, 250MM:1, 300MM:1, 400MM:1, 500MM:1"
+      }
     },
     {
       "id": "prod_dwc_2",
@@ -7230,6 +7230,7 @@
         "500MM"
       ],
       "status": "Active",
+      "packing": "150MM:1, 200MM:1, 250MM:1, 300MM:1, 400MM:1, 500MM:1",
       "packings": {
         "150MM": 1,
         "200MM": 1,
@@ -7256,8 +7257,7 @@
         "300MM": "FG-401863",
         "400MM": "FG-401864",
         "500MM": "FG-401865"
-      },
-      "packing": "150MM:1, 200MM:1, 250MM:1, 300MM:1, 400MM:1, 500MM:1"
+      }
     },
     {
       "id": "prod_eco_2",
@@ -7270,6 +7270,7 @@
         "110MM 3M LIGHT"
       ],
       "status": "Active",
+      "packing": "110MM 3M HEAVY:1, 160MM 3M LIGHT:1, 110MM 3M LIGHT:1",
       "packings": {
         "110MM 3M HEAVY": 1,
         "110MM 3M LIGHT": 1,
@@ -7277,18 +7278,17 @@
       },
       "packSizes": {
         "110MM 3M HEAVY": 1,
-        "160MM 3M LIGHT": 1,
-        "110MM 3M LIGHT": 1
+        "110MM 3M LIGHT": 1,
+        "160MM 3M LIGHT": 1
       },
       "categoryId": "cat_eco_drainage",
       "description": "ECO DRAINAGE PIPES RINGFIT. Available sizes: 110MM 3M HEAVY, 160MM 3M LIGHT, 110MM 3M LIGHT.",
       "categoryName": "Eco Drainage Pipes",
       "sizeProductCodes": {
         "110MM 3M HEAVY": "FG-401481",
-        "160MM 3M LIGHT": "FG-401482",
-        "110MM 3M LIGHT": "FG-401483"
-      },
-      "packing": "110MM 3M HEAVY:1, 160MM 3M LIGHT:1, 110MM 3M LIGHT:1"
+        "110MM 3M LIGHT": "FG-401483",
+        "160MM 3M LIGHT": "FG-401482"
+      }
     },
     {
       "id": "prod_eco_1",
@@ -7312,6 +7312,7 @@
         "250MM 3M LIGHT"
       ],
       "status": "Active",
+      "packing": "110MM 3M LIGHT:1, 160MM 3M LIGHT:1, 200MM 3M LIGHT:1, 110MM 6M LIGHT:1, 160MM 6M LIGHT:1, 200MM 6M LIGHT:1, 110MM 3M HEAVY:1, 160MM 3M HEAVY:1, 200MM 3M HEAVY:1, 110MM 6M HEAVY:1, 160MM 6M HEAVY:1, 200MM 6M HEAVY:1, 250MM 6M:1, 250MM 3M LIGHT:1",
       "packings": {
         "250MM 6M": 1,
         "110MM 3M HEAVY": 1,
@@ -7329,41 +7330,40 @@
         "250MM 3M LIGHT": 1
       },
       "packSizes": {
-        "110MM 3M LIGHT": 1,
-        "160MM 3M LIGHT": 1,
-        "200MM 3M LIGHT": 1,
-        "110MM 6M LIGHT": 1,
-        "160MM 6M LIGHT": 1,
-        "200MM 6M LIGHT": 1,
-        "110MM 3M HEAVY": 1,
-        "160MM 3M HEAVY": 1,
-        "200MM 3M HEAVY": 1,
-        "110MM 6M HEAVY": 1,
-        "160MM 6M HEAVY": 1,
-        "200MM 6M HEAVY": 1,
         "250MM 6M": 1,
+        "110MM 3M HEAVY": 1,
+        "110MM 3M LIGHT": 1,
+        "110MM 6M HEAVY": 1,
+        "110MM 6M LIGHT": 1,
+        "160MM 3M HEAVY": 1,
+        "160MM 3M LIGHT": 1,
+        "160MM 6M HEAVY": 1,
+        "160MM 6M LIGHT": 1,
+        "200MM 3M HEAVY": 1,
+        "200MM 3M LIGHT": 1,
+        "200MM 6M HEAVY": 1,
+        "200MM 6M LIGHT": 1,
         "250MM 3M LIGHT": 1
       },
       "categoryId": "cat_eco_drainage",
       "description": "ECO DRAINAGE PIPES SELFIT. Available sizes: 110MM 3M LIGHT, 160MM 3M LIGHT, 200MM 3M LIGHT, 110MM 6M LIGHT, 160MM 6M LIGHT, 200MM 6M LIGHT, 110MM 3M HEAVY, 160MM 3M HEAVY, 200MM 3M HEAVY, 110MM 6M HEAVY, 160MM 6M HEAVY, 200MM 6M HEAVY, 250MM 6M, 250MM 3M LIGHT.",
       "categoryName": "Eco Drainage Pipes",
       "sizeProductCodes": {
-        "110MM 3M LIGHT": "FG-401469",
-        "160MM 3M LIGHT": "FG-401470",
-        "200MM 3M LIGHT": "FG-401471",
-        "110MM 6M LIGHT": "FG-401472",
-        "160MM 6M LIGHT": "FG-401473",
-        "200MM 6M LIGHT": "FG-401474",
-        "110MM 3M HEAVY": "FG-401475",
-        "160MM 3M HEAVY": "FG-401476",
-        "200MM 3M HEAVY": "FG-401477",
-        "110MM 6M HEAVY": "FG-401478",
-        "160MM 6M HEAVY": "FG-401479",
-        "200MM 6M HEAVY": "FG-401480",
         "250MM 6M": "FG-401486",
+        "110MM 3M HEAVY": "FG-401475",
+        "110MM 3M LIGHT": "FG-401469",
+        "110MM 6M HEAVY": "FG-401478",
+        "110MM 6M LIGHT": "FG-401472",
+        "160MM 3M HEAVY": "FG-401476",
+        "160MM 3M LIGHT": "FG-401470",
+        "160MM 6M HEAVY": "FG-401479",
+        "160MM 6M LIGHT": "FG-401473",
+        "200MM 3M HEAVY": "FG-401477",
+        "200MM 3M LIGHT": "FG-401471",
+        "200MM 6M HEAVY": "FG-401480",
+        "200MM 6M LIGHT": "FG-401474",
         "250MM 3M LIGHT": "FG-401487"
-      },
-      "packing": "110MM 3M LIGHT:1, 160MM 3M LIGHT:1, 200MM 3M LIGHT:1, 110MM 6M LIGHT:1, 160MM 6M LIGHT:1, 200MM 6M LIGHT:1, 110MM 3M HEAVY:1, 160MM 3M HEAVY:1, 200MM 3M HEAVY:1, 110MM 6M HEAVY:1, 160MM 6M HEAVY:1, 200MM 6M HEAVY:1, 250MM 6M:1, 250MM 3M LIGHT:1"
+      }
     },
     {
       "id": "prod_faucet_6",
@@ -7574,6 +7574,12 @@
         "20-4-50 CLASS 1"
       ],
       "status": "Active",
+      "packing": "20-4-30 CLASS 1:1, 20-4-40 CLASS 1:1, 20-4-50 CLASS 1:1",
+      "packSizes": {
+        "20-4-30 CLASS 1": 1,
+        "20-4-40 CLASS 1": 1,
+        "20-4-50 CLASS 1": 1
+      },
       "categoryId": "cat_drip",
       "description": "FLAT DRIPLINE ISI 400MTR 20. Available sizes: 20-4-30 CLASS 1, 20-4-40 CLASS 1, 20-4-50 CLASS 1.",
       "subCategory": "FLAT DRIP (PEPSI) - INLINE",
@@ -7582,13 +7588,7 @@
         "20-4-30 CLASS 1": "FG-401771",
         "20-4-40 CLASS 1": "FG-401772",
         "20-4-50 CLASS 1": "FG-401773"
-      },
-      "packSizes": {
-        "20-4-30 CLASS 1": 1,
-        "20-4-40 CLASS 1": 1,
-        "20-4-50 CLASS 1": 1
-      },
-      "packing": "20-4-30 CLASS 1:1, 20-4-40 CLASS 1:1, 20-4-50 CLASS 1:1"
+      }
     },
     {
       "id": "prod_drip_flat_pepsi_1",
@@ -7604,27 +7604,27 @@
         "12-4-50 CLASS 3"
       ],
       "status": "Active",
+      "packing": "12-4-30 CLASS 2:1, 12-4-40 CLASS 2:1, 12-4-50 CLASS 2:1, 12-4-30 CLASS 3:1, 12-4-40 CLASS 3:1, 12-4-50 CLASS 3:1",
+      "packSizes": {
+        "12-4-30 CLASS 2": 1,
+        "12-4-30 CLASS 3": 1,
+        "12-4-40 CLASS 2": 1,
+        "12-4-40 CLASS 3": 1,
+        "12-4-50 CLASS 2": 1,
+        "12-4-50 CLASS 3": 1
+      },
       "categoryId": "cat_drip",
       "description": "FLAT DRIPLINE ISI 500MTR 12. Available sizes: 12-4-30 CLASS 2, 12-4-40 CLASS 2, 12-4-50 CLASS 2, 12-4-30 CLASS 3, 12-4-40 CLASS 3, 12-4-50 CLASS 3.",
       "subCategory": "FLAT DRIP (PEPSI) - INLINE",
       "categoryName": "DRIP IRRIGATION SYSTEM",
       "sizeProductCodes": {
         "12-4-30 CLASS 2": "FG-401763",
-        "12-4-40 CLASS 2": "FG-401764",
-        "12-4-50 CLASS 2": "FG-401765",
         "12-4-30 CLASS 3": "FG-401766",
+        "12-4-40 CLASS 2": "FG-401764",
         "12-4-40 CLASS 3": "FG-401767",
+        "12-4-50 CLASS 2": "FG-401765",
         "12-4-50 CLASS 3": "FG-401768"
-      },
-      "packSizes": {
-        "12-4-30 CLASS 2": 1,
-        "12-4-40 CLASS 2": 1,
-        "12-4-50 CLASS 2": 1,
-        "12-4-30 CLASS 3": 1,
-        "12-4-40 CLASS 3": 1,
-        "12-4-50 CLASS 3": 1
-      },
-      "packing": "12-4-30 CLASS 2:1, 12-4-40 CLASS 2:1, 12-4-50 CLASS 2:1, 12-4-30 CLASS 3:1, 12-4-40 CLASS 3:1, 12-4-50 CLASS 3:1"
+      }
     },
     {
       "id": "prod_drip_flat_pepsi_2",
@@ -7640,27 +7640,27 @@
         "16-4-50 CLASS 2"
       ],
       "status": "Active",
+      "packing": "16-4-30 CLASS 1:1, 16-4-40 CLASS 1:1, 16-4-50 CLASS 1:1, 16-4-30 CLASS 2:1, 16-4-40 CLASS 2:1, 16-4-50 CLASS 2:1",
+      "packSizes": {
+        "16-4-30 CLASS 1": 1,
+        "16-4-30 CLASS 2": 1,
+        "16-4-40 CLASS 1": 1,
+        "16-4-40 CLASS 2": 1,
+        "16-4-50 CLASS 1": 1,
+        "16-4-50 CLASS 2": 1
+      },
       "categoryId": "cat_drip",
       "description": "FLAT DRIPLINE ISI 500MTR 16. Available sizes: 16-4-30 CLASS 1, 16-4-40 CLASS 1, 16-4-50 CLASS 1, 16-4-30 CLASS 2, 16-4-40 CLASS 2, 16-4-50 CLASS 2.",
       "subCategory": "FLAT DRIP (PEPSI) - INLINE",
       "categoryName": "DRIP IRRIGATION SYSTEM",
       "sizeProductCodes": {
         "16-4-30 CLASS 1": "FG-401760",
-        "16-4-40 CLASS 1": "FG-401761",
-        "16-4-50 CLASS 1": "FG-401762",
         "16-4-30 CLASS 2": "FG-401769",
+        "16-4-40 CLASS 1": "FG-401761",
         "16-4-40 CLASS 2": "FG-401770",
+        "16-4-50 CLASS 1": "FG-401762",
         "16-4-50 CLASS 2": "FG-401779"
-      },
-      "packSizes": {
-        "16-4-30 CLASS 1": 1,
-        "16-4-40 CLASS 1": 1,
-        "16-4-50 CLASS 1": 1,
-        "16-4-30 CLASS 2": 1,
-        "16-4-40 CLASS 2": 1,
-        "16-4-50 CLASS 2": 1
-      },
-      "packing": "16-4-30 CLASS 1:1, 16-4-40 CLASS 1:1, 16-4-50 CLASS 1:1, 16-4-30 CLASS 2:1, 16-4-40 CLASS 2:1, 16-4-50 CLASS 2:1"
+      }
     },
     {
       "id": "prod_garden_2",
@@ -7674,22 +7674,22 @@
         "32MM 1 1/4"
       ],
       "status": "Active",
+      "packing": "15MM 1/2:1, 20MM 3/4:1, 25MM 1:1, 32MM 1 1/4:1",
       "packSizes": {
+        "25MM 1": 1,
         "15MM 1/2": 1,
         "20MM 3/4": 1,
-        "25MM 1": 1,
         "32MM 1 1/4": 1
       },
       "categoryId": "cat_garden",
       "description": "GAP-ORA BRAIDED PIPE.",
       "categoryName": "Garden, Braided & LDPE Pipes",
       "sizeProductCodes": {
+        "25MM 1": "FG-401372",
         "15MM 1/2": "FG-401370",
         "20MM 3/4": "FG-401371",
-        "25MM 1": "FG-401372",
         "32MM 1 1/4": "FG-401373"
-      },
-      "packing": "15MM 1/2:1, 20MM 3/4:1, 25MM 1:1, 32MM 1 1/4:1"
+      }
     },
     {
       "id": "prod_garden_1",
@@ -7703,22 +7703,22 @@
         "1 1/4 32MM"
       ],
       "status": "Active",
+      "packing": "1/2 15MM:1, 3/4 20MM:1, 1 25MM:1, 1 1/4 32MM:1",
+      "packSizes": {
+        "1 25MM": 1,
+        "1/2 15MM": 1,
+        "3/4 20MM": 1,
+        "1 1/4 32MM": 1
+      },
       "categoryId": "cat_garden",
       "description": "GAP-ORA FLOW GARDEN PIPE. Available sizes: 1/2 15MM, 3/4 20MM, 1 25MM, 1 1/4 32MM.",
       "categoryName": "Garden, Braided & LDPE Pipes",
       "sizeProductCodes": {
+        "1 25MM": "FG-401366",
         "1/2 15MM": "FG-401364",
         "3/4 20MM": "FG-401365",
-        "1 25MM": "FG-401366",
         "1 1/4 32MM": "FG-401367"
-      },
-      "packSizes": {
-        "1/2 15MM": 1,
-        "3/4 20MM": 1,
-        "1 25MM": 1,
-        "1 1/4 32MM": 1
-      },
-      "packing": "1/2 15MM:1, 3/4 20MM:1, 1 25MM:1, 1 1/4 32MM:1"
+      }
     },
     {
       "id": "prod_garden_3",
@@ -7733,24 +7733,24 @@
         "32MM 1 1/4"
       ],
       "status": "Active",
+      "packing": "15MM 1/2:1, 20MM 3/4:1, 20MM 3/4 20MTR:1, 25MM 1:1, 32MM 1 1/4:1",
       "packSizes": {
+        "25MM 1": 1,
         "15MM 1/2": 1,
         "20MM 3/4": 1,
-        "20MM 3/4 20MTR": 1,
-        "25MM 1": 1,
-        "32MM 1 1/4": 1
+        "32MM 1 1/4": 1,
+        "20MM 3/4 20MTR": 1
       },
       "categoryId": "cat_garden",
       "description": "GARDEN FOAM PIPES.",
       "categoryName": "Garden, Braided & LDPE Pipes",
       "sizeProductCodes": {
+        "25MM 1": "FG-401357",
         "15MM 1/2": "FG-401355",
         "20MM 3/4": "FG-401356",
-        "20MM 3/4 20MTR": "FG-401369",
-        "25MM 1": "FG-401357",
-        "32MM 1 1/4": "FG-401358"
-      },
-      "packing": "15MM 1/2:1, 20MM 3/4:1, 20MM 3/4 20MTR:1, 25MM 1:1, 32MM 1 1/4:1"
+        "32MM 1 1/4": "FG-401358",
+        "20MM 3/4 20MTR": "FG-401369"
+      }
     },
     {
       "id": "prod_garden_6",
@@ -7766,26 +7766,26 @@
         "40MM 1 1/2"
       ],
       "status": "Active",
+      "packing": "15MM 1/2:1, 20MM 3/4:1, 20MM 3/4 15MTR:1, 25MM 1:1, 32MM 1 1/4:1, 40MM 1 1/2:1",
       "packSizes": {
+        "25MM 1": 1,
         "15MM 1/2": 1,
         "20MM 3/4": 1,
-        "20MM 3/4 15MTR": 1,
-        "25MM 1": 1,
         "32MM 1 1/4": 1,
-        "40MM 1 1/2": 1
+        "40MM 1 1/2": 1,
+        "20MM 3/4 15MTR": 1
       },
       "categoryId": "cat_garden",
       "description": "GARDEN PIPES SUPER FLOW.",
       "categoryName": "Garden, Braided & LDPE Pipes",
       "sizeProductCodes": {
+        "25MM 1": "FG-401342",
         "15MM 1/2": "FG-401340",
         "20MM 3/4": "FG-401341",
-        "20MM 3/4 15MTR": "FG-401652",
-        "25MM 1": "FG-401342",
         "32MM 1 1/4": "FG-401343",
-        "40MM 1 1/2": "FG-401627"
-      },
-      "packing": "15MM 1/2:1, 20MM 3/4:1, 20MM 3/4 15MTR:1, 25MM 1:1, 32MM 1 1/4:1, 40MM 1 1/2:1"
+        "40MM 1 1/2": "FG-401627",
+        "20MM 3/4 15MTR": "FG-401652"
+      }
     },
     {
       "id": "prod_tank_1",
@@ -7801,6 +7801,7 @@
         "2000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "HDPE 10L GOLD GAP. Available sizes: 300, 500, 750, 1000, 1500, 2000.",
@@ -7813,8 +7814,7 @@
         "1000": "FG-400126",
         "1500": "FG-400085",
         "2000": "FG-400084"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_tank_2",
@@ -7827,6 +7827,7 @@
         "1000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "HDPE 10L ORG GAP. Available sizes: 500, 750, 1000.",
@@ -7836,8 +7837,7 @@
         "500": "FG-400131",
         "750": "FG-400132",
         "1000": "FG-400130"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_tank_5",
@@ -7850,6 +7850,7 @@
         "1000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "HDPE 6L ORG GAP. Available sizes: 500, 750, 1000.",
@@ -7859,8 +7860,7 @@
         "500": "FG-400139",
         "750": "FG-401589",
         "1000": "FG-401590"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_tank_3",
@@ -7877,6 +7877,7 @@
         "2000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "HDPE 6L WHITE GAP. Available sizes: 200, 300, 500, 750, 1000, 1500, 2000.",
@@ -7890,8 +7891,7 @@
         "1000": "FG-400127",
         "1500": "FG-400136",
         "2000": "FG-400133"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_hdpe_4",
@@ -7903,6 +7903,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "90MM:112, 110MM:63",
       "packSizes": {
         "90MM": 112,
         "110MM": 63
@@ -7913,8 +7914,7 @@
       "sizeProductCodes": {
         "90MM": "FG-400824",
         "110MM": "FG-400825"
-      },
-      "packing": "90MM:112, 110MM:63"
+      }
     },
     {
       "id": "prod_hdpe_1",
@@ -7939,6 +7939,24 @@
         "250MM"
       ],
       "status": "Active",
+      "packing": "25MM:1, 32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1, 125MM:1, 140MM:1, 160MM:1, 180MM:1, 200MM:1, 225MM:1, 250MM:1",
+      "packSizes": {
+        "25MM": 1,
+        "32MM": 1,
+        "40MM": 1,
+        "50MM": 1,
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1,
+        "125MM": 1,
+        "140MM": 1,
+        "160MM": 1,
+        "180MM": 1,
+        "200MM": 1,
+        "225MM": 1,
+        "250MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE100 PN10. Available sizes: 25MM, 32MM, 40MM, 50MM, 63MM, 75MM, 90MM, 110MM, 125MM, 140MM, 160MM, 180MM, 200MM, 225MM, 250MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -7958,25 +7976,7 @@
         "200MM": "FG-401325",
         "225MM": "FG-401326",
         "250MM": "FG-401327"
-      },
-      "packSizes": {
-        "25MM": 1,
-        "32MM": 1,
-        "40MM": 1,
-        "50MM": 1,
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1,
-        "125MM": 1,
-        "140MM": 1,
-        "160MM": 1,
-        "180MM": 1,
-        "200MM": 1,
-        "225MM": 1,
-        "250MM": 1
-      },
-      "packing": "25MM:1, 32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1, 125MM:1, 140MM:1, 160MM:1, 180MM:1, 200MM:1, 225MM:1, 250MM:1"
+      }
     },
     {
       "id": "prod_hdpe_1b",
@@ -8002,6 +8002,25 @@
         "250MM"
       ],
       "status": "Active",
+      "packing": "20MM:1, 25MM:1, 32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1, 125MM:1, 140MM:1, 160MM:1, 180MM:1, 200MM:1, 225MM:1, 250MM:1",
+      "packSizes": {
+        "20MM": 1,
+        "25MM": 1,
+        "32MM": 1,
+        "40MM": 1,
+        "50MM": 1,
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1,
+        "125MM": 1,
+        "140MM": 1,
+        "160MM": 1,
+        "180MM": 1,
+        "200MM": 1,
+        "225MM": 1,
+        "250MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE100 PN12.5. Available sizes: 20MM, 25MM, 32MM, 40MM, 50MM, 63MM, 75MM, 90MM, 110MM, 125MM, 140MM, 160MM, 180MM, 200MM, 225MM, 250MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8022,26 +8041,7 @@
         "200MM": "FG-401332",
         "225MM": "FG-401333",
         "250MM": "FG-401334"
-      },
-      "packSizes": {
-        "20MM": 1,
-        "25MM": 1,
-        "32MM": 1,
-        "40MM": 1,
-        "50MM": 1,
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1,
-        "125MM": 1,
-        "140MM": 1,
-        "160MM": 1,
-        "180MM": 1,
-        "200MM": 1,
-        "225MM": 1,
-        "250MM": 1
-      },
-      "packing": "20MM:1, 25MM:1, 32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1, 125MM:1, 140MM:1, 160MM:1, 180MM:1, 200MM:1, 225MM:1, 250MM:1"
+      }
     },
     {
       "id": "prod_hdpe_1c",
@@ -8054,6 +8054,12 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:1, 90MM:1, 110MM:1",
+      "packSizes": {
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE100 PN3.2. Available sizes: 75MM, 90MM, 110MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8061,13 +8067,7 @@
         "75MM": "FG-401266",
         "90MM": "FG-401267",
         "110MM": "FG-401268"
-      },
-      "packSizes": {
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1
-      },
-      "packing": "75MM:1, 90MM:1, 110MM:1"
+      }
     },
     {
       "id": "prod_hdpe_1d",
@@ -8082,6 +8082,14 @@
         "160MM"
       ],
       "status": "Active",
+      "packing": "75MM:1, 90MM:1, 110MM:1, 140MM:1, 160MM:1",
+      "packSizes": {
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1,
+        "140MM": 1,
+        "160MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE100 PN4. Available sizes: 75MM, 90MM, 110MM, 140MM, 160MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8091,15 +8099,7 @@
         "110MM": "FG-401271",
         "140MM": "FG-401338",
         "160MM": "FG-401337"
-      },
-      "packSizes": {
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1,
-        "140MM": 1,
-        "160MM": 1
-      },
-      "packing": "75MM:1, 90MM:1, 110MM:1, 140MM:1, 160MM:1"
+      }
     },
     {
       "id": "prod_hdpe_1e",
@@ -8114,6 +8114,14 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1",
+      "packSizes": {
+        "50MM": 1,
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE100 PN5. Available sizes: 50MM, 63MM, 75MM, 90MM, 110MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8123,15 +8131,7 @@
         "75MM": "FG-401274",
         "90MM": "FG-401275",
         "110MM": "FG-401276"
-      },
-      "packSizes": {
-        "50MM": 1,
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1
-      },
-      "packing": "50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1"
+      }
     },
     {
       "id": "prod_hdpe_1f",
@@ -8155,6 +8155,23 @@
         "250MM"
       ],
       "status": "Active",
+      "packing": "32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1, 125MM:1, 140MM:1, 160MM:1, 180MM:1, 200MM:1, 225MM:1, 250MM:1",
+      "packSizes": {
+        "32MM": 1,
+        "40MM": 1,
+        "50MM": 1,
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1,
+        "125MM": 1,
+        "140MM": 1,
+        "160MM": 1,
+        "180MM": 1,
+        "200MM": 1,
+        "225MM": 1,
+        "250MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE100 PN6. Available sizes: 32MM, 40MM, 50MM, 63MM, 75MM, 90MM, 110MM, 125MM, 140MM, 160MM, 180MM, 200MM, 225MM, 250MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8173,24 +8190,7 @@
         "200MM": "FG-401311",
         "225MM": "FG-401312",
         "250MM": "FG-401313"
-      },
-      "packSizes": {
-        "32MM": 1,
-        "40MM": 1,
-        "50MM": 1,
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1,
-        "125MM": 1,
-        "140MM": 1,
-        "160MM": 1,
-        "180MM": 1,
-        "200MM": 1,
-        "225MM": 1,
-        "250MM": 1
-      },
-      "packing": "32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1, 125MM:1, 140MM:1, 160MM:1, 180MM:1, 200MM:1, 225MM:1, 250MM:1"
+      }
     },
     {
       "id": "prod_hdpe_1g",
@@ -8214,6 +8214,23 @@
         "250MM"
       ],
       "status": "Active",
+      "packing": "32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1, 125MM:1, 140MM:1, 160MM:1, 180MM:1, 200MM:1, 225MM:1, 250MM:1",
+      "packSizes": {
+        "32MM": 1,
+        "40MM": 1,
+        "50MM": 1,
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1,
+        "125MM": 1,
+        "140MM": 1,
+        "160MM": 1,
+        "180MM": 1,
+        "200MM": 1,
+        "225MM": 1,
+        "250MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE100 PN8. Available sizes: 32MM, 40MM, 50MM, 63MM, 75MM, 90MM, 110MM, 125MM, 140MM, 160MM, 180MM, 200MM, 225MM, 250MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8232,24 +8249,7 @@
         "200MM": "FG-401318",
         "225MM": "FG-401319",
         "250MM": "FG-401320"
-      },
-      "packSizes": {
-        "32MM": 1,
-        "40MM": 1,
-        "50MM": 1,
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1,
-        "125MM": 1,
-        "140MM": 1,
-        "160MM": 1,
-        "180MM": 1,
-        "200MM": 1,
-        "225MM": 1,
-        "250MM": 1
-      },
-      "packing": "32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1, 125MM:1, 140MM:1, 160MM:1, 180MM:1, 200MM:1, 225MM:1, 250MM:1"
+      }
     },
     {
       "id": "prod_hdpe_2",
@@ -8264,6 +8264,14 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1",
+      "packSizes": {
+        "50MM": 1,
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE63 PN3.2. Available sizes: 50MM, 63MM, 75MM, 90MM, 110MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8273,15 +8281,7 @@
         "75MM": "FG-401189",
         "90MM": "FG-401190",
         "110MM": "FG-401191"
-      },
-      "packSizes": {
-        "50MM": 1,
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1
-      },
-      "packing": "50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1"
+      }
     },
     {
       "id": "prod_hdpe_2b",
@@ -8297,6 +8297,15 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1",
+      "packSizes": {
+        "40MM": 1,
+        "50MM": 1,
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE63 PN4. Available sizes: 40MM, 50MM, 63MM, 75MM, 90MM, 110MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8307,16 +8316,7 @@
         "75MM": "FG-401195",
         "90MM": "FG-401196",
         "110MM": "FG-401197"
-      },
-      "packSizes": {
-        "40MM": 1,
-        "50MM": 1,
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1
-      },
-      "packing": "40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1"
+      }
     },
     {
       "id": "prod_hdpe_2c",
@@ -8333,6 +8333,16 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1",
+      "packSizes": {
+        "32MM": 1,
+        "40MM": 1,
+        "50MM": 1,
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE63 PN5. Available sizes: 32MM, 40MM, 50MM, 63MM, 75MM, 90MM, 110MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8344,17 +8354,7 @@
         "75MM": "FG-401202",
         "90MM": "FG-401203",
         "110MM": "FG-401204"
-      },
-      "packSizes": {
-        "32MM": 1,
-        "40MM": 1,
-        "50MM": 1,
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1
-      },
-      "packing": "32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1"
+      }
     },
     {
       "id": "prod_hdpe_2d",
@@ -8372,6 +8372,17 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "25MM:1, 32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1",
+      "packSizes": {
+        "25MM": 1,
+        "32MM": 1,
+        "40MM": 1,
+        "50MM": 1,
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE63 PN6. Available sizes: 25MM, 32MM, 40MM, 50MM, 63MM, 75MM, 90MM, 110MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8384,18 +8395,7 @@
         "75MM": "FG-401210",
         "90MM": "FG-401211",
         "110MM": "FG-401212"
-      },
-      "packSizes": {
-        "25MM": 1,
-        "32MM": 1,
-        "40MM": 1,
-        "50MM": 1,
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1
-      },
-      "packing": "25MM:1, 32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1"
+      }
     },
     {
       "id": "prod_hdpe_2e",
@@ -8413,6 +8413,17 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "25MM:1, 32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1",
+      "packSizes": {
+        "25MM": 1,
+        "32MM": 1,
+        "40MM": 1,
+        "50MM": 1,
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE63 PN8. Available sizes: 25MM, 32MM, 40MM, 50MM, 63MM, 75MM, 90MM, 110MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8425,18 +8436,7 @@
         "75MM": "FG-401218",
         "90MM": "FG-401219",
         "110MM": "FG-401220"
-      },
-      "packSizes": {
-        "25MM": 1,
-        "32MM": 1,
-        "40MM": 1,
-        "50MM": 1,
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1
-      },
-      "packing": "25MM:1, 32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1"
+      }
     },
     {
       "id": "prod_hdpe_3f",
@@ -8455,6 +8455,18 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "20MM:1, 25MM:1, 32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1",
+      "packSizes": {
+        "20MM": 1,
+        "25MM": 1,
+        "32MM": 1,
+        "40MM": 1,
+        "50MM": 1,
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE80 PN10. Available sizes: 20MM, 25MM, 32MM, 40MM, 50MM, 63MM, 75MM, 90MM, 110MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8468,19 +8480,7 @@
         "75MM": "FG-401259",
         "90MM": "FG-401260",
         "110MM": "FG-401261"
-      },
-      "packSizes": {
-        "20MM": 1,
-        "25MM": 1,
-        "32MM": 1,
-        "40MM": 1,
-        "50MM": 1,
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1
-      },
-      "packing": "20MM:1, 25MM:1, 32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1"
+      }
     },
     {
       "id": "prod_hdpe_3g",
@@ -8494,6 +8494,13 @@
         "40MM"
       ],
       "status": "Active",
+      "packing": "20MM:1, 25MM:1, 32MM:1, 40MM:1",
+      "packSizes": {
+        "20MM": 1,
+        "25MM": 1,
+        "32MM": 1,
+        "40MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE80 PN12.5. Available sizes: 20MM, 25MM, 32MM, 40MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8502,14 +8509,7 @@
         "25MM": "FG-401263",
         "32MM": "FG-401264",
         "40MM": "FG-401265"
-      },
-      "packSizes": {
-        "20MM": 1,
-        "25MM": 1,
-        "32MM": 1,
-        "40MM": 1
-      },
-      "packing": "20MM:1, 25MM:1, 32MM:1, 40MM:1"
+      }
     },
     {
       "id": "prod_hdpe_3",
@@ -8522,6 +8522,12 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:1, 90MM:1, 110MM:1",
+      "packSizes": {
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE80 PN3.2. Available sizes: 75MM, 90MM, 110MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8529,13 +8535,7 @@
         "75MM": "FG-401224",
         "90MM": "FG-401225",
         "110MM": "FG-401226"
-      },
-      "packSizes": {
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1
-      },
-      "packing": "75MM:1, 90MM:1, 110MM:1"
+      }
     },
     {
       "id": "prod_hdpe_3b",
@@ -8550,6 +8550,14 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1",
+      "packSizes": {
+        "50MM": 1,
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE80 PN4. Available sizes: 50MM, 63MM, 75MM, 90MM, 110MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8559,15 +8567,7 @@
         "75MM": "FG-401229",
         "90MM": "FG-401230",
         "110MM": "FG-401231"
-      },
-      "packSizes": {
-        "50MM": 1,
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1
-      },
-      "packing": "50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1"
+      }
     },
     {
       "id": "prod_hdpe_3c",
@@ -8583,6 +8583,15 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1",
+      "packSizes": {
+        "40MM": 1,
+        "50MM": 1,
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE80 PN5. Available sizes: 40MM, 50MM, 63MM, 75MM, 90MM, 110MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8593,16 +8602,7 @@
         "75MM": "FG-401235",
         "90MM": "FG-401236",
         "110MM": "FG-401237"
-      },
-      "packSizes": {
-        "40MM": 1,
-        "50MM": 1,
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1
-      },
-      "packing": "40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1"
+      }
     },
     {
       "id": "prod_hdpe_3d",
@@ -8619,6 +8619,16 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1",
+      "packSizes": {
+        "32MM": 1,
+        "40MM": 1,
+        "50MM": 1,
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE80 PN6. Available sizes: 32MM, 40MM, 50MM, 63MM, 75MM, 90MM, 110MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8630,17 +8640,7 @@
         "75MM": "FG-401242",
         "90MM": "FG-401243",
         "110MM": "FG-401244"
-      },
-      "packSizes": {
-        "32MM": 1,
-        "40MM": 1,
-        "50MM": 1,
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1
-      },
-      "packing": "32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1"
+      }
     },
     {
       "id": "prod_hdpe_3e",
@@ -8658,6 +8658,17 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "25MM:1, 32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1",
+      "packSizes": {
+        "25MM": 1,
+        "32MM": 1,
+        "40MM": 1,
+        "50MM": 1,
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1
+      },
       "categoryId": "cat_hdpe",
       "description": "HDPE ISI PIPE PE80 PN8. Available sizes: 25MM, 32MM, 40MM, 50MM, 63MM, 75MM, 90MM, 110MM.",
       "categoryName": "HDPE PIPE & FITTINGS",
@@ -8670,18 +8681,7 @@
         "75MM": "FG-401250",
         "90MM": "FG-401251",
         "110MM": "FG-401252"
-      },
-      "packSizes": {
-        "25MM": 1,
-        "32MM": 1,
-        "40MM": 1,
-        "50MM": 1,
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1
-      },
-      "packing": "25MM:1, 32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1, 90MM:1, 110MM:1"
+      }
     },
     {
       "id": "prod_tank_8",
@@ -8695,6 +8695,7 @@
         "1000"
       ],
       "status": "Active",
+      "packing": "200:200, 300:300, 500:500, 1000:1000",
       "packSizes": {
         "200": 200,
         "300": 300,
@@ -8710,8 +8711,7 @@
         "300": "FG-400097",
         "500": "FG-400096",
         "1000": "FG-401819"
-      },
-      "packing": "200:200, 300:300, 500:500, 1000:1000"
+      }
     },
     {
       "id": "prod_hdpe_5",
@@ -8726,6 +8726,7 @@
         "75MM"
       ],
       "status": "Active",
+      "packing": "32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1",
       "packSizes": {
         "32MM": 1,
         "40MM": 1,
@@ -8742,8 +8743,7 @@
         "50MM": "FG-401222",
         "63MM": "FG-401223",
         "75MM": "FG-401795"
-      },
-      "packing": "32MM:1, 40MM:1, 50MM:1, 63MM:1, 75MM:1"
+      }
     },
     {
       "id": "prod_agri_7",
@@ -8757,6 +8757,13 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "63MM:1, 75MM:1, 90MM:1, 110MM:1",
+      "packSizes": {
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1
+      },
       "categoryId": "cat_agri",
       "description": "LDPE AGRICULTURE LAPETA PIPE 61 MTR for agriculture irrigation and piping systems.",
       "categoryName": "Agriculture Pipes & Fittings",
@@ -8765,14 +8772,7 @@
         "75MM": "FG-401348",
         "90MM": "FG-401349",
         "110MM": "FG-401350"
-      },
-      "packSizes": {
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1
-      },
-      "packing": "63MM:1, 75MM:1, 90MM:1, 110MM:1"
+      }
     },
     {
       "id": "prod_agri_7b",
@@ -8786,6 +8786,13 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "63MM:1, 75MM:1, 90MM:1, 110MM:1",
+      "packSizes": {
+        "63MM": 1,
+        "75MM": 1,
+        "90MM": 1,
+        "110MM": 1
+      },
       "categoryId": "cat_agri",
       "description": "LDPE AGRICULTURE LAPETA PIPE 91 MTR. Available sizes: 63MM, 75MM, 90MM, 110MM.",
       "categoryName": "Agriculture Pipes & Fittings",
@@ -8794,14 +8801,7 @@
         "75MM": "FG-401840",
         "90MM": "FG-401841",
         "110MM": "FG-401839"
-      },
-      "packSizes": {
-        "63MM": 1,
-        "75MM": 1,
-        "90MM": 1,
-        "110MM": 1
-      },
-      "packing": "63MM:1, 75MM:1, 90MM:1, 110MM:1"
+      }
     },
     {
       "id": "prod_garden_5",
@@ -8812,6 +8812,7 @@
         "6MM"
       ],
       "status": "Active",
+      "packing": "6MM:1",
       "packSizes": {
         "6MM": 1
       },
@@ -8820,8 +8821,7 @@
       "categoryName": "Garden, Braided & LDPE Pipes",
       "sizeProductCodes": {
         "6MM": "FG-401374"
-      },
-      "packing": "6MM:1"
+      }
     },
     {
       "id": "prod_hdpe_6",
@@ -8833,18 +8833,18 @@
         "20MM - 300MTR"
       ],
       "status": "Active",
+      "packing": "20MM - 500MTR:500, 20MM - 300MTR:300",
       "packSizes": {
-        "20MM - 500MTR": 500,
-        "20MM - 300MTR": 300
+        "20MM - 300MTR": 300,
+        "20MM - 500MTR": 500
       },
       "categoryId": "cat_hdpe",
       "description": "MDPE PIPES PE80 PN16 DN20MM. Medium Density Polyethylene Pipe. Available in 500MTR and 300MTR coils.",
       "categoryName": "HDPE PIPE & FITTINGS",
       "sizeProductCodes": {
-        "20MM - 500MTR": "FG-400845",
-        "20MM - 300MTR": "FG-401335"
-      },
-      "packing": "20MM - 500MTR:500, 20MM - 300MTR:300"
+        "20MM - 300MTR": "FG-401335",
+        "20MM - 500MTR": "FG-400845"
+      }
     },
     {
       "id": "prod_household_5",
@@ -8977,6 +8977,7 @@
         "250ML"
       ],
       "status": "Active",
+      "packing": "50ML:36, 100ML:18, 250ML:12",
       "packSizes": {
         "50ML": 36,
         "100ML": 18,
@@ -8989,8 +8990,7 @@
         "50ML": "FG-401631",
         "100ML": "FG-401632",
         "250ML": "FG-401633"
-      },
-      "packing": "50ML:36, 100ML:18, 250ML:12"
+      }
     },
     {
       "id": "prod_solvent_8",
@@ -9003,6 +9003,7 @@
         "100ML"
       ],
       "status": "Active",
+      "packing": "25ML:50, 50ML:32, 100ML:21",
       "packSizes": {
         "25ML": 50,
         "50ML": 32,
@@ -9015,8 +9016,7 @@
         "25ML": "FG-401642",
         "50ML": "FG-401643",
         "100ML": "FG-401644"
-      },
-      "packing": "25ML:50, 50ML:32, 100ML:21"
+      }
     },
     {
       "id": "prod_solvent_10",
@@ -9056,6 +9056,7 @@
         "250ML"
       ],
       "status": "Active",
+      "packing": "50ML:36, 100ML:18, 250ML:12",
       "packSizes": {
         "50ML": 36,
         "100ML": 18,
@@ -9068,8 +9069,7 @@
         "50ML": "FG-401636",
         "100ML": "FG-401637",
         "250ML": "FG-401638"
-      },
-      "packing": "50ML:36, 100ML:18, 250ML:12"
+      }
     },
     {
       "id": "prod_solvent_5",
@@ -9114,6 +9114,17 @@
         "110 X 90"
       ],
       "status": "Active",
+      "packing": "63 X 40:125, 63 X 50:130, 75 X 63:80, 90 X 63:54, 90 X 75:54, 110 X 63:54, 110 X 75:72, 110 X 90:72",
+      "packSizes": {
+        "63 X 40": 125,
+        "63 X 50": 130,
+        "75 X 63": 80,
+        "90 X 63": 54,
+        "90 X 75": 54,
+        "110 X 63": 54,
+        "110 X 75": 72,
+        "110 X 90": 72
+      },
       "categoryId": "cat_agri",
       "description": "REDUCING BUSH (LW) for agriculture irrigation and piping systems.",
       "categoryName": "Agriculture Pipes & Fittings",
@@ -9126,18 +9137,7 @@
         "110 X 63": "FG-400651",
         "110 X 75": "FG-400652",
         "110 X 90": "FG-400653"
-      },
-      "packSizes": {
-        "63 X 40": 125,
-        "63 X 50": 130,
-        "75 X 63": 80,
-        "90 X 63": 54,
-        "90 X 75": 54,
-        "110 X 63": 54,
-        "110 X 75": 72,
-        "110 X 90": 72
-      },
-      "packing": "63 X 40:125, 63 X 50:130, 75 X 63:80, 90 X 63:54, 90 X 75:54, 110 X 63:54, 110 X 75:72, 110 X 90:72"
+      }
     },
     {
       "id": "prod_faucet_22",
@@ -9325,6 +9325,7 @@
         "2000"
       ],
       "status": "Active",
+      "packing": "-",
       "packSizes": {},
       "categoryId": "cat_tanks",
       "description": "ROTO UNDERGROUND TANK. Available sizes: 1000, 2000.",
@@ -9332,8 +9333,7 @@
       "sizeProductCodes": {
         "1000": "FG-401580",
         "2000": "FG-401581"
-      },
-      "packing": "-"
+      }
     },
     {
       "id": "prod_drip_round_isi_1",
@@ -9352,16 +9352,17 @@
         "12-4-50 CLASS 2"
       ],
       "status": "Active",
+      "packing": "12-4-30 CLASS 1:1, 12-4-40 CLASS 1:1, 12-4-50 CLASS 1:1, 12-4-30 CLASS 3:1, 12-4-40 CLASS 3:1, 12-4-50 CLASS 3:1, 12-4-30 CLASS 2:1, 12-4-40 CLASS 2:1, 12-4-50 CLASS 2:1",
       "packSizes": {
         "12-4-30 CLASS 1": 1,
-        "12-4-40 CLASS 1": 1,
-        "12-4-50 CLASS 1": 1,
-        "12-4-30 CLASS 3": 1,
-        "12-4-40 CLASS 3": 1,
-        "12-4-50 CLASS 3": 1,
         "12-4-30 CLASS 2": 1,
+        "12-4-30 CLASS 3": 1,
+        "12-4-40 CLASS 1": 1,
         "12-4-40 CLASS 2": 1,
-        "12-4-50 CLASS 2": 1
+        "12-4-40 CLASS 3": 1,
+        "12-4-50 CLASS 1": 1,
+        "12-4-50 CLASS 2": 1,
+        "12-4-50 CLASS 3": 1
       },
       "categoryId": "cat_drip",
       "description": "ROUND DRIPLINE 12MM ISI certified.",
@@ -9369,16 +9370,15 @@
       "categoryName": "DRIP IRRIGATION SYSTEM",
       "sizeProductCodes": {
         "12-4-30 CLASS 1": "FG-401742",
-        "12-4-40 CLASS 1": "FG-401743",
-        "12-4-50 CLASS 1": "FG-401744",
-        "12-4-30 CLASS 3": "FG-401751",
-        "12-4-40 CLASS 3": "FG-401752",
-        "12-4-50 CLASS 3": "FG-401753",
         "12-4-30 CLASS 2": "FG-401754",
+        "12-4-30 CLASS 3": "FG-401751",
+        "12-4-40 CLASS 1": "FG-401743",
         "12-4-40 CLASS 2": "FG-401755",
-        "12-4-50 CLASS 2": "FG-401756"
-      },
-      "packing": "12-4-30 CLASS 1:1, 12-4-40 CLASS 1:1, 12-4-50 CLASS 1:1, 12-4-30 CLASS 3:1, 12-4-40 CLASS 3:1, 12-4-50 CLASS 3:1, 12-4-30 CLASS 2:1, 12-4-40 CLASS 2:1, 12-4-50 CLASS 2:1"
+        "12-4-40 CLASS 3": "FG-401752",
+        "12-4-50 CLASS 1": "FG-401744",
+        "12-4-50 CLASS 2": "FG-401756",
+        "12-4-50 CLASS 3": "FG-401753"
+      }
     },
     {
       "id": "prod_drip_round_isi_2",
@@ -9394,12 +9394,13 @@
         "16-4-50 CLASS 2"
       ],
       "status": "Active",
+      "packing": "16-4-30 CLASS 1:1, 16-4-40 CLASS 1:1, 16-4-50 CLASS 1:1, 16-4-30 CLASS 2:1, 16-4-40 CLASS 2:1, 16-4-50 CLASS 2:1",
       "packSizes": {
         "16-4-30 CLASS 1": 1,
-        "16-4-40 CLASS 1": 1,
-        "16-4-50 CLASS 1": 1,
         "16-4-30 CLASS 2": 1,
+        "16-4-40 CLASS 1": 1,
         "16-4-40 CLASS 2": 1,
+        "16-4-50 CLASS 1": 1,
         "16-4-50 CLASS 2": 1
       },
       "categoryId": "cat_drip",
@@ -9408,13 +9409,12 @@
       "categoryName": "DRIP IRRIGATION SYSTEM",
       "sizeProductCodes": {
         "16-4-30 CLASS 1": "FG-401745",
-        "16-4-40 CLASS 1": "FG-401746",
-        "16-4-50 CLASS 1": "FG-401747",
         "16-4-30 CLASS 2": "FG-401757",
+        "16-4-40 CLASS 1": "FG-401746",
         "16-4-40 CLASS 2": "FG-401758",
+        "16-4-50 CLASS 1": "FG-401747",
         "16-4-50 CLASS 2": "FG-401759"
-      },
-      "packing": "16-4-30 CLASS 1:1, 16-4-40 CLASS 1:1, 16-4-50 CLASS 1:1, 16-4-30 CLASS 2:1, 16-4-40 CLASS 2:1, 16-4-50 CLASS 2:1"
+      }
     },
     {
       "id": "prod_agri_12",
@@ -9428,6 +9428,7 @@
         "110 X 32"
       ],
       "status": "Active",
+      "packing": "75 X 20:84, 75 X 25:84, 75 X 32:84, 110 X 32:1",
       "packSizes": {
         "75 X 20": 84,
         "75 X 25": 84,
@@ -9442,8 +9443,7 @@
         "75 X 25": "FG-400798",
         "75 X 32": "FG-400799",
         "110 X 32": "FG-400813"
-      },
-      "packing": "75 X 20:84, 75 X 25:84, 75 X 32:84, 110 X 32:1"
+      }
     },
     {
       "id": "prod_sanitary_1",
@@ -9644,6 +9644,7 @@
     },
     {
       "id": "prod_sprinkler_6",
+      "uom": "Nos",
       "name": "SPRINKLER FITTINGS ADAPTOR",
       "image": "/images/sprinkler/SPRINKLER FITTINGS ADAPTOR.webp",
       "sizes": [
@@ -9652,6 +9653,7 @@
         "75MM P TYPE"
       ],
       "status": "Active",
+      "packing": "63MM C TYPE:1, 75MM C TYPE:1, 75MM P TYPE:1",
       "packSizes": {
         "63MM C TYPE": 1,
         "75MM C TYPE": 1,
@@ -9664,12 +9666,11 @@
         "63MM C TYPE": "FG-401527",
         "75MM C TYPE": "FG-401504",
         "75MM P TYPE": "FG-401512"
-      },
-      "uom": "Nos",
-      "packing": "63MM C TYPE:1, 75MM C TYPE:1, 75MM P TYPE:1"
+      }
     },
     {
       "id": "prod_sprinkler_7",
+      "uom": "Nos",
       "name": "SPRINKLER FITTINGS BEND",
       "image": "/images/sprinkler/SPRINKLER FITTINGS BEND.webp",
       "sizes": [
@@ -9678,6 +9679,7 @@
         "75MM L TYPE"
       ],
       "status": "Active",
+      "packing": "63MM C TYPE:1, 75MM C TYPE:1, 75MM L TYPE:1",
       "packSizes": {
         "63MM C TYPE": 1,
         "75MM C TYPE": 1,
@@ -9690,12 +9692,11 @@
         "63MM C TYPE": "FG-401525",
         "75MM C TYPE": "FG-401502",
         "75MM L TYPE": "FG-401510"
-      },
-      "uom": "Nos",
-      "packing": "63MM C TYPE:1, 75MM C TYPE:1, 75MM L TYPE:1"
+      }
     },
     {
       "id": "prod_sprinkler_8",
+      "uom": "Nos",
       "name": "SPRINKLER FITTINGS END CAP",
       "image": "/images/sprinkler/SPRINKLER FITTINGS END CAP.webp",
       "sizes": [
@@ -9704,24 +9705,24 @@
         "63MM C TYPE"
       ],
       "status": "Active",
+      "packing": "75MM L TYPE:1, 75MM C TYPE:1, 63MM C TYPE:1",
       "packSizes": {
-        "75MM L TYPE": 1,
+        "63MM C TYPE": 1,
         "75MM C TYPE": 1,
-        "63MM C TYPE": 1
+        "75MM L TYPE": 1
       },
       "categoryId": "cat_sprinkler",
       "description": "SPRINKLER FITTINGS END CAP for sprinkler irrigation systems.",
       "categoryName": "Sprinkler Pipes & Fittings",
       "sizeProductCodes": {
-        "75MM L TYPE": "FG-401514",
+        "63MM C TYPE": "FG-401529",
         "75MM C TYPE": "FG-401506",
-        "63MM C TYPE": "FG-401529"
-      },
-      "uom": "Nos",
-      "packing": "75MM L TYPE:1, 75MM C TYPE:1, 63MM C TYPE:1"
+        "75MM L TYPE": "FG-401514"
+      }
     },
     {
       "id": "prod_sprinkler_12",
+      "uom": "Nos",
       "name": "SPRINKLER FITTINGS GI RISER PIPE",
       "image": "/images/sprinkler/SPRINKLER FITTINGS GI RISER PIPE.webp",
       "sizes": [
@@ -9729,22 +9730,22 @@
         "20MM L TYPE"
       ],
       "status": "Active",
+      "packing": "75MM C TYPE:1, 20MM L TYPE:1",
       "packSizes": {
-        "75MM C TYPE": 1,
-        "20MM L TYPE": 1
+        "20MM L TYPE": 1,
+        "75MM C TYPE": 1
       },
       "categoryId": "cat_sprinkler",
       "description": "SPRINKLER FITTINGS GI RISER PIPE for sprinkler irrigation systems.",
       "categoryName": "Sprinkler Pipes & Fittings",
       "sizeProductCodes": {
-        "75MM C TYPE": "FG-401508",
-        "20MM L TYPE": "FG-401515"
-      },
-      "uom": "Nos",
-      "packing": "75MM C TYPE:1, 20MM L TYPE:1"
+        "20MM L TYPE": "FG-401515",
+        "75MM C TYPE": "FG-401508"
+      }
     },
     {
       "id": "prod_sprinkler_9",
+      "uom": "Nos",
       "name": "SPRINKLER FITTINGS LATCH & CLAMP",
       "image": "/images/sprinkler/SPRINKLER FITTINGS LATCH & CLAMP.webp",
       "sizes": [
@@ -9752,28 +9753,29 @@
         "63MM P TYPE"
       ],
       "status": "Active",
+      "packing": "75MM P TYPE:1, 63MM P TYPE:1",
       "packSizes": {
-        "75MM P TYPE": 1,
-        "63MM P TYPE": 1
+        "63MM P TYPE": 1,
+        "75MM P TYPE": 1
       },
       "categoryId": "cat_sprinkler",
       "description": "SPRINKLER FITTINGS LATCH & CLAMP for sprinkler irrigation systems.",
       "categoryName": "Sprinkler Pipes & Fittings",
       "sizeProductCodes": {
-        "75MM P TYPE": "FG-401517",
-        "63MM P TYPE": "FG-401518"
-      },
-      "uom": "Nos",
-      "packing": "75MM P TYPE:1, 63MM P TYPE:1"
+        "63MM P TYPE": "FG-401518",
+        "75MM P TYPE": "FG-401517"
+      }
     },
     {
       "id": "prod_sprinkler_11",
+      "uom": "Nos",
       "name": "SPRINKLER FITTINGS NOZZELGUN METAL",
       "image": "/images/sprinkler/SPRINKLER FITTINGS NOZZELGUN METAL.webp",
       "sizes": [
         "20MM"
       ],
       "status": "Active",
+      "packing": "20MM:1",
       "packSizes": {
         "20MM": 1
       },
@@ -9782,12 +9784,11 @@
       "categoryName": "Sprinkler Pipes & Fittings",
       "sizeProductCodes": {
         "20MM": "FG-401507"
-      },
-      "uom": "Nos",
-      "packing": "20MM:1"
+      }
     },
     {
       "id": "prod_sprinkler_10",
+      "uom": "Nos",
       "name": "SPRINKLER FITTINGS PCN",
       "image": "/images/sprinkler/SPRINKLER FITTINGS PCN.webp",
       "sizes": [
@@ -9796,6 +9797,7 @@
         "75MM L TYPE"
       ],
       "status": "Active",
+      "packing": "63MM C TYPE:1, 75MM C TYPE:1, 75MM L TYPE:1",
       "packSizes": {
         "63MM C TYPE": 1,
         "75MM C TYPE": 1,
@@ -9808,12 +9810,11 @@
         "63MM C TYPE": "FG-401528",
         "75MM C TYPE": "FG-401505",
         "75MM L TYPE": "FG-401513"
-      },
-      "uom": "Nos",
-      "packing": "63MM C TYPE:1, 75MM C TYPE:1, 75MM L TYPE:1"
+      }
     },
     {
       "id": "prod_sprinkler_5",
+      "uom": "Nos",
       "name": "SPRINKLER FITTINGS TEE",
       "image": "/images/sprinkler/SPRINKLER TEE ISI.webp",
       "sizes": [
@@ -9822,25 +9823,25 @@
         "63MM, C TYPE"
       ],
       "status": "Active",
+      "packing": "75MM, C TYPE:1, 75MM, L TYPE:1, 63MM, C TYPE:1",
       "packings": {},
+      "packSizes": {
+        "63MM, C TYPE": 1,
+        "75MM, C TYPE": 1,
+        "75MM, L TYPE": 1
+      },
       "categoryId": "cat_sprinkler",
       "description": "SPRINKLER FITTINGS TEE for sprinkler irrigation systems. Available sizes: 75MM, C TYPE, 75MM, L TYPE, 63MM, C TYPE.",
       "categoryName": "Sprinkler Pipes & Fittings",
       "sizeProductCodes": {
+        "63MM, C TYPE": "FG-401526",
         "75MM, C TYPE": "FG-401503",
-        "75MM, L TYPE": "FG-401511",
-        "63MM, C TYPE": "FG-401526"
-      },
-      "uom": "Nos",
-      "packSizes": {
-        "75MM, C TYPE": 1,
-        "75MM, L TYPE": 1,
-        "63MM, C TYPE": 1
-      },
-      "packing": "75MM, C TYPE:1, 75MM, L TYPE:1, 63MM, C TYPE:1"
+        "75MM, L TYPE": "FG-401511"
+      }
     },
     {
       "id": "prod_sprinkler_1",
+      "uom": "Nos",
       "name": "SPRINKLER ISI PIPE 6 MTR",
       "image": "/images/sprinkler/SPRINKLER ISI PIPE 6 MTR.webp",
       "sizes": [
@@ -9852,13 +9853,14 @@
         "75MM C TYPE 3.2 KG"
       ],
       "status": "Active",
+      "packing": "63MM C TYPE 3.2 KG:1, 63MM L TYPE 3.2 KG:1, 75MM C TYPE 2.5 KG:1, 75MM L TYPE 3.2 KG:1, 75MM L TYPE 2.5 KG:1, 75MM C TYPE 3.2 KG:1",
       "packSizes": {
         "63MM C TYPE 3.2 KG": 1,
         "63MM L TYPE 3.2 KG": 1,
         "75MM C TYPE 2.5 KG": 1,
-        "75MM L TYPE 3.2 KG": 1,
+        "75MM C TYPE 3.2 KG": 1,
         "75MM L TYPE 2.5 KG": 1,
-        "75MM C TYPE 3.2 KG": 1
+        "75MM L TYPE 3.2 KG": 1
       },
       "categoryId": "cat_sprinkler",
       "description": "SPRINKLER ISI PIPE 6 MTR for sprinkler irrigation systems.",
@@ -9867,15 +9869,14 @@
         "63MM C TYPE 3.2 KG": "FG-401520",
         "63MM L TYPE 3.2 KG": "FG-401491",
         "75MM C TYPE 2.5 KG": "FG-401490",
-        "75MM L TYPE 3.2 KG": "FG-401492",
+        "75MM C TYPE 3.2 KG": "FG-401521",
         "75MM L TYPE 2.5 KG": "FG-401519",
-        "75MM C TYPE 3.2 KG": "FG-401521"
-      },
-      "uom": "Nos",
-      "packing": "63MM C TYPE 3.2 KG:1, 63MM L TYPE 3.2 KG:1, 75MM C TYPE 2.5 KG:1, 75MM L TYPE 3.2 KG:1, 75MM L TYPE 2.5 KG:1, 75MM C TYPE 3.2 KG:1"
+        "75MM L TYPE 3.2 KG": "FG-401492"
+      }
     },
     {
       "id": "prod_sprinkler_2",
+      "uom": "Nos",
       "name": "SPRINKLER NISI PIPE 6 MTR",
       "image": "/images/sprinkler/SPRINKLER NISI PIPE 6 MTR.webp",
       "sizes": [
@@ -9885,9 +9886,10 @@
         "90MM L TYPE 3.2 KG"
       ],
       "status": "Active",
+      "packing": "75MM C TYPE 3.2 KG:1, 63MM C TYPE 3.2 KG:1, 90MM C TYPE 3.2 KG:1, 90MM L TYPE 3.2 KG:1",
       "packSizes": {
-        "75MM C TYPE 3.2 KG": 1,
         "63MM C TYPE 3.2 KG": 1,
+        "75MM C TYPE 3.2 KG": 1,
         "90MM C TYPE 3.2 KG": 1,
         "90MM L TYPE 3.2 KG": 1
       },
@@ -9895,16 +9897,15 @@
       "description": "SPRINKLER NISI PIPE 6 MTR for sprinkler irrigation systems.",
       "categoryName": "Sprinkler Pipes & Fittings",
       "sizeProductCodes": {
-        "75MM C TYPE 3.2 KG": "FG-401522",
         "63MM C TYPE 3.2 KG": "FG-401523",
+        "75MM C TYPE 3.2 KG": "FG-401522",
         "90MM C TYPE 3.2 KG": "FG-401866",
         "90MM L TYPE 3.2 KG": "FG-401867"
-      },
-      "uom": "Nos",
-      "packing": "75MM C TYPE 3.2 KG:1, 63MM C TYPE 3.2 KG:1, 90MM C TYPE 3.2 KG:1, 90MM L TYPE 3.2 KG:1"
+      }
     },
     {
       "id": "prod_sprinkler_3",
+      "uom": "Nos",
       "name": "SPRINKLER SET 6 MTR ISI",
       "image": "/images/sprinkler/SPRINKLER SET 6 MTR ISI.webp",
       "sizes": [
@@ -9915,28 +9916,28 @@
         "63MM C TYPE 3.2 KG"
       ],
       "status": "Active",
+      "packing": "75MM L TYPE 3.2 KG:1, 75MM C TYPE 3.2 KG:1, 75MM C TYPE 2.5 KG:1, 75MM L TYPE 2.5 KG:1, 63MM C TYPE 3.2 KG:1",
       "packSizes": {
-        "75MM L TYPE 3.2 KG": 1,
-        "75MM C TYPE 3.2 KG": 1,
+        "63MM C TYPE 3.2 KG": 1,
         "75MM C TYPE 2.5 KG": 1,
+        "75MM C TYPE 3.2 KG": 1,
         "75MM L TYPE 2.5 KG": 1,
-        "63MM C TYPE 3.2 KG": 1
+        "75MM L TYPE 3.2 KG": 1
       },
       "categoryId": "cat_sprinkler",
       "description": "SPRINKLER SET 6 MTR ISI for sprinkler irrigation systems.",
       "categoryName": "Sprinkler Pipes & Fittings",
       "sizeProductCodes": {
-        "75MM L TYPE 3.2 KG": "FG-401498",
-        "75MM C TYPE 3.2 KG": "FG-401499",
+        "63MM C TYPE 3.2 KG": "FG-401501",
         "75MM C TYPE 2.5 KG": "FG-401500",
+        "75MM C TYPE 3.2 KG": "FG-401499",
         "75MM L TYPE 2.5 KG": "FG-401524",
-        "63MM C TYPE 3.2 KG": "FG-401501"
-      },
-      "uom": "Nos",
-      "packing": "75MM L TYPE 3.2 KG:1, 75MM C TYPE 3.2 KG:1, 75MM C TYPE 2.5 KG:1, 75MM L TYPE 2.5 KG:1, 63MM C TYPE 3.2 KG:1"
+        "75MM L TYPE 3.2 KG": "FG-401498"
+      }
     },
     {
       "id": "prod_sprinkler_4",
+      "uom": "Nos",
       "name": "SPRINKLER SET 6 MTR N-ISI",
       "image": "/images/sprinkler/SPRINKLER SET 6 MTR N-ISI.webp",
       "sizes": [
@@ -9945,21 +9946,20 @@
         "63MM C TYPE 3.2 KG"
       ],
       "status": "Active",
+      "packing": "75MM L TYPE 3.2 KG:1, 75MM C TYPE 3.2 KG:1, 63MM C TYPE 3.2 KG:1",
       "packSizes": {
-        "75MM L TYPE 3.2 KG": 1,
+        "63MM C TYPE 3.2 KG": 1,
         "75MM C TYPE 3.2 KG": 1,
-        "63MM C TYPE 3.2 KG": 1
+        "75MM L TYPE 3.2 KG": 1
       },
       "categoryId": "cat_sprinkler",
       "description": "SPRINKLER SET 6 MTR N-ISI for sprinkler irrigation systems.",
       "categoryName": "Sprinkler Pipes & Fittings",
       "sizeProductCodes": {
-        "75MM L TYPE 3.2 KG": "FG-401495",
+        "63MM C TYPE 3.2 KG": "FG-401497",
         "75MM C TYPE 3.2 KG": "FG-401496",
-        "63MM C TYPE 3.2 KG": "FG-401497"
-      },
-      "uom": "Nos",
-      "packing": "75MM L TYPE 3.2 KG:1, 75MM C TYPE 3.2 KG:1, 63MM C TYPE 3.2 KG:1"
+        "75MM L TYPE 3.2 KG": "FG-401495"
+      }
     },
     {
       "id": "prod_swr_common_6",
@@ -9970,6 +9970,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "110MM:1",
       "packSizes": {
         "110MM": 1
       },
@@ -9978,8 +9979,7 @@
       "categoryName": "SWR Drainage Pipes & Fittings",
       "sizeProductCodes": {
         "110MM": "FG-400740"
-      },
-      "packing": "110MM:1"
+      }
     },
     {
       "id": "prod_swr_common_4",
@@ -9990,6 +9990,7 @@
         "110 X 75 X 50MM"
       ],
       "status": "Active",
+      "packing": "110 X 75 X 50MM:45",
       "packSizes": {
         "110 X 75 X 50MM": 45
       },
@@ -9998,8 +9999,7 @@
       "categoryName": "SWR Drainage Pipes & Fittings",
       "sizeProductCodes": {
         "110 X 75 X 50MM": "FG-400736"
-      },
-      "packing": "110 X 75 X 50MM:45"
+      }
     },
     {
       "id": "prod_swr_common_3",
@@ -10010,6 +10010,7 @@
         "110 X 75 X 50MM"
       ],
       "status": "Active",
+      "packing": "110 X 75 X 50MM:45",
       "packSizes": {
         "110 X 75 X 50MM": 45
       },
@@ -10018,8 +10019,7 @@
       "categoryName": "SWR Drainage Pipes & Fittings",
       "sizeProductCodes": {
         "110 X 75 X 50MM": "FG-400735"
-      },
-      "packing": "110 X 75 X 50MM:45"
+      }
     },
     {
       "id": "prod_swr_common_1",
@@ -10032,6 +10032,7 @@
         "110 X 110MM"
       ],
       "status": "Active",
+      "packing": "110 X 75MM:50, 110 X 90MM:45, 110 X 110MM:35",
       "packSizes": {
         "110 X 75MM": 50,
         "110 X 90MM": 45,
@@ -10044,8 +10045,7 @@
         "110 X 75MM": "FG-400741",
         "110 X 90MM": "FG-400751",
         "110 X 110MM": "FG-400752"
-      },
-      "packing": "110 X 75MM:50, 110 X 90MM:45, 110 X 110MM:35"
+      }
     },
     {
       "id": "prod_swr_common_2",
@@ -10058,6 +10058,7 @@
         "110 X 110MM"
       ],
       "status": "Active",
+      "packing": "110 X 75MM:50, 110 X 90MM:45, 110 X 110MM:35",
       "packSizes": {
         "110 X 75MM": 50,
         "110 X 90MM": 45,
@@ -10070,8 +10071,7 @@
         "110 X 75MM": "FG-400738",
         "110 X 90MM": "FG-400749",
         "110 X 110MM": "FG-400750"
-      },
-      "packing": "110 X 75MM:50, 110 X 90MM:45, 110 X 110MM:35"
+      }
     },
     {
       "id": "prod_swr_common_8",
@@ -10083,6 +10083,7 @@
         "125 X 110MM"
       ],
       "status": "Active",
+      "packing": "110 X 110MM:15, 125 X 110MM:14",
       "packSizes": {
         "110 X 110MM": 15,
         "125 X 110MM": 14
@@ -10093,8 +10094,7 @@
       "sizeProductCodes": {
         "110 X 110MM": "FG-400754",
         "125 X 110MM": "FG-400766"
-      },
-      "packing": "110 X 110MM:15, 125 X 110MM:14"
+      }
     },
     {
       "id": "prod_swr_common_7",
@@ -10106,6 +10106,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:180, 110MM:100",
       "packSizes": {
         "75MM": 180,
         "110MM": 100
@@ -10116,8 +10117,7 @@
       "sizeProductCodes": {
         "75MM": "FG-400818",
         "110MM": "FG-400816"
-      },
-      "packing": "75MM:180, 110MM:100"
+      }
     },
     {
       "id": "prod_swr_common_5",
@@ -10129,6 +10129,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:210, 110MM:100",
       "packSizes": {
         "75MM": 210,
         "110MM": 100
@@ -10139,11 +10140,11 @@
       "sizeProductCodes": {
         "75MM": "FG-400817",
         "110MM": "FG-400815"
-      },
-      "packing": "75MM:210, 110MM:100"
+      }
     },
     {
       "id": "prod_swr_common_9",
+      "uom": "Nos",
       "name": "SWR DOOR CAP",
       "image": "/images/swr/SWR DOOR CAP.webp",
       "sizes": [
@@ -10152,6 +10153,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:100, 90MM:80, 110MM:50",
       "packSizes": {
         "75MM": 100,
         "90MM": 80,
@@ -10164,12 +10166,11 @@
         "75MM": "FG-400795",
         "90MM": "FG-400796",
         "110MM": "FG-400797"
-      },
-      "uom": "Nos",
-      "packing": "75MM:100, 90MM:80, 110MM:50"
+      }
     },
     {
       "id": "prod_swr_1",
+      "uom": "Nos",
       "name": "SWR PIPES ISI RINGFIT (3 MTR)",
       "image": "/images/swr/SWR RINGFIT - RINGFIT PIPE ISI.webp",
       "sizes": [
@@ -10182,21 +10183,20 @@
       "packing": "2 1/2\" (75MM) - 3MTR:1, 3\" (90MM) - 3MTR:1, 4\" (110MM) - 3MTR:1, 6\" (160MM) - 3MTR:1",
       "packSize": 1,
       "packSizes": {
-        "2 1/2\" (75MM) - 3MTR": 1,
         "3\" (90MM) - 3MTR": 1,
         "4\" (110MM) - 3MTR": 1,
-        "6\" (160MM) - 3MTR": 1
+        "6\" (160MM) - 3MTR": 1,
+        "2 1/2\" (75MM) - 3MTR": 1
       },
       "categoryId": "cat_swr",
       "description": "SWR PIPES ISI RINGFIT (3 MTR). Available sizes: 2 1/2\" (75MM) - 3MTR, 3\" (90MM) - 3MTR, 4\" (110MM) - 3MTR, 6\" (160MM) - 3MTR.",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "sizeProductCodes": {
-        "2 1/2\" (75MM) - 3MTR": "FG-401413",
         "3\" (90MM) - 3MTR": "FG-401414",
         "4\" (110MM) - 3MTR": "FG-401415",
-        "6\" (160MM) - 3MTR": "FG-401416"
-      },
-      "uom": "Nos"
+        "6\" (160MM) - 3MTR": "FG-401416",
+        "2 1/2\" (75MM) - 3MTR": "FG-401413"
+      }
     },
     {
       "id": "prod_swr_selfit_1",
@@ -10218,41 +10218,42 @@
         "160MM - 3MTR - TYPE B"
       ],
       "status": "Active",
+      "packing": "75MM - 3MTR - TYPE A:1, 75MM - 6MTR - TYPE A:1, 90MM - 3MTR - TYPE A:1, 90MM - 6MTR - TYPE A:1, 110MM - 3MTR - TYPE A:1, 110MM - 6MTR - TYPE A:1, 160MM - 3MTR - TYPE A:1, 160MM - 6MTR - TYPE A:1, 75MM - 3MTR - TYPE B:1, 90MM - 3MTR - TYPE B:1, 110MM - 3MTR - TYPE B:1, 160MM - 3MTR - TYPE B:1",
       "packSizes": {
         "75MM - 3MTR - TYPE A": 1,
+        "75MM - 3MTR - TYPE B": 1,
         "75MM - 6MTR - TYPE A": 1,
         "90MM - 3MTR - TYPE A": 1,
+        "90MM - 3MTR - TYPE B": 1,
         "90MM - 6MTR - TYPE A": 1,
         "110MM - 3MTR - TYPE A": 1,
+        "110MM - 3MTR - TYPE B": 1,
         "110MM - 6MTR - TYPE A": 1,
         "160MM - 3MTR - TYPE A": 1,
-        "160MM - 6MTR - TYPE A": 1,
-        "75MM - 3MTR - TYPE B": 1,
-        "90MM - 3MTR - TYPE B": 1,
-        "110MM - 3MTR - TYPE B": 1,
-        "160MM - 3MTR - TYPE B": 1
+        "160MM - 3MTR - TYPE B": 1,
+        "160MM - 6MTR - TYPE A": 1
       },
       "categoryId": "cat_swr",
       "description": "SWR PIPES ISI SELFIT. Available in 3MTR and 6MTR (TYPE A, TYPE B). Sizes: 75MM, 90MM, 110MM, 160MM.",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "sizeProductCodes": {
         "75MM - 3MTR - TYPE A": "FG-401436",
+        "75MM - 3MTR - TYPE B": "FG-401444",
         "75MM - 6MTR - TYPE A": "FG-401440",
         "90MM - 3MTR - TYPE A": "FG-401437",
+        "90MM - 3MTR - TYPE B": "FG-401445",
         "90MM - 6MTR - TYPE A": "FG-401441",
         "110MM - 3MTR - TYPE A": "FG-401438",
+        "110MM - 3MTR - TYPE B": "FG-401446",
         "110MM - 6MTR - TYPE A": "FG-401442",
         "160MM - 3MTR - TYPE A": "FG-401439",
-        "160MM - 6MTR - TYPE A": "FG-401443",
-        "75MM - 3MTR - TYPE B": "FG-401444",
-        "90MM - 3MTR - TYPE B": "FG-401445",
-        "110MM - 3MTR - TYPE B": "FG-401446",
-        "160MM - 3MTR - TYPE B": "FG-401447"
-      },
-      "packing": "75MM - 3MTR - TYPE A:1, 75MM - 6MTR - TYPE A:1, 90MM - 3MTR - TYPE A:1, 90MM - 6MTR - TYPE A:1, 110MM - 3MTR - TYPE A:1, 110MM - 6MTR - TYPE A:1, 160MM - 3MTR - TYPE A:1, 160MM - 6MTR - TYPE A:1, 75MM - 3MTR - TYPE B:1, 90MM - 3MTR - TYPE B:1, 110MM - 3MTR - TYPE B:1, 160MM - 3MTR - TYPE B:1"
+        "160MM - 3MTR - TYPE B": "FG-401447",
+        "160MM - 6MTR - TYPE A": "FG-401443"
+      }
     },
     {
       "id": "prod_swr_2",
+      "uom": "Nos",
       "name": "SWR PIPES NISI RINGFIT (3 MTR)",
       "image": "/images/swr/SWR RINGFIT - RINGFIT PIPE.webp",
       "sizes": [
@@ -10265,21 +10266,20 @@
       "packing": "2 1/2\" (75MM) 4KG - 3MTR:1, 3\" (90MM) 4KG - 3MTR:1, 4\" (110MM) 4KG - 3MTR:1, 6\" (160MM) 4KG - 3MTR:1",
       "packSize": 1,
       "packSizes": {
-        "2 1/2\" (75MM) 4KG - 3MTR": 1,
         "3\" (90MM) 4KG - 3MTR": 1,
         "4\" (110MM) 4KG - 3MTR": 1,
-        "6\" (160MM) 4KG - 3MTR": 1
+        "6\" (160MM) 4KG - 3MTR": 1,
+        "2 1/2\" (75MM) 4KG - 3MTR": 1
       },
       "categoryId": "cat_swr",
       "description": "SWR PIPES NISI RINGFIT (3 MTR). Available sizes: 2 1/2\" (75MM) 4KG - 3MTR, 3\" (90MM) 4KG - 3MTR, 4\" (110MM) 4KG - 3MTR, 6\" (160MM) 4KG - 3MTR.",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "sizeProductCodes": {
-        "2 1/2\" (75MM) 4KG - 3MTR": "FG-401425",
         "3\" (90MM) 4KG - 3MTR": "FG-401426",
         "4\" (110MM) 4KG - 3MTR": "FG-401427",
-        "6\" (160MM) 4KG - 3MTR": "FG-401428"
-      },
-      "uom": "Nos"
+        "6\" (160MM) 4KG - 3MTR": "FG-401428",
+        "2 1/2\" (75MM) 4KG - 3MTR": "FG-401425"
+      }
     },
     {
       "id": "prod_swr_selfit_2",
@@ -10299,37 +10299,38 @@
         "110MM - 3MTR - TYPE B"
       ],
       "status": "Active",
+      "packing": "75MM - 3MTR - TYPE A:1, 75MM - 6MTR - TYPE A:1, 90MM - 3MTR - TYPE A:1, 90MM - 6MTR - TYPE A:1, 110MM - 3MTR - TYPE A:1, 110MM - 6MTR - TYPE A:1, 160MM - 3MTR - TYPE A:1, 160MM - 6MTR - TYPE A:1, 75MM - 3MTR - TYPE B:1, 110MM - 3MTR - TYPE B:1",
       "packSizes": {
         "75MM - 3MTR - TYPE A": 1,
+        "75MM - 3MTR - TYPE B": 1,
         "75MM - 6MTR - TYPE A": 1,
         "90MM - 3MTR - TYPE A": 1,
         "90MM - 6MTR - TYPE A": 1,
         "110MM - 3MTR - TYPE A": 1,
+        "110MM - 3MTR - TYPE B": 1,
         "110MM - 6MTR - TYPE A": 1,
         "160MM - 3MTR - TYPE A": 1,
-        "160MM - 6MTR - TYPE A": 1,
-        "75MM - 3MTR - TYPE B": 1,
-        "110MM - 3MTR - TYPE B": 1
+        "160MM - 6MTR - TYPE A": 1
       },
       "categoryId": "cat_swr",
       "description": "SWR PIPES NISI SELFIT. Available in 3MTR and 6MTR (TYPE A, TYPE B). Sizes: 75MM, 90MM, 110MM, 160MM.",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "sizeProductCodes": {
         "75MM - 3MTR - TYPE A": "FG-401448",
+        "75MM - 3MTR - TYPE B": "FG-401484",
         "75MM - 6MTR - TYPE A": "FG-401452",
         "90MM - 3MTR - TYPE A": "FG-401449",
         "90MM - 6MTR - TYPE A": "FG-401453",
         "110MM - 3MTR - TYPE A": "FG-401450",
+        "110MM - 3MTR - TYPE B": "FG-401485",
         "110MM - 6MTR - TYPE A": "FG-401454",
         "160MM - 3MTR - TYPE A": "FG-401451",
-        "160MM - 6MTR - TYPE A": "FG-401455",
-        "75MM - 3MTR - TYPE B": "FG-401484",
-        "110MM - 3MTR - TYPE B": "FG-401485"
-      },
-      "packing": "75MM - 3MTR - TYPE A:1, 75MM - 6MTR - TYPE A:1, 90MM - 3MTR - TYPE A:1, 90MM - 6MTR - TYPE A:1, 110MM - 3MTR - TYPE A:1, 110MM - 6MTR - TYPE A:1, 160MM - 3MTR - TYPE A:1, 160MM - 6MTR - TYPE A:1, 75MM - 3MTR - TYPE B:1, 110MM - 3MTR - TYPE B:1"
+        "160MM - 6MTR - TYPE A": "FG-401455"
+      }
     },
     {
       "id": "prod_swr_17",
+      "uom": "Nos",
       "name": "SWR RINGFIT - BEND 45",
       "image": "/images/swr/SWR RINGFIT - BEND 45.webp",
       "sizes": [
@@ -10337,22 +10338,22 @@
         "4"
       ],
       "status": "Active",
-      "categoryId": "cat_swr",
-      "description": "SWR RINGFIT - BEND 45. Available sizes: 2 1/2, 4.",
-      "categoryName": "SWR Drainage Pipes & Fittings",
-      "uom": "Nos",
-      "sizeProductCodes": {
-        "4": "FG-400745",
-        "2-1/2": "FG-400760"
-      },
+      "packing": "2-1/2:100, 4:40",
       "packSizes": {
         "4": 40,
         "2-1/2": 100
       },
-      "packing": "2-1/2:100, 4:40"
+      "categoryId": "cat_swr",
+      "description": "SWR RINGFIT - BEND 45. Available sizes: 2 1/2, 4.",
+      "categoryName": "SWR Drainage Pipes & Fittings",
+      "sizeProductCodes": {
+        "4": "FG-400745",
+        "2-1/2": "FG-400760"
+      }
     },
     {
       "id": "prod_swr_13",
+      "uom": "NOS",
       "name": "SWR RINGFIT - SINGLE TEE",
       "image": "/images/swr/SWR RINGFIT - SINGLE TEE.webp",
       "sizes": [
@@ -10360,22 +10361,22 @@
         "4"
       ],
       "status": "Active",
-      "categoryId": "cat_swr",
-      "description": "SWR RINGFIT - SINGLE TEE. Available sizes: 2 1/2, 4.",
-      "categoryName": "SWR Drainage Pipes & Fittings",
-      "uom": "NOS",
-      "sizeProductCodes": {
-        "4": "FG-400804",
-        "2-1/2": "FG-400755"
-      },
+      "packing": "2-1/2:60, 4:20",
       "packSizes": {
         "4": 20,
         "2-1/2": 60
       },
-      "packing": "2-1/2:60, 4:20"
+      "categoryId": "cat_swr",
+      "description": "SWR RINGFIT - SINGLE TEE. Available sizes: 2 1/2, 4.",
+      "categoryName": "SWR Drainage Pipes & Fittings",
+      "sizeProductCodes": {
+        "4": "FG-400804",
+        "2-1/2": "FG-400755"
+      }
     },
     {
       "id": "prod_swr_5",
+      "uom": "Nos",
       "name": "SWR RINGFIT (DSOCKET) TYPE A",
       "image": "/images/swr/SWR RINGFIT - RINGFIT (DOUBLE SOCKET) PIPE.webp",
       "sizes": [
@@ -10394,42 +10395,43 @@
       "packing": "2 1/2  2FT 75MM:1, 4  2FT 110MM:1, 2 1/2  3FT 75MM:1, 4  3FT 110MM:1, 2 1/2  4FT 75MM:1, 4  4FT 110MM:1, 2 1/2  6FT 75MM:1, 4  6FT 110MM:1, 2 1/2  10FT 75MM:1, 4  10FT 110MM:1",
       "packSize": 1,
       "packSizes": {
-        "2 1/2  2FT 75MM": 1,
         "4  2FT 110MM": 1,
-        "2 1/2  3FT 75MM": 1,
         "4  3FT 110MM": 1,
-        "2 1/2  4FT 75MM": 1,
         "4  4FT 110MM": 1,
-        "2 1/2  6FT 75MM": 1,
         "4  6FT 110MM": 1,
-        "2 1/2  10FT 75MM": 1,
-        "4  10FT 110MM": 1
+        "4  10FT 110MM": 1,
+        "2 1/2  2FT 75MM": 1,
+        "2 1/2  3FT 75MM": 1,
+        "2 1/2  4FT 75MM": 1,
+        "2 1/2  6FT 75MM": 1,
+        "2 1/2  10FT 75MM": 1
       },
       "categoryId": "cat_swr",
       "description": "SWR RINGFIT (DSOCKET) TYPE A. Available sizes: 2 1/2 2FT 75MM, 4 2FT 110MM, 2 1/2 3FT 75MM, 4 3FT 110MM, 2 1/2 4FT 75MM, 4 4FT 110MM, 2 1/2 6FT 75MM, 4 6FT 110MM, 2 1/2 10FT 75MM, 4 10FT 110MM.",
       "categoryName": "SWR Drainage Pipes & Fittings",
       "sizeProductCodes": {
-        "2 1/2  2FT 75MM": "FG-401459",
         "4  2FT 110MM": "FG-401460",
-        "2 1/2  3FT 75MM": "FG-401461",
         "4  3FT 110MM": "FG-401462",
-        "2 1/2  4FT 75MM": "FG-401463",
         "4  4FT 110MM": "FG-401464",
-        "2 1/2  6FT 75MM": "FG-401465",
         "4  6FT 110MM": "FG-401466",
-        "2 1/2  10FT 75MM": "FG-401467",
-        "4  10FT 110MM": "FG-401468"
-      },
-      "uom": "Nos"
+        "4  10FT 110MM": "FG-401468",
+        "2 1/2  2FT 75MM": "FG-401459",
+        "2 1/2  3FT 75MM": "FG-401461",
+        "2 1/2  4FT 75MM": "FG-401463",
+        "2 1/2  6FT 75MM": "FG-401465",
+        "2 1/2  10FT 75MM": "FG-401467"
+      }
     },
     {
       "id": "prod_swr_19",
+      "uom": "Nos",
       "name": "SWR RINGFIT CLEANING PIPE",
       "image": "/images/swr/SWR RINGFIT - CLEANING PIPES.webp",
       "sizes": [
         "110MM"
       ],
       "status": "Active",
+      "packing": "110MM:30",
       "packSizes": {
         "110MM": 30
       },
@@ -10438,9 +10440,7 @@
       "categoryName": "SWR Drainage Pipes & Fittings",
       "sizeProductCodes": {
         "110MM": "FG-400733"
-      },
-      "uom": "Nos",
-      "packing": "110MM:30"
+      }
     },
     {
       "id": "prod_swr_9",
@@ -10453,7 +10453,13 @@
         "160MM"
       ],
       "status": "Active",
+      "packing": "75MM:144, 110MM:48, 160MM:16",
       "packings": {
+        "75MM": 144,
+        "110MM": 48,
+        "160MM": 16
+      },
+      "packSizes": {
         "75MM": 144,
         "110MM": 48,
         "160MM": 16
@@ -10465,13 +10471,7 @@
         "75MM": "FG-400764",
         "110MM": "FG-400748",
         "160MM": "FG-400728"
-      },
-      "packSizes": {
-        "75MM": 144,
-        "110MM": 48,
-        "160MM": 16
-      },
-      "packing": "75MM:144, 110MM:48, 160MM:16"
+      }
     },
     {
       "id": "prod_swr_15",
@@ -10483,6 +10483,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:60, 110MM:23",
       "packSizes": {
         "75MM": 60,
         "110MM": 23
@@ -10493,8 +10494,7 @@
       "sizeProductCodes": {
         "75MM": "FG-400765",
         "110MM": "FG-400767"
-      },
-      "packing": "75MM:60, 110MM:23"
+      }
     },
     {
       "id": "prod_swr_23",
@@ -10505,6 +10505,7 @@
         "110 X 75MM"
       ],
       "status": "Active",
+      "packing": "110 X 75MM:16",
       "packSizes": {
         "110 X 75MM": 16
       },
@@ -10513,8 +10514,7 @@
       "categoryName": "SWR Drainage Pipes & Fittings",
       "sizeProductCodes": {
         "110 X 75MM": "FG-400791"
-      },
-      "packing": "110 X 75MM:16"
+      }
     },
     {
       "id": "prod_swr_11",
@@ -10526,6 +10526,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:45, 110MM:16",
       "packSizes": {
         "75MM": 45,
         "110MM": 16
@@ -10536,8 +10537,7 @@
       "sizeProductCodes": {
         "75MM": "FG-400819",
         "110MM": "FG-400770"
-      },
-      "packing": "75MM:45, 110MM:16"
+      }
     },
     {
       "id": "prod_swr_8",
@@ -10551,6 +10551,7 @@
         "160MM"
       ],
       "status": "Active",
+      "packing": "75MM:144, 90MM:90, 110MM:48, 160MM:16",
       "packSizes": {
         "75MM": 144,
         "90MM": 90,
@@ -10565,8 +10566,7 @@
         "90MM": "FG-400784",
         "110MM": "FG-400757",
         "160MM": "FG-400794"
-      },
-      "packing": "75MM:144, 90MM:90, 110MM:48, 160MM:16"
+      }
     },
     {
       "id": "prod_swr_14",
@@ -10579,6 +10579,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:75, 90MM:40, 110MM:20",
       "packSizes": {
         "75MM": 75,
         "90MM": 40,
@@ -10591,8 +10592,7 @@
         "75MM": "FG-400759",
         "90MM": "FG-400783",
         "110MM": "FG-400763"
-      },
-      "packing": "75MM:75, 90MM:40, 110MM:20"
+      }
     },
     {
       "id": "prod_swr_10",
@@ -10604,6 +10604,7 @@
         "90MM"
       ],
       "status": "Active",
+      "packing": "75MM:50, 90MM:24",
       "packSizes": {
         "75MM": 50,
         "90MM": 24
@@ -10614,8 +10615,7 @@
       "sizeProductCodes": {
         "75MM": "FG-400789",
         "90MM": "FG-400700"
-      },
-      "packing": "75MM:50, 90MM:24"
+      }
     },
     {
       "id": "prod_swr_22",
@@ -10627,6 +10627,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:40, 110MM:12",
       "packSizes": {
         "75MM": 40,
         "110MM": 12
@@ -10637,8 +10638,7 @@
       "sizeProductCodes": {
         "75MM": "FG-400790",
         "110MM": "FG-400788"
-      },
-      "packing": "75MM:40, 110MM:12"
+      }
     },
     {
       "id": "prod_swr_20",
@@ -10652,6 +10652,7 @@
         "160MM"
       ],
       "status": "Active",
+      "packing": "75MM:100, 90MM:50, 110MM:30, 160MM:9",
       "packSizes": {
         "75MM": 100,
         "90MM": 50,
@@ -10666,8 +10667,7 @@
         "90MM": "FG-400771",
         "110MM": "FG-400746",
         "160MM": "FG-400726"
-      },
-      "packing": "75MM:100, 90MM:50, 110MM:30, 160MM:9"
+      }
     },
     {
       "id": "prod_swr_12",
@@ -10681,6 +10681,7 @@
         "160MM"
       ],
       "status": "Active",
+      "packing": "75MM:65, 90MM:30, 110MM:16, 160MM:6",
       "packSizes": {
         "75MM": 65,
         "90MM": 30,
@@ -10695,8 +10696,7 @@
         "90MM": "FG-400776",
         "110MM": "FG-400805",
         "160MM": "FG-400729"
-      },
-      "packing": "75MM:65, 90MM:30, 110MM:16, 160MM:6"
+      }
     },
     {
       "id": "prod_swr_6",
@@ -10707,6 +10707,7 @@
         "160 X 110"
       ],
       "status": "Active",
+      "packing": "160 X 110:8",
       "packSizes": {
         "160 X 110": 8
       },
@@ -10715,8 +10716,7 @@
       "categoryName": "SWR Drainage Pipes & Fittings",
       "sizeProductCodes": {
         "160 X 110": "FG-400731"
-      },
-      "packing": "160 X 110:8"
+      }
     },
     {
       "id": "prod_swr_3",
@@ -10728,6 +10728,7 @@
         "160 X 110"
       ],
       "status": "Active",
+      "packing": "110 X 75:25, 160 X 110:7",
       "packSizes": {
         "110 X 75": 25,
         "160 X 110": 7
@@ -10738,8 +10739,7 @@
       "sizeProductCodes": {
         "110 X 75": "FG-400779",
         "160 X 110": "FG-400732"
-      },
-      "packing": "110 X 75:25, 160 X 110:7"
+      }
     },
     {
       "id": "prod_swr_16",
@@ -10752,6 +10752,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:100, 90MM:60, 110MM:30",
       "packSizes": {
         "75MM": 100,
         "90MM": 60,
@@ -10764,8 +10765,7 @@
         "75MM": "FG-401831",
         "90MM": "FG-400780",
         "110MM": "FG-400743"
-      },
-      "packing": "75MM:100, 90MM:60, 110MM:30"
+      }
     },
     {
       "id": "prod_swr_18",
@@ -10777,6 +10777,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:48, 110MM:12",
       "packSizes": {
         "75MM": 48,
         "110MM": 12
@@ -10787,8 +10788,7 @@
       "sizeProductCodes": {
         "75MM": "FG-400775",
         "110MM": "FG-400761"
-      },
-      "packing": "75MM:48, 110MM:12"
+      }
     },
     {
       "id": "prod_swr_21",
@@ -10800,6 +10800,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:85, 110MM:30",
       "packSizes": {
         "75MM": 85,
         "110MM": 30
@@ -10810,8 +10811,7 @@
       "sizeProductCodes": {
         "75MM": "FG-400753",
         "110MM": "FG-400747"
-      },
-      "packing": "75MM:85, 110MM:30"
+      }
     },
     {
       "id": "prod_swr_7",
@@ -10823,6 +10823,7 @@
         "110 X 90"
       ],
       "status": "Active",
+      "packing": "110 X 75:90, 110 X 90:60",
       "packSizes": {
         "110 X 75": 90,
         "110 X 90": 60
@@ -10833,8 +10834,7 @@
       "sizeProductCodes": {
         "110 X 75": "FG-400773",
         "110 X 90": "FG-400787"
-      },
-      "packing": "110 X 75:90, 110 X 90:60"
+      }
     },
     {
       "id": "prod_swr_4",
@@ -10845,6 +10845,7 @@
         "110 X 75"
       ],
       "status": "Active",
+      "packing": "110 X 75:24",
       "packSizes": {
         "110 X 75": 24
       },
@@ -10853,17 +10854,18 @@
       "categoryName": "SWR Drainage Pipes & Fittings",
       "sizeProductCodes": {
         "110 X 75": "FG-400768"
-      },
-      "packing": "110 X 75:24"
+      }
     },
     {
       "id": "prod_swr_selfit_21",
+      "uom": "Nos",
       "name": "SWR SELFIT CLEANING PIPE",
       "image": "/images/swr/SWR SELFIT - CLEANING PIPE.webp",
       "sizes": [
         "110MM"
       ],
       "status": "Active",
+      "packing": "110MM:30",
       "packSizes": {
         "110MM": 30
       },
@@ -10872,12 +10874,11 @@
       "categoryName": "SWR Drainage Pipes & Fittings",
       "sizeProductCodes": {
         "110MM": "FG-400734"
-      },
-      "uom": "Nos",
-      "packing": "110MM:30"
+      }
     },
     {
       "id": "prod_swr_selfit_10",
+      "uom": "Nos",
       "name": "SWR SELFIT COUPLER",
       "image": "/images/swr/SWR SELFIT - COUPLER.webp",
       "sizes": [
@@ -10885,6 +10886,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:70, 110MM:50",
       "packSizes": {
         "75MM": 70,
         "110MM": 50
@@ -10895,9 +10897,7 @@
       "sizeProductCodes": {
         "75MM": "FG-400707",
         "110MM": "FG-400708"
-      },
-      "uom": "Nos",
-      "packing": "75MM:70, 110MM:50"
+      }
     },
     {
       "id": "prod_swr_selfit_8",
@@ -10909,7 +10909,12 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:35, 110MM:30",
       "packings": {
+        "75MM": 35,
+        "110MM": 30
+      },
+      "packSizes": {
         "75MM": 35,
         "110MM": 30
       },
@@ -10919,15 +10924,11 @@
       "sizeProductCodes": {
         "75MM": "FG-400711",
         "110MM": "FG-400712"
-      },
-      "packSizes": {
-        "75MM": 35,
-        "110MM": 30
-      },
-      "packing": "75MM:35, 110MM:30"
+      }
     },
     {
       "id": "prod_swr_selfit_16",
+      "uom": "Nos",
       "name": "SWR SELFIT DOOR TEE",
       "image": "/images/swr/SWR SELFIT - DOOR TEE.webp",
       "sizes": [
@@ -10935,6 +10936,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:25, 110MM:20",
       "packSizes": {
         "75MM": 25,
         "110MM": 20
@@ -10945,9 +10947,7 @@
       "sizeProductCodes": {
         "75MM": "FG-400713",
         "110MM": "FG-400715"
-      },
-      "uom": "Nos",
-      "packing": "75MM:25, 110MM:20"
+      }
     },
     {
       "id": "prod_swr_selfit_9",
@@ -10961,6 +10961,7 @@
         "160MM"
       ],
       "status": "Active",
+      "packing": "75MM:144, 90MM:100, 110MM:48, 160MM:18",
       "packSizes": {
         "75MM": 144,
         "90MM": 100,
@@ -10975,8 +10976,7 @@
         "90MM": "FG-400723",
         "110MM": "FG-400777",
         "160MM": "FG-400801"
-      },
-      "packing": "75MM:144, 90MM:100, 110MM:48, 160MM:18"
+      }
     },
     {
       "id": "prod_swr_selfit_7",
@@ -10990,7 +10990,14 @@
         "110MM (34 NOS)"
       ],
       "status": "Active",
+      "packing": "75MM:75, 90MM:40, 110MM (20 NOS):20, 110MM (34 NOS):34",
       "packings": {
+        "75MM": 75,
+        "90MM": 40,
+        "110MM (20 NOS)": 20,
+        "110MM (34 NOS)": 34
+      },
+      "packSizes": {
         "75MM": 75,
         "90MM": 40,
         "110MM (20 NOS)": 20,
@@ -11004,14 +11011,7 @@
         "90MM": "FG-400782",
         "110MM (20 NOS)": "FG-400793",
         "110MM (34 NOS)": "FG-400807"
-      },
-      "packSizes": {
-        "75MM": 75,
-        "90MM": 40,
-        "110MM (20 NOS)": 20,
-        "110MM (34 NOS)": 34
-      },
-      "packing": "75MM:75, 90MM:40, 110MM (20 NOS):20, 110MM (34 NOS):34"
+      }
     },
     {
       "id": "prod_swr_selfit_15",
@@ -11023,6 +11023,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:50, 110MM:24",
       "packSizes": {
         "75MM": 50,
         "110MM": 24
@@ -11033,8 +11034,7 @@
       "sizeProductCodes": {
         "75MM": "FG-400803",
         "110MM": "FG-400820"
-      },
-      "packing": "75MM:50, 110MM:24"
+      }
     },
     {
       "id": "prod_swr_selfit_3",
@@ -11046,6 +11046,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:50, 110MM:12",
       "packSizes": {
         "75MM": 50,
         "110MM": 12
@@ -11056,8 +11057,7 @@
       "sizeProductCodes": {
         "75MM": "FG-400724",
         "110MM": "FG-401724"
-      },
-      "packing": "75MM:50, 110MM:12"
+      }
     },
     {
       "id": "prod_swr_selfit_5",
@@ -11072,7 +11072,15 @@
         "160MM"
       ],
       "status": "Active",
+      "packing": "75MM:100, 90MM:55, 110MM (30 NOS):30, 110MM (32 NOS):32, 160MM:9",
       "packings": {
+        "75MM": 100,
+        "90MM": 55,
+        "160MM": 9,
+        "110MM (30 NOS)": 30,
+        "110MM (32 NOS)": 32
+      },
+      "packSizes": {
         "75MM": 100,
         "90MM": 55,
         "160MM": 9,
@@ -11085,18 +11093,10 @@
       "sizeProductCodes": {
         "75MM": "FG-400786",
         "90MM": "FG-400781",
+        "160MM": "FG-400800",
         "110MM (30 NOS)": "FG-400762",
-        "110MM (32 NOS)": "FG-400806",
-        "160MM": "FG-400800"
-      },
-      "packSizes": {
-        "75MM": 100,
-        "90MM": 55,
-        "110MM (30 NOS)": 30,
-        "110MM (32 NOS)": 32,
-        "160MM": 9
-      },
-      "packing": "75MM:100, 90MM:55, 110MM (30 NOS):30, 110MM (32 NOS):32, 160MM:9"
+        "110MM (32 NOS)": "FG-400806"
+      }
     },
     {
       "id": "prod_swr_selfit_14",
@@ -11110,6 +11110,7 @@
         "160MM"
       ],
       "status": "Active",
+      "packing": "75MM:60, 90MM:30, 110MM:26, 160MM:6",
       "packSizes": {
         "75MM": 60,
         "90MM": 30,
@@ -11124,17 +11125,18 @@
         "90MM": "FG-400774",
         "110MM": "FG-400785",
         "160MM": "FG-400802"
-      },
-      "packing": "75MM:60, 90MM:30, 110MM:26, 160MM:6"
+      }
     },
     {
       "id": "prod_swr_selfit_12",
+      "uom": "Nos",
       "name": "SWR SELFIT ISI REDUCER",
       "image": "/images/swr/SWR SELFIT - REDUCER ISI.webp",
       "sizes": [
         "110 X 75MM"
       ],
       "status": "Active",
+      "packing": "110 X 75MM:48",
       "packSizes": {
         "110 X 75MM": 48
       },
@@ -11143,9 +11145,7 @@
       "categoryName": "SWR Drainage Pipes & Fittings",
       "sizeProductCodes": {
         "110 X 75MM": "FG-400810"
-      },
-      "uom": "Nos",
-      "packing": "110 X 75MM:48"
+      }
     },
     {
       "id": "prod_swr_selfit_19",
@@ -11156,6 +11156,7 @@
         "110 X 75MM"
       ],
       "status": "Active",
+      "packing": "110 X 75MM:57",
       "packSizes": {
         "110 X 75MM": 57
       },
@@ -11164,8 +11165,7 @@
       "categoryName": "SWR Drainage Pipes & Fittings",
       "sizeProductCodes": {
         "110 X 75MM": "FG-400811"
-      },
-      "packing": "110 X 75MM:57"
+      }
     },
     {
       "id": "prod_swr_selfit_17",
@@ -11178,6 +11178,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:100, 90MM:60, 110MM:45",
       "packSizes": {
         "75MM": 100,
         "90MM": 60,
@@ -11190,8 +11191,7 @@
         "75MM": "FG-401816",
         "90MM": "FG-400758",
         "110MM": "FG-401648"
-      },
-      "packing": "75MM:100, 90MM:60, 110MM:45"
+      }
     },
     {
       "id": "prod_swr_selfit_4",
@@ -11203,6 +11203,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:50, 110MM:12",
       "packSizes": {
         "75MM": 50,
         "110MM": 12
@@ -11213,8 +11214,7 @@
       "sizeProductCodes": {
         "75MM": "FG-400772",
         "110MM": "FG-400756"
-      },
-      "packing": "75MM:50, 110MM:12"
+      }
     },
     {
       "id": "prod_swr_selfit_6",
@@ -11226,7 +11226,12 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:45, 110MM:35",
       "packings": {
+        "75MM": 45,
+        "110MM": 35
+      },
+      "packSizes": {
         "75MM": 45,
         "110MM": 35
       },
@@ -11236,15 +11241,11 @@
       "sizeProductCodes": {
         "75MM": "FG-400702",
         "110MM": "FG-400703"
-      },
-      "packSizes": {
-        "75MM": 45,
-        "110MM": 35
-      },
-      "packing": "75MM:45, 110MM:35"
+      }
     },
     {
       "id": "prod_swr_selfit_13",
+      "uom": "Nos",
       "name": "SWR SELFIT PLAIN TEE",
       "image": "/images/swr/SWR SELFIT - SINGLE TEE.webp",
       "sizes": [
@@ -11252,6 +11253,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:30, 110MM:10",
       "packSizes": {
         "75MM": 30,
         "110MM": 10
@@ -11262,9 +11264,7 @@
       "sizeProductCodes": {
         "75MM": "FG-400704",
         "110MM": "FG-400706"
-      },
-      "uom": "Nos",
-      "packing": "75MM:30, 110MM:10"
+      }
     },
     {
       "id": "prod_swr_selfit_11",
@@ -11277,6 +11277,7 @@
         "160 X 110MM"
       ],
       "status": "Active",
+      "packing": "110 X 75MM:40, 110 X 90MM:30, 160 X 110MM:8",
       "packSizes": {
         "110 X 75MM": 40,
         "110 X 90MM": 30,
@@ -11289,17 +11290,18 @@
         "110 X 75MM": "FG-400721",
         "110 X 90MM": "FG-400722",
         "160 X 110MM": "FG-400744"
-      },
-      "packing": "110 X 75MM:40, 110 X 90MM:30, 160 X 110MM:8"
+      }
     },
     {
       "id": "prod_swr_selfit_20",
+      "uom": "Nos",
       "name": "SWR SELFIT REDUCER TEE",
       "image": "/images/swr/SWR SELFIT - REDUCING TEE.webp",
       "sizes": [
         "110 X 75MM"
       ],
       "status": "Active",
+      "packing": "110 X 75MM:30",
       "packSizes": {
         "110 X 75MM": 30
       },
@@ -11308,12 +11310,11 @@
       "categoryName": "SWR Drainage Pipes & Fittings",
       "sizeProductCodes": {
         "110 X 75MM": "FG-400720"
-      },
-      "uom": "Nos",
-      "packing": "110 X 75MM:30"
+      }
     },
     {
       "id": "prod_swr_selfit_18",
+      "uom": "Nos",
       "name": "SWR SELFIT SHOE BEND",
       "image": "/images/swr/SWR SELFIT - BEND 45.webp",
       "sizes": [
@@ -11321,6 +11322,7 @@
         "110MM"
       ],
       "status": "Active",
+      "packing": "75MM:60, 110MM:50",
       "packSizes": {
         "75MM": 60,
         "110MM": 50
@@ -11331,9 +11333,7 @@
       "sizeProductCodes": {
         "75MM": "FG-400709",
         "110MM": "FG-400710"
-      },
-      "uom": "Nos",
-      "packing": "75MM:60, 110MM:50"
+      }
     },
     {
       "id": "prod_upvc_27",
@@ -11349,13 +11349,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1/2:80, 3/4:50, 1:30, 1 1/4:16, 1 1/2:12, 2:8",
       "packSizes": {
         "1": 30,
         "2": 8,
         "1/2": 80,
         "3/4": 50,
-        "1 1/4": 16,
-        "1 1/2": 12
+        "1 1/2": 12,
+        "1 1/4": 16
       },
       "categoryId": "cat_upvc",
       "description": "UPVC BALL VALVE (LONG HANDLE). Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -11365,10 +11366,9 @@
         "2": "FG-400322",
         "1/2": "FG-400317",
         "3/4": "FG-400318",
-        "1 1/4": "FG-400320",
-        "1 1/2": "FG-400321"
-      },
-      "packing": "1/2:80, 3/4:50, 1:30, 1 1/4:16, 1 1/2:12, 2:8"
+        "1 1/2": "FG-400321",
+        "1 1/4": "FG-400320"
+      }
     },
     {
       "id": "prod_upvc_28",
@@ -11384,13 +11384,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1/2:84, 3/4:42, 1:30, 1 1/4:20, 1 1/2:16, 2:8",
       "packSizes": {
         "1": 30,
         "2": 8,
         "1/2": 84,
         "3/4": 42,
-        "1 1/4": 20,
-        "1 1/2": 16
+        "1 1/2": 16,
+        "1 1/4": 20
       },
       "categoryId": "cat_upvc",
       "description": "UPVC BALL VALVE (SHORT HANDLE). Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -11400,10 +11401,9 @@
         "2": "FG-400328",
         "1/2": "FG-400323",
         "3/4": "FG-400324",
-        "1 1/4": "FG-400326",
-        "1 1/2": "FG-400327"
-      },
-      "packing": "1/2:84, 3/4:42, 1:30, 1 1/4:20, 1 1/2:16, 2:8"
+        "1 1/2": "FG-400327",
+        "1 1/4": "FG-400326"
+      }
     },
     {
       "id": "prod_upvc_25",
@@ -11416,7 +11416,13 @@
         "1"
       ],
       "status": "Active",
+      "packing": "1/2:210, 3/4:100, 1:70",
       "packings": {
+        "1": 70,
+        "1/2": 210,
+        "3/4": 100
+      },
+      "packSizes": {
         "1": 70,
         "1/2": 210,
         "3/4": 100
@@ -11428,13 +11434,7 @@
         "1": "FG-400259",
         "1/2": "FG-400257",
         "3/4": "FG-400258"
-      },
-      "packSizes": {
-        "1": 70,
-        "1/2": 210,
-        "3/4": 100
-      },
-      "packing": "1/2:210, 3/4:100, 1:70"
+      }
     },
     {
       "id": "prod_upvc_16",
@@ -11450,13 +11450,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1/2:255, 3/4:150, 1:70, 1 1/4:60, 1 1/2:30, 2:30",
       "packSizes": {
         "1": 70,
         "2": 30,
         "1/2": 255,
         "3/4": 150,
-        "1 1/4": 60,
-        "1 1/2": 30
+        "1 1/2": 30,
+        "1 1/4": 60
       },
       "categoryId": "cat_upvc",
       "description": "UPVC BRASS FTA. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -11466,10 +11467,9 @@
         "2": "FG-400399",
         "1/2": "FG-400270",
         "3/4": "FG-400271",
-        "1 1/4": "FG-400379",
-        "1 1/2": "FG-400380"
-      },
-      "packing": "1/2:255, 3/4:150, 1:70, 1 1/4:60, 1 1/2:30, 2:30"
+        "1 1/2": "FG-400380",
+        "1 1/4": "FG-400379"
+      }
     },
     {
       "id": "prod_upvc_15",
@@ -11485,13 +11485,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1/2:210, 3/4:150, 1:70, 1 1/4:50, 1 1/2:30, 2:30",
       "packSizes": {
         "1": 70,
         "2": 30,
         "1/2": 210,
         "3/4": 150,
-        "1 1/4": 50,
-        "1 1/2": 30
+        "1 1/2": 30,
+        "1 1/4": 50
       },
       "categoryId": "cat_upvc",
       "description": "UPVC BRASS MTA. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -11501,10 +11502,9 @@
         "2": "FG-400355",
         "1/2": "FG-400267",
         "3/4": "FG-400268",
-        "1 1/4": "FG-400376",
-        "1 1/2": "FG-400377"
-      },
-      "packing": "1/2:210, 3/4:150, 1:70, 1 1/4:50, 1 1/2:30, 2:30"
+        "1 1/2": "FG-400377",
+        "1 1/4": "FG-400376"
+      }
     },
     {
       "id": "prod_upvc_24",
@@ -11517,6 +11517,7 @@
         "1"
       ],
       "status": "Active",
+      "packing": "1/2:100, 3/4:70, 1:40",
       "packSizes": {
         "1": 40,
         "1/2": 100,
@@ -11529,8 +11530,7 @@
         "1": "FG-400264",
         "1/2": "FG-400262",
         "3/4": "FG-400263"
-      },
-      "packing": "1/2:100, 3/4:70, 1:40"
+      }
     },
     {
       "id": "prod_upvc_35",
@@ -11541,6 +11541,7 @@
         "1/2"
       ],
       "status": "Active",
+      "packing": "1/2:300",
       "packings": {
         "1/2": 300
       },
@@ -11552,8 +11553,7 @@
       "categoryName": "UPVC Pipes & Fittings",
       "sizeProductCodes": {
         "1/2": "FG-400402"
-      },
-      "packing": "1/2:300"
+      }
     },
     {
       "id": "prod_upvc_30",
@@ -11566,6 +11566,7 @@
         "1"
       ],
       "status": "Active",
+      "packing": "1/2:18, 3/4:18, 1:18",
       "packSizes": {
         "1": 18,
         "1/2": 18,
@@ -11578,8 +11579,7 @@
         "1": "FG-400306",
         "1/2": "FG-400364",
         "3/4": "FG-400365"
-      },
-      "packing": "1/2:18, 3/4:18, 1:18"
+      }
     },
     {
       "id": "prod_upvc_9",
@@ -11595,13 +11595,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1/2:300, 3/4:150, 1:100, 1 1/4:40, 1 1/2:40, 2:30",
       "packSizes": {
         "1": 100,
         "2": 30,
         "1/2": 300,
         "3/4": 150,
-        "1 1/4": 40,
-        "1 1/2": 40
+        "1 1/2": 40,
+        "1 1/4": 40
       },
       "categoryId": "cat_upvc",
       "description": "UPVC COUPLER. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -11611,10 +11612,9 @@
         "2": "FG-400245",
         "1/2": "FG-400240",
         "3/4": "FG-400241",
-        "1 1/4": "FG-400243",
-        "1 1/2": "FG-400244"
-      },
-      "packing": "1/2:300, 3/4:150, 1:100, 1 1/4:40, 1 1/2:40, 2:30"
+        "1 1/2": "FG-400244",
+        "1 1/4": "FG-400243"
+      }
     },
     {
       "id": "prod_upvc_22",
@@ -11627,6 +11627,7 @@
         "1"
       ],
       "status": "Active",
+      "packing": "1/2:140, 3/4:60, 1:40",
       "packSizes": {
         "1": 40,
         "1/2": 140,
@@ -11639,8 +11640,7 @@
         "1": "FG-400392",
         "1/2": "FG-400310",
         "3/4": "FG-400311"
-      },
-      "packing": "1/2:140, 3/4:60, 1:40"
+      }
     },
     {
       "id": "prod_upvc_7",
@@ -11656,13 +11656,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1/2:225, 3/4:120, 1:80, 1 1/4:40, 1 1/2:30, 2:16",
       "packSizes": {
         "1": 80,
         "2": 16,
         "1/2": 225,
         "3/4": 120,
-        "1 1/4": 40,
-        "1 1/2": 30
+        "1 1/2": 30,
+        "1 1/4": 40
       },
       "categoryId": "cat_upvc",
       "description": "UPVC ELBOW 90. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -11672,10 +11673,9 @@
         "2": "FG-400234",
         "1/2": "FG-400185",
         "3/4": "FG-400186",
-        "1 1/4": "FG-400232",
-        "1 1/2": "FG-400233"
-      },
-      "packing": "1/2:225, 3/4:120, 1:80, 1 1/4:40, 1 1/2:30, 2:16"
+        "1 1/2": "FG-400233",
+        "1 1/4": "FG-400232"
+      }
     },
     {
       "id": "prod_upvc_17",
@@ -11691,13 +11691,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1/2:500, 3/4:300, 1:225, 1 1/4:125, 1 1/2:80, 2:50",
       "packSizes": {
         "1": 225,
         "2": 50,
         "1/2": 500,
         "3/4": 300,
-        "1 1/4": 125,
-        "1 1/2": 80
+        "1 1/2": 80,
+        "1 1/4": 125
       },
       "categoryId": "cat_upvc",
       "description": "UPVC END CAP. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -11707,10 +11708,9 @@
         "2": "FG-400288",
         "1/2": "FG-400283",
         "3/4": "FG-400284",
-        "1 1/4": "FG-400286",
-        "1 1/2": "FG-400287"
-      },
-      "packing": "1/2:500, 3/4:300, 1:225, 1 1/4:125, 1 1/2:80, 2:50"
+        "1 1/2": "FG-400287",
+        "1 1/4": "FG-400286"
+      }
     },
     {
       "id": "prod_upvc_12",
@@ -11726,13 +11726,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1/2:300, 3/4:225, 1:125, 1 1/4:80, 1 1/2:50, 2:30",
       "packSizes": {
         "1": 125,
         "2": 30,
         "1/2": 300,
         "3/4": 225,
-        "1 1/4": 80,
-        "1 1/2": 50
+        "1 1/2": 50,
+        "1 1/4": 80
       },
       "categoryId": "cat_upvc",
       "description": "UPVC FTA. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -11742,10 +11743,9 @@
         "2": "FG-400383",
         "1/2": "FG-400279",
         "3/4": "FG-400280",
-        "1 1/4": "FG-400282",
-        "1 1/2": "FG-400382"
-      },
-      "packing": "1/2:300, 3/4:225, 1:125, 1 1/4:80, 1 1/2:50, 2:30"
+        "1 1/2": "FG-400382",
+        "1 1/4": "FG-400282"
+      }
     },
     {
       "id": "prod_upvc_20",
@@ -11761,13 +11761,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1/2:1000, 3/4:800, 1:500, 1 1/4:500, 1 1/2:500, 2:300",
       "packSizes": {
         "1": 500,
         "2": 300,
         "1/2": 1000,
         "3/4": 800,
-        "1 1/4": 500,
-        "1 1/2": 500
+        "1 1/2": 500,
+        "1 1/4": 500
       },
       "categoryId": "cat_upvc",
       "description": "UPVC METAL CLAMP. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -11777,10 +11778,9 @@
         "2": "FG-400340",
         "1/2": "FG-400335",
         "3/4": "FG-400336",
-        "1 1/4": "FG-400338",
-        "1 1/2": "FG-400339"
-      },
-      "packing": "1/2:1000, 3/4:800, 1:500, 1 1/4:500, 1 1/2:500, 2:300"
+        "1 1/2": "FG-400339",
+        "1 1/4": "FG-400338"
+      }
     },
     {
       "id": "prod_upvc_11",
@@ -11796,13 +11796,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1/2:350, 3/4:250, 1:150, 1 1/4:100, 1 1/2:50, 2:60",
       "packSizes": {
         "1": 150,
         "2": 60,
         "1/2": 350,
         "3/4": 250,
-        "1 1/4": 100,
-        "1 1/2": 50
+        "1 1/2": 50,
+        "1 1/4": 100
       },
       "categoryId": "cat_upvc",
       "description": "UPVC MTA. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -11812,10 +11813,9 @@
         "2": "FG-400381",
         "1/2": "FG-400274",
         "3/4": "FG-400275",
-        "1 1/4": "FG-400277",
-        "1 1/2": "FG-400278"
-      },
-      "packing": "1/2:350, 3/4:250, 1:150, 1 1/4:100, 1 1/2:50, 2:60"
+        "1 1/2": "FG-400278",
+        "1 1/4": "FG-400277"
+      }
     },
     {
       "id": "prod_upvc_19",
@@ -11831,13 +11831,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1/2:800, 3/4:600, 1:500, 1 1/4:240, 1 1/2:200, 2:120",
       "packSizes": {
         "1": 500,
         "2": 120,
         "1/2": 800,
         "3/4": 600,
-        "1 1/4": 240,
-        "1 1/2": 200
+        "1 1/2": 200,
+        "1 1/4": 240
       },
       "categoryId": "cat_upvc",
       "description": "UPVC NAIL CLAMP. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -11847,10 +11848,9 @@
         "2": "FG-400334",
         "1/2": "FG-400330",
         "3/4": "FG-400331",
-        "1 1/4": "FG-400332",
-        "1 1/2": "FG-400333"
-      },
-      "packing": "1/2:800, 3/4:600, 1:500, 1 1/4:240, 1 1/2:200, 2:120"
+        "1 1/2": "FG-400333",
+        "1 1/4": "FG-400332"
+      }
     },
     {
       "id": "prod_upvc_31",
@@ -11863,6 +11863,7 @@
         "1"
       ],
       "status": "Active",
+      "packing": "1/2:24, 3/4:24, 1:24",
       "packSizes": {
         "1": 24,
         "1/2": 24,
@@ -11875,8 +11876,7 @@
         "1": "FG-400368",
         "1/2": "FG-400366",
         "3/4": "FG-400367"
-      },
-      "packing": "1/2:24, 3/4:24, 1:24"
+      }
     },
     {
       "id": "prod_upvc_1",
@@ -11898,38 +11898,38 @@
         "2\" - 6MTR"
       ],
       "status": "Active",
+      "packing": "1/2\" - 3MTR:50, 1/2\" - 6MTR:25, 3/4\" - 3MTR:50, 3/4\" - 6MTR:25, 1\" - 3MTR:30, 1\" - 6MTR:15, 1 1/4\" - 3MTR:15, 1 1/4\" - 6MTR:15, 1 1/2\" - 3MTR:10, 1 1/2\" - 6MTR:10, 2\" - 3MTR:6, 2\" - 6MTR:6",
       "packSizes": {
+        "1\" - 3MTR": 30,
+        "1\" - 6MTR": 15,
+        "2\" - 3MTR": 6,
+        "2\" - 6MTR": 6,
         "1/2\" - 3MTR": 50,
         "1/2\" - 6MTR": 25,
         "3/4\" - 3MTR": 50,
         "3/4\" - 6MTR": 25,
-        "1\" - 3MTR": 30,
-        "1\" - 6MTR": 15,
-        "1 1/4\" - 3MTR": 15,
-        "1 1/4\" - 6MTR": 15,
         "1 1/2\" - 3MTR": 10,
         "1 1/2\" - 6MTR": 10,
-        "2\" - 3MTR": 6,
-        "2\" - 6MTR": 6
+        "1 1/4\" - 3MTR": 15,
+        "1 1/4\" - 6MTR": 15
       },
       "categoryId": "cat_upvc",
       "description": "UPVC PIPES (SCH-40). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR.",
       "categoryName": "UPVC Pipes & Fittings",
       "sizeProductCodes": {
+        "1\" - 3MTR": "FG-400855",
+        "1\" - 6MTR": "FG-400861",
+        "2\" - 3MTR": "FG-400858",
+        "2\" - 6MTR": "FG-400864",
         "1/2\" - 3MTR": "FG-400853",
         "1/2\" - 6MTR": "FG-400859",
         "3/4\" - 3MTR": "FG-400854",
         "3/4\" - 6MTR": "FG-400860",
-        "1\" - 3MTR": "FG-400855",
-        "1\" - 6MTR": "FG-400861",
-        "1 1/4\" - 3MTR": "FG-400856",
-        "1 1/4\" - 6MTR": "FG-400862",
         "1 1/2\" - 3MTR": "FG-400857",
         "1 1/2\" - 6MTR": "FG-400863",
-        "2\" - 3MTR": "FG-400858",
-        "2\" - 6MTR": "FG-400864"
-      },
-      "packing": "1/2\" - 3MTR:50, 1/2\" - 6MTR:25, 3/4\" - 3MTR:50, 3/4\" - 6MTR:25, 1\" - 3MTR:30, 1\" - 6MTR:15, 1 1/4\" - 3MTR:15, 1 1/4\" - 6MTR:15, 1 1/2\" - 3MTR:10, 1 1/2\" - 6MTR:10, 2\" - 3MTR:6, 2\" - 6MTR:6"
+        "1 1/4\" - 3MTR": "FG-400856",
+        "1 1/4\" - 6MTR": "FG-400862"
+      }
     },
     {
       "id": "prod_upvc_2",
@@ -11951,38 +11951,38 @@
         "2\" - 6MTR"
       ],
       "status": "Active",
+      "packing": "1/2\" - 3MTR:50, 1/2\" - 6MTR:25, 3/4\" - 3MTR:50, 3/4\" - 6MTR:25, 1\" - 3MTR:30, 1\" - 6MTR:15, 1 1/4\" - 3MTR:15, 1 1/4\" - 6MTR:15, 1 1/2\" - 3MTR:10, 1 1/2\" - 6MTR:10, 2\" - 3MTR:6, 2\" - 6MTR:6",
       "packSizes": {
+        "1\" - 3MTR": 30,
+        "1\" - 6MTR": 15,
+        "2\" - 3MTR": 6,
+        "2\" - 6MTR": 6,
         "1/2\" - 3MTR": 50,
         "1/2\" - 6MTR": 25,
         "3/4\" - 3MTR": 50,
         "3/4\" - 6MTR": 25,
-        "1\" - 3MTR": 30,
-        "1\" - 6MTR": 15,
-        "1 1/4\" - 3MTR": 15,
-        "1 1/4\" - 6MTR": 15,
         "1 1/2\" - 3MTR": 10,
         "1 1/2\" - 6MTR": 10,
-        "2\" - 3MTR": 6,
-        "2\" - 6MTR": 6
+        "1 1/4\" - 3MTR": 15,
+        "1 1/4\" - 6MTR": 15
       },
       "categoryId": "cat_upvc",
       "description": "UPVC PIPES (SCH-80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR.",
       "categoryName": "UPVC Pipes & Fittings",
       "sizeProductCodes": {
+        "1\" - 3MTR": "FG-400867",
+        "1\" - 6MTR": "FG-400873",
+        "2\" - 3MTR": "FG-400870",
+        "2\" - 6MTR": "FG-400876",
         "1/2\" - 3MTR": "FG-400865",
         "1/2\" - 6MTR": "FG-400871",
         "3/4\" - 3MTR": "FG-400866",
         "3/4\" - 6MTR": "FG-400872",
-        "1\" - 3MTR": "FG-400867",
-        "1\" - 6MTR": "FG-400873",
-        "1 1/4\" - 3MTR": "FG-400868",
-        "1 1/4\" - 6MTR": "FG-400874",
         "1 1/2\" - 3MTR": "FG-400869",
         "1 1/2\" - 6MTR": "FG-400875",
-        "2\" - 3MTR": "FG-400870",
-        "2\" - 6MTR": "FG-400876"
-      },
-      "packing": "1/2\" - 3MTR:50, 1/2\" - 6MTR:25, 3/4\" - 3MTR:50, 3/4\" - 6MTR:25, 1\" - 3MTR:30, 1\" - 6MTR:15, 1 1/4\" - 3MTR:15, 1 1/4\" - 6MTR:15, 1 1/2\" - 3MTR:10, 1 1/2\" - 6MTR:10, 2\" - 3MTR:6, 2\" - 6MTR:6"
+        "1 1/4\" - 3MTR": "FG-400868",
+        "1 1/4\" - 6MTR": "FG-400874"
+      }
     },
     {
       "id": "prod_upvc_32",
@@ -11994,22 +11994,22 @@
         "1 X 1/2"
       ],
       "status": "Active",
+      "packing": "3/4 X 1/2:100, 1 X 1/2:100",
       "packings": {
         "1 X 1/2": 100,
         "3/4 X 1/2": 100
       },
       "packSizes": {
-        "3/4 X 1/2": 100,
-        "1 X 1/2": 100
+        "1 X 1/2": 100,
+        "3/4 X 1/2": 100
       },
       "categoryId": "cat_upvc",
       "description": "UPVC REDUCER BRASS ELBOW. Available sizes: 3/4 X 1/2, 1 X 1/2.",
       "categoryName": "UPVC Pipes & Fittings",
       "sizeProductCodes": {
-        "3/4 X 1/2": "FG-400260",
-        "1 X 1/2": "FG-400261"
-      },
-      "packing": "3/4 X 1/2:100, 1 X 1/2:100"
+        "1 X 1/2": "FG-400261",
+        "3/4 X 1/2": "FG-400260"
+      }
     },
     {
       "id": "prod_upvc_34",
@@ -12021,18 +12021,18 @@
         "1 X 1/2"
       ],
       "status": "Active",
+      "packing": "3/4 X 1/2:80, 1 X 1/2:50",
       "packSizes": {
-        "3/4 X 1/2": 80,
-        "1 X 1/2": 50
+        "1 X 1/2": 50,
+        "3/4 X 1/2": 80
       },
       "categoryId": "cat_upvc",
       "description": "UPVC REDUCER BRASS TEE. Available sizes: 3/4 X 1/2, 1 X 1/2.",
       "categoryName": "UPVC Pipes & Fittings",
       "sizeProductCodes": {
-        "3/4 X 1/2": "FG-400265",
-        "1 X 1/2": "FG-400266"
-      },
-      "packing": "3/4 X 1/2:80, 1 X 1/2:50"
+        "1 X 1/2": "FG-400266",
+        "3/4 X 1/2": "FG-400265"
+      }
     },
     {
       "id": "prod_upvc_6",
@@ -12052,34 +12052,34 @@
         "2 X 1 1/2"
       ],
       "status": "Active",
+      "packing": "3/4 X 1/2:400, 1 X 1/2:300, 1 X 3/4:250, 1 1/4 X 1:160, 1 1/2 X 1/2:120, 1 1/2 X 1 1/4:120, 2 X 1/2:60, 2 X 3/4:60, 2 X 1:60, 2 X 1 1/2:50",
       "packSizes": {
-        "3/4 X 1/2": 400,
+        "2 X 1": 60,
         "1 X 1/2": 300,
         "1 X 3/4": 250,
-        "1 1/4 X 1": 160,
-        "1 1/2 X 1/2": 120,
-        "1 1/2 X 1 1/4": 120,
         "2 X 1/2": 60,
         "2 X 3/4": 60,
-        "2 X 1": 60,
-        "2 X 1 1/2": 50
+        "1 1/4 X 1": 160,
+        "2 X 1 1/2": 50,
+        "3/4 X 1/2": 400,
+        "1 1/2 X 1/2": 120,
+        "1 1/2 X 1 1/4": 120
       },
       "categoryId": "cat_upvc",
       "description": "UPVC REDUCER BUSH. Available sizes: 3/4 X 1/2, 1 X 1/2, 1 X 3/4, 1 1/4 X 1, 1 1/2 X 1/2, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 1/2, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
       "categoryName": "UPVC Pipes & Fittings",
       "sizeProductCodes": {
-        "3/4 X 1/2": "FG-400312",
+        "2 X 1": "FG-400395",
         "1 X 1/2": "FG-400313",
         "1 X 3/4": "FG-400400",
-        "1 1/4 X 1": "FG-400314",
-        "1 1/2 X 1/2": "FG-400315",
-        "1 1/2 X 1 1/4": "FG-400316",
         "2 X 1/2": "FG-400393",
         "2 X 3/4": "FG-400394",
-        "2 X 1": "FG-400395",
-        "2 X 1 1/2": "FG-400396"
-      },
-      "packing": "3/4 X 1/2:400, 1 X 1/2:300, 1 X 3/4:250, 1 1/4 X 1:160, 1 1/2 X 1/2:120, 1 1/2 X 1 1/4:120, 2 X 1/2:60, 2 X 3/4:60, 2 X 1:60, 2 X 1 1/2:50"
+        "1 1/4 X 1": "FG-400314",
+        "2 X 1 1/2": "FG-400396",
+        "3/4 X 1/2": "FG-400312",
+        "1 1/2 X 1/2": "FG-400315",
+        "1 1/2 X 1 1/4": "FG-400316"
+      }
     },
     {
       "id": "prod_upvc_4",
@@ -12102,40 +12102,40 @@
         "2 X 1 1/2"
       ],
       "status": "Active",
+      "packing": "3/4 X 1/2:200, 1 X 1/2:100, 1 X 3/4:120, 1 1/4 X 1/2:80, 1 1/4 X 3/4:80, 1 1/4 X 1:70, 1 1/2 X 3/4:60, 1 1/2 X 1:70, 1 1/2 X 1 1/4:50, 2 X 3/4:48, 2 X 1:40, 2 X 1 1/4:30, 2 X 1 1/2:30",
       "packSizes": {
-        "3/4 X 1/2": 200,
+        "2 X 1": 40,
         "1 X 1/2": 100,
         "1 X 3/4": 120,
+        "2 X 3/4": 48,
+        "1 1/2 X 1": 70,
+        "1 1/4 X 1": 70,
+        "2 X 1 1/2": 30,
+        "2 X 1 1/4": 30,
+        "3/4 X 1/2": 200,
+        "1 1/2 X 3/4": 60,
         "1 1/4 X 1/2": 80,
         "1 1/4 X 3/4": 80,
-        "1 1/4 X 1": 70,
-        "1 1/2 X 3/4": 60,
-        "1 1/2 X 1": 70,
-        "1 1/2 X 1 1/4": 50,
-        "2 X 3/4": 48,
-        "2 X 1": 40,
-        "2 X 1 1/4": 30,
-        "2 X 1 1/2": 30
+        "1 1/2 X 1 1/4": 50
       },
       "categoryId": "cat_upvc",
       "description": "UPVC REDUCER COUPLER. Available sizes: 3/4 X 1/2, 1 X 1/2, 1 X 3/4, 1 1/4 X 1/2, 1 1/4 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 3/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
       "categoryName": "UPVC Pipes & Fittings",
       "sizeProductCodes": {
-        "3/4 X 1/2": "FG-400291",
+        "2 X 1": "FG-400296",
         "1 X 1/2": "FG-400289",
         "1 X 3/4": "FG-400290",
+        "2 X 3/4": "FG-400353",
+        "1 1/2 X 1": "FG-400295",
+        "1 1/4 X 1": "FG-400294",
+        "2 X 1 1/2": "FG-400298",
+        "2 X 1 1/4": "FG-400297",
+        "3/4 X 1/2": "FG-400291",
+        "1 1/2 X 3/4": "FG-400351",
         "1 1/4 X 1/2": "FG-400292",
         "1 1/4 X 3/4": "FG-400293",
-        "1 1/4 X 1": "FG-400294",
-        "1 1/2 X 3/4": "FG-400351",
-        "1 1/2 X 1": "FG-400295",
-        "1 1/2 X 1 1/4": "FG-400352",
-        "2 X 3/4": "FG-400353",
-        "2 X 1": "FG-400296",
-        "2 X 1 1/4": "FG-400297",
-        "2 X 1 1/2": "FG-400298"
-      },
-      "packing": "3/4 X 1/2:200, 1 X 1/2:100, 1 X 3/4:120, 1 1/4 X 1/2:80, 1 1/4 X 3/4:80, 1 1/4 X 1:70, 1 1/2 X 3/4:60, 1 1/2 X 1:70, 1 1/2 X 1 1/4:50, 2 X 3/4:48, 2 X 1:40, 2 X 1 1/4:30, 2 X 1 1/2:30"
+        "1 1/2 X 1 1/4": "FG-400352"
+      }
     },
     {
       "id": "prod_upvc_21",
@@ -12148,6 +12148,7 @@
         "3/4 X 1/2"
       ],
       "status": "Active",
+      "packing": "1 X 1/2:100, 1 X 3/4:70, 3/4 X 1/2:120",
       "packSizes": {
         "1 X 1/2": 100,
         "1 X 3/4": 70,
@@ -12160,8 +12161,7 @@
         "1 X 1/2": "FG-400397",
         "1 X 3/4": "FG-400347",
         "3/4 X 1/2": "FG-400354"
-      },
-      "packing": "1 X 1/2:100, 1 X 3/4:70, 3/4 X 1/2:120"
+      }
     },
     {
       "id": "prod_upvc_5",
@@ -12184,40 +12184,40 @@
         "2 X 1 1/2"
       ],
       "status": "Active",
+      "packing": "3/4 X 1/2:100, 1 X 1/2:60, 1 X 3/4:60, 1 1/4 X 1/2:40, 1 1/4 X 3/4:30, 1 1/4 X 1:30, 1 1/2 X 3/4:25, 1 1/2 X 1/2:25, 1 1/2 X 1:20, 1 1/2 X 1 1/4:20, 2 X 1:12, 2 X 1 1/4:12, 2 X 1 1/2:14",
       "packSizes": {
-        "3/4 X 1/2": 100,
+        "2 X 1": 12,
         "1 X 1/2": 60,
         "1 X 3/4": 60,
+        "1 1/2 X 1": 20,
+        "1 1/4 X 1": 30,
+        "2 X 1 1/2": 14,
+        "2 X 1 1/4": 12,
+        "3/4 X 1/2": 100,
+        "1 1/2 X 1/2": 25,
+        "1 1/2 X 3/4": 25,
         "1 1/4 X 1/2": 40,
         "1 1/4 X 3/4": 30,
-        "1 1/4 X 1": 30,
-        "1 1/2 X 3/4": 25,
-        "1 1/2 X 1/2": 25,
-        "1 1/2 X 1": 20,
-        "1 1/2 X 1 1/4": 20,
-        "2 X 1": 12,
-        "2 X 1 1/4": 12,
-        "2 X 1 1/2": 14
+        "1 1/2 X 1 1/4": 20
       },
       "categoryId": "cat_upvc",
       "description": "UPVC REDUCER TEE. Available sizes: 3/4 X 1/2, 1 X 1/2, 1 X 3/4, 1 1/4 X 1/2, 1 1/4 X 3/4, 1 1/4 X 1, 1 1/2 X 3/4, 1 1/2 X 1/2, 1 1/2 X 1, 1 1/2 X 1 1/4, 2 X 1, 2 X 1 1/4, 2 X 1 1/2.",
       "categoryName": "UPVC Pipes & Fittings",
       "sizeProductCodes": {
-        "3/4 X 1/2": "FG-400250",
+        "2 X 1": "FG-400373",
         "1 X 1/2": "FG-400251",
         "1 X 3/4": "FG-400252",
+        "1 1/2 X 1": "FG-400255",
+        "1 1/4 X 1": "FG-400254",
+        "2 X 1 1/2": "FG-400375",
+        "2 X 1 1/4": "FG-400374",
+        "3/4 X 1/2": "FG-400250",
+        "1 1/2 X 1/2": "FG-400348",
+        "1 1/2 X 3/4": "FG-400349",
         "1 1/4 X 1/2": "FG-400253",
         "1 1/4 X 3/4": "FG-400372",
-        "1 1/4 X 1": "FG-400254",
-        "1 1/2 X 3/4": "FG-400349",
-        "1 1/2 X 1/2": "FG-400348",
-        "1 1/2 X 1": "FG-400255",
-        "1 1/2 X 1 1/4": "FG-400256",
-        "2 X 1": "FG-400373",
-        "2 X 1 1/4": "FG-400374",
-        "2 X 1 1/2": "FG-400375"
-      },
-      "packing": "3/4 X 1/2:100, 1 X 1/2:60, 1 X 3/4:60, 1 1/4 X 1/2:40, 1 1/4 X 3/4:30, 1 1/4 X 1:30, 1 1/2 X 3/4:25, 1 1/2 X 1/2:25, 1 1/2 X 1:20, 1 1/2 X 1 1/4:20, 2 X 1:12, 2 X 1 1/4:12, 2 X 1 1/2:14"
+        "1 1/2 X 1 1/4": "FG-400256"
+      }
     },
     {
       "id": "prod_upvc_10",
@@ -12233,13 +12233,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1/2:240, 3/4:150, 1:80, 1 1/4:60, 1 1/2:40, 2:20",
       "packSizes": {
         "1": 80,
         "2": 20,
         "1/2": 240,
         "3/4": 150,
-        "1 1/4": 60,
-        "1 1/2": 40
+        "1 1/2": 40,
+        "1 1/4": 60
       },
       "categoryId": "cat_upvc",
       "description": "UPVC SHOE BEND 45. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -12249,10 +12250,9 @@
         "2": "FG-400249",
         "1/2": "FG-400246",
         "3/4": "FG-400247",
-        "1 1/4": "FG-400370",
-        "1 1/2": "FG-400371"
-      },
-      "packing": "1/2:240, 3/4:150, 1:80, 1 1/4:60, 1 1/2:40, 2:20"
+        "1 1/2": "FG-400371",
+        "1 1/4": "FG-400370"
+      }
     },
     {
       "id": "prod_solvent_2",
@@ -12291,6 +12291,7 @@
         "25ML"
       ],
       "status": "Active",
+      "packing": "10ML:50, 25ML:50",
       "packSizes": {
         "10ML": 50,
         "25ML": 50
@@ -12301,8 +12302,7 @@
       "sizeProductCodes": {
         "10ML": "FG-401634",
         "25ML": "FG-401635"
-      },
-      "packing": "10ML:50, 25ML:50"
+      }
     },
     {
       "id": "prod_upvc_23",
@@ -12315,6 +12315,7 @@
         "1"
       ],
       "status": "Active",
+      "packing": "1/2:60, 3/4:40, 1:20",
       "packSizes": {
         "1": 20,
         "1/2": 60,
@@ -12327,8 +12328,7 @@
         "1": "FG-400343",
         "1/2": "FG-400341",
         "3/4": "FG-400342"
-      },
-      "packing": "1/2:60, 3/4:40, 1:20"
+      }
     },
     {
       "id": "prod_upvc_13",
@@ -12344,13 +12344,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1/2:160, 3/4:100, 1:60, 1 1/4:40, 1 1/2:40, 2:20",
       "packSizes": {
         "1": 60,
         "2": 20,
         "1/2": 160,
         "3/4": 100,
-        "1 1/4": 40,
-        "1 1/2": 40
+        "1 1/2": 40,
+        "1 1/4": 40
       },
       "categoryId": "cat_upvc",
       "description": "UPVC TANK NIPPLE (SOCKETED). Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -12360,10 +12361,9 @@
         "2": "FG-400388",
         "1/2": "FG-400303",
         "3/4": "FG-400304",
-        "1 1/4": "FG-400386",
-        "1 1/2": "FG-400387"
-      },
-      "packing": "1/2:160, 3/4:100, 1:60, 1 1/4:40, 1 1/2:40, 2:20"
+        "1 1/2": "FG-400387",
+        "1 1/4": "FG-400386"
+      }
     },
     {
       "id": "prod_upvc_14",
@@ -12379,13 +12379,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1/2:140, 3/4:150, 1:60, 1 1/4:40, 1 1/2:30, 2:16",
       "packSizes": {
         "1": 60,
         "2": 16,
         "1/2": 140,
         "3/4": 150,
-        "1 1/4": 40,
-        "1 1/2": 30
+        "1 1/2": 30,
+        "1 1/4": 40
       },
       "categoryId": "cat_upvc",
       "description": "UPVC TANK NIPPLE (THREADED). Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -12395,10 +12396,9 @@
         "2": "FG-400302",
         "1/2": "FG-400299",
         "3/4": "FG-400300",
-        "1 1/4": "FG-400384",
-        "1 1/2": "FG-400385"
-      },
-      "packing": "1/2:140, 3/4:150, 1:60, 1 1/4:40, 1 1/2:30, 2:16"
+        "1 1/2": "FG-400385",
+        "1 1/4": "FG-400384"
+      }
     },
     {
       "id": "prod_upvc_8",
@@ -12414,13 +12414,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1/2:150, 3/4:80, 1:50, 1 1/4:30, 1 1/2:20, 2:12",
       "packSizes": {
         "1": 50,
         "2": 12,
         "1/2": 150,
         "3/4": 80,
-        "1 1/4": 30,
-        "1 1/2": 20
+        "1 1/2": 20,
+        "1 1/4": 30
       },
       "categoryId": "cat_upvc",
       "description": "UPVC TEE. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -12430,10 +12431,9 @@
         "2": "FG-400369",
         "1/2": "FG-400235",
         "3/4": "FG-400236",
-        "1 1/4": "FG-400238",
-        "1 1/2": "FG-400239"
-      },
-      "packing": "1/2:150, 3/4:80, 1:50, 1 1/4:30, 1 1/2:20, 2:12"
+        "1 1/2": "FG-400239",
+        "1 1/4": "FG-400238"
+      }
     },
     {
       "id": "prod_upvc_3",
@@ -12455,38 +12455,38 @@
         "2\" - 6MTR"
       ],
       "status": "Active",
+      "packing": "1/2\" - 3MTR:50, 1/2\" - 6MTR:25, 3/4\" - 3MTR:50, 3/4\" - 6MTR:25, 1\" - 3MTR:30, 1\" - 6MTR:15, 1 1/4\" - 3MTR:15, 1 1/4\" - 6MTR:15, 1 1/2\" - 3MTR:10, 1 1/2\" - 6MTR:10, 2\" - 3MTR:6, 2\" - 6MTR:6",
       "packSizes": {
+        "1\" - 3MTR": 30,
+        "1\" - 6MTR": 15,
+        "2\" - 3MTR": 6,
+        "2\" - 6MTR": 6,
         "1/2\" - 3MTR": 50,
         "1/2\" - 6MTR": 25,
         "3/4\" - 3MTR": 50,
         "3/4\" - 6MTR": 25,
-        "1\" - 3MTR": 30,
-        "1\" - 6MTR": 15,
-        "1 1/4\" - 3MTR": 15,
-        "1 1/4\" - 6MTR": 15,
         "1 1/2\" - 3MTR": 10,
         "1 1/2\" - 6MTR": 10,
-        "2\" - 3MTR": 6,
-        "2\" - 6MTR": 6
+        "1 1/4\" - 3MTR": 15,
+        "1 1/4\" - 6MTR": 15
       },
       "categoryId": "cat_upvc",
       "description": "UPVC THRD (SCH 80). Available sizes: 1/2\" - 3MTR, 1/2\" - 6MTR, 3/4\" - 3MTR, 3/4\" - 6MTR, 1\" - 3MTR, 1\" - 6MTR, 1 1/4\" - 3MTR, 1 1/4\" - 6MTR, 1 1/2\" - 3MTR, 1 1/2\" - 6MTR, 2\" - 3MTR, 2\" - 6MTR.",
       "categoryName": "UPVC Pipes & Fittings",
       "sizeProductCodes": {
+        "1\" - 3MTR": "FG-400879",
+        "1\" - 6MTR": "FG-400885",
+        "2\" - 3MTR": "FG-400882",
+        "2\" - 6MTR": "FG-400888",
         "1/2\" - 3MTR": "FG-400877",
         "1/2\" - 6MTR": "FG-400883",
         "3/4\" - 3MTR": "FG-400878",
         "3/4\" - 6MTR": "FG-400884",
-        "1\" - 3MTR": "FG-400879",
-        "1\" - 6MTR": "FG-400885",
-        "1 1/4\" - 3MTR": "FG-400880",
-        "1 1/4\" - 6MTR": "FG-400886",
         "1 1/2\" - 3MTR": "FG-400881",
         "1 1/2\" - 6MTR": "FG-400887",
-        "2\" - 3MTR": "FG-400882",
-        "2\" - 6MTR": "FG-400888"
-      },
-      "packing": "1/2\" - 3MTR:50, 1/2\" - 6MTR:25, 3/4\" - 3MTR:50, 3/4\" - 6MTR:25, 1\" - 3MTR:30, 1\" - 6MTR:15, 1 1/4\" - 3MTR:15, 1 1/4\" - 6MTR:15, 1 1/2\" - 3MTR:10, 1 1/2\" - 6MTR:10, 2\" - 3MTR:6, 2\" - 6MTR:6"
+        "1 1/4\" - 3MTR": "FG-400880",
+        "1 1/4\" - 6MTR": "FG-400886"
+      }
     },
     {
       "id": "prod_upvc_33",
@@ -12497,6 +12497,7 @@
         "1/2"
       ],
       "status": "Active",
+      "packing": "1/2:200",
       "packSizes": {
         "1/2": 200
       },
@@ -12505,8 +12506,7 @@
       "categoryName": "UPVC Pipes & Fittings",
       "sizeProductCodes": {
         "1/2": "FG-400329"
-      },
-      "packing": "1/2:200"
+      }
     },
     {
       "id": "prod_upvc_18",
@@ -12522,13 +12522,14 @@
         "2"
       ],
       "status": "Active",
+      "packing": "1/2:120, 3/4:70, 1:60, 1 1/4:40, 1 1/2:30, 2:16",
       "packSizes": {
         "1": 60,
         "2": 16,
         "1/2": 120,
         "3/4": 70,
-        "1 1/4": 40,
-        "1 1/2": 30
+        "1 1/2": 30,
+        "1 1/4": 40
       },
       "categoryId": "cat_upvc",
       "description": "UPVC UNION. Available sizes: 1/2, 3/4, 1, 1 1/4, 1 1/2, 2.",
@@ -12538,10 +12539,9 @@
         "2": "FG-400391",
         "1/2": "FG-400307",
         "3/4": "FG-400308",
-        "1 1/4": "FG-400389",
-        "1 1/2": "FG-400390"
-      },
-      "packing": "1/2:120, 3/4:70, 1:60, 1 1/4:40, 1 1/2:30, 2:16"
+        "1 1/2": "FG-400390",
+        "1 1/4": "FG-400389"
+      }
     },
     {
       "id": "prod_upvc_29",
@@ -12554,6 +12554,7 @@
         "1"
       ],
       "status": "Active",
+      "packing": "1/2:80, 3/4:50, 1:30",
       "packSizes": {
         "1": 30,
         "1/2": 80,
@@ -12566,8 +12567,7 @@
         "1": "FG-400358",
         "1/2": "FG-400363",
         "3/4": "FG-400357"
-      },
-      "packing": "1/2:80, 3/4:50, 1:30"
+      }
     },
     {
       "id": "prod_upvc_26",
@@ -12579,6 +12579,7 @@
         "1"
       ],
       "status": "Active",
+      "packing": "3/4:42, 1:30",
       "packSizes": {
         "1": 30,
         "3/4": 42
@@ -12589,8 +12590,7 @@
       "sizeProductCodes": {
         "1": "FG-400360",
         "3/4": "FG-400359"
-      },
-      "packing": "3/4:42, 1:30"
+      }
     }
   ],
   "favorites": {

@@ -34,7 +34,8 @@ app.use(compression({
     return compression.filter(req, res);
   }
 }));
-app.use(express.json());
+app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 // Smart image serving with .webp <-> .png fallback
 app.use('/images', (req, res, next) => {
